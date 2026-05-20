@@ -10,7 +10,7 @@ Product tour: https://ivelly42.github.io/agent-ops-command-center/product-tour.m
 
 Early access request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v0.4-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v0.5-preview
 
 Sample run log CSV: https://ivelly42.github.io/agent-ops-command-center/sample/run_log_sample.csv
 

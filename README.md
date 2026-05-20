@@ -28,7 +28,7 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v0.4-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v0.5-preview
 
 Sample files:
 
