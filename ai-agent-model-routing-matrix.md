@@ -40,6 +40,7 @@ Escalate only when at least one is true:
 
 - Landing page: https://ivelly42.github.io/agent-ops-command-center/
 - Cost leak audit: https://ivelly42.github.io/agent-ops-command-center/ai-agent-cost-leak-audit.md
+- Prompt regression test: https://ivelly42.github.io/agent-ops-command-center/ai-agent-prompt-regression-test.md
 - Workflow stack comparison: https://ivelly42.github.io/agent-ops-command-center/ai-agent-workflow-stack-comparison.md
 - Cost tracker: https://ivelly42.github.io/agent-ops-command-center/cost-tracker-template.md
 - Verification ledger: https://ivelly42.github.io/agent-ops-command-center/verification-ledger-template.md

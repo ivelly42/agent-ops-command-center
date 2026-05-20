@@ -62,6 +62,8 @@ The pack breaks even if it prevents roughly one hour of cleanup time for a build
 - AI agent cost leak audit Gist: https://gist.github.com/ivelly42/9c16be3782356faef951d1a3d8509991
 - AI agent model routing matrix: https://ivelly42.github.io/agent-ops-command-center/ai-agent-model-routing-matrix.md
 - AI agent model routing matrix Gist: https://gist.github.com/ivelly42/6e88c810c57fca1d5c2d7ff35907cb5c
+- AI agent prompt regression test: https://ivelly42.github.io/agent-ops-command-center/ai-agent-prompt-regression-test.md
+- AI agent prompt regression test Gist: https://gist.github.com/ivelly42/409734bff33d301a847a83f46ea21b31
 - Codex workflow tracker: https://ivelly42.github.io/agent-ops-command-center/codex-workflow-tracker-template.md
 - Codex workflow tracker Gist: https://gist.github.com/ivelly42/cbadc556d2d75b01d5dde8d8df0e18c6
 - Claude Code workflow tracker: https://ivelly42.github.io/agent-ops-command-center/claude-code-workflow-tracker-template.md
@@ -97,7 +99,7 @@ The pack breaks even if it prevents roughly one hour of cleanup time for a build
 - Run log template: https://ivelly42.github.io/agent-ops-command-center/codex-claude-run-log-template.md
 - Failure RCA template: https://ivelly42.github.io/agent-ops-command-center/failure-rca-template.md
 - Preflight checklist: https://ivelly42.github.io/agent-ops-command-center/checklist.md
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v3.8-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v3.9-preview
 - Demand metrics: https://ivelly42.github.io/agent-ops-command-center/metrics/status.json
 
 ## Request Early Access

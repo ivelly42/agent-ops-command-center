@@ -20,6 +20,10 @@ AI agent model routing matrix: https://ivelly42.github.io/agent-ops-command-cent
 
 AI agent model routing matrix Gist: https://gist.github.com/ivelly42/6e88c810c57fca1d5c2d7ff35907cb5c
 
+AI agent prompt regression test: https://ivelly42.github.io/agent-ops-command-center/ai-agent-prompt-regression-test.md
+
+AI agent prompt regression test Gist: https://gist.github.com/ivelly42/409734bff33d301a847a83f46ea21b31
+
 Agent registry template: https://ivelly42.github.io/agent-ops-command-center/agent-registry-template.md
 
 Verification ledger template: https://ivelly42.github.io/agent-ops-command-center/verification-ledger-template.md
@@ -108,7 +112,7 @@ GitHub issue index: https://github.com/ivelly42/agent-ops-command-center/issues/
 
 Early access request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v3.8-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v3.9-preview
 
 Sample run log CSV: https://ivelly42.github.io/agent-ops-command-center/sample/run_log_sample.csv
 
@@ -140,7 +144,7 @@ The product helps builders track AI coding-agent runs, prompt versions, verifica
 - 15-minute quickstart guide
 - CSV import guide
 - Six CSV database imports
-- Twenty operating templates
+- Twenty-one operating templates
 - Weekly operator review
 
 ## Status

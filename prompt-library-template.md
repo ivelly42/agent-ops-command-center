@@ -36,6 +36,10 @@ Public sample CSV:
 
 https://ivelly42.github.io/agent-ops-command-center/sample/prompt_library_sample.csv
 
+Prompt regression test:
+
+https://ivelly42.github.io/agent-ops-command-center/ai-agent-prompt-regression-test.md
+
 ## Starter Prompts
 
 | Prompt Name | Use Case | Known Failure |

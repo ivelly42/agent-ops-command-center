@@ -430,6 +430,7 @@
         <a href="cost-tracker-template.md">Cost</a>
         <a href="ai-agent-cost-leak-audit.md">Audit</a>
         <a href="ai-agent-model-routing-matrix.md">Routing</a>
+        <a href="ai-agent-prompt-regression-test.md">Prompt Test</a>
         <a href="agent-registry-template.md">Agents</a>
         <a href="prompt-library-template.md">Prompts</a>
         <a href="verification-ledger-template.md">Ledger</a>
@@ -476,6 +477,8 @@
             <a class="button" href="https://gist.github.com/ivelly42/9c16be3782356faef951d1a3d8509991">Cost audit Gist</a>
             <a class="button" href="ai-agent-model-routing-matrix.md">Model routing</a>
             <a class="button" href="https://gist.github.com/ivelly42/6e88c810c57fca1d5c2d7ff35907cb5c">Routing Gist</a>
+            <a class="button" href="ai-agent-prompt-regression-test.md">Prompt regression</a>
+            <a class="button" href="https://gist.github.com/ivelly42/409734bff33d301a847a83f46ea21b31">Prompt Gist</a>
             <a class="button" href="codex-workflow-tracker-template.md">Codex tracker</a>
             <a class="button" href="https://gist.github.com/ivelly42/cbadc556d2d75b01d5dde8d8df0e18c6">Codex Gist</a>
             <a class="button" href="claude-code-workflow-tracker-template.md">Claude tracker</a>
@@ -508,13 +511,13 @@
             <a class="button" href="ai-agent-workflow-stack-comparison.md">Workflow comparison</a>
             <a class="button" href="https://gist.github.com/ivelly42/5d17877646be74639b374e36211f976e">Comparison Gist</a>
             <a class="button" href="github-preview-index.md">Preview index</a>
-            <a class="button" href="https://github.com/ivelly42/agent-ops-command-center/releases/tag/v3.8-preview">Preview release</a>
+            <a class="button" href="https://github.com/ivelly42/agent-ops-command-center/releases/tag/v3.9-preview">Preview release</a>
             <span class="price">$29 target price</span>
           </div>
           <p class="hero-note">Checkout is not live yet. The order request records purchase intent and preferred checkout; revenue is counted only after checkout, receipt, or seller-dashboard evidence exists.</p>
           <div class="proof-row" aria-label="Product contents">
             <div class="proof">6 databases</div>
-            <div class="proof">20 templates</div>
+            <div class="proof">21 templates</div>
             <div class="proof">Notion + CSV</div>
             <div class="proof">No paid checkout yet</div>
           </div>
@@ -594,6 +597,10 @@
           <article class="feature">
             <h3>Model Routing Matrix</h3>
             <p>Choose the agent, model, review path, fallback route, and proof gate before the run starts.</p>
+          </article>
+          <article class="feature">
+            <h3>Prompt Regression Test</h3>
+            <p>Compare old and new prompt behavior against scope, verification, stop, and handoff cases.</p>
           </article>
           <article class="feature">
             <h3>Failure Modes</h3>
@@ -688,12 +695,24 @@
         </div>
       </section>
 
+      <section id="prompt-regression-test">
+        <h2 class="section-title">Prompt Regression Test</h2>
+        <div class="order-box">
+          <div>
+            <h2>Promote prompts only after proof</h2>
+            <p>Use the public regression test to compare old and new prompt versions against objective clarity, scope control, verification, stop conditions, and handoff quality.</p>
+          </div>
+          <a class="button" href="ai-agent-prompt-regression-test.md">Open prompt test</a>
+          <a class="button" href="https://gist.github.com/ivelly42/409734bff33d301a847a83f46ea21b31">Open Gist</a>
+        </div>
+      </section>
+
       <section id="gist-mirror">
         <h2 class="section-title">Public Gist Mirror</h2>
         <div class="order-box">
           <div>
             <h2>Copy the compact run log anywhere</h2>
-            <p>Public Gists mirror the compact run log, Codex workflow tracker, Claude Code workflow tracker, Cursor workflow tracker, scope freeze, revenue proof, Notion import guide, PR review scorecard, verification command library, paid delivery manifest, buyer decision matrix, checkout readiness FAQ, buyer intake packet, purchase approval brief, workflow stack comparison, cost leak audit, model routing matrix, verification ledger, and handoff template outside the launch repo, with early-access links back to the full pack.</p>
+            <p>Public Gists mirror the compact run log, Codex workflow tracker, Claude Code workflow tracker, Cursor workflow tracker, scope freeze, revenue proof, Notion import guide, PR review scorecard, verification command library, paid delivery manifest, buyer decision matrix, checkout readiness FAQ, buyer intake packet, purchase approval brief, workflow stack comparison, cost leak audit, model routing matrix, prompt regression test, verification ledger, and handoff template outside the launch repo, with early-access links back to the full pack.</p>
           </div>
           <a class="button" href="https://gist.github.com/ivelly42/c65a80192a848892d1196242027dc7a9">Open Gist</a>
           <a class="button" href="https://gist.github.com/ivelly42/cbadc556d2d75b01d5dde8d8df0e18c6">Codex tracker Gist</a>
@@ -714,6 +733,7 @@
           <a class="button" href="https://gist.github.com/ivelly42/5d17877646be74639b374e36211f976e">Comparison Gist</a>
           <a class="button" href="https://gist.github.com/ivelly42/9c16be3782356faef951d1a3d8509991">Cost Audit Gist</a>
           <a class="button" href="https://gist.github.com/ivelly42/6e88c810c57fca1d5c2d7ff35907cb5c">Routing Gist</a>
+          <a class="button" href="https://gist.github.com/ivelly42/409734bff33d301a847a83f46ea21b31">Prompt Test Gist</a>
         </div>
       </section>
 
@@ -1049,7 +1069,7 @@
         <div class="faq">
           <details open>
             <summary>What do I get in the full pack?</summary>
-            <p>A Notion-ready Markdown workspace, 15-minute quickstart, import guide, six CSV database imports, twenty operating templates, weekly review, and launch examples for AI-agent workflows.</p>
+            <p>A Notion-ready Markdown workspace, 15-minute quickstart, import guide, six CSV database imports, twenty-one operating templates, weekly review, and launch examples for AI-agent workflows.</p>
           </details>
           <details>
             <summary>Who is it for?</summary>
