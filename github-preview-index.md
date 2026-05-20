@@ -16,6 +16,7 @@ The full paid pack is not published publicly. This index links every public prev
 - AI agent acceptance test suite: https://ivelly42.github.io/agent-ops-command-center/ai-agent-acceptance-test-suite.md
 - AI agent security review checklist: https://ivelly42.github.io/agent-ops-command-center/ai-agent-security-review-checklist.md
 - AI agent incident report template: https://ivelly42.github.io/agent-ops-command-center/ai-agent-incident-report-template.md
+- AI agent operating system template: https://ivelly42.github.io/agent-ops-command-center/ai-agent-operating-system-template.md
 - Agent registry template: https://ivelly42.github.io/agent-ops-command-center/agent-registry-template.md
 - Verification ledger template: https://ivelly42.github.io/agent-ops-command-center/verification-ledger-template.md
 - Failure modes database template: https://ivelly42.github.io/agent-ops-command-center/failure-modes-database-template.md
@@ -65,8 +66,9 @@ The full paid pack is not published publicly. This index links every public prev
 - AI agent acceptance test suite Gist: https://gist.github.com/ivelly42/d9aacd5506dccc9b5d002ef6fd973c72
 - AI agent security review checklist Gist: https://gist.github.com/ivelly42/172041903d2491a4856f9c585f89364a
 - AI agent incident report template Gist: https://gist.github.com/ivelly42/ec9207c47d152642247989aac2dcad7b
+- AI agent operating system scorecard Gist: https://gist.github.com/ivelly42/37a14ab70b537aeaef1156549876124b
 - GitHub issue index: https://github.com/ivelly42/agent-ops-command-center/issues/2
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v4.2-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v4.3-preview
 - Demand metrics: https://ivelly42.github.io/agent-ops-command-center/metrics/status.json
 
 ## What The Full Pack Adds
@@ -98,6 +100,7 @@ The full paid pack is not published publicly. This index links every public prev
 | Acceptance Test Suite | Accept or hold AI-agent output using objective, scope, behavior, regression, security, handoff, and revenue proof |
 | Security Review Checklist | Review secrets, personal data, auth, payment, public sharing, dependency, destructive-action, and prompt-leak risk |
 | Incident Report | Record timeline, impact, root cause, missed detection, recovery, and prevention rule after agent incidents |
+| Agent Ops Maturity Scorecard | Score run capture, scope control, verification, prompt control, cost control, failure handling, handoff, and revenue proof |
 | Weekly Review | Improve agent workflow each week |
 
 ## Early Access
