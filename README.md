@@ -32,6 +32,8 @@ Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/t
 
 Sample files:
 
+- [Public Gist mirror](https://gist.github.com/ivelly42/c65a80192a848892d1196242027dc7a9)
+- [Gist source](ai-agent-ops-run-log-roi-preview.md)
 - [Product tour](product-tour.md)
 - [AI Agent Ops ROI Calculator](agent-ops-roi-calculator.md)
 - [sample/run_log_sample.csv](sample/run_log_sample.csv)
