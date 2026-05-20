@@ -22,6 +22,7 @@ The full paid pack is not published publicly. This index links every public prev
 - Codex workflow tracker: https://ivelly42.github.io/agent-ops-command-center/codex-workflow-tracker-template.md
 - Claude Code workflow tracker: https://ivelly42.github.io/agent-ops-command-center/claude-code-workflow-tracker-template.md
 - AI agent handoff template: https://ivelly42.github.io/agent-ops-command-center/ai-agent-handoff-template.md
+- Cursor workflow tracker: https://ivelly42.github.io/agent-ops-command-center/cursor-workflow-tracker-template.md
 - Run log template: https://ivelly42.github.io/agent-ops-command-center/codex-claude-run-log-template.md
 - Preflight checklist: https://ivelly42.github.io/agent-ops-command-center/checklist.md
 - Gist mirror: https://gist.github.com/ivelly42/c65a80192a848892d1196242027dc7a9
@@ -29,8 +30,9 @@ The full paid pack is not published publicly. This index links every public prev
 - Claude Code workflow tracker Gist: https://gist.github.com/ivelly42/00f014ce4b4161cd42a4008775e1abb5
 - Verification ledger Gist: https://gist.github.com/ivelly42/d609682c723f69651bf963fe15889839
 - AI agent handoff Gist: https://gist.github.com/ivelly42/35c9b9c1cd95c837c9775ca3e5db7c83
+- Cursor workflow tracker Gist: https://gist.github.com/ivelly42/27bac1786ad60ed6e56f908c422c9138
 - GitHub issue index: https://github.com/ivelly42/agent-ops-command-center/issues/2
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v2.4-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v2.5-preview
 - Demand metrics: https://ivelly42.github.io/agent-ops-command-center/metrics/status.json
 
 ## What The Full Pack Adds
@@ -44,6 +46,7 @@ The full paid pack is not published publicly. This index links every public prev
 | Cost Tracker | Compare agent cost with time saved |
 | Failure Modes | Turn repeated mistakes into prevention rules |
 | Handoff | Preserve current state when work crosses sessions or models |
+| Cursor Tracker | Preserve mode, diff summary, verification, and manual review notes |
 | Weekly Review | Improve agent workflow each week |
 
 ## Early Access

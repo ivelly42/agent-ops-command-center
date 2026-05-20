@@ -28,7 +28,7 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v2.4-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v2.5-preview
 
 Sample files:
 
@@ -37,6 +37,7 @@ Sample files:
 - [Claude Code Workflow Tracker Gist](https://gist.github.com/ivelly42/00f014ce4b4161cd42a4008775e1abb5)
 - [Verification Ledger Gist](https://gist.github.com/ivelly42/d609682c723f69651bf963fe15889839)
 - [AI Agent Handoff Gist](https://gist.github.com/ivelly42/35c9b9c1cd95c837c9775ca3e5db7c83)
+- [Cursor Workflow Tracker Gist](https://gist.github.com/ivelly42/27bac1786ad60ed6e56f908c422c9138)
 - [Gist source](ai-agent-ops-run-log-roi-preview.md)
 - [GitHub preview index](github-preview-index.md)
 - [GitHub issue index](https://github.com/ivelly42/agent-ops-command-center/issues/2)
@@ -55,6 +56,7 @@ Sample files:
 - [Codex Workflow Tracker Template](codex-workflow-tracker-template.md)
 - [Claude Code Workflow Tracker Template](claude-code-workflow-tracker-template.md)
 - [AI Agent Handoff Template](ai-agent-handoff-template.md)
+- [Cursor Workflow Tracker Template](cursor-workflow-tracker-template.md)
 - [sample/run_log_sample.csv](sample/run_log_sample.csv)
 - [sample/cost_tracker_sample.csv](sample/cost_tracker_sample.csv)
 - [sample/agent_registry_sample.csv](sample/agent_registry_sample.csv)
@@ -77,7 +79,7 @@ Paid pack contents:
 - 15-minute quickstart guide
 - CSV import guide
 - Six CSV starter databases
-- Six operating templates
+- Seven operating templates
 - social launch copy
 - outreach copy
 
@@ -95,4 +97,4 @@ Launch surface is live-ready. Paid checkout is blocked until an authenticated se
 
 ## Search Keywords
 
-AI agent ops template, Codex workflow tracker, Claude Code workflow tracker, AI agent handoff template, Claude Code run log, AI coding agent verification ledger, prompt version tracker, Notion template for AI builders, agent failure modes database, AI agent weekly review, AI coding agent release gate, AI code review brief, AI agent RCA template, AI coding agent run brief, Codex workflow tracker template.
+AI agent ops template, Codex workflow tracker, Claude Code workflow tracker, Cursor workflow tracker, AI agent handoff template, Claude Code run log, AI coding agent verification ledger, prompt version tracker, Notion template for AI builders, agent failure modes database, AI agent weekly review, AI coding agent release gate, AI code review brief, AI agent RCA template, AI coding agent run brief, Codex workflow tracker template.
