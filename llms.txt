@@ -40,6 +40,10 @@ AI agent operating system template: https://ivelly42.github.io/agent-ops-command
 
 AI agent operating system scorecard Gist: https://gist.github.com/ivelly42/37a14ab70b537aeaef1156549876124b
 
+Codex vs Claude Code vs Cursor workflow picker: https://ivelly42.github.io/agent-ops-command-center/codex-vs-claude-code-vs-cursor.md
+
+Codex vs Claude Code vs Cursor workflow picker Gist: https://gist.github.com/ivelly42/75ce3130a95d83a247de6f16eee0060c
+
 Agent registry template: https://ivelly42.github.io/agent-ops-command-center/agent-registry-template.md
 
 Verification ledger template: https://ivelly42.github.io/agent-ops-command-center/verification-ledger-template.md
@@ -128,7 +132,7 @@ GitHub issue index: https://github.com/ivelly42/agent-ops-command-center/issues/
 
 Early access request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v4.3-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v4.4-preview
 
 Sample run log CSV: https://ivelly42.github.io/agent-ops-command-center/sample/run_log_sample.csv
 
@@ -160,7 +164,7 @@ The product helps builders track AI coding-agent runs, prompt versions, verifica
 - 15-minute quickstart guide
 - CSV import guide
 - Six CSV database imports
-- Twenty-five operating templates
+- Twenty-six operating templates
 - Weekly operator review
 
 ## Status
