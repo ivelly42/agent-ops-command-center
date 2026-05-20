@@ -48,6 +48,10 @@ Security review checklist:
 
 https://ivelly42.github.io/agent-ops-command-center/ai-agent-security-review-checklist.md
 
+Incident report template:
+
+https://ivelly42.github.io/agent-ops-command-center/ai-agent-incident-report-template.md
+
 ## Starter Prompts
 
 | Prompt Name | Use Case | Known Failure |

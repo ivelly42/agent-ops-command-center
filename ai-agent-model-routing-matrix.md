@@ -43,6 +43,7 @@ Escalate only when at least one is true:
 - Prompt regression test: https://ivelly42.github.io/agent-ops-command-center/ai-agent-prompt-regression-test.md
 - Acceptance test suite: https://ivelly42.github.io/agent-ops-command-center/ai-agent-acceptance-test-suite.md
 - Security review checklist: https://ivelly42.github.io/agent-ops-command-center/ai-agent-security-review-checklist.md
+- Incident report template: https://ivelly42.github.io/agent-ops-command-center/ai-agent-incident-report-template.md
 - Workflow stack comparison: https://ivelly42.github.io/agent-ops-command-center/ai-agent-workflow-stack-comparison.md
 - Cost tracker: https://ivelly42.github.io/agent-ops-command-center/cost-tracker-template.md
 - Verification ledger: https://ivelly42.github.io/agent-ops-command-center/verification-ledger-template.md

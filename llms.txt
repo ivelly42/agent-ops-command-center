@@ -32,6 +32,10 @@ AI agent security review checklist: https://ivelly42.github.io/agent-ops-command
 
 AI agent security review checklist Gist: https://gist.github.com/ivelly42/172041903d2491a4856f9c585f89364a
 
+AI agent incident report template: https://ivelly42.github.io/agent-ops-command-center/ai-agent-incident-report-template.md
+
+AI agent incident report template Gist: https://gist.github.com/ivelly42/ec9207c47d152642247989aac2dcad7b
+
 Agent registry template: https://ivelly42.github.io/agent-ops-command-center/agent-registry-template.md
 
 Verification ledger template: https://ivelly42.github.io/agent-ops-command-center/verification-ledger-template.md
@@ -120,7 +124,7 @@ GitHub issue index: https://github.com/ivelly42/agent-ops-command-center/issues/
 
 Early access request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v4.1-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v4.2-preview
 
 Sample run log CSV: https://ivelly42.github.io/agent-ops-command-center/sample/run_log_sample.csv
 
@@ -152,7 +156,7 @@ The product helps builders track AI coding-agent runs, prompt versions, verifica
 - 15-minute quickstart guide
 - CSV import guide
 - Six CSV database imports
-- Twenty-three operating templates
+- Twenty-four operating templates
 - Weekly operator review
 
 ## Status

@@ -43,6 +43,7 @@ Hold the run if:
 
 - Landing page: https://ivelly42.github.io/agent-ops-command-center/
 - Acceptance test suite: https://ivelly42.github.io/agent-ops-command-center/ai-agent-acceptance-test-suite.md
+- Incident report template: https://ivelly42.github.io/agent-ops-command-center/ai-agent-incident-report-template.md
 - Verification command library: https://ivelly42.github.io/agent-ops-command-center/ai-agent-verification-command-library.md
 - PR review scorecard: https://ivelly42.github.io/agent-ops-command-center/ai-agent-pr-review-scorecard.md
 - Revenue proof template: https://ivelly42.github.io/agent-ops-command-center/ai-agent-revenue-proof-template.md
