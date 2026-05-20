@@ -26,8 +26,9 @@ The full paid pack is not published publicly. This index links every public prev
 - Gist mirror: https://gist.github.com/ivelly42/c65a80192a848892d1196242027dc7a9
 - Codex workflow tracker Gist: https://gist.github.com/ivelly42/cbadc556d2d75b01d5dde8d8df0e18c6
 - Claude Code workflow tracker Gist: https://gist.github.com/ivelly42/00f014ce4b4161cd42a4008775e1abb5
+- Verification ledger Gist: https://gist.github.com/ivelly42/d609682c723f69651bf963fe15889839
 - GitHub issue index: https://github.com/ivelly42/agent-ops-command-center/issues/2
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v2.2-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v2.3-preview
 - Demand metrics: https://ivelly42.github.io/agent-ops-command-center/metrics/status.json
 
 ## What The Full Pack Adds

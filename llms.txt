@@ -38,6 +38,8 @@ Claude Code workflow tracker: https://ivelly42.github.io/agent-ops-command-cente
 
 Claude Code workflow tracker Gist: https://gist.github.com/ivelly42/00f014ce4b4161cd42a4008775e1abb5
 
+Verification ledger Gist: https://gist.github.com/ivelly42/d609682c723f69651bf963fe15889839
+
 Public Gist mirror: https://gist.github.com/ivelly42/c65a80192a848892d1196242027dc7a9
 
 Preview index: https://ivelly42.github.io/agent-ops-command-center/github-preview-index.md
@@ -46,7 +48,7 @@ GitHub issue index: https://github.com/ivelly42/agent-ops-command-center/issues/
 
 Early access request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v2.2-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v2.3-preview
 
 Sample run log CSV: https://ivelly42.github.io/agent-ops-command-center/sample/run_log_sample.csv
 
