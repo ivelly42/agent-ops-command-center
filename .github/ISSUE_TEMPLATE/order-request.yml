@@ -13,6 +13,7 @@ body:
 
         Checkout is not live yet. This issue records demand and preferred checkout.
         Product tour: https://ivelly42.github.io/agent-ops-command-center/product-tour.md
+        ROI calculator: https://ivelly42.github.io/agent-ops-command-center/agent-ops-roi-calculator.md
   - type: dropdown
     id: checkout
     attributes:
