@@ -48,6 +48,10 @@ Cursor workflow tracker: https://ivelly42.github.io/agent-ops-command-center/cur
 
 Cursor workflow tracker Gist: https://gist.github.com/ivelly42/27bac1786ad60ed6e56f908c422c9138
 
+AI agent scope freeze template: https://ivelly42.github.io/agent-ops-command-center/ai-agent-scope-freeze-template.md
+
+AI agent scope freeze Gist: https://gist.github.com/ivelly42/2f1b5faa95039799688dc5ed8d3244a8
+
 Public Gist mirror: https://gist.github.com/ivelly42/c65a80192a848892d1196242027dc7a9
 
 Preview index: https://ivelly42.github.io/agent-ops-command-center/github-preview-index.md
@@ -56,7 +60,7 @@ GitHub issue index: https://github.com/ivelly42/agent-ops-command-center/issues/
 
 Early access request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v2.5-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v2.6-preview
 
 Sample run log CSV: https://ivelly42.github.io/agent-ops-command-center/sample/run_log_sample.csv
 
@@ -88,7 +92,7 @@ The product helps builders track AI coding-agent runs, prompt versions, verifica
 - 15-minute quickstart guide
 - CSV import guide
 - Six CSV database imports
-- Seven operating templates
+- Eight operating templates
 - Weekly operator review
 
 ## Status
