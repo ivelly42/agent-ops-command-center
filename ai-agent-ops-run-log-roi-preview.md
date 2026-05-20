@@ -69,11 +69,13 @@ The pack breaks even if it prevents roughly one hour of cleanup time for a build
 - Cursor workflow tracker Gist: https://gist.github.com/ivelly42/27bac1786ad60ed6e56f908c422c9138
 - AI agent scope freeze template: https://ivelly42.github.io/agent-ops-command-center/ai-agent-scope-freeze-template.md
 - AI agent scope freeze Gist: https://gist.github.com/ivelly42/2f1b5faa95039799688dc5ed8d3244a8
+- AI agent revenue proof template: https://ivelly42.github.io/agent-ops-command-center/ai-agent-revenue-proof-template.md
+- AI agent revenue proof Gist: https://gist.github.com/ivelly42/bc14bd257cbcc139a93aba5e3606c156
 - Run brief template: https://ivelly42.github.io/agent-ops-command-center/run-brief-template.md
 - Run log template: https://ivelly42.github.io/agent-ops-command-center/codex-claude-run-log-template.md
 - Failure RCA template: https://ivelly42.github.io/agent-ops-command-center/failure-rca-template.md
 - Preflight checklist: https://ivelly42.github.io/agent-ops-command-center/checklist.md
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v2.6-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v2.7-preview
 - Demand metrics: https://ivelly42.github.io/agent-ops-command-center/metrics/status.json
 
 ## Request Early Access

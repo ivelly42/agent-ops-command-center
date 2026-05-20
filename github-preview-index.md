@@ -24,6 +24,7 @@ The full paid pack is not published publicly. This index links every public prev
 - AI agent handoff template: https://ivelly42.github.io/agent-ops-command-center/ai-agent-handoff-template.md
 - Cursor workflow tracker: https://ivelly42.github.io/agent-ops-command-center/cursor-workflow-tracker-template.md
 - AI agent scope freeze template: https://ivelly42.github.io/agent-ops-command-center/ai-agent-scope-freeze-template.md
+- AI agent revenue proof template: https://ivelly42.github.io/agent-ops-command-center/ai-agent-revenue-proof-template.md
 - Run log template: https://ivelly42.github.io/agent-ops-command-center/codex-claude-run-log-template.md
 - Preflight checklist: https://ivelly42.github.io/agent-ops-command-center/checklist.md
 - Gist mirror: https://gist.github.com/ivelly42/c65a80192a848892d1196242027dc7a9
@@ -33,8 +34,9 @@ The full paid pack is not published publicly. This index links every public prev
 - AI agent handoff Gist: https://gist.github.com/ivelly42/35c9b9c1cd95c837c9775ca3e5db7c83
 - Cursor workflow tracker Gist: https://gist.github.com/ivelly42/27bac1786ad60ed6e56f908c422c9138
 - AI agent scope freeze Gist: https://gist.github.com/ivelly42/2f1b5faa95039799688dc5ed8d3244a8
+- AI agent revenue proof Gist: https://gist.github.com/ivelly42/bc14bd257cbcc139a93aba5e3606c156
 - GitHub issue index: https://github.com/ivelly42/agent-ops-command-center/issues/2
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v2.6-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v2.7-preview
 - Demand metrics: https://ivelly42.github.io/agent-ops-command-center/metrics/status.json
 
 ## What The Full Pack Adds
@@ -50,6 +52,7 @@ The full paid pack is not published publicly. This index links every public prev
 | Handoff | Preserve current state when work crosses sessions or models |
 | Cursor Tracker | Preserve mode, diff summary, verification, and manual review notes |
 | Scope Freeze | Lock allowed files, stop conditions, and proof before edits |
+| Revenue Proof | Separate checkout evidence from demand signals |
 | Weekly Review | Improve agent workflow each week |
 
 ## Early Access
