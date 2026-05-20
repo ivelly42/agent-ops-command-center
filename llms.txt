@@ -12,6 +12,8 @@ Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/t
 
 Sample run log CSV: https://ivelly42.github.io/agent-ops-command-center/sample/run_log_sample.csv
 
+AI agent ops preflight checklist: https://ivelly42.github.io/agent-ops-command-center/checklist.md
+
 Launch copy: https://ivelly42.github.io/agent-ops-command-center/launch-copy.md
 
 Demand metrics: https://ivelly42.github.io/agent-ops-command-center/metrics/status.json
