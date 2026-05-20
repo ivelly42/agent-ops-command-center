@@ -74,7 +74,9 @@ The full paid pack is not published publicly. This index links every public prev
 - AI agent operating system scorecard Gist: https://gist.github.com/ivelly42/37a14ab70b537aeaef1156549876124b
 - Codex vs Claude Code vs Cursor workflow picker Gist: https://gist.github.com/ivelly42/75ce3130a95d83a247de6f16eee0060c
 - GitHub issue index: https://github.com/ivelly42/agent-ops-command-center/issues/2
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v4.6-preview
+- RSS feed: https://ivelly42.github.io/agent-ops-command-center/feed.xml
+- Machine-readable catalog: https://ivelly42.github.io/agent-ops-command-center/catalog.json
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v4.7-preview
 - Demand metrics: https://ivelly42.github.io/agent-ops-command-center/metrics/status.json
 
 ## What The Full Pack Adds

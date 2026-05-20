@@ -1,0 +1,49 @@
+{
+  "name": "Agent Ops Command Center",
+  "description": "Notion and spreadsheet template pack for builders running AI coding agents.",
+  "price_usd": 29,
+  "target_revenue_usd": 200,
+  "sales_needed": 7,
+  "status": "preview_live_no_paid_checkout",
+  "homepage": "https://ivelly42.github.io/agent-ops-command-center/",
+  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v4.7-preview",
+  "early_access_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml",
+  "demand_metrics": "https://ivelly42.github.io/agent-ops-command-center/metrics/status.json",
+  "feed": "https://ivelly42.github.io/agent-ops-command-center/feed.xml",
+  "llms": "https://ivelly42.github.io/agent-ops-command-center/llms.txt",
+  "sitemap": "https://ivelly42.github.io/agent-ops-command-center/sitemap.xml",
+  "paid_zip_public": false,
+  "revenue_rule": "Revenue is proven only by checkout, receipt, payout, or seller-dashboard evidence.",
+  "public_assets": [
+    {
+      "title": "AI Agent Done Checklist",
+      "url": "https://ivelly42.github.io/agent-ops-command-center/ai-agent-done-checklist.md",
+      "gist": "https://gist.github.com/ivelly42/d9cbe7c188596853618db6bc6714b66e"
+    },
+    {
+      "title": "AI Agent Run Audit Template",
+      "url": "https://ivelly42.github.io/agent-ops-command-center/ai-agent-run-audit-template.md",
+      "gist": "https://gist.github.com/ivelly42/4c9c05a9823cb88148ff5a658a3607d4"
+    },
+    {
+      "title": "Codex vs Claude Code vs Cursor Workflow Picker",
+      "url": "https://ivelly42.github.io/agent-ops-command-center/codex-vs-claude-code-vs-cursor.md",
+      "gist": "https://gist.github.com/ivelly42/75ce3130a95d83a247de6f16eee0060c"
+    },
+    {
+      "title": "AI Agent Operating System Template",
+      "url": "https://ivelly42.github.io/agent-ops-command-center/ai-agent-operating-system-template.md",
+      "gist": "https://gist.github.com/ivelly42/37a14ab70b537aeaef1156549876124b"
+    },
+    {
+      "title": "AI Agent Acceptance Test Suite",
+      "url": "https://ivelly42.github.io/agent-ops-command-center/ai-agent-acceptance-test-suite.md",
+      "gist": "https://gist.github.com/ivelly42/d9aacd5506dccc9b5d002ef6fd973c72"
+    },
+    {
+      "title": "AI Agent Verification Command Library",
+      "url": "https://ivelly42.github.io/agent-ops-command-center/ai-agent-verification-command-library.md",
+      "gist": "https://gist.github.com/ivelly42/0f35039dbb5e455cfe36c316632f96fb"
+    }
+  ]
+}

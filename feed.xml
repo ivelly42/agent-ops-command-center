@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Agent Ops Command Center</title>
+    <link>https://ivelly42.github.io/agent-ops-command-center/</link>
+    <description>Public preview updates for a Notion and spreadsheet template pack for builders running AI coding agents.</description>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 21 May 2026 08:46:00 +0900</lastBuildDate>
+    <ttl>1440</ttl>
+    <item>
+      <title>AI Agent Done Checklist</title>
+      <link>https://ivelly42.github.io/agent-ops-command-center/ai-agent-done-checklist.md</link>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/ai-agent-done-checklist.md</guid>
+      <pubDate>Thu, 21 May 2026 08:46:00 +0900</pubDate>
+      <description>Checklist for deciding whether an AI-agent run can be marked done with objective, scope, proof, handoff, security, cost, and revenue gates.</description>
+    </item>
+    <item>
+      <title>AI Agent Run Audit Template</title>
+      <link>https://ivelly42.github.io/agent-ops-command-center/ai-agent-run-audit-template.md</link>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/ai-agent-run-audit-template.md</guid>
+      <pubDate>Thu, 21 May 2026 08:38:00 +0900</pubDate>
+      <description>Audit template for accepting, shipping, reusing, or handing off important AI-agent output.</description>
+    </item>
+    <item>
+      <title>Codex vs Claude Code vs Cursor Workflow Picker</title>
+      <link>https://ivelly42.github.io/agent-ops-command-center/codex-vs-claude-code-vs-cursor.md</link>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/codex-vs-claude-code-vs-cursor.md</guid>
+      <pubDate>Thu, 21 May 2026 08:16:00 +0900</pubDate>
+      <description>Picker for assigning AI coding-agent work to Codex, Claude Code, Cursor, or another local agent with proof requirements.</description>
+    </item>
+    <item>
+      <title>AI Agent Operating System Template</title>
+      <link>https://ivelly42.github.io/agent-ops-command-center/ai-agent-operating-system-template.md</link>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/ai-agent-operating-system-template.md</guid>
+      <pubDate>Thu, 21 May 2026 08:08:00 +0900</pubDate>
+      <description>Maturity scorecard for deciding whether an AI coding-agent workflow needs a real operating system.</description>
+    </item>
+    <item>
+      <title>AI Agent Incident Report Template</title>
+      <link>https://ivelly42.github.io/agent-ops-command-center/ai-agent-incident-report-template.md</link>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/ai-agent-incident-report-template.md</guid>
+      <pubDate>Thu, 21 May 2026 07:58:00 +0900</pubDate>
+      <description>Incident report for regressions, false completion, missed verification, release mistakes, and AI-agent cost spikes.</description>
+    </item>
+    <item>
+      <title>AI Agent Security Review Checklist</title>
+      <link>https://ivelly42.github.io/agent-ops-command-center/ai-agent-security-review-checklist.md</link>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/ai-agent-security-review-checklist.md</guid>
+      <pubDate>Thu, 21 May 2026 07:47:00 +0900</pubDate>
+      <description>Security and privacy review checklist for AI-agent output touching secrets, auth, payment, logs, screenshots, or buyer data.</description>
+    </item>
+    <item>
+      <title>AI Agent Acceptance Test Suite</title>
+      <link>https://ivelly42.github.io/agent-ops-command-center/ai-agent-acceptance-test-suite.md</link>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/ai-agent-acceptance-test-suite.md</guid>
+      <pubDate>Thu, 21 May 2026 07:38:00 +0900</pubDate>
+      <description>Acceptance test suite for objective match, scope match, behavior proof, regression checks, security, cost, handoff, and revenue proof.</description>
+    </item>
+    <item>
+      <title>AI Agent Verification Command Library</title>
+      <link>https://ivelly42.github.io/agent-ops-command-center/ai-agent-verification-command-library.md</link>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/ai-agent-verification-command-library.md</guid>
+      <pubDate>Thu, 21 May 2026 06:11:00 +0900</pubDate>
+      <description>Command library for choosing proof that matches AI-agent code, docs, release, security, and revenue claims.</description>
+    </item>
+    <item>
+      <title>Checkout Readiness FAQ</title>
+      <link>https://ivelly42.github.io/agent-ops-command-center/checkout-readiness-faq.md</link>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/checkout-readiness-faq.md</guid>
+      <pubDate>Thu, 21 May 2026 06:33:00 +0900</pubDate>
+      <description>FAQ for buyer objections, checkout status, delivery proof, and revenue evidence rules.</description>
+    </item>
+    <item>
+      <title>Agent Ops Command Center Preview Index</title>
+      <link>https://ivelly42.github.io/agent-ops-command-center/github-preview-index.md</link>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/github-preview-index.md</guid>
+      <pubDate>Thu, 21 May 2026 08:46:00 +0900</pubDate>
+      <description>Index of every public preview asset, Gist mirror, metrics page, and early-access request path.</description>
+    </item>
+  </channel>
+</rss>

@@ -8,6 +8,10 @@ Demand metrics: [metrics/README.md](metrics/README.md)
 
 Public site: https://ivelly42.github.io/agent-ops-command-center/
 
+Feed: [feed.xml](feed.xml)
+
+Catalog: [catalog.json](catalog.json)
+
 Early access: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml
 
 Support: [SUPPORT.md](SUPPORT.md)
@@ -36,7 +40,7 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v4.6-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v4.7-preview
 
 Sample files:
 
@@ -69,6 +73,8 @@ Sample files:
 - [Codex vs Claude Code vs Cursor Gist](https://gist.github.com/ivelly42/75ce3130a95d83a247de6f16eee0060c)
 - [Gist source](ai-agent-ops-run-log-roi-preview.md)
 - [GitHub preview index](github-preview-index.md)
+- [RSS feed](feed.xml)
+- [Machine-readable catalog](catalog.json)
 - [GitHub issue index](https://github.com/ivelly42/agent-ops-command-center/issues/2)
 - [Product tour](product-tour.md)
 - [AI Agent Ops ROI Calculator](agent-ops-roi-calculator.md)
