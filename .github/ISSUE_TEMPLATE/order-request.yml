@@ -12,6 +12,7 @@ body:
         Revenue target for this launch: 7 paid orders = $203 gross.
 
         Checkout is not live yet. This issue records demand and preferred checkout.
+        Product tour: https://ivelly42.github.io/agent-ops-command-center/product-tour.md
   - type: dropdown
     id: checkout
     attributes:
@@ -39,6 +40,16 @@ body:
       placeholder: Codex, Claude Code, Cursor, local agents, browser QA, review agents...
     validations:
       required: false
+  - type: dropdown
+    id: intent
+    attributes:
+      label: Purchase intent
+      options:
+        - I want the full pack when checkout is ready
+        - I want to evaluate the preview first
+        - I only want updates for now
+    validations:
+      required: true
   - type: textarea
     id: notes
     attributes:

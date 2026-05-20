@@ -32,6 +32,7 @@ Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/t
 
 Sample files:
 
+- [Product tour](product-tour.md)
 - [sample/run_log_sample.csv](sample/run_log_sample.csv)
 - [sample/failure_modes_sample.csv](sample/failure_modes_sample.csv)
 - [Codex and Claude Code Run Log Template](codex-claude-run-log-template.md)
