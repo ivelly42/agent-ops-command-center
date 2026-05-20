@@ -10,6 +10,7 @@ The full paid pack is not published publicly. This index links every public prev
 - Product tour: https://ivelly42.github.io/agent-ops-command-center/product-tour.md
 - ROI calculator: https://ivelly42.github.io/agent-ops-command-center/agent-ops-roi-calculator.md
 - Cost tracker template: https://ivelly42.github.io/agent-ops-command-center/cost-tracker-template.md
+- AI agent cost leak audit: https://ivelly42.github.io/agent-ops-command-center/ai-agent-cost-leak-audit.md
 - Agent registry template: https://ivelly42.github.io/agent-ops-command-center/agent-registry-template.md
 - Verification ledger template: https://ivelly42.github.io/agent-ops-command-center/verification-ledger-template.md
 - Failure modes database template: https://ivelly42.github.io/agent-ops-command-center/failure-modes-database-template.md
@@ -53,8 +54,9 @@ The full paid pack is not published publicly. This index links every public prev
 - Buyer intake packet Gist: https://gist.github.com/ivelly42/32252d208c081993f6ad753929aa70bf
 - Purchase approval brief Gist: https://gist.github.com/ivelly42/165483c835c207be472102f5badc5f70
 - Workflow stack comparison Gist: https://gist.github.com/ivelly42/5d17877646be74639b374e36211f976e
+- AI agent cost leak audit Gist: https://gist.github.com/ivelly42/9c16be3782356faef951d1a3d8509991
 - GitHub issue index: https://github.com/ivelly42/agent-ops-command-center/issues/2
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v3.6-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v3.7-preview
 - Demand metrics: https://ivelly42.github.io/agent-ops-command-center/metrics/status.json
 
 ## What The Full Pack Adds
@@ -80,6 +82,7 @@ The full paid pack is not published publicly. This index links every public prev
 | Buyer Intake Packet | Capture buyer fit, preferred checkout, receipt needs, and blockers |
 | Purchase Approval Brief | Help buyers request manager approval or reimbursement |
 | Workflow Stack Comparison | Compare chat history, generic Notion, spreadsheets, PM tools, and this pack |
+| Cost Leak Audit | Find prompt, model, verification, context, scope, and handoff cost leaks |
 | Weekly Review | Improve agent workflow each week |
 
 ## Early Access
