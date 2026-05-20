@@ -75,11 +75,13 @@ The pack breaks even if it prevents roughly one hour of cleanup time for a build
 - AI agent Notion import guide Gist: https://gist.github.com/ivelly42/0bdf3615d09080c67f8263ef057bd04b
 - AI agent PR review scorecard: https://ivelly42.github.io/agent-ops-command-center/ai-agent-pr-review-scorecard.md
 - AI agent PR review scorecard Gist: https://gist.github.com/ivelly42/054eee695f3b8dbf9c880456b086459f
+- AI agent verification command library: https://ivelly42.github.io/agent-ops-command-center/ai-agent-verification-command-library.md
+- AI agent verification command library Gist: https://gist.github.com/ivelly42/0f35039dbb5e455cfe36c316632f96fb
 - Run brief template: https://ivelly42.github.io/agent-ops-command-center/run-brief-template.md
 - Run log template: https://ivelly42.github.io/agent-ops-command-center/codex-claude-run-log-template.md
 - Failure RCA template: https://ivelly42.github.io/agent-ops-command-center/failure-rca-template.md
 - Preflight checklist: https://ivelly42.github.io/agent-ops-command-center/checklist.md
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v2.9-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v3.0-preview
 - Demand metrics: https://ivelly42.github.io/agent-ops-command-center/metrics/status.json
 
 ## Request Early Access
