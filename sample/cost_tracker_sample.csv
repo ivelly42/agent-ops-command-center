@@ -1,0 +1,4 @@
+Date,Agent,Model,Task,Estimated Tokens,Direct Cost,Human Minutes Saved,ROI Notes
+2026-05-21,Codex Implementation Agent,GPT-5.5,Small bug fix,25000,$0.00,45,Good ROI if verified
+2026-05-21,Release Reviewer,Strong reasoning model,Pre-ship review,18000,$0.00,30,Good ROI if it catches one blocker
+2026-05-21,Browser QA Agent,Fast browser agent,Responsive smoke test,8000,$0.00,20,Repeat for UI-heavy changes

@@ -10,6 +10,8 @@ Product tour: https://ivelly42.github.io/agent-ops-command-center/product-tour.m
 
 ROI calculator: https://ivelly42.github.io/agent-ops-command-center/agent-ops-roi-calculator.md
 
+Cost tracker template: https://ivelly42.github.io/agent-ops-command-center/cost-tracker-template.md
+
 Agent registry template: https://ivelly42.github.io/agent-ops-command-center/agent-registry-template.md
 
 Verification ledger template: https://ivelly42.github.io/agent-ops-command-center/verification-ledger-template.md
@@ -26,9 +28,11 @@ GitHub issue index: https://github.com/ivelly42/agent-ops-command-center/issues/
 
 Early access request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v1.2-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v1.3-preview
 
 Sample run log CSV: https://ivelly42.github.io/agent-ops-command-center/sample/run_log_sample.csv
+
+Sample cost tracker CSV: https://ivelly42.github.io/agent-ops-command-center/sample/cost_tracker_sample.csv
 
 Sample agent registry CSV: https://ivelly42.github.io/agent-ops-command-center/sample/agent_registry_sample.csv
 

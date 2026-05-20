@@ -9,6 +9,7 @@ The full paid pack is not published publicly. This index links every public prev
 - Landing page: https://ivelly42.github.io/agent-ops-command-center/
 - Product tour: https://ivelly42.github.io/agent-ops-command-center/product-tour.md
 - ROI calculator: https://ivelly42.github.io/agent-ops-command-center/agent-ops-roi-calculator.md
+- Cost tracker template: https://ivelly42.github.io/agent-ops-command-center/cost-tracker-template.md
 - Agent registry template: https://ivelly42.github.io/agent-ops-command-center/agent-registry-template.md
 - Verification ledger template: https://ivelly42.github.io/agent-ops-command-center/verification-ledger-template.md
 - Failure modes database template: https://ivelly42.github.io/agent-ops-command-center/failure-modes-database-template.md
@@ -17,7 +18,7 @@ The full paid pack is not published publicly. This index links every public prev
 - Preflight checklist: https://ivelly42.github.io/agent-ops-command-center/checklist.md
 - Gist mirror: https://gist.github.com/ivelly42/c65a80192a848892d1196242027dc7a9
 - GitHub issue index: https://github.com/ivelly42/agent-ops-command-center/issues/2
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v1.2-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v1.3-preview
 - Demand metrics: https://ivelly42.github.io/agent-ops-command-center/metrics/status.json
 
 ## What The Full Pack Adds
