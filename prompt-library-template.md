@@ -40,6 +40,10 @@ Prompt regression test:
 
 https://ivelly42.github.io/agent-ops-command-center/ai-agent-prompt-regression-test.md
 
+Acceptance test suite:
+
+https://ivelly42.github.io/agent-ops-command-center/ai-agent-acceptance-test-suite.md
+
 ## Starter Prompts
 
 | Prompt Name | Use Case | Known Failure |

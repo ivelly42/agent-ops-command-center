@@ -17,6 +17,7 @@ body:
         Cost leak audit: https://ivelly42.github.io/agent-ops-command-center/ai-agent-cost-leak-audit.md
         Model routing matrix: https://ivelly42.github.io/agent-ops-command-center/ai-agent-model-routing-matrix.md
         Prompt regression test: https://ivelly42.github.io/agent-ops-command-center/ai-agent-prompt-regression-test.md
+        Acceptance test suite: https://ivelly42.github.io/agent-ops-command-center/ai-agent-acceptance-test-suite.md
         Buyer intake packet: https://ivelly42.github.io/agent-ops-command-center/buyer-intake-packet.md
         Purchase approval brief: https://ivelly42.github.io/agent-ops-command-center/purchase-approval-brief.md
         Workflow stack comparison: https://ivelly42.github.io/agent-ops-command-center/ai-agent-workflow-stack-comparison.md

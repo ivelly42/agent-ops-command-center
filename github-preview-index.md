@@ -13,6 +13,7 @@ The full paid pack is not published publicly. This index links every public prev
 - AI agent cost leak audit: https://ivelly42.github.io/agent-ops-command-center/ai-agent-cost-leak-audit.md
 - AI agent model routing matrix: https://ivelly42.github.io/agent-ops-command-center/ai-agent-model-routing-matrix.md
 - AI agent prompt regression test: https://ivelly42.github.io/agent-ops-command-center/ai-agent-prompt-regression-test.md
+- AI agent acceptance test suite: https://ivelly42.github.io/agent-ops-command-center/ai-agent-acceptance-test-suite.md
 - Agent registry template: https://ivelly42.github.io/agent-ops-command-center/agent-registry-template.md
 - Verification ledger template: https://ivelly42.github.io/agent-ops-command-center/verification-ledger-template.md
 - Failure modes database template: https://ivelly42.github.io/agent-ops-command-center/failure-modes-database-template.md
@@ -59,8 +60,9 @@ The full paid pack is not published publicly. This index links every public prev
 - AI agent cost leak audit Gist: https://gist.github.com/ivelly42/9c16be3782356faef951d1a3d8509991
 - AI agent model routing matrix Gist: https://gist.github.com/ivelly42/6e88c810c57fca1d5c2d7ff35907cb5c
 - AI agent prompt regression test Gist: https://gist.github.com/ivelly42/409734bff33d301a847a83f46ea21b31
+- AI agent acceptance test suite Gist: https://gist.github.com/ivelly42/d9aacd5506dccc9b5d002ef6fd973c72
 - GitHub issue index: https://github.com/ivelly42/agent-ops-command-center/issues/2
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v3.9-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v4.0-preview
 - Demand metrics: https://ivelly42.github.io/agent-ops-command-center/metrics/status.json
 
 ## What The Full Pack Adds
@@ -89,6 +91,7 @@ The full paid pack is not published publicly. This index links every public prev
 | Cost Leak Audit | Find prompt, model, verification, context, scope, and handoff cost leaks |
 | Model Routing Matrix | Choose agent, model, review path, fallback, and verification before a run |
 | Prompt Regression Test | Compare prompt versions against scope, verification, stop, and handoff test cases |
+| Acceptance Test Suite | Accept or hold AI-agent output using objective, scope, behavior, regression, security, handoff, and revenue proof |
 | Weekly Review | Improve agent workflow each week |
 
 ## Early Access
