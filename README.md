@@ -22,6 +22,10 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
+Public site: https://ivelly42.github.io/agent-ops-command-center/
+
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v0.1-preview
+
 ## Paid Pack
 
 Price target: `$29`
@@ -41,6 +45,10 @@ Paid pack contents:
 ## Order
 
 Payment checkout is not live yet. To request early access, open an issue with the `order-request` template.
+
+Early access issue: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.md
+
+Announcement discussion: https://github.com/ivelly42/agent-ops-command-center/discussions/1
 
 ## Status
 
