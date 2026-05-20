@@ -11,7 +11,7 @@ The full paid pack is not published publicly. This page shows the operating logi
 | I already use Notion | This is not a generic Notion page. It is an AI-agent operations system for run logs, verification, handoff, failure prevention, and revenue proof. | Preview index, public templates, sample CSV files |
 | Why pay $29? | The pack breaks even if it prevents about one hour of cleanup or rework. | ROI calculator and buyer decision matrix |
 | Can I inspect before paying? | Yes. Public preview pages, Gists, and sample CSV files are available before any checkout. | Public site and preview release |
-| What do I receive? | A Notion-ready workspace, quickstart, import guide, six CSV databases, seventeen operating templates, and launch copy. | Paid delivery manifest preview |
+| What do I receive? | A Notion-ready workspace, quickstart, import guide, six CSV databases, eighteen operating templates, and launch copy. | Paid delivery manifest preview |
 | Why no checkout yet? | Checkout needs an authenticated seller or payout channel. Early-access requests record purchase intent only. | Demand metrics and order-request form |
 | What counts as revenue? | Only checkout, receipt, payout, or seller-dashboard evidence. Issues, downloads, comments, stars, and Gist views are not revenue. | Revenue proof template |
 | What happens after payment? | Delivery requires order ID, receipt evidence, ZIP digest, archive test, delivery method, and buyer acknowledgement. | Paid delivery manifest |

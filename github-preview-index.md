@@ -33,6 +33,7 @@ The full paid pack is not published publicly. This index links every public prev
 - Checkout readiness FAQ: https://ivelly42.github.io/agent-ops-command-center/checkout-readiness-faq.md
 - Buyer intake packet: https://ivelly42.github.io/agent-ops-command-center/buyer-intake-packet.md
 - Purchase approval brief: https://ivelly42.github.io/agent-ops-command-center/purchase-approval-brief.md
+- AI agent workflow stack comparison: https://ivelly42.github.io/agent-ops-command-center/ai-agent-workflow-stack-comparison.md
 - Run log template: https://ivelly42.github.io/agent-ops-command-center/codex-claude-run-log-template.md
 - Preflight checklist: https://ivelly42.github.io/agent-ops-command-center/checklist.md
 - Gist mirror: https://gist.github.com/ivelly42/c65a80192a848892d1196242027dc7a9
@@ -51,8 +52,9 @@ The full paid pack is not published publicly. This index links every public prev
 - Checkout readiness FAQ Gist: https://gist.github.com/ivelly42/f82bd8c423d1c01be2c838d14abeccba
 - Buyer intake packet Gist: https://gist.github.com/ivelly42/32252d208c081993f6ad753929aa70bf
 - Purchase approval brief Gist: https://gist.github.com/ivelly42/165483c835c207be472102f5badc5f70
+- Workflow stack comparison Gist: https://gist.github.com/ivelly42/5d17877646be74639b374e36211f976e
 - GitHub issue index: https://github.com/ivelly42/agent-ops-command-center/issues/2
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v3.5-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v3.6-preview
 - Demand metrics: https://ivelly42.github.io/agent-ops-command-center/metrics/status.json
 
 ## What The Full Pack Adds
@@ -77,6 +79,7 @@ The full paid pack is not published publicly. This index links every public prev
 | Checkout Readiness FAQ | Answer buyer objections and list payment proof needed |
 | Buyer Intake Packet | Capture buyer fit, preferred checkout, receipt needs, and blockers |
 | Purchase Approval Brief | Help buyers request manager approval or reimbursement |
+| Workflow Stack Comparison | Compare chat history, generic Notion, spreadsheets, PM tools, and this pack |
 | Weekly Review | Improve agent workflow each week |
 
 ## Early Access

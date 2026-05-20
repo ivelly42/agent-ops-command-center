@@ -88,6 +88,10 @@ Purchase approval brief: https://ivelly42.github.io/agent-ops-command-center/pur
 
 Purchase approval brief Gist: https://gist.github.com/ivelly42/165483c835c207be472102f5badc5f70
 
+AI agent workflow stack comparison: https://ivelly42.github.io/agent-ops-command-center/ai-agent-workflow-stack-comparison.md
+
+Workflow stack comparison Gist: https://gist.github.com/ivelly42/5d17877646be74639b374e36211f976e
+
 Public Gist mirror: https://gist.github.com/ivelly42/c65a80192a848892d1196242027dc7a9
 
 Preview index: https://ivelly42.github.io/agent-ops-command-center/github-preview-index.md
@@ -96,7 +100,7 @@ GitHub issue index: https://github.com/ivelly42/agent-ops-command-center/issues/
 
 Early access request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v3.5-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v3.6-preview
 
 Sample run log CSV: https://ivelly42.github.io/agent-ops-command-center/sample/run_log_sample.csv
 
@@ -128,7 +132,7 @@ The product helps builders track AI coding-agent runs, prompt versions, verifica
 - 15-minute quickstart guide
 - CSV import guide
 - Six CSV database imports
-- Seventeen operating templates
+- Eighteen operating templates
 - Weekly operator review
 
 ## Status
