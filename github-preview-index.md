@@ -15,11 +15,12 @@ The full paid pack is not published publicly. This index links every public prev
 - Failure modes database template: https://ivelly42.github.io/agent-ops-command-center/failure-modes-database-template.md
 - Prompt library template: https://ivelly42.github.io/agent-ops-command-center/prompt-library-template.md
 - Weekly operator review template: https://ivelly42.github.io/agent-ops-command-center/weekly-operator-review-template.md
+- Release gate template: https://ivelly42.github.io/agent-ops-command-center/release-gate-template.md
 - Run log template: https://ivelly42.github.io/agent-ops-command-center/codex-claude-run-log-template.md
 - Preflight checklist: https://ivelly42.github.io/agent-ops-command-center/checklist.md
 - Gist mirror: https://gist.github.com/ivelly42/c65a80192a848892d1196242027dc7a9
 - GitHub issue index: https://github.com/ivelly42/agent-ops-command-center/issues/2
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v1.4-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v1.5-preview
 - Demand metrics: https://ivelly42.github.io/agent-ops-command-center/metrics/status.json
 
 ## What The Full Pack Adds
