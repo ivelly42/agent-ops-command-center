@@ -28,11 +28,12 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v2.0-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v2.1-preview
 
 Sample files:
 
 - [Public Gist mirror](https://gist.github.com/ivelly42/c65a80192a848892d1196242027dc7a9)
+- [Codex Workflow Tracker Gist](https://gist.github.com/ivelly42/cbadc556d2d75b01d5dde8d8df0e18c6)
 - [Gist source](ai-agent-ops-run-log-roi-preview.md)
 - [GitHub preview index](github-preview-index.md)
 - [GitHub issue index](https://github.com/ivelly42/agent-ops-command-center/issues/2)
