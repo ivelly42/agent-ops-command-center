@@ -29,6 +29,7 @@ The full paid pack is not published publicly. This index links every public prev
 - AI agent PR review scorecard: https://ivelly42.github.io/agent-ops-command-center/ai-agent-pr-review-scorecard.md
 - AI agent verification command library: https://ivelly42.github.io/agent-ops-command-center/ai-agent-verification-command-library.md
 - Paid delivery manifest: https://ivelly42.github.io/agent-ops-command-center/paid-delivery-manifest.md
+- Buyer decision matrix: https://ivelly42.github.io/agent-ops-command-center/buyer-decision-matrix.md
 - Run log template: https://ivelly42.github.io/agent-ops-command-center/codex-claude-run-log-template.md
 - Preflight checklist: https://ivelly42.github.io/agent-ops-command-center/checklist.md
 - Gist mirror: https://gist.github.com/ivelly42/c65a80192a848892d1196242027dc7a9
@@ -43,8 +44,9 @@ The full paid pack is not published publicly. This index links every public prev
 - AI agent PR review scorecard Gist: https://gist.github.com/ivelly42/054eee695f3b8dbf9c880456b086459f
 - AI agent verification command library Gist: https://gist.github.com/ivelly42/0f35039dbb5e455cfe36c316632f96fb
 - Paid delivery manifest Gist: https://gist.github.com/ivelly42/417991e7e2694d5e243f4319ce680f0f
+- Buyer decision matrix Gist: https://gist.github.com/ivelly42/348c406da907bf02c1bf2be20832906c
 - GitHub issue index: https://github.com/ivelly42/agent-ops-command-center/issues/2
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v3.1-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v3.2-preview
 - Demand metrics: https://ivelly42.github.io/agent-ops-command-center/metrics/status.json
 
 ## What The Full Pack Adds
@@ -65,6 +67,7 @@ The full paid pack is not published publicly. This index links every public prev
 | PR Review Scorecard | Score AI-written code before merge |
 | Verification Command Library | Choose proof that matches the changed behavior |
 | Paid Delivery Manifest | Record paid delivery, archive digest, and buyer acknowledgement |
+| Buyer Decision Matrix | Compare cleanup cost, pack surfaces, and buy signals |
 | Weekly Review | Improve agent workflow each week |
 
 ## Early Access
