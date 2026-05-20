@@ -12,9 +12,13 @@ ROI calculator: https://ivelly42.github.io/agent-ops-command-center/agent-ops-ro
 
 Public Gist mirror: https://gist.github.com/ivelly42/c65a80192a848892d1196242027dc7a9
 
+Preview index: https://ivelly42.github.io/agent-ops-command-center/github-preview-index.md
+
+GitHub issue index: https://github.com/ivelly42/agent-ops-command-center/issues/2
+
 Early access request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v0.7-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v0.8-preview
 
 Sample run log CSV: https://ivelly42.github.io/agent-ops-command-center/sample/run_log_sample.csv
 

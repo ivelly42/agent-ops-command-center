@@ -28,12 +28,14 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v0.7-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v0.8-preview
 
 Sample files:
 
 - [Public Gist mirror](https://gist.github.com/ivelly42/c65a80192a848892d1196242027dc7a9)
 - [Gist source](ai-agent-ops-run-log-roi-preview.md)
+- [GitHub preview index](github-preview-index.md)
+- [GitHub issue index](https://github.com/ivelly42/agent-ops-command-center/issues/2)
 - [Product tour](product-tour.md)
 - [AI Agent Ops ROI Calculator](agent-ops-roi-calculator.md)
 - [sample/run_log_sample.csv](sample/run_log_sample.csv)
