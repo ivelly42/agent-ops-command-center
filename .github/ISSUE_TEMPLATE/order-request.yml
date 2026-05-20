@@ -14,6 +14,8 @@ body:
         Checkout is not live yet. This issue records purchase intent and preferred checkout. It is not counted as revenue until a real checkout, receipt, or seller dashboard exists.
         Product tour: https://ivelly42.github.io/agent-ops-command-center/product-tour.md
         ROI calculator: https://ivelly42.github.io/agent-ops-command-center/agent-ops-roi-calculator.md
+        Buyer intake packet: https://ivelly42.github.io/agent-ops-command-center/buyer-intake-packet.md
+        Purchase approval brief: https://ivelly42.github.io/agent-ops-command-center/purchase-approval-brief.md
         Preview index: https://ivelly42.github.io/agent-ops-command-center/github-preview-index.md
         Public Gist mirror: https://gist.github.com/ivelly42/c65a80192a848892d1196242027dc7a9
   - type: dropdown

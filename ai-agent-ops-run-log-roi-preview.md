@@ -85,11 +85,13 @@ The pack breaks even if it prevents roughly one hour of cleanup time for a build
 - Checkout readiness FAQ Gist: https://gist.github.com/ivelly42/f82bd8c423d1c01be2c838d14abeccba
 - Buyer intake packet: https://ivelly42.github.io/agent-ops-command-center/buyer-intake-packet.md
 - Buyer intake packet Gist: https://gist.github.com/ivelly42/32252d208c081993f6ad753929aa70bf
+- Purchase approval brief: https://ivelly42.github.io/agent-ops-command-center/purchase-approval-brief.md
+- Purchase approval brief Gist: https://gist.github.com/ivelly42/165483c835c207be472102f5badc5f70
 - Run brief template: https://ivelly42.github.io/agent-ops-command-center/run-brief-template.md
 - Run log template: https://ivelly42.github.io/agent-ops-command-center/codex-claude-run-log-template.md
 - Failure RCA template: https://ivelly42.github.io/agent-ops-command-center/failure-rca-template.md
 - Preflight checklist: https://ivelly42.github.io/agent-ops-command-center/checklist.md
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v3.4-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v3.5-preview
 - Demand metrics: https://ivelly42.github.io/agent-ops-command-center/metrics/status.json
 
 ## Request Early Access
