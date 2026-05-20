@@ -1,0 +1,4 @@
+Agent,Type,Best For,Avoid For,Default Model,Tools,Prompt Contract,Verification Needed,Owner,Status
+Codex Implementation Agent,Coding,Small complete repo changes,Unbounded product strategy,GPT-5.5,Shell and file tools,Objective plus allowed scope plus stop conditions,Tests or build logs,Operator,Active
+Browser QA Agent,QA,Frontend smoke testing and screenshots,Backend-only bugs,Fast browser agent,Browser and screenshot tools,URL plus flows plus expected states,Screenshot and pass/fail notes,Operator,Optional
+Release Reviewer,Review,Pre-ship risk and missing checks,Feature ideation,Strong reasoning model,Git diff and test logs,Diff plus release criteria,Blocking findings list,Operator,Active
