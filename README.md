@@ -28,7 +28,7 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v2.8-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v2.9-preview
 
 Sample files:
 
@@ -41,6 +41,7 @@ Sample files:
 - [AI Agent Scope Freeze Gist](https://gist.github.com/ivelly42/2f1b5faa95039799688dc5ed8d3244a8)
 - [AI Agent Revenue Proof Gist](https://gist.github.com/ivelly42/bc14bd257cbcc139a93aba5e3606c156)
 - [AI Agent Notion Import Guide Gist](https://gist.github.com/ivelly42/0bdf3615d09080c67f8263ef057bd04b)
+- [AI Agent PR Review Scorecard Gist](https://gist.github.com/ivelly42/054eee695f3b8dbf9c880456b086459f)
 - [Gist source](ai-agent-ops-run-log-roi-preview.md)
 - [GitHub preview index](github-preview-index.md)
 - [GitHub issue index](https://github.com/ivelly42/agent-ops-command-center/issues/2)
@@ -63,6 +64,7 @@ Sample files:
 - [AI Agent Scope Freeze Template](ai-agent-scope-freeze-template.md)
 - [AI Agent Revenue Proof Template](ai-agent-revenue-proof-template.md)
 - [AI Agent Notion Import Guide](ai-agent-notion-import-guide.md)
+- [AI Agent PR Review Scorecard](ai-agent-pr-review-scorecard.md)
 - [sample/run_log_sample.csv](sample/run_log_sample.csv)
 - [sample/cost_tracker_sample.csv](sample/cost_tracker_sample.csv)
 - [sample/agent_registry_sample.csv](sample/agent_registry_sample.csv)
@@ -85,7 +87,7 @@ Paid pack contents:
 - 15-minute quickstart guide
 - CSV import guide
 - Six CSV starter databases
-- Ten operating templates
+- Eleven operating templates
 - social launch copy
 - outreach copy
 
@@ -103,4 +105,4 @@ Launch surface is live-ready. Paid checkout is blocked until an authenticated se
 
 ## Search Keywords
 
-AI agent ops template, Codex workflow tracker, Claude Code workflow tracker, Cursor workflow tracker, AI agent revenue proof template, AI agent scope freeze template, AI agent handoff template, AI agent Notion import guide, Claude Code run log, AI coding agent verification ledger, prompt version tracker, Notion template for AI builders, agent failure modes database, AI agent weekly review, AI coding agent release gate, AI code review brief, AI agent RCA template, AI coding agent run brief, Codex workflow tracker template.
+AI agent ops template, Codex workflow tracker, Claude Code workflow tracker, Cursor workflow tracker, AI agent PR review scorecard, AI code review checklist, AI agent revenue proof template, AI agent scope freeze template, AI agent handoff template, AI agent Notion import guide, Claude Code run log, AI coding agent verification ledger, prompt version tracker, Notion template for AI builders, agent failure modes database, AI agent weekly review, AI coding agent release gate, AI code review brief, AI agent RCA template, AI coding agent run brief, Codex workflow tracker template.

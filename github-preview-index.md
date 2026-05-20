@@ -26,6 +26,7 @@ The full paid pack is not published publicly. This index links every public prev
 - AI agent scope freeze template: https://ivelly42.github.io/agent-ops-command-center/ai-agent-scope-freeze-template.md
 - AI agent revenue proof template: https://ivelly42.github.io/agent-ops-command-center/ai-agent-revenue-proof-template.md
 - AI agent Notion import guide: https://ivelly42.github.io/agent-ops-command-center/ai-agent-notion-import-guide.md
+- AI agent PR review scorecard: https://ivelly42.github.io/agent-ops-command-center/ai-agent-pr-review-scorecard.md
 - Run log template: https://ivelly42.github.io/agent-ops-command-center/codex-claude-run-log-template.md
 - Preflight checklist: https://ivelly42.github.io/agent-ops-command-center/checklist.md
 - Gist mirror: https://gist.github.com/ivelly42/c65a80192a848892d1196242027dc7a9
@@ -37,8 +38,9 @@ The full paid pack is not published publicly. This index links every public prev
 - AI agent scope freeze Gist: https://gist.github.com/ivelly42/2f1b5faa95039799688dc5ed8d3244a8
 - AI agent revenue proof Gist: https://gist.github.com/ivelly42/bc14bd257cbcc139a93aba5e3606c156
 - AI agent Notion import guide Gist: https://gist.github.com/ivelly42/0bdf3615d09080c67f8263ef057bd04b
+- AI agent PR review scorecard Gist: https://gist.github.com/ivelly42/054eee695f3b8dbf9c880456b086459f
 - GitHub issue index: https://github.com/ivelly42/agent-ops-command-center/issues/2
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v2.8-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v2.9-preview
 - Demand metrics: https://ivelly42.github.io/agent-ops-command-center/metrics/status.json
 
 ## What The Full Pack Adds
@@ -56,6 +58,7 @@ The full paid pack is not published publicly. This index links every public prev
 | Scope Freeze | Lock allowed files, stop conditions, and proof before edits |
 | Revenue Proof | Separate checkout evidence from demand signals |
 | Notion Import | Turn CSV files and templates into a usable workspace |
+| PR Review Scorecard | Score AI-written code before merge |
 | Weekly Review | Improve agent workflow each week |
 
 ## Early Access
