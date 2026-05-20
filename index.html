@@ -1,0 +1,396 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Agent Ops Command Center</title>
+    <meta name="description" content="A Notion and spreadsheet template pack for builders running AI coding agents.">
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #161616;
+        --muted: #57534e;
+        --line: #d7d3cb;
+        --paper: #fbfaf7;
+        --panel: #ffffff;
+        --accent: #0f766e;
+        --warn: #b45309;
+        --blue: #1d4ed8;
+      }
+
+      * { box-sizing: border-box; }
+
+      body {
+        margin: 0;
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        color: var(--ink);
+        background: var(--paper);
+      }
+
+      header, main, footer {
+        width: min(1120px, calc(100% - 40px));
+        margin: 0 auto;
+      }
+
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        min-height: 72px;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .brand {
+        font-weight: 800;
+        letter-spacing: 0;
+      }
+
+      nav {
+        display: flex;
+        gap: 18px;
+        font-size: 14px;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      .hero {
+        display: grid;
+        grid-template-columns: minmax(0, 1.02fr) minmax(360px, 0.98fr);
+        gap: 48px;
+        align-items: center;
+        min-height: calc(100vh - 72px);
+        padding: 56px 0;
+      }
+
+      .eyebrow {
+        color: var(--accent);
+        font-weight: 800;
+        font-size: 14px;
+        margin-bottom: 14px;
+      }
+
+      h1 {
+        font-size: clamp(44px, 7vw, 82px);
+        line-height: 0.96;
+        margin: 0 0 22px;
+        letter-spacing: 0;
+      }
+
+      .lead {
+        font-size: 20px;
+        line-height: 1.5;
+        color: var(--muted);
+        max-width: 650px;
+        margin: 0 0 28px;
+      }
+
+      .actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        align-items: center;
+      }
+
+      .button {
+        display: inline-flex;
+        min-height: 44px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 8px;
+        padding: 0 16px;
+        border: 1px solid var(--ink);
+        font-weight: 800;
+      }
+
+      .button.primary {
+        background: var(--ink);
+        color: #fff;
+      }
+
+      .price {
+        color: var(--muted);
+        font-weight: 700;
+      }
+
+      .mockup {
+        background: var(--panel);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 24px 80px rgba(22, 22, 22, 0.14);
+      }
+
+      .mockup-top {
+        display: flex;
+        gap: 7px;
+        padding: 12px;
+        border-bottom: 1px solid var(--line);
+        background: #f4f1eb;
+      }
+
+      .dot {
+        width: 10px;
+        height: 10px;
+        border-radius: 999px;
+        background: #d97706;
+      }
+
+      .dot:nth-child(2) { background: #0f766e; }
+      .dot:nth-child(3) { background: #1d4ed8; }
+
+      .mockup-body {
+        display: grid;
+        grid-template-columns: 140px 1fr;
+        min-height: 520px;
+      }
+
+      .sidebar {
+        border-right: 1px solid var(--line);
+        padding: 18px 14px;
+        background: #f7f5f0;
+      }
+
+      .side-title {
+        font-size: 12px;
+        color: var(--muted);
+        font-weight: 800;
+        margin-bottom: 14px;
+      }
+
+      .side-item {
+        height: 28px;
+        border-radius: 6px;
+        background: #e7e1d7;
+        margin-bottom: 10px;
+      }
+
+      .content {
+        padding: 22px;
+      }
+
+      .content h2 {
+        margin: 0 0 16px;
+        font-size: 24px;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 12px;
+      }
+
+      .cell {
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 14px;
+        min-height: 108px;
+      }
+
+      .cell strong {
+        display: block;
+        margin-bottom: 10px;
+      }
+
+      .bar {
+        height: 8px;
+        background: #e5e7eb;
+        border-radius: 999px;
+        margin-top: 8px;
+      }
+
+      .bar span {
+        display: block;
+        height: 100%;
+        border-radius: inherit;
+        background: var(--accent);
+      }
+
+      section {
+        padding: 56px 0;
+        border-top: 1px solid var(--line);
+      }
+
+      .section-title {
+        font-size: 34px;
+        margin: 0 0 24px;
+      }
+
+      .feature-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 14px;
+      }
+
+      .feature {
+        border: 1px solid var(--line);
+        background: var(--panel);
+        border-radius: 8px;
+        padding: 18px;
+        min-height: 146px;
+      }
+
+      .feature h3 {
+        margin: 0 0 8px;
+        font-size: 18px;
+      }
+
+      .feature p {
+        margin: 0;
+        color: var(--muted);
+        line-height: 1.45;
+      }
+
+      .status {
+        border: 1px solid #f59e0b;
+        background: #fff7ed;
+        border-radius: 8px;
+        padding: 18px;
+        color: #78350f;
+      }
+
+      footer {
+        padding: 28px 0 48px;
+        color: var(--muted);
+        font-size: 14px;
+      }
+
+      @media (max-width: 860px) {
+        header {
+          align-items: flex-start;
+          flex-direction: column;
+          gap: 10px;
+          padding: 18px 0;
+        }
+
+        .hero {
+          grid-template-columns: 1fr;
+          min-height: auto;
+        }
+
+        .mockup-body {
+          grid-template-columns: 1fr;
+        }
+
+        .sidebar {
+          display: none;
+        }
+
+        .feature-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="brand">Agent Ops Command Center</div>
+      <nav>
+        <a href="#inside">Inside</a>
+        <a href="#preview">Preview</a>
+        <a href="https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.md">Order</a>
+      </nav>
+    </header>
+
+    <main>
+      <div class="hero">
+        <div>
+          <div class="eyebrow">For Codex, Claude Code, Cursor, and local agents</div>
+          <h1>Run AI coding agents with evidence.</h1>
+          <p class="lead">A Notion and spreadsheet template pack for tracking agent runs, prompt versions, verification commands, cost notes, and repeat failure modes.</p>
+          <div class="actions">
+            <a class="button primary" href="https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.md">Request early access</a>
+            <a class="button" href="preview.md">Read preview</a>
+            <span class="price">$29 target price</span>
+          </div>
+        </div>
+
+        <div class="mockup" aria-label="Template preview mockup">
+          <div class="mockup-top">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+          </div>
+          <div class="mockup-body">
+            <div class="sidebar">
+              <div class="side-title">WORKSPACE</div>
+              <div class="side-item"></div>
+              <div class="side-item"></div>
+              <div class="side-item"></div>
+              <div class="side-item"></div>
+              <div class="side-item"></div>
+            </div>
+            <div class="content">
+              <h2>Weekly Operator Review</h2>
+              <div class="grid">
+                <div class="cell">
+                  <strong>Run Log</strong>
+                  Objective, files changed, verification, result.
+                  <div class="bar"><span style="width: 78%"></span></div>
+                </div>
+                <div class="cell">
+                  <strong>Prompt Library</strong>
+                  Version, change reason, known failure.
+                  <div class="bar"><span style="width: 64%; background: var(--blue)"></span></div>
+                </div>
+                <div class="cell">
+                  <strong>Verification Ledger</strong>
+                  Exact command or proof before done.
+                  <div class="bar"><span style="width: 88%"></span></div>
+                </div>
+                <div class="cell">
+                  <strong>Failure Modes</strong>
+                  Symptom, root cause, fix, prevention.
+                  <div class="bar"><span style="width: 72%; background: var(--warn)"></span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section id="inside">
+        <h2 class="section-title">Inside The Pack</h2>
+        <div class="feature-grid">
+          <article class="feature">
+            <h3>Agent Registry</h3>
+            <p>Track each agent, model, tool set, best use, avoid list, and verification needed.</p>
+          </article>
+          <article class="feature">
+            <h3>Run Log</h3>
+            <p>Record every meaningful run with objective, inputs, changed files, evidence, and follow-up.</p>
+          </article>
+          <article class="feature">
+            <h3>Prompt Library</h3>
+            <p>Version prompts with change reasons, known failure modes, and lightweight eval scores.</p>
+          </article>
+          <article class="feature">
+            <h3>Verification Ledger</h3>
+            <p>Keep exact commands and pass signals so "done" means something concrete.</p>
+          </article>
+          <article class="feature">
+            <h3>Cost Tracker</h3>
+            <p>Compare estimated tokens, direct costs, and human minutes saved by workflow.</p>
+          </article>
+          <article class="feature">
+            <h3>Failure Modes</h3>
+            <p>Convert repeat mistakes into detection rules and prevention rules.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="preview">
+        <h2 class="section-title">Launch Status</h2>
+        <div class="status">
+          The template pack is packaged locally. This public page is the preview and lead channel. Paid checkout is blocked until an authenticated seller/payment channel exists.
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      Built for builders who want evidence, not scattered transcripts.
+    </footer>
+  </body>
+</html>
