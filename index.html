@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Agent Ops Command Center</title>
     <meta name="description" content="A Notion and spreadsheet template pack for builders running AI coding agents.">
+    <meta property="og:title" content="Agent Ops Command Center">
+    <meta property="og:description" content="Run AI coding agents with evidence. Track agent runs, prompts, verification commands, costs, and failure modes.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ivelly42.github.io/agent-ops-command-center/">
+    <meta name="twitter:card" content="summary_large_image">
     <style>
       :root {
         color-scheme: light;
@@ -92,6 +97,22 @@
         flex-wrap: wrap;
         gap: 12px;
         align-items: center;
+      }
+
+      .proof-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 22px;
+      }
+
+      .proof {
+        border: 1px solid var(--line);
+        background: var(--panel);
+        border-radius: 8px;
+        padding: 10px 12px;
+        font-weight: 800;
+        font-size: 14px;
       }
 
       .button {
@@ -251,6 +272,51 @@
         color: #78350f;
       }
 
+      .order-box {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) auto;
+        gap: 20px;
+        align-items: center;
+        border: 1px solid var(--ink);
+        background: var(--panel);
+        border-radius: 8px;
+        padding: 22px;
+      }
+
+      .order-box h2 {
+        margin: 0 0 8px;
+        font-size: 30px;
+      }
+
+      .order-box p {
+        margin: 0;
+        color: var(--muted);
+        line-height: 1.45;
+      }
+
+      .faq {
+        display: grid;
+        gap: 12px;
+      }
+
+      .faq details {
+        border: 1px solid var(--line);
+        background: var(--panel);
+        border-radius: 8px;
+        padding: 16px;
+      }
+
+      .faq summary {
+        cursor: pointer;
+        font-weight: 800;
+      }
+
+      .faq p {
+        margin: 10px 0 0;
+        color: var(--muted);
+        line-height: 1.5;
+      }
+
       footer {
         padding: 28px 0 48px;
         color: var(--muted);
@@ -281,6 +347,10 @@
         .feature-grid {
           grid-template-columns: 1fr;
         }
+
+        .order-box {
+          grid-template-columns: 1fr;
+        }
       }
     </style>
   </head>
@@ -303,7 +373,14 @@
           <div class="actions">
             <a class="button primary" href="https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.md">Request early access</a>
             <a class="button" href="preview.md">Read preview</a>
+            <a class="button" href="https://github.com/ivelly42/agent-ops-command-center/releases/tag/v0.1-preview">Preview release</a>
             <span class="price">$29 target price</span>
+          </div>
+          <div class="proof-row" aria-label="Product contents">
+            <div class="proof">6 databases</div>
+            <div class="proof">3 run templates</div>
+            <div class="proof">Notion + CSV</div>
+            <div class="proof">No paid checkout yet</div>
           </div>
         </div>
 
@@ -385,6 +462,34 @@
         <h2 class="section-title">Launch Status</h2>
         <div class="status">
           The template pack is packaged locally. This public page is the preview and lead channel. Paid checkout is blocked until an authenticated seller/payment channel exists.
+        </div>
+      </section>
+
+      <section id="order">
+        <div class="order-box">
+          <div>
+            <h2>Request early access</h2>
+            <p>The full pack is priced at $29. Seven paid orders reach $203 gross. Checkout is not live yet, so requests are captured through GitHub issues.</p>
+          </div>
+          <a class="button primary" href="https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.md">Open order request</a>
+        </div>
+      </section>
+
+      <section id="faq">
+        <h2 class="section-title">FAQ</h2>
+        <div class="faq">
+          <details open>
+            <summary>What do I get in the full pack?</summary>
+            <p>A Notion-ready Markdown workspace, six CSV database imports, run brief, review brief, failure RCA template, weekly review, and launch examples for AI-agent workflows.</p>
+          </details>
+          <details>
+            <summary>Who is it for?</summary>
+            <p>Solo builders and engineers using Codex, Claude Code, Cursor, or local AI coding agents who need a durable record of prompts, outputs, verification, costs, and repeated failures.</p>
+          </details>
+          <details>
+            <summary>Why no checkout button?</summary>
+            <p>The product is packaged, but paid checkout needs an authenticated seller account. Until then, this page captures early-access demand without publishing the paid ZIP.</p>
+          </details>
         </div>
       </section>
     </main>

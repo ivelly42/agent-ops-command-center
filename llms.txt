@@ -1,0 +1,26 @@
+# Agent Ops Command Center
+
+Agent Ops Command Center is a Notion and spreadsheet template pack for builders running AI coding agents.
+
+Primary page: https://ivelly42.github.io/agent-ops-command-center/
+
+Preview: https://ivelly42.github.io/agent-ops-command-center/preview.md
+
+Early access request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.md
+
+## Summary
+
+The product helps builders track AI coding-agent runs, prompt versions, verification commands, costs, and repeated failure modes.
+
+## Full Pack Contents
+
+- Notion-ready Markdown workspace
+- Six CSV database imports
+- Run brief template
+- Review brief template
+- Failure RCA template
+- Weekly operator review
+
+## Status
+
+Paid checkout is not live. The public repo contains preview material only. The paid product ZIP is not published publicly.

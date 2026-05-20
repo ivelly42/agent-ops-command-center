@@ -4,6 +4,10 @@ Notion and spreadsheet template pack for builders running AI coding agents.
 
 This public repo is the launch surface and preview. The paid product ZIP is not stored here.
 
+Public site: https://ivelly42.github.io/agent-ops-command-center/
+
+Early access: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.md
+
 ## What It Solves
 
 AI coding-agent work often disappears into chat history. This pack gives solo builders one workspace for:
@@ -21,8 +25,6 @@ AI coding-agent work often disappears into chat history. This pack gives solo bu
 Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
-
-Public site: https://ivelly42.github.io/agent-ops-command-center/
 
 Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v0.1-preview
 
@@ -53,3 +55,7 @@ Announcement discussion: https://github.com/ivelly42/agent-ops-command-center/di
 ## Status
 
 Launch surface is live-ready. Paid checkout is blocked until an authenticated seller/payment channel exists.
+
+## Search Keywords
+
+AI agent ops template, Codex workflow tracker, Claude Code run log, AI coding agent verification ledger, prompt version tracker, Notion template for AI builders, agent failure modes database.
