@@ -36,7 +36,7 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v4.4-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v4.5-preview
 
 Sample files:
 
@@ -61,6 +61,7 @@ Sample files:
 - [AI Agent Model Routing Matrix Gist](https://gist.github.com/ivelly42/6e88c810c57fca1d5c2d7ff35907cb5c)
 - [AI Agent Prompt Regression Test Gist](https://gist.github.com/ivelly42/409734bff33d301a847a83f46ea21b31)
 - [AI Agent Acceptance Test Suite Gist](https://gist.github.com/ivelly42/d9aacd5506dccc9b5d002ef6fd973c72)
+- [AI Agent Run Audit Gist](https://gist.github.com/ivelly42/4c9c05a9823cb88148ff5a658a3607d4)
 - [AI Agent Security Review Checklist Gist](https://gist.github.com/ivelly42/172041903d2491a4856f9c585f89364a)
 - [AI Agent Incident Report Gist](https://gist.github.com/ivelly42/ec9207c47d152642247989aac2dcad7b)
 - [AI Agent Operating System Scorecard Gist](https://gist.github.com/ivelly42/37a14ab70b537aeaef1156549876124b)
@@ -75,6 +76,7 @@ Sample files:
 - [AI Agent Model Routing Matrix](ai-agent-model-routing-matrix.md)
 - [AI Agent Prompt Regression Test](ai-agent-prompt-regression-test.md)
 - [AI Agent Acceptance Test Suite](ai-agent-acceptance-test-suite.md)
+- [AI Agent Run Audit Template](ai-agent-run-audit-template.md)
 - [AI Agent Security Review Checklist](ai-agent-security-review-checklist.md)
 - [AI Agent Incident Report Template](ai-agent-incident-report-template.md)
 - [AI Agent Operating System Template](ai-agent-operating-system-template.md)
@@ -128,7 +130,7 @@ Paid pack contents:
 - 15-minute quickstart guide
 - CSV import guide
 - Six CSV starter databases
-- Twenty-six operating templates
+- Twenty-seven operating templates
 - social launch copy
 - outreach copy
 
@@ -146,4 +148,4 @@ Launch surface is live-ready. Paid checkout is blocked until an authenticated se
 
 ## Search Keywords
 
-Codex vs Claude Code vs Cursor, Claude Code vs Cursor, Codex vs Cursor, AI coding agent comparison, AI agent operating system template, AI agent ops maturity scorecard, AI agent ops template, AI agent incident report template, AI agent postmortem template, AI agent failure postmortem, AI agent security review checklist, AI agent security checklist, AI agent privacy review, AI agent acceptance test suite, AI agent acceptance criteria, AI agent output evaluation, AI agent prompt regression test, prompt regression testing for AI agents, AI agent prompt eval, AI agent model routing matrix, AI model routing, Codex model routing, Claude Code model selection, AI agent cost leak audit, AI agent cost audit, Claude Code cost tracker, Codex cost tracker, Codex workflow tracker, Claude Code workflow tracker, Cursor workflow tracker, AI agent workflow comparison, agent workflow stack, purchase approval brief, AI agent purchase approval, buyer intake packet, AI agent buyer intake, buyer decision matrix, checkout readiness FAQ, AI agent buyer objections, digital product checkout checklist, AI agent ROI decision, paid delivery manifest, digital product delivery checklist, AI agent verification command library, AI agent PR review scorecard, AI code review checklist, AI agent revenue proof template, AI agent scope freeze template, AI agent handoff template, AI agent Notion import guide, Claude Code run log, AI coding agent verification ledger, prompt version tracker, Notion template for AI builders, agent failure modes database, AI agent weekly review, AI coding agent release gate, AI code review brief, AI agent RCA template, AI coding agent run brief, Codex workflow tracker template.
+Codex vs Claude Code vs Cursor, Claude Code vs Cursor, Codex vs Cursor, AI coding agent comparison, AI agent operating system template, AI agent ops maturity scorecard, AI agent ops template, AI agent run audit template, AI agent output audit, AI coding agent audit checklist, AI agent incident report template, AI agent postmortem template, AI agent failure postmortem, AI agent security review checklist, AI agent security checklist, AI agent privacy review, AI agent acceptance test suite, AI agent acceptance criteria, AI agent output evaluation, AI agent prompt regression test, prompt regression testing for AI agents, AI agent prompt eval, AI agent model routing matrix, AI model routing, Codex model routing, Claude Code model selection, AI agent cost leak audit, AI agent cost audit, Claude Code cost tracker, Codex cost tracker, Codex workflow tracker, Claude Code workflow tracker, Cursor workflow tracker, AI agent workflow comparison, agent workflow stack, purchase approval brief, AI agent purchase approval, buyer intake packet, AI agent buyer intake, buyer decision matrix, checkout readiness FAQ, AI agent buyer objections, digital product checkout checklist, AI agent ROI decision, paid delivery manifest, digital product delivery checklist, AI agent verification command library, AI agent PR review scorecard, AI code review checklist, AI agent revenue proof template, AI agent scope freeze template, AI agent handoff template, AI agent Notion import guide, Claude Code run log, AI coding agent verification ledger, prompt version tracker, Notion template for AI builders, agent failure modes database, AI agent weekly review, AI coding agent release gate, AI code review brief, AI agent RCA template, AI coding agent run brief, Codex workflow tracker template.

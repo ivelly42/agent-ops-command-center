@@ -14,6 +14,7 @@ The full paid pack is not published publicly. This index links every public prev
 - AI agent model routing matrix: https://ivelly42.github.io/agent-ops-command-center/ai-agent-model-routing-matrix.md
 - AI agent prompt regression test: https://ivelly42.github.io/agent-ops-command-center/ai-agent-prompt-regression-test.md
 - AI agent acceptance test suite: https://ivelly42.github.io/agent-ops-command-center/ai-agent-acceptance-test-suite.md
+- AI agent run audit template: https://ivelly42.github.io/agent-ops-command-center/ai-agent-run-audit-template.md
 - AI agent security review checklist: https://ivelly42.github.io/agent-ops-command-center/ai-agent-security-review-checklist.md
 - AI agent incident report template: https://ivelly42.github.io/agent-ops-command-center/ai-agent-incident-report-template.md
 - AI agent operating system template: https://ivelly42.github.io/agent-ops-command-center/ai-agent-operating-system-template.md
@@ -65,12 +66,13 @@ The full paid pack is not published publicly. This index links every public prev
 - AI agent model routing matrix Gist: https://gist.github.com/ivelly42/6e88c810c57fca1d5c2d7ff35907cb5c
 - AI agent prompt regression test Gist: https://gist.github.com/ivelly42/409734bff33d301a847a83f46ea21b31
 - AI agent acceptance test suite Gist: https://gist.github.com/ivelly42/d9aacd5506dccc9b5d002ef6fd973c72
+- AI agent run audit Gist: https://gist.github.com/ivelly42/4c9c05a9823cb88148ff5a658a3607d4
 - AI agent security review checklist Gist: https://gist.github.com/ivelly42/172041903d2491a4856f9c585f89364a
 - AI agent incident report template Gist: https://gist.github.com/ivelly42/ec9207c47d152642247989aac2dcad7b
 - AI agent operating system scorecard Gist: https://gist.github.com/ivelly42/37a14ab70b537aeaef1156549876124b
 - Codex vs Claude Code vs Cursor workflow picker Gist: https://gist.github.com/ivelly42/75ce3130a95d83a247de6f16eee0060c
 - GitHub issue index: https://github.com/ivelly42/agent-ops-command-center/issues/2
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v4.4-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v4.5-preview
 - Demand metrics: https://ivelly42.github.io/agent-ops-command-center/metrics/status.json
 
 ## What The Full Pack Adds
@@ -100,6 +102,7 @@ The full paid pack is not published publicly. This index links every public prev
 | Model Routing Matrix | Choose agent, model, review path, fallback, and verification before a run |
 | Prompt Regression Test | Compare prompt versions against scope, verification, stop, and handoff test cases |
 | Acceptance Test Suite | Accept or hold AI-agent output using objective, scope, behavior, regression, security, handoff, and revenue proof |
+| Run Audit | Audit objective, scope, proof, cost, handoff, security, and revenue claims after important runs |
 | Security Review Checklist | Review secrets, personal data, auth, payment, public sharing, dependency, destructive-action, and prompt-leak risk |
 | Incident Report | Record timeline, impact, root cause, missed detection, recovery, and prevention rule after agent incidents |
 | Agent Ops Maturity Scorecard | Score run capture, scope control, verification, prompt control, cost control, failure handling, handoff, and revenue proof |
