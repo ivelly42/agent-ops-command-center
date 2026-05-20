@@ -10,6 +10,12 @@ Public site: https://ivelly42.github.io/agent-ops-command-center/
 
 Early access: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml
 
+Support: [SUPPORT.md](SUPPORT.md)
+
+Contributing: [CONTRIBUTING.md](CONTRIBUTING.md)
+
+Security: [SECURITY.md](SECURITY.md)
+
 IndexNow key file: https://ivelly42.github.io/agent-ops-command-center/b18a9177af0e03eb7a80a5ace792472641b328df9a607f1f55db81b7098e5656.txt
 
 ## What It Solves
@@ -106,6 +112,9 @@ Sample files:
 - [Codex and Claude Code Run Log Template](codex-claude-run-log-template.md)
 - [AI Agent Ops Preflight Checklist](checklist.md)
 - [launch-copy.md](launch-copy.md)
+- [Support](SUPPORT.md)
+- [Contributing](CONTRIBUTING.md)
+- [Security](SECURITY.md)
 
 ## Paid Pack
 

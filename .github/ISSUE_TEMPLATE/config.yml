@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Early access order request
+    url: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml
+    about: Record purchase intent for the full paid pack.
+  - name: Product questions
+    url: https://github.com/ivelly42/agent-ops-command-center/discussions/1
+    about: Ask questions about the preview, paid pack contents, or checkout status.
+  - name: Demand metrics
+    url: https://ivelly42.github.io/agent-ops-command-center/metrics/status.json
+    about: View current public order, download, and revenue metrics.

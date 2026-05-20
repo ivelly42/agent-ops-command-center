@@ -8,6 +8,12 @@ Preview: https://ivelly42.github.io/agent-ops-command-center/preview.md
 
 IndexNow key file: https://ivelly42.github.io/agent-ops-command-center/b18a9177af0e03eb7a80a5ace792472641b328df9a607f1f55db81b7098e5656.txt
 
+Support: https://ivelly42.github.io/agent-ops-command-center/SUPPORT.md
+
+Contributing: https://ivelly42.github.io/agent-ops-command-center/CONTRIBUTING.md
+
+Security: https://ivelly42.github.io/agent-ops-command-center/SECURITY.md
+
 Product tour: https://ivelly42.github.io/agent-ops-command-center/product-tour.md
 
 ROI calculator: https://ivelly42.github.io/agent-ops-command-center/agent-ops-roi-calculator.md
