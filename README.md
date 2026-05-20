@@ -28,7 +28,7 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v1.3-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v1.4-preview
 
 Sample files:
 
@@ -43,6 +43,7 @@ Sample files:
 - [AI Coding Agent Verification Ledger Template](verification-ledger-template.md)
 - [AI Coding Agent Failure Modes Database Template](failure-modes-database-template.md)
 - [AI Coding Agent Prompt Library Template](prompt-library-template.md)
+- [AI Agent Weekly Operator Review Template](weekly-operator-review-template.md)
 - [sample/run_log_sample.csv](sample/run_log_sample.csv)
 - [sample/cost_tracker_sample.csv](sample/cost_tracker_sample.csv)
 - [sample/agent_registry_sample.csv](sample/agent_registry_sample.csv)
@@ -83,4 +84,4 @@ Launch surface is live-ready. Paid checkout is blocked until an authenticated se
 
 ## Search Keywords
 
-AI agent ops template, Codex workflow tracker, Claude Code run log, AI coding agent verification ledger, prompt version tracker, Notion template for AI builders, agent failure modes database.
+AI agent ops template, Codex workflow tracker, Claude Code run log, AI coding agent verification ledger, prompt version tracker, Notion template for AI builders, agent failure modes database, AI agent weekly review.
