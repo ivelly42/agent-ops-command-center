@@ -1,3 +1,5 @@
 Failure,Symptom,Root Cause,Detection,Fix,Prevention Rule,Severity,Last Seen
 False completion,Agent says done without evidence,Verification was optional,No command output,Run exact check,No done without pass signal,High,2026-05-21
 Scope drift,Unrelated files changed,Allowed scope absent,Diff includes unrelated paths,Revert only own unrelated edits,Write allowed files before edits,Medium,2026-05-21
+Credential risk,Agent tries account or payment action,Stop condition missing,Login or payout screen appears,Pause and ask,Credentials and payments are hard stops,High,2026-05-21
+Weak launch path,Product exists but no checkout,Sales channel not authenticated,Checkout URL missing,Create lead path and stop at payment setup,No revenue claim without dashboard proof,High,2026-05-21
