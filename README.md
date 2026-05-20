@@ -34,6 +34,7 @@ Sample files:
 
 - [sample/run_log_sample.csv](sample/run_log_sample.csv)
 - [sample/failure_modes_sample.csv](sample/failure_modes_sample.csv)
+- [Codex and Claude Code Run Log Template](codex-claude-run-log-template.md)
 - [AI Agent Ops Preflight Checklist](checklist.md)
 - [launch-copy.md](launch-copy.md)
 
