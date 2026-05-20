@@ -49,6 +49,7 @@ Do not buy if your current workflow already proves objective, files changed, ver
 
 - Landing page: https://ivelly42.github.io/agent-ops-command-center/
 - Cost tracker: https://ivelly42.github.io/agent-ops-command-center/cost-tracker-template.md
+- Model routing matrix: https://ivelly42.github.io/agent-ops-command-center/ai-agent-model-routing-matrix.md
 - ROI calculator: https://ivelly42.github.io/agent-ops-command-center/agent-ops-roi-calculator.md
 - Workflow stack comparison: https://ivelly42.github.io/agent-ops-command-center/ai-agent-workflow-stack-comparison.md
 - Buyer decision matrix: https://ivelly42.github.io/agent-ops-command-center/buyer-decision-matrix.md
