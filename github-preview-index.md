@@ -31,6 +31,7 @@ The full paid pack is not published publicly. This index links every public prev
 - Paid delivery manifest: https://ivelly42.github.io/agent-ops-command-center/paid-delivery-manifest.md
 - Buyer decision matrix: https://ivelly42.github.io/agent-ops-command-center/buyer-decision-matrix.md
 - Checkout readiness FAQ: https://ivelly42.github.io/agent-ops-command-center/checkout-readiness-faq.md
+- Buyer intake packet: https://ivelly42.github.io/agent-ops-command-center/buyer-intake-packet.md
 - Run log template: https://ivelly42.github.io/agent-ops-command-center/codex-claude-run-log-template.md
 - Preflight checklist: https://ivelly42.github.io/agent-ops-command-center/checklist.md
 - Gist mirror: https://gist.github.com/ivelly42/c65a80192a848892d1196242027dc7a9
@@ -47,8 +48,9 @@ The full paid pack is not published publicly. This index links every public prev
 - Paid delivery manifest Gist: https://gist.github.com/ivelly42/417991e7e2694d5e243f4319ce680f0f
 - Buyer decision matrix Gist: https://gist.github.com/ivelly42/348c406da907bf02c1bf2be20832906c
 - Checkout readiness FAQ Gist: https://gist.github.com/ivelly42/f82bd8c423d1c01be2c838d14abeccba
+- Buyer intake packet Gist: https://gist.github.com/ivelly42/32252d208c081993f6ad753929aa70bf
 - GitHub issue index: https://github.com/ivelly42/agent-ops-command-center/issues/2
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v3.3-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v3.4-preview
 - Demand metrics: https://ivelly42.github.io/agent-ops-command-center/metrics/status.json
 
 ## What The Full Pack Adds
@@ -71,6 +73,7 @@ The full paid pack is not published publicly. This index links every public prev
 | Paid Delivery Manifest | Record paid delivery, archive digest, and buyer acknowledgement |
 | Buyer Decision Matrix | Compare cleanup cost, pack surfaces, and buy signals |
 | Checkout Readiness FAQ | Answer buyer objections and list payment proof needed |
+| Buyer Intake Packet | Capture buyer fit, preferred checkout, receipt needs, and blockers |
 | Weekly Review | Improve agent workflow each week |
 
 ## Early Access
