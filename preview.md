@@ -29,7 +29,7 @@ That is enough structure to reduce repeated mistakes without turning your workfl
 
 - Notion-ready workspace template in Markdown.
 - Six CSV starter databases.
-- Run brief, review brief, PR review scorecard, verification command library, and failure RCA templates.
+- Run brief, review brief, PR review scorecard, verification command library, paid delivery manifest, and failure RCA templates.
 - Weekly operator review ritual.
 - Launch-ready examples for coding-agent workflows.
 

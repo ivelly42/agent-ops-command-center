@@ -28,6 +28,7 @@ The full paid pack is not published publicly. This index links every public prev
 - AI agent Notion import guide: https://ivelly42.github.io/agent-ops-command-center/ai-agent-notion-import-guide.md
 - AI agent PR review scorecard: https://ivelly42.github.io/agent-ops-command-center/ai-agent-pr-review-scorecard.md
 - AI agent verification command library: https://ivelly42.github.io/agent-ops-command-center/ai-agent-verification-command-library.md
+- Paid delivery manifest: https://ivelly42.github.io/agent-ops-command-center/paid-delivery-manifest.md
 - Run log template: https://ivelly42.github.io/agent-ops-command-center/codex-claude-run-log-template.md
 - Preflight checklist: https://ivelly42.github.io/agent-ops-command-center/checklist.md
 - Gist mirror: https://gist.github.com/ivelly42/c65a80192a848892d1196242027dc7a9
@@ -41,8 +42,9 @@ The full paid pack is not published publicly. This index links every public prev
 - AI agent Notion import guide Gist: https://gist.github.com/ivelly42/0bdf3615d09080c67f8263ef057bd04b
 - AI agent PR review scorecard Gist: https://gist.github.com/ivelly42/054eee695f3b8dbf9c880456b086459f
 - AI agent verification command library Gist: https://gist.github.com/ivelly42/0f35039dbb5e455cfe36c316632f96fb
+- Paid delivery manifest Gist: https://gist.github.com/ivelly42/417991e7e2694d5e243f4319ce680f0f
 - GitHub issue index: https://github.com/ivelly42/agent-ops-command-center/issues/2
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v3.0-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v3.1-preview
 - Demand metrics: https://ivelly42.github.io/agent-ops-command-center/metrics/status.json
 
 ## What The Full Pack Adds
@@ -62,6 +64,7 @@ The full paid pack is not published publicly. This index links every public prev
 | Notion Import | Turn CSV files and templates into a usable workspace |
 | PR Review Scorecard | Score AI-written code before merge |
 | Verification Command Library | Choose proof that matches the changed behavior |
+| Paid Delivery Manifest | Record paid delivery, archive digest, and buyer acknowledgement |
 | Weekly Review | Improve agent workflow each week |
 
 ## Early Access
