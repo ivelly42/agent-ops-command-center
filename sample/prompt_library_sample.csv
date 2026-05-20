@@ -1,0 +1,4 @@
+Prompt Name,Use Case,Current Version,Prompt Text,Last Changed,Change Reason,Known Failure,Eval Score
+Implementation Brief,Coding,v1,"Objective; Done When; Allowed Scope; Stop Conditions; Verification.",2026-05-21,Initial version,Too broad if scope omitted,4
+Review Brief,Code review,v1,"Find bugs first. Use file and line references. Keep summary short.",2026-05-21,Initial version,Can over-index on style,4
+Release Gate,Shipping,v1,"List release criteria; map each to evidence; mark missing evidence as not done.",2026-05-21,Initial version,Can become checklist theater without real commands,5
