@@ -44,6 +44,10 @@ Acceptance test suite:
 
 https://ivelly42.github.io/agent-ops-command-center/ai-agent-acceptance-test-suite.md
 
+Security review checklist:
+
+https://ivelly42.github.io/agent-ops-command-center/ai-agent-security-review-checklist.md
+
 ## Starter Prompts
 
 | Prompt Name | Use Case | Known Failure |

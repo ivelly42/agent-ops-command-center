@@ -432,6 +432,7 @@
         <a href="ai-agent-model-routing-matrix.md">Routing</a>
         <a href="ai-agent-prompt-regression-test.md">Prompt Test</a>
         <a href="ai-agent-acceptance-test-suite.md">Acceptance</a>
+        <a href="ai-agent-security-review-checklist.md">Security</a>
         <a href="agent-registry-template.md">Agents</a>
         <a href="prompt-library-template.md">Prompts</a>
         <a href="verification-ledger-template.md">Ledger</a>
@@ -482,6 +483,8 @@
             <a class="button" href="https://gist.github.com/ivelly42/409734bff33d301a847a83f46ea21b31">Prompt Gist</a>
             <a class="button" href="ai-agent-acceptance-test-suite.md">Acceptance test</a>
             <a class="button" href="https://gist.github.com/ivelly42/d9aacd5506dccc9b5d002ef6fd973c72">Acceptance Gist</a>
+            <a class="button" href="ai-agent-security-review-checklist.md">Security review</a>
+            <a class="button" href="https://gist.github.com/ivelly42/172041903d2491a4856f9c585f89364a">Security Gist</a>
             <a class="button" href="codex-workflow-tracker-template.md">Codex tracker</a>
             <a class="button" href="https://gist.github.com/ivelly42/cbadc556d2d75b01d5dde8d8df0e18c6">Codex Gist</a>
             <a class="button" href="claude-code-workflow-tracker-template.md">Claude tracker</a>
@@ -514,13 +517,13 @@
             <a class="button" href="ai-agent-workflow-stack-comparison.md">Workflow comparison</a>
             <a class="button" href="https://gist.github.com/ivelly42/5d17877646be74639b374e36211f976e">Comparison Gist</a>
             <a class="button" href="github-preview-index.md">Preview index</a>
-            <a class="button" href="https://github.com/ivelly42/agent-ops-command-center/releases/tag/v4.0-preview">Preview release</a>
+            <a class="button" href="https://github.com/ivelly42/agent-ops-command-center/releases/tag/v4.1-preview">Preview release</a>
             <span class="price">$29 target price</span>
           </div>
           <p class="hero-note">Checkout is not live yet. The order request records purchase intent and preferred checkout; revenue is counted only after checkout, receipt, or seller-dashboard evidence exists.</p>
           <div class="proof-row" aria-label="Product contents">
             <div class="proof">6 databases</div>
-            <div class="proof">22 templates</div>
+            <div class="proof">23 templates</div>
             <div class="proof">Notion + CSV</div>
             <div class="proof">No paid checkout yet</div>
           </div>
@@ -608,6 +611,10 @@
           <article class="feature">
             <h3>Acceptance Test Suite</h3>
             <p>Accept or hold agent output with objective, scope, regression, security, handoff, and revenue proof.</p>
+          </article>
+          <article class="feature">
+            <h3>Security Review Checklist</h3>
+            <p>Review secrets, personal data, auth, payment, dependency, public sharing, and prompt-leak risk.</p>
           </article>
           <article class="feature">
             <h3>Failure Modes</h3>
@@ -726,12 +733,24 @@
         </div>
       </section>
 
+      <section id="security-review-checklist">
+        <h2 class="section-title">Security Review Checklist</h2>
+        <div class="order-box">
+          <div>
+            <h2>Share agent output only after safety checks</h2>
+            <p>Use the public security checklist to review secrets, personal data, auth and permission risk, payment claims, public assets, dependencies, destructive actions, and prompt leakage.</p>
+          </div>
+          <a class="button" href="ai-agent-security-review-checklist.md">Open checklist</a>
+          <a class="button" href="https://gist.github.com/ivelly42/172041903d2491a4856f9c585f89364a">Open Gist</a>
+        </div>
+      </section>
+
       <section id="gist-mirror">
         <h2 class="section-title">Public Gist Mirror</h2>
         <div class="order-box">
           <div>
             <h2>Copy the compact run log anywhere</h2>
-            <p>Public Gists mirror the compact run log, Codex workflow tracker, Claude Code workflow tracker, Cursor workflow tracker, scope freeze, revenue proof, Notion import guide, PR review scorecard, verification command library, paid delivery manifest, buyer decision matrix, checkout readiness FAQ, buyer intake packet, purchase approval brief, workflow stack comparison, cost leak audit, model routing matrix, prompt regression test, acceptance test suite, verification ledger, and handoff template outside the launch repo, with early-access links back to the full pack.</p>
+            <p>Public Gists mirror the compact run log, Codex workflow tracker, Claude Code workflow tracker, Cursor workflow tracker, scope freeze, revenue proof, Notion import guide, PR review scorecard, verification command library, paid delivery manifest, buyer decision matrix, checkout readiness FAQ, buyer intake packet, purchase approval brief, workflow stack comparison, cost leak audit, model routing matrix, prompt regression test, acceptance test suite, security review checklist, verification ledger, and handoff template outside the launch repo, with early-access links back to the full pack.</p>
           </div>
           <a class="button" href="https://gist.github.com/ivelly42/c65a80192a848892d1196242027dc7a9">Open Gist</a>
           <a class="button" href="https://gist.github.com/ivelly42/cbadc556d2d75b01d5dde8d8df0e18c6">Codex tracker Gist</a>
@@ -754,6 +773,7 @@
           <a class="button" href="https://gist.github.com/ivelly42/6e88c810c57fca1d5c2d7ff35907cb5c">Routing Gist</a>
           <a class="button" href="https://gist.github.com/ivelly42/409734bff33d301a847a83f46ea21b31">Prompt Test Gist</a>
           <a class="button" href="https://gist.github.com/ivelly42/d9aacd5506dccc9b5d002ef6fd973c72">Acceptance Gist</a>
+          <a class="button" href="https://gist.github.com/ivelly42/172041903d2491a4856f9c585f89364a">Security Gist</a>
         </div>
       </section>
 
@@ -1089,7 +1109,7 @@
         <div class="faq">
           <details open>
             <summary>What do I get in the full pack?</summary>
-            <p>A Notion-ready Markdown workspace, 15-minute quickstart, import guide, six CSV database imports, twenty-two operating templates, weekly review, and launch examples for AI-agent workflows.</p>
+            <p>A Notion-ready Markdown workspace, 15-minute quickstart, import guide, six CSV database imports, twenty-three operating templates, weekly review, and launch examples for AI-agent workflows.</p>
           </details>
           <details>
             <summary>Who is it for?</summary>

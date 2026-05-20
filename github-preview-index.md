@@ -14,6 +14,7 @@ The full paid pack is not published publicly. This index links every public prev
 - AI agent model routing matrix: https://ivelly42.github.io/agent-ops-command-center/ai-agent-model-routing-matrix.md
 - AI agent prompt regression test: https://ivelly42.github.io/agent-ops-command-center/ai-agent-prompt-regression-test.md
 - AI agent acceptance test suite: https://ivelly42.github.io/agent-ops-command-center/ai-agent-acceptance-test-suite.md
+- AI agent security review checklist: https://ivelly42.github.io/agent-ops-command-center/ai-agent-security-review-checklist.md
 - Agent registry template: https://ivelly42.github.io/agent-ops-command-center/agent-registry-template.md
 - Verification ledger template: https://ivelly42.github.io/agent-ops-command-center/verification-ledger-template.md
 - Failure modes database template: https://ivelly42.github.io/agent-ops-command-center/failure-modes-database-template.md
@@ -61,8 +62,9 @@ The full paid pack is not published publicly. This index links every public prev
 - AI agent model routing matrix Gist: https://gist.github.com/ivelly42/6e88c810c57fca1d5c2d7ff35907cb5c
 - AI agent prompt regression test Gist: https://gist.github.com/ivelly42/409734bff33d301a847a83f46ea21b31
 - AI agent acceptance test suite Gist: https://gist.github.com/ivelly42/d9aacd5506dccc9b5d002ef6fd973c72
+- AI agent security review checklist Gist: https://gist.github.com/ivelly42/172041903d2491a4856f9c585f89364a
 - GitHub issue index: https://github.com/ivelly42/agent-ops-command-center/issues/2
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v4.0-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v4.1-preview
 - Demand metrics: https://ivelly42.github.io/agent-ops-command-center/metrics/status.json
 
 ## What The Full Pack Adds
@@ -92,6 +94,7 @@ The full paid pack is not published publicly. This index links every public prev
 | Model Routing Matrix | Choose agent, model, review path, fallback, and verification before a run |
 | Prompt Regression Test | Compare prompt versions against scope, verification, stop, and handoff test cases |
 | Acceptance Test Suite | Accept or hold AI-agent output using objective, scope, behavior, regression, security, handoff, and revenue proof |
+| Security Review Checklist | Review secrets, personal data, auth, payment, public sharing, dependency, destructive-action, and prompt-leak risk |
 | Weekly Review | Improve agent workflow each week |
 
 ## Early Access

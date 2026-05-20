@@ -47,6 +47,7 @@ Hold the run if:
 - Prompt regression test: https://ivelly42.github.io/agent-ops-command-center/ai-agent-prompt-regression-test.md
 - Verification command library: https://ivelly42.github.io/agent-ops-command-center/ai-agent-verification-command-library.md
 - PR review scorecard: https://ivelly42.github.io/agent-ops-command-center/ai-agent-pr-review-scorecard.md
+- Security review checklist: https://ivelly42.github.io/agent-ops-command-center/ai-agent-security-review-checklist.md
 - Model routing matrix: https://ivelly42.github.io/agent-ops-command-center/ai-agent-model-routing-matrix.md
 - AI Agent Acceptance Test Suite Gist: https://gist.github.com/ivelly42/d9aacd5506dccc9b5d002ef6fd973c72
 - Demand metrics: https://ivelly42.github.io/agent-ops-command-center/metrics/status.json

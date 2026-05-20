@@ -43,6 +43,7 @@ Promote the new prompt only if:
 - Model routing matrix: https://ivelly42.github.io/agent-ops-command-center/ai-agent-model-routing-matrix.md
 - Cost leak audit: https://ivelly42.github.io/agent-ops-command-center/ai-agent-cost-leak-audit.md
 - Acceptance test suite: https://ivelly42.github.io/agent-ops-command-center/ai-agent-acceptance-test-suite.md
+- Security review checklist: https://ivelly42.github.io/agent-ops-command-center/ai-agent-security-review-checklist.md
 - Prompt Regression Test Gist: https://gist.github.com/ivelly42/409734bff33d301a847a83f46ea21b31
 - Demand metrics: https://ivelly42.github.io/agent-ops-command-center/metrics/status.json
 
