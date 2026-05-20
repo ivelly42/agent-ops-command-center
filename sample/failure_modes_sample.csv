@@ -1,0 +1,3 @@
+Failure,Symptom,Root Cause,Detection,Fix,Prevention Rule,Severity,Last Seen
+False completion,Agent says done without evidence,Verification was optional,No command output,Run exact check,No done without pass signal,High,2026-05-21
+Scope drift,Unrelated files changed,Allowed scope absent,Diff includes unrelated paths,Revert only own unrelated edits,Write allowed files before edits,Medium,2026-05-21

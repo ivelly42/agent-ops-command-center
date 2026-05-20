@@ -1,0 +1,3 @@
+Date,Project,Objective,Agent,Inputs,Output Link,Files Changed,Verification,Result,Follow-up,Cost,Time Saved
+2026-05-21,Example App,Fix checkout error,Codex Implementation Agent,Issue link and failing test,PR or local diff,src/checkout.ts,npm test -- checkout,Pass,Add regression note,$0.00,45m
+2026-05-21,Example Site,Check mobile landing page,Browser QA Agent,Pages URL,Screenshot folder,None,Mobile screenshot pass,Pass,Publish screenshot,$0.00,20m

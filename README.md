@@ -6,7 +6,7 @@ This public repo is the launch surface and preview. The paid product ZIP is not 
 
 Public site: https://ivelly42.github.io/agent-ops-command-center/
 
-Early access: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.md
+Early access: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml
 
 ## What It Solves
 
@@ -26,7 +26,12 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v0.1-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v0.2-preview
+
+Sample files:
+
+- [sample/run_log_sample.csv](sample/run_log_sample.csv)
+- [sample/failure_modes_sample.csv](sample/failure_modes_sample.csv)
 
 ## Paid Pack
 
@@ -48,7 +53,7 @@ Paid pack contents:
 
 Payment checkout is not live yet. To request early access, open an issue with the `order-request` template.
 
-Early access issue: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.md
+Early access issue: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml
 
 Announcement discussion: https://github.com/ivelly42/agent-ops-command-center/discussions/1
 

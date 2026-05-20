@@ -1,0 +1,48 @@
+name: Order request
+description: Request early access to Agent Ops Command Center
+title: "Order request: Agent Ops Command Center"
+labels: ["order-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Request early access to the full Agent Ops Command Center pack.
+
+        Price target: $29.
+        Revenue target for this launch: 7 paid orders = $203 gross.
+
+        Checkout is not live yet. This issue records demand and preferred checkout.
+  - type: dropdown
+    id: checkout
+    attributes:
+      label: Preferred checkout
+      options:
+        - Gumroad
+        - Ko-fi
+        - Lemon Squeezy
+        - GitHub Sponsors
+        - Other
+    validations:
+      required: true
+  - type: checkboxes
+    id: price
+    attributes:
+      label: Price acknowledgement
+      options:
+        - label: I understand the full pack target price is $29.
+          required: true
+  - type: textarea
+    id: workflow
+    attributes:
+      label: Your AI-agent workflow
+      description: Which tools do you use?
+      placeholder: Codex, Claude Code, Cursor, local agents, browser QA, review agents...
+    validations:
+      required: false
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      placeholder: Anything that would make the template more useful.
+    validations:
+      required: false
