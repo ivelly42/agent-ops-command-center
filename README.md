@@ -28,7 +28,7 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v1.8-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v1.9-preview
 
 Sample files:
 
@@ -48,6 +48,7 @@ Sample files:
 - [AI Coding Agent Review Brief Template](review-brief-template.md)
 - [AI Coding Agent Failure RCA Template](failure-rca-template.md)
 - [AI Coding Agent Run Brief Template](run-brief-template.md)
+- [Codex Workflow Tracker Template](codex-workflow-tracker-template.md)
 - [sample/run_log_sample.csv](sample/run_log_sample.csv)
 - [sample/cost_tracker_sample.csv](sample/cost_tracker_sample.csv)
 - [sample/agent_registry_sample.csv](sample/agent_registry_sample.csv)
@@ -88,4 +89,4 @@ Launch surface is live-ready. Paid checkout is blocked until an authenticated se
 
 ## Search Keywords
 
-AI agent ops template, Codex workflow tracker, Claude Code run log, AI coding agent verification ledger, prompt version tracker, Notion template for AI builders, agent failure modes database, AI agent weekly review, AI coding agent release gate, AI code review brief, AI agent RCA template, AI coding agent run brief.
+AI agent ops template, Codex workflow tracker, Claude Code run log, AI coding agent verification ledger, prompt version tracker, Notion template for AI builders, agent failure modes database, AI agent weekly review, AI coding agent release gate, AI code review brief, AI agent RCA template, AI coding agent run brief, Codex workflow tracker template.

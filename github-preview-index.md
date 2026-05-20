@@ -19,11 +19,12 @@ The full paid pack is not published publicly. This index links every public prev
 - Review brief template: https://ivelly42.github.io/agent-ops-command-center/review-brief-template.md
 - Failure RCA template: https://ivelly42.github.io/agent-ops-command-center/failure-rca-template.md
 - Run brief template: https://ivelly42.github.io/agent-ops-command-center/run-brief-template.md
+- Codex workflow tracker: https://ivelly42.github.io/agent-ops-command-center/codex-workflow-tracker-template.md
 - Run log template: https://ivelly42.github.io/agent-ops-command-center/codex-claude-run-log-template.md
 - Preflight checklist: https://ivelly42.github.io/agent-ops-command-center/checklist.md
 - Gist mirror: https://gist.github.com/ivelly42/c65a80192a848892d1196242027dc7a9
 - GitHub issue index: https://github.com/ivelly42/agent-ops-command-center/issues/2
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v1.8-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v1.9-preview
 - Demand metrics: https://ivelly42.github.io/agent-ops-command-center/metrics/status.json
 
 ## What The Full Pack Adds

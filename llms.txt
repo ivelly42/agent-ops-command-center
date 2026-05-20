@@ -30,6 +30,8 @@ Failure RCA template: https://ivelly42.github.io/agent-ops-command-center/failur
 
 Run brief template: https://ivelly42.github.io/agent-ops-command-center/run-brief-template.md
 
+Codex workflow tracker: https://ivelly42.github.io/agent-ops-command-center/codex-workflow-tracker-template.md
+
 Public Gist mirror: https://gist.github.com/ivelly42/c65a80192a848892d1196242027dc7a9
 
 Preview index: https://ivelly42.github.io/agent-ops-command-center/github-preview-index.md
@@ -38,7 +40,7 @@ GitHub issue index: https://github.com/ivelly42/agent-ops-command-center/issues/
 
 Early access request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v1.8-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v1.9-preview
 
 Sample run log CSV: https://ivelly42.github.io/agent-ops-command-center/sample/run_log_sample.csv
 

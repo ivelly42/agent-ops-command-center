@@ -58,11 +58,12 @@ The pack breaks even if it prevents roughly one hour of cleanup time for a build
 - Landing page: https://ivelly42.github.io/agent-ops-command-center/
 - Product tour: https://ivelly42.github.io/agent-ops-command-center/product-tour.md
 - ROI calculator: https://ivelly42.github.io/agent-ops-command-center/agent-ops-roi-calculator.md
+- Codex workflow tracker: https://ivelly42.github.io/agent-ops-command-center/codex-workflow-tracker-template.md
 - Run brief template: https://ivelly42.github.io/agent-ops-command-center/run-brief-template.md
 - Run log template: https://ivelly42.github.io/agent-ops-command-center/codex-claude-run-log-template.md
 - Failure RCA template: https://ivelly42.github.io/agent-ops-command-center/failure-rca-template.md
 - Preflight checklist: https://ivelly42.github.io/agent-ops-command-center/checklist.md
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v1.8-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v1.9-preview
 - Demand metrics: https://ivelly42.github.io/agent-ops-command-center/metrics/status.json
 
 ## Request Early Access
