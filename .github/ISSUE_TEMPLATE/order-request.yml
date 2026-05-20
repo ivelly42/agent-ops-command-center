@@ -11,9 +11,10 @@ body:
         Price target: $29.
         Revenue target for this launch: 7 paid orders = $203 gross.
 
-        Checkout is not live yet. This issue records demand and preferred checkout.
+        Checkout is not live yet. This issue records purchase intent and preferred checkout. It is not counted as revenue until a real checkout, receipt, or seller dashboard exists.
         Product tour: https://ivelly42.github.io/agent-ops-command-center/product-tour.md
         ROI calculator: https://ivelly42.github.io/agent-ops-command-center/agent-ops-roi-calculator.md
+        Preview index: https://ivelly42.github.io/agent-ops-command-center/github-preview-index.md
         Public Gist mirror: https://gist.github.com/ivelly42/c65a80192a848892d1196242027dc7a9
   - type: dropdown
     id: checkout
@@ -47,11 +48,19 @@ body:
     attributes:
       label: Purchase intent
       options:
+        - I am ready to pay $29 when checkout is ready
         - I want the full pack when checkout is ready
         - I want to evaluate the preview first
         - I only want updates for now
     validations:
       required: true
+  - type: checkboxes
+    id: delivery
+    attributes:
+      label: Delivery acknowledgement
+      options:
+        - label: I understand the paid ZIP is not public and will be delivered only after a real checkout exists.
+          required: true
   - type: textarea
     id: notes
     attributes:

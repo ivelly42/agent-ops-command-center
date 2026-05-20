@@ -28,7 +28,7 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v1.9-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v2.0-preview
 
 Sample files:
 
@@ -77,7 +77,7 @@ Paid pack contents:
 
 ## Order
 
-Payment checkout is not live yet. To request early access, open an issue with the `order-request` template.
+Payment checkout is not live yet. To record purchase intent, open an issue with the `order-request` template.
 
 Early access issue: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml
 

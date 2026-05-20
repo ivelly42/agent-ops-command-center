@@ -24,7 +24,7 @@ The full paid pack is not published publicly. This index links every public prev
 - Preflight checklist: https://ivelly42.github.io/agent-ops-command-center/checklist.md
 - Gist mirror: https://gist.github.com/ivelly42/c65a80192a848892d1196242027dc7a9
 - GitHub issue index: https://github.com/ivelly42/agent-ops-command-center/issues/2
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v1.9-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v2.0-preview
 - Demand metrics: https://ivelly42.github.io/agent-ops-command-center/metrics/status.json
 
 ## What The Full Pack Adds
@@ -45,6 +45,6 @@ Target price: `$29`.
 
 Launch target: 7 paid orders = `$203` gross.
 
-Checkout is not live yet. Request early access here:
+Checkout is not live yet. Record purchase intent here:
 
 https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml

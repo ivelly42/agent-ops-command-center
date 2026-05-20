@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Agent Ops Command Center</title>
-    <meta name="description" content="A Notion and spreadsheet template pack for builders running AI coding agents.">
+    <meta name="description" content="A $29 Notion and spreadsheet template pack for builders running Codex, Claude Code, Cursor, and local AI coding agents.">
     <meta property="og:title" content="Agent Ops Command Center">
-    <meta property="og:description" content="Run AI coding agents with evidence. Track agent runs, prompts, verification commands, costs, and failure modes.">
+    <meta property="og:description" content="Run AI coding agents with evidence. Track agent runs, prompts, verification commands, costs, and failure modes in one $29 template pack.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://ivelly42.github.io/agent-ops-command-center/">
     <meta property="og:image" content="https://ivelly42.github.io/agent-ops-command-center/og.svg">
@@ -17,7 +17,7 @@
         "@context": "https://schema.org",
         "@type": "Product",
         "name": "Agent Ops Command Center",
-        "description": "A Notion and spreadsheet template pack for builders running AI coding agents.",
+        "description": "A $29 Notion and spreadsheet template pack for builders running AI coding agents.",
         "brand": {
           "@type": "Brand",
           "name": "Agent Ops Command Center"
@@ -155,6 +155,14 @@
       .price {
         color: var(--muted);
         font-weight: 700;
+      }
+
+      .hero-note {
+        color: var(--muted);
+        font-size: 14px;
+        line-height: 1.45;
+        margin-top: 14px;
+        max-width: 620px;
       }
 
       .mockup {
@@ -315,6 +323,38 @@
         line-height: 1.45;
       }
 
+      .buyer-path {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 14px;
+      }
+
+      .path-step {
+        border: 1px solid var(--line);
+        background: var(--panel);
+        border-radius: 8px;
+        padding: 18px;
+        min-height: 150px;
+      }
+
+      .path-step strong {
+        display: block;
+        font-size: 14px;
+        color: var(--accent);
+        margin-bottom: 10px;
+      }
+
+      .path-step h3 {
+        margin: 0 0 8px;
+        font-size: 20px;
+      }
+
+      .path-step p {
+        margin: 0;
+        color: var(--muted);
+        line-height: 1.45;
+      }
+
       .faq {
         display: grid;
         gap: 12px;
@@ -369,6 +409,10 @@
           grid-template-columns: 1fr;
         }
 
+        .buyer-path {
+          grid-template-columns: 1fr;
+        }
+
         .order-box {
           grid-template-columns: 1fr;
         }
@@ -407,33 +451,17 @@
         <div>
           <div class="eyebrow">For Codex, Claude Code, Cursor, and local agents</div>
           <h1>Run AI coding agents with evidence.</h1>
-          <p class="lead">A Notion and spreadsheet template pack for tracking agent runs, prompt versions, verification commands, cost notes, and repeat failure modes.</p>
+          <p class="lead">A $29 Notion and spreadsheet template pack for tracking agent runs, prompt versions, verification commands, cost notes, and repeat failure modes.</p>
           <div class="actions">
             <a class="button primary" href="https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml">Request early access</a>
-            <a class="button" href="preview.md">Read preview</a>
             <a class="button" href="product-tour.md">Product tour</a>
             <a class="button" href="agent-ops-roi-calculator.md">ROI calculator</a>
-            <a class="button" href="cost-tracker-template.md">Cost tracker</a>
-            <a class="button" href="agent-registry-template.md">Agent registry</a>
-            <a class="button" href="prompt-library-template.md">Prompt library</a>
-            <a class="button" href="verification-ledger-template.md">Verification ledger</a>
-            <a class="button" href="failure-modes-database-template.md">Failure modes</a>
-            <a class="button" href="weekly-operator-review-template.md">Weekly review</a>
-            <a class="button" href="release-gate-template.md">Release gate</a>
-            <a class="button" href="review-brief-template.md">Review brief</a>
-            <a class="button" href="failure-rca-template.md">Failure RCA</a>
-            <a class="button" href="run-brief-template.md">Run brief</a>
             <a class="button" href="codex-workflow-tracker-template.md">Codex tracker</a>
-            <a class="button" href="https://gist.github.com/ivelly42/c65a80192a848892d1196242027dc7a9">Gist mirror</a>
             <a class="button" href="github-preview-index.md">Preview index</a>
-            <a class="button" href="https://github.com/ivelly42/agent-ops-command-center/releases/tag/v1.9-preview">Preview release</a>
-            <a class="button" href="sample/run_log_sample.csv">Sample CSV</a>
-            <a class="button" href="codex-claude-run-log-template.md">Run log template</a>
-            <a class="button" href="checklist.md">Checklist</a>
-            <a class="button" href="launch-copy.md">Launch copy</a>
-            <a class="button" href="metrics/README.md">Demand metrics</a>
+            <a class="button" href="https://github.com/ivelly42/agent-ops-command-center/releases/tag/v2.0-preview">Preview release</a>
             <span class="price">$29 target price</span>
           </div>
+          <p class="hero-note">Checkout is not live yet. The order request records purchase intent and preferred checkout; revenue is counted only after checkout, receipt, or seller-dashboard evidence exists.</p>
           <div class="proof-row" aria-label="Product contents">
             <div class="proof">6 databases</div>
             <div class="proof">5 templates</div>
@@ -519,7 +547,28 @@
       <section id="preview">
         <h2 class="section-title">Launch Status</h2>
         <div class="status">
-          The template pack is packaged locally. This public page is the preview and lead channel. Paid checkout is blocked until an authenticated seller/payment channel exists.
+          The template pack is packaged locally. This public page is the preview and lead channel. Paid checkout is blocked until an authenticated seller/payment channel exists, so early-access requests are demand signals only.
+        </div>
+      </section>
+
+      <section id="buyer-path">
+        <h2 class="section-title">Early Access Path</h2>
+        <div class="buyer-path">
+          <article class="path-step">
+            <strong>1. Inspect</strong>
+            <h3>Review public proof</h3>
+            <p>Use the tour, ROI page, preview index, Gist, sample CSV files, and public templates to decide whether the full pack fits your agent workflow.</p>
+          </article>
+          <article class="path-step">
+            <strong>2. Request</strong>
+            <h3>Record purchase intent</h3>
+            <p>Open the order request, acknowledge the $29 target price, and choose the checkout you prefer when a real seller channel is available.</p>
+          </article>
+          <article class="path-step">
+            <strong>3. Pay later</strong>
+            <h3>Revenue requires proof</h3>
+            <p>The paid ZIP stays private. No order is counted as revenue until checkout, receipt, or seller dashboard evidence proves payment.</p>
+          </article>
         </div>
       </section>
 
@@ -719,8 +768,8 @@
       <section id="order">
         <div class="order-box">
           <div>
-            <h2>Request early access</h2>
-            <p>The full pack is priced at $29. Seven paid orders reach $203 gross. Checkout is not live yet, so requests are captured through GitHub issues.</p>
+            <h2>Request early access at $29</h2>
+            <p>Seven paid orders reach $203 gross. Checkout is not live yet, so the issue form captures purchase intent, preferred checkout, and delivery acknowledgement without publishing the paid ZIP.</p>
           </div>
           <a class="button primary" href="https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml">Open order request</a>
         </div>

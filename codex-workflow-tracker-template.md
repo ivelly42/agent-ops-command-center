@@ -38,7 +38,7 @@ Follow-Up:
 
 | Field | What To Record | Example |
 | --- | --- | --- |
-| Run ID | Date, issue, or short label | `2026-05-21-v1.9-preview` |
+| Run ID | Date, issue, or short label | `2026-05-21-v2.0-preview` |
 | Repository | Repo or folder | `agent-ops-command-center` |
 | Goal | One measurable result | `Add Codex workflow tracker lead page` |
 | Allowed Files | Edit boundary | `README, index, llms, sitemap, new template` |
@@ -46,7 +46,7 @@ Follow-Up:
 | Agent Actions | What changed | `Added page, linked from public index` |
 | Files Changed | Review scope | `codex-workflow-tracker-template.md` |
 | Verification Evidence | Exact proof | `curl public page and rg expected text` |
-| Public Proof | URL, release, issue, discussion | `v1.9-preview release` |
+| Public Proof | URL, release, issue, discussion | `v2.0-preview release` |
 | Blocked By | Hard stop | `No paid checkout` |
 | Revenue Or Launch Impact | Demand path | `More search landing surface` |
 | Follow-Up | Next action | `Monitor order requests` |
