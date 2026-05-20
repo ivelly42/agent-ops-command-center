@@ -36,6 +36,10 @@ AI agent acceptance test suite: https://ivelly42.github.io/agent-ops-command-cen
 
 AI agent run audit template: https://ivelly42.github.io/agent-ops-command-center/ai-agent-run-audit-template.md
 
+AI agent done checklist: https://ivelly42.github.io/agent-ops-command-center/ai-agent-done-checklist.md
+
+AI agent done checklist Gist: https://gist.github.com/ivelly42/d9cbe7c188596853618db6bc6714b66e
+
 AI agent run audit Gist: https://gist.github.com/ivelly42/4c9c05a9823cb88148ff5a658a3607d4
 
 AI agent acceptance test suite Gist: https://gist.github.com/ivelly42/d9aacd5506dccc9b5d002ef6fd973c72
@@ -144,7 +148,7 @@ GitHub issue index: https://github.com/ivelly42/agent-ops-command-center/issues/
 
 Early access request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v4.5-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v4.6-preview
 
 Sample run log CSV: https://ivelly42.github.io/agent-ops-command-center/sample/run_log_sample.csv
 
@@ -176,7 +180,7 @@ The product helps builders track AI coding-agent runs, prompt versions, verifica
 - 15-minute quickstart guide
 - CSV import guide
 - Six CSV database imports
-- Twenty-seven operating templates
+- Twenty-eight operating templates
 - Weekly operator review
 
 ## Status

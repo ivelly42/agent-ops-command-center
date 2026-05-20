@@ -29,7 +29,7 @@ That is enough structure to reduce repeated mistakes without turning your workfl
 
 - Notion-ready workspace template in Markdown.
 - Six CSV starter databases.
-- Run brief, run audit, review brief, Codex vs Claude Code vs Cursor workflow picker, AI agent ops maturity scorecard, incident report, security review checklist, agent acceptance test suite, prompt regression test, model routing matrix, cost leak audit, workflow stack comparison, purchase approval brief, buyer decision matrix, checkout readiness FAQ, buyer intake packet, PR review scorecard, verification command library, paid delivery manifest, and failure RCA templates.
+- Run brief, run audit, done checklist, review brief, Codex vs Claude Code vs Cursor workflow picker, AI agent ops maturity scorecard, incident report, security review checklist, agent acceptance test suite, prompt regression test, model routing matrix, cost leak audit, workflow stack comparison, purchase approval brief, buyer decision matrix, checkout readiness FAQ, buyer intake packet, PR review scorecard, verification command library, paid delivery manifest, and failure RCA templates.
 - Weekly operator review ritual.
 - Launch-ready examples for coding-agent workflows.
 
