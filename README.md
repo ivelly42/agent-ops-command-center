@@ -43,10 +43,10 @@ Revenue target: 7 sales = `$203` gross.
 Paid pack contents:
 
 - Notion-ready workspace Markdown
+- 15-minute quickstart guide
+- CSV import guide
 - Six CSV starter databases
-- run brief template
-- review brief template
-- failure RCA template
+- Five operating templates
 - social launch copy
 - outreach copy
 

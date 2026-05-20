@@ -28,6 +28,8 @@ Agent Ops Command Center is a small operating layer for that:
 - Verification Ledger
 - Cost Tracker
 - Failure Modes
+- Quickstart and import guide
+- Operating templates for runs, reviews, RCA, weekly review, and release gates
 
 The rule is simple: no "done" without evidence.
 

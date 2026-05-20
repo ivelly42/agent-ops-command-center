@@ -21,10 +21,10 @@ The product helps builders track AI coding-agent runs, prompt versions, verifica
 ## Full Pack Contents
 
 - Notion-ready Markdown workspace
+- 15-minute quickstart guide
+- CSV import guide
 - Six CSV database imports
-- Run brief template
-- Review brief template
-- Failure RCA template
+- Five operating templates
 - Weekly operator review
 
 ## Status
