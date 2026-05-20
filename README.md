@@ -32,6 +32,7 @@ Sample files:
 
 - [sample/run_log_sample.csv](sample/run_log_sample.csv)
 - [sample/failure_modes_sample.csv](sample/failure_modes_sample.csv)
+- [launch-copy.md](launch-copy.md)
 
 ## Paid Pack
 

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#fbfaf7"/>
+  <rect x="72" y="72" width="1056" height="486" rx="22" fill="#ffffff" stroke="#d7d3cb" stroke-width="3"/>
+  <text x="112" y="152" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="800" fill="#0f766e">Agent Ops Command Center</text>
+  <text x="112" y="252" font-family="Inter, Arial, sans-serif" font-size="74" font-weight="900" fill="#161616">Run AI coding</text>
+  <text x="112" y="334" font-family="Inter, Arial, sans-serif" font-size="74" font-weight="900" fill="#161616">agents with evidence.</text>
+  <text x="112" y="412" font-family="Inter, Arial, sans-serif" font-size="30" fill="#57534e">Track runs, prompts, verification, costs, and failures.</text>
+  <rect x="112" y="462" width="146" height="54" rx="10" fill="#161616"/>
+  <text x="138" y="497" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="800" fill="#ffffff">$29 pack</text>
+  <rect x="282" y="462" width="198" height="54" rx="10" fill="#f4f1eb" stroke="#d7d3cb"/>
+  <text x="307" y="497" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="800" fill="#161616">6 databases</text>
+  <rect x="504" y="462" width="214" height="54" rx="10" fill="#f4f1eb" stroke="#d7d3cb"/>
+  <text x="529" y="497" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="800" fill="#161616">Notion + CSV</text>
+  <g transform="translate(820 170)">
+    <rect width="230" height="260" rx="16" fill="#f7f5f0" stroke="#d7d3cb"/>
+    <rect x="24" y="30" width="146" height="18" rx="9" fill="#0f766e"/>
+    <rect x="24" y="72" width="182" height="12" rx="6" fill="#d7d3cb"/>
+    <rect x="24" y="104" width="156" height="12" rx="6" fill="#d7d3cb"/>
+    <rect x="24" y="144" width="182" height="42" rx="8" fill="#ffffff" stroke="#d7d3cb"/>
+    <rect x="24" y="202" width="130" height="20" rx="10" fill="#1d4ed8"/>
+  </g>
+</svg>
