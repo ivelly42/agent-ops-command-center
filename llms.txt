@@ -10,6 +10,8 @@ Product tour: https://ivelly42.github.io/agent-ops-command-center/product-tour.m
 
 ROI calculator: https://ivelly42.github.io/agent-ops-command-center/agent-ops-roi-calculator.md
 
+Verification ledger template: https://ivelly42.github.io/agent-ops-command-center/verification-ledger-template.md
+
 Public Gist mirror: https://gist.github.com/ivelly42/c65a80192a848892d1196242027dc7a9
 
 Preview index: https://ivelly42.github.io/agent-ops-command-center/github-preview-index.md
@@ -18,9 +20,11 @@ GitHub issue index: https://github.com/ivelly42/agent-ops-command-center/issues/
 
 Early access request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v0.8-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v0.9-preview
 
 Sample run log CSV: https://ivelly42.github.io/agent-ops-command-center/sample/run_log_sample.csv
+
+Sample verification ledger CSV: https://ivelly42.github.io/agent-ops-command-center/sample/verification_ledger_sample.csv
 
 Codex and Claude Code run log template: https://ivelly42.github.io/agent-ops-command-center/codex-claude-run-log-template.md
 

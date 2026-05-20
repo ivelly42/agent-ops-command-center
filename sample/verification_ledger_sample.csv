@@ -1,0 +1,4 @@
+Check,Command or Evidence,When Required,Pass Signal,Fail Signal,Owner
+Build,npm run build,Release candidate,Build complete,Build failed,Operator
+Pages smoke,curl -fsSL URL | rg "expected text",Static site changed,HTTP 200 plus expected text,404 or missing text,Operator
+Release asset check,gh release view TAG --json assets,Release published,Expected asset uploaded,Asset missing or wrong file,Operator

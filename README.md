@@ -28,7 +28,7 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v0.8-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v0.9-preview
 
 Sample files:
 
@@ -38,8 +38,10 @@ Sample files:
 - [GitHub issue index](https://github.com/ivelly42/agent-ops-command-center/issues/2)
 - [Product tour](product-tour.md)
 - [AI Agent Ops ROI Calculator](agent-ops-roi-calculator.md)
+- [AI Coding Agent Verification Ledger Template](verification-ledger-template.md)
 - [sample/run_log_sample.csv](sample/run_log_sample.csv)
 - [sample/failure_modes_sample.csv](sample/failure_modes_sample.csv)
+- [sample/verification_ledger_sample.csv](sample/verification_ledger_sample.csv)
 - [Codex and Claude Code Run Log Template](codex-claude-run-log-template.md)
 - [AI Agent Ops Preflight Checklist](checklist.md)
 - [launch-copy.md](launch-copy.md)
