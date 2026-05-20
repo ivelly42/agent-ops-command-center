@@ -4,6 +4,8 @@ Notion and spreadsheet template pack for builders running AI coding agents.
 
 This public repo is the launch surface and preview. The paid product ZIP is not stored here.
 
+Demand metrics: [metrics/README.md](metrics/README.md)
+
 Public site: https://ivelly42.github.io/agent-ops-command-center/
 
 Early access: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml

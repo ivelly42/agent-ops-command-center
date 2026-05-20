@@ -14,6 +14,8 @@ Sample run log CSV: https://ivelly42.github.io/agent-ops-command-center/sample/r
 
 Launch copy: https://ivelly42.github.io/agent-ops-command-center/launch-copy.md
 
+Demand metrics: https://ivelly42.github.io/agent-ops-command-center/metrics/status.json
+
 ## Summary
 
 The product helps builders track AI coding-agent runs, prompt versions, verification commands, costs, and repeated failure modes.
