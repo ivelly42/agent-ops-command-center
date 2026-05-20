@@ -40,6 +40,10 @@ Claude Code workflow tracker Gist: https://gist.github.com/ivelly42/00f014ce4b41
 
 Verification ledger Gist: https://gist.github.com/ivelly42/d609682c723f69651bf963fe15889839
 
+AI agent handoff template: https://ivelly42.github.io/agent-ops-command-center/ai-agent-handoff-template.md
+
+AI agent handoff Gist: https://gist.github.com/ivelly42/35c9b9c1cd95c837c9775ca3e5db7c83
+
 Public Gist mirror: https://gist.github.com/ivelly42/c65a80192a848892d1196242027dc7a9
 
 Preview index: https://ivelly42.github.io/agent-ops-command-center/github-preview-index.md
@@ -48,7 +52,7 @@ GitHub issue index: https://github.com/ivelly42/agent-ops-command-center/issues/
 
 Early access request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v2.3-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v2.4-preview
 
 Sample run log CSV: https://ivelly42.github.io/agent-ops-command-center/sample/run_log_sample.csv
 
@@ -80,7 +84,7 @@ The product helps builders track AI coding-agent runs, prompt versions, verifica
 - 15-minute quickstart guide
 - CSV import guide
 - Six CSV database imports
-- Five operating templates
+- Six operating templates
 - Weekly operator review
 
 ## Status
