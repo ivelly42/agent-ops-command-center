@@ -77,7 +77,7 @@ Order intent builder: [order-intent.html](order-intent.html)
 
 Checkout readiness builder: [checkout-readiness.html](checkout-readiness.html)
 
-Buyer reply kit: [ai-agent-buyer-reply-kit.md](ai-agent-buyer-reply-kit.md)
+Buyer reply kit: [buyer-reply-kit.html](buyer-reply-kit.html)
 
 Pricing: [pricing.html](pricing.html)
 
@@ -109,7 +109,7 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.35-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.36-preview
 
 Sample files:
 
@@ -177,7 +177,7 @@ Sample files:
 - [Interactive ROI calculator](roi-calculator.html)
 - [Order intent builder](order-intent.html)
 - [Checkout readiness builder](checkout-readiness.html)
-- [Buyer reply kit](ai-agent-buyer-reply-kit.md)
+- [Buyer reply kit](buyer-reply-kit.html)
 - [Pricing](pricing.html)
 - [GitHub issue index](https://github.com/ivelly42/agent-ops-command-center/issues/2)
 - [Product tour](product-tour.md)

@@ -77,7 +77,7 @@ Order intent builder: https://ivelly42.github.io/agent-ops-command-center/order-
 
 Checkout readiness builder: https://ivelly42.github.io/agent-ops-command-center/checkout-readiness.html
 
-Buyer reply kit: https://ivelly42.github.io/agent-ops-command-center/ai-agent-buyer-reply-kit.md
+Buyer reply kit: https://ivelly42.github.io/agent-ops-command-center/buyer-reply-kit.html
 
 Pricing: https://ivelly42.github.io/agent-ops-command-center/pricing.html
 
@@ -203,7 +203,7 @@ Checkout readiness FAQ: https://ivelly42.github.io/agent-ops-command-center/chec
 
 Checkout readiness FAQ Gist: https://gist.github.com/ivelly42/f82bd8c423d1c01be2c838d14abeccba
 
-AI agent buyer reply kit: https://ivelly42.github.io/agent-ops-command-center/ai-agent-buyer-reply-kit.md
+AI agent buyer reply kit: https://ivelly42.github.io/agent-ops-command-center/buyer-reply-kit.html
 
 AI agent buyer reply kit Gist: https://gist.github.com/ivelly42/a9a6049b0d93d5f92d907780a3276edb
 
@@ -227,7 +227,7 @@ GitHub issue index: https://github.com/ivelly42/agent-ops-command-center/issues/
 
 Early access request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.35-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.36-preview
 
 Sample run log CSV: https://ivelly42.github.io/agent-ops-command-center/sample/run_log_sample.csv
 

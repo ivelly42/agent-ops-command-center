@@ -133,7 +133,7 @@ The pack breaks even if it prevents roughly one hour of cleanup time for a build
 - Run log template: https://ivelly42.github.io/agent-ops-command-center/codex-claude-run-log-template.md
 - Failure RCA template: https://ivelly42.github.io/agent-ops-command-center/failure-rca-template.md
 - Preflight checklist: https://ivelly42.github.io/agent-ops-command-center/checklist.md
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.35-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.36-preview
 - Buy page: https://ivelly42.github.io/agent-ops-command-center/buy.html
 - Fast team checkout request: https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html
 - Team purchase packet: https://ivelly42.github.io/agent-ops-command-center/team-purchase-packet.html
@@ -158,7 +158,7 @@ The pack breaks even if it prevents roughly one hour of cleanup time for a build
 - Interactive ROI calculator: https://ivelly42.github.io/agent-ops-command-center/roi-calculator.html
 - Order intent builder: https://ivelly42.github.io/agent-ops-command-center/order-intent.html
 - Checkout readiness builder: https://ivelly42.github.io/agent-ops-command-center/checkout-readiness.html
-- Buyer reply kit: https://ivelly42.github.io/agent-ops-command-center/ai-agent-buyer-reply-kit.md
+- Buyer reply kit: https://ivelly42.github.io/agent-ops-command-center/buyer-reply-kit.html
 - Pricing: https://ivelly42.github.io/agent-ops-command-center/pricing.html
 - Demand metrics: https://ivelly42.github.io/agent-ops-command-center/metrics/status.json
 

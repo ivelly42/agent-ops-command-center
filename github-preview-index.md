@@ -99,7 +99,7 @@ The full paid pack is not published publicly. This index links every public prev
 - GitHub issue index: https://github.com/ivelly42/agent-ops-command-center/issues/2
 - RSS feed: https://ivelly42.github.io/agent-ops-command-center/feed.xml
 - Machine-readable catalog: https://ivelly42.github.io/agent-ops-command-center/catalog.json
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.35-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.36-preview
 - Buy page: https://ivelly42.github.io/agent-ops-command-center/buy.html
 - Fast team checkout request: https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html
 - Revenue proof intake: https://ivelly42.github.io/agent-ops-command-center/revenue-proof.html
@@ -123,7 +123,7 @@ The full paid pack is not published publicly. This index links every public prev
 - Interactive ROI calculator: https://ivelly42.github.io/agent-ops-command-center/roi-calculator.html
 - Order intent builder: https://ivelly42.github.io/agent-ops-command-center/order-intent.html
 - Checkout readiness builder: https://ivelly42.github.io/agent-ops-command-center/checkout-readiness.html
-- Buyer reply kit: https://ivelly42.github.io/agent-ops-command-center/ai-agent-buyer-reply-kit.md
+- Buyer reply kit: https://ivelly42.github.io/agent-ops-command-center/buyer-reply-kit.html
 - Pricing: https://ivelly42.github.io/agent-ops-command-center/pricing.html
 - Demand metrics: https://ivelly42.github.io/agent-ops-command-center/metrics/status.json
 
