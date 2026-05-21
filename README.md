@@ -162,6 +162,8 @@ GitHub purchase order mirror Pages: https://ivelly42.github.io/ai-agent-purchase
 
 Use purchase order mirror as GitHub template: https://github.com/ivelly42/ai-agent-purchase-order-template/generate
 
+GitHub purchase order issue form: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=purchase-order.yml
+
 GitHub invoice request mirror: https://github.com/ivelly42/ai-agent-invoice-request-template
 
 GitHub invoice request mirror Pages: https://ivelly42.github.io/ai-agent-invoice-request-template/
@@ -303,7 +305,7 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.84-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.85-preview
 
 Sample files:
 
@@ -416,6 +418,7 @@ Sample files:
 - [GitHub purchase order mirror Pages](https://ivelly42.github.io/ai-agent-purchase-order-template/)
 - [GitHub purchase order mirror](https://github.com/ivelly42/ai-agent-purchase-order-template)
 - [Use purchase order mirror](https://github.com/ivelly42/ai-agent-purchase-order-template/generate)
+- [GitHub purchase order issue form](https://github.com/ivelly42/agent-ops-command-center/issues/new?template=purchase-order.yml)
 - [GitHub invoice request mirror Pages](https://ivelly42.github.io/ai-agent-invoice-request-template/)
 - [GitHub invoice request mirror](https://github.com/ivelly42/ai-agent-invoice-request-template)
 - [Use invoice request mirror](https://github.com/ivelly42/ai-agent-invoice-request-template/generate)

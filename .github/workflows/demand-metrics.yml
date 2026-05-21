@@ -53,12 +53,14 @@ jobs:
                 hasLabel(issue, "invoice-request") ||
                 hasLabel(issue, "expense-report") ||
                 hasLabel(issue, "quote-request") ||
+                hasLabel(issue, "purchase-order") ||
                 text.includes("Order request: Agent Ops Command Center") ||
                 text.includes("Template pack request: Agent Ops Command Center") ||
                 text.includes("Budget request: Agent Ops Command Center") ||
                 text.includes("Invoice request: Agent Ops Command Center") ||
                 text.includes("Expense report request: Agent Ops Command Center") ||
                 text.includes("Quote request: Agent Ops Command Center") ||
+                text.includes("Purchase order request: Agent Ops Command Center") ||
                 text.includes("Fast team checkout request: Agent Ops Command Center") ||
                 text.includes("Invoice request packet: Agent Ops Command Center") ||
                 text.includes("Request package: Team license - 7 seats - $203 gross") ||

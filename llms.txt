@@ -156,6 +156,8 @@ GitHub purchase order mirror Pages: https://ivelly42.github.io/ai-agent-purchase
 
 Use purchase order mirror as GitHub template: https://github.com/ivelly42/ai-agent-purchase-order-template/generate
 
+GitHub purchase order issue form: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=purchase-order.yml
+
 GitHub invoice request mirror: https://github.com/ivelly42/ai-agent-invoice-request-template
 
 GitHub invoice request mirror Pages: https://ivelly42.github.io/ai-agent-invoice-request-template/
@@ -541,6 +543,8 @@ AI agent purchase order mirror Pages: https://ivelly42.github.io/ai-agent-purcha
 
 AI agent purchase order GitHub template: https://github.com/ivelly42/ai-agent-purchase-order-template/generate
 
+AI agent purchase order issue form: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=purchase-order.yml
+
 AI agent invoice request GitHub mirror: https://github.com/ivelly42/ai-agent-invoice-request-template
 
 AI agent invoice request mirror Pages: https://ivelly42.github.io/ai-agent-invoice-request-template/
@@ -613,7 +617,7 @@ Fast template pack request page: https://ivelly42.github.io/agent-ops-command-ce
 
 GitHub Sponsor button funding links: https://github.com/ivelly42/agent-ops-command-center/blob/main/.github/FUNDING.yml
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.84-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.85-preview
 
 Sample run log CSV: https://ivelly42.github.io/agent-ops-command-center/sample/run_log_sample.csv
 

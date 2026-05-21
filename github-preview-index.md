@@ -67,6 +67,7 @@ The full paid pack is not published publicly. This index links every public prev
 - GitHub Pages purchase order mirror: https://ivelly42.github.io/ai-agent-purchase-order-template/
 - GitHub purchase order mirror: https://github.com/ivelly42/ai-agent-purchase-order-template
 - Use purchase order mirror: https://github.com/ivelly42/ai-agent-purchase-order-template/generate
+- GitHub purchase order issue form: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=purchase-order.yml
 - GitHub Pages invoice request mirror: https://ivelly42.github.io/ai-agent-invoice-request-template/
 - GitHub invoice request mirror: https://github.com/ivelly42/ai-agent-invoice-request-template
 - Use invoice request mirror: https://github.com/ivelly42/ai-agent-invoice-request-template/generate
@@ -183,7 +184,7 @@ The full paid pack is not published publicly. This index links every public prev
 - Fast template pack request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml
 - RSS feed: https://ivelly42.github.io/agent-ops-command-center/feed.xml
 - Machine-readable catalog: https://ivelly42.github.io/agent-ops-command-center/catalog.json
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.84-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.85-preview
 - Buy page: https://ivelly42.github.io/agent-ops-command-center/buy.html
 - Fast team checkout request: https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html
 - Fast template pack request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml
@@ -261,6 +262,7 @@ The full paid pack is not published publicly. This index links every public prev
 - GitHub Pages purchase order mirror: https://ivelly42.github.io/ai-agent-purchase-order-template/
 - GitHub purchase order mirror: https://github.com/ivelly42/ai-agent-purchase-order-template
 - Use purchase order mirror: https://github.com/ivelly42/ai-agent-purchase-order-template/generate
+- GitHub purchase order issue form: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=purchase-order.yml
 - GitHub Pages invoice request mirror: https://ivelly42.github.io/ai-agent-invoice-request-template/
 - GitHub invoice request mirror: https://github.com/ivelly42/ai-agent-invoice-request-template
 - Use invoice request mirror: https://github.com/ivelly42/ai-agent-invoice-request-template/generate
@@ -339,6 +341,7 @@ The full paid pack is not published publicly. This index links every public prev
 | Team License Quote Mirror | Route $203 quote, invoice request, purchase order, procurement, and checkout-readiness searches into the team request path |
 | Quote Request Issue Form | Capture quote-ready buyers as order-request issues for the $203 team request path |
 | Purchase Order Mirror | Route AI-agent PO, purchase-order, invoice, procurement approval, and checkout-readiness searches into the team request path |
+| Purchase Order Issue Form | Capture purchase-order-ready buyers as order-request issues for the $203 team request path |
 | Invoice Request Mirror | Route AI-agent invoice, billing request, line-item, approval evidence, and checkout-readiness searches into the team request path |
 | Invoice Request Issue Form | Capture invoice-ready buyers as order-request issues for the $203 team request path |
 | Receipt Request Mirror | Route AI-agent receipt, reimbursement, expense report, and payment-proof searches into the team request path |
