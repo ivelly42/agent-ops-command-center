@@ -50,7 +50,8 @@ const links = {
   indexNowAutomation: "https://ivelly42.github.io/agent-ops-command-center/indexnow-automation.md",
   discussionAutoreply: "https://ivelly42.github.io/agent-ops-command-center/discussion-autoreply.md",
   paymentReadyNpmAutoreplyDiscussion: "https://github.com/ivelly42/agent-ops-command-center/discussions/10",
-  release: "https://github.com/ivelly42/agent-ops-command-center/releases/latest"
+  release: "https://github.com/ivelly42/agent-ops-command-center/releases/latest",
+  npmReleaseTarball: "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.119-preview/agent-ops-command-center-0.5.119.tgz"
 };
 
 const payload = {
@@ -66,6 +67,7 @@ const payload = {
   commands: {
     team_request_url: "npx github:ivelly42/agent-ops-command-center --team-request-url",
     team_request_markdown: "npx github:ivelly42/agent-ops-command-center --team-request-markdown",
+    release_tarball_team_request: `npm exec --yes --package=${links.npmReleaseTarball} -- agent-ops-command-center --team-request-url`,
     package_funding: "npm fund agent-ops-command-center"
   },
   links
@@ -118,6 +120,7 @@ ${links.discovery}
 Buyer commands:
 ${payload.commands.team_request_url}
 ${payload.commands.team_request_markdown}
+${payload.commands.release_tarball_team_request}
 
 Revenue rule:
 ${payload.revenue_rule}

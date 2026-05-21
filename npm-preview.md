@@ -32,6 +32,19 @@ npx github:ivelly42/agent-ops-command-center --team-request-url
 npx github:ivelly42/agent-ops-command-center --team-request-markdown
 ```
 
+## Release Tarball Install
+
+The npm registry name is currently unpublished, and this machine is not logged in to npm, so the no-user-intervention path is a GitHub Release tarball.
+
+```bash
+npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.119-preview/agent-ops-command-center-0.5.119.tgz -- agent-ops-command-center --team-request-url
+npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.119-preview/agent-ops-command-center-0.5.119.tgz -- agent-ops-command-center --json
+```
+
+Tarball: https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.119-preview/agent-ops-command-center-0.5.119.tgz
+
+Running the tarball preview is not revenue.
+
 ## Team Request Shortcut
 
 `--team-request-url` prints a prefilled GitHub issue URL for:
