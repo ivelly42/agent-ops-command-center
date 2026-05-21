@@ -6,7 +6,7 @@
   "sales_needed": 7,
   "status": "preview_live_no_paid_checkout",
   "homepage": "https://ivelly42.github.io/agent-ops-command-center/",
-  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.11-preview",
+  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.12-preview",
   "early_access_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml",
   "demand_metrics": "https://ivelly42.github.io/agent-ops-command-center/metrics/status.json",
   "template_gallery": "https://ivelly42.github.io/agent-ops-command-center/template-gallery.html",
@@ -27,6 +27,11 @@
   "paid_zip_public": false,
   "revenue_rule": "Revenue is proven only by checkout, receipt, payout, or seller-dashboard evidence.",
   "public_assets": [
+    {
+      "title": "AI Agent Buyer Reply Kit",
+      "url": "https://ivelly42.github.io/agent-ops-command-center/ai-agent-buyer-reply-kit.md",
+      "gist": "https://gist.github.com/ivelly42/a9a6049b0d93d5f92d907780a3276edb"
+    },
     {
       "title": "AI Agent Checkout Readiness Builder",
       "url": "https://ivelly42.github.io/agent-ops-command-center/checkout-readiness.html"

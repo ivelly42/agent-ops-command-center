@@ -42,6 +42,7 @@ body:
         Interactive ROI calculator: https://ivelly42.github.io/agent-ops-command-center/roi-calculator.html
         Order intent builder: https://ivelly42.github.io/agent-ops-command-center/order-intent.html
         Checkout readiness builder: https://ivelly42.github.io/agent-ops-command-center/checkout-readiness.html
+        Buyer reply kit: https://ivelly42.github.io/agent-ops-command-center/ai-agent-buyer-reply-kit.md
         Pricing: https://ivelly42.github.io/agent-ops-command-center/pricing.html
   - type: dropdown
     id: checkout

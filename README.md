@@ -37,6 +37,8 @@ Order intent builder: [order-intent.html](order-intent.html)
 
 Checkout readiness builder: [checkout-readiness.html](checkout-readiness.html)
 
+Buyer reply kit: [ai-agent-buyer-reply-kit.md](ai-agent-buyer-reply-kit.md)
+
 Pricing: [pricing.html](pricing.html)
 
 Early access: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml
@@ -67,7 +69,7 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.11-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.12-preview
 
 Sample files:
 
@@ -85,6 +87,7 @@ Sample files:
 - [Paid Delivery Manifest Gist](https://gist.github.com/ivelly42/417991e7e2694d5e243f4319ce680f0f)
 - [Buyer Decision Matrix Gist](https://gist.github.com/ivelly42/348c406da907bf02c1bf2be20832906c)
 - [Checkout Readiness FAQ Gist](https://gist.github.com/ivelly42/f82bd8c423d1c01be2c838d14abeccba)
+- [AI Agent Buyer Reply Kit Gist](https://gist.github.com/ivelly42/a9a6049b0d93d5f92d907780a3276edb)
 - [Buyer Intake Packet Gist](https://gist.github.com/ivelly42/32252d208c081993f6ad753929aa70bf)
 - [Purchase Approval Brief Gist](https://gist.github.com/ivelly42/165483c835c207be472102f5badc5f70)
 - [Workflow Stack Comparison Gist](https://gist.github.com/ivelly42/5d17877646be74639b374e36211f976e)
@@ -115,6 +118,7 @@ Sample files:
 - [Interactive ROI calculator](roi-calculator.html)
 - [Order intent builder](order-intent.html)
 - [Checkout readiness builder](checkout-readiness.html)
+- [Buyer reply kit](ai-agent-buyer-reply-kit.md)
 - [Pricing](pricing.html)
 - [GitHub issue index](https://github.com/ivelly42/agent-ops-command-center/issues/2)
 - [Product tour](product-tour.md)
