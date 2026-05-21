@@ -20,6 +20,8 @@ Discussion: https://github.com/ivelly42/agent-ops-command-center/discussions/10
 
 Team request CLI Discussion: https://github.com/ivelly42/agent-ops-command-center/discussions/11
 
+NPX team request mirror: https://ivelly42.github.io/ai-agent-npx-team-request-template/
+
 ## Main Commands
 
 ```bash

@@ -1,7 +1,7 @@
 {
   "name": "Agent Ops Command Center",
   "description": "Notion and spreadsheet template pack for builders running AI coding agents.",
-  "version": "v5.105-preview",
+  "version": "v5.106-preview",
   "price_usd": 29,
   "individual_price_usd": 29,
   "team_license_price_usd": 203,
@@ -15,7 +15,7 @@
   "status": "preview_live_no_paid_checkout",
   "homepage": "https://ivelly42.github.io/agent-ops-command-center/",
   "social_image": "https://ivelly42.github.io/agent-ops-command-center/og.png",
-  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.105-preview",
+  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.106-preview",
   "early_access_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml",
   "template_pack_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml",
   "template_pack_request_page": "https://ivelly42.github.io/agent-ops-command-center/template-pack-request.html",
@@ -60,6 +60,17 @@
   "paid_zip_public": false,
   "revenue_rule": "Revenue is proven only by checkout, receipt, payout, or seller-dashboard evidence.",
   "public_assets": [
+    {
+      "title": "AI Agent NPX Team Request Mirror",
+      "url": "https://ivelly42.github.io/ai-agent-npx-team-request-template/",
+      "repository": "https://github.com/ivelly42/ai-agent-npx-team-request-template",
+      "template": "https://ivelly42.github.io/ai-agent-npx-team-request-template/NPX_TEAM_REQUEST_TEMPLATE.md",
+      "json": "https://ivelly42.github.io/ai-agent-npx-team-request-template/agent-ops-command-center.json",
+      "command": "npx github:ivelly42/agent-ops-command-center --team-request-url",
+      "request_url": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml",
+      "indexnow": "HTTP 202 with mirror-local keyLocation",
+      "revenue_rule": "The mirror is discovery and buyer intent only. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence."
+    },
     {
       "title": "NPM Team Request CLI Discussion",
       "url": "https://github.com/ivelly42/agent-ops-command-center/discussions/11",
@@ -965,8 +976,10 @@
     "team_request_url_command": "npx github:ivelly42/agent-ops-command-center --team-request-url",
     "team_request_markdown_command": "npx github:ivelly42/agent-ops-command-center --team-request-markdown",
     "team_request_discussion": "https://github.com/ivelly42/agent-ops-command-center/discussions/11",
+    "team_request_mirror": "https://github.com/ivelly42/ai-agent-npx-team-request-template",
+    "team_request_mirror_pages": "https://ivelly42.github.io/ai-agent-npx-team-request-template/",
     "package_name": "agent-ops-command-center",
-    "package_version": "0.5.105",
+    "package_version": "0.5.106",
     "bin": [
       "agent-ops-command-center",
       "agent-ops"
@@ -979,11 +992,15 @@
     "discussion": "https://github.com/ivelly42/agent-ops-command-center/discussions/10"
   },
   "github_npm_team_request_cli_discussion": "https://github.com/ivelly42/agent-ops-command-center/discussions/11",
+  "github_npx_team_request_mirror": "https://github.com/ivelly42/ai-agent-npx-team-request-template",
+  "github_npx_team_request_mirror_pages": "https://ivelly42.github.io/ai-agent-npx-team-request-template/",
   "npm_team_request_cli": {
-    "updated_at_kst": "2026-05-22 04:05",
+    "updated_at_kst": "2026-05-22 04:16",
     "command": "npx github:ivelly42/agent-ops-command-center --team-request-url",
     "markdown_command": "npx github:ivelly42/agent-ops-command-center --team-request-markdown",
     "discussion": "https://github.com/ivelly42/agent-ops-command-center/discussions/11",
+    "mirror": "https://github.com/ivelly42/ai-agent-npx-team-request-template",
+    "mirror_pages": "https://ivelly42.github.io/ai-agent-npx-team-request-template/",
     "request_package": "Team license - 7 seats - $203 gross",
     "output": "prefilled GitHub issue URL and copy-ready markdown for a payment-ready team request",
     "request_text_markers": [

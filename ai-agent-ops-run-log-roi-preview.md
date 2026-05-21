@@ -135,7 +135,7 @@ The pack breaks even if it prevents roughly one hour of cleanup time for a build
 - Run log template: https://ivelly42.github.io/agent-ops-command-center/codex-claude-run-log-template.md
 - Failure RCA template: https://ivelly42.github.io/agent-ops-command-center/failure-rca-template.md
 - Preflight checklist: https://ivelly42.github.io/agent-ops-command-center/checklist.md
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.105-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.106-preview
 - Buy page: https://ivelly42.github.io/agent-ops-command-center/buy.html
 - Payment-ready issue form: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml
 - Payment-ready buy CTA: https://ivelly42.github.io/agent-ops-command-center/buy.html
@@ -150,6 +150,8 @@ The pack breaks even if it prevents roughly one hour of cleanup time for a build
 - NPM GitHub install preview: `npx github:ivelly42/agent-ops-command-center --json`
 - NPM team request shortcut: `npx github:ivelly42/agent-ops-command-center --team-request-url`
 - NPM team request CLI Discussion: https://github.com/ivelly42/agent-ops-command-center/discussions/11
+- GitHub NPX team request mirror: https://github.com/ivelly42/ai-agent-npx-team-request-template
+- GitHub NPX team request mirror Pages: https://ivelly42.github.io/ai-agent-npx-team-request-template/
 - NPM preview docs: https://ivelly42.github.io/agent-ops-command-center/npm-preview.md
 - Order autoreply workflow: https://ivelly42.github.io/agent-ops-command-center/order-autoreply.md
 - Autoreply source: https://github.com/ivelly42/agent-ops-command-center/blob/main/.github/workflows/order-autoreply.yml
