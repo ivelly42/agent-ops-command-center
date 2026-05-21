@@ -9,3 +9,6 @@ contact_links:
   - name: Demand metrics
     url: https://ivelly42.github.io/agent-ops-command-center/metrics/status.json
     about: View current public order, download, and revenue metrics.
+  - name: Revenue proof
+    url: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=revenue-proof.yml
+    about: Record real checkout, receipt, payout, or seller-dashboard evidence.

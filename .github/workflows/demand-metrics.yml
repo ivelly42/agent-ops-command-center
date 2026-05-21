@@ -37,6 +37,13 @@ jobs:
               labels: "order-request",
               per_page: 100
             });
+            const revenueProofIssues = await github.paginate(github.rest.issues.listForRepo, {
+              owner,
+              repo,
+              state: "all",
+              labels: "revenue-proof",
+              per_page: 100
+            });
 
             const releases = await github.rest.repos.listReleases({
               owner,
@@ -63,16 +70,35 @@ jobs:
             }).length;
             const individualOrders = Math.max(0, orders - teamOrders - previewOnlyOrders);
             const possibleGross = (teamOrders * teamPrice) + (individualOrders * price);
-            const status = orders > 0 ? "orders pending checkout" : "no paid checkout";
+            const parseGrossUsd = (body) => {
+              const match = (body || "").match(/### Gross revenue proven USD\s+([0-9]+(?:\.[0-9]{1,2})?)/i);
+              if (!match) return 0;
+              const amount = Number.parseFloat(match[1]);
+              return Number.isFinite(amount) && amount > 0 ? amount : 0;
+            };
+            const confirmedRevenueProofs = revenueProofIssues
+              .map((issue) => ({ issue, amount: parseGrossUsd(issue.body || "") }))
+              .filter(({ issue, amount }) => amount > 0 &&
+                (issue.body || "").includes("I confirm this issue records real checkout, receipt, payout, or seller-dashboard evidence."));
+            const grossRevenue = confirmedRevenueProofs.reduce((sum, proof) => sum + proof.amount, 0);
+            const status = grossRevenue >= target
+              ? "revenue target reached"
+              : grossRevenue > 0
+                ? "partial paid revenue proven"
+                : orders > 0
+                  ? "orders pending checkout"
+                  : "no paid checkout";
 
             const metrics = {
               orders,
               individual_order_intents: individualOrders,
               team_license_order_intents: teamOrders,
               preview_only_intents: previewOnlyOrders,
+              revenue_proof_issues: revenueProofIssues.length,
+              confirmed_revenue_proof_issues: confirmedRevenueProofs.length,
               preview_downloads: previewDownloads,
               possible_gross_if_all_orders_paid_usd: possibleGross,
-              gross_revenue_usd: 0,
+              gross_revenue_usd: Number(grossRevenue.toFixed(2)),
               target_revenue_usd: target,
               price_usd: price,
               team_license_price_usd: teamPrice,
@@ -95,6 +121,8 @@ jobs:
               `- Individual order intents: \`${metrics.individual_order_intents}\``,
               `- Team license order intents: \`${metrics.team_license_order_intents}\``,
               `- Preview-only intents: \`${metrics.preview_only_intents}\``,
+              `- Revenue proof issues: \`${metrics.revenue_proof_issues}\``,
+              `- Confirmed revenue proof issues: \`${metrics.confirmed_revenue_proof_issues}\``,
               `- Preview downloads: \`${metrics.preview_downloads}\``,
               `- Possible gross if all order requests pay: \`$${metrics.possible_gross_if_all_orders_paid_usd}\``,
               `- Gross revenue proven: \`$${metrics.gross_revenue_usd}\``,

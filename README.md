@@ -6,6 +6,8 @@ This public repo is the launch surface and preview. The paid product ZIP is not 
 
 Demand metrics: [metrics/README.md](metrics/README.md)
 
+Revenue proof intake: [revenue-proof.html](revenue-proof.html)
+
 Public site: https://ivelly42.github.io/agent-ops-command-center/
 
 Buy page: [buy.html](buy.html)
@@ -103,7 +105,7 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.29-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.30-preview
 
 Sample files:
 
@@ -139,6 +141,7 @@ Sample files:
 - [GitHub preview index](github-preview-index.md)
 - [RSS feed](feed.xml)
 - [Machine-readable catalog](catalog.json)
+- [Revenue proof intake](revenue-proof.html)
 - [Buy page](buy.html)
 - [Team purchase packet](team-purchase-packet.html)
 - [Team procurement email kit](team-procurement-email.html)

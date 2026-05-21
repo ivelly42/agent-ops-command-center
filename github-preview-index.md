@@ -99,8 +99,9 @@ The full paid pack is not published publicly. This index links every public prev
 - GitHub issue index: https://github.com/ivelly42/agent-ops-command-center/issues/2
 - RSS feed: https://ivelly42.github.io/agent-ops-command-center/feed.xml
 - Machine-readable catalog: https://ivelly42.github.io/agent-ops-command-center/catalog.json
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.29-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.30-preview
 - Buy page: https://ivelly42.github.io/agent-ops-command-center/buy.html
+- Revenue proof intake: https://ivelly42.github.io/agent-ops-command-center/revenue-proof.html
 - Team purchase packet: https://ivelly42.github.io/agent-ops-command-center/team-purchase-packet.html
 - Team procurement email kit: https://ivelly42.github.io/agent-ops-command-center/team-procurement-email.html
 - Team invoice request packet: https://ivelly42.github.io/agent-ops-command-center/team-invoice-request.html
@@ -138,6 +139,7 @@ The full paid pack is not published publicly. This index links every public prev
 | Handoff | Preserve current state when work crosses sessions or models |
 | Cursor Tracker | Preserve mode, diff summary, verification, and manual review notes |
 | Scope Freeze | Lock allowed files, stop conditions, and proof before edits |
+| Revenue Proof Intake | Record real checkout, receipt, payout, or seller-dashboard evidence without counting demand signals as revenue |
 | Revenue Proof | Separate checkout evidence from demand signals |
 | Notion Import | Turn CSV files and templates into a usable workspace |
 | PR Review Scorecard | Score AI-written code before merge |

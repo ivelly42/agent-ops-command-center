@@ -1,0 +1,61 @@
+name: Revenue proof
+description: Record real paid revenue evidence for Agent Ops Command Center
+title: "Revenue proof: Agent Ops Command Center"
+labels: ["revenue-proof"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Record only real payment evidence for Agent Ops Command Center.
+
+        Count revenue only from checkout, receipt, payout, or seller-dashboard evidence.
+
+        Do not publish private buyer data, full card details, tax IDs, bank details, or private dashboard screenshots with sensitive information.
+  - type: dropdown
+    id: proof_type
+    attributes:
+      label: Revenue proof type
+      options:
+        - Checkout receipt
+        - Seller dashboard
+        - Payout record
+        - Payment processor receipt
+        - Other receipt-capable evidence
+    validations:
+      required: true
+  - type: input
+    id: gross_usd
+    attributes:
+      label: Gross revenue proven USD
+      description: Enter the gross paid amount in USD numbers only.
+      placeholder: "203"
+    validations:
+      required: true
+  - type: dropdown
+    id: package
+    attributes:
+      label: Paid package
+      options:
+        - Team license - 7 seats - $203 gross
+        - Individual seat - $29
+        - Multiple individual seats
+        - Other paid package
+    validations:
+      required: true
+  - type: input
+    id: evidence_url
+    attributes:
+      label: Evidence URL or reference
+      description: Public redacted URL, checkout id, receipt id, dashboard reference, or internal reference.
+      placeholder: "receipt id, redacted screenshot URL, or seller dashboard reference"
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: I confirm this issue records real checkout, receipt, payout, or seller-dashboard evidence.
+          required: true
+        - label: I understand purchase intent, previews, downloads, quotes, approvals, and pilot plans are not revenue.
+          required: true

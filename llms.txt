@@ -6,6 +6,8 @@ Primary page: https://ivelly42.github.io/agent-ops-command-center/
 
 Buy page: https://ivelly42.github.io/agent-ops-command-center/buy.html
 
+Revenue proof intake: https://ivelly42.github.io/agent-ops-command-center/revenue-proof.html
+
 Team purchase packet: https://ivelly42.github.io/agent-ops-command-center/team-purchase-packet.html
 
 Team procurement email kit: https://ivelly42.github.io/agent-ops-command-center/team-procurement-email.html
@@ -221,7 +223,7 @@ GitHub issue index: https://github.com/ivelly42/agent-ops-command-center/issues/
 
 Early access request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.29-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.30-preview
 
 Sample run log CSV: https://ivelly42.github.io/agent-ops-command-center/sample/run_log_sample.csv
 
