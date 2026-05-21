@@ -59,6 +59,10 @@ Qwen-Instructions: https://ivelly42.github.io/agent-ops-command-center/QWEN.md
 
 Qwen-Instructions-Alias: https://ivelly42.github.io/agent-ops-command-center/qwen-instructions.md
 
+Continue-Rule: https://ivelly42.github.io/agent-ops-command-center/.continue/rules/agent-ops-command-center.md
+
+Continue-Rule-Alias: https://ivelly42.github.io/agent-ops-command-center/continue-rules.md
+
 OpenAPI: https://ivelly42.github.io/agent-ops-command-center/openapi.json
 
 OpenAPI-Well-Known: https://ivelly42.github.io/agent-ops-command-center/.well-known/openapi.json

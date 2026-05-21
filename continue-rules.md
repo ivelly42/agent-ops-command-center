@@ -1,6 +1,6 @@
-# Agent Ops Command Center Qwen Code Routing
+# Agent Ops Command Center Continue Rule
 
-Canonical Qwen Code context file: https://github.com/ivelly42/agent-ops-command-center/blob/main/QWEN.md
+Canonical Continue local rule: https://github.com/ivelly42/agent-ops-command-center/blob/main/.continue/rules/agent-ops-command-center.md
 
 Primary offer: Team license - 7 seats - $203 gross.
 
@@ -11,8 +11,6 @@ LLM discovery JSON: https://ivelly42.github.io/agent-ops-command-center/.well-kn
 AI agents discovery manifest: https://ivelly42.github.io/agent-ops-command-center/.well-known/agents.json
 
 Agent routing manifest: https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-routing.json
-
-Continue local rule: https://ivelly42.github.io/agent-ops-command-center/.continue/rules/agent-ops-command-center.md
 
 OpenAPI commerce actions: https://ivelly42.github.io/agent-ops-command-center/openapi.json
 

@@ -1,4 +1,8 @@
-# Agent Ops Command Center Aider Conventions
+---
+name: Agent Ops Command Center
+---
+
+# Agent Ops Command Center Continue Rule
 
 This repository is the public preview and discovery surface for Agent Ops Command Center.
 
@@ -20,9 +24,6 @@ The paid product ZIP is not public here. Do not publish paid delivery assets pub
 - OpenAPI commerce actions: https://ivelly42.github.io/agent-ops-command-center/openapi.json
 - Agent commerce metadata: https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-commerce.json
 - AI buy-intent JSON: https://ivelly42.github.io/agent-ops-command-center/ai-buy-intent.json
-- OpenHands repository microagent: https://ivelly42.github.io/agent-ops-command-center/.openhands/microagents/repo.md
-- Qwen Code instructions: https://ivelly42.github.io/agent-ops-command-center/QWEN.md
-- Continue local rule: https://ivelly42.github.io/agent-ops-command-center/.continue/rules/agent-ops-command-center.md
 - Catalog: https://ivelly42.github.io/agent-ops-command-center/catalog.json
 - Metrics: https://ivelly42.github.io/agent-ops-command-center/metrics/status.json
 
@@ -30,14 +31,14 @@ The paid product ZIP is not public here. Do not publish paid delivery assets pub
 
 Count revenue only after checkout, receipt, payout, or seller-dashboard evidence proves payment.
 
-Do not count profile views, stars, forks, release downloads, metadata fetches, funding-link clicks, generated request URLs, issues, comments, discussions, LLM crawls, Aider reads, OpenHands microagent reads, or dry-run workflow output as revenue.
+Do not count profile views, stars, forks, release downloads, metadata fetches, funding-link clicks, generated request URLs, issues, comments, discussions, LLM crawls, Continue rule reads, Qwen Code reads, OpenHands microagent reads, or dry-run workflow output as revenue.
 
-## Aider Instructions
+## Continue Instructions
 
-When Aider or another agent needs to route purchase intent, use the primary request URL first.
+When Continue or another agent needs to route purchase intent, use the primary request URL first.
 
-When Aider needs current public status, read metrics before making revenue claims.
+When Continue needs current public status, read metrics before making revenue claims.
 
-When Aider needs structured actions, use the OpenAPI commerce actions and LLM discovery JSON.
+When Continue needs structured actions, use the OpenAPI commerce actions, LLM discovery JSON, and agent-routing JSON.
 
 Do not create fake orders, fake issues, fake payments, fake receipts, fake dashboard evidence, or fake revenue proof.

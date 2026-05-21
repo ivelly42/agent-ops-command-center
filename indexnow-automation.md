@@ -36,6 +36,8 @@ Submitted surfaces:
 - OpenHands microagent alias: https://ivelly42.github.io/agent-ops-command-center/openhands-repo.md
 - Qwen Code instructions: https://ivelly42.github.io/agent-ops-command-center/QWEN.md
 - Qwen Code instructions alias: https://ivelly42.github.io/agent-ops-command-center/qwen-instructions.md
+- Continue local rule: https://ivelly42.github.io/agent-ops-command-center/.continue/rules/agent-ops-command-center.md
+- Continue rule alias: https://ivelly42.github.io/agent-ops-command-center/continue-rules.md
 - Agent commerce metadata: https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-commerce.json
 - Agent commerce metadata alias: https://ivelly42.github.io/agent-ops-command-center/agent-commerce.json
 - AI plugin manifest: https://ivelly42.github.io/agent-ops-command-center/.well-known/ai-plugin.json
@@ -47,7 +49,7 @@ Submitted surfaces:
 - Feed: https://ivelly42.github.io/agent-ops-command-center/feed.xml
 - Preview index: https://ivelly42.github.io/agent-ops-command-center/github-preview-index.md
 - NPM preview docs: https://ivelly42.github.io/agent-ops-command-center/npm-preview.md
-- NPM release tarball: https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.127-preview/agent-ops-command-center-0.5.127.tgz
+- NPM release tarball: https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.128-preview/agent-ops-command-center-0.5.128.tgz
 - Order autoreply docs: https://ivelly42.github.io/agent-ops-command-center/order-autoreply.md
 - Discussion autoreply docs: https://ivelly42.github.io/agent-ops-command-center/discussion-autoreply.md
 - Revenue proof autoreply docs: https://ivelly42.github.io/agent-ops-command-center/revenue-proof-autoreply.md
