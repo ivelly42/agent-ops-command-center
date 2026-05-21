@@ -134,6 +134,12 @@ GitHub manager approval mirror Pages: https://ivelly42.github.io/ai-agent-manage
 
 Use manager approval mirror as GitHub template: https://github.com/ivelly42/ai-agent-manager-approval-template/generate
 
+GitHub purchase justification mirror: https://github.com/ivelly42/ai-agent-purchase-justification-template
+
+GitHub purchase justification mirror Pages: https://ivelly42.github.io/ai-agent-purchase-justification-template/
+
+Use purchase justification mirror as GitHub template: https://github.com/ivelly42/ai-agent-purchase-justification-template/generate
+
 GitHub client delivery mirror: https://github.com/ivelly42/ai-agent-client-delivery-kit
 
 GitHub client delivery mirror Pages: https://ivelly42.github.io/ai-agent-client-delivery-kit/
@@ -459,6 +465,12 @@ AI agent manager approval mirror Pages: https://ivelly42.github.io/ai-agent-mana
 
 AI agent manager approval GitHub template: https://github.com/ivelly42/ai-agent-manager-approval-template/generate
 
+AI agent purchase justification GitHub mirror: https://github.com/ivelly42/ai-agent-purchase-justification-template
+
+AI agent purchase justification mirror Pages: https://ivelly42.github.io/ai-agent-purchase-justification-template/
+
+AI agent purchase justification GitHub template: https://github.com/ivelly42/ai-agent-purchase-justification-template/generate
+
 AI agent client delivery GitHub mirror: https://github.com/ivelly42/ai-agent-client-delivery-kit
 
 AI agent client delivery mirror Pages: https://ivelly42.github.io/ai-agent-client-delivery-kit/
@@ -489,7 +501,7 @@ Fast template pack request: https://github.com/ivelly42/agent-ops-command-center
 
 Fast template pack request page: https://ivelly42.github.io/agent-ops-command-center/template-pack-request.html
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.69-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.70-preview
 
 Sample run log CSV: https://ivelly42.github.io/agent-ops-command-center/sample/run_log_sample.csv
 

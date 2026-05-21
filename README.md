@@ -140,6 +140,12 @@ GitHub manager approval mirror Pages: https://ivelly42.github.io/ai-agent-manage
 
 Use manager approval mirror as GitHub template: https://github.com/ivelly42/ai-agent-manager-approval-template/generate
 
+GitHub purchase justification mirror: https://github.com/ivelly42/ai-agent-purchase-justification-template
+
+GitHub purchase justification mirror Pages: https://ivelly42.github.io/ai-agent-purchase-justification-template/
+
+Use purchase justification mirror as GitHub template: https://github.com/ivelly42/ai-agent-purchase-justification-template/generate
+
 GitHub client delivery mirror: https://github.com/ivelly42/ai-agent-client-delivery-kit
 
 GitHub client delivery mirror Pages: https://ivelly42.github.io/ai-agent-client-delivery-kit/
@@ -241,7 +247,7 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.69-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.70-preview
 
 Sample files:
 
@@ -343,6 +349,9 @@ Sample files:
 - [GitHub manager approval mirror Pages](https://ivelly42.github.io/ai-agent-manager-approval-template/)
 - [GitHub manager approval mirror](https://github.com/ivelly42/ai-agent-manager-approval-template)
 - [Use manager approval mirror](https://github.com/ivelly42/ai-agent-manager-approval-template/generate)
+- [GitHub purchase justification mirror Pages](https://ivelly42.github.io/ai-agent-purchase-justification-template/)
+- [GitHub purchase justification mirror](https://github.com/ivelly42/ai-agent-purchase-justification-template)
+- [Use purchase justification mirror](https://github.com/ivelly42/ai-agent-purchase-justification-template/generate)
 - [GitHub client delivery mirror Pages](https://ivelly42.github.io/ai-agent-client-delivery-kit/)
 - [GitHub client delivery mirror](https://github.com/ivelly42/ai-agent-client-delivery-kit)
 - [Team purchase packet](team-purchase-packet.html)
