@@ -8,6 +8,7 @@ The full paid pack is not published publicly. This index links every public prev
 
 - Landing page: https://ivelly42.github.io/agent-ops-command-center/
 - Team license: https://ivelly42.github.io/agent-ops-command-center/team-license.html
+- Team quote builder: https://ivelly42.github.io/agent-ops-command-center/team-quote.html
 - Claude Code run log template: https://ivelly42.github.io/agent-ops-command-center/claude-code-run-log-template.html
 - AI agent run log template: https://ivelly42.github.io/agent-ops-command-center/ai-agent-run-log-template.html
 - AI coding agent Notion template: https://ivelly42.github.io/agent-ops-command-center/ai-coding-agent-notion-template.html
@@ -89,9 +90,10 @@ The full paid pack is not published publicly. This index links every public prev
 - GitHub issue index: https://github.com/ivelly42/agent-ops-command-center/issues/2
 - RSS feed: https://ivelly42.github.io/agent-ops-command-center/feed.xml
 - Machine-readable catalog: https://ivelly42.github.io/agent-ops-command-center/catalog.json
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.17-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.18-preview
 - Buy page: https://ivelly42.github.io/agent-ops-command-center/buy.html
 - Team license: https://ivelly42.github.io/agent-ops-command-center/team-license.html
+- Team quote builder: https://ivelly42.github.io/agent-ops-command-center/team-quote.html
 - Claude Code run log template: https://ivelly42.github.io/agent-ops-command-center/claude-code-run-log-template.html
 - AI agent run log template: https://ivelly42.github.io/agent-ops-command-center/ai-agent-run-log-template.html
 - AI coding agent Notion template: https://ivelly42.github.io/agent-ops-command-center/ai-coding-agent-notion-template.html
@@ -126,6 +128,7 @@ The full paid pack is not published publicly. This index links every public prev
 | Paid Delivery Manifest | Record paid delivery, archive digest, and buyer acknowledgement |
 | Buy Page | Focus early-access buyers on the $29 request, proof links, and revenue-proof rule |
 | Team License | Offer one $203 seven-seat request path that can clear the $200 launch target with one paid checkout |
+| Team Quote Builder | Generate copy-ready quote and purchase-order notes for a seven-seat $203 request |
 | Claude Code Run Log Template | Search landing page for Claude Code prompts, scope, changed files, verification, review notes, and handoff |
 | AI Agent Run Log Template | Search landing page for run logging scope, files, verification proof, cost notes, failure signals, and handoff |
 | AI Coding Agent Notion Template | Search landing page for Codex, Claude Code, Cursor, sample dashboard, import planning, and buy request path |

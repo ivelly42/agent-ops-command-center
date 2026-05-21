@@ -14,6 +14,7 @@ body:
         Checkout is not live yet. This issue records purchase intent and preferred checkout. It is not counted as revenue until a real checkout, receipt, or seller dashboard exists.
         Buy page: https://ivelly42.github.io/agent-ops-command-center/buy.html
         Team license: https://ivelly42.github.io/agent-ops-command-center/team-license.html
+        Team quote builder: https://ivelly42.github.io/agent-ops-command-center/team-quote.html
         Claude Code run log template: https://ivelly42.github.io/agent-ops-command-center/claude-code-run-log-template.html
         AI agent run log template: https://ivelly42.github.io/agent-ops-command-center/ai-agent-run-log-template.html
         AI coding agent Notion template: https://ivelly42.github.io/agent-ops-command-center/ai-coding-agent-notion-template.html
@@ -67,8 +68,20 @@ body:
         - Gumroad
         - Ko-fi
         - Lemon Squeezy
+        - PayPal invoice
         - GitHub Sponsors
         - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: quote
+    attributes:
+      label: Quote or purchase-order need
+      options:
+        - No quote needed
+        - Need a $203 seven-seat quote before checkout
+        - Need invoice details before payment
+        - Need manager approval text
     validations:
       required: true
   - type: checkboxes

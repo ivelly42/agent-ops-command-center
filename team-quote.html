@@ -1,0 +1,553 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AI Agent Team Quote Builder | Agent Ops Command Center</title>
+    <meta name="description" content="Build a $203 seven-seat quote for the Agent Ops Command Center AI-agent template pack before requesting checkout.">
+    <meta property="og:title" content="AI Agent Team Quote Builder">
+    <meta property="og:description" content="Generate a copy-ready team quote and purchase-order note for the $203 Agent Ops Command Center team license.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ivelly42.github.io/agent-ops-command-center/team-quote.html">
+    <meta property="og:image" content="https://ivelly42.github.io/agent-ops-command-center/og.svg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://ivelly42.github.io/agent-ops-command-center/og.svg">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Agent Ops Command Center Team Quote",
+        "description": "Seven-seat quote builder for the AI coding-agent Notion and spreadsheet template pack.",
+        "url": "https://ivelly42.github.io/agent-ops-command-center/team-quote.html",
+        "offers": {
+          "@type": "Offer",
+          "price": "203",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/PreOrder",
+          "url": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml"
+        }
+      }
+    </script>
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #141414;
+        --muted: #5e5a52;
+        --line: #d8d3ca;
+        --paper: #fbfaf7;
+        --panel: #ffffff;
+        --soft: #f6f4ee;
+        --accent: #0f766e;
+        --gold: #a16207;
+      }
+
+      * { box-sizing: border-box; }
+
+      body {
+        margin: 0;
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        color: var(--ink);
+        background: var(--paper);
+      }
+
+      header, main, footer {
+        width: min(1180px, calc(100% - 40px));
+        margin: 0 auto;
+      }
+
+      header {
+        min-height: 72px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .brand { font-weight: 800; }
+
+      nav {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+        font-size: 14px;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      .hero {
+        padding: 64px 0 42px;
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) minmax(340px, 0.72fr);
+        gap: 48px;
+        align-items: center;
+      }
+
+      .eyebrow {
+        color: var(--accent);
+        font-size: 14px;
+        font-weight: 800;
+        margin-bottom: 14px;
+      }
+
+      h1 {
+        font-size: clamp(42px, 7vw, 76px);
+        line-height: 0.98;
+        margin: 0 0 20px;
+        letter-spacing: 0;
+      }
+
+      .lead {
+        color: var(--muted);
+        font-size: 20px;
+        line-height: 1.5;
+        margin: 0;
+        max-width: 760px;
+      }
+
+      .actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 24px;
+      }
+
+      .button {
+        min-height: 44px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid var(--ink);
+        border-radius: 8px;
+        padding: 0 16px;
+        font-weight: 800;
+        background: transparent;
+        color: inherit;
+        font: inherit;
+        cursor: pointer;
+      }
+
+      .button.primary {
+        background: var(--ink);
+        color: #fff;
+      }
+
+      .summary, .field, .item {
+        background: var(--panel);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+      }
+
+      .summary {
+        padding: 24px;
+        box-shadow: 0 24px 80px rgba(20, 20, 20, 0.12);
+      }
+
+      .price {
+        font-size: 86px;
+        line-height: 0.95;
+        font-weight: 900;
+        margin-bottom: 12px;
+      }
+
+      .summary p {
+        color: var(--muted);
+        font-size: 18px;
+        line-height: 1.45;
+        margin: 0 0 18px;
+      }
+
+      .mini-grid, .form-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 12px;
+      }
+
+      .mini {
+        border: 1px solid var(--line);
+        background: var(--soft);
+        border-radius: 8px;
+        padding: 14px;
+      }
+
+      .mini strong {
+        display: block;
+        font-size: 24px;
+        margin-bottom: 4px;
+        overflow-wrap: anywhere;
+      }
+
+      .mini span {
+        color: var(--muted);
+        font-size: 13px;
+      }
+
+      section {
+        padding: 34px 0;
+        border-top: 1px solid var(--line);
+      }
+
+      .section-head {
+        display: flex;
+        justify-content: space-between;
+        gap: 24px;
+        align-items: end;
+        margin-bottom: 18px;
+      }
+
+      h2 {
+        font-size: clamp(28px, 4vw, 46px);
+        margin: 0;
+        letter-spacing: 0;
+      }
+
+      .section-head p {
+        color: var(--muted);
+        line-height: 1.5;
+        max-width: 560px;
+        margin: 0;
+      }
+
+      .field {
+        padding: 16px;
+      }
+
+      label {
+        display: block;
+        font-weight: 800;
+        margin-bottom: 8px;
+      }
+
+      input, select, textarea {
+        width: 100%;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 11px 12px;
+        color: var(--ink);
+        background: #fff;
+        font: inherit;
+      }
+
+      .field p {
+        color: var(--muted);
+        font-size: 13px;
+        line-height: 1.4;
+        margin: 8px 0 0;
+      }
+
+      textarea {
+        min-height: 270px;
+        line-height: 1.45;
+        resize: vertical;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 14px;
+      }
+
+      .item {
+        padding: 18px;
+      }
+
+      .item h3 {
+        margin: 0 0 10px;
+        font-size: 20px;
+      }
+
+      .item p {
+        color: var(--muted);
+        line-height: 1.45;
+        margin: 0;
+      }
+
+      .notice {
+        border-left: 4px solid var(--gold);
+        background: var(--panel);
+        color: var(--muted);
+        padding: 18px 20px;
+        line-height: 1.55;
+      }
+
+      .status {
+        color: var(--accent);
+        font-weight: 800;
+        margin-top: 10px;
+        min-height: 22px;
+      }
+
+      footer {
+        color: var(--muted);
+        padding: 36px 0 48px;
+      }
+
+      @media (max-width: 980px) {
+        .hero, .grid {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      @media (max-width: 720px) {
+        header {
+          align-items: flex-start;
+          flex-direction: column;
+          gap: 14px;
+          padding: 18px 0;
+        }
+
+        .hero {
+          padding-top: 44px;
+        }
+
+        .section-head {
+          display: block;
+        }
+
+        .section-head p {
+          margin-top: 10px;
+        }
+
+        .mini-grid, .form-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a class="brand" href="index.html">Agent Ops Command Center</a>
+      <nav aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="buy.html">Buy</a>
+        <a href="team-license.html">Team License</a>
+        <a href="team-quote.html">Quote</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="sample-dashboard.html">Sample</a>
+        <a href="template-gallery.html">Gallery</a>
+        <a href="metrics/status.json">Metrics</a>
+      </nav>
+    </header>
+
+    <main>
+      <div class="hero">
+        <div>
+          <div class="eyebrow">Quote-ready team purchase</div>
+          <h1>Build a $203 quote before checkout exists.</h1>
+          <p class="lead">Generate a copy-ready quote and purchase-order note for seven AI-agent operators. It reduces approval friction while keeping revenue proof strict.</p>
+          <div class="actions">
+            <a class="button primary" href="https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml">Request quote checkout</a>
+            <a class="button" href="team-license.html">Team license details</a>
+            <a class="button" href="buy.html">Buy page</a>
+            <a class="button" href="sample-dashboard.html">Sample dashboard</a>
+          </div>
+        </div>
+        <aside class="summary" aria-label="Quote summary">
+          <div class="price" id="total">$203</div>
+          <p>Default quote: seven seats at $29 each. Gross revenue is counted only after real payment proof exists.</p>
+          <div class="mini-grid">
+            <div class="mini">
+              <strong id="seatCount">7</strong>
+              <span>seats</span>
+            </div>
+            <div class="mini">
+              <strong>$29</strong>
+              <span>per seat</span>
+            </div>
+            <div class="mini">
+              <strong id="targetStatus">Clears</strong>
+              <span>$200 target</span>
+            </div>
+            <div class="mini">
+              <strong>Proof</strong>
+              <span>required before revenue</span>
+            </div>
+          </div>
+        </aside>
+      </div>
+
+      <section>
+        <div class="section-head">
+          <h2>Quote Inputs</h2>
+          <p>Write the quote request a team buyer can paste into the GitHub order form.</p>
+        </div>
+        <div class="form-grid">
+          <div class="field">
+            <label for="company">Buyer or team</label>
+            <input id="company" value="AI-agent operations team">
+            <p>Company, team, or project name.</p>
+          </div>
+          <div class="field">
+            <label for="seats">Seats</label>
+            <input id="seats" type="number" min="1" max="50" value="7">
+            <p>Seven seats at $29 equals $203 gross.</p>
+          </div>
+          <div class="field">
+            <label for="tools">Agent tools</label>
+            <input id="tools" value="Codex, Claude Code, Cursor, local agents">
+            <p>Tools the template pack should support.</p>
+          </div>
+          <div class="field">
+            <label for="checkout">Preferred checkout</label>
+            <select id="checkout">
+              <option selected>Receipt-capable checkout link</option>
+              <option>PayPal invoice</option>
+              <option>Gumroad</option>
+              <option>Ko-fi</option>
+              <option>Lemon Squeezy</option>
+              <option>GitHub Sponsors</option>
+            </select>
+            <p>Preference only; no checkout is live yet.</p>
+          </div>
+          <div class="field">
+            <label for="approval">Approval need</label>
+            <select id="approval">
+              <option selected>Manager approval before payment</option>
+              <option>Receipt required after payment</option>
+              <option>Invoice required before payment</option>
+              <option>Can pay once checkout exists</option>
+            </select>
+            <p>Use this to route procurement blockers.</p>
+          </div>
+          <div class="field">
+            <label for="usecase">Primary use case</label>
+            <select id="usecase">
+              <option selected>Standardize AI coding-agent run logs</option>
+              <option>Track verification evidence before release</option>
+              <option>Control prompt regressions and repeat failures</option>
+              <option>Measure agent cost and avoided rework</option>
+            </select>
+            <p>Make the quote concrete for the buyer.</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-head">
+          <h2>Generated Quote Note</h2>
+          <p>Copy into the order-request form. It is demand evidence only until payment proof exists.</p>
+        </div>
+        <textarea id="quote" readonly></textarea>
+        <div class="actions">
+          <button class="button primary" type="button" id="copyQuote">Copy quote note</button>
+          <a class="button" href="https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml">Open order request</a>
+          <a class="button" href="team-license.html">Team license</a>
+          <a class="button" href="pricing.html">Pricing</a>
+        </div>
+        <div class="status" id="copyStatus" aria-live="polite"></div>
+      </section>
+
+      <section>
+        <div class="section-head">
+          <h2>Quote Proof Links</h2>
+          <p>Public pages a buyer can inspect before requesting checkout.</p>
+        </div>
+        <div class="grid">
+          <article class="item">
+            <h3>Team License</h3>
+            <p>Seven seats, $203 gross, private ZIP after payment proof.</p>
+            <div class="actions"><a class="button" href="team-license.html">Open</a></div>
+          </article>
+          <article class="item">
+            <h3>Sample Dashboard</h3>
+            <p>Inspect sample run logs, costs, prompts, agents, verification, and failures.</p>
+            <div class="actions"><a class="button" href="sample-dashboard.html">Open</a></div>
+          </article>
+          <article class="item">
+            <h3>Template Gallery</h3>
+            <p>Scan public templates, Gists, builders, and delivery-proof assets.</p>
+            <div class="actions"><a class="button" href="template-gallery.html">Open</a></div>
+          </article>
+        </div>
+      </section>
+
+      <section>
+        <h2>Revenue Rule</h2>
+        <div class="notice">
+          This quote builder does not create checkout, prove payment, publish the paid ZIP, or count as revenue. Gross revenue is counted only from checkout, receipt, payout, or seller-dashboard evidence.
+        </div>
+        <div class="actions">
+          <a class="button primary" href="https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml">Request quote checkout</a>
+          <a class="button" href="metrics/status.json">Demand metrics</a>
+          <a class="button" href="paid-delivery-manifest.md">Delivery manifest</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      Team quote builder. Private paid ZIP. Revenue only after payment proof.
+    </footer>
+
+    <script>
+      const fields = ["company", "seats", "tools", "checkout", "approval", "usecase"];
+      const quote = document.getElementById("quote");
+      const status = document.getElementById("copyStatus");
+      const total = document.getElementById("total");
+      const seatCount = document.getElementById("seatCount");
+      const targetStatus = document.getElementById("targetStatus");
+
+      function dollars(value) {
+        return `$${value.toLocaleString("en-US")}`;
+      }
+
+      function current() {
+        return Object.fromEntries(fields.map((id) => [id, document.getElementById(id).value.trim()]));
+      }
+
+      function render() {
+        const v = current();
+        const seats = Math.max(1, Number.parseInt(v.seats, 10) || 1);
+        const amount = seats * 29;
+        total.textContent = dollars(amount);
+        seatCount.textContent = String(seats);
+        targetStatus.textContent = amount >= 200 ? "Clears" : "Below";
+
+        quote.value = [
+          "Team quote request: Agent Ops Command Center",
+          "",
+          `Buyer or team: ${v.company || "Not specified"}`,
+          `Seats requested: ${seats}`,
+          "Price per seat: $29",
+          `Gross quote amount: ${dollars(amount)}`,
+          `Preferred checkout: ${v.checkout}`,
+          `Approval need: ${v.approval}`,
+          `Agent tools: ${v.tools || "Not specified"}`,
+          `Primary use case: ${v.usecase}`,
+          "",
+          amount >= 200
+            ? "Target note: this quote would clear the public $200 launch target after payment proof exists."
+            : "Target note: this quote would not clear the public $200 launch target by itself.",
+          "",
+          "Quote proof links inspected:",
+          "- Team license: https://ivelly42.github.io/agent-ops-command-center/team-license.html",
+          "- Buy page: https://ivelly42.github.io/agent-ops-command-center/buy.html",
+          "- Sample dashboard: https://ivelly42.github.io/agent-ops-command-center/sample-dashboard.html",
+          "- Template gallery: https://ivelly42.github.io/agent-ops-command-center/template-gallery.html",
+          "- Demand metrics: https://ivelly42.github.io/agent-ops-command-center/metrics/status.json",
+          "",
+          "Revenue rule: this quote is not revenue. Count gross revenue only from checkout, receipt, payout, or seller-dashboard evidence."
+        ].join("\n");
+      }
+
+      for (const id of fields) {
+        const field = document.getElementById(id);
+        field.addEventListener("input", render);
+        field.addEventListener("change", render);
+      }
+
+      document.getElementById("copyQuote").addEventListener("click", async () => {
+        try {
+          await navigator.clipboard.writeText(quote.value);
+          status.textContent = "Quote note copied.";
+        } catch {
+          quote.select();
+          status.textContent = "Select and copy the quote note.";
+        }
+      });
+
+      render();
+    </script>
+  </body>
+</html>

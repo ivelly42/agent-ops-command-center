@@ -5,8 +5,15 @@
     <link>https://ivelly42.github.io/agent-ops-command-center/</link>
     <description>Public preview updates for a Notion and spreadsheet template pack for builders running AI coding agents.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 21 May 2026 12:52:00 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 21 May 2026 12:59:00 +0900</lastBuildDate>
     <ttl>1440</ttl>
+    <item>
+      <title>AI Agent Team Quote Builder</title>
+      <link>https://ivelly42.github.io/agent-ops-command-center/team-quote.html</link>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/team-quote.html</guid>
+      <pubDate>Thu, 21 May 2026 12:59:00 +0900</pubDate>
+      <description>Quote and purchase-order note builder for a seven-seat $203 Agent Ops Command Center team-license request.</description>
+    </item>
     <item>
       <title>AI Agent Ops Team License</title>
       <link>https://ivelly42.github.io/agent-ops-command-center/team-license.html</link>

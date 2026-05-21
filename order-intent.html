@@ -260,6 +260,8 @@
       <nav aria-label="Primary">
         <a href="index.html">Home</a>
         <a href="buy.html">Buy</a>
+        <a href="team-license.html">Team License</a>
+        <a href="team-quote.html">Quote</a>
         <a href="workflow-picker.html">Picker</a>
         <a href="notion-import-builder.html">Import</a>
         <a href="order-intent.html">Order Intent</a>
@@ -285,11 +287,12 @@
           <p class="lead">Checkout is not live yet. This page helps a buyer prepare a $29 early-access request, copy the order note, and open the GitHub order form without treating intent as paid revenue.</p>
           <div class="actions">
             <a class="button primary" href="https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml">Open order form</a>
+            <a class="button" href="team-quote.html">Build team quote</a>
             <a class="button" href="https://github.com/ivelly42/agent-ops-command-center/discussions/1">Ask in discussion</a>
             <a class="button" href="ops-maturity-check.html">Maturity check</a>
             <a class="button" href="run-log-builder.html">Run log builder</a>
             <a class="button" href="sample-dashboard.html">Sample dashboard</a>
-            <a class="button" href="https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.17-preview">Preview release</a>
+            <a class="button" href="https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.18-preview">Preview release</a>
           </div>
         </div>
 
@@ -309,6 +312,7 @@
                 <option>Gumroad</option>
                 <option>Ko-fi</option>
                 <option>Lemon Squeezy</option>
+                <option>PayPal invoice</option>
                 <option>GitHub Sponsors</option>
                 <option>Other</option>
               </select>
@@ -317,6 +321,7 @@
               <label for="intent">Purchase intent</label>
               <select id="intent">
                 <option>I am ready to pay $29 when checkout is ready</option>
+                <option>I am ready to pay $203 for the 7-seat team license when checkout is ready</option>
                 <option>I want the full pack when checkout is ready</option>
                 <option>I want to evaluate the preview first</option>
                 <option>I only want updates for now</option>
@@ -362,6 +367,8 @@
         </div>
         <div class="actions">
           <a class="button" href="roi-calculator.html">ROI calculator</a>
+          <a class="button" href="team-license.html">Team license</a>
+          <a class="button" href="team-quote.html">Team quote</a>
           <a class="button" href="ops-maturity-check.html">Maturity check</a>
           <a class="button" href="run-log-builder.html">Run log builder</a>
           <a class="button" href="sample-dashboard.html">Sample dashboard</a>
@@ -403,9 +410,12 @@
           `Recurring workflow problem: ${problem || "Not specified"}`,
           "",
           "Price acknowledgement: I understand the full pack target price is $29.",
+          "Team license option: $203 gross for 7 seats.",
           "Delivery acknowledgement: I understand the paid ZIP is not public and will be delivered only after a real checkout exists.",
           "",
           "Public preview: https://ivelly42.github.io/agent-ops-command-center/",
+          "Team license: https://ivelly42.github.io/agent-ops-command-center/team-license.html",
+          "Team quote builder: https://ivelly42.github.io/agent-ops-command-center/team-quote.html",
           "Maturity check: https://ivelly42.github.io/agent-ops-command-center/ops-maturity-check.html",
           "Run log builder: https://ivelly42.github.io/agent-ops-command-center/run-log-builder.html",
           "Sample dashboard: https://ivelly42.github.io/agent-ops-command-center/sample-dashboard.html",

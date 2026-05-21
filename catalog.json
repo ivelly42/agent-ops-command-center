@@ -6,11 +6,12 @@
   "sales_needed": 7,
   "status": "preview_live_no_paid_checkout",
   "homepage": "https://ivelly42.github.io/agent-ops-command-center/",
-  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.17-preview",
+  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.18-preview",
   "early_access_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml",
   "demand_metrics": "https://ivelly42.github.io/agent-ops-command-center/metrics/status.json",
   "buy_page": "https://ivelly42.github.io/agent-ops-command-center/buy.html",
   "team_license": "https://ivelly42.github.io/agent-ops-command-center/team-license.html",
+  "team_quote_builder": "https://ivelly42.github.io/agent-ops-command-center/team-quote.html",
   "claude_code_run_log_template": "https://ivelly42.github.io/agent-ops-command-center/claude-code-run-log-template.html",
   "ai_agent_run_log_template": "https://ivelly42.github.io/agent-ops-command-center/ai-agent-run-log-template.html",
   "ai_coding_agent_notion_template": "https://ivelly42.github.io/agent-ops-command-center/ai-coding-agent-notion-template.html",
@@ -32,6 +33,10 @@
   "paid_zip_public": false,
   "revenue_rule": "Revenue is proven only by checkout, receipt, payout, or seller-dashboard evidence.",
   "public_assets": [
+    {
+      "title": "AI Agent Team Quote Builder",
+      "url": "https://ivelly42.github.io/agent-ops-command-center/team-quote.html"
+    },
     {
       "title": "AI Agent Ops Team License",
       "url": "https://ivelly42.github.io/agent-ops-command-center/team-license.html"
