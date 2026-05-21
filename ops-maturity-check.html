@@ -1,0 +1,532 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AI Agent Ops Maturity Check | Agent Ops Command Center</title>
+    <meta name="description" content="Free AI-agent workflow maturity check for scoring run capture, scope control, verification, prompts, costs, failures, handoff, and revenue proof.">
+    <meta property="og:title" content="AI Agent Ops Maturity Check">
+    <meta property="og:description" content="Score your AI coding-agent workflow and decide whether the $29 Agent Ops Command Center pack is worth requesting.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ivelly42.github.io/agent-ops-command-center/ops-maturity-check.html">
+    <meta property="og:image" content="https://ivelly42.github.io/agent-ops-command-center/og.svg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://ivelly42.github.io/agent-ops-command-center/og.svg">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "AI Agent Ops Maturity Check",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "Any",
+        "url": "https://ivelly42.github.io/agent-ops-command-center/ops-maturity-check.html",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "isPartOf": {
+          "@type": "Product",
+          "name": "Agent Ops Command Center",
+          "offers": {
+            "@type": "Offer",
+            "price": "29",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/PreOrder",
+            "url": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml"
+          }
+        }
+      }
+    </script>
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #151515;
+        --muted: #5f5a52;
+        --line: #d8d3ca;
+        --paper: #fbfaf7;
+        --panel: #ffffff;
+        --accent: #0f766e;
+        --gold: #b45309;
+        --soft: #f7f5f0;
+      }
+
+      * { box-sizing: border-box; }
+
+      body {
+        margin: 0;
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        color: var(--ink);
+        background: var(--paper);
+      }
+
+      header, main, footer {
+        width: min(1180px, calc(100% - 40px));
+        margin: 0 auto;
+      }
+
+      header {
+        min-height: 72px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .brand { font-weight: 800; }
+
+      nav {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+        font-size: 14px;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      .hero {
+        padding: 64px 0 42px;
+        display: grid;
+        grid-template-columns: minmax(0, 0.9fr) minmax(380px, 1.1fr);
+        gap: 48px;
+        align-items: center;
+      }
+
+      .eyebrow {
+        color: var(--accent);
+        font-size: 14px;
+        font-weight: 800;
+        margin-bottom: 14px;
+      }
+
+      h1 {
+        font-size: clamp(42px, 7vw, 76px);
+        line-height: 0.98;
+        margin: 0 0 20px;
+        letter-spacing: 0;
+      }
+
+      .lead {
+        color: var(--muted);
+        font-size: 20px;
+        line-height: 1.5;
+        margin: 0;
+        max-width: 760px;
+      }
+
+      .actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 24px;
+      }
+
+      .button {
+        min-height: 44px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid var(--ink);
+        border-radius: 8px;
+        padding: 0 16px;
+        font-weight: 800;
+        background: transparent;
+        color: inherit;
+        font: inherit;
+        cursor: pointer;
+      }
+
+      .button.primary {
+        background: var(--ink);
+        color: #fff;
+      }
+
+      .score-card {
+        background: var(--panel);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 24px;
+        box-shadow: 0 24px 80px rgba(21, 21, 21, 0.12);
+      }
+
+      .score {
+        font-size: 84px;
+        line-height: 0.95;
+        font-weight: 900;
+        margin-bottom: 12px;
+      }
+
+      .score-label {
+        color: var(--muted);
+        font-size: 18px;
+        line-height: 1.45;
+      }
+
+      .bar {
+        height: 12px;
+        border-radius: 999px;
+        background: #e5e1d8;
+        margin-top: 22px;
+        overflow: hidden;
+      }
+
+      .bar span {
+        display: block;
+        height: 100%;
+        width: 0;
+        background: var(--accent);
+        border-radius: inherit;
+      }
+
+      section {
+        padding: 34px 0;
+        border-top: 1px solid var(--line);
+      }
+
+      .section-head {
+        display: flex;
+        justify-content: space-between;
+        gap: 24px;
+        align-items: end;
+        margin-bottom: 18px;
+      }
+
+      h2 {
+        font-size: clamp(28px, 4vw, 46px);
+        margin: 0;
+        letter-spacing: 0;
+      }
+
+      .section-head p {
+        color: var(--muted);
+        line-height: 1.5;
+        max-width: 560px;
+        margin: 0;
+      }
+
+      .checks {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 14px;
+      }
+
+      .check {
+        background: var(--panel);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 18px;
+      }
+
+      .check label {
+        display: flex;
+        justify-content: space-between;
+        gap: 16px;
+        font-weight: 800;
+        margin-bottom: 8px;
+      }
+
+      .check label span {
+        color: var(--muted);
+      }
+
+      .check p {
+        color: var(--muted);
+        line-height: 1.45;
+        margin: 0 0 12px;
+      }
+
+      input[type="range"] {
+        width: 100%;
+        accent-color: var(--accent);
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 14px;
+      }
+
+      .item {
+        background: var(--panel);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 18px;
+      }
+
+      .item h3 {
+        margin: 0 0 10px;
+        font-size: 20px;
+      }
+
+      .item p {
+        color: var(--muted);
+        line-height: 1.45;
+        margin: 0;
+      }
+
+      textarea {
+        width: 100%;
+        min-height: 260px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: #fff;
+        color: var(--ink);
+        font: 13px/1.45 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+        padding: 14px;
+        resize: vertical;
+      }
+
+      .notice {
+        border-left: 4px solid var(--gold);
+        background: var(--panel);
+        color: var(--muted);
+        padding: 18px 20px;
+        line-height: 1.55;
+      }
+
+      .status {
+        color: var(--accent);
+        font-weight: 800;
+        margin-top: 12px;
+        min-height: 22px;
+      }
+
+      footer {
+        color: var(--muted);
+        padding: 36px 0 48px;
+      }
+
+      @media (max-width: 900px) {
+        header {
+          align-items: flex-start;
+          flex-direction: column;
+          gap: 14px;
+          padding: 18px 0;
+        }
+
+        .hero, .checks, .grid {
+          grid-template-columns: 1fr;
+        }
+
+        .hero {
+          padding-top: 44px;
+        }
+
+        .section-head {
+          display: block;
+        }
+
+        .section-head p {
+          margin-top: 10px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a class="brand" href="index.html">Agent Ops Command Center</a>
+      <nav aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="ops-maturity-check.html">Maturity</a>
+        <a href="run-log-builder.html">Builder</a>
+        <a href="sample-dashboard.html">Sample</a>
+        <a href="roi-calculator.html">ROI</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="order-intent.html">Intent</a>
+      </nav>
+    </header>
+
+    <main>
+      <div class="hero">
+        <div>
+          <div class="eyebrow">Free AI-agent workflow maturity check</div>
+          <h1>Score the workflow risk before you buy.</h1>
+          <p class="lead">Rate your current Codex, Claude Code, Cursor, or local-agent operating system. The result tells you whether the $29 Agent Ops Command Center pack is likely to pay for itself.</p>
+          <div class="actions">
+            <a class="button primary" href="order-intent.html">Prepare order intent</a>
+            <a class="button" href="run-log-builder.html">Run log builder</a>
+            <a class="button" href="sample-dashboard.html">Sample dashboard</a>
+            <a class="button" href="https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.4-preview">Preview release</a>
+          </div>
+        </div>
+        <aside class="score-card" aria-label="Maturity score">
+          <div class="score" id="score">40</div>
+          <div class="score-label" id="scoreLabel">High workflow risk. The pack is likely useful if agent work repeats weekly.</div>
+          <div class="bar" aria-hidden="true"><span id="scoreBar"></span></div>
+        </aside>
+      </div>
+
+      <section>
+        <div class="section-head">
+          <h2>Maturity Inputs</h2>
+          <p>Move each control from 0 to 5. Lower score means more lost context, false completion, repeated cleanup, and weak revenue proof.</p>
+        </div>
+        <div class="checks" id="checks"></div>
+      </section>
+
+      <section>
+        <div class="section-head">
+          <h2>Recommendation</h2>
+          <p>The output is copy-ready for a buyer decision, order-intent issue, or internal purchase approval note.</p>
+        </div>
+        <textarea id="report" readonly></textarea>
+        <div class="actions">
+          <button class="button primary" type="button" id="copyReport">Copy report</button>
+          <a class="button" id="orderLink" href="order-intent.html">Use in order intent</a>
+          <a class="button" href="buyer-decision-matrix.md">Buyer matrix</a>
+          <a class="button" href="purchase-approval-brief.md">Approval brief</a>
+        </div>
+        <div class="status" id="copyStatus" aria-live="polite"></div>
+      </section>
+
+      <section>
+        <div class="section-head">
+          <h2>What The Pack Covers</h2>
+          <p>The full workspace turns low maturity areas into repeatable operating tables and review gates.</p>
+        </div>
+        <div class="grid">
+          <article class="item">
+            <h3>Run Evidence</h3>
+            <p>Run log, run brief, acceptance tests, done checklist, and verification command library.</p>
+          </article>
+          <article class="item">
+            <h3>Control Loops</h3>
+            <p>Prompt library, model routing, failure modes database, incident reports, and weekly review.</p>
+          </article>
+          <article class="item">
+            <h3>Buyer Proof</h3>
+            <p>ROI calculator, purchase approval brief, delivery manifest, buyer intake, and revenue proof rules.</p>
+          </article>
+        </div>
+      </section>
+
+      <section>
+        <h2>Revenue Rule</h2>
+        <div class="notice">
+          This page is a free preview tool. It does not create checkout, prove payment, publish the paid ZIP, or count as revenue. Gross revenue is counted only from checkout, receipt, payout, or seller-dashboard evidence.
+        </div>
+        <div class="actions">
+          <a class="button primary" href="order-intent.html">Prepare order intent</a>
+          <a class="button" href="pricing.html">Pricing</a>
+          <a class="button" href="metrics/status.json">Demand metrics</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      Free maturity check. Private paid ZIP. Revenue only after payment proof.
+    </footer>
+
+    <script>
+      const criteria = [
+        ["run_capture", "Run capture", "Objectives, changed files, evidence, and follow-up survive outside chat history."],
+        ["scope_control", "Scope control", "Allowed paths, forbidden paths, and stop conditions are written before agent edits."],
+        ["verification", "Verification", "Every done claim has exact commands, screenshots, URLs, or release asset evidence."],
+        ["prompt_control", "Prompt control", "Reusable prompts are versioned with known failures and regression checks."],
+        ["cost_control", "Cost control", "Agent spend, model choice, cleanup time, and ROI notes are tracked."],
+        ["failure_handling", "Failure handling", "Repeated mistakes become failure modes, detection rules, and prevention rules."],
+        ["handoff", "Handoff", "New sessions or reviewers can resume without reconstructing context from chat."],
+        ["revenue_proof", "Revenue proof", "Demand signals are separated from checkout, receipt, payout, and seller-dashboard proof."]
+      ];
+
+      const checks = document.getElementById("checks");
+      const report = document.getElementById("report");
+      const score = document.getElementById("score");
+      const scoreLabel = document.getElementById("scoreLabel");
+      const scoreBar = document.getElementById("scoreBar");
+      const orderLink = document.getElementById("orderLink");
+      const status = document.getElementById("copyStatus");
+
+      checks.innerHTML = criteria.map(([id, title, description]) => `
+        <article class="check">
+          <label for="${id}">${title} <span id="${id}_value">2</span></label>
+          <p>${description}</p>
+          <input id="${id}" type="range" min="0" max="5" step="1" value="2">
+        </article>
+      `).join("");
+
+      function currentValues() {
+        return criteria.map(([id, title]) => ({
+          id,
+          title,
+          value: Number(document.getElementById(id).value)
+        }));
+      }
+
+      function labelFor(percent) {
+        if (percent < 45) return "High workflow risk. The pack is likely useful if agent work repeats weekly.";
+        if (percent < 70) return "Medium workflow risk. The pack is useful if verification or handoff keeps slipping.";
+        return "Lower workflow risk. Buy only if you need a ready-made workspace instead of maintaining your own.";
+      }
+
+      function recommendationFor(percent) {
+        if (percent < 45) return "Strong fit: request the full pack when checkout is ready.";
+        if (percent < 70) return "Conditional fit: use the preview tools, then request the pack if two or more weak areas repeat.";
+        return "Light fit: keep using the free tools unless your team needs standardized tracking.";
+      }
+
+      function render() {
+        const values = currentValues();
+        const total = values.reduce((sum, item) => sum + item.value, 0);
+        const percent = Math.round((total / (criteria.length * 5)) * 100);
+        const weak = values.filter((item) => item.value <= 2).map((item) => item.title);
+        const strong = values.filter((item) => item.value >= 4).map((item) => item.title);
+        for (const item of values) {
+          document.getElementById(`${item.id}_value`).textContent = item.value;
+        }
+        score.textContent = percent;
+        scoreLabel.textContent = labelFor(percent);
+        scoreBar.style.width = `${percent}%`;
+        report.value = [
+          "# AI Agent Ops Maturity Check",
+          "",
+          `Score: ${percent}/100`,
+          `Recommendation: ${recommendationFor(percent)}`,
+          "",
+          `Weak areas: ${weak.length ? weak.join(", ") : "None marked 0-2"}`,
+          `Strong areas: ${strong.length ? strong.join(", ") : "None marked 4-5"}`,
+          "",
+          "Score detail:",
+          ...values.map((item) => `- ${item.title}: ${item.value}/5`),
+          "",
+          "Suggested next action:",
+          percent < 70
+            ? "Use the run log builder for the next agent run, inspect the sample dashboard, then prepare order intent for the full workspace."
+            : "Use the free run log builder and sample dashboard first; request the full workspace only if repeated handoff or verification failures continue.",
+          "",
+          "Public preview: https://ivelly42.github.io/agent-ops-command-center/",
+          "Maturity check: https://ivelly42.github.io/agent-ops-command-center/ops-maturity-check.html",
+          "Run log builder: https://ivelly42.github.io/agent-ops-command-center/run-log-builder.html",
+          "Pricing: https://ivelly42.github.io/agent-ops-command-center/pricing.html",
+          "",
+          "Revenue rule: this report is buyer intent support only, not paid revenue."
+        ].join("\n");
+        const params = new URLSearchParams({
+          buyer: "Maturity check user",
+          tools: "Codex, Claude Code, Cursor, local agents",
+          problem: `${percent}/100 maturity score. Weak areas: ${weak.join(", ") || "not specified"}.`
+        });
+        orderLink.href = `order-intent.html?${params.toString()}`;
+      }
+
+      for (const [id] of criteria) {
+        document.getElementById(id).addEventListener("input", render);
+      }
+
+      document.getElementById("copyReport").addEventListener("click", async () => {
+        try {
+          await navigator.clipboard.writeText(report.value);
+          status.textContent = "Maturity report copied.";
+        } catch {
+          report.select();
+          status.textContent = "Select and copy the maturity report.";
+        }
+      });
+
+      render();
+    </script>
+  </body>
+</html>
