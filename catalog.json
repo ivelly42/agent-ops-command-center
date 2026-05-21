@@ -6,10 +6,11 @@
   "sales_needed": 7,
   "status": "preview_live_no_paid_checkout",
   "homepage": "https://ivelly42.github.io/agent-ops-command-center/",
-  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.2-preview",
+  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.3-preview",
   "early_access_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml",
   "demand_metrics": "https://ivelly42.github.io/agent-ops-command-center/metrics/status.json",
   "template_gallery": "https://ivelly42.github.io/agent-ops-command-center/template-gallery.html",
+  "run_log_builder": "https://ivelly42.github.io/agent-ops-command-center/run-log-builder.html",
   "interactive_roi_calculator": "https://ivelly42.github.io/agent-ops-command-center/roi-calculator.html",
   "order_intent_builder": "https://ivelly42.github.io/agent-ops-command-center/order-intent.html",
   "pricing": "https://ivelly42.github.io/agent-ops-command-center/pricing.html",
@@ -23,6 +24,10 @@
     {
       "title": "AI Agent Template Gallery",
       "url": "https://ivelly42.github.io/agent-ops-command-center/template-gallery.html"
+    },
+    {
+      "title": "AI Agent Run Log Builder",
+      "url": "https://ivelly42.github.io/agent-ops-command-center/run-log-builder.html"
     },
     {
       "title": "Interactive AI Agent ROI Calculator",
