@@ -70,8 +70,9 @@ const links = {
   indexNowAutomation: "https://ivelly42.github.io/agent-ops-command-center/indexnow-automation.md",
   discussionAutoreply: "https://ivelly42.github.io/agent-ops-command-center/discussion-autoreply.md",
   paymentReadyNpmAutoreplyDiscussion: "https://github.com/ivelly42/agent-ops-command-center/discussions/10",
+  clineWorkflowDiscussion: "https://github.com/ivelly42/agent-ops-command-center/discussions/12",
   release: "https://github.com/ivelly42/agent-ops-command-center/releases/latest",
-  npmReleaseTarball: "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.130-preview/agent-ops-command-center-0.5.130.tgz"
+  npmReleaseTarball: "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.131-preview/agent-ops-command-center-0.5.131.tgz"
 };
 
 const payload = {
@@ -142,6 +143,9 @@ ${links.clineWorkspaceRule}
 
 Cline team-license workflow:
 ${links.clineTeamLicenseWorkflow}
+
+Cline workflow Discussion:
+${links.clineWorkflowDiscussion}
 
 Buyer commands:
 ${payload.commands.team_request_url}

@@ -20,6 +20,8 @@ Discussion: https://github.com/ivelly42/agent-ops-command-center/discussions/10
 
 Team request CLI Discussion: https://github.com/ivelly42/agent-ops-command-center/discussions/11
 
+Cline workflow Discussion: https://github.com/ivelly42/agent-ops-command-center/discussions/12
+
 NPX team request mirror: https://ivelly42.github.io/ai-agent-npx-team-request-template/
 
 ## Main Commands
@@ -37,11 +39,11 @@ npx github:ivelly42/agent-ops-command-center --team-request-markdown
 The npm registry name is currently unpublished, and this machine is not logged in to npm, so the no-user-intervention path is a GitHub Release tarball.
 
 ```bash
-npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.130-preview/agent-ops-command-center-0.5.130.tgz -- agent-ops-command-center --team-request-url
-npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.130-preview/agent-ops-command-center-0.5.130.tgz -- agent-ops-command-center --json
+npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.131-preview/agent-ops-command-center-0.5.131.tgz -- agent-ops-command-center --team-request-url
+npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.131-preview/agent-ops-command-center-0.5.131.tgz -- agent-ops-command-center --json
 ```
 
-Tarball: https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.130-preview/agent-ops-command-center-0.5.130.tgz
+Tarball: https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.131-preview/agent-ops-command-center-0.5.131.tgz
 
 Running the tarball preview is not revenue.
 
