@@ -14,6 +14,8 @@ Buy page: [buy.html](buy.html)
 
 Fast team checkout request: [team-checkout-request.html](team-checkout-request.html)
 
+Client delivery kit: [client-delivery-kit.html](client-delivery-kit.html)
+
 Team purchase packet: [team-purchase-packet.html](team-purchase-packet.html)
 
 Team procurement email kit: [team-procurement-email.html](team-procurement-email.html)
@@ -109,7 +111,7 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.36-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.37-preview
 
 Sample files:
 
@@ -148,6 +150,7 @@ Sample files:
 - [Revenue proof intake](revenue-proof.html)
 - [Buy page](buy.html)
 - [Fast team checkout request](team-checkout-request.html)
+- [Client delivery kit](client-delivery-kit.html)
 - [Team purchase packet](team-purchase-packet.html)
 - [Team procurement email kit](team-procurement-email.html)
 - [Team invoice request packet](team-invoice-request.html)
