@@ -49,7 +49,7 @@ jobs:
                     title
                     body
                     url
-                    comments(first: 100, orderBy: {field: UPDATED_AT, direction: DESC}) {
+                    comments(first: 100) {
                       nodes {
                         body
                         author {
