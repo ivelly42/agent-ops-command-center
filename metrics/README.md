@@ -20,6 +20,6 @@ Current status:
 - Checkout live: `false`
 - Revenue proof required: `checkout, receipt, payout, or seller-dashboard evidence`
 - Status: `no paid checkout`
-- Updated: `2026-05-21T11:23:22.903Z`
+- Updated: `2026-05-21T11:23:34.593Z`
 
 This repo cannot prove paid revenue until an authenticated checkout or seller dashboard exists.
