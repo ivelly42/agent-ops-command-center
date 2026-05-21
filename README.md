@@ -13,6 +13,7 @@ Feed: [feed.xml](feed.xml)
 Catalog: [catalog.json](catalog.json)
 
 HTML gallery: [template-gallery.html](template-gallery.html)
+Workflow picker tool: [workflow-picker.html](workflow-picker.html)
 
 Ops maturity check: [ops-maturity-check.html](ops-maturity-check.html)
 
@@ -62,7 +63,7 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.8-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.9-preview
 
 Sample files:
 
@@ -98,6 +99,7 @@ Sample files:
 - [RSS feed](feed.xml)
 - [Machine-readable catalog](catalog.json)
 - [HTML template gallery](template-gallery.html)
+- [Workflow picker tool](workflow-picker.html)
 - [Ops maturity check](ops-maturity-check.html)
 - [Cost leak audit tool](cost-leak-audit.html)
 - [Buyer decision matrix tool](buyer-decision-matrix.html)

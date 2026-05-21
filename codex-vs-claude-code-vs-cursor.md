@@ -4,6 +4,8 @@ Use this picker when an AI coding task could be handled by Codex, Claude Code, C
 
 This preview is part of Agent Ops Command Center, a $29 Notion and spreadsheet template pack for builders running AI coding agents.
 
+Browser picker: https://ivelly42.github.io/agent-ops-command-center/workflow-picker.html
+
 ## Quick Decision
 
 | Task Type | Use Codex When | Use Claude Code When | Use Cursor When | Proof Required |
@@ -65,6 +67,7 @@ Revenue is proven only by checkout, receipt, payout, or seller-dashboard evidenc
 ## Links
 
 - Full preview site: https://ivelly42.github.io/agent-ops-command-center/
+- Browser workflow picker: https://ivelly42.github.io/agent-ops-command-center/workflow-picker.html
 - AI agent operating system template: https://ivelly42.github.io/agent-ops-command-center/ai-agent-operating-system-template.md
 - Model routing matrix: https://ivelly42.github.io/agent-ops-command-center/ai-agent-model-routing-matrix.md
 - Public preview index: https://ivelly42.github.io/agent-ops-command-center/github-preview-index.md

@@ -5,8 +5,15 @@
     <link>https://ivelly42.github.io/agent-ops-command-center/</link>
     <description>Public preview updates for a Notion and spreadsheet template pack for builders running AI coding agents.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 21 May 2026 11:01:00 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 21 May 2026 11:14:00 +0900</lastBuildDate>
     <ttl>1440</ttl>
+    <item>
+      <title>Codex vs Claude Code vs Cursor Workflow Picker</title>
+      <link>https://ivelly42.github.io/agent-ops-command-center/workflow-picker.html</link>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/workflow-picker.html</guid>
+      <pubDate>Thu, 21 May 2026 11:14:00 +0900</pubDate>
+      <description>Free browser picker for choosing Codex, Claude Code, Cursor, or a local agent based on task type, proof needs, handoff risk, UI QA, and release requirements.</description>
+    </item>
     <item>
       <title>AI Agent Buyer Intake Builder</title>
       <link>https://ivelly42.github.io/agent-ops-command-center/buyer-intake.html</link>

@@ -26,6 +26,7 @@ The full paid pack is not published publicly. This index links every public prev
 - AI agent security review checklist: https://ivelly42.github.io/agent-ops-command-center/ai-agent-security-review-checklist.md
 - AI agent incident report template: https://ivelly42.github.io/agent-ops-command-center/ai-agent-incident-report-template.md
 - AI agent operating system template: https://ivelly42.github.io/agent-ops-command-center/ai-agent-operating-system-template.md
+- Codex vs Claude Code vs Cursor workflow picker tool: https://ivelly42.github.io/agent-ops-command-center/workflow-picker.html
 - Codex vs Claude Code vs Cursor workflow picker: https://ivelly42.github.io/agent-ops-command-center/codex-vs-claude-code-vs-cursor.md
 - Agent registry template: https://ivelly42.github.io/agent-ops-command-center/agent-registry-template.md
 - Verification ledger template: https://ivelly42.github.io/agent-ops-command-center/verification-ledger-template.md
@@ -83,8 +84,9 @@ The full paid pack is not published publicly. This index links every public prev
 - GitHub issue index: https://github.com/ivelly42/agent-ops-command-center/issues/2
 - RSS feed: https://ivelly42.github.io/agent-ops-command-center/feed.xml
 - Machine-readable catalog: https://ivelly42.github.io/agent-ops-command-center/catalog.json
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.8-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.9-preview
 - HTML template gallery: https://ivelly42.github.io/agent-ops-command-center/template-gallery.html
+- Workflow picker tool: https://ivelly42.github.io/agent-ops-command-center/workflow-picker.html
 - Interactive ROI calculator: https://ivelly42.github.io/agent-ops-command-center/roi-calculator.html
 - Order intent builder: https://ivelly42.github.io/agent-ops-command-center/order-intent.html
 - Pricing: https://ivelly42.github.io/agent-ops-command-center/pricing.html
@@ -123,6 +125,7 @@ The full paid pack is not published publicly. This index links every public prev
 | Security Review Checklist | Review secrets, personal data, auth, payment, public sharing, dependency, destructive-action, and prompt-leak risk |
 | Incident Report | Record timeline, impact, root cause, missed detection, recovery, and prevention rule after agent incidents |
 | Agent Ops Maturity Scorecard | Score run capture, scope control, verification, prompt control, cost control, failure handling, handoff, and revenue proof |
+| Codex vs Claude Code vs Cursor Picker Tool | Score task type, proof needs, handoff risk, UI QA, and release requirements |
 | Codex vs Claude Code vs Cursor Picker | Choose agent owner, proof requirement, handoff packet, and stop condition before work starts |
 | Weekly Review | Improve agent workflow each week |
 

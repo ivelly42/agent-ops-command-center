@@ -6,7 +6,7 @@
   "sales_needed": 7,
   "status": "preview_live_no_paid_checkout",
   "homepage": "https://ivelly42.github.io/agent-ops-command-center/",
-  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.8-preview",
+  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.9-preview",
   "early_access_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml",
   "demand_metrics": "https://ivelly42.github.io/agent-ops-command-center/metrics/status.json",
   "template_gallery": "https://ivelly42.github.io/agent-ops-command-center/template-gallery.html",
@@ -81,6 +81,10 @@
       "gist": "https://gist.github.com/ivelly42/4c9c05a9823cb88148ff5a658a3607d4"
     },
     {
+      "title": "Codex vs Claude Code vs Cursor Workflow Picker Tool",
+      "url": "https://ivelly42.github.io/agent-ops-command-center/workflow-picker.html"
+    },
+    {
       "title": "Codex vs Claude Code vs Cursor Workflow Picker",
       "url": "https://ivelly42.github.io/agent-ops-command-center/codex-vs-claude-code-vs-cursor.md",
       "gist": "https://gist.github.com/ivelly42/75ce3130a95d83a247de6f16eee0060c"
@@ -100,5 +104,6 @@
       "url": "https://ivelly42.github.io/agent-ops-command-center/ai-agent-verification-command-library.md",
       "gist": "https://gist.github.com/ivelly42/0f35039dbb5e455cfe36c316632f96fb"
     }
-  ]
+  ],
+  "workflow_picker_tool": "https://ivelly42.github.io/agent-ops-command-center/workflow-picker.html"
 }

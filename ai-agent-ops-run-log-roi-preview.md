@@ -79,6 +79,7 @@ The pack breaks even if it prevents roughly one hour of cleanup time for a build
 - AI agent incident report template Gist: https://gist.github.com/ivelly42/ec9207c47d152642247989aac2dcad7b
 - AI agent operating system template: https://ivelly42.github.io/agent-ops-command-center/ai-agent-operating-system-template.md
 - AI agent operating system scorecard Gist: https://gist.github.com/ivelly42/37a14ab70b537aeaef1156549876124b
+- Codex vs Claude Code vs Cursor workflow picker tool: https://ivelly42.github.io/agent-ops-command-center/workflow-picker.html
 - Codex vs Claude Code vs Cursor workflow picker: https://ivelly42.github.io/agent-ops-command-center/codex-vs-claude-code-vs-cursor.md
 - Codex vs Claude Code vs Cursor workflow picker Gist: https://gist.github.com/ivelly42/75ce3130a95d83a247de6f16eee0060c
 - Codex workflow tracker: https://ivelly42.github.io/agent-ops-command-center/codex-workflow-tracker-template.md
@@ -116,8 +117,9 @@ The pack breaks even if it prevents roughly one hour of cleanup time for a build
 - Run log template: https://ivelly42.github.io/agent-ops-command-center/codex-claude-run-log-template.md
 - Failure RCA template: https://ivelly42.github.io/agent-ops-command-center/failure-rca-template.md
 - Preflight checklist: https://ivelly42.github.io/agent-ops-command-center/checklist.md
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.8-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.9-preview
 - HTML template gallery: https://ivelly42.github.io/agent-ops-command-center/template-gallery.html
+- Workflow picker tool: https://ivelly42.github.io/agent-ops-command-center/workflow-picker.html
 - Interactive ROI calculator: https://ivelly42.github.io/agent-ops-command-center/roi-calculator.html
 - Order intent builder: https://ivelly42.github.io/agent-ops-command-center/order-intent.html
 - Pricing: https://ivelly42.github.io/agent-ops-command-center/pricing.html
