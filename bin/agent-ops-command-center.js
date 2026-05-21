@@ -56,13 +56,15 @@ const links = {
   gooseHintsAlias: "https://ivelly42.github.io/agent-ops-command-center/goose-hints.md",
   openhandsRepoMicroagent: "https://ivelly42.github.io/agent-ops-command-center/.openhands/microagents/repo.md",
   openhandsRepoMicroagentAlias: "https://ivelly42.github.io/agent-ops-command-center/openhands-repo.md",
+  qwenInstructions: "https://ivelly42.github.io/agent-ops-command-center/QWEN.md",
+  qwenInstructionsAlias: "https://ivelly42.github.io/agent-ops-command-center/qwen-instructions.md",
   metrics: "https://ivelly42.github.io/agent-ops-command-center/metrics/status.json",
   revenueProofAutoreply: "https://ivelly42.github.io/agent-ops-command-center/revenue-proof-autoreply.md",
   indexNowAutomation: "https://ivelly42.github.io/agent-ops-command-center/indexnow-automation.md",
   discussionAutoreply: "https://ivelly42.github.io/agent-ops-command-center/discussion-autoreply.md",
   paymentReadyNpmAutoreplyDiscussion: "https://github.com/ivelly42/agent-ops-command-center/discussions/10",
   release: "https://github.com/ivelly42/agent-ops-command-center/releases/latest",
-  npmReleaseTarball: "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.126-preview/agent-ops-command-center-0.5.126.tgz"
+  npmReleaseTarball: "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.127-preview/agent-ops-command-center-0.5.127.tgz"
 };
 
 const payload = {

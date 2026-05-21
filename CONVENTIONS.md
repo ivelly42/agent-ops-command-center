@@ -21,6 +21,7 @@ The paid product ZIP is not public here. Do not publish paid delivery assets pub
 - Agent commerce metadata: https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-commerce.json
 - AI buy-intent JSON: https://ivelly42.github.io/agent-ops-command-center/ai-buy-intent.json
 - OpenHands repository microagent: https://ivelly42.github.io/agent-ops-command-center/.openhands/microagents/repo.md
+- Qwen Code instructions: https://ivelly42.github.io/agent-ops-command-center/QWEN.md
 - Catalog: https://ivelly42.github.io/agent-ops-command-center/catalog.json
 - Metrics: https://ivelly42.github.io/agent-ops-command-center/metrics/status.json
 

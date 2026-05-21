@@ -1,4 +1,4 @@
-# Agent Ops Command Center Agent Routing
+# Agent Ops Command Center Qwen Code Routing
 
 This repository is the public preview and discovery surface for Agent Ops Command Center.
 
@@ -14,13 +14,12 @@ The paid product ZIP is not public here. Do not publish paid delivery assets pub
 
 ## Machine-Readable Metadata
 
-- AI plugin manifest: https://ivelly42.github.io/agent-ops-command-center/.well-known/ai-plugin.json
+- LLM discovery JSON: https://ivelly42.github.io/agent-ops-command-center/.well-known/llms.json
+- AI agents discovery manifest: https://ivelly42.github.io/agent-ops-command-center/.well-known/agents.json
 - Agent routing manifest: https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-routing.json
 - OpenAPI commerce actions: https://ivelly42.github.io/agent-ops-command-center/openapi.json
 - Agent commerce metadata: https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-commerce.json
 - AI buy-intent JSON: https://ivelly42.github.io/agent-ops-command-center/ai-buy-intent.json
-- OpenHands repository microagent: https://ivelly42.github.io/agent-ops-command-center/.openhands/microagents/repo.md
-- Qwen Code instructions: https://ivelly42.github.io/agent-ops-command-center/QWEN.md
 - Catalog: https://ivelly42.github.io/agent-ops-command-center/catalog.json
 - Metrics: https://ivelly42.github.io/agent-ops-command-center/metrics/status.json
 
@@ -28,14 +27,14 @@ The paid product ZIP is not public here. Do not publish paid delivery assets pub
 
 Count revenue only after checkout, receipt, payout, or seller-dashboard evidence proves payment.
 
-Do not count profile views, stars, forks, release downloads, metadata fetches, funding-link clicks, generated request URLs, issues, comments, discussions, OpenHands microagent reads, or dry-run workflow output as revenue.
+Do not count profile views, stars, forks, release downloads, metadata fetches, funding-link clicks, generated request URLs, issues, comments, discussions, LLM crawls, Qwen Code reads, OpenHands microagent reads, or dry-run workflow output as revenue.
 
-## Agent Instructions
+## Qwen Code Instructions
 
-When an agent needs to help a buyer or another agent route purchase intent, use the primary request URL first.
+When Qwen Code or another agent needs to route purchase intent, use the primary request URL first.
 
-When an agent needs current public status, read metrics before making revenue claims.
+When Qwen Code needs current public status, read metrics before making revenue claims.
 
-When an agent needs structured actions, use the OpenAPI commerce actions.
+When Qwen Code needs structured actions, use the OpenAPI commerce actions, LLM discovery JSON, and agent-routing JSON.
 
 Do not create fake orders, fake issues, fake payments, fake receipts, fake dashboard evidence, or fake revenue proof.

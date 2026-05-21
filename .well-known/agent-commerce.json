@@ -2,7 +2,7 @@
   "name": "Agent Ops Command Center",
   "type": "agent_commerce_metadata",
   "schema_version": "2026-05-22",
-  "updated_at_kst": "2026-05-22 06:55",
+  "updated_at_kst": "2026-05-22 07:06",
   "canonical_url": "https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-commerce.json",
   "alternate_urls": [
     "https://ivelly42.github.io/agent-ops-command-center/agent-commerce.json",
@@ -26,7 +26,10 @@
     "https://ivelly42.github.io/agent-ops-command-center/goose-hints.md",
     "https://github.com/ivelly42/agent-ops-command-center/blob/main/.openhands/microagents/repo.md",
     "https://ivelly42.github.io/agent-ops-command-center/.openhands/microagents/repo.md",
-    "https://ivelly42.github.io/agent-ops-command-center/openhands-repo.md"
+    "https://ivelly42.github.io/agent-ops-command-center/openhands-repo.md",
+    "https://github.com/ivelly42/agent-ops-command-center/blob/main/QWEN.md",
+    "https://ivelly42.github.io/agent-ops-command-center/QWEN.md",
+    "https://ivelly42.github.io/agent-ops-command-center/qwen-instructions.md"
   ],
   "product": {
     "name": "Agent Ops Command Center",
@@ -56,7 +59,7 @@
     "read_catalog": "https://ivelly42.github.io/agent-ops-command-center/catalog.json",
     "read_metrics": "https://ivelly42.github.io/agent-ops-command-center/metrics/status.json",
     "read_agent_routing": "https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-routing.json",
-    "run_npm_release_tarball_team_request": "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.126-preview/agent-ops-command-center-0.5.126.tgz",
+    "run_npm_release_tarball_team_request": "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.127-preview/agent-ops-command-center-0.5.127.tgz",
     "read_copilot_instructions": "https://ivelly42.github.io/agent-ops-command-center/copilot-instructions.md",
     "read_cursor_rules": "https://ivelly42.github.io/agent-ops-command-center/cursor-agent-rules.md",
     "read_windsurf_rules": "https://ivelly42.github.io/agent-ops-command-center/windsurf-rules.md",
@@ -72,7 +75,9 @@
     "read_goose_hints": "https://ivelly42.github.io/agent-ops-command-center/.goosehints",
     "read_goose_hints_alias": "https://ivelly42.github.io/agent-ops-command-center/goose-hints.md",
     "read_openhands_repo_microagent": "https://ivelly42.github.io/agent-ops-command-center/.openhands/microagents/repo.md",
-    "read_openhands_repo_microagent_alias": "https://ivelly42.github.io/agent-ops-command-center/openhands-repo.md"
+    "read_openhands_repo_microagent_alias": "https://ivelly42.github.io/agent-ops-command-center/openhands-repo.md",
+    "read_qwen_instructions": "https://ivelly42.github.io/agent-ops-command-center/QWEN.md",
+    "read_qwen_instructions_alias": "https://ivelly42.github.io/agent-ops-command-center/qwen-instructions.md"
   },
   "fulfillment": {
     "public_preview_only": true,

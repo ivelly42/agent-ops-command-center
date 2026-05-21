@@ -20,6 +20,7 @@ Machine-readable metadata:
 - LLM discovery JSON: https://ivelly42.github.io/agent-ops-command-center/.well-known/llms.json
 - AI agents discovery manifest: https://ivelly42.github.io/agent-ops-command-center/.well-known/agents.json
 - Agent routing manifest: https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-routing.json
+- Qwen Code instructions: https://ivelly42.github.io/agent-ops-command-center/QWEN.md
 - OpenAPI commerce actions: https://ivelly42.github.io/agent-ops-command-center/openapi.json
 - Agent commerce metadata: https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-commerce.json
 - AI buy-intent JSON: https://ivelly42.github.io/agent-ops-command-center/ai-buy-intent.json

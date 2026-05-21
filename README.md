@@ -46,7 +46,7 @@ NPM GitHub install preview: `npx github:ivelly42/agent-ops-command-center --json
 
 NPM team request shortcut: `npx github:ivelly42/agent-ops-command-center --team-request-url`
 
-NPM release tarball team request: `npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.126-preview/agent-ops-command-center-0.5.126.tgz -- agent-ops-command-center --team-request-url`
+NPM release tarball team request: `npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.127-preview/agent-ops-command-center-0.5.127.tgz -- agent-ops-command-center --team-request-url`
 
 Package funding direct request: `npm fund agent-ops-command-center` -> https://ivelly42.github.io/agent-ops-command-center/team-request-url.html
 
@@ -97,6 +97,10 @@ Goose hints alias: https://ivelly42.github.io/agent-ops-command-center/goose-hin
 OpenHands repository microagent: https://ivelly42.github.io/agent-ops-command-center/.openhands/microagents/repo.md
 
 OpenHands microagent alias: https://ivelly42.github.io/agent-ops-command-center/openhands-repo.md
+
+Qwen Code instructions: https://ivelly42.github.io/agent-ops-command-center/QWEN.md
+
+Qwen Code instructions alias: https://ivelly42.github.io/agent-ops-command-center/qwen-instructions.md
 
 OpenAPI commerce actions: https://ivelly42.github.io/agent-ops-command-center/openapi.json
 
@@ -427,7 +431,7 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.126-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.127-preview
 
 Sample files:
 

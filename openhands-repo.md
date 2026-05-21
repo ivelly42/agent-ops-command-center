@@ -12,6 +12,8 @@ AI agents discovery manifest: https://ivelly42.github.io/agent-ops-command-cente
 
 Agent routing manifest: https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-routing.json
 
+Qwen Code instructions: https://ivelly42.github.io/agent-ops-command-center/QWEN.md
+
 OpenAPI commerce actions: https://ivelly42.github.io/agent-ops-command-center/openapi.json
 
 Metrics: https://ivelly42.github.io/agent-ops-command-center/metrics/status.json

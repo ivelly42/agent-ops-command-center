@@ -1,7 +1,7 @@
 {
   "name": "Agent Ops Command Center",
   "description": "Notion and spreadsheet template pack for builders running AI coding agents.",
-  "version": "v5.126-preview",
+  "version": "v5.127-preview",
   "price_usd": 29,
   "individual_price_usd": 29,
   "team_license_price_usd": 203,
@@ -15,7 +15,7 @@
   "status": "preview_live_no_paid_checkout",
   "homepage": "https://ivelly42.github.io/agent-ops-command-center/",
   "social_image": "https://ivelly42.github.io/agent-ops-command-center/og.png",
-  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.126-preview",
+  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.127-preview",
   "early_access_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml",
   "github_issue_chooser_fast_team_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new/choose",
   "package_funding_direct_request": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
@@ -82,6 +82,22 @@
   "paid_zip_public": false,
   "revenue_rule": "Revenue is proven only by checkout, receipt, payout, or seller-dashboard evidence.",
   "public_assets": [
+    {
+      "title": "Qwen Code Instructions",
+      "url": "https://ivelly42.github.io/agent-ops-command-center/QWEN.md",
+      "alias": "https://ivelly42.github.io/agent-ops-command-center/qwen-instructions.md",
+      "canonical": "https://github.com/ivelly42/agent-ops-command-center/blob/main/QWEN.md",
+      "primary_offer": "Team license - 7 seats - $203 gross",
+      "primary_request_url": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
+      "metadata": [
+        "https://ivelly42.github.io/agent-ops-command-center/.well-known/llms.json",
+        "https://ivelly42.github.io/agent-ops-command-center/.well-known/agents.json",
+        "https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-routing.json",
+        "https://ivelly42.github.io/agent-ops-command-center/openapi.json",
+        "https://ivelly42.github.io/agent-ops-command-center/metrics/status.json"
+      ],
+      "revenue_rule": "Qwen Code instruction reads are not revenue. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence."
+    },
     {
       "title": "OpenHands Repository Microagent",
       "url": "https://ivelly42.github.io/agent-ops-command-center/.openhands/microagents/repo.md",
@@ -176,7 +192,8 @@
         "cursor",
         "windsurf",
         "cline",
-        "openhands"
+        "openhands",
+        "qwen_code"
       ],
       "metadata": [
         "https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-routing.json",
@@ -213,10 +230,10 @@
     },
     {
       "title": "NPM Release Tarball Install",
-      "url": "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.126-preview/agent-ops-command-center-0.5.126.tgz",
+      "url": "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.127-preview/agent-ops-command-center-0.5.127.tgz",
       "docs": "https://ivelly42.github.io/agent-ops-command-center/npm-preview.md",
-      "command": "npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.126-preview/agent-ops-command-center-0.5.126.tgz -- agent-ops-command-center --team-request-url",
-      "json_command": "npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.126-preview/agent-ops-command-center-0.5.126.tgz -- agent-ops-command-center --json",
+      "command": "npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.127-preview/agent-ops-command-center-0.5.127.tgz -- agent-ops-command-center --team-request-url",
+      "json_command": "npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.127-preview/agent-ops-command-center-0.5.127.tgz -- agent-ops-command-center --json",
       "primary_offer": "Team license - 7 seats - $203 gross",
       "primary_request_url": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
       "target_revenue_usd": 200,
@@ -1282,7 +1299,7 @@
     "team_request_mirror": "https://github.com/ivelly42/ai-agent-npx-team-request-template",
     "team_request_mirror_pages": "https://ivelly42.github.io/ai-agent-npx-team-request-template/",
     "package_name": "agent-ops-command-center",
-    "package_version": "0.5.126",
+    "package_version": "0.5.127",
     "bin": [
       "agent-ops-command-center",
       "agent-ops"
@@ -1397,7 +1414,8 @@
       "https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-commerce.json",
       "https://ivelly42.github.io/agent-ops-command-center/ai-buy-intent.json",
       "https://ivelly42.github.io/agent-ops-command-center/metrics/status.json",
-      "https://ivelly42.github.io/agent-ops-command-center/.openhands/microagents/repo.md"
+      "https://ivelly42.github.io/agent-ops-command-center/.openhands/microagents/repo.md",
+      "https://ivelly42.github.io/agent-ops-command-center/QWEN.md"
     ],
     "target_revenue_usd": 200,
     "target_reached_by": "one confirmed $203 team-license payment",
@@ -1639,7 +1657,7 @@
   },
   "agent_routing_json": "https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-routing.json",
   "agent_routing_json_alias": "https://ivelly42.github.io/agent-ops-command-center/agent-routing.json",
-  "npm_release_tarball": "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.126-preview/agent-ops-command-center-0.5.126.tgz",
+  "npm_release_tarball": "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.127-preview/agent-ops-command-center-0.5.127.tgz",
   "editor_rule_files": {
     "github_copilot": {
       "canonical": "https://github.com/ivelly42/agent-ops-command-center/blob/main/.github/copilot-instructions.md",
@@ -1661,6 +1679,11 @@
       "canonical": "https://github.com/ivelly42/agent-ops-command-center/blob/main/.openhands/microagents/repo.md",
       "pages": "https://ivelly42.github.io/agent-ops-command-center/.openhands/microagents/repo.md",
       "alias": "https://ivelly42.github.io/agent-ops-command-center/openhands-repo.md"
+    },
+    "qwen_code": {
+      "canonical": "https://github.com/ivelly42/agent-ops-command-center/blob/main/QWEN.md",
+      "pages": "https://ivelly42.github.io/agent-ops-command-center/QWEN.md",
+      "alias": "https://ivelly42.github.io/agent-ops-command-center/qwen-instructions.md"
     }
   },
   "agents_manifest": "https://ivelly42.github.io/agent-ops-command-center/.well-known/agents.json",
@@ -1690,5 +1713,15 @@
     "primary_offer": "Team license - 7 seats - $203 gross",
     "primary_request_url": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
     "revenue_rule": "OpenHands repository microagents are not revenue. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence."
+  },
+  "qwen_instructions": "https://ivelly42.github.io/agent-ops-command-center/QWEN.md",
+  "qwen_instructions_alias": "https://ivelly42.github.io/agent-ops-command-center/qwen-instructions.md",
+  "qwen_instructions_details": {
+    "canonical": "https://github.com/ivelly42/agent-ops-command-center/blob/main/QWEN.md",
+    "pages": "https://ivelly42.github.io/agent-ops-command-center/QWEN.md",
+    "alias": "https://ivelly42.github.io/agent-ops-command-center/qwen-instructions.md",
+    "primary_offer": "Team license - 7 seats - $203 gross",
+    "primary_request_url": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
+    "revenue_rule": "Qwen Code instruction reads are not revenue. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence."
   }
 }

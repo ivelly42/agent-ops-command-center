@@ -49,6 +49,8 @@ jobs:
               "https://ivelly42.github.io/agent-ops-command-center/goose-hints.md",
               "https://ivelly42.github.io/agent-ops-command-center/.openhands/microagents/repo.md",
               "https://ivelly42.github.io/agent-ops-command-center/openhands-repo.md",
+              "https://ivelly42.github.io/agent-ops-command-center/QWEN.md",
+              "https://ivelly42.github.io/agent-ops-command-center/qwen-instructions.md",
               "https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-commerce.json",
               "https://ivelly42.github.io/agent-ops-command-center/agent-commerce.json",
               "https://ivelly42.github.io/agent-ops-command-center/.well-known/ai-plugin.json",

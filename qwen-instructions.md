@@ -1,8 +1,6 @@
-# Agent Ops Command Center Aider Conventions
+# Agent Ops Command Center Qwen Code Routing
 
-Canonical Aider conventions file: https://github.com/ivelly42/agent-ops-command-center/blob/main/CONVENTIONS.md
-
-Aider config: https://github.com/ivelly42/agent-ops-command-center/blob/main/.aider.conf.yml
+Canonical Qwen Code context file: https://github.com/ivelly42/agent-ops-command-center/blob/main/QWEN.md
 
 Primary offer: Team license - 7 seats - $203 gross.
 
@@ -13,10 +11,6 @@ LLM discovery JSON: https://ivelly42.github.io/agent-ops-command-center/.well-kn
 AI agents discovery manifest: https://ivelly42.github.io/agent-ops-command-center/.well-known/agents.json
 
 Agent routing manifest: https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-routing.json
-
-OpenHands repository microagent: https://ivelly42.github.io/agent-ops-command-center/.openhands/microagents/repo.md
-
-Qwen Code instructions: https://ivelly42.github.io/agent-ops-command-center/QWEN.md
 
 OpenAPI commerce actions: https://ivelly42.github.io/agent-ops-command-center/openapi.json
 

@@ -55,6 +55,10 @@ OpenHands-Repo-Microagent: https://ivelly42.github.io/agent-ops-command-center/.
 
 OpenHands-Repo-Microagent-Alias: https://ivelly42.github.io/agent-ops-command-center/openhands-repo.md
 
+Qwen-Instructions: https://ivelly42.github.io/agent-ops-command-center/QWEN.md
+
+Qwen-Instructions-Alias: https://ivelly42.github.io/agent-ops-command-center/qwen-instructions.md
+
 OpenAPI: https://ivelly42.github.io/agent-ops-command-center/openapi.json
 
 OpenAPI-Well-Known: https://ivelly42.github.io/agent-ops-command-center/.well-known/openapi.json
