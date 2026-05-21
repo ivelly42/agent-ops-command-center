@@ -128,6 +128,12 @@ GitHub vendor evaluation mirror Pages: https://ivelly42.github.io/ai-agent-vendo
 
 Use vendor evaluation mirror as GitHub template: https://github.com/ivelly42/ai-agent-vendor-evaluation-template/generate
 
+GitHub manager approval mirror: https://github.com/ivelly42/ai-agent-manager-approval-template
+
+GitHub manager approval mirror Pages: https://ivelly42.github.io/ai-agent-manager-approval-template/
+
+Use manager approval mirror as GitHub template: https://github.com/ivelly42/ai-agent-manager-approval-template/generate
+
 GitHub client delivery mirror: https://github.com/ivelly42/ai-agent-client-delivery-kit
 
 GitHub client delivery mirror Pages: https://ivelly42.github.io/ai-agent-client-delivery-kit/
@@ -447,6 +453,12 @@ AI agent vendor evaluation mirror Pages: https://ivelly42.github.io/ai-agent-ven
 
 AI agent vendor evaluation GitHub template: https://github.com/ivelly42/ai-agent-vendor-evaluation-template/generate
 
+AI agent manager approval GitHub mirror: https://github.com/ivelly42/ai-agent-manager-approval-template
+
+AI agent manager approval mirror Pages: https://ivelly42.github.io/ai-agent-manager-approval-template/
+
+AI agent manager approval GitHub template: https://github.com/ivelly42/ai-agent-manager-approval-template/generate
+
 AI agent client delivery GitHub mirror: https://github.com/ivelly42/ai-agent-client-delivery-kit
 
 AI agent client delivery mirror Pages: https://ivelly42.github.io/ai-agent-client-delivery-kit/
@@ -477,7 +489,7 @@ Fast template pack request: https://github.com/ivelly42/agent-ops-command-center
 
 Fast template pack request page: https://ivelly42.github.io/agent-ops-command-center/template-pack-request.html
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.68-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.69-preview
 
 Sample run log CSV: https://ivelly42.github.io/agent-ops-command-center/sample/run_log_sample.csv
 
