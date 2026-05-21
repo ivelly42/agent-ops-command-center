@@ -148,6 +148,12 @@ GitHub purchase justification mirror Pages: https://ivelly42.github.io/ai-agent-
 
 Use purchase justification mirror as GitHub template: https://github.com/ivelly42/ai-agent-purchase-justification-template/generate
 
+GitHub team license quote mirror: https://github.com/ivelly42/ai-agent-team-license-quote-template
+
+GitHub team license quote mirror Pages: https://ivelly42.github.io/ai-agent-team-license-quote-template/
+
+Use team license quote mirror as GitHub template: https://github.com/ivelly42/ai-agent-team-license-quote-template/generate
+
 GitHub client delivery mirror: https://github.com/ivelly42/ai-agent-client-delivery-kit
 
 GitHub client delivery mirror Pages: https://ivelly42.github.io/ai-agent-client-delivery-kit/
@@ -249,7 +255,7 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.71-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.72-preview
 
 Sample files:
 
