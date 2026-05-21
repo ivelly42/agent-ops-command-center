@@ -5,8 +5,15 @@
     <link>https://ivelly42.github.io/agent-ops-command-center/</link>
     <description>Public preview updates for a Notion and spreadsheet template pack for builders running AI coding agents.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 21 May 2026 12:06:00 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 21 May 2026 12:24:00 +0900</lastBuildDate>
     <ttl>1440</ttl>
+    <item>
+      <title>AI Coding Agent Notion Template</title>
+      <link>https://ivelly42.github.io/agent-ops-command-center/ai-coding-agent-notion-template.html</link>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/ai-coding-agent-notion-template.html</guid>
+      <pubDate>Thu, 21 May 2026 12:24:00 +0900</pubDate>
+      <description>Keyword landing page for the Agent Ops Command Center Notion and spreadsheet template pack for Codex, Claude Code, Cursor, and local AI coding agents.</description>
+    </item>
     <item>
       <title>Buy Agent Ops Command Center</title>
       <link>https://ivelly42.github.io/agent-ops-command-center/buy.html</link>

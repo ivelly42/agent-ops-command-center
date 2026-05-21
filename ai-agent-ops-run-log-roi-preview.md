@@ -56,6 +56,7 @@ The pack breaks even if it prevents roughly one hour of cleanup time for a build
 ## Full Preview Links
 
 - Landing page: https://ivelly42.github.io/agent-ops-command-center/
+- AI coding agent Notion template: https://ivelly42.github.io/agent-ops-command-center/ai-coding-agent-notion-template.html
 - Ops maturity check: https://ivelly42.github.io/agent-ops-command-center/ops-maturity-check.html
 - Cost leak audit tool: https://ivelly42.github.io/agent-ops-command-center/cost-leak-audit.html
 - Buyer decision matrix tool: https://ivelly42.github.io/agent-ops-command-center/buyer-decision-matrix.html
@@ -117,8 +118,9 @@ The pack breaks even if it prevents roughly one hour of cleanup time for a build
 - Run log template: https://ivelly42.github.io/agent-ops-command-center/codex-claude-run-log-template.md
 - Failure RCA template: https://ivelly42.github.io/agent-ops-command-center/failure-rca-template.md
 - Preflight checklist: https://ivelly42.github.io/agent-ops-command-center/checklist.md
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.13-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.14-preview
 - Buy page: https://ivelly42.github.io/agent-ops-command-center/buy.html
+- AI coding agent Notion template: https://ivelly42.github.io/agent-ops-command-center/ai-coding-agent-notion-template.html
 - HTML template gallery: https://ivelly42.github.io/agent-ops-command-center/template-gallery.html
 - Workflow picker tool: https://ivelly42.github.io/agent-ops-command-center/workflow-picker.html
 - Notion import builder: https://ivelly42.github.io/agent-ops-command-center/notion-import-builder.html
