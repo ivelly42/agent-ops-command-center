@@ -20,6 +20,8 @@ Team security review packet: [team-security-review.html](team-security-review.ht
 
 Team rollout plan: [team-rollout-plan.html](team-rollout-plan.html)
 
+Team license terms packet: [team-license-terms.html](team-license-terms.html)
+
 Team license: [team-license.html](team-license.html)
 
 Team quote builder: [team-quote.html](team-quote.html)
@@ -93,7 +95,7 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.24-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.25-preview
 
 Sample files:
 
@@ -135,6 +137,7 @@ Sample files:
 - [Team invoice request packet](team-invoice-request.html)
 - [Team security review packet](team-security-review.html)
 - [Team rollout plan](team-rollout-plan.html)
+- [Team license terms packet](team-license-terms.html)
 - [Team license](team-license.html)
 - [Team quote builder](team-quote.html)
 - [Team approval brief](team-approval.html)
