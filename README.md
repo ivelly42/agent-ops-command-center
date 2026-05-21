@@ -1,3 +1,8 @@
+Claude Code checkout skill: https://ivelly42.github.io/agent-ops-command-center/.claude/skills/agent-ops-checkout/SKILL.md
+Claude Code checkout skill alias: https://ivelly42.github.io/agent-ops-command-center/claude-code-checkout-skill.md
+Claude Code /buy-agent-ops command: https://ivelly42.github.io/agent-ops-command-center/.claude/commands/buy-agent-ops.md
+Claude Code buy command alias: https://ivelly42.github.io/agent-ops-command-center/claude-code-buy-command.md
+Skill and command reads are not revenue; revenue requires checkout, receipt, payout, or seller-dashboard proof.
 Zed rules: https://ivelly42.github.io/agent-ops-command-center/.rules
 Zed rules alias: https://ivelly42.github.io/agent-ops-command-center/zed-rules.md
 Rule reads are not revenue; revenue requires checkout, receipt, payout, or seller-dashboard proof.
@@ -61,7 +66,7 @@ NPM GitHub install preview: `npx github:ivelly42/agent-ops-command-center --json
 
 NPM team request shortcut: `npx github:ivelly42/agent-ops-command-center --team-request-url`
 
-NPM release tarball team request: `npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.135-preview/agent-ops-command-center-0.5.135.tgz -- agent-ops-command-center --team-request-url`
+NPM release tarball team request: `npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.136-preview/agent-ops-command-center-0.5.136.tgz -- agent-ops-command-center --team-request-url`
 
 Package funding direct request: `npm fund agent-ops-command-center` -> https://ivelly42.github.io/agent-ops-command-center/team-request-url.html
 
@@ -462,7 +467,7 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.135-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.136-preview
 
 Sample files:
 

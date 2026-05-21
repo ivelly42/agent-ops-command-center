@@ -5,719 +5,726 @@
     <link>https://ivelly42.github.io/agent-ops-command-center/</link>
     <description>Public preview updates for a Notion and spreadsheet template pack for builders running AI coding agents.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 22 May 2026 08:17:00 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 22 May 2026 08:24:00 +0900</lastBuildDate>
     <ttl>1440</ttl>
+    <item>
+      <title>Claude Code Checkout Skill</title>
+      <link>https://ivelly42.github.io/agent-ops-command-center/.claude/skills/agent-ops-checkout/SKILL.md</link>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/.claude/skills/agent-ops-checkout/SKILL.md#v5.136-preview</guid>
+      <pubDate>Fri, 22 May 2026 08:24:00 +0900</pubDate>
+      <description>New Claude Code project skill and /buy-agent-ops slash command expose the checkout status manifest, $203 team-license request, and revenue-proof boundary. Skill and command reads are not revenue; revenue still requires checkout, receipt, payout, or seller-dashboard evidence.</description>
+    </item>
     <item>
       <title>Zed Rules</title>
       <link>https://ivelly42.github.io/agent-ops-command-center/.rules</link>
-      <guid>https://ivelly42.github.io/agent-ops-command-center/.rules#v5.135-preview</guid>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/.rules#v5.136-preview</guid>
       <pubDate>Fri, 22 May 2026 08:17:00 +0900</pubDate>
       <description>New Zed .rules file exposes the checkout status manifest, $203 team-license request, and revenue-proof boundary for Zed Agent Panel workflows. Rule reads are not revenue; revenue still requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>Universal AGENT.md and Junie Guidelines</title>
       <link>https://ivelly42.github.io/agent-ops-command-center/AGENT.md</link>
-      <guid>https://ivelly42.github.io/agent-ops-command-center/AGENT.md#v5.135-preview</guid>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/AGENT.md#v5.136-preview</guid>
       <pubDate>Fri, 22 May 2026 08:08:00 +0900</pubDate>
       <description>New AGENT.md, Amp alias, and JetBrains Junie guidelines expose the checkout status manifest, $203 team-license request, and revenue-proof boundary for more coding-agent workflows. Instruction-file reads are not revenue; revenue still requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>Agent Ops Checkout Skill</title>
       <link>https://ivelly42.github.io/agent-ops-command-center/.agents/skills/agent-ops-checkout/SKILL.md</link>
-      <guid>https://ivelly42.github.io/agent-ops-command-center/.agents/skills/agent-ops-checkout/SKILL.md#v5.135-preview</guid>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/.agents/skills/agent-ops-checkout/SKILL.md#v5.136-preview</guid>
       <pubDate>Fri, 22 May 2026 08:01:00 +0900</pubDate>
       <description>New Agent Skills compatible checkout-routing skill and OpenCode config expose the checkout status manifest, $203 team-license request, and revenue-proof boundary for Devin, OpenCode, and other coding agents. Skill loads are not revenue; revenue still requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>Checkout Status Manifest</title>
       <link>https://ivelly42.github.io/agent-ops-command-center/.well-known/checkout-status.json</link>
-      <guid>https://ivelly42.github.io/agent-ops-command-center/.well-known/checkout-status.json#v5.135-preview</guid>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/.well-known/checkout-status.json#v5.136-preview</guid>
       <pubDate>Fri, 22 May 2026 07:52:00 +0900</pubDate>
       <description>New checkout-status JSON exposes that no paid checkout is live, GitHub Sponsors is not active, the $203 team-license request is purchase intent only, and revenue still requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>Cline Workflow Discussion</title>
       <link>https://github.com/ivelly42/agent-ops-command-center/discussions/12</link>
-      <guid>https://github.com/ivelly42/agent-ops-command-center/discussions/12#v5.135-preview</guid>
+      <guid>https://github.com/ivelly42/agent-ops-command-center/discussions/12#v5.136-preview</guid>
       <pubDate>Fri, 22 May 2026 07:48:00 +0900</pubDate>
       <description>New GitHub Discussion announces the Cline workspace rule and team-license workflow, linking Cline buyers and agents to the $203 team request path, agents manifest, OpenAPI operations, metrics, and revenue-proof rule. Discussion activity is not revenue; revenue still requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>Cline Workspace Rule and Workflow</title>
       <link>https://ivelly42.github.io/agent-ops-command-center/.clinerules/agent-ops-command-center.md</link>
-      <guid>https://ivelly42.github.io/agent-ops-command-center/.clinerules/agent-ops-command-center.md#v5.135-preview</guid>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/.clinerules/agent-ops-command-center.md#v5.136-preview</guid>
       <pubDate>Fri, 22 May 2026 07:35:00 +0900</pubDate>
       <description>New .clinerules workspace rule and team-license workflow expose the prefilled $203 team-license request, agent-routing manifest, OpenAPI commerce actions, metrics, and revenue-proof rule for Cline. Cline rule and workflow reads are not revenue; revenue still requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>Kiro Steering File</title>
       <link>https://ivelly42.github.io/agent-ops-command-center/.kiro/steering/agent-ops-command-center.md</link>
-      <guid>https://ivelly42.github.io/agent-ops-command-center/.kiro/steering/agent-ops-command-center.md#v5.135-preview</guid>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/.kiro/steering/agent-ops-command-center.md#v5.136-preview</guid>
       <pubDate>Fri, 22 May 2026 07:21:00 +0900</pubDate>
       <description>New .kiro/steering file exposes the prefilled $203 team-license request, LLM discovery JSON, agents manifest, OpenAPI commerce actions, metrics, and revenue-proof rule for Kiro. Kiro steering reads are not revenue; revenue still requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>Continue Local Rule</title>
       <link>https://ivelly42.github.io/agent-ops-command-center/.continue/rules/agent-ops-command-center.md</link>
-      <guid>https://ivelly42.github.io/agent-ops-command-center/.continue/rules/agent-ops-command-center.md#v5.135-preview</guid>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/.continue/rules/agent-ops-command-center.md#v5.136-preview</guid>
       <pubDate>Fri, 22 May 2026 07:13:00 +0900</pubDate>
       <description>New .continue/rules local rule exposes the prefilled $203 team-license request, LLM discovery JSON, agents manifest, OpenAPI commerce actions, metrics, and revenue-proof rule for Continue. Continue rule reads are not revenue; revenue still requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>Qwen Code Instructions</title>
       <link>https://ivelly42.github.io/agent-ops-command-center/QWEN.md</link>
-      <guid>https://ivelly42.github.io/agent-ops-command-center/QWEN.md#v5.135-preview</guid>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/QWEN.md#v5.136-preview</guid>
       <pubDate>Fri, 22 May 2026 07:06:00 +0900</pubDate>
       <description>New QWEN.md exposes the prefilled $203 team-license request, LLM discovery JSON, agents manifest, OpenAPI commerce actions, metrics, and revenue-proof rule for Qwen Code. Qwen Code reads are not revenue; revenue still requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>OpenHands Repository Microagent</title>
       <link>https://ivelly42.github.io/agent-ops-command-center/.openhands/microagents/repo.md</link>
-      <guid>https://ivelly42.github.io/agent-ops-command-center/.openhands/microagents/repo.md#v5.135-preview</guid>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/.openhands/microagents/repo.md#v5.136-preview</guid>
       <pubDate>Fri, 22 May 2026 06:55:00 +0900</pubDate>
       <description>New .openhands/microagents/repo.md exposes the prefilled $203 team-license request, LLM discovery JSON, agents manifest, OpenAPI commerce actions, metrics, and revenue-proof rule for OpenHands agents. OpenHands microagent reads are not revenue; revenue still requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>Goose Project Hints</title>
       <link>https://ivelly42.github.io/agent-ops-command-center/.goosehints</link>
-      <guid>https://ivelly42.github.io/agent-ops-command-center/.goosehints#v5.135-preview</guid>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/.goosehints#v5.136-preview</guid>
       <pubDate>Fri, 22 May 2026 06:46:00 +0900</pubDate>
       <description>New .goosehints file exposes the prefilled $203 team-license request, LLM discovery JSON, agents manifest, OpenAPI commerce actions, metrics, and revenue-proof rule for Goose-oriented agents. Goose hint reads are not revenue; revenue still requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>Aider Auto-Loaded Conventions</title>
       <link>https://ivelly42.github.io/agent-ops-command-center/CONVENTIONS.md</link>
-      <guid>https://ivelly42.github.io/agent-ops-command-center/CONVENTIONS.md#v5.135-preview</guid>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/CONVENTIONS.md#v5.136-preview</guid>
       <pubDate>Fri, 22 May 2026 07:14:00 +0900</pubDate>
       <description>New .aider.conf.yml auto-loads CONVENTIONS.md for Aider, exposing the prefilled $203 team-license request, LLM discovery JSON, agents manifest, OpenAPI commerce actions, metrics, and revenue-proof rule. Aider reads are not revenue; revenue still requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>Gemini Routing Instructions</title>
       <link>https://ivelly42.github.io/agent-ops-command-center/GEMINI.md</link>
-      <guid>https://ivelly42.github.io/agent-ops-command-center/GEMINI.md#v5.135-preview</guid>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/GEMINI.md#v5.136-preview</guid>
       <pubDate>Fri, 22 May 2026 06:58:00 +0900</pubDate>
       <description>New GEMINI.md and Gemini routing alias expose the prefilled $203 team-license request, LLM discovery JSON, agents manifest, OpenAPI commerce actions, metrics, and revenue-proof rule for Gemini-oriented agents. Gemini routing metadata is not revenue; revenue still requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>LLM Discovery JSON</title>
       <link>https://ivelly42.github.io/agent-ops-command-center/.well-known/llms.json</link>
-      <guid>https://ivelly42.github.io/agent-ops-command-center/.well-known/llms.json#v5.135-preview</guid>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/.well-known/llms.json#v5.136-preview</guid>
       <pubDate>Fri, 22 May 2026 06:43:00 +0900</pubDate>
       <description>New llms.json discovery manifest exposes the plain-text LLM index, agent manifests, OpenAPI commerce actions, catalog, metrics, and the prefilled $203 team-license request path. LLM discovery metadata is not revenue; revenue still requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>AI Agents Discovery Manifest</title>
       <link>https://ivelly42.github.io/agent-ops-command-center/.well-known/agents.json</link>
-      <guid>https://ivelly42.github.io/agent-ops-command-center/.well-known/agents.json#v5.135-preview</guid>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/.well-known/agents.json#v5.136-preview</guid>
       <pubDate>Fri, 22 May 2026 06:25:00 +0900</pubDate>
       <description>New agents.json discovery manifest exposes Codex, Claude Code, GitHub Copilot, Cursor, Windsurf, and Cline routes to the prefilled $203 team-license request, OpenAPI commerce actions, metrics, and revenue-proof rule. Agent discovery metadata is not revenue; revenue still requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>AI Editor Rule Files</title>
       <link>https://ivelly42.github.io/agent-ops-command-center/copilot-instructions.md</link>
-      <guid>https://ivelly42.github.io/agent-ops-command-center/copilot-instructions.md#v5.135-preview</guid>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/copilot-instructions.md#v5.136-preview</guid>
       <pubDate>Fri, 22 May 2026 06:15:00 +0900</pubDate>
       <description>New Copilot, Cursor, Windsurf, and Cline rule files route AI coding assistants to the prefilled $203 team-license request, agent-routing manifest, OpenAPI commerce actions, and metrics. Editor rule files are not revenue; revenue still requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>NPM Release Tarball Install</title>
       <link>https://ivelly42.github.io/agent-ops-command-center/npm-preview.md</link>
-      <guid>https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.135-preview/agent-ops-command-center-0.5.135.tgz#v5.135-preview</guid>
+      <guid>https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.136-preview/agent-ops-command-center-0.5.136.tgz#v5.136-preview</guid>
       <pubDate>Fri, 22 May 2026 06:05:00 +0900</pubDate>
       <description>New GitHub Release npm tarball gives buyers and agents a registry-free npm exec path to print the prefilled $203 team-license request URL and machine-readable preview metadata. Running the tarball preview is not revenue; revenue still requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>Agent Routing Manifest</title>
       <link>https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-routing.json</link>
-      <guid>https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-routing.json#v5.135-preview</guid>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-routing.json#v5.136-preview</guid>
       <pubDate>Fri, 22 May 2026 05:55:00 +0900</pubDate>
       <description>New agent-routing JSON exposes Codex, Claude Code, Cursor, and generic AI-agent routes to the prefilled $203 team-license request, agent instructions, commerce metadata, OpenAPI actions, and metrics. Agent routing metadata is not revenue; revenue still requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>Agent Routing Instructions</title>
       <link>https://github.com/ivelly42/agent-ops-command-center/blob/main/AGENTS.md</link>
-      <guid>https://github.com/ivelly42/agent-ops-command-center/blob/main/AGENTS.md#v5.135-preview</guid>
+      <guid>https://github.com/ivelly42/agent-ops-command-center/blob/main/AGENTS.md#v5.136-preview</guid>
       <pubDate>Fri, 22 May 2026 05:38:00 +0900</pubDate>
       <description>New AGENTS.md and CLAUDE.md files route coding agents to the prefilled $203 team-license request, AI plugin manifest, OpenAPI commerce actions, metrics, and revenue-proof rule. Agent routing instructions are not revenue; revenue still requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>AI Plugin Manifest</title>
       <link>https://ivelly42.github.io/agent-ops-command-center/.well-known/ai-plugin.json</link>
-      <guid>https://ivelly42.github.io/agent-ops-command-center/.well-known/ai-plugin.json#v5.135-preview</guid>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/.well-known/ai-plugin.json#v5.136-preview</guid>
       <pubDate>Fri, 22 May 2026 05:26:00 +0900</pubDate>
       <description>New AI plugin manifest points agent tools to the OpenAPI commerce actions, no-auth public metadata, and the prefilled $203 team-license request path. Plugin metadata is not revenue; revenue still requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>OpenAPI Commerce Actions</title>
       <link>https://ivelly42.github.io/agent-ops-command-center/openapi.json</link>
-      <guid>https://ivelly42.github.io/agent-ops-command-center/openapi.json#v5.135-preview</guid>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/openapi.json#v5.136-preview</guid>
       <pubDate>Fri, 22 May 2026 05:18:00 +0900</pubDate>
       <description>New OpenAPI action metadata describes how agents can read commerce metadata, AI buy-intent, catalog, revenue metrics, and open the prefilled $203 team-license request path. OpenAPI metadata is not revenue; revenue still requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>Agent Commerce Metadata</title>
       <link>https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-commerce.json</link>
-      <guid>https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-commerce.json#v5.135-preview</guid>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-commerce.json#v5.136-preview</guid>
       <pubDate>Fri, 22 May 2026 05:10:00 +0900</pubDate>
       <description>New agent commerce metadata exposes the $203 seven-seat team-license request, machine-readable actions, catalog, metrics, and revenue-proof boundary at a well-known JSON URL. Commerce metadata is not revenue; revenue still requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>AI Buy Intent JSON</title>
       <link>https://ivelly42.github.io/agent-ops-command-center/ai-buy-intent.json</link>
-      <guid>https://ivelly42.github.io/agent-ops-command-center/ai-buy-intent.json#v5.135-preview</guid>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/ai-buy-intent.json#v5.136-preview</guid>
       <pubDate>Fri, 22 May 2026 05:00:00 +0900</pubDate>
       <description>New machine-readable buy-intent JSON and updated structured Product data expose the $203 seven-seat team-license request as the primary offer for AI agents, LLM crawlers, and search tools. Buy-intent metadata is not revenue; revenue still requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>Package Funding Direct Request</title>
       <link>https://ivelly42.github.io/agent-ops-command-center/team-request-url.html</link>
-      <guid>https://ivelly42.github.io/agent-ops-command-center/team-request-url.html#v5.135-preview-package-funding</guid>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/team-request-url.html#v5.136-preview-package-funding</guid>
       <pubDate>Fri, 22 May 2026 04:55:00 +0900</pubDate>
       <description>Package metadata now exposes a custom funding URL that routes npm and GitHub package readers to the prefilled $203 team-license request, and the CLI JSON payload includes the same package funding link. Package funding links and npm fund output are not revenue; revenue still requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>GitHub Issue Chooser Fast Team Request</title>
       <link>https://github.com/ivelly42/agent-ops-command-center/issues/new/choose</link>
-      <guid>https://github.com/ivelly42/agent-ops-command-center/issues/new/choose#v5.135-preview</guid>
+      <guid>https://github.com/ivelly42/agent-ops-command-center/issues/new/choose#v5.136-preview</guid>
       <pubDate>Fri, 22 May 2026 04:50:00 +0900</pubDate>
       <description>The GitHub New Issue chooser now lists a Fast $203 team request as the first contact link, sending buyers to the prefilled team-license request before slower issue forms. Chooser clicks and generated request URLs are not revenue; revenue still requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>GitHub Profile Sales Surface</title>
       <link>https://github.com/ivelly42/ivelly42</link>
-      <guid>https://github.com/ivelly42/ivelly42#v5.135-preview</guid>
+      <guid>https://github.com/ivelly42/ivelly42#v5.136-preview</guid>
       <pubDate>Fri, 22 May 2026 04:45:00 +0900</pubDate>
       <description>A new GitHub profile README sales surface routes profile visitors to the prefilled $203 team-license request, payment-ready issue form, buy page, catalog, and metrics. Profile views, stars, forks, and funding-link clicks are not revenue; revenue still requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>GitHub Homepage Direct Request</title>
       <link>https://ivelly42.github.io/agent-ops-command-center/team-request-url.html</link>
-      <guid>https://ivelly42.github.io/agent-ops-command-center/team-request-url.html#v5.135-preview-homepage</guid>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/team-request-url.html#v5.136-preview-homepage</guid>
       <pubDate>Fri, 22 May 2026 04:36:00 +0900</pubDate>
       <description>The GitHub repository homepage and Sponsor button funding links now put the prefilled $203 team-license request first, reducing the path from repository discovery to purchase-intent issue creation. Homepage and funding links are not revenue; revenue still requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>Order Autoreply Direct Request Dry Run</title>
       <link>https://ivelly42.github.io/agent-ops-command-center/order-autoreply.md</link>
-      <guid>https://ivelly42.github.io/agent-ops-command-center/order-autoreply.md#v5.135-preview</guid>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/order-autoreply.md#v5.136-preview</guid>
       <pubDate>Fri, 22 May 2026 04:30:00 +0900</pubDate>
       <description>Order autoreply now supports workflow_dispatch dry-run validation for the direct prefilled $203 team request path, proving the text would add order-request, payment-ready, and order-autolabeled labels without creating a fake issue. Dry-run validation is not revenue; revenue still requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>Prefilled Team Request URL</title>
       <link>https://ivelly42.github.io/agent-ops-command-center/team-request-url.html</link>
-      <guid>https://ivelly42.github.io/agent-ops-command-center/team-request-url.html#v5.135-preview</guid>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/team-request-url.html#v5.136-preview</guid>
       <pubDate>Fri, 22 May 2026 04:25:00 +0900</pubDate>
       <description>A new direct page opens the prefilled $203 team-license GitHub request, reducing buyer friction from preview pages to purchase-intent issue creation. The prefilled URL is not revenue; revenue still requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>AI Agent NPX Team Request Mirror</title>
       <link>https://ivelly42.github.io/ai-agent-npx-team-request-template/</link>
-      <guid>https://ivelly42.github.io/ai-agent-npx-team-request-template/#v5.135-preview</guid>
+      <guid>https://ivelly42.github.io/ai-agent-npx-team-request-template/#v5.136-preview</guid>
       <pubDate>Fri, 22 May 2026 04:15:00 +0900</pubDate>
       <description>New public mirror for AI-agent NPX team-request searches, routing npx github install, Codex, Claude Code, Cursor, payment-ready, and $203 team-license intent to the Agent Ops request path. The mirror is discovery and buyer intent only; revenue still requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>NPM Team Request CLI Discussion</title>
       <link>https://github.com/ivelly42/agent-ops-command-center/discussions/11</link>
-      <guid>https://github.com/ivelly42/agent-ops-command-center/discussions/11#v5.135-preview</guid>
+      <guid>https://github.com/ivelly42/agent-ops-command-center/discussions/11#v5.136-preview</guid>
       <pubDate>Fri, 22 May 2026 04:05:00 +0900</pubDate>
       <description>Public Discussion #11 now documents the npx team request shortcut while using an announcement skip marker so the Discussion autoreply workflow does not create a fake bridged order issue. The Discussion is not revenue; revenue still requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>NPM Team Request CLI</title>
       <link>https://ivelly42.github.io/agent-ops-command-center/npm-preview.md</link>
-      <guid>https://ivelly42.github.io/agent-ops-command-center/npm-preview.md#v5.135-preview</guid>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/npm-preview.md#v5.136-preview</guid>
       <pubDate>Fri, 22 May 2026 04:00:00 +0900</pubDate>
       <description>The GitHub-installable npm preview now prints a prefilled $203 team-license request URL and copy-ready request markdown, giving buyers a shorter path from npx preview to payment-ready GitHub issue. CLI output is not revenue; revenue still requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>Revenue Proof Autoreply</title>
       <link>https://ivelly42.github.io/agent-ops-command-center/revenue-proof-autoreply.md</link>
-      <guid>https://ivelly42.github.io/agent-ops-command-center/revenue-proof-autoreply.md#v5.135-preview</guid>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/revenue-proof-autoreply.md#v5.136-preview</guid>
       <pubDate>Fri, 22 May 2026 03:45:00 +0900</pubDate>
       <description>Revenue-proof issues now get automated delivery-ready labels and a proof-aware reply after valid checkout, receipt, payout, or seller-dashboard evidence is recorded. The workflow does not create revenue; it only reacts after proof exists.</description>
     </item>
     <item>
       <title>Discussion Order Bridge</title>
       <link>https://ivelly42.github.io/agent-ops-command-center/discussion-autoreply.md</link>
-      <guid>https://ivelly42.github.io/agent-ops-command-center/discussion-autoreply.md#v5.135-preview</guid>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/discussion-autoreply.md#v5.136-preview</guid>
       <pubDate>Fri, 22 May 2026 03:38:00 +0900</pubDate>
       <description>Buyer-intent GitHub Discussions now bridge into order-request and payment-ready issues automatically, so purchase signals can enter the demand metrics path without manual handling. Bridged issues are not revenue; revenue still requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>Discussion Autoreply GraphQL Fix</title>
       <link>https://ivelly42.github.io/agent-ops-command-center/discussion-autoreply.md</link>
-      <guid>https://ivelly42.github.io/agent-ops-command-center/discussion-autoreply.md#v5.135-preview</guid>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/discussion-autoreply.md#v5.136-preview</guid>
       <pubDate>Fri, 22 May 2026 03:33:00 +0900</pubDate>
       <description>Discussion autoreply dry-run validation now uses the supported GitHub GraphQL comments query shape and keeps buyer-intent Discussion routing to the payment-ready request path. Discussion activity is not revenue; revenue still requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>IndexNow Automation</title>
       <link>https://ivelly42.github.io/agent-ops-command-center/indexnow-automation.md</link>
-      <guid>https://ivelly42.github.io/agent-ops-command-center/indexnow-automation.md#v5.135-preview</guid>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/indexnow-automation.md#v5.136-preview</guid>
       <pubDate>Fri, 22 May 2026 03:19:00 +0900</pubDate>
       <description>GitHub Actions now resubmits the public sales surfaces to IndexNow every day without secrets or user intervention. Search submission is not revenue; revenue still requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>Order Intent Autolabeling</title>
       <link>https://ivelly42.github.io/agent-ops-command-center/order-autoreply.md</link>
-      <guid>https://ivelly42.github.io/agent-ops-command-center/order-autoreply.md#v5.135-preview</guid>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/order-autoreply.md#v5.136-preview</guid>
       <pubDate>Fri, 22 May 2026 03:16:00 +0900</pubDate>
       <description>Order autoreply now adds missing order-intent labels to prefilled payment-ready issues, including order-request, payment-ready, and order-autolabeled. Autolabeling demand signals is not revenue; revenue still requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>Payment-Ready Link Sweep</title>
       <link>https://ivelly42.github.io/agent-ops-command-center/catalog.json</link>
-      <guid>https://ivelly42.github.io/agent-ops-command-center/catalog.json#v5.135-preview</guid>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/catalog.json#v5.136-preview</guid>
       <pubDate>Fri, 22 May 2026 03:10:00 +0900</pubDate>
       <description>Public pages and templates now route legacy generic order-request links to the payment-ready issue form, preserving the stronger $203 team-license checkout signal. Payment-ready issues are not revenue; revenue still requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>Payment-Ready Buy and Pricing CTAs</title>
       <link>https://ivelly42.github.io/agent-ops-command-center/buy.html</link>
-      <guid>https://ivelly42.github.io/agent-ops-command-center/buy.html#v5.135-preview</guid>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/buy.html#v5.136-preview</guid>
       <pubDate>Fri, 22 May 2026 03:05:00 +0900</pubDate>
       <description>Buy, pricing, and fast team checkout pages now route primary purchase CTAs to the payment-ready issue form for the $203 team-license path. CTA clicks and payment-ready issues are not revenue; revenue still requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>Payment-Ready NPM Preview and Order Autoreply Discussion</title>
       <link>https://github.com/ivelly42/agent-ops-command-center/discussions/10</link>
-      <guid>https://github.com/ivelly42/agent-ops-command-center/discussions/10#v5.135-preview</guid>
+      <guid>https://github.com/ivelly42/agent-ops-command-center/discussions/10#v5.136-preview</guid>
       <pubDate>Fri, 22 May 2026 02:45:00 +0900</pubDate>
       <description>Public GitHub Discussion for the payment-ready npm preview, order-intent autoreply, checkout status, $203 team-license path, paid-ZIP boundary, and revenue-proof rule. Discussion activity is not revenue; revenue still requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>Order Autoreply Workflow</title>
       <link>https://ivelly42.github.io/agent-ops-command-center/order-autoreply.md</link>
-      <guid>https://ivelly42.github.io/agent-ops-command-center/order-autoreply.md#v5.135-preview</guid>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/order-autoreply.md#v5.136-preview</guid>
       <pubDate>Fri, 22 May 2026 02:35:00 +0900</pubDate>
       <description>New GitHub Actions autoreply for order-intent issues. It replies with the $203 team-license path, payment-proof requirements, paid-ZIP delivery boundary, and public-issue safety notes. The autoreply is not revenue; revenue still requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>NPM GitHub Install Preview</title>
       <link>https://ivelly42.github.io/agent-ops-command-center/npm-preview.md</link>
-      <guid>https://ivelly42.github.io/agent-ops-command-center/npm-preview.md#v5.135-preview</guid>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/npm-preview.md#v5.136-preview</guid>
       <pubDate>Fri, 22 May 2026 02:29:00 +0900</pubDate>
       <description>Agent Ops Command Center can now be previewed through a GitHub-installable npm CLI using npx github:ivelly42/agent-ops-command-center --json. The CLI prints public request links and revenue-proof rules; it does not include the paid ZIP and does not count as revenue.</description>
     </item>
     <item>
       <title>GitHub Topic Discovery Pass</title>
       <link>https://github.com/topics/payment-ready</link>
-      <guid>https://github.com/topics/payment-ready#v5.135-preview</guid>
+      <guid>https://github.com/topics/payment-ready#v5.136-preview</guid>
       <pubDate>Fri, 22 May 2026 02:22:00 +0900</pubDate>
       <description>Thirty-three public repositories now carry buyer-intent GitHub topics including payment-ready, payment-proof, checkout-readiness, AI-agent template, team-license, and revenue-proof. Topic discovery is not revenue; revenue still requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>AI Agent Payment-Ready Mirror</title>
       <link>https://ivelly42.github.io/ai-agent-payment-ready-template/</link>
-      <guid>https://ivelly42.github.io/ai-agent-payment-ready-template/#v5.135-preview</guid>
+      <guid>https://ivelly42.github.io/ai-agent-payment-ready-template/#v5.136-preview</guid>
       <pubDate>Fri, 22 May 2026 02:14:00 +0900</pubDate>
       <description>Public GitHub Pages mirror for AI-agent payment-ready template, checkout method, invoice, purchase order, reimbursement, receipt, delivery-proof, and seller-dashboard evidence searches. It routes buyers to the $203 payment-ready issue form while preserving the rule that revenue requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>AI Agent Payment-Ready Issue Form</title>
       <link>https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml</link>
-      <guid>https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml#v5.135-preview</guid>
+      <guid>https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml#v5.136-preview</guid>
       <pubDate>Fri, 22 May 2026 02:02:00 +0900</pubDate>
       <description>Shortest GitHub issue form for buyers ready to pay for the $203 Agent Ops team license when checkout opens, including preferred checkout method. Revenue still requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>AI Agent Delivery Acceptance Issue Form</title>
       <link>https://github.com/ivelly42/agent-ops-command-center/issues/new?template=delivery-acceptance.yml</link>
-      <guid>https://github.com/ivelly42/agent-ops-command-center/issues/new?template=delivery-acceptance.yml#v5.135-preview</guid>
+      <guid>https://github.com/ivelly42/agent-ops-command-center/issues/new?template=delivery-acceptance.yml#v5.136-preview</guid>
       <pubDate>Fri, 22 May 2026 01:56:00 +0900</pubDate>
       <description>GitHub issue form for buyers who need paid ZIP delivery, archive digest, handoff, import target, acceptance gate, or delivery-proof details before paying for the $203 Agent Ops team license. Revenue still requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>AI Agent Security Review Issue Form</title>
       <link>https://github.com/ivelly42/agent-ops-command-center/issues/new?template=security-review.yml</link>
-      <guid>https://github.com/ivelly42/agent-ops-command-center/issues/new?template=security-review.yml#v5.135-preview</guid>
+      <guid>https://github.com/ivelly42/agent-ops-command-center/issues/new?template=security-review.yml#v5.136-preview</guid>
       <pubDate>Fri, 22 May 2026 01:49:00 +0900</pubDate>
       <description>GitHub issue form for buyers who need security review, data boundary, access control, compliance note, delivery proof, or payment-proof details before paying for the $203 Agent Ops team license. Revenue still requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>AI Agent Vendor Onboarding Issue Form</title>
       <link>https://github.com/ivelly42/agent-ops-command-center/issues/new?template=vendor-onboarding.yml</link>
-      <guid>https://github.com/ivelly42/agent-ops-command-center/issues/new?template=vendor-onboarding.yml#v5.135-preview</guid>
+      <guid>https://github.com/ivelly42/agent-ops-command-center/issues/new?template=vendor-onboarding.yml#v5.136-preview</guid>
       <pubDate>Fri, 22 May 2026 01:44:00 +0900</pubDate>
       <description>GitHub issue form for buyers who need vendor setup, supplier onboarding, billing contact, tax, invoice, purchase-order, or procurement details before paying for the $203 Agent Ops team license. Revenue still requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>AI Agent Purchase Order Issue Form</title>
       <link>https://github.com/ivelly42/agent-ops-command-center/issues/new?template=purchase-order.yml</link>
-      <guid>https://github.com/ivelly42/agent-ops-command-center/issues/new?template=purchase-order.yml#v5.135-preview</guid>
+      <guid>https://github.com/ivelly42/agent-ops-command-center/issues/new?template=purchase-order.yml#v5.136-preview</guid>
       <pubDate>Fri, 22 May 2026 01:43:00 +0900</pubDate>
       <description>GitHub issue form for buyers who need purchase-order details, vendor billing, invoice, or checkout readiness before paying for the $203 Agent Ops team license. Revenue still requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>AI Agent Quote Request Issue Form</title>
       <link>https://github.com/ivelly42/agent-ops-command-center/issues/new?template=quote-request.yml</link>
-      <guid>https://github.com/ivelly42/agent-ops-command-center/issues/new?template=quote-request.yml#v5.135-preview</guid>
+      <guid>https://github.com/ivelly42/agent-ops-command-center/issues/new?template=quote-request.yml#v5.136-preview</guid>
       <pubDate>Fri, 22 May 2026 01:31:00 +0900</pubDate>
       <description>GitHub issue form for buyers who need a $203 team-license quote before invoice, purchase order, reimbursement, or checkout. Revenue still requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>AI Agent Expense Report Issue Form</title>
       <link>https://github.com/ivelly42/agent-ops-command-center/issues/new?template=expense-report.yml</link>
-      <guid>https://github.com/ivelly42/agent-ops-command-center/issues/new?template=expense-report.yml#v5.135-preview</guid>
+      <guid>https://github.com/ivelly42/agent-ops-command-center/issues/new?template=expense-report.yml#v5.136-preview</guid>
       <pubDate>Fri, 22 May 2026 01:19:00 +0900</pubDate>
       <description>GitHub issue form for buyers who need expense report, reimbursement, receipt, invoice, or payment-proof checkout before paying for the $203 Agent Ops team license. Revenue still requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>AI Agent Expense Report Mirror</title>
       <link>https://ivelly42.github.io/ai-agent-expense-report-template/</link>
-      <guid>https://ivelly42.github.io/ai-agent-expense-report-template/#v5.135-preview</guid>
+      <guid>https://ivelly42.github.io/ai-agent-expense-report-template/#v5.136-preview</guid>
       <pubDate>Fri, 22 May 2026 01:06:00 +0900</pubDate>
       <description>Public GitHub Pages mirror for AI-agent expense report template, reimbursement, receipt, invoice, checkout readiness, payment proof, delivery proof, and revenue-proof searches. It routes buyers to the $203 team request path while preserving the rule that revenue requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>AI Agent Receipt Request Mirror</title>
       <link>https://ivelly42.github.io/ai-agent-receipt-request-template/</link>
-      <guid>https://ivelly42.github.io/ai-agent-receipt-request-template/#v5.135-preview</guid>
+      <guid>https://ivelly42.github.io/ai-agent-receipt-request-template/#v5.136-preview</guid>
       <pubDate>Fri, 22 May 2026 00:55:00 +0900</pubDate>
       <description>Public GitHub Pages mirror for AI-agent receipt request template, reimbursement request, expense report, receipt-capable checkout, payment proof, delivery proof, and revenue-proof searches. It routes buyers to the $203 team request path while preserving the rule that revenue requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>AI Agent Invoice Request Issue Form</title>
       <link>https://github.com/ivelly42/agent-ops-command-center/issues/new?template=invoice-request.yml</link>
-      <guid>https://github.com/ivelly42/agent-ops-command-center/issues/new?template=invoice-request.yml#v5.135-preview</guid>
+      <guid>https://github.com/ivelly42/agent-ops-command-center/issues/new?template=invoice-request.yml#v5.136-preview</guid>
       <pubDate>Fri, 22 May 2026 00:44:00 +0900</pubDate>
       <description>GitHub issue form for buyers who need invoice, receipt, purchase-order, vendor, tax, or billing details before paying for the $203 Agent Ops team license. Revenue still requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>AI Agent Budget Request Issue Form</title>
       <link>https://github.com/ivelly42/agent-ops-command-center/issues/new?template=budget-request.yml</link>
-      <guid>https://github.com/ivelly42/agent-ops-command-center/issues/new?template=budget-request.yml#v5.135-preview</guid>
+      <guid>https://github.com/ivelly42/agent-ops-command-center/issues/new?template=budget-request.yml#v5.136-preview</guid>
       <pubDate>Fri, 22 May 2026 00:36:00 +0900</pubDate>
       <description>GitHub issue form for buyers with manager approval, budget approval, reimbursement needs, or procurement approval to request the $203 Agent Ops team license. Revenue still requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>AI Agent Budget Request Email Discussion</title>
       <link>https://github.com/ivelly42/agent-ops-command-center/discussions/8</link>
-      <guid>https://github.com/ivelly42/agent-ops-command-center/discussions/8#v5.135-preview</guid>
+      <guid>https://github.com/ivelly42/agent-ops-command-center/discussions/8#v5.136-preview</guid>
       <pubDate>Fri, 22 May 2026 00:27:47 +0900</pubDate>
       <description>GitHub Discussion for AI-agent budget request email, manager approval, reimbursement, procurement approval, software purchase approval, and $203 team request routing. Revenue still requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>AI Agent Software Purchase Request Discussion</title>
       <link>https://github.com/ivelly42/agent-ops-command-center/discussions/7</link>
-      <guid>https://github.com/ivelly42/agent-ops-command-center/discussions/7#v5.135-preview</guid>
+      <guid>https://github.com/ivelly42/agent-ops-command-center/discussions/7#v5.136-preview</guid>
       <pubDate>Fri, 22 May 2026 00:20:00 +0900</pubDate>
       <description>GitHub Discussion for AI-agent software purchase request, budget approval, procurement, quote, purchase order, invoice, checkout readiness, and $203 team request routing. Revenue still requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>AI Agent Software Purchase Request Mirror</title>
       <link>https://ivelly42.github.io/ai-agent-software-purchase-request-template/</link>
-      <guid>https://ivelly42.github.io/ai-agent-software-purchase-request-template/#v5.135-preview</guid>
+      <guid>https://ivelly42.github.io/ai-agent-software-purchase-request-template/#v5.136-preview</guid>
       <pubDate>Fri, 22 May 2026 00:09:02 +0900</pubDate>
       <description>Public GitHub Pages mirror for AI-agent software purchase request template, Codex purchase request, Claude Code purchase request, Cursor purchase request, AI coding-agent purchase approval, business need, quote, PO, invoice, procurement, checkout readiness, delivery acceptance, and revenue-proof searches. It routes buyers to the $203 team request path while preserving the rule that revenue requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>AI Agent Vendor Onboarding Mirror</title>
       <link>https://ivelly42.github.io/ai-agent-vendor-onboarding-template/</link>
-      <guid>https://ivelly42.github.io/ai-agent-vendor-onboarding-template/#v5.135-preview</guid>
+      <guid>https://ivelly42.github.io/ai-agent-vendor-onboarding-template/#v5.136-preview</guid>
       <pubDate>Thu, 21 May 2026 23:57:44 +0900</pubDate>
       <description>Public GitHub Pages mirror for AI-agent vendor onboarding template, Codex vendor onboarding, Claude Code vendor onboarding, Cursor vendor onboarding, AI coding-agent supplier intake, vendor setup, billing contact, compliance note, approval evidence, checkout readiness, delivery acceptance, and revenue-proof searches. It routes buyers to the $203 team request path while preserving the rule that revenue requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>AI Agent Invoice Request Mirror</title>
       <link>https://ivelly42.github.io/ai-agent-invoice-request-template/</link>
-      <guid>https://ivelly42.github.io/ai-agent-invoice-request-template/#v5.135-preview</guid>
+      <guid>https://ivelly42.github.io/ai-agent-invoice-request-template/#v5.136-preview</guid>
       <pubDate>Thu, 21 May 2026 23:47:12 +0900</pubDate>
       <description>Public GitHub Pages mirror for AI-agent invoice request template, Codex invoice request, Claude Code invoice request, Cursor invoice request, AI coding-agent invoice, billing request, invoice line item, approval evidence, checkout readiness, delivery acceptance, and revenue-proof searches. It routes buyers to the $203 team request path while preserving the rule that revenue requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>AI Agent Purchase Order Mirror</title>
       <link>https://ivelly42.github.io/ai-agent-purchase-order-template/</link>
-      <guid>https://ivelly42.github.io/ai-agent-purchase-order-template/#v5.135-preview</guid>
+      <guid>https://ivelly42.github.io/ai-agent-purchase-order-template/#v5.136-preview</guid>
       <pubDate>Thu, 21 May 2026 23:36:56 +0900</pubDate>
       <description>Public GitHub Pages mirror for AI-agent purchase order template, Codex purchase order, Claude Code purchase order, Cursor purchase order, AI coding-agent PO, vendor billing, invoice, procurement approval, checkout readiness, delivery acceptance, and revenue-proof searches. It routes buyers to the $203 team request path while preserving the rule that revenue requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>AI Agent Team License Quote Mirror</title>
       <link>https://ivelly42.github.io/ai-agent-team-license-quote-template/</link>
-      <guid>https://ivelly42.github.io/ai-agent-team-license-quote-template/#v5.135-preview</guid>
+      <guid>https://ivelly42.github.io/ai-agent-team-license-quote-template/#v5.136-preview</guid>
       <pubDate>Thu, 21 May 2026 23:22:48 +0900</pubDate>
       <description>Public GitHub Pages mirror for AI-agent team license quote, Codex team license quote, Claude Code team license quote, Cursor quote, AI coding-agent invoice request, purchase order, procurement quote, checkout readiness, delivery terms, and revenue-proof searches. It routes buyers to the $203 team request path while preserving the rule that revenue requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>GitHub Sponsor Button Funding Links</title>
       <link>https://github.com/ivelly42/agent-ops-command-center/blob/main/.github/FUNDING.yml</link>
-      <guid>https://github.com/ivelly42/agent-ops-command-center/blob/main/.github/FUNDING.yml#v5.135-preview</guid>
+      <guid>https://github.com/ivelly42/agent-ops-command-center/blob/main/.github/FUNDING.yml#v5.136-preview</guid>
       <pubDate>Thu, 21 May 2026 23:11:46 +0900</pubDate>
       <description>Repository funding links now expose the buy page, template-pack request page, team checkout request page, and fast GitHub request form through `.github/FUNDING.yml` custom URLs. These links improve GitHub-native purchase routing, but revenue still requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>AI Agent Purchase Justification Mirror</title>
       <link>https://ivelly42.github.io/ai-agent-purchase-justification-template/</link>
-      <guid>https://ivelly42.github.io/ai-agent-purchase-justification-template/#v5.135-preview</guid>
+      <guid>https://ivelly42.github.io/ai-agent-purchase-justification-template/#v5.136-preview</guid>
       <pubDate>Thu, 21 May 2026 22:57:33 +0900</pubDate>
       <description>Public GitHub Pages mirror for AI-agent purchase justification, Codex purchase justification, Claude Code purchase approval, Cursor budget approval, AI coding-agent spend justification, ROI justification, procurement packet, budget approval, buying decision, reimbursement, and revenue-proof searches. It routes buyers to the $203 template-pack request path while preserving the rule that revenue requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>AI Agent Manager Approval Mirror</title>
       <link>https://ivelly42.github.io/ai-agent-manager-approval-template/</link>
-      <guid>https://ivelly42.github.io/ai-agent-manager-approval-template/#v5.135-preview</guid>
+      <guid>https://ivelly42.github.io/ai-agent-manager-approval-template/#v5.136-preview</guid>
       <pubDate>Thu, 21 May 2026 22:47:11 +0900</pubDate>
       <description>Public GitHub Pages mirror for AI-agent manager approval, Codex manager approval, Claude Code purchase approval, Cursor approval workflow, AI coding-agent business case, ROI approval, risk review, security review, pilot plan, procurement packet, manager decision, buying decision, and revenue-proof searches. It routes buyers to the $203 template-pack request path while preserving the rule that revenue requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>AI Agent Vendor Evaluation Mirror</title>
       <link>https://ivelly42.github.io/ai-agent-vendor-evaluation-template/</link>
-      <guid>https://ivelly42.github.io/ai-agent-vendor-evaluation-template/#v5.135-preview</guid>
+      <guid>https://ivelly42.github.io/ai-agent-vendor-evaluation-template/#v5.136-preview</guid>
       <pubDate>Thu, 21 May 2026 22:36:06 +0900</pubDate>
       <description>Public GitHub Pages mirror for AI-agent vendor evaluation, Codex vendor evaluation, Claude Code vendor review, Cursor vendor comparison, AI coding-agent vendor scorecard, procurement matrix, vendor risk review, tool evaluation, buying decision, proof of value, security review, ROI, and revenue-proof searches. It routes buyers to the $203 template-pack request path while preserving the rule that revenue requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>AI Agent Compliance Evidence Mirror</title>
       <link>https://ivelly42.github.io/ai-agent-compliance-evidence-template/</link>
-      <guid>https://ivelly42.github.io/ai-agent-compliance-evidence-template/#v5.135-preview</guid>
+      <guid>https://ivelly42.github.io/ai-agent-compliance-evidence-template/#v5.136-preview</guid>
       <pubDate>Thu, 21 May 2026 22:26:04 +0900</pubDate>
       <description>Public GitHub Pages mirror for AI-agent compliance evidence, Codex compliance evidence, Claude Code audit evidence, Cursor compliance checklist, AI coding-agent audit trail, control evidence, vendor review evidence, procurement evidence, data boundary, incident readiness, ROI, handoff, and revenue-proof searches. It routes buyers to the $203 template-pack request path while preserving the rule that revenue requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>AI Agent Change Approval Mirror</title>
       <link>https://ivelly42.github.io/ai-agent-change-approval-template/</link>
-      <guid>https://ivelly42.github.io/ai-agent-change-approval-template/#v5.135-preview</guid>
+      <guid>https://ivelly42.github.io/ai-agent-change-approval-template/#v5.136-preview</guid>
       <pubDate>Thu, 21 May 2026 22:15:17 +0900</pubDate>
       <description>Public GitHub Pages mirror for AI-agent change approval, Codex change approval, Claude Code approval workflow, Cursor change request, scope freeze approval, approval matrix, verification plan, rollback plan, release approval, cost review, handoff, and revenue-proof searches. It routes buyers to the $203 template-pack request path while preserving the rule that revenue requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>AI Agent Access Review Mirror</title>
       <link>https://ivelly42.github.io/ai-agent-access-review-template/</link>
-      <guid>https://ivelly42.github.io/ai-agent-access-review-template/#v5.135-preview</guid>
+      <guid>https://ivelly42.github.io/ai-agent-access-review-template/#v5.136-preview</guid>
       <pubDate>Thu, 21 May 2026 22:02:16 +0900</pubDate>
       <description>Public GitHub Pages mirror for AI-agent access review, Codex access review, Claude Code permission audit, Cursor access review template, MCP connector access audit, GitHub access review, least privilege, secrets handling, OAuth access, revocation plan, approval evidence, and revenue-proof searches. It routes buyers to the $203 template-pack request path while preserving the rule that revenue requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>AI Agent Risk Register Mirror</title>
       <link>https://ivelly42.github.io/ai-agent-risk-register-template/</link>
-      <guid>https://ivelly42.github.io/ai-agent-risk-register-template/#v5.135-preview</guid>
+      <guid>https://ivelly42.github.io/ai-agent-risk-register-template/#v5.136-preview</guid>
       <pubDate>Thu, 21 May 2026 21:46:00 +0900</pubDate>
       <description>Public GitHub Pages mirror for AI-agent risk register, Codex risk register, Claude Code risk register, Cursor team risk register, AI coding-agent risk matrix, access risk, data boundary, mitigation tracker, cost control, incident response, handoff, and revenue-proof searches. It routes buyers to the $203 template-pack request path while preserving the rule that revenue requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>AI Agent Rollout Checklist Mirror</title>
       <link>https://ivelly42.github.io/ai-agent-rollout-checklist-template/</link>
-      <guid>https://ivelly42.github.io/ai-agent-rollout-checklist-template/#v5.135-preview</guid>
+      <guid>https://ivelly42.github.io/ai-agent-rollout-checklist-template/#v5.136-preview</guid>
       <pubDate>Thu, 21 May 2026 21:35:26 +0900</pubDate>
       <description>Public GitHub Pages mirror for AI-agent rollout checklist, Codex rollout checklist, Claude Code rollout plan, Cursor team rollout checklist, AI coding-agent adoption checklist, pilot scope, access readiness, verification gates, cost control, incident response, handoff, and revenue-proof searches. It routes buyers to the $203 template-pack request path while preserving the rule that revenue requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>AI Agent Incident Postmortem Mirror</title>
       <link>https://ivelly42.github.io/ai-agent-incident-postmortem-template/</link>
-      <guid>https://ivelly42.github.io/ai-agent-incident-postmortem-template/#v5.135-preview</guid>
+      <guid>https://ivelly42.github.io/ai-agent-incident-postmortem-template/#v5.136-preview</guid>
       <pubDate>Thu, 21 May 2026 21:25:03 +0900</pubDate>
       <description>Public GitHub Pages mirror for AI-agent incident postmortem, Codex incident postmortem, Claude Code incident review, Cursor failure review, AI coding-agent root cause analysis, scope drift, corrective actions, cost impact, handoff, and revenue-proof searches. It routes buyers to the $203 template-pack request path while preserving the rule that revenue requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>AI Agent Audit Checklist Mirror</title>
       <link>https://ivelly42.github.io/ai-agent-audit-checklist-template/</link>
-      <guid>https://ivelly42.github.io/ai-agent-audit-checklist-template/#v5.135-preview</guid>
+      <guid>https://ivelly42.github.io/ai-agent-audit-checklist-template/#v5.136-preview</guid>
       <pubDate>Thu, 21 May 2026 21:13:13 +0900</pubDate>
       <description>Public GitHub Pages mirror for AI-agent audit checklist, Codex audit, Claude Code audit, Cursor workflow review, scope audit, evidence ledger, behavior checks, prompt history, cost audit, risk review, handoff, and revenue-proof searches. It routes buyers to the $203 template-pack request path while preserving the rule that revenue requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>AI Agent Governance Mirror</title>
       <link>https://ivelly42.github.io/ai-agent-governance-template/</link>
-      <guid>https://ivelly42.github.io/ai-agent-governance-template/#v5.135-preview</guid>
+      <guid>https://ivelly42.github.io/ai-agent-governance-template/#v5.136-preview</guid>
       <pubDate>Thu, 21 May 2026 21:03:13 +0900</pubDate>
       <description>Public GitHub Pages mirror for AI-agent governance, Codex governance, Claude Code policy, Cursor workflow policy, access boundaries, scope freeze, prompt control, verification ledger, cost guardrails, incident review, and procurement searches. It routes buyers to the $203 template-pack request path while preserving the rule that revenue requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>AI Coding Agent Runbook Mirror</title>
       <link>https://ivelly42.github.io/ai-coding-agent-runbook-template/</link>
-      <guid>https://ivelly42.github.io/ai-coding-agent-runbook-template/#v5.135-preview</guid>
+      <guid>https://ivelly42.github.io/ai-coding-agent-runbook-template/#v5.136-preview</guid>
       <pubDate>Thu, 21 May 2026 20:52:54 +0900</pubDate>
       <description>Public GitHub Pages mirror for AI coding-agent runbook, Codex runbook, Claude Code SOP, Cursor workflow, scope freeze, prompt control, verification ledger, handoff, cost review, and incident-review searches. It routes buyers to the $203 template-pack request path while preserving the rule that revenue requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>Template Pack Mirror Direct Request Path</title>
       <link>https://ivelly42.github.io/ai-agent-ops-template-pack/</link>
-      <guid>https://ivelly42.github.io/ai-agent-ops-template-pack/#v5.135-preview</guid>
+      <guid>https://ivelly42.github.io/ai-agent-ops-template-pack/#v5.136-preview</guid>
       <pubDate>Thu, 21 May 2026 20:42:47 +0900</pubDate>
       <description>The broad AI Agent Ops Template Pack mirror now routes its hero, JSON, and map copy directly to the fast template-pack request page and GitHub issue form. Revenue still requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>Fast Template Pack Request Page</title>
       <link>https://ivelly42.github.io/agent-ops-command-center/template-pack-request.html</link>
-      <guid>https://ivelly42.github.io/agent-ops-command-center/template-pack-request.html#v5.135-preview</guid>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/template-pack-request.html#v5.136-preview</guid>
       <pubDate>Thu, 21 May 2026 20:32:43 +0900</pubDate>
       <description>Short HTML request page routing broad AI-agent ops template-pack buyers to the $203 team-license issue form while preserving the rule that revenue requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>GitHub Template Repositories Enabled</title>
       <link>https://github.com/ivelly42/ai-agent-ops-template-pack/generate</link>
-      <guid>https://github.com/ivelly42/ai-agent-ops-template-pack/generate#v5.135-preview</guid>
+      <guid>https://github.com/ivelly42/ai-agent-ops-template-pack/generate#v5.136-preview</guid>
       <pubDate>Thu, 21 May 2026 20:26:54 +0900</pubDate>
       <description>Thirty-two public Agent Ops discovery mirrors are now marked as GitHub template repositories so teams can use the public preview structure before requesting the $203 team license. Template use is not revenue; revenue still requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>Fast Template Pack Request</title>
       <link>https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml</link>
-      <guid>https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml#v5.135-preview</guid>
+      <guid>https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml#v5.136-preview</guid>
       <pubDate>Thu, 21 May 2026 20:21:34 +0900</pubDate>
       <description>Short GitHub issue form for broad AI Agent Ops Template Pack buyers to request the $203 seven-seat team license while preserving the rule that revenue requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>AI Agent Ops Template Pack Gist and Discussion</title>
       <link>https://github.com/ivelly42/agent-ops-command-center/discussions/5</link>
-      <guid>https://github.com/ivelly42/agent-ops-command-center/discussions/5#v5.135-preview</guid>
+      <guid>https://github.com/ivelly42/agent-ops-command-center/discussions/5#v5.136-preview</guid>
       <pubDate>Thu, 21 May 2026 20:16:06 +0900</pubDate>
       <description>Public GitHub Discussion and Gist for broad AI-agent template pack, Notion template, spreadsheet template, run log, verification ledger, cost tracking, ROI, procurement, security review, acceptance test, prompt regression, model routing, workflow comparison, and client delivery searches.</description>
     </item>
     <item>
       <title>AI Agent Ops Template Pack Mirror</title>
       <link>https://ivelly42.github.io/ai-agent-ops-template-pack/</link>
-      <guid>https://ivelly42.github.io/ai-agent-ops-template-pack/#v5.135-preview</guid>
+      <guid>https://ivelly42.github.io/ai-agent-ops-template-pack/#v5.136-preview</guid>
       <pubDate>Thu, 21 May 2026 20:08:40 +0900</pubDate>
       <description>Broad public GitHub Pages mirror for AI-agent template pack, Notion template, spreadsheet template, run log, verification ledger, cost tracking, ROI, procurement, security review, acceptance test, prompt regression, model routing, workflow comparison, and client delivery searches.</description>
     </item>
     <item>
       <title>Agent Ops Discovery Hub</title>
       <link>https://ivelly42.github.io/agent-ops-command-center/discovery.html</link>
-      <guid>https://ivelly42.github.io/agent-ops-command-center/discovery.html#v5.135-preview</guid>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/discovery.html#v5.136-preview</guid>
       <pubDate>Thu, 21 May 2026 19:52:40 +0900</pubDate>
       <description>Single public hub for every discovery mirror, buyer-search segment, and the $203 team request path, while preserving the rule that revenue requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>AI Agent Workflow Comparison Mirror</title>
       <link>https://ivelly42.github.io/ai-agent-workflow-comparison-template/</link>
-      <guid>https://ivelly42.github.io/ai-agent-workflow-comparison-template/#v5.135-preview</guid>
+      <guid>https://ivelly42.github.io/ai-agent-workflow-comparison-template/#v5.136-preview</guid>
       <pubDate>Thu, 21 May 2026 19:47:39 +0900</pubDate>
       <description>Live GitHub Pages mirror for AI-agent workflow comparison, Codex vs Claude Code vs Cursor, handoff, verification-ledger, prompt-history, and delivery-proof searches, routing buyers to the $203 team request path.</description>
     </item>
     <item>
       <title>AI Agent Model Routing Matrix Mirror</title>
       <link>https://ivelly42.github.io/ai-agent-model-routing-template/</link>
-      <guid>https://ivelly42.github.io/ai-agent-model-routing-template/#v5.135-preview</guid>
+      <guid>https://ivelly42.github.io/ai-agent-model-routing-template/#v5.136-preview</guid>
       <pubDate>Thu, 21 May 2026 19:40:00 +0900</pubDate>
       <description>Live GitHub Pages mirror for AI-agent model routing, model selection, escalation rules, review paths, and cost-control searches, routing buyers to the $203 team request path.</description>
     </item>
     <item>
       <title>AI Agent Prompt Regression Test Mirror</title>
       <link>https://ivelly42.github.io/ai-agent-prompt-regression-test-template/</link>
-      <guid>https://ivelly42.github.io/ai-agent-prompt-regression-test-template/#v5.135-preview</guid>
+      <guid>https://ivelly42.github.io/ai-agent-prompt-regression-test-template/#v5.136-preview</guid>
       <pubDate>Thu, 21 May 2026 19:32:58 +0900</pubDate>
       <description>Live GitHub Pages mirror for AI-agent prompt regression, prompt eval, false-completion, scope-drift, and verification-gap searches, routing buyers to the $203 team request path.</description>
     </item>
     <item>
       <title>AI Agent Acceptance Test Mirror</title>
       <link>https://ivelly42.github.io/ai-agent-acceptance-test-template/</link>
-      <guid>https://ivelly42.github.io/ai-agent-acceptance-test-template/#v5.135-preview</guid>
+      <guid>https://ivelly42.github.io/ai-agent-acceptance-test-template/#v5.136-preview</guid>
       <pubDate>Thu, 21 May 2026 19:25:09 +0900</pubDate>
       <description>Live GitHub Pages mirror for AI-agent acceptance test, done-proof, regression-proof, and handoff searches, routing buyers to the $203 team request path.</description>
     </item>
     <item>
       <title>AI Agent Security Review Mirror</title>
       <link>https://ivelly42.github.io/ai-agent-security-review-template/</link>
-      <guid>https://ivelly42.github.io/ai-agent-security-review-template/#v5.135-preview</guid>
+      <guid>https://ivelly42.github.io/ai-agent-security-review-template/#v5.136-preview</guid>
       <pubDate>Thu, 21 May 2026 19:14:19 +0900</pubDate>
       <description>Live GitHub Pages mirror for AI-agent security review, delivery proof, access boundary, and payment-proof searches, routing buyers to the $203 team request path.</description>
     </item>
     <item>
       <title>AI Agent Procurement Mirror</title>
       <link>https://ivelly42.github.io/ai-agent-procurement-template/</link>
-      <guid>https://ivelly42.github.io/ai-agent-procurement-template/#v5.135-preview</guid>
+      <guid>https://ivelly42.github.io/ai-agent-procurement-template/#v5.136-preview</guid>
       <pubDate>Thu, 21 May 2026 19:05:41 +0900</pubDate>
       <description>Live GitHub Pages mirror for AI-agent procurement, invoice request, receipt, and purchase-approval searches, routing buyers to the $203 team request path.</description>
     </item>
     <item>
       <title>Team Invoice Direct Request</title>
       <link>https://ivelly42.github.io/agent-ops-command-center/team-invoice-request.html</link>
-      <guid>https://ivelly42.github.io/agent-ops-command-center/team-invoice-request.html#v5.135-preview</guid>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/team-invoice-request.html#v5.136-preview</guid>
       <pubDate>Thu, 21 May 2026 18:57:58 +0900</pubDate>
       <description>Invoice packet now opens a prefilled invoice-request issue with exact $203 team-license wording for demand metrics while preserving the rule that revenue requires real payment proof.</description>
     </item>
     <item>
       <title>AI Agent ROI Calculator Direct Request</title>
       <link>https://ivelly42.github.io/ai-agent-roi-calculator-template/</link>
-      <guid>https://ivelly42.github.io/ai-agent-roi-calculator-template/#v5.135-preview</guid>
+      <guid>https://ivelly42.github.io/ai-agent-roi-calculator-template/#v5.136-preview</guid>
       <pubDate>Thu, 21 May 2026 18:52:29 +0900</pubDate>
       <description>ROI calculator mirror now includes Product/Offer metadata and a direct prefilled $203 team request path for Codex, Claude Code, Cursor, and local-agent buyers.</description>
     </item>
     <item>
       <title>AI Agent Cost Tracker Mirror</title>
       <link>https://ivelly42.github.io/ai-agent-cost-tracker-template/</link>
-      <guid>https://ivelly42.github.io/ai-agent-cost-tracker-template/#v5.135-preview</guid>
+      <guid>https://ivelly42.github.io/ai-agent-cost-tracker-template/#v5.136-preview</guid>
       <pubDate>Thu, 21 May 2026 18:32:00 +0900</pubDate>
       <description>Live GitHub Pages mirror for AI-agent cost-tracker and ROI searches, routing Codex, Claude Code, Cursor, and local-agent buyers to the $203 team request path.</description>
     </item>
     <item>
       <title>AI Agent Verification Ledger Mirror</title>
       <link>https://ivelly42.github.io/ai-agent-verification-ledger-template/</link>
-      <guid>https://ivelly42.github.io/ai-agent-verification-ledger-template/#v5.135-preview</guid>
+      <guid>https://ivelly42.github.io/ai-agent-verification-ledger-template/#v5.136-preview</guid>
       <pubDate>Thu, 21 May 2026 18:21:00 +0900</pubDate>
       <description>Live GitHub Pages mirror for AI-agent verification-ledger searches, routing Codex, Claude Code, Cursor, and local-agent buyers to the $203 team request path.</description>
     </item>
     <item>
       <title>AI Coding Agent Run Log Mirror</title>
       <link>https://ivelly42.github.io/ai-coding-agent-run-log-template/</link>
-      <guid>https://ivelly42.github.io/ai-coding-agent-run-log-template/#v5.135-preview</guid>
+      <guid>https://ivelly42.github.io/ai-coding-agent-run-log-template/#v5.136-preview</guid>
       <pubDate>Thu, 21 May 2026 18:09:00 +0900</pubDate>
       <description>Live GitHub Pages mirror for AI coding-agent run log searches, routing Codex, Claude Code, Cursor, and local-agent buyers to the $203 team request path.</description>
     </item>
     <item>
       <title>GitHub Pages Client Delivery Mirror</title>
       <link>https://ivelly42.github.io/ai-agent-client-delivery-kit/</link>
-      <guid>https://ivelly42.github.io/ai-agent-client-delivery-kit/#v5.135-preview</guid>
+      <guid>https://ivelly42.github.io/ai-agent-client-delivery-kit/#v5.136-preview</guid>
       <pubDate>Thu, 21 May 2026 17:54:00 +0900</pubDate>
       <description>Live GitHub Pages mirror for AI-agent agencies and consultants, routing client-delivery traffic to the $203 Agent Ops team request path.</description>
     </item>
     <item>
       <title>GitHub Client Delivery Mirror</title>
       <link>https://github.com/ivelly42/ai-agent-client-delivery-kit</link>
-      <guid>https://github.com/ivelly42/ai-agent-client-delivery-kit#v5.135-preview</guid>
+      <guid>https://github.com/ivelly42/ai-agent-client-delivery-kit#v5.136-preview</guid>
       <pubDate>Thu, 21 May 2026 17:42:00 +0900</pubDate>
       <description>External GitHub discovery mirror for AI-agent agency and consulting buyers, routing client-delivery traffic back to the $203 team request path.</description>
     </item>
     <item>
       <title>AI Agent Client Delivery Kit</title>
       <link>https://ivelly42.github.io/agent-ops-command-center/client-delivery-kit.html</link>
-      <guid>https://ivelly42.github.io/agent-ops-command-center/client-delivery-kit.html#v5.135-preview</guid>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/client-delivery-kit.html#v5.136-preview</guid>
       <pubDate>Thu, 21 May 2026 17:24:00 +0900</pubDate>
       <description>Client delivery kit targets AI-agent agencies and consultants with run proof, handoff, delivery acceptance, and a $203 team request path.</description>
     </item>
     <item>
       <title>AI Agent Buyer Reply Kit</title>
       <link>https://ivelly42.github.io/agent-ops-command-center/buyer-reply-kit.html</link>
-      <guid>https://ivelly42.github.io/agent-ops-command-center/buyer-reply-kit.html#v5.135-preview</guid>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/buyer-reply-kit.html#v5.136-preview</guid>
       <pubDate>Thu, 21 May 2026 17:10:00 +0900</pubDate>
       <description>Buyer reply kit is now available as a focused HTML page with copy-ready replies for price, checkout, receipt, approval, preview inspection, delivery, and revenue proof, routed to the $203 team request path.</description>
     </item>
     <item>
       <title>Fast Team Checkout Request</title>
       <link>https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html</link>
-      <guid>https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html#v5.135-preview</guid>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html#v5.136-preview</guid>
       <pubDate>Thu, 21 May 2026 16:58:00 +0900</pubDate>
       <description>Fast team checkout request page opens a prefilled GitHub issue for a $203 seven-seat team license, and demand metrics now detects unlabeled fast team requests as order intent.</description>
     </item>
     <item>
       <title>Team-First Buy Page</title>
       <link>https://ivelly42.github.io/agent-ops-command-center/buy.html</link>
-      <guid>https://ivelly42.github.io/agent-ops-command-center/buy.html#v5.135-preview</guid>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/buy.html#v5.136-preview</guid>
       <pubDate>Thu, 21 May 2026 16:48:00 +0900</pubDate>
       <description>The buy page and order-request issue form now put the $203 seven-seat team license first, while preserving the $29 individual-seat option and the payment-proof revenue rule.</description>
     </item>
     <item>
       <title>Social Preview Image</title>
       <link>https://ivelly42.github.io/agent-ops-command-center/og.png</link>
-      <guid>https://ivelly42.github.io/agent-ops-command-center/og.png#v5.135-preview</guid>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/og.png#v5.136-preview</guid>
       <pubDate>Thu, 21 May 2026 16:42:00 +0900</pubDate>
       <description>Public pages now use a PNG social preview image that shows the AI coding-agent ops template pack, $29 individual seat, $203 team license, and one-payment path to the $200 gross target.</description>
     </item>
     <item>
       <title>Run Log Offer Metadata</title>
       <link>https://ivelly42.github.io/agent-ops-command-center/ai-agent-run-log-template.html</link>
-      <guid>https://ivelly42.github.io/agent-ops-command-center/ai-agent-run-log-template.html#v5.135-preview</guid>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/ai-agent-run-log-template.html#v5.136-preview</guid>
       <pubDate>Thu, 21 May 2026 16:34:00 +0900</pubDate>
       <description>AI coding-agent run log and Notion-template landing pages now expose both the $29 individual seat and the $203 seven-seat team-license offer in structured product metadata.</description>
     </item>
     <item>
       <title>Team License Offer Metadata</title>
       <link>https://ivelly42.github.io/agent-ops-command-center/catalog.json</link>
-      <guid>https://ivelly42.github.io/agent-ops-command-center/catalog.json#v5.135-preview</guid>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/catalog.json#v5.136-preview</guid>
       <pubDate>Thu, 21 May 2026 16:23:00 +0900</pubDate>
       <description>Machine-readable catalog and structured offer metadata now expose the $29 individual seat, $203 seven-seat team license, and one confirmed team-license payment path to the $200 gross revenue target.</description>
     </item>

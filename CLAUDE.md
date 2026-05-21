@@ -18,6 +18,8 @@ The paid product ZIP is not public here. Do not publish paid delivery assets pub
 - Agent routing manifest: https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-routing.json
 - OpenAPI commerce actions: https://ivelly42.github.io/agent-ops-command-center/openapi.json
 - Zed rules: https://ivelly42.github.io/agent-ops-command-center/.rules
+- Claude Code checkout skill: https://ivelly42.github.io/agent-ops-command-center/.claude/skills/agent-ops-checkout/SKILL.md
+- Claude Code /buy-agent-ops command: https://ivelly42.github.io/agent-ops-command-center/.claude/commands/buy-agent-ops.md
 - Agent commerce metadata: https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-commerce.json
 - AI buy-intent JSON: https://ivelly42.github.io/agent-ops-command-center/ai-buy-intent.json
 - OpenHands repository microagent: https://ivelly42.github.io/agent-ops-command-center/.openhands/microagents/repo.md
@@ -38,7 +40,7 @@ The paid product ZIP is not public here. Do not publish paid delivery assets pub
 
 Count revenue only after checkout, receipt, payout, or seller-dashboard evidence proves payment.
 
-Do not count profile views, stars, forks, release downloads, metadata fetches, funding-link clicks, generated request URLs, issues, comments, discussions, OpenHands microagent reads, Cline rule reads, Cline workflow reads, or dry-run workflow output, Agent Skills loads, or OpenCode config reads, Junie guideline reads, or AGENT.md reads or Zed .rules reads as revenue.
+Do not count profile views, stars, forks, release downloads, metadata fetches, funding-link clicks, generated request URLs, issues, comments, discussions, OpenHands microagent reads, Cline rule reads, Cline workflow reads, or dry-run workflow output, Agent Skills loads, or OpenCode config reads, Junie guideline reads, or AGENT.md reads or Zed .rules reads, Claude Code skill loads, or Claude Code slash-command reads as revenue.
 
 ## Claude Instructions
 

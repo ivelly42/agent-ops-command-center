@@ -15,6 +15,14 @@ Checkout-Status: https://ivelly42.github.io/agent-ops-command-center/.well-known
 
 Checkout-Status-Alias: https://ivelly42.github.io/agent-ops-command-center/checkout-status.json
 
+Claude-Code-Checkout-Skill: https://ivelly42.github.io/agent-ops-command-center/.claude/skills/agent-ops-checkout/SKILL.md
+
+Claude-Code-Checkout-Skill-Alias: https://ivelly42.github.io/agent-ops-command-center/claude-code-checkout-skill.md
+
+Claude-Code-Buy-Command: https://ivelly42.github.io/agent-ops-command-center/.claude/commands/buy-agent-ops.md
+
+Claude-Code-Buy-Command-Alias: https://ivelly42.github.io/agent-ops-command-center/claude-code-buy-command.md
+
 Zed-Rules: https://ivelly42.github.io/agent-ops-command-center/.rules
 
 Zed-Rules-Alias: https://ivelly42.github.io/agent-ops-command-center/zed-rules.md

@@ -1,7 +1,7 @@
 {
   "name": "agent-ops-command-center",
-  "version": "0.5.135",
-  "description": "Public preview CLI for Agent Ops Command Center with payment-ready $203 team request links, checkout-status metadata, Agent Skills routing, Junie, AGENT.md, and Zed .rules routing.",
+  "version": "0.5.136",
+  "description": "Public preview CLI for Agent Ops Command Center with payment-ready $203 team request links, checkout-status metadata, Agent Skills routing, Claude Code skill and slash-command routing, Junie, AGENT.md, and Zed .rules routing.",
   "license": "MIT",
   "homepage": "https://ivelly42.github.io/agent-ops-command-center/",
   "funding": {
@@ -77,7 +77,11 @@
     ".junie/guidelines.md",
     "junie-guidelines.md",
     ".rules",
-    "zed-rules.md"
+    "zed-rules.md",
+    ".claude/skills/agent-ops-checkout/SKILL.md",
+    ".claude/commands/buy-agent-ops.md",
+    "claude-code-checkout-skill.md",
+    "claude-code-buy-command.md"
   ],
   "keywords": [
     "ai-agent",

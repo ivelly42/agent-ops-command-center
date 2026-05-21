@@ -24,6 +24,8 @@ The paid product ZIP is not public here. Do not publish paid delivery assets pub
 - AGENTS.md routing: https://ivelly42.github.io/agent-ops-command-center/AGENTS.md
 - OpenAPI commerce actions: https://ivelly42.github.io/agent-ops-command-center/openapi.json
 - Zed rules: https://ivelly42.github.io/agent-ops-command-center/.rules
+- Claude Code checkout skill: https://ivelly42.github.io/agent-ops-command-center/.claude/skills/agent-ops-checkout/SKILL.md
+- Claude Code /buy-agent-ops command: https://ivelly42.github.io/agent-ops-command-center/.claude/commands/buy-agent-ops.md
 - Agents manifest: https://ivelly42.github.io/agent-ops-command-center/.well-known/agents.json
 - LLM discovery JSON: https://ivelly42.github.io/agent-ops-command-center/.well-known/llms.json
 - Catalog: https://ivelly42.github.io/agent-ops-command-center/catalog.json

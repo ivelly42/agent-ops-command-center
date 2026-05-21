@@ -2,7 +2,7 @@
   "name": "Agent Ops Command Center",
   "type": "llm_discovery_manifest",
   "schema_version": "2026-05-22",
-  "updated_at_kst": "2026-05-22 08:17",
+  "updated_at_kst": "2026-05-22 08:24",
   "canonical_url": "https://ivelly42.github.io/agent-ops-command-center/.well-known/llms.json",
   "alternate_urls": [
     "https://ivelly42.github.io/agent-ops-command-center/llms.json",
@@ -48,7 +48,11 @@
     "https://ivelly42.github.io/agent-ops-command-center/.junie/guidelines.md",
     "https://ivelly42.github.io/agent-ops-command-center/junie-guidelines.md",
     "https://ivelly42.github.io/agent-ops-command-center/.rules",
-    "https://ivelly42.github.io/agent-ops-command-center/zed-rules.md"
+    "https://ivelly42.github.io/agent-ops-command-center/zed-rules.md",
+    "https://ivelly42.github.io/agent-ops-command-center/.claude/skills/agent-ops-checkout/SKILL.md",
+    "https://ivelly42.github.io/agent-ops-command-center/claude-code-checkout-skill.md",
+    "https://ivelly42.github.io/agent-ops-command-center/.claude/commands/buy-agent-ops.md",
+    "https://ivelly42.github.io/agent-ops-command-center/claude-code-buy-command.md"
   ],
   "product": {
     "name": "Agent Ops Command Center",
@@ -65,6 +69,18 @@
     "request_package": "Team license - 7 seats - $203 gross"
   },
   "llm_entrypoints": [
+    {
+      "id": "claude_code_buy_command",
+      "url": "https://ivelly42.github.io/agent-ops-command-center/.claude/commands/buy-agent-ops.md",
+      "alias": "https://ivelly42.github.io/agent-ops-command-center/claude-code-buy-command.md",
+      "purpose": "Claude Code /buy-agent-ops project slash command for routing qualified buyers"
+    },
+    {
+      "id": "claude_code_checkout_skill",
+      "url": "https://ivelly42.github.io/agent-ops-command-center/.claude/skills/agent-ops-checkout/SKILL.md",
+      "alias": "https://ivelly42.github.io/agent-ops-command-center/claude-code-checkout-skill.md",
+      "purpose": "Claude Code project skill for buyer checkout routing and revenue proof boundary"
+    },
     {
       "id": "zed_rules",
       "url": "https://ivelly42.github.io/agent-ops-command-center/.rules",
@@ -188,7 +204,7 @@
     "read_buy_intent": "https://ivelly42.github.io/agent-ops-command-center/ai-buy-intent.json",
     "read_catalog": "https://ivelly42.github.io/agent-ops-command-center/catalog.json",
     "read_metrics": "https://ivelly42.github.io/agent-ops-command-center/metrics/status.json",
-    "run_npm_release_tarball_team_request": "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.135-preview/agent-ops-command-center-0.5.135.tgz",
+    "run_npm_release_tarball_team_request": "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.136-preview/agent-ops-command-center-0.5.136.tgz",
     "read_gemini_instructions": "https://ivelly42.github.io/agent-ops-command-center/GEMINI.md",
     "read_gemini_instructions_alias": "https://ivelly42.github.io/agent-ops-command-center/gemini-instructions.md",
     "read_aider_conventions": "https://ivelly42.github.io/agent-ops-command-center/CONVENTIONS.md",
@@ -217,7 +233,11 @@
     "read_junie_guidelines": "https://ivelly42.github.io/agent-ops-command-center/.junie/guidelines.md",
     "read_junie_guidelines_alias": "https://ivelly42.github.io/agent-ops-command-center/junie-guidelines.md",
     "read_zed_rules": "https://ivelly42.github.io/agent-ops-command-center/.rules",
-    "read_zed_rules_alias": "https://ivelly42.github.io/agent-ops-command-center/zed-rules.md"
+    "read_zed_rules_alias": "https://ivelly42.github.io/agent-ops-command-center/zed-rules.md",
+    "read_claude_code_checkout_skill": "https://ivelly42.github.io/agent-ops-command-center/.claude/skills/agent-ops-checkout/SKILL.md",
+    "read_claude_code_checkout_skill_alias": "https://ivelly42.github.io/agent-ops-command-center/claude-code-checkout-skill.md",
+    "read_claude_code_buy_command": "https://ivelly42.github.io/agent-ops-command-center/.claude/commands/buy-agent-ops.md",
+    "read_claude_code_buy_command_alias": "https://ivelly42.github.io/agent-ops-command-center/claude-code-buy-command.md"
   },
   "content_index": {
     "sales_pages": [
@@ -255,7 +275,11 @@
       "https://ivelly42.github.io/agent-ops-command-center/.junie/guidelines.md",
       "https://ivelly42.github.io/agent-ops-command-center/junie-guidelines.md",
       "https://ivelly42.github.io/agent-ops-command-center/.rules",
-      "https://ivelly42.github.io/agent-ops-command-center/zed-rules.md"
+      "https://ivelly42.github.io/agent-ops-command-center/zed-rules.md",
+      "https://ivelly42.github.io/agent-ops-command-center/.claude/skills/agent-ops-checkout/SKILL.md",
+      "https://ivelly42.github.io/agent-ops-command-center/claude-code-checkout-skill.md",
+      "https://ivelly42.github.io/agent-ops-command-center/.claude/commands/buy-agent-ops.md",
+      "https://ivelly42.github.io/agent-ops-command-center/claude-code-buy-command.md"
     ],
     "proof_and_metrics": [
       "https://ivelly42.github.io/agent-ops-command-center/metrics/status.json",
