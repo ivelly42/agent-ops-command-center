@@ -46,7 +46,7 @@ NPM GitHub install preview: `npx github:ivelly42/agent-ops-command-center --json
 
 NPM team request shortcut: `npx github:ivelly42/agent-ops-command-center --team-request-url`
 
-NPM release tarball team request: `npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.120-preview/agent-ops-command-center-0.5.120.tgz -- agent-ops-command-center --team-request-url`
+NPM release tarball team request: `npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.121-preview/agent-ops-command-center-0.5.121.tgz -- agent-ops-command-center --team-request-url`
 
 Package funding direct request: `npm fund agent-ops-command-center` -> https://ivelly42.github.io/agent-ops-command-center/team-request-url.html
 
@@ -57,6 +57,10 @@ Agent commerce metadata alias: https://ivelly42.github.io/agent-ops-command-cent
 Agent routing manifest: https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-routing.json
 
 Agent routing manifest alias: https://ivelly42.github.io/agent-ops-command-center/agent-routing.json
+
+AI agents discovery manifest: https://ivelly42.github.io/agent-ops-command-center/.well-known/agents.json
+
+AI agents discovery manifest alias: https://ivelly42.github.io/agent-ops-command-center/agents.json
 
 AI plugin manifest: https://ivelly42.github.io/agent-ops-command-center/.well-known/ai-plugin.json
 
@@ -403,7 +407,7 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.120-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.121-preview
 
 Sample files:
 

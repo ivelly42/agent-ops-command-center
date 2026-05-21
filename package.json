@@ -1,6 +1,6 @@
 {
   "name": "agent-ops-command-center",
-  "version": "0.5.120",
+  "version": "0.5.121",
   "description": "Public preview CLI for Agent Ops Command Center with payment-ready $203 team request links.",
   "license": "MIT",
   "homepage": "https://ivelly42.github.io/agent-ops-command-center/",
@@ -33,6 +33,8 @@
     "cline-rules.md",
     "AGENTS.md",
     "CLAUDE.md",
+    ".well-known/agents.json",
+    "agents.json",
     ".well-known/agent-routing.json",
     "agent-routing.json",
     "agent-commerce.json",

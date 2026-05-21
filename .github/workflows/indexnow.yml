@@ -33,6 +33,8 @@ jobs:
               "https://ivelly42.github.io/agent-ops-command-center/CLAUDE.md",
               "https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-routing.json",
               "https://ivelly42.github.io/agent-ops-command-center/agent-routing.json",
+              "https://ivelly42.github.io/agent-ops-command-center/.well-known/agents.json",
+              "https://ivelly42.github.io/agent-ops-command-center/agents.json",
               "https://ivelly42.github.io/agent-ops-command-center/copilot-instructions.md",
               "https://ivelly42.github.io/agent-ops-command-center/cursor-agent-rules.md",
               "https://ivelly42.github.io/agent-ops-command-center/windsurf-rules.md",

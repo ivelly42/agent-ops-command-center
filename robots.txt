@@ -23,6 +23,10 @@ Agent-Routing-Manifest: https://ivelly42.github.io/agent-ops-command-center/.wel
 
 Agent-Routing-Manifest-Alias: https://ivelly42.github.io/agent-ops-command-center/agent-routing.json
 
+AI-Agents-Discovery: https://ivelly42.github.io/agent-ops-command-center/.well-known/agents.json
+
+AI-Agents-Discovery-Alias: https://ivelly42.github.io/agent-ops-command-center/agents.json
+
 GitHub-Copilot-Instructions: https://ivelly42.github.io/agent-ops-command-center/copilot-instructions.md
 
 Cursor-Agent-Rules: https://ivelly42.github.io/agent-ops-command-center/cursor-agent-rules.md
