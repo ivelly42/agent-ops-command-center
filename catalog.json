@@ -6,10 +6,11 @@
   "sales_needed": 7,
   "status": "preview_live_no_paid_checkout",
   "homepage": "https://ivelly42.github.io/agent-ops-command-center/",
-  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.19-preview",
+  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.20-preview",
   "early_access_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml",
   "demand_metrics": "https://ivelly42.github.io/agent-ops-command-center/metrics/status.json",
   "buy_page": "https://ivelly42.github.io/agent-ops-command-center/buy.html",
+  "team_purchase_packet": "https://ivelly42.github.io/agent-ops-command-center/team-purchase-packet.html",
   "team_license": "https://ivelly42.github.io/agent-ops-command-center/team-license.html",
   "team_quote_builder": "https://ivelly42.github.io/agent-ops-command-center/team-quote.html",
   "team_approval_brief": "https://ivelly42.github.io/agent-ops-command-center/team-approval.html",
@@ -34,6 +35,10 @@
   "paid_zip_public": false,
   "revenue_rule": "Revenue is proven only by checkout, receipt, payout, or seller-dashboard evidence.",
   "public_assets": [
+    {
+      "title": "AI Agent Team Purchase Packet",
+      "url": "https://ivelly42.github.io/agent-ops-command-center/team-purchase-packet.html"
+    },
     {
       "title": "AI Agent Team Approval Brief",
       "url": "https://ivelly42.github.io/agent-ops-command-center/team-approval.html"

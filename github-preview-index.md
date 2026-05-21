@@ -7,6 +7,7 @@ The full paid pack is not published publicly. This index links every public prev
 ## Public Preview Assets
 
 - Landing page: https://ivelly42.github.io/agent-ops-command-center/
+- Team purchase packet: https://ivelly42.github.io/agent-ops-command-center/team-purchase-packet.html
 - Team license: https://ivelly42.github.io/agent-ops-command-center/team-license.html
 - Team quote builder: https://ivelly42.github.io/agent-ops-command-center/team-quote.html
 - Team approval brief: https://ivelly42.github.io/agent-ops-command-center/team-approval.html
@@ -91,8 +92,9 @@ The full paid pack is not published publicly. This index links every public prev
 - GitHub issue index: https://github.com/ivelly42/agent-ops-command-center/issues/2
 - RSS feed: https://ivelly42.github.io/agent-ops-command-center/feed.xml
 - Machine-readable catalog: https://ivelly42.github.io/agent-ops-command-center/catalog.json
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.19-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.20-preview
 - Buy page: https://ivelly42.github.io/agent-ops-command-center/buy.html
+- Team purchase packet: https://ivelly42.github.io/agent-ops-command-center/team-purchase-packet.html
 - Team license: https://ivelly42.github.io/agent-ops-command-center/team-license.html
 - Team quote builder: https://ivelly42.github.io/agent-ops-command-center/team-quote.html
 - Team approval brief: https://ivelly42.github.io/agent-ops-command-center/team-approval.html
@@ -129,6 +131,7 @@ The full paid pack is not published publicly. This index links every public prev
 | Notion Import Builder | Generate a Notion import plan for CSVs, templates, views, relations, and blockers |
 | Paid Delivery Manifest | Record paid delivery, archive digest, and buyer acknowledgement |
 | Buy Page | Focus early-access buyers on the $29 request, proof links, and revenue-proof rule |
+| Team Purchase Packet | Route team buyers through proof, quote, approval, and checkout request |
 | Team License | Offer one $203 seven-seat request path that can clear the $200 launch target with one paid checkout |
 | Team Quote Builder | Generate copy-ready quote and purchase-order notes for a seven-seat $203 request |
 | Team Approval Brief | Generate manager-ready approval text with quote, value, risk, and payment-proof gates |

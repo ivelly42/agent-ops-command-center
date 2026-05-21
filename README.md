@@ -10,6 +10,8 @@ Public site: https://ivelly42.github.io/agent-ops-command-center/
 
 Buy page: [buy.html](buy.html)
 
+Team purchase packet: [team-purchase-packet.html](team-purchase-packet.html)
+
 Team license: [team-license.html](team-license.html)
 
 Team quote builder: [team-quote.html](team-quote.html)
@@ -83,7 +85,7 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.19-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.20-preview
 
 Sample files:
 
@@ -120,6 +122,7 @@ Sample files:
 - [RSS feed](feed.xml)
 - [Machine-readable catalog](catalog.json)
 - [Buy page](buy.html)
+- [Team purchase packet](team-purchase-packet.html)
 - [Team license](team-license.html)
 - [Team quote builder](team-quote.html)
 - [Team approval brief](team-approval.html)

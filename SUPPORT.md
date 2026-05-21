@@ -9,13 +9,14 @@ published publicly.
 - Early access request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml
 - Preview site: https://ivelly42.github.io/agent-ops-command-center/
 - Buy page: https://ivelly42.github.io/agent-ops-command-center/buy.html
+- Team purchase packet: https://ivelly42.github.io/agent-ops-command-center/team-purchase-packet.html
 - Team license: https://ivelly42.github.io/agent-ops-command-center/team-license.html
 - Team quote builder: https://ivelly42.github.io/agent-ops-command-center/team-quote.html
 - Team approval brief: https://ivelly42.github.io/agent-ops-command-center/team-approval.html
 - Claude Code run log template: https://ivelly42.github.io/agent-ops-command-center/claude-code-run-log-template.html
 - AI agent run log template: https://ivelly42.github.io/agent-ops-command-center/ai-agent-run-log-template.html
 - AI coding agent Notion template: https://ivelly42.github.io/agent-ops-command-center/ai-coding-agent-notion-template.html
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.19-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.20-preview
 - HTML template gallery: https://ivelly42.github.io/agent-ops-command-center/template-gallery.html
 - Workflow picker tool: https://ivelly42.github.io/agent-ops-command-center/workflow-picker.html
 - Notion import builder: https://ivelly42.github.io/agent-ops-command-center/notion-import-builder.html
@@ -43,6 +44,7 @@ https://github.com/ivelly42/agent-ops-command-center/discussions/1
 Useful public pages:
 
 - Buy page: https://ivelly42.github.io/agent-ops-command-center/buy.html
+- Team purchase packet: https://ivelly42.github.io/agent-ops-command-center/team-purchase-packet.html
 - Team license: https://ivelly42.github.io/agent-ops-command-center/team-license.html
 - Team quote builder: https://ivelly42.github.io/agent-ops-command-center/team-quote.html
 - Team approval brief: https://ivelly42.github.io/agent-ops-command-center/team-approval.html
