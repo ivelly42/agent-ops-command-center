@@ -11,6 +11,10 @@ Agent-Commerce: https://ivelly42.github.io/agent-ops-command-center/.well-known/
 
 Agent-Commerce-Alias: https://ivelly42.github.io/agent-ops-command-center/agent-commerce.json
 
+AI-Plugin: https://ivelly42.github.io/agent-ops-command-center/.well-known/ai-plugin.json
+
+AI-Plugin-Alias: https://ivelly42.github.io/agent-ops-command-center/ai-plugin.json
+
 OpenAPI: https://ivelly42.github.io/agent-ops-command-center/openapi.json
 
 OpenAPI-Well-Known: https://ivelly42.github.io/agent-ops-command-center/.well-known/openapi.json

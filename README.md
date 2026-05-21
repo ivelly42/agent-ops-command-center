@@ -52,6 +52,10 @@ Agent commerce metadata: https://ivelly42.github.io/agent-ops-command-center/.we
 
 Agent commerce metadata alias: https://ivelly42.github.io/agent-ops-command-center/agent-commerce.json
 
+AI plugin manifest: https://ivelly42.github.io/agent-ops-command-center/.well-known/ai-plugin.json
+
+AI plugin manifest alias: https://ivelly42.github.io/agent-ops-command-center/ai-plugin.json
+
 OpenAPI commerce actions: https://ivelly42.github.io/agent-ops-command-center/openapi.json
 
 OpenAPI commerce actions well-known: https://ivelly42.github.io/agent-ops-command-center/.well-known/openapi.json
@@ -381,7 +385,7 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.115-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.116-preview
 
 Sample files:
 

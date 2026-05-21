@@ -31,6 +31,8 @@ jobs:
               "https://ivelly42.github.io/agent-ops-command-center/discovery.html",
               "https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-commerce.json",
               "https://ivelly42.github.io/agent-ops-command-center/agent-commerce.json",
+              "https://ivelly42.github.io/agent-ops-command-center/.well-known/ai-plugin.json",
+              "https://ivelly42.github.io/agent-ops-command-center/ai-plugin.json",
               "https://ivelly42.github.io/agent-ops-command-center/openapi.json",
               "https://ivelly42.github.io/agent-ops-command-center/.well-known/openapi.json",
               "https://ivelly42.github.io/agent-ops-command-center/ai-buy-intent.json",

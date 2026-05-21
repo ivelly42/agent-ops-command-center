@@ -1,0 +1,25 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Agent Ops Command Center",
+  "name_for_model": "agent_ops_command_center",
+  "description_for_human": "Find public metadata, revenue metrics, and the prefilled $203 team-license request for Agent Ops Command Center.",
+  "description_for_model": "Use this manifest to discover Agent Ops Command Center public commerce metadata. The primary action is opening the prefilled $203 seven-seat team-license request at https://ivelly42.github.io/agent-ops-command-center/team-request-url.html. This manifest does not process payment and does not prove revenue. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://ivelly42.github.io/agent-ops-command-center/openapi.json",
+    "is_user_authenticated": false
+  },
+  "logo_url": "https://ivelly42.github.io/agent-ops-command-center/og.png",
+  "homepage_url": "https://ivelly42.github.io/agent-ops-command-center/",
+  "contact_url": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml",
+  "legal_info_url": "https://ivelly42.github.io/agent-ops-command-center/team-license-terms.html",
+  "x-primary-offer": {
+    "name": "Team license - 7 seats",
+    "gross_price_usd": 203,
+    "request_url": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html"
+  },
+  "x-revenue-rule": "AI plugin metadata is routing metadata, not revenue. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence."
+}
