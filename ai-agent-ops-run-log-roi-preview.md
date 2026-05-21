@@ -138,6 +138,7 @@ The pack breaks even if it prevents roughly one hour of cleanup time for a build
 - Fast team checkout request: https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html
 - Fast template pack request page: https://ivelly42.github.io/agent-ops-command-center/template-pack-request.html
 - Fast template pack request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml
+- Revenue rule: count revenue only after checkout, receipt, payout, or seller-dashboard evidence exists.
 - Discovery hub: https://ivelly42.github.io/agent-ops-command-center/discovery.html
 - GitHub template pack mirror Pages: https://ivelly42.github.io/ai-agent-ops-template-pack/
 - GitHub template pack mirror: https://github.com/ivelly42/ai-agent-ops-template-pack

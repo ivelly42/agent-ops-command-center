@@ -146,6 +146,7 @@ The full paid pack is not published publicly. This index links every public prev
 - Fast team checkout request: https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html
 - Fast template pack request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml
 - Fast template pack request page: https://ivelly42.github.io/agent-ops-command-center/template-pack-request.html
+- Revenue rule: count revenue only after checkout, receipt, payout, or seller-dashboard evidence exists.
 - Discovery hub: https://ivelly42.github.io/agent-ops-command-center/discovery.html
 - GitHub Pages template pack mirror: https://ivelly42.github.io/ai-agent-ops-template-pack/
 - GitHub template pack mirror: https://github.com/ivelly42/ai-agent-ops-template-pack
