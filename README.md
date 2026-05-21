@@ -20,6 +20,12 @@ Payment-ready mirror Pages: https://ivelly42.github.io/ai-agent-payment-ready-te
 
 Use payment-ready mirror as GitHub template: https://github.com/ivelly42/ai-agent-payment-ready-template/generate
 
+GitHub topic discovery pass: 33 public repositories tagged for `payment-ready`, `ai-agent-template`, `checkout-readiness`, and `revenue-proof` searches.
+
+Payment-ready topic: https://github.com/topics/payment-ready
+
+AI-agent template topic: https://github.com/topics/ai-agent-template
+
 Fast team checkout request: [team-checkout-request.html](team-checkout-request.html)
 
 Fast template pack request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml
@@ -319,7 +325,7 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.90-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.91-preview
 
 Sample files:
 

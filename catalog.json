@@ -1,7 +1,7 @@
 {
   "name": "Agent Ops Command Center",
   "description": "Notion and spreadsheet template pack for builders running AI coding agents.",
-  "version": "v5.90-preview",
+  "version": "v5.91-preview",
   "price_usd": 29,
   "individual_price_usd": 29,
   "team_license_price_usd": 203,
@@ -15,7 +15,7 @@
   "status": "preview_live_no_paid_checkout",
   "homepage": "https://ivelly42.github.io/agent-ops-command-center/",
   "social_image": "https://ivelly42.github.io/agent-ops-command-center/og.png",
-  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.90-preview",
+  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.91-preview",
   "early_access_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml",
   "template_pack_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml",
   "template_pack_request_page": "https://ivelly42.github.io/agent-ops-command-center/template-pack-request.html",
@@ -60,6 +60,17 @@
   "paid_zip_public": false,
   "revenue_rule": "Revenue is proven only by checkout, receipt, payout, or seller-dashboard evidence.",
   "public_assets": [
+    {
+      "title": "GitHub Topic Discovery Pass",
+      "url": "https://github.com/ivelly42/agent-ops-command-center/topics",
+      "topic_urls": [
+        "https://github.com/topics/payment-ready",
+        "https://github.com/topics/ai-agent-template",
+        "https://github.com/topics/checkout-readiness",
+        "https://github.com/topics/revenue-proof"
+      ],
+      "repository_count": 33
+    },
     {
       "title": "AI Agent Payment-Ready Mirror Page",
       "url": "https://ivelly42.github.io/ai-agent-payment-ready-template/",
@@ -710,7 +721,11 @@
     "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml",
     "https://ivelly42.github.io/ai-agent-payment-ready-template/",
     "https://github.com/ivelly42/ai-agent-payment-ready-template",
-    "https://github.com/ivelly42/ai-agent-payment-ready-template/generate"
+    "https://github.com/ivelly42/ai-agent-payment-ready-template/generate",
+    "https://github.com/topics/payment-ready",
+    "https://github.com/topics/ai-agent-template",
+    "https://github.com/topics/checkout-readiness",
+    "https://github.com/topics/revenue-proof"
   ],
   "github_access_review_mirror_pages": "https://ivelly42.github.io/ai-agent-access-review-template/",
   "github_access_review_mirror": "https://github.com/ivelly42/ai-agent-access-review-template",
@@ -770,5 +785,51 @@
   "github_payment_ready_issue_form": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml",
   "github_payment_ready_mirror_pages": "https://ivelly42.github.io/ai-agent-payment-ready-template/",
   "github_payment_ready_mirror": "https://github.com/ivelly42/ai-agent-payment-ready-template",
-  "github_payment_ready_generate": "https://github.com/ivelly42/ai-agent-payment-ready-template/generate"
+  "github_payment_ready_generate": "https://github.com/ivelly42/ai-agent-payment-ready-template/generate",
+  "github_topic_discovery": {
+    "updated_at_kst": "2026-05-22 02:22",
+    "repository_count": 33,
+    "main_repository": "https://github.com/ivelly42/agent-ops-command-center",
+    "main_topics": [
+      "agent-ops",
+      "ai-agent-ops",
+      "ai-agent-template",
+      "codex",
+      "claude-code",
+      "cursor-ai",
+      "notion-template",
+      "spreadsheet-template",
+      "template-pack",
+      "run-log",
+      "verification-ledger",
+      "procurement",
+      "roi-calculator",
+      "checkout-readiness",
+      "team-license",
+      "payment-ready",
+      "payment-proof",
+      "revenue-proof",
+      "budget-approval",
+      "purchase-approval"
+    ],
+    "common_mirror_topics": [
+      "ai-agent",
+      "ai-agent-template",
+      "agent-ops",
+      "codex",
+      "claude-code",
+      "cursor-ai",
+      "template-pack",
+      "team-license",
+      "checkout-readiness",
+      "revenue-proof"
+    ],
+    "payment_ready_topics": [
+      "payment-ready",
+      "payment-proof",
+      "seller-dashboard",
+      "checkout-request"
+    ],
+    "proof_rule": "GitHub topics improve discovery only; revenue is counted only after checkout, receipt, payout, or seller-dashboard evidence."
+  }
 }
