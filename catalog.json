@@ -1,7 +1,7 @@
 {
   "name": "Agent Ops Command Center",
   "description": "Notion and spreadsheet template pack for builders running AI coding agents.",
-  "version": "v5.101-preview",
+  "version": "v5.102-preview",
   "price_usd": 29,
   "individual_price_usd": 29,
   "team_license_price_usd": 203,
@@ -15,7 +15,7 @@
   "status": "preview_live_no_paid_checkout",
   "homepage": "https://ivelly42.github.io/agent-ops-command-center/",
   "social_image": "https://ivelly42.github.io/agent-ops-command-center/og.png",
-  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.101-preview",
+  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.102-preview",
   "early_access_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml",
   "template_pack_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml",
   "template_pack_request_page": "https://ivelly42.github.io/agent-ops-command-center/template-pack-request.html",
@@ -60,6 +60,18 @@
   "paid_zip_public": false,
   "revenue_rule": "Revenue is proven only by checkout, receipt, payout, or seller-dashboard evidence.",
   "public_assets": [
+    {
+      "title": "Discussion Order Bridge",
+      "url": "https://ivelly42.github.io/agent-ops-command-center/discussion-autoreply.md",
+      "workflow": "https://github.com/ivelly42/agent-ops-command-center/blob/main/.github/workflows/discussion-autoreply.yml",
+      "creates_issue": true,
+      "labels": [
+        "order-request",
+        "payment-ready"
+      ],
+      "request_url": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml",
+      "revenue_rule": "Bridged discussion issues are order intent, not revenue. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence."
+    },
     {
       "title": "Discussion Autoreply",
       "url": "https://ivelly42.github.io/agent-ops-command-center/discussion-autoreply.md",
@@ -919,7 +931,7 @@
   "npm_github_install_preview": {
     "command": "npx github:ivelly42/agent-ops-command-center --json",
     "package_name": "agent-ops-command-center",
-    "package_version": "0.5.101",
+    "package_version": "0.5.102",
     "bin": [
       "agent-ops-command-center",
       "agent-ops"
@@ -999,7 +1011,7 @@
     "revenue_rule": "IndexNow submission is not revenue. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence."
   },
   "discussion_autoreply": {
-    "updated_at_kst": "2026-05-22 03:33",
+    "updated_at_kst": "2026-05-22 03:38",
     "workflow": "https://github.com/ivelly42/agent-ops-command-center/blob/main/.github/workflows/discussion-autoreply.yml",
     "docs": "https://ivelly42.github.io/agent-ops-command-center/discussion-autoreply.md",
     "triggers": [
@@ -1028,6 +1040,36 @@
     "request_url": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml",
     "revenue_rule": "Discussion activity is not revenue. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence.",
     "dispatch_validation": "workflow_dispatch reads context.payload.inputs for discussion_number and dry_run",
-    "graphql_validation": "discussion comments query uses comments(first: 100) without orderBy"
+    "graphql_validation": "discussion comments query uses comments(first: 100) without orderBy",
+    "issue_bridge": {
+      "updated_at_kst": "2026-05-22 03:38",
+      "workflow": "https://github.com/ivelly42/agent-ops-command-center/blob/main/.github/workflows/discussion-autoreply.yml",
+      "docs": "https://ivelly42.github.io/agent-ops-command-center/discussion-autoreply.md",
+      "source": "buyer-intent GitHub Discussion or Discussion comment",
+      "creates_issue": true,
+      "labels": [
+        "order-request",
+        "payment-ready"
+      ],
+      "duplicate_guard": "agent-ops-discussion-order-bridge-v1 discussion:{number}",
+      "dry_run": "workflow_dispatch logs the bridged issue that would be created without posting or creating an issue",
+      "request_url": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml",
+      "revenue_rule": "Bridged discussion issues are order intent, not revenue. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence."
+    }
+  },
+  "discussion_order_bridge": {
+    "updated_at_kst": "2026-05-22 03:38",
+    "workflow": "https://github.com/ivelly42/agent-ops-command-center/blob/main/.github/workflows/discussion-autoreply.yml",
+    "docs": "https://ivelly42.github.io/agent-ops-command-center/discussion-autoreply.md",
+    "source": "buyer-intent GitHub Discussion or Discussion comment",
+    "creates_issue": true,
+    "labels": [
+      "order-request",
+      "payment-ready"
+    ],
+    "duplicate_guard": "agent-ops-discussion-order-bridge-v1 discussion:{number}",
+    "dry_run": "workflow_dispatch logs the bridged issue that would be created without posting or creating an issue",
+    "request_url": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml",
+    "revenue_rule": "Bridged discussion issues are order intent, not revenue. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence."
   }
 }

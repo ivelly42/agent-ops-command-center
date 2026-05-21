@@ -15,11 +15,14 @@ Buyer-intent signals include buy, purchase, pay, price, cost, checkout, invoice,
 The reply routes buyers to:
 
 - Payment-ready request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml
+- A bridged `order-request` + `payment-ready` issue when a real buyer-intent Discussion event runs
 - Buy page: https://ivelly42.github.io/agent-ops-command-center/buy.html
 - Pricing: https://ivelly42.github.io/agent-ops-command-center/pricing.html
 - Buyer reply kit: https://ivelly42.github.io/agent-ops-command-center/buyer-reply-kit.html
 - Revenue proof rule: https://ivelly42.github.io/agent-ops-command-center/revenue-proof.html
 
 Duplicate guard: hidden marker `agent-ops-discussion-autoreply-v1`.
+
+Issue bridge guard: hidden marker `agent-ops-discussion-order-bridge-v1 discussion:{number}`.
 
 Revenue rule: Discussion activity is not revenue. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence.
