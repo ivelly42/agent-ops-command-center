@@ -57,6 +57,7 @@ The pack breaks even if it prevents roughly one hour of cleanup time for a build
 
 - Landing page: https://ivelly42.github.io/agent-ops-command-center/
 - Team purchase packet: https://ivelly42.github.io/agent-ops-command-center/team-purchase-packet.html
+- Team procurement email kit: https://ivelly42.github.io/agent-ops-command-center/team-procurement-email.html
 - Team license: https://ivelly42.github.io/agent-ops-command-center/team-license.html
 - Team quote builder: https://ivelly42.github.io/agent-ops-command-center/team-quote.html
 - Team approval brief: https://ivelly42.github.io/agent-ops-command-center/team-approval.html
@@ -124,9 +125,10 @@ The pack breaks even if it prevents roughly one hour of cleanup time for a build
 - Run log template: https://ivelly42.github.io/agent-ops-command-center/codex-claude-run-log-template.md
 - Failure RCA template: https://ivelly42.github.io/agent-ops-command-center/failure-rca-template.md
 - Preflight checklist: https://ivelly42.github.io/agent-ops-command-center/checklist.md
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.20-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.21-preview
 - Buy page: https://ivelly42.github.io/agent-ops-command-center/buy.html
 - Team purchase packet: https://ivelly42.github.io/agent-ops-command-center/team-purchase-packet.html
+- Team procurement email kit: https://ivelly42.github.io/agent-ops-command-center/team-procurement-email.html
 - Team license: https://ivelly42.github.io/agent-ops-command-center/team-license.html
 - Team quote builder: https://ivelly42.github.io/agent-ops-command-center/team-quote.html
 - Team approval brief: https://ivelly42.github.io/agent-ops-command-center/team-approval.html

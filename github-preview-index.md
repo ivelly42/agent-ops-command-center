@@ -8,6 +8,7 @@ The full paid pack is not published publicly. This index links every public prev
 
 - Landing page: https://ivelly42.github.io/agent-ops-command-center/
 - Team purchase packet: https://ivelly42.github.io/agent-ops-command-center/team-purchase-packet.html
+- Team procurement email kit: https://ivelly42.github.io/agent-ops-command-center/team-procurement-email.html
 - Team license: https://ivelly42.github.io/agent-ops-command-center/team-license.html
 - Team quote builder: https://ivelly42.github.io/agent-ops-command-center/team-quote.html
 - Team approval brief: https://ivelly42.github.io/agent-ops-command-center/team-approval.html
@@ -92,9 +93,10 @@ The full paid pack is not published publicly. This index links every public prev
 - GitHub issue index: https://github.com/ivelly42/agent-ops-command-center/issues/2
 - RSS feed: https://ivelly42.github.io/agent-ops-command-center/feed.xml
 - Machine-readable catalog: https://ivelly42.github.io/agent-ops-command-center/catalog.json
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.20-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.21-preview
 - Buy page: https://ivelly42.github.io/agent-ops-command-center/buy.html
 - Team purchase packet: https://ivelly42.github.io/agent-ops-command-center/team-purchase-packet.html
+- Team procurement email kit: https://ivelly42.github.io/agent-ops-command-center/team-procurement-email.html
 - Team license: https://ivelly42.github.io/agent-ops-command-center/team-license.html
 - Team quote builder: https://ivelly42.github.io/agent-ops-command-center/team-quote.html
 - Team approval brief: https://ivelly42.github.io/agent-ops-command-center/team-approval.html
@@ -132,6 +134,7 @@ The full paid pack is not published publicly. This index links every public prev
 | Paid Delivery Manifest | Record paid delivery, archive digest, and buyer acknowledgement |
 | Buy Page | Focus early-access buyers on the $29 request, proof links, and revenue-proof rule |
 | Team Purchase Packet | Route team buyers through proof, quote, approval, and checkout request |
+| Team Procurement Email Kit | Generate manager approval, procurement, and checkout-request email text for a $203 team license |
 | Team License | Offer one $203 seven-seat request path that can clear the $200 launch target with one paid checkout |
 | Team Quote Builder | Generate copy-ready quote and purchase-order notes for a seven-seat $203 request |
 | Team Approval Brief | Generate manager-ready approval text with quote, value, risk, and payment-proof gates |
