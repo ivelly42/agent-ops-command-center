@@ -1,0 +1,70 @@
+name: Payment-ready request
+description: Record that you are ready to pay for the $203 Agent Ops team license when checkout opens
+title: "Payment-ready request: Agent Ops Command Center"
+labels: ["order-request", "payment-ready"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Shortest request path for buyers who are ready to pay when the preferred checkout method is available.
+
+        Request package: Team license - 7 seats - $203 gross.
+        Individual seat target: $29.
+
+        Checkout is not live yet. This issue records purchase intent and preferred checkout. It is not counted as revenue until checkout, receipt, payout, or seller-dashboard evidence exists.
+
+        Fast team request page: https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html
+        Buy page: https://ivelly42.github.io/agent-ops-command-center/buy.html
+        Delivery acceptance form: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=delivery-acceptance.yml
+        Invoice request form: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=invoice-request.yml
+        Revenue proof rule: checkout, receipt, payout, or seller-dashboard evidence.
+  - type: dropdown
+    id: package
+    attributes:
+      label: Request package
+      options:
+        - Team license - 7 seats - $203 gross
+        - Individual seat - $29
+        - Evaluating preview only
+    validations:
+      required: true
+  - type: dropdown
+    id: checkout
+    attributes:
+      label: Preferred checkout
+      options:
+        - Gumroad
+        - Ko-fi
+        - Lemon Squeezy
+        - PayPal invoice
+        - GitHub Sponsors
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: readiness
+    attributes:
+      label: Payment readiness
+      options:
+        - I am ready to pay $203 for the 7-seat team license when checkout is ready
+        - I am ready to pay $29 when checkout is ready
+        - I need invoice, PO, security, or delivery details first
+        - I want to evaluate the preview first
+    validations:
+      required: true
+  - type: checkboxes
+    id: acknowledgement
+    attributes:
+      label: Revenue and delivery acknowledgement
+      options:
+        - label: I understand this issue is not counted as revenue until checkout, receipt, payout, or seller-dashboard evidence exists.
+          required: true
+        - label: I understand the paid ZIP is not public and will be delivered only after payment proof exists.
+          required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      placeholder: Preferred checkout, billing contact, invoice need, PO need, delivery recipient, or deadline.
+    validations:
+      required: false

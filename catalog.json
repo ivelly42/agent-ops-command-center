@@ -1,7 +1,7 @@
 {
   "name": "Agent Ops Command Center",
   "description": "Notion and spreadsheet template pack for builders running AI coding agents.",
-  "version": "v5.88-preview",
+  "version": "v5.89-preview",
   "price_usd": 29,
   "individual_price_usd": 29,
   "team_license_price_usd": 203,
@@ -15,7 +15,7 @@
   "status": "preview_live_no_paid_checkout",
   "homepage": "https://ivelly42.github.io/agent-ops-command-center/",
   "social_image": "https://ivelly42.github.io/agent-ops-command-center/og.png",
-  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.88-preview",
+  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.89-preview",
   "early_access_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml",
   "template_pack_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml",
   "template_pack_request_page": "https://ivelly42.github.io/agent-ops-command-center/template-pack-request.html",
@@ -60,6 +60,11 @@
   "paid_zip_public": false,
   "revenue_rule": "Revenue is proven only by checkout, receipt, payout, or seller-dashboard evidence.",
   "public_assets": [
+    {
+      "title": "AI Agent Payment-Ready Issue Form",
+      "url": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml",
+      "request_url": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml"
+    },
     {
       "title": "Fast Team Checkout Request",
       "url": "https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html"
@@ -693,7 +698,8 @@
     "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=purchase-order.yml",
     "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=vendor-onboarding.yml",
     "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=security-review.yml",
-    "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=delivery-acceptance.yml"
+    "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=delivery-acceptance.yml",
+    "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml"
   ],
   "github_access_review_mirror_pages": "https://ivelly42.github.io/ai-agent-access-review-template/",
   "github_access_review_mirror": "https://github.com/ivelly42/ai-agent-access-review-template",
@@ -749,5 +755,6 @@
   "github_quote_request_issue_form": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=quote-request.yml",
   "github_purchase_order_issue_form": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=purchase-order.yml",
   "github_vendor_onboarding_issue_form": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=vendor-onboarding.yml",
-  "github_delivery_acceptance_issue_form": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=delivery-acceptance.yml"
+  "github_delivery_acceptance_issue_form": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=delivery-acceptance.yml",
+  "github_payment_ready_issue_form": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml"
 }

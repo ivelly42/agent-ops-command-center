@@ -12,6 +12,8 @@ Public site: https://ivelly42.github.io/agent-ops-command-center/
 
 Buy page: [buy.html](buy.html)
 
+Payment-ready request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml
+
 Fast team checkout request: [team-checkout-request.html](team-checkout-request.html)
 
 Fast template pack request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml
@@ -311,7 +313,7 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.88-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.89-preview
 
 Sample files:
 
@@ -458,6 +460,7 @@ Sample files:
 - [Team license terms packet](team-license-terms.html)
 - [Team delivery acceptance packet](team-delivery-acceptance.html)
 - [Team delivery acceptance issue form](https://github.com/ivelly42/agent-ops-command-center/issues/new?template=delivery-acceptance.yml)
+- [Payment-ready issue form](https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml)
 - [Team buyer FAQ](team-buyer-faq.html)
 - [Team value calculator](team-value-calculator.html)
 - [Team pilot plan](team-pilot-plan.html)

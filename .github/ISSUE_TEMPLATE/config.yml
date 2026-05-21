@@ -1,5 +1,8 @@
 blank_issues_enabled: false
 contact_links:
+  - name: Payment-ready request
+    url: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml
+    about: Record payment-ready intent for the $203 team license and preferred checkout method.
   - name: Delivery acceptance request
     url: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=delivery-acceptance.yml
     about: Request paid ZIP delivery, archive digest, handoff, import target, or acceptance details for the $203 team license.
