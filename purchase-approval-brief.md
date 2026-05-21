@@ -50,6 +50,7 @@ https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-r
 ## Public Companion Files
 
 - Landing page: https://ivelly42.github.io/agent-ops-command-center/
+- Interactive approval brief builder: https://ivelly42.github.io/agent-ops-command-center/purchase-approval-brief.html
 - Buyer intake packet: https://ivelly42.github.io/agent-ops-command-center/buyer-intake-packet.md
 - Buyer decision matrix: https://ivelly42.github.io/agent-ops-command-center/buyer-decision-matrix.md
 - Checkout readiness FAQ: https://ivelly42.github.io/agent-ops-command-center/checkout-readiness-faq.md

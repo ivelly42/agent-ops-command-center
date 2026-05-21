@@ -18,6 +18,8 @@ Ops maturity check: https://ivelly42.github.io/agent-ops-command-center/ops-matu
 
 Cost leak audit tool: https://ivelly42.github.io/agent-ops-command-center/cost-leak-audit.html
 
+Purchase approval brief builder: https://ivelly42.github.io/agent-ops-command-center/purchase-approval-brief.html
+
 Run log builder: https://ivelly42.github.io/agent-ops-command-center/run-log-builder.html
 
 Sample dashboard: https://ivelly42.github.io/agent-ops-command-center/sample-dashboard.html
@@ -170,7 +172,7 @@ GitHub issue index: https://github.com/ivelly42/agent-ops-command-center/issues/
 
 Early access request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.5-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.6-preview
 
 Sample run log CSV: https://ivelly42.github.io/agent-ops-command-center/sample/run_log_sample.csv
 
