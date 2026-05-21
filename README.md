@@ -16,6 +16,10 @@ Fast team checkout request: [team-checkout-request.html](team-checkout-request.h
 
 Client delivery kit: [client-delivery-kit.html](client-delivery-kit.html)
 
+GitHub ROI calculator mirror: https://github.com/ivelly42/ai-agent-roi-calculator-template
+
+GitHub ROI calculator mirror Pages: https://ivelly42.github.io/ai-agent-roi-calculator-template/
+
 GitHub cost tracker mirror: https://github.com/ivelly42/ai-agent-cost-tracker-template
 
 GitHub cost tracker mirror Pages: https://ivelly42.github.io/ai-agent-cost-tracker-template/
@@ -127,7 +131,7 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.42-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.43-preview
 
 Sample files:
 
@@ -167,6 +171,8 @@ Sample files:
 - [Buy page](buy.html)
 - [Fast team checkout request](team-checkout-request.html)
 - [Client delivery kit](client-delivery-kit.html)
+- [GitHub ROI calculator mirror Pages](https://ivelly42.github.io/ai-agent-roi-calculator-template/)
+- [GitHub ROI calculator mirror](https://github.com/ivelly42/ai-agent-roi-calculator-template)
 - [GitHub cost tracker mirror Pages](https://ivelly42.github.io/ai-agent-cost-tracker-template/)
 - [GitHub cost tracker mirror](https://github.com/ivelly42/ai-agent-cost-tracker-template)
 - [GitHub verification ledger mirror Pages](https://ivelly42.github.io/ai-agent-verification-ledger-template/)

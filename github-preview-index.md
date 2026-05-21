@@ -7,6 +7,7 @@ The full paid pack is not published publicly. This index links every public prev
 ## Public Preview Assets
 
 - Landing page: https://ivelly42.github.io/agent-ops-command-center/
+- GitHub Pages ROI calculator mirror: https://ivelly42.github.io/ai-agent-roi-calculator-template/
 - GitHub Pages cost tracker mirror: https://ivelly42.github.io/ai-agent-cost-tracker-template/
 - GitHub Pages verification ledger mirror: https://ivelly42.github.io/ai-agent-verification-ledger-template/
 - GitHub Pages run log mirror: https://ivelly42.github.io/ai-coding-agent-run-log-template/
@@ -103,10 +104,12 @@ The full paid pack is not published publicly. This index links every public prev
 - GitHub issue index: https://github.com/ivelly42/agent-ops-command-center/issues/2
 - RSS feed: https://ivelly42.github.io/agent-ops-command-center/feed.xml
 - Machine-readable catalog: https://ivelly42.github.io/agent-ops-command-center/catalog.json
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.42-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.43-preview
 - Buy page: https://ivelly42.github.io/agent-ops-command-center/buy.html
 - Fast team checkout request: https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html
 - Client delivery kit: https://ivelly42.github.io/agent-ops-command-center/client-delivery-kit.html
+- GitHub Pages ROI calculator mirror: https://ivelly42.github.io/ai-agent-roi-calculator-template/
+- GitHub ROI calculator mirror: https://github.com/ivelly42/ai-agent-roi-calculator-template
 - GitHub Pages cost tracker mirror: https://ivelly42.github.io/ai-agent-cost-tracker-template/
 - GitHub cost tracker mirror: https://github.com/ivelly42/ai-agent-cost-tracker-template
 - GitHub Pages verification ledger mirror: https://ivelly42.github.io/ai-agent-verification-ledger-template/
@@ -148,6 +151,7 @@ The full paid pack is not published publicly. This index links every public prev
 | Run Log | Keep objective, scope, changed files, evidence, result, and follow-up |
 | Prompt Library | Version reusable prompts and record known failure modes |
 | Verification Ledger | Keep exact proof before work is marked done |
+| ROI Calculator | Convert saved agent time into approval-ready value |
 | Cost Tracker | Compare agent cost with time saved |
 | Failure Modes | Turn repeated mistakes into prevention rules |
 | Handoff | Preserve current state when work crosses sessions or models |
