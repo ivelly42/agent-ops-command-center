@@ -74,6 +74,12 @@ GitHub runbook mirror Pages: https://ivelly42.github.io/ai-coding-agent-runbook-
 
 Use runbook mirror as GitHub template: https://github.com/ivelly42/ai-coding-agent-runbook-template/generate
 
+GitHub governance mirror: https://github.com/ivelly42/ai-agent-governance-template
+
+GitHub governance mirror Pages: https://ivelly42.github.io/ai-agent-governance-template/
+
+Use governance mirror as GitHub template: https://github.com/ivelly42/ai-agent-governance-template/generate
+
 GitHub client delivery mirror: https://github.com/ivelly42/ai-agent-client-delivery-kit
 
 GitHub client delivery mirror Pages: https://ivelly42.github.io/ai-agent-client-delivery-kit/
@@ -339,6 +345,12 @@ AI coding agent runbook mirror Pages: https://ivelly42.github.io/ai-coding-agent
 
 AI coding agent runbook GitHub template: https://github.com/ivelly42/ai-coding-agent-runbook-template/generate
 
+AI agent governance GitHub mirror: https://github.com/ivelly42/ai-agent-governance-template
+
+AI agent governance mirror Pages: https://ivelly42.github.io/ai-agent-governance-template/
+
+AI agent governance GitHub template: https://github.com/ivelly42/ai-agent-governance-template/generate
+
 AI agent client delivery GitHub mirror: https://github.com/ivelly42/ai-agent-client-delivery-kit
 
 AI agent client delivery mirror Pages: https://ivelly42.github.io/ai-agent-client-delivery-kit/
@@ -369,7 +381,7 @@ Fast template pack request: https://github.com/ivelly42/agent-ops-command-center
 
 Fast template pack request page: https://ivelly42.github.io/agent-ops-command-center/template-pack-request.html
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.59-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.60-preview
 
 Sample run log CSV: https://ivelly42.github.io/agent-ops-command-center/sample/run_log_sample.csv
 

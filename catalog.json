@@ -1,7 +1,7 @@
 {
   "name": "Agent Ops Command Center",
   "description": "Notion and spreadsheet template pack for builders running AI coding agents.",
-  "version": "v5.59-preview",
+  "version": "v5.60-preview",
   "price_usd": 29,
   "individual_price_usd": 29,
   "team_license_price_usd": 203,
@@ -9,13 +9,13 @@
   "sales_needed": 7,
   "team_licenses_needed": 1,
   "github_template_repositories_enabled": true,
-  "github_template_repository_count": 13,
+  "github_template_repository_count": 14,
   "primary_revenue_path": "One confirmed $203 team-license payment reaches the $200 gross revenue target.",
   "primary_request_path": "Team license - 7 seats - $203 gross",
   "status": "preview_live_no_paid_checkout",
   "homepage": "https://ivelly42.github.io/agent-ops-command-center/",
   "social_image": "https://ivelly42.github.io/agent-ops-command-center/og.png",
-  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.59-preview",
+  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.60-preview",
   "early_access_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml",
   "template_pack_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml",
   "template_pack_request_page": "https://ivelly42.github.io/agent-ops-command-center/template-pack-request.html",
@@ -117,6 +117,14 @@
       "url": "https://ivelly42.github.io/ai-coding-agent-runbook-template/",
       "repository": "https://github.com/ivelly42/ai-coding-agent-runbook-template",
       "template_url": "https://github.com/ivelly42/ai-coding-agent-runbook-template/generate",
+      "request_page": "https://ivelly42.github.io/agent-ops-command-center/template-pack-request.html",
+      "request_url": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml"
+    },
+    {
+      "title": "AI Agent Governance Mirror Page",
+      "url": "https://ivelly42.github.io/ai-agent-governance-template/",
+      "repository": "https://github.com/ivelly42/ai-agent-governance-template",
+      "template_url": "https://github.com/ivelly42/ai-agent-governance-template/generate",
       "request_page": "https://ivelly42.github.io/agent-ops-command-center/template-pack-request.html",
       "request_url": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml"
     },
@@ -338,6 +346,9 @@
   "github_runbook_mirror_pages": "https://ivelly42.github.io/ai-coding-agent-runbook-template/",
   "github_runbook_mirror": "https://github.com/ivelly42/ai-coding-agent-runbook-template",
   "github_runbook_generate": "https://github.com/ivelly42/ai-coding-agent-runbook-template/generate",
+  "github_governance_mirror_pages": "https://ivelly42.github.io/ai-agent-governance-template/",
+  "github_governance_mirror": "https://github.com/ivelly42/ai-agent-governance-template",
+  "github_governance_generate": "https://github.com/ivelly42/ai-agent-governance-template/generate",
   "github_verification_ledger_mirror_pages": "https://ivelly42.github.io/ai-agent-verification-ledger-template/",
   "github_verification_ledger_mirror": "https://github.com/ivelly42/ai-agent-verification-ledger-template",
   "github_roi_calculator_mirror_pages": "https://ivelly42.github.io/ai-agent-roi-calculator-template/",
@@ -364,6 +375,7 @@
     "https://github.com/ivelly42/ai-agent-verification-ledger-template/generate",
     "https://github.com/ivelly42/ai-coding-agent-run-log-template/generate",
     "https://github.com/ivelly42/ai-coding-agent-runbook-template/generate",
+    "https://github.com/ivelly42/ai-agent-governance-template/generate",
     "https://github.com/ivelly42/ai-agent-client-delivery-kit/generate"
   ],
   "external_discovery_channels": [
@@ -395,6 +407,9 @@
     "https://ivelly42.github.io/ai-coding-agent-runbook-template/",
     "https://github.com/ivelly42/ai-coding-agent-runbook-template",
     "https://github.com/ivelly42/ai-coding-agent-runbook-template/generate",
+    "https://ivelly42.github.io/ai-agent-governance-template/",
+    "https://github.com/ivelly42/ai-agent-governance-template",
+    "https://github.com/ivelly42/ai-agent-governance-template/generate",
     "https://ivelly42.github.io/ai-agent-client-delivery-kit/",
     "https://github.com/ivelly42/ai-agent-client-delivery-kit"
   ]
