@@ -1,7 +1,7 @@
 {
   "name": "Agent Ops Command Center",
   "description": "Notion and spreadsheet template pack for builders running AI coding agents.",
-  "version": "v5.91-preview",
+  "version": "v5.92-preview",
   "price_usd": 29,
   "individual_price_usd": 29,
   "team_license_price_usd": 203,
@@ -15,7 +15,7 @@
   "status": "preview_live_no_paid_checkout",
   "homepage": "https://ivelly42.github.io/agent-ops-command-center/",
   "social_image": "https://ivelly42.github.io/agent-ops-command-center/og.png",
-  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.91-preview",
+  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.92-preview",
   "early_access_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml",
   "template_pack_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml",
   "template_pack_request_page": "https://ivelly42.github.io/agent-ops-command-center/template-pack-request.html",
@@ -60,6 +60,12 @@
   "paid_zip_public": false,
   "revenue_rule": "Revenue is proven only by checkout, receipt, payout, or seller-dashboard evidence.",
   "public_assets": [
+    {
+      "title": "NPM GitHub Install Preview",
+      "url": "https://ivelly42.github.io/agent-ops-command-center/npm-preview.md",
+      "command": "npx github:ivelly42/agent-ops-command-center --json",
+      "request_url": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml"
+    },
     {
       "title": "GitHub Topic Discovery Pass",
       "url": "https://github.com/ivelly42/agent-ops-command-center/topics",
@@ -725,7 +731,10 @@
     "https://github.com/topics/payment-ready",
     "https://github.com/topics/ai-agent-template",
     "https://github.com/topics/checkout-readiness",
-    "https://github.com/topics/revenue-proof"
+    "https://github.com/topics/revenue-proof",
+    "https://ivelly42.github.io/agent-ops-command-center/npm-preview.md",
+    "https://github.com/ivelly42/agent-ops-command-center/blob/main/package.json",
+    "https://github.com/ivelly42/agent-ops-command-center/blob/main/bin/agent-ops-command-center.js"
   ],
   "github_access_review_mirror_pages": "https://ivelly42.github.io/ai-agent-access-review-template/",
   "github_access_review_mirror": "https://github.com/ivelly42/ai-agent-access-review-template",
@@ -831,5 +840,19 @@
       "checkout-request"
     ],
     "proof_rule": "GitHub topics improve discovery only; revenue is counted only after checkout, receipt, payout, or seller-dashboard evidence."
+  },
+  "npm_github_install_preview": {
+    "command": "npx github:ivelly42/agent-ops-command-center --json",
+    "package_name": "agent-ops-command-center",
+    "package_version": "0.5.92",
+    "bin": [
+      "agent-ops-command-center",
+      "agent-ops"
+    ],
+    "source": "https://github.com/ivelly42/agent-ops-command-center/blob/main/package.json",
+    "cli": "https://github.com/ivelly42/agent-ops-command-center/blob/main/bin/agent-ops-command-center.js",
+    "docs": "https://ivelly42.github.io/agent-ops-command-center/npm-preview.md",
+    "paid_zip_public": false,
+    "revenue_rule": "Installing or running this preview is not revenue. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence."
   }
 }

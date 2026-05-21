@@ -1,0 +1,45 @@
+{
+  "name": "agent-ops-command-center",
+  "version": "0.5.92",
+  "description": "Public preview CLI for Agent Ops Command Center, a Notion and spreadsheet template pack for AI coding-agent teams.",
+  "license": "MIT",
+  "homepage": "https://ivelly42.github.io/agent-ops-command-center/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivelly42/agent-ops-command-center.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml"
+  },
+  "bin": {
+    "agent-ops-command-center": "bin/agent-ops-command-center.js",
+    "agent-ops": "bin/agent-ops-command-center.js"
+  },
+  "files": [
+    "bin",
+    "README.md",
+    "catalog.json",
+    "llms.txt",
+    "npm-preview.md"
+  ],
+  "keywords": [
+    "ai-agent",
+    "agent-ops",
+    "codex",
+    "claude-code",
+    "cursor-ai",
+    "notion-template",
+    "spreadsheet-template",
+    "template-pack",
+    "checkout-readiness",
+    "payment-ready",
+    "revenue-proof"
+  ],
+  "scripts": {
+    "preview": "node bin/agent-ops-command-center.js",
+    "preview:json": "node bin/agent-ops-command-center.js --json"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
