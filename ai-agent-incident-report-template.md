@@ -82,4 +82,4 @@ Seven paid orders reach `$203` gross.
 
 Checkout is not live yet. Use the issue form to record purchase intent:
 
-https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml
+https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml

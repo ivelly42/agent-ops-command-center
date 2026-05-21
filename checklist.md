@@ -59,4 +59,4 @@ Agent Ops Command Center turns this checklist into a Notion-ready workspace with
 
 - Preview: https://ivelly42.github.io/agent-ops-command-center/preview.md
 - Sample run log: https://ivelly42.github.io/agent-ops-command-center/sample/run_log_sample.csv
-- Early access request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml
+- Early access request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml

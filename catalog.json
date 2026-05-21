@@ -1,7 +1,7 @@
 {
   "name": "Agent Ops Command Center",
   "description": "Notion and spreadsheet template pack for builders running AI coding agents.",
-  "version": "v5.95-preview",
+  "version": "v5.96-preview",
   "price_usd": 29,
   "individual_price_usd": 29,
   "team_license_price_usd": 203,
@@ -15,7 +15,7 @@
   "status": "preview_live_no_paid_checkout",
   "homepage": "https://ivelly42.github.io/agent-ops-command-center/",
   "social_image": "https://ivelly42.github.io/agent-ops-command-center/og.png",
-  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.95-preview",
+  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.96-preview",
   "early_access_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml",
   "template_pack_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml",
   "template_pack_request_page": "https://ivelly42.github.io/agent-ops-command-center/template-pack-request.html",
@@ -60,6 +60,12 @@
   "paid_zip_public": false,
   "revenue_rule": "Revenue is proven only by checkout, receipt, payout, or seller-dashboard evidence.",
   "public_assets": [
+    {
+      "title": "Payment-Ready Link Sweep",
+      "url": "https://ivelly42.github.io/agent-ops-command-center/catalog.json",
+      "request_url": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml",
+      "revenue_rule": "Payment-ready issues are not revenue. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence."
+    },
     {
       "title": "Payment-Ready CTA Upgrade",
       "url": "https://ivelly42.github.io/agent-ops-command-center/buy.html",
@@ -875,7 +881,7 @@
   "npm_github_install_preview": {
     "command": "npx github:ivelly42/agent-ops-command-center --json",
     "package_name": "agent-ops-command-center",
-    "package_version": "0.5.95",
+    "package_version": "0.5.96",
     "bin": [
       "agent-ops-command-center",
       "agent-ops"
@@ -907,5 +913,11 @@
     ],
     "request_url": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml",
     "revenue_rule": "CTA clicks and payment-ready issues are not revenue. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence."
+  },
+  "payment_ready_link_sweep": {
+    "updated_at_kst": "2026-05-22 03:10",
+    "request_url": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml",
+    "scope": "public pages, public templates, and contact links now route legacy generic order-request URLs to payment-ready",
+    "revenue_rule": "Payment-ready issues are not revenue. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence."
   }
 }

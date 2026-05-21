@@ -81,4 +81,4 @@ Free assets:
 
 Checkout is not live yet. To request the full pack, open the early-access issue form:
 
-https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml
+https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml

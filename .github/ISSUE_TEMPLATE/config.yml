@@ -30,9 +30,6 @@ contact_links:
   - name: Fast template pack request
     url: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml
     about: Short request path for the $203 Agent Ops team license.
-  - name: Early access order request
-    url: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml
-    about: Record purchase intent for the full paid pack.
   - name: Product questions
     url: https://github.com/ivelly42/agent-ops-command-center/discussions/1
     about: Ask questions about the preview, paid pack contents, or checkout status.

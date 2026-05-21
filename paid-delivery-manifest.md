@@ -76,7 +76,7 @@ Checkout is not live yet. Early-access requests are purchase-intent signals only
 
 Early-access request:
 
-https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml
+https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml
 
 Demand metrics:
 

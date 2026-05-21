@@ -81,4 +81,4 @@ Target price: `$29`.
 
 Checkout is not live yet. Record purchase intent here:
 
-https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml
+https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml

@@ -18,7 +18,7 @@ Template gallery:
 https://ivelly42.github.io/agent-ops-command-center/template-gallery.html
 
 Order intent:
-https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml
+https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml
 
 Revenue note: order intent is not paid revenue. The private ZIP is delivered only after checkout, receipt, payout, or seller-dashboard proof exists.
 ```
@@ -52,7 +52,7 @@ https://ivelly42.github.io/agent-ops-command-center/cost-leak-audit.html
 ```text
 Checkout is not live yet. You can record purchase intent and preferred checkout here:
 
-https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml
+https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml
 
 This is only demand signal until real payment proof exists. Revenue is counted only from checkout, receipt, payout, or seller-dashboard evidence.
 ```
@@ -125,7 +125,7 @@ Not revenue:
 Thanks. Please open an order-intent issue with your preferred checkout, receipt need, AI-agent workflow, and purchase timing.
 
 Order intent:
-https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml
+https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml
 
 If checkout/receipt details are the blocker, use this first:
 https://ivelly42.github.io/agent-ops-command-center/checkout-readiness.html

@@ -6,7 +6,7 @@ published publicly.
 
 ## Buy or Request Access
 
-- Early access request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml
+- Early access request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml
 - Preview site: https://ivelly42.github.io/agent-ops-command-center/
 - Buy page: https://ivelly42.github.io/agent-ops-command-center/buy.html
 - Team purchase packet: https://ivelly42.github.io/agent-ops-command-center/team-purchase-packet.html

@@ -68,4 +68,4 @@ Done is not paid. Revenue is proven only by checkout, receipt, payout, or seller
 - Verification command library: https://ivelly42.github.io/agent-ops-command-center/ai-agent-verification-command-library.md
 - Public preview index: https://ivelly42.github.io/agent-ops-command-center/github-preview-index.md
 - AI agent done checklist Gist: https://gist.github.com/ivelly42/d9cbe7c188596853618db6bc6714b66e
-- Early access request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml
+- Early access request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml

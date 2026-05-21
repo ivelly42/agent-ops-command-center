@@ -72,4 +72,4 @@ Revenue is proven only by checkout, receipt, payout, or seller-dashboard evidenc
 - Model routing matrix: https://ivelly42.github.io/agent-ops-command-center/ai-agent-model-routing-matrix.md
 - Public preview index: https://ivelly42.github.io/agent-ops-command-center/github-preview-index.md
 - Codex vs Claude Code vs Cursor Gist: https://gist.github.com/ivelly42/75ce3130a95d83a247de6f16eee0060c
-- Early access request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml
+- Early access request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml

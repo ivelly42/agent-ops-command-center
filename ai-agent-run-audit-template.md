@@ -74,4 +74,4 @@ Revenue is proven only by checkout, receipt, payout, or seller-dashboard evidenc
 - Verification command library: https://ivelly42.github.io/agent-ops-command-center/ai-agent-verification-command-library.md
 - Public preview index: https://ivelly42.github.io/agent-ops-command-center/github-preview-index.md
 - AI agent run audit Gist: https://gist.github.com/ivelly42/4c9c05a9823cb88148ff5a658a3607d4
-- Early access request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml
+- Early access request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml

@@ -35,7 +35,7 @@ The rule is simple: no "done" without evidence.
 
 Preview: https://ivelly42.github.io/agent-ops-command-center/
 
-Early access: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml
+Early access: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml
 
 ## Buyer Pitch
 

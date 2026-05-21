@@ -62,4 +62,4 @@ Revenue is proven only by checkout, receipt, payout, or seller-dashboard evidenc
 - Full preview site: https://ivelly42.github.io/agent-ops-command-center/
 - Public preview index: https://ivelly42.github.io/agent-ops-command-center/github-preview-index.md
 - Maturity scorecard Gist: https://gist.github.com/ivelly42/37a14ab70b537aeaef1156549876124b
-- Early access request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml
+- Early access request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml

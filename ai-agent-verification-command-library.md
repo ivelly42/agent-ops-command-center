@@ -94,4 +94,4 @@ The paid Agent Ops Command Center pack expands this free command library into a 
 
 The full pack target price is `$29`. Early access requests are collected here:
 
-https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml
+https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml
