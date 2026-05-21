@@ -16,6 +16,10 @@ Fast team checkout request: [team-checkout-request.html](team-checkout-request.h
 
 Client delivery kit: [client-delivery-kit.html](client-delivery-kit.html)
 
+GitHub prompt regression mirror: https://github.com/ivelly42/ai-agent-prompt-regression-test-template
+
+GitHub prompt regression mirror Pages: https://ivelly42.github.io/ai-agent-prompt-regression-test-template/
+
 GitHub acceptance test mirror: https://github.com/ivelly42/ai-agent-acceptance-test-template
 
 GitHub acceptance test mirror Pages: https://ivelly42.github.io/ai-agent-acceptance-test-template/
@@ -147,7 +151,7 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.48-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.49-preview
 
 Sample files:
 
@@ -187,6 +191,8 @@ Sample files:
 - [Buy page](buy.html)
 - [Fast team checkout request](team-checkout-request.html)
 - [Client delivery kit](client-delivery-kit.html)
+- [GitHub prompt regression mirror Pages](https://ivelly42.github.io/ai-agent-prompt-regression-test-template/)
+- [GitHub prompt regression mirror](https://github.com/ivelly42/ai-agent-prompt-regression-test-template)
 - [GitHub acceptance test mirror Pages](https://ivelly42.github.io/ai-agent-acceptance-test-template/)
 - [GitHub acceptance test mirror](https://github.com/ivelly42/ai-agent-acceptance-test-template)
 - [GitHub ROI calculator mirror Pages](https://ivelly42.github.io/ai-agent-roi-calculator-template/)

@@ -7,6 +7,7 @@ The full paid pack is not published publicly. This index links every public prev
 ## Public Preview Assets
 
 - Landing page: https://ivelly42.github.io/agent-ops-command-center/
+- GitHub Pages prompt regression mirror: https://ivelly42.github.io/ai-agent-prompt-regression-test-template/
 - GitHub Pages acceptance test mirror: https://ivelly42.github.io/ai-agent-acceptance-test-template/
 - GitHub Pages security review mirror: https://ivelly42.github.io/ai-agent-security-review-template/
 - GitHub Pages procurement mirror: https://ivelly42.github.io/ai-agent-procurement-template/
@@ -109,10 +110,12 @@ The full paid pack is not published publicly. This index links every public prev
 - GitHub issue index: https://github.com/ivelly42/agent-ops-command-center/issues/2
 - RSS feed: https://ivelly42.github.io/agent-ops-command-center/feed.xml
 - Machine-readable catalog: https://ivelly42.github.io/agent-ops-command-center/catalog.json
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.48-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.49-preview
 - Buy page: https://ivelly42.github.io/agent-ops-command-center/buy.html
 - Fast team checkout request: https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html
 - Client delivery kit: https://ivelly42.github.io/agent-ops-command-center/client-delivery-kit.html
+- GitHub Pages prompt regression mirror: https://ivelly42.github.io/ai-agent-prompt-regression-test-template/
+- GitHub prompt regression mirror: https://github.com/ivelly42/ai-agent-prompt-regression-test-template
 - GitHub Pages acceptance test mirror: https://ivelly42.github.io/ai-agent-acceptance-test-template/
 - GitHub acceptance test mirror: https://github.com/ivelly42/ai-agent-acceptance-test-template
 - GitHub Pages security review mirror: https://ivelly42.github.io/ai-agent-security-review-template/
@@ -181,6 +184,7 @@ The full paid pack is not published publicly. This index links every public prev
 | Fast Team Checkout Request | Open a prefilled $203 team-license request without the longer issue form |
 | Client Delivery Kit | Package AI-agent agency or consulting work with run proof, handoff, acceptance, and the $203 team request |
 | GitHub Client Delivery Mirror | External discovery repository routing agency and consulting buyers back to the $203 team request |
+| Prompt Regression Mirror | Route prompt-regression, prompt-eval, scope-drift, and false-completion searches into the $203 request path |
 | Acceptance Test Mirror | Route acceptance-test, done-proof, regression-proof, and handoff searches into the $203 request path |
 | Team Purchase Packet | Route team buyers through proof, quote, approval, and checkout request |
 | Team Procurement Email Kit | Generate manager approval, procurement, and checkout-request email text for a $203 team license |
