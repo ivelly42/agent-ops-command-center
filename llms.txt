@@ -168,6 +168,12 @@ GitHub receipt request mirror Pages: https://ivelly42.github.io/ai-agent-receipt
 
 Use receipt request mirror as GitHub template: https://github.com/ivelly42/ai-agent-receipt-request-template/generate
 
+GitHub expense report mirror: https://github.com/ivelly42/ai-agent-expense-report-template
+
+GitHub expense report mirror Pages: https://ivelly42.github.io/ai-agent-expense-report-template/
+
+Use expense report mirror as GitHub template: https://github.com/ivelly42/ai-agent-expense-report-template/generate
+
 GitHub vendor onboarding mirror: https://github.com/ivelly42/ai-agent-vendor-onboarding-template
 
 GitHub vendor onboarding mirror Pages: https://ivelly42.github.io/ai-agent-vendor-onboarding-template/
@@ -543,6 +549,12 @@ AI agent receipt request mirror Pages: https://ivelly42.github.io/ai-agent-recei
 
 AI agent receipt request GitHub template: https://github.com/ivelly42/ai-agent-receipt-request-template/generate
 
+AI agent expense report GitHub mirror: https://github.com/ivelly42/ai-agent-expense-report-template
+
+AI agent expense report mirror Pages: https://ivelly42.github.io/ai-agent-expense-report-template/
+
+AI agent expense report GitHub template: https://github.com/ivelly42/ai-agent-expense-report-template/generate
+
 AI agent vendor onboarding GitHub mirror: https://github.com/ivelly42/ai-agent-vendor-onboarding-template
 
 AI agent vendor onboarding mirror Pages: https://ivelly42.github.io/ai-agent-vendor-onboarding-template/
@@ -593,7 +605,7 @@ Fast template pack request page: https://ivelly42.github.io/agent-ops-command-ce
 
 GitHub Sponsor button funding links: https://github.com/ivelly42/agent-ops-command-center/blob/main/.github/FUNDING.yml
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.81-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.82-preview
 
 Sample run log CSV: https://ivelly42.github.io/agent-ops-command-center/sample/run_log_sample.csv
 

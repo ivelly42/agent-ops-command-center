@@ -133,7 +133,7 @@ The pack breaks even if it prevents roughly one hour of cleanup time for a build
 - Run log template: https://ivelly42.github.io/agent-ops-command-center/codex-claude-run-log-template.md
 - Failure RCA template: https://ivelly42.github.io/agent-ops-command-center/failure-rca-template.md
 - Preflight checklist: https://ivelly42.github.io/agent-ops-command-center/checklist.md
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.81-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.82-preview
 - Buy page: https://ivelly42.github.io/agent-ops-command-center/buy.html
 - Fast team checkout request: https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html
 - Fast template pack request page: https://ivelly42.github.io/agent-ops-command-center/template-pack-request.html
@@ -193,6 +193,9 @@ The pack breaks even if it prevents roughly one hour of cleanup time for a build
 - GitHub receipt request mirror Pages: https://ivelly42.github.io/ai-agent-receipt-request-template/
 - GitHub receipt request mirror: https://github.com/ivelly42/ai-agent-receipt-request-template
 - Use receipt request mirror: https://github.com/ivelly42/ai-agent-receipt-request-template/generate
+- GitHub expense report mirror Pages: https://ivelly42.github.io/ai-agent-expense-report-template/
+- GitHub expense report mirror: https://github.com/ivelly42/ai-agent-expense-report-template
+- Use expense report mirror: https://github.com/ivelly42/ai-agent-expense-report-template/generate
 - GitHub vendor onboarding mirror Pages: https://ivelly42.github.io/ai-agent-vendor-onboarding-template/
 - GitHub vendor onboarding mirror: https://github.com/ivelly42/ai-agent-vendor-onboarding-template
 - Use vendor onboarding mirror: https://github.com/ivelly42/ai-agent-vendor-onboarding-template/generate

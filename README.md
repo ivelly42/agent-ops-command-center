@@ -174,6 +174,12 @@ GitHub receipt request mirror Pages: https://ivelly42.github.io/ai-agent-receipt
 
 Use receipt request mirror as GitHub template: https://github.com/ivelly42/ai-agent-receipt-request-template/generate
 
+GitHub expense report mirror: https://github.com/ivelly42/ai-agent-expense-report-template
+
+GitHub expense report mirror Pages: https://ivelly42.github.io/ai-agent-expense-report-template/
+
+Use expense report mirror as GitHub template: https://github.com/ivelly42/ai-agent-expense-report-template/generate
+
 GitHub vendor onboarding mirror: https://github.com/ivelly42/ai-agent-vendor-onboarding-template
 
 GitHub vendor onboarding mirror Pages: https://ivelly42.github.io/ai-agent-vendor-onboarding-template/
@@ -293,7 +299,7 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.81-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.82-preview
 
 Sample files:
 
@@ -412,6 +418,9 @@ Sample files:
 - [GitHub receipt request mirror Pages](https://ivelly42.github.io/ai-agent-receipt-request-template/)
 - [GitHub receipt request mirror](https://github.com/ivelly42/ai-agent-receipt-request-template)
 - [Use receipt request mirror](https://github.com/ivelly42/ai-agent-receipt-request-template/generate)
+- [GitHub expense report mirror Pages](https://ivelly42.github.io/ai-agent-expense-report-template/)
+- [GitHub expense report mirror](https://github.com/ivelly42/ai-agent-expense-report-template)
+- [Use expense report mirror](https://github.com/ivelly42/ai-agent-expense-report-template/generate)
 - [GitHub vendor onboarding mirror Pages](https://ivelly42.github.io/ai-agent-vendor-onboarding-template/)
 - [GitHub vendor onboarding mirror](https://github.com/ivelly42/ai-agent-vendor-onboarding-template)
 - [Use vendor onboarding mirror](https://github.com/ivelly42/ai-agent-vendor-onboarding-template/generate)
