@@ -3,12 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>AI Agent Team Procurement Email Kit | Agent Ops Command Center</title>
-    <meta name="description" content="Copy-ready internal approval, procurement, and checkout-request emails for the $203 Agent Ops Command Center team license.">
-    <meta property="og:title" content="AI Agent Team Procurement Email Kit">
-    <meta property="og:description" content="Generate internal request text for a $203 seven-seat Agent Ops Command Center team license.">
+    <title>AI Agent Team Invoice Request Packet | Agent Ops Command Center</title>
+    <meta name="description" content="Prepare invoice, purchase-order, receipt, and delivery-proof details for a $203 Agent Ops Command Center team license request.">
+    <meta property="og:title" content="AI Agent Team Invoice Request Packet">
+    <meta property="og:description" content="Collect billing details and generate invoice request text for a $203 seven-seat Agent Ops Command Center team license.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://ivelly42.github.io/agent-ops-command-center/team-procurement-email.html">
+    <meta property="og:url" content="https://ivelly42.github.io/agent-ops-command-center/team-invoice-request.html">
     <meta property="og:image" content="https://ivelly42.github.io/agent-ops-command-center/og.svg">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content="https://ivelly42.github.io/agent-ops-command-center/og.svg">
@@ -16,10 +16,10 @@
       {
         "@context": "https://schema.org",
         "@type": "WebApplication",
-        "name": "AI Agent Team Procurement Email Kit",
+        "name": "AI Agent Team Invoice Request Packet",
         "applicationCategory": "BusinessApplication",
         "operatingSystem": "Any",
-        "url": "https://ivelly42.github.io/agent-ops-command-center/team-procurement-email.html",
+        "url": "https://ivelly42.github.io/agent-ops-command-center/team-invoice-request.html",
         "offers": {
           "@type": "Offer",
           "price": "0",
@@ -248,7 +248,7 @@
       }
 
       textarea {
-        min-height: 380px;
+        min-height: 390px;
         line-height: 1.45;
         resize: vertical;
       }
@@ -345,32 +345,31 @@
     <main>
       <div class="hero">
         <div>
-          <div class="eyebrow">Copy-ready team procurement</div>
-          <h1>Send the $203 team purchase request without rewriting it.</h1>
-          <p class="lead">Generate a manager approval email, procurement note, and checkout-request text for the seven-seat Agent Ops Command Center team license.</p>
+          <div class="eyebrow">Invoice-ready team request</div>
+          <h1>Prepare the $203 invoice request before checkout exists.</h1>
+          <p class="lead">Collect billing, purchase-order, receipt, and delivery-proof details for the seven-seat Agent Ops Command Center team license.</p>
           <div class="actions">
             <a class="button primary" href="https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml">Request team checkout</a>
-            <a class="button" href="team-invoice-request.html">Invoice packet</a>
+            <a class="button" href="team-procurement-email.html">Email kit</a>
             <a class="button" href="team-purchase-packet.html">Team purchase packet</a>
             <a class="button" href="team-quote.html">Build quote</a>
-            <a class="button" href="team-approval.html">Build approval</a>
           </div>
         </div>
-        <aside class="summary" aria-label="Procurement summary">
-          <div class="price">$203</div>
-          <p>Seven seats at $29 each. The email text keeps approval, checkout request, and proven revenue separate.</p>
+        <aside class="summary" aria-label="Invoice request summary">
+          <div class="price" id="total">$203</div>
+          <p>This page does not issue an invoice. It prepares the details a buyer can paste into the order request.</p>
           <div class="mini-grid">
             <div class="mini">
-              <strong>3</strong>
-              <span>copy blocks</span>
-            </div>
-            <div class="mini">
-              <strong>7</strong>
+              <strong id="seatCount">7</strong>
               <span>default seats</span>
             </div>
             <div class="mini">
               <strong>$29</strong>
               <span>per seat</span>
+            </div>
+            <div class="mini">
+              <strong>PO</strong>
+              <span>optional blocker</span>
             </div>
             <div class="mini">
               <strong>Proof</strong>
@@ -382,100 +381,92 @@
 
       <section>
         <div class="section-head">
-          <h2>Email Inputs</h2>
-          <p>Defaults target the fastest path to one $203 team purchase request.</p>
+          <h2>Invoice Inputs</h2>
+          <p>Capture finance details without creating a seller account or payment instrument.</p>
         </div>
         <div class="form-grid">
           <div class="field">
-            <label for="team">Team</label>
-            <input id="team" value="AI-agent operations team">
-            <p>Team, project, or buying group.</p>
+            <label for="buyer">Buyer or team</label>
+            <input id="buyer" value="AI-agent operations team">
+            <p>Team, company, or project requesting the license.</p>
           </div>
           <div class="field">
-            <label for="recipient">Recipient</label>
-            <select id="recipient">
-              <option selected>Manager</option>
-              <option>Finance</option>
-              <option>Procurement</option>
-              <option>Founder</option>
-              <option>Engineering lead</option>
-            </select>
-            <p>Changes the opening line and ask.</p>
+            <label for="billing">Billing contact</label>
+            <input id="billing" value="Finance or procurement contact">
+            <p>Name, role, or mailbox that needs the invoice.</p>
           </div>
           <div class="field">
             <label for="seats">Seats</label>
             <input id="seats" type="number" min="1" max="50" value="7">
-            <p>Seven seats reaches $203 gross.</p>
+            <p>Seven seats at $29 equals $203 gross.</p>
           </div>
           <div class="field">
-            <label for="workflow">Workflow</label>
-            <input id="workflow" value="tracking Codex, Claude Code, Cursor, and local-agent runs">
-            <p>The first workflow the pack should standardize.</p>
-          </div>
-          <div class="field">
-            <label for="pain">Current cost</label>
-            <select id="pain">
-              <option selected>re-reading chats and verifying done claims manually</option>
-              <option>reconstructing changed files after agent runs</option>
-              <option>missing prompt regression and failure records</option>
-              <option>untracked model spend and cleanup loops</option>
+            <label for="invoice">Invoice requirement</label>
+            <select id="invoice">
+              <option selected>Invoice required before payment</option>
+              <option>Receipt after checkout is enough</option>
+              <option>Company card receipt required</option>
+              <option>PO number required before payment</option>
             </select>
-            <p>Buyer-language reason for the request.</p>
+            <p>States the blocker before checkout.</p>
           </div>
           <div class="field">
-            <label for="checkout">Checkout proof needed</label>
-            <select id="checkout">
-              <option selected>receipt-capable checkout link</option>
-              <option>invoice before payment</option>
-              <option>Gumroad receipt</option>
-              <option>Lemon Squeezy receipt</option>
-              <option>PayPal invoice</option>
+            <label for="tax">Tax or vendor status</label>
+            <select id="tax">
+              <option selected>No tax ID needed for request</option>
+              <option>Tax details needed before payment</option>
+              <option>Vendor form needed before payment</option>
+              <option>Procurement review needed first</option>
             </select>
-            <p>Preference only; checkout is still not live.</p>
+            <p>Known vendor setup requirement.</p>
+          </div>
+          <div class="field">
+            <label for="delivery">Delivery proof needed</label>
+            <select id="delivery">
+              <option selected>Private ZIP after payment proof</option>
+              <option>Receipt plus private ZIP delivery note</option>
+              <option>Download digest and delivery manifest</option>
+              <option>Manager acknowledgement before delivery</option>
+            </select>
+            <p>Keeps paid delivery separate from public previews.</p>
           </div>
         </div>
       </section>
 
       <section>
         <div class="section-head">
-          <h2>Generated Email Kit</h2>
-          <p>Copy the block that matches the next buyer step.</p>
+          <h2>Generated Invoice Request</h2>
+          <p>Paste into the GitHub order request or internal finance thread.</p>
         </div>
-        <textarea id="email" readonly></textarea>
+        <textarea id="request" readonly></textarea>
         <div class="actions">
-          <button class="button primary" type="button" id="copyEmail">Copy email kit</button>
-          <a class="button" href="team-invoice-request.html">Invoice packet</a>
-          <a class="button" href="team-purchase-packet.html">Open packet</a>
+          <button class="button primary" type="button" id="copyRequest">Copy invoice request</button>
           <a class="button" href="https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml">Open order request</a>
+          <a class="button" href="team-procurement-email.html">Email kit</a>
         </div>
         <div class="status" id="copyStatus" aria-live="polite"></div>
       </section>
 
       <section>
         <div class="section-head">
-          <h2>Proof Links</h2>
-          <p>Links included in the generated text so reviewers can inspect before checkout exists.</p>
+          <h2>Review Links</h2>
+          <p>Public surfaces a finance or procurement reviewer can inspect before payment exists.</p>
         </div>
         <div class="grid">
           <article class="item">
+            <h3>Team Procurement Email Kit</h3>
+            <p>Copy manager approval, procurement, and checkout-request text.</p>
+            <div class="actions"><a class="button" href="team-procurement-email.html">Open</a></div>
+          </article>
+          <article class="item">
             <h3>Team Purchase Packet</h3>
-            <p>One-page route through proof, quote, approval, and checkout request.</p>
+            <p>One-page route through proof, quote, approval, email, invoice, and checkout request.</p>
             <div class="actions"><a class="button" href="team-purchase-packet.html">Open</a></div>
           </article>
           <article class="item">
-            <h3>Team Invoice Request Packet</h3>
-            <p>Prepare billing, invoice, PO, receipt, and delivery-proof details before checkout exists.</p>
-            <div class="actions"><a class="button" href="team-invoice-request.html">Open</a></div>
-          </article>
-          <article class="item">
-            <h3>Team Quote Builder</h3>
-            <p>Seven-seat quote and purchase-order text for a $203 request.</p>
-            <div class="actions"><a class="button" href="team-quote.html">Open</a></div>
-          </article>
-          <article class="item">
-            <h3>Team Approval Brief</h3>
-            <p>Manager-ready business case with value, risk, and payment gates.</p>
-            <div class="actions"><a class="button" href="team-approval.html">Open</a></div>
+            <h3>Delivery Manifest</h3>
+            <p>Delivery proof language for the private ZIP after payment evidence exists.</p>
+            <div class="actions"><a class="button" href="paid-delivery-manifest.md">Open</a></div>
           </article>
         </div>
       </section>
@@ -483,24 +474,26 @@
       <section>
         <h2>Revenue Rule</h2>
         <div class="notice">
-          This procurement email kit does not create checkout, prove payment, publish the paid ZIP, or count as revenue. Gross revenue is counted only from checkout, receipt, payout, or seller-dashboard evidence.
+          This invoice request packet does not issue an invoice, create checkout, prove payment, publish the paid ZIP, or count as revenue. Gross revenue is counted only from checkout, receipt, payout, or seller-dashboard evidence.
         </div>
         <div class="actions">
           <a class="button primary" href="https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml">Request team checkout</a>
           <a class="button" href="metrics/status.json">Demand metrics</a>
-          <a class="button" href="paid-delivery-manifest.md">Delivery manifest</a>
+          <a class="button" href="team-procurement-email.html">Email kit</a>
         </div>
       </section>
     </main>
 
     <footer>
-      Team procurement email kit. Private paid ZIP. Revenue only after payment proof.
+      Team invoice request packet. Private paid ZIP. Revenue only after payment proof.
     </footer>
 
     <script>
-      const fields = ["team", "recipient", "seats", "workflow", "pain", "checkout"];
-      const email = document.getElementById("email");
+      const fields = ["buyer", "billing", "seats", "invoice", "tax", "delivery"];
+      const request = document.getElementById("request");
       const status = document.getElementById("copyStatus");
+      const totalDisplay = document.getElementById("total");
+      const seatDisplay = document.getElementById("seatCount");
 
       function dollars(value) {
         return `$${value.toLocaleString("en-US")}`;
@@ -517,56 +510,42 @@
       function render() {
         const seats = seatCount();
         const total = seats * 29;
-        const team = value("team") || "AI-agent operations team";
-        const recipient = value("recipient") || "Manager";
-        const workflow = value("workflow") || "tracking AI-agent runs";
-        const pain = value("pain");
-        const checkout = value("checkout");
-        email.value = [
-          "Subject: Approval request for Agent Ops Command Center team license",
+        totalDisplay.textContent = dollars(total);
+        seatDisplay.textContent = String(seats);
+        const buyer = value("buyer") || "AI-agent operations team";
+        const billing = value("billing") || "Finance or procurement contact";
+        const invoice = value("invoice");
+        const tax = value("tax");
+        const delivery = value("delivery");
+        request.value = [
+          "Invoice request packet: Agent Ops Command Center",
           "",
-          `Hi ${recipient},`,
+          `Buyer/team: ${buyer}`,
+          `Billing contact: ${billing}`,
+          `Requested package: ${seats} seats`,
+          "Price per seat: $29",
+          `Gross quote amount: ${dollars(total)}`,
+          `Invoice requirement: ${invoice}`,
+          `Tax/vendor status: ${tax}`,
+          `Delivery proof needed: ${delivery}`,
           "",
-          `I want to request approval for ${seats} seats of Agent Ops Command Center for the ${team}.`,
-          `The quote is ${dollars(total)} total at $29 per seat.`,
+          "Product summary:",
+          "- Agent Ops Command Center is a Notion and spreadsheet template pack for AI coding-agent operators.",
+          "- It supports run logs, verification evidence, prompt/version tracking, cost notes, failure records, handoff, and paid delivery proof.",
+          "- The seven-seat team request can clear the public $200 launch target after real payment proof exists.",
           "",
-          `Use case: ${workflow}.`,
-          `Current cost: ${pain}.`,
-          "",
-          "Why this is useful:",
-          "- Standard run logs for AI-agent work across Codex, Claude Code, Cursor, and local agents.",
-          "- Verification ledger, prompt/version tracking, cost notes, failure records, and handoff proof.",
-          "- Cleaner acceptance gates before agent work is treated as done.",
-          "",
-          "Proof links:",
-          "- Team purchase packet: https://ivelly42.github.io/agent-ops-command-center/team-purchase-packet.html",
+          "Review links:",
           "- Team invoice request packet: https://ivelly42.github.io/agent-ops-command-center/team-invoice-request.html",
+          "- Team procurement email kit: https://ivelly42.github.io/agent-ops-command-center/team-procurement-email.html",
+          "- Team purchase packet: https://ivelly42.github.io/agent-ops-command-center/team-purchase-packet.html",
           "- Team quote builder: https://ivelly42.github.io/agent-ops-command-center/team-quote.html",
-          "- Team approval brief: https://ivelly42.github.io/agent-ops-command-center/team-approval.html",
-          "- Sample dashboard: https://ivelly42.github.io/agent-ops-command-center/sample-dashboard.html",
-          "- Buy/request page: https://ivelly42.github.io/agent-ops-command-center/buy.html",
+          "- Delivery manifest: https://ivelly42.github.io/agent-ops-command-center/paid-delivery-manifest.md",
+          "- Demand metrics: https://ivelly42.github.io/agent-ops-command-center/metrics/status.json",
           "",
-          `Requested next step: approve requesting a ${checkout} for ${dollars(total)}.`,
+          "Requested next step:",
+          `Please provide a receipt-capable checkout or invoice path for ${dollars(total)} if the billing requirements above can be met.`,
           "",
-          "Revenue and delivery note: approval and order intent are not revenue. The paid ZIP should be delivered only after checkout, receipt, payout, or seller-dashboard proof exists.",
-          "",
-          "---",
-          "Procurement note",
-          "",
-          `Vendor/product: Agent Ops Command Center`,
-          `Request package: ${seats} seats, ${dollars(total)} gross`,
-          `Checkout proof requested: ${checkout}`,
-          "Delivery: private paid ZIP after payment proof",
-          "Public preview: https://ivelly42.github.io/agent-ops-command-center/team-purchase-packet.html",
-          "Order form: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml",
-          "",
-          "---",
-          "Checkout request text",
-          "",
-          `Please provide a ${checkout} for ${seats} seats of Agent Ops Command Center at ${dollars(total)} total.`,
-          `Buyer/team: ${team}`,
-          `Primary workflow: ${workflow}`,
-          "I understand this request is not paid revenue until payment proof exists."
+          "Revenue rule: this invoice request is not revenue. Count gross revenue only from checkout, receipt, payout, or seller-dashboard evidence."
         ].join("\n");
       }
 
@@ -576,13 +555,13 @@
         field.addEventListener("change", render);
       }
 
-      document.getElementById("copyEmail").addEventListener("click", async () => {
+      document.getElementById("copyRequest").addEventListener("click", async () => {
         try {
-          await navigator.clipboard.writeText(email.value);
-          status.textContent = "Email kit copied.";
+          await navigator.clipboard.writeText(request.value);
+          status.textContent = "Invoice request copied.";
         } catch {
-          email.select();
-          status.textContent = "Select and copy the email kit.";
+          request.select();
+          status.textContent = "Select and copy the invoice request.";
         }
       });
 
