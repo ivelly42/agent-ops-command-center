@@ -1,0 +1,80 @@
+name: Quote request
+description: Request a $203 team-license quote before invoice, PO, or checkout
+title: "Quote request: Agent Ops Command Center"
+labels: ["order-request", "quote-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Short request path for buyers who need a team-license quote before invoice, purchase order, reimbursement, or checkout.
+
+        Request package: Team license - 7 seats - $203 gross.
+        Individual seat target: $29.
+
+        Checkout is not live yet. This issue records purchase intent and preferred checkout. It is not counted as revenue until checkout, receipt, payout, or seller-dashboard evidence exists.
+
+        Team license quote mirror: https://ivelly42.github.io/ai-agent-team-license-quote-template/
+        Invoice request form: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=invoice-request.yml
+        Expense report form: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=expense-report.yml
+        Budget request form: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=budget-request.yml
+        Fast team request page: https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html
+  - type: dropdown
+    id: package
+    attributes:
+      label: Request package
+      options:
+        - Team license - 7 seats - $203 gross
+        - Individual seat - $29
+        - Evaluating preview only
+    validations:
+      required: true
+  - type: dropdown
+    id: quote_need
+    attributes:
+      label: Quote need
+      options:
+        - Need quote before invoice
+        - Need quote before purchase order
+        - Need quote before reimbursement approval
+        - Need quote before manager approval
+        - Need quote for team budget review
+    validations:
+      required: true
+  - type: dropdown
+    id: checkout
+    attributes:
+      label: Preferred checkout
+      options:
+        - Gumroad
+        - Ko-fi
+        - Lemon Squeezy
+        - PayPal invoice
+        - GitHub Sponsors
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: intent
+    attributes:
+      label: Purchase intent
+      options:
+        - I am ready to pay $203 for the 7-seat team license when checkout is ready
+        - I am ready to pay $29 when checkout is ready
+        - I need quote, invoice, or PO details first
+        - I want to evaluate the preview first
+    validations:
+      required: true
+  - type: checkboxes
+    id: delivery
+    attributes:
+      label: Delivery acknowledgement
+      options:
+        - label: I understand the paid ZIP is not public and will be delivered only after checkout, receipt, payout, or seller-dashboard evidence exists.
+          required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      placeholder: Legal buyer name, team size, quote owner, PO blocker, invoice need, approval deadline, or checkout preference.
+    validations:
+      required: false

@@ -1,5 +1,8 @@
 blank_issues_enabled: false
 contact_links:
+  - name: Quote request
+    url: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=quote-request.yml
+    about: Request a $203 team-license quote before invoice, purchase order, reimbursement, or checkout.
   - name: Expense report request
     url: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=expense-report.yml
     about: Request expense-report, reimbursement, receipt, or payment-proof checkout for the $203 team license.

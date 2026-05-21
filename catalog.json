@@ -1,7 +1,7 @@
 {
   "name": "Agent Ops Command Center",
   "description": "Notion and spreadsheet template pack for builders running AI coding agents.",
-  "version": "v5.83-preview",
+  "version": "v5.84-preview",
   "price_usd": 29,
   "individual_price_usd": 29,
   "team_license_price_usd": 203,
@@ -15,7 +15,7 @@
   "status": "preview_live_no_paid_checkout",
   "homepage": "https://ivelly42.github.io/agent-ops-command-center/",
   "social_image": "https://ivelly42.github.io/agent-ops-command-center/og.png",
-  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.83-preview",
+  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.84-preview",
   "early_access_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml",
   "template_pack_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml",
   "template_pack_request_page": "https://ivelly42.github.io/agent-ops-command-center/template-pack-request.html",
@@ -207,6 +207,11 @@
       "template_url": "https://github.com/ivelly42/ai-agent-team-license-quote-template/generate",
       "request_page": "https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html",
       "request_url": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml"
+    },
+    {
+      "title": "AI Agent Quote Request Issue Form",
+      "url": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=quote-request.yml",
+      "request_url": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=quote-request.yml"
     },
     {
       "title": "AI Agent Purchase Order Mirror Page",
@@ -657,7 +662,8 @@
     "https://ivelly42.github.io/ai-agent-expense-report-template/",
     "https://github.com/ivelly42/ai-agent-expense-report-template",
     "https://github.com/ivelly42/ai-agent-expense-report-template/generate",
-    "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=expense-report.yml"
+    "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=expense-report.yml",
+    "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=quote-request.yml"
   ],
   "github_access_review_mirror_pages": "https://ivelly42.github.io/ai-agent-access-review-template/",
   "github_access_review_mirror": "https://github.com/ivelly42/ai-agent-access-review-template",
@@ -709,5 +715,6 @@
   "github_expense_report_mirror_pages": "https://ivelly42.github.io/ai-agent-expense-report-template/",
   "github_expense_report_mirror": "https://github.com/ivelly42/ai-agent-expense-report-template",
   "github_expense_report_generate": "https://github.com/ivelly42/ai-agent-expense-report-template/generate",
-  "github_expense_report_issue_form": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=expense-report.yml"
+  "github_expense_report_issue_form": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=expense-report.yml",
+  "github_quote_request_issue_form": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=quote-request.yml"
 }

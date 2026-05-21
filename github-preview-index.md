@@ -63,6 +63,7 @@ The full paid pack is not published publicly. This index links every public prev
 - GitHub Pages team license quote mirror: https://ivelly42.github.io/ai-agent-team-license-quote-template/
 - GitHub team license quote mirror: https://github.com/ivelly42/ai-agent-team-license-quote-template
 - Use team license quote mirror: https://github.com/ivelly42/ai-agent-team-license-quote-template/generate
+- GitHub quote request issue form: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=quote-request.yml
 - GitHub Pages purchase order mirror: https://ivelly42.github.io/ai-agent-purchase-order-template/
 - GitHub purchase order mirror: https://github.com/ivelly42/ai-agent-purchase-order-template
 - Use purchase order mirror: https://github.com/ivelly42/ai-agent-purchase-order-template/generate
@@ -182,7 +183,7 @@ The full paid pack is not published publicly. This index links every public prev
 - Fast template pack request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml
 - RSS feed: https://ivelly42.github.io/agent-ops-command-center/feed.xml
 - Machine-readable catalog: https://ivelly42.github.io/agent-ops-command-center/catalog.json
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.83-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.84-preview
 - Buy page: https://ivelly42.github.io/agent-ops-command-center/buy.html
 - Fast team checkout request: https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html
 - Fast template pack request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml
@@ -256,6 +257,7 @@ The full paid pack is not published publicly. This index links every public prev
 - GitHub Pages team license quote mirror: https://ivelly42.github.io/ai-agent-team-license-quote-template/
 - GitHub team license quote mirror: https://github.com/ivelly42/ai-agent-team-license-quote-template
 - Use team license quote mirror: https://github.com/ivelly42/ai-agent-team-license-quote-template/generate
+- GitHub quote request issue form: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=quote-request.yml
 - GitHub Pages purchase order mirror: https://ivelly42.github.io/ai-agent-purchase-order-template/
 - GitHub purchase order mirror: https://github.com/ivelly42/ai-agent-purchase-order-template
 - Use purchase order mirror: https://github.com/ivelly42/ai-agent-purchase-order-template/generate
@@ -335,6 +337,7 @@ The full paid pack is not published publicly. This index links every public prev
 | GitHub Sponsor Button Funding Links | Expose buy, template request, team request, and issue-form URLs through `.github/FUNDING.yml` custom links |
 | GitHub Template Repositories | Let buyers use public mirror structures through GitHub template repositories before requesting the paid pack |
 | Team License Quote Mirror | Route $203 quote, invoice request, purchase order, procurement, and checkout-readiness searches into the team request path |
+| Quote Request Issue Form | Capture quote-ready buyers as order-request issues for the $203 team request path |
 | Purchase Order Mirror | Route AI-agent PO, purchase-order, invoice, procurement approval, and checkout-readiness searches into the team request path |
 | Invoice Request Mirror | Route AI-agent invoice, billing request, line-item, approval evidence, and checkout-readiness searches into the team request path |
 | Invoice Request Issue Form | Capture invoice-ready buyers as order-request issues for the $203 team request path |

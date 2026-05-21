@@ -148,6 +148,8 @@ GitHub team license quote mirror Pages: https://ivelly42.github.io/ai-agent-team
 
 Use team license quote mirror as GitHub template: https://github.com/ivelly42/ai-agent-team-license-quote-template/generate
 
+GitHub quote request issue form: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=quote-request.yml
+
 GitHub purchase order mirror: https://github.com/ivelly42/ai-agent-purchase-order-template
 
 GitHub purchase order mirror Pages: https://ivelly42.github.io/ai-agent-purchase-order-template/
@@ -531,6 +533,8 @@ AI agent team license quote mirror Pages: https://ivelly42.github.io/ai-agent-te
 
 AI agent team license quote GitHub template: https://github.com/ivelly42/ai-agent-team-license-quote-template/generate
 
+AI agent quote request issue form: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=quote-request.yml
+
 AI agent purchase order GitHub mirror: https://github.com/ivelly42/ai-agent-purchase-order-template
 
 AI agent purchase order mirror Pages: https://ivelly42.github.io/ai-agent-purchase-order-template/
@@ -609,7 +613,7 @@ Fast template pack request page: https://ivelly42.github.io/agent-ops-command-ce
 
 GitHub Sponsor button funding links: https://github.com/ivelly42/agent-ops-command-center/blob/main/.github/FUNDING.yml
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.83-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.84-preview
 
 Sample run log CSV: https://ivelly42.github.io/agent-ops-command-center/sample/run_log_sample.csv
 

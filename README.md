@@ -154,6 +154,8 @@ GitHub team license quote mirror Pages: https://ivelly42.github.io/ai-agent-team
 
 Use team license quote mirror as GitHub template: https://github.com/ivelly42/ai-agent-team-license-quote-template/generate
 
+GitHub quote request issue form: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=quote-request.yml
+
 GitHub purchase order mirror: https://github.com/ivelly42/ai-agent-purchase-order-template
 
 GitHub purchase order mirror Pages: https://ivelly42.github.io/ai-agent-purchase-order-template/
@@ -301,7 +303,7 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.83-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.84-preview
 
 Sample files:
 
@@ -410,6 +412,7 @@ Sample files:
 - [GitHub team license quote mirror Pages](https://ivelly42.github.io/ai-agent-team-license-quote-template/)
 - [GitHub team license quote mirror](https://github.com/ivelly42/ai-agent-team-license-quote-template)
 - [Use team license quote mirror](https://github.com/ivelly42/ai-agent-team-license-quote-template/generate)
+- [GitHub quote request issue form](https://github.com/ivelly42/agent-ops-command-center/issues/new?template=quote-request.yml)
 - [GitHub purchase order mirror Pages](https://ivelly42.github.io/ai-agent-purchase-order-template/)
 - [GitHub purchase order mirror](https://github.com/ivelly42/ai-agent-purchase-order-template)
 - [Use purchase order mirror](https://github.com/ivelly42/ai-agent-purchase-order-template/generate)
