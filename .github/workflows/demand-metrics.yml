@@ -9,6 +9,10 @@ on:
   release:
     types: [published, edited, deleted]
 
+concurrency:
+  group: demand-metrics
+  cancel-in-progress: false
+
 permissions:
   contents: write
   issues: read
@@ -153,4 +157,5 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add metrics/status.json metrics/README.md
           git commit -m "Update demand metrics"
+          git pull --rebase origin main
           git push origin HEAD:main
