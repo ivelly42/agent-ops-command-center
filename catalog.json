@@ -6,15 +6,20 @@
   "sales_needed": 7,
   "status": "preview_live_no_paid_checkout",
   "homepage": "https://ivelly42.github.io/agent-ops-command-center/",
-  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v4.7-preview",
+  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v4.8-preview",
   "early_access_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml",
   "demand_metrics": "https://ivelly42.github.io/agent-ops-command-center/metrics/status.json",
+  "template_gallery": "https://ivelly42.github.io/agent-ops-command-center/template-gallery.html",
   "feed": "https://ivelly42.github.io/agent-ops-command-center/feed.xml",
   "llms": "https://ivelly42.github.io/agent-ops-command-center/llms.txt",
   "sitemap": "https://ivelly42.github.io/agent-ops-command-center/sitemap.xml",
   "paid_zip_public": false,
   "revenue_rule": "Revenue is proven only by checkout, receipt, payout, or seller-dashboard evidence.",
   "public_assets": [
+    {
+      "title": "AI Agent Template Gallery",
+      "url": "https://ivelly42.github.io/agent-ops-command-center/template-gallery.html"
+    },
     {
       "title": "AI Agent Done Checklist",
       "url": "https://ivelly42.github.io/agent-ops-command-center/ai-agent-done-checklist.md",

@@ -12,6 +12,8 @@ Feed: [feed.xml](feed.xml)
 
 Catalog: [catalog.json](catalog.json)
 
+HTML gallery: [template-gallery.html](template-gallery.html)
+
 Early access: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml
 
 Support: [SUPPORT.md](SUPPORT.md)
@@ -40,7 +42,7 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v4.7-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v4.8-preview
 
 Sample files:
 
@@ -75,6 +77,7 @@ Sample files:
 - [GitHub preview index](github-preview-index.md)
 - [RSS feed](feed.xml)
 - [Machine-readable catalog](catalog.json)
+- [HTML template gallery](template-gallery.html)
 - [GitHub issue index](https://github.com/ivelly42/agent-ops-command-center/issues/2)
 - [Product tour](product-tour.md)
 - [AI Agent Ops ROI Calculator](agent-ops-roi-calculator.md)

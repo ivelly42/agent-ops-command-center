@@ -1,0 +1,525 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AI Agent Template Gallery | Agent Ops Command Center</title>
+    <meta name="description" content="HTML gallery of public AI coding-agent templates from Agent Ops Command Center: run logs, done checklists, cost audits, model routing, verification, handoff, and buyer proof.">
+    <meta property="og:title" content="AI Agent Template Gallery">
+    <meta property="og:description" content="Public HTML gallery for AI coding-agent operators who need proof before accepting Codex, Claude Code, Cursor, or local agent work.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ivelly42.github.io/agent-ops-command-center/template-gallery.html">
+    <meta property="og:image" content="https://ivelly42.github.io/agent-ops-command-center/og.svg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://ivelly42.github.io/agent-ops-command-center/og.svg">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "AI Agent Template Gallery",
+        "description": "Public preview gallery for Agent Ops Command Center, a $29 Notion and spreadsheet template pack for AI coding-agent operators.",
+        "url": "https://ivelly42.github.io/agent-ops-command-center/template-gallery.html",
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "Agent Ops Command Center",
+          "url": "https://ivelly42.github.io/agent-ops-command-center/"
+        },
+        "mainEntity": {
+          "@type": "ItemList",
+          "numberOfItems": 28,
+          "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Run Brief", "url": "https://ivelly42.github.io/agent-ops-command-center/run-brief-template.md"},
+            {"@type": "ListItem", "position": 2, "name": "Run Audit", "url": "https://ivelly42.github.io/agent-ops-command-center/ai-agent-run-audit-template.md"},
+            {"@type": "ListItem", "position": 3, "name": "Done Checklist", "url": "https://ivelly42.github.io/agent-ops-command-center/ai-agent-done-checklist.md"},
+            {"@type": "ListItem", "position": 4, "name": "Verification Command Library", "url": "https://ivelly42.github.io/agent-ops-command-center/ai-agent-verification-command-library.md"}
+          ]
+        }
+      }
+    </script>
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #171717;
+        --muted: #5f5a52;
+        --line: #d8d3ca;
+        --paper: #fbfaf7;
+        --panel: #ffffff;
+        --accent: #0f766e;
+        --blue: #1d4ed8;
+        --gold: #b45309;
+      }
+
+      * { box-sizing: border-box; }
+
+      body {
+        margin: 0;
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        color: var(--ink);
+        background: var(--paper);
+      }
+
+      header, main, footer {
+        width: min(1120px, calc(100% - 40px));
+        margin: 0 auto;
+      }
+
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        min-height: 72px;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .brand {
+        font-weight: 800;
+      }
+
+      nav {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+        font-size: 14px;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      .hero {
+        padding: 64px 0 40px;
+        display: grid;
+        grid-template-columns: minmax(0, 1.1fr) minmax(320px, 0.9fr);
+        gap: 48px;
+        align-items: end;
+      }
+
+      .eyebrow {
+        color: var(--accent);
+        font-size: 14px;
+        font-weight: 800;
+        margin-bottom: 14px;
+      }
+
+      h1 {
+        font-size: clamp(42px, 7vw, 76px);
+        line-height: 0.98;
+        margin: 0 0 20px;
+        letter-spacing: 0;
+      }
+
+      .lead {
+        font-size: 20px;
+        line-height: 1.5;
+        color: var(--muted);
+        max-width: 720px;
+        margin: 0;
+      }
+
+      .summary {
+        border: 1px solid var(--line);
+        background: var(--panel);
+        border-radius: 8px;
+        padding: 22px;
+      }
+
+      .summary strong {
+        display: block;
+        font-size: 28px;
+        line-height: 1;
+        margin-bottom: 6px;
+      }
+
+      .summary span {
+        color: var(--muted);
+      }
+
+      .actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 24px;
+      }
+
+      .button {
+        display: inline-flex;
+        min-height: 44px;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid var(--ink);
+        border-radius: 8px;
+        padding: 0 16px;
+        font-weight: 800;
+      }
+
+      .button.primary {
+        background: var(--ink);
+        color: #fff;
+      }
+
+      section {
+        padding: 36px 0;
+        border-top: 1px solid var(--line);
+      }
+
+      .section-head {
+        display: flex;
+        justify-content: space-between;
+        gap: 24px;
+        align-items: end;
+        margin-bottom: 20px;
+      }
+
+      h2 {
+        font-size: clamp(28px, 4vw, 46px);
+        margin: 0;
+        letter-spacing: 0;
+      }
+
+      .section-head p {
+        color: var(--muted);
+        line-height: 1.5;
+        max-width: 520px;
+        margin: 0;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 14px;
+      }
+
+      .item {
+        background: var(--panel);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 18px;
+        min-height: 190px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .item h3 {
+        margin: 0;
+        font-size: 20px;
+      }
+
+      .item p {
+        color: var(--muted);
+        line-height: 1.45;
+        margin: 0;
+      }
+
+      .links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-top: auto;
+      }
+
+      .pill {
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        padding: 7px 10px;
+        font-size: 13px;
+        font-weight: 800;
+      }
+
+      .pill.main {
+        border-color: var(--accent);
+        color: var(--accent);
+      }
+
+      .notice {
+        border-left: 4px solid var(--gold);
+        background: var(--panel);
+        padding: 18px 20px;
+        line-height: 1.55;
+        color: var(--muted);
+      }
+
+      footer {
+        color: var(--muted);
+        padding: 36px 0 48px;
+      }
+
+      @media (max-width: 840px) {
+        header {
+          align-items: flex-start;
+          flex-direction: column;
+          gap: 14px;
+          padding: 18px 0;
+        }
+
+        .hero {
+          grid-template-columns: 1fr;
+          padding-top: 44px;
+        }
+
+        .section-head {
+          display: block;
+        }
+
+        .section-head p {
+          margin-top: 10px;
+        }
+
+        .grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a class="brand" href="index.html">Agent Ops Command Center</a>
+      <nav aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="template-gallery.html">Gallery</a>
+        <a href="product-tour.md">Tour</a>
+        <a href="agent-ops-roi-calculator.md">ROI</a>
+        <a href="github-preview-index.md">Index</a>
+        <a href="https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml">Order</a>
+      </nav>
+    </header>
+
+    <main>
+      <div class="hero">
+        <div>
+          <div class="eyebrow">HTML preview gallery for AI coding-agent operators</div>
+          <h1>Templates for proving agent work is actually done.</h1>
+          <p class="lead">Browse the public proof layer for the $29 Agent Ops Command Center pack: run logs, done checks, cost audits, routing decisions, handoffs, delivery proof, and buyer approval assets.</p>
+          <div class="actions">
+            <a class="button primary" href="https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml">Request early access</a>
+            <a class="button" href="https://github.com/ivelly42/agent-ops-command-center/releases/tag/v4.8-preview">Download preview release</a>
+            <a class="button" href="catalog.json">Catalog JSON</a>
+          </div>
+        </div>
+        <aside class="summary" aria-label="Pack summary">
+          <strong>$29</strong>
+          <span>Target price</span>
+          <strong style="margin-top: 18px;">28</strong>
+          <span>Operating templates in the paid pack</span>
+          <strong style="margin-top: 18px;">7</strong>
+          <span>Paid orders needed to reach $203 gross</span>
+        </aside>
+      </div>
+
+      <section>
+        <div class="section-head">
+          <h2>Start And Accept Runs</h2>
+          <p>Use these before and after an agent edits code, docs, releases, or buyer-facing surfaces.</p>
+        </div>
+        <div class="grid">
+          <article class="item">
+            <h3>Run Brief</h3>
+            <p>Define objective, allowed scope, hard stops, required inputs, expected output, and verification before work starts.</p>
+            <div class="links"><a class="pill main" href="run-brief-template.md">Open</a></div>
+          </article>
+          <article class="item">
+            <h3>Run Audit</h3>
+            <p>Review objective match, scope match, proof, cost, handoff, security, and revenue claims before accepting output.</p>
+            <div class="links"><a class="pill main" href="ai-agent-run-audit-template.md">Open</a><a class="pill" href="https://gist.github.com/ivelly42/4c9c05a9823cb88148ff5a658a3607d4">Gist</a></div>
+          </article>
+          <article class="item">
+            <h3>Done Checklist</h3>
+            <p>Prevent false completion with objective, scope, regression, evidence, handoff, safety, cost, and revenue gates.</p>
+            <div class="links"><a class="pill main" href="ai-agent-done-checklist.md">Open</a><a class="pill" href="https://gist.github.com/ivelly42/d9cbe7c188596853618db6bc6714b66e">Gist</a></div>
+          </article>
+          <article class="item">
+            <h3>Acceptance Test Suite</h3>
+            <p>Turn agent output into pass, fail, or needs-review decisions using concrete proof signals.</p>
+            <div class="links"><a class="pill main" href="ai-agent-acceptance-test-suite.md">Open</a><a class="pill" href="https://gist.github.com/ivelly42/d9aacd5506dccc9b5d002ef6fd973c72">Gist</a></div>
+          </article>
+          <article class="item">
+            <h3>Verification Command Library</h3>
+            <p>Map code, UI, release, secret, rollback, and revenue risks to exact commands and pass signals.</p>
+            <div class="links"><a class="pill main" href="ai-agent-verification-command-library.md">Open</a><a class="pill" href="https://gist.github.com/ivelly42/0f35039dbb5e455cfe36c316632f96fb">Gist</a></div>
+          </article>
+          <article class="item">
+            <h3>Release Gate</h3>
+            <p>Record build, tests, visual QA, secret scan, release asset, revenue claim, and rollback proof.</p>
+            <div class="links"><a class="pill main" href="release-gate-template.md">Open</a></div>
+          </article>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-head">
+          <h2>Control Cost, Models, And Prompts</h2>
+          <p>These templates target the common ways agent workflows leak time, tokens, and repeatable prompts.</p>
+        </div>
+        <div class="grid">
+          <article class="item">
+            <h3>Cost Tracker</h3>
+            <p>Track task type, model, estimated tokens, direct cost, human minutes saved, and ROI notes.</p>
+            <div class="links"><a class="pill main" href="cost-tracker-template.md">Open</a><a class="pill" href="sample/cost_tracker_sample.csv">CSV</a></div>
+          </article>
+          <article class="item">
+            <h3>Cost Leak Audit</h3>
+            <p>Find leaks from unclear prompts, wrong model choice, weak verification, missing context, and scope drift.</p>
+            <div class="links"><a class="pill main" href="ai-agent-cost-leak-audit.md">Open</a><a class="pill" href="https://gist.github.com/ivelly42/9c16be3782356faef951d1a3d8509991">Gist</a></div>
+          </article>
+          <article class="item">
+            <h3>Model Routing Matrix</h3>
+            <p>Choose agent, model, review path, fallback route, escalation rule, and verification proof before the run.</p>
+            <div class="links"><a class="pill main" href="ai-agent-model-routing-matrix.md">Open</a><a class="pill" href="https://gist.github.com/ivelly42/6e88c810c57fca1d5c2d7ff35907cb5c">Gist</a></div>
+          </article>
+          <article class="item">
+            <h3>Prompt Regression Test</h3>
+            <p>Compare old and new prompt versions against objective clarity, scope control, verification, and handoff.</p>
+            <div class="links"><a class="pill main" href="ai-agent-prompt-regression-test.md">Open</a><a class="pill" href="https://gist.github.com/ivelly42/409734bff33d301a847a83f46ea21b31">Gist</a></div>
+          </article>
+          <article class="item">
+            <h3>Prompt Library</h3>
+            <p>Store reusable prompts with use case, version, change reason, known failure, and eval score.</p>
+            <div class="links"><a class="pill main" href="prompt-library-template.md">Open</a><a class="pill" href="sample/prompt_library_sample.csv">CSV</a></div>
+          </article>
+          <article class="item">
+            <h3>Workflow Stack Comparison</h3>
+            <p>Compare chat history, plain docs, Notion, spreadsheets, PM tools, and this pack against proof needs.</p>
+            <div class="links"><a class="pill main" href="ai-agent-workflow-stack-comparison.md">Open</a><a class="pill" href="https://gist.github.com/ivelly42/5d17877646be74639b374e36211f976e">Gist</a></div>
+          </article>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-head">
+          <h2>Handoff, Safety, And Failure Recovery</h2>
+          <p>Use these when work spans agents, reviewers, sessions, or release surfaces.</p>
+        </div>
+        <div class="grid">
+          <article class="item">
+            <h3>Agent Handoff</h3>
+            <p>Preserve original goal, current state, files touched, evidence, blockers, and completion requirement.</p>
+            <div class="links"><a class="pill main" href="ai-agent-handoff-template.md">Open</a><a class="pill" href="https://gist.github.com/ivelly42/35c9b9c1cd95c837c9775ca3e5db7c83">Gist</a></div>
+          </article>
+          <article class="item">
+            <h3>Scope Freeze</h3>
+            <p>Lock allowed files, do-not-touch paths, commands, stop conditions, and verification rules before edits.</p>
+            <div class="links"><a class="pill main" href="ai-agent-scope-freeze-template.md">Open</a><a class="pill" href="https://gist.github.com/ivelly42/2f1b5faa95039799688dc5ed8d3244a8">Gist</a></div>
+          </article>
+          <article class="item">
+            <h3>Security Review</h3>
+            <p>Review secrets, personal data, auth, payment, dependency, destructive action, and prompt-leak risk.</p>
+            <div class="links"><a class="pill main" href="ai-agent-security-review-checklist.md">Open</a><a class="pill" href="https://gist.github.com/ivelly42/172041903d2491a4856f9c585f89364a">Gist</a></div>
+          </article>
+          <article class="item">
+            <h3>Incident Report</h3>
+            <p>Record timeline, impact, missed detection, recovery evidence, and durable prevention rules.</p>
+            <div class="links"><a class="pill main" href="ai-agent-incident-report-template.md">Open</a><a class="pill" href="https://gist.github.com/ivelly42/ec9207c47d152642247989aac2dcad7b">Gist</a></div>
+          </article>
+          <article class="item">
+            <h3>Failure RCA</h3>
+            <p>Capture expected result, actual result, root cause, missed detection, fix, prevention rule, and proof.</p>
+            <div class="links"><a class="pill main" href="failure-rca-template.md">Open</a></div>
+          </article>
+          <article class="item">
+            <h3>Failure Modes Database</h3>
+            <p>Turn repeated mistakes into symptoms, causes, detection rules, fixes, and prevention rules.</p>
+            <div class="links"><a class="pill main" href="failure-modes-database-template.md">Open</a><a class="pill" href="sample/failure_modes_sample.csv">CSV</a></div>
+          </article>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-head">
+          <h2>Agent Workflow Surfaces</h2>
+          <p>Use these to pick, track, and review Codex, Claude Code, Cursor, and local agent work.</p>
+        </div>
+        <div class="grid">
+          <article class="item">
+            <h3>Codex Tracker</h3>
+            <p>Capture repository, goal, allowed files, changed files, verification evidence, blockers, and launch impact.</p>
+            <div class="links"><a class="pill main" href="codex-workflow-tracker-template.md">Open</a><a class="pill" href="https://gist.github.com/ivelly42/cbadc556d2d75b01d5dde8d8df0e18c6">Gist</a></div>
+          </article>
+          <article class="item">
+            <h3>Claude Code Tracker</h3>
+            <p>Track mode constraints, do-not-touch paths, inputs read, changes, verification, review notes, and blockers.</p>
+            <div class="links"><a class="pill main" href="claude-code-workflow-tracker-template.md">Open</a><a class="pill" href="https://gist.github.com/ivelly42/00f014ce4b4161cd42a4008775e1abb5">Gist</a></div>
+          </article>
+          <article class="item">
+            <h3>Cursor Tracker</h3>
+            <p>Record context supplied, files changed, diff summary, verification evidence, review needed, and next action.</p>
+            <div class="links"><a class="pill main" href="cursor-workflow-tracker-template.md">Open</a><a class="pill" href="https://gist.github.com/ivelly42/27bac1786ad60ed6e56f908c422c9138">Gist</a></div>
+          </article>
+          <article class="item">
+            <h3>Codex vs Claude Code vs Cursor</h3>
+            <p>Pick the right agent owner from proof required, handoff cost, tool access, IDE context, and stop conditions.</p>
+            <div class="links"><a class="pill main" href="codex-vs-claude-code-vs-cursor.md">Open</a><a class="pill" href="https://gist.github.com/ivelly42/75ce3130a95d83a247de6f16eee0060c">Gist</a></div>
+          </article>
+          <article class="item">
+            <h3>Agent Registry</h3>
+            <p>Track each agent, model, tool set, best use, avoid list, prompt contract, verification, and owner.</p>
+            <div class="links"><a class="pill main" href="agent-registry-template.md">Open</a><a class="pill" href="sample/agent_registry_sample.csv">CSV</a></div>
+          </article>
+          <article class="item">
+            <h3>Operating System Scorecard</h3>
+            <p>Score run capture, scope control, verification, prompt control, cost control, handoff, and revenue proof.</p>
+            <div class="links"><a class="pill main" href="ai-agent-operating-system-template.md">Open</a><a class="pill" href="https://gist.github.com/ivelly42/37a14ab70b537aeaef1156549876124b">Gist</a></div>
+          </article>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-head">
+          <h2>Buyer Proof And Delivery</h2>
+          <p>These public assets keep demand signals separate from proven paid revenue until checkout exists.</p>
+        </div>
+        <div class="grid">
+          <article class="item">
+            <h3>Revenue Proof</h3>
+            <p>Record price, target, checkout URL, receipts, seller dashboard evidence, gross revenue, and non-revenue signals.</p>
+            <div class="links"><a class="pill main" href="ai-agent-revenue-proof-template.md">Open</a><a class="pill" href="https://gist.github.com/ivelly42/bc14bd257cbcc139a93aba5e3606c156">Gist</a></div>
+          </article>
+          <article class="item">
+            <h3>Paid Delivery Manifest</h3>
+            <p>Inspect delivered files, ZIP digest, archive test proof, buyer acknowledgement, and support boundary.</p>
+            <div class="links"><a class="pill main" href="paid-delivery-manifest.md">Open</a><a class="pill" href="https://gist.github.com/ivelly42/417991e7e2694d5e243f4319ce680f0f">Gist</a></div>
+          </article>
+          <article class="item">
+            <h3>Buyer Decision Matrix</h3>
+            <p>Compare cleanup cost, saved time, pack surfaces, buy signals, do-not-buy signals, and preferred checkout.</p>
+            <div class="links"><a class="pill main" href="buyer-decision-matrix.md">Open</a><a class="pill" href="https://gist.github.com/ivelly42/348c406da907bf02c1bf2be20832906c">Gist</a></div>
+          </article>
+          <article class="item">
+            <h3>Checkout Readiness FAQ</h3>
+            <p>Answer buyer objections around checkout status, delivery proof, support, refunds, and revenue evidence.</p>
+            <div class="links"><a class="pill main" href="checkout-readiness-faq.md">Open</a><a class="pill" href="https://gist.github.com/ivelly42/f82bd8c423d1c01be2c838d14abeccba">Gist</a></div>
+          </article>
+          <article class="item">
+            <h3>Buyer Intake Packet</h3>
+            <p>Capture buyer tools, recurring agent problem, cleanup cost, preferred checkout, receipt need, and blockers.</p>
+            <div class="links"><a class="pill main" href="buyer-intake-packet.md">Open</a><a class="pill" href="https://gist.github.com/ivelly42/32252d208c081993f6ad753929aa70bf">Gist</a></div>
+          </article>
+          <article class="item">
+            <h3>Purchase Approval Brief</h3>
+            <p>Summarize price, business case, expected cleanup time saved, receipt requirement, and delivery method.</p>
+            <div class="links"><a class="pill main" href="purchase-approval-brief.md">Open</a><a class="pill" href="https://gist.github.com/ivelly42/165483c835c207be472102f5badc5f70">Gist</a></div>
+          </article>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-head">
+          <h2>Full Pack Request</h2>
+          <p>The paid ZIP is packaged locally and not public. Revenue is counted only when checkout, receipt, payout, or seller-dashboard evidence exists.</p>
+        </div>
+        <div class="notice">
+          Checkout is not live yet. The early-access issue records purchase intent and preferred checkout. At the $29 target price, seven proven paid orders reach $203 gross.
+        </div>
+        <div class="actions">
+          <a class="button primary" href="https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml">Open order request</a>
+          <a class="button" href="metrics/status.json">Demand metrics</a>
+          <a class="button" href="github-preview-index.md">Preview index</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      Agent Ops Command Center keeps AI-agent work tied to evidence.
+    </footer>
+  </body>
+</html>

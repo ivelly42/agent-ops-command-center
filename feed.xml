@@ -5,8 +5,15 @@
     <link>https://ivelly42.github.io/agent-ops-command-center/</link>
     <description>Public preview updates for a Notion and spreadsheet template pack for builders running AI coding agents.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 21 May 2026 08:46:00 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 21 May 2026 08:57:00 +0900</lastBuildDate>
     <ttl>1440</ttl>
+    <item>
+      <title>AI Agent Template Gallery</title>
+      <link>https://ivelly42.github.io/agent-ops-command-center/template-gallery.html</link>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/template-gallery.html</guid>
+      <pubDate>Thu, 21 May 2026 08:57:00 +0900</pubDate>
+      <description>HTML gallery grouping the public run acceptance, cost control, handoff, safety, workflow, and buyer-proof templates.</description>
+    </item>
     <item>
       <title>AI Agent Done Checklist</title>
       <link>https://ivelly42.github.io/agent-ops-command-center/ai-agent-done-checklist.md</link>
