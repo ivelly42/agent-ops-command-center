@@ -80,6 +80,12 @@ GitHub governance mirror Pages: https://ivelly42.github.io/ai-agent-governance-t
 
 Use governance mirror as GitHub template: https://github.com/ivelly42/ai-agent-governance-template/generate
 
+GitHub audit checklist mirror: https://github.com/ivelly42/ai-agent-audit-checklist-template
+
+GitHub audit checklist mirror Pages: https://ivelly42.github.io/ai-agent-audit-checklist-template/
+
+Use audit checklist mirror as GitHub template: https://github.com/ivelly42/ai-agent-audit-checklist-template/generate
+
 GitHub client delivery mirror: https://github.com/ivelly42/ai-agent-client-delivery-kit
 
 GitHub client delivery mirror Pages: https://ivelly42.github.io/ai-agent-client-delivery-kit/
@@ -351,6 +357,12 @@ AI agent governance mirror Pages: https://ivelly42.github.io/ai-agent-governance
 
 AI agent governance GitHub template: https://github.com/ivelly42/ai-agent-governance-template/generate
 
+AI agent audit checklist GitHub mirror: https://github.com/ivelly42/ai-agent-audit-checklist-template
+
+AI agent audit checklist mirror Pages: https://ivelly42.github.io/ai-agent-audit-checklist-template/
+
+AI agent audit checklist GitHub template: https://github.com/ivelly42/ai-agent-audit-checklist-template/generate
+
 AI agent client delivery GitHub mirror: https://github.com/ivelly42/ai-agent-client-delivery-kit
 
 AI agent client delivery mirror Pages: https://ivelly42.github.io/ai-agent-client-delivery-kit/
@@ -381,7 +393,7 @@ Fast template pack request: https://github.com/ivelly42/agent-ops-command-center
 
 Fast template pack request page: https://ivelly42.github.io/agent-ops-command-center/template-pack-request.html
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.60-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.61-preview
 
 Sample run log CSV: https://ivelly42.github.io/agent-ops-command-center/sample/run_log_sample.csv
 

@@ -30,6 +30,9 @@ The full paid pack is not published publicly. This index links every public prev
 - GitHub Pages governance mirror: https://ivelly42.github.io/ai-agent-governance-template/
 - GitHub governance mirror: https://github.com/ivelly42/ai-agent-governance-template
 - Use governance mirror: https://github.com/ivelly42/ai-agent-governance-template/generate
+- GitHub Pages audit checklist mirror: https://ivelly42.github.io/ai-agent-audit-checklist-template/
+- GitHub audit checklist mirror: https://github.com/ivelly42/ai-agent-audit-checklist-template
+- Use audit checklist mirror: https://github.com/ivelly42/ai-agent-audit-checklist-template/generate
 - GitHub Pages client delivery mirror: https://ivelly42.github.io/ai-agent-client-delivery-kit/
 - Team purchase packet: https://ivelly42.github.io/agent-ops-command-center/team-purchase-packet.html
 - Team procurement email kit: https://ivelly42.github.io/agent-ops-command-center/team-procurement-email.html
@@ -126,7 +129,7 @@ The full paid pack is not published publicly. This index links every public prev
 - Fast template pack request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml
 - RSS feed: https://ivelly42.github.io/agent-ops-command-center/feed.xml
 - Machine-readable catalog: https://ivelly42.github.io/agent-ops-command-center/catalog.json
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.60-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.61-preview
 - Buy page: https://ivelly42.github.io/agent-ops-command-center/buy.html
 - Fast team checkout request: https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html
 - Fast template pack request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml
@@ -165,6 +168,9 @@ The full paid pack is not published publicly. This index links every public prev
 - GitHub Pages governance mirror: https://ivelly42.github.io/ai-agent-governance-template/
 - GitHub governance mirror: https://github.com/ivelly42/ai-agent-governance-template
 - Use governance mirror: https://github.com/ivelly42/ai-agent-governance-template/generate
+- GitHub Pages audit checklist mirror: https://ivelly42.github.io/ai-agent-audit-checklist-template/
+- GitHub audit checklist mirror: https://github.com/ivelly42/ai-agent-audit-checklist-template
+- Use audit checklist mirror: https://github.com/ivelly42/ai-agent-audit-checklist-template/generate
 - GitHub Pages client delivery mirror: https://ivelly42.github.io/ai-agent-client-delivery-kit/
 - GitHub client delivery mirror: https://github.com/ivelly42/ai-agent-client-delivery-kit
 - Revenue proof intake: https://ivelly42.github.io/agent-ops-command-center/revenue-proof.html

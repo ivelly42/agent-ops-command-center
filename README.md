@@ -86,6 +86,12 @@ GitHub governance mirror Pages: https://ivelly42.github.io/ai-agent-governance-t
 
 Use governance mirror as GitHub template: https://github.com/ivelly42/ai-agent-governance-template/generate
 
+GitHub audit checklist mirror: https://github.com/ivelly42/ai-agent-audit-checklist-template
+
+GitHub audit checklist mirror Pages: https://ivelly42.github.io/ai-agent-audit-checklist-template/
+
+Use audit checklist mirror as GitHub template: https://github.com/ivelly42/ai-agent-audit-checklist-template/generate
+
 GitHub client delivery mirror: https://github.com/ivelly42/ai-agent-client-delivery-kit
 
 GitHub client delivery mirror Pages: https://ivelly42.github.io/ai-agent-client-delivery-kit/
@@ -187,7 +193,7 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.60-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.61-preview
 
 Sample files:
 
@@ -262,6 +268,9 @@ Sample files:
 - [GitHub governance mirror Pages](https://ivelly42.github.io/ai-agent-governance-template/)
 - [GitHub governance mirror](https://github.com/ivelly42/ai-agent-governance-template)
 - [Use governance mirror](https://github.com/ivelly42/ai-agent-governance-template/generate)
+- [GitHub audit checklist mirror Pages](https://ivelly42.github.io/ai-agent-audit-checklist-template/)
+- [GitHub audit checklist mirror](https://github.com/ivelly42/ai-agent-audit-checklist-template)
+- [Use audit checklist mirror](https://github.com/ivelly42/ai-agent-audit-checklist-template/generate)
 - [GitHub client delivery mirror Pages](https://ivelly42.github.io/ai-agent-client-delivery-kit/)
 - [GitHub client delivery mirror](https://github.com/ivelly42/ai-agent-client-delivery-kit)
 - [Team purchase packet](team-purchase-packet.html)

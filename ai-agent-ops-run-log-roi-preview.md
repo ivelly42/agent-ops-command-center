@@ -133,7 +133,7 @@ The pack breaks even if it prevents roughly one hour of cleanup time for a build
 - Run log template: https://ivelly42.github.io/agent-ops-command-center/codex-claude-run-log-template.md
 - Failure RCA template: https://ivelly42.github.io/agent-ops-command-center/failure-rca-template.md
 - Preflight checklist: https://ivelly42.github.io/agent-ops-command-center/checklist.md
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.60-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.61-preview
 - Buy page: https://ivelly42.github.io/agent-ops-command-center/buy.html
 - Fast team checkout request: https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html
 - Fast template pack request page: https://ivelly42.github.io/agent-ops-command-center/template-pack-request.html
@@ -148,6 +148,9 @@ The pack breaks even if it prevents roughly one hour of cleanup time for a build
 - GitHub governance mirror Pages: https://ivelly42.github.io/ai-agent-governance-template/
 - GitHub governance mirror: https://github.com/ivelly42/ai-agent-governance-template
 - Use governance mirror: https://github.com/ivelly42/ai-agent-governance-template/generate
+- GitHub audit checklist mirror Pages: https://ivelly42.github.io/ai-agent-audit-checklist-template/
+- GitHub audit checklist mirror: https://github.com/ivelly42/ai-agent-audit-checklist-template
+- Use audit checklist mirror: https://github.com/ivelly42/ai-agent-audit-checklist-template/generate
 - GitHub template pack Gist: https://gist.github.com/ivelly42/dac26c33334ab9b3367d2fc490c7aef5
 - GitHub template pack Discussion: https://github.com/ivelly42/agent-ops-command-center/discussions/5
 - Team invoice direct request: https://ivelly42.github.io/agent-ops-command-center/team-invoice-request.html
