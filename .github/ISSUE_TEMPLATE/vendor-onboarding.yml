@@ -1,0 +1,80 @@
+name: Vendor onboarding request
+description: Request vendor setup, billing, tax, or procurement details before checkout for the $203 Agent Ops team license
+title: "Vendor onboarding request: Agent Ops Command Center"
+labels: ["order-request", "vendor-onboarding"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Short request path for buyers who need vendor onboarding, supplier setup, billing contact, invoice, tax, or procurement details before paying.
+
+        Request package: Team license - 7 seats - $203 gross.
+        Individual seat target: $29.
+
+        Checkout is not live yet. This issue records purchase intent and preferred checkout. It is not counted as revenue until checkout, receipt, payout, or seller-dashboard evidence exists.
+
+        Vendor onboarding mirror: https://ivelly42.github.io/ai-agent-vendor-onboarding-template/
+        Purchase order form: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=purchase-order.yml
+        Quote request form: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=quote-request.yml
+        Invoice request form: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=invoice-request.yml
+        Fast team request page: https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html
+  - type: dropdown
+    id: package
+    attributes:
+      label: Request package
+      options:
+        - Team license - 7 seats - $203 gross
+        - Individual seat - $29
+        - Evaluating preview only
+    validations:
+      required: true
+  - type: dropdown
+    id: vendor_need
+    attributes:
+      label: Vendor onboarding need
+      options:
+        - Need supplier or vendor setup details
+        - Need billing contact before invoice
+        - Need tax or receipt details
+        - Need purchase-order details
+        - Need security or compliance note
+    validations:
+      required: true
+  - type: dropdown
+    id: checkout
+    attributes:
+      label: Preferred checkout
+      options:
+        - Gumroad
+        - Ko-fi
+        - Lemon Squeezy
+        - PayPal invoice
+        - GitHub Sponsors
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: intent
+    attributes:
+      label: Purchase intent
+      options:
+        - I am ready to pay $203 for the 7-seat team license when checkout is ready
+        - I am ready to pay $29 when checkout is ready
+        - I need vendor, PO, invoice, or tax details first
+        - I want to evaluate the preview first
+    validations:
+      required: true
+  - type: checkboxes
+    id: delivery
+    attributes:
+      label: Delivery acknowledgement
+      options:
+        - label: I understand the paid ZIP is not public and will be delivered only after checkout, receipt, payout, or seller-dashboard evidence exists.
+          required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      placeholder: Legal buyer name, billing contact, vendor setup blocker, W-9/tax need, PO owner, procurement deadline, or checkout preference.
+    validations:
+      required: false

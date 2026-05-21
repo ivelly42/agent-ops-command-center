@@ -133,7 +133,7 @@ The pack breaks even if it prevents roughly one hour of cleanup time for a build
 - Run log template: https://ivelly42.github.io/agent-ops-command-center/codex-claude-run-log-template.md
 - Failure RCA template: https://ivelly42.github.io/agent-ops-command-center/failure-rca-template.md
 - Preflight checklist: https://ivelly42.github.io/agent-ops-command-center/checklist.md
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.85-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.86-preview
 - Buy page: https://ivelly42.github.io/agent-ops-command-center/buy.html
 - Fast team checkout request: https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html
 - Fast template pack request page: https://ivelly42.github.io/agent-ops-command-center/template-pack-request.html
@@ -202,6 +202,7 @@ The pack breaks even if it prevents roughly one hour of cleanup time for a build
 - GitHub vendor onboarding mirror Pages: https://ivelly42.github.io/ai-agent-vendor-onboarding-template/
 - GitHub vendor onboarding mirror: https://github.com/ivelly42/ai-agent-vendor-onboarding-template
 - Use vendor onboarding mirror: https://github.com/ivelly42/ai-agent-vendor-onboarding-template/generate
+- GitHub vendor onboarding issue form: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=vendor-onboarding.yml
 - GitHub software purchase request mirror Pages: https://ivelly42.github.io/ai-agent-software-purchase-request-template/
 - GitHub software purchase request mirror: https://github.com/ivelly42/ai-agent-software-purchase-request-template
 - Use software purchase request mirror: https://github.com/ivelly42/ai-agent-software-purchase-request-template/generate

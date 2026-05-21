@@ -1,5 +1,8 @@
 blank_issues_enabled: false
 contact_links:
+  - name: Vendor onboarding request
+    url: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=vendor-onboarding.yml
+    about: Request vendor setup, billing, tax, purchase-order, invoice, or procurement details for the $203 team license.
   - name: Purchase order request
     url: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=purchase-order.yml
     about: Request purchase-order, vendor billing, invoice, or checkout details for the $203 team license.

@@ -192,6 +192,8 @@ GitHub vendor onboarding mirror Pages: https://ivelly42.github.io/ai-agent-vendo
 
 Use vendor onboarding mirror as GitHub template: https://github.com/ivelly42/ai-agent-vendor-onboarding-template/generate
 
+GitHub vendor onboarding issue form: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=vendor-onboarding.yml
+
 GitHub software purchase request mirror: https://github.com/ivelly42/ai-agent-software-purchase-request-template
 
 GitHub software purchase request mirror Pages: https://ivelly42.github.io/ai-agent-software-purchase-request-template/
@@ -305,7 +307,7 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.85-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.86-preview
 
 Sample files:
 
@@ -433,6 +435,7 @@ Sample files:
 - [GitHub vendor onboarding mirror Pages](https://ivelly42.github.io/ai-agent-vendor-onboarding-template/)
 - [GitHub vendor onboarding mirror](https://github.com/ivelly42/ai-agent-vendor-onboarding-template)
 - [Use vendor onboarding mirror](https://github.com/ivelly42/ai-agent-vendor-onboarding-template/generate)
+- [GitHub vendor onboarding issue form](https://github.com/ivelly42/agent-ops-command-center/issues/new?template=vendor-onboarding.yml)
 - [GitHub software purchase request mirror Pages](https://ivelly42.github.io/ai-agent-software-purchase-request-template/)
 - [GitHub software purchase request mirror](https://github.com/ivelly42/ai-agent-software-purchase-request-template)
 - [Use software purchase request mirror](https://github.com/ivelly42/ai-agent-software-purchase-request-template/generate)

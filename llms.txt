@@ -186,6 +186,8 @@ GitHub vendor onboarding mirror Pages: https://ivelly42.github.io/ai-agent-vendo
 
 Use vendor onboarding mirror as GitHub template: https://github.com/ivelly42/ai-agent-vendor-onboarding-template/generate
 
+GitHub vendor onboarding issue form: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=vendor-onboarding.yml
+
 GitHub software purchase request mirror: https://github.com/ivelly42/ai-agent-software-purchase-request-template
 
 GitHub software purchase request mirror Pages: https://ivelly42.github.io/ai-agent-software-purchase-request-template/
@@ -573,6 +575,8 @@ AI agent vendor onboarding mirror Pages: https://ivelly42.github.io/ai-agent-ven
 
 AI agent vendor onboarding GitHub template: https://github.com/ivelly42/ai-agent-vendor-onboarding-template/generate
 
+AI agent vendor onboarding issue form: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=vendor-onboarding.yml
+
 AI agent software purchase request GitHub mirror: https://github.com/ivelly42/ai-agent-software-purchase-request-template
 
 AI agent software purchase request mirror Pages: https://ivelly42.github.io/ai-agent-software-purchase-request-template/
@@ -617,7 +621,7 @@ Fast template pack request page: https://ivelly42.github.io/agent-ops-command-ce
 
 GitHub Sponsor button funding links: https://github.com/ivelly42/agent-ops-command-center/blob/main/.github/FUNDING.yml
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.85-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.86-preview
 
 Sample run log CSV: https://ivelly42.github.io/agent-ops-command-center/sample/run_log_sample.csv
 
