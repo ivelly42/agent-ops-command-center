@@ -20,6 +20,7 @@ The full paid pack is not published publicly. This index links every public prev
 - Payment-ready topic: https://github.com/topics/payment-ready
 - AI-agent template topic: https://github.com/topics/ai-agent-template
 - NPM GitHub install preview: `npx github:ivelly42/agent-ops-command-center --json`
+- NPM team request shortcut: `npx github:ivelly42/agent-ops-command-center --team-request-url`
 - NPM preview docs: https://ivelly42.github.io/agent-ops-command-center/npm-preview.md
 - Order autoreply workflow: https://ivelly42.github.io/agent-ops-command-center/order-autoreply.md
 - Autoreply source: https://github.com/ivelly42/agent-ops-command-center/blob/main/.github/workflows/order-autoreply.yml
@@ -211,7 +212,7 @@ The full paid pack is not published publicly. This index links every public prev
 - Fast template pack request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml
 - RSS feed: https://ivelly42.github.io/agent-ops-command-center/feed.xml
 - Machine-readable catalog: https://ivelly42.github.io/agent-ops-command-center/catalog.json
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.103-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.104-preview
 - Buy page: https://ivelly42.github.io/agent-ops-command-center/buy.html
 - Payment-ready team checkout request: https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html
 - Fast template pack request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml

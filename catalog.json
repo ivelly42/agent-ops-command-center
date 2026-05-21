@@ -1,7 +1,7 @@
 {
   "name": "Agent Ops Command Center",
   "description": "Notion and spreadsheet template pack for builders running AI coding agents.",
-  "version": "v5.103-preview",
+  "version": "v5.104-preview",
   "price_usd": 29,
   "individual_price_usd": 29,
   "team_license_price_usd": 203,
@@ -15,7 +15,7 @@
   "status": "preview_live_no_paid_checkout",
   "homepage": "https://ivelly42.github.io/agent-ops-command-center/",
   "social_image": "https://ivelly42.github.io/agent-ops-command-center/og.png",
-  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.103-preview",
+  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.104-preview",
   "early_access_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml",
   "template_pack_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml",
   "template_pack_request_page": "https://ivelly42.github.io/agent-ops-command-center/template-pack-request.html",
@@ -60,6 +60,15 @@
   "paid_zip_public": false,
   "revenue_rule": "Revenue is proven only by checkout, receipt, payout, or seller-dashboard evidence.",
   "public_assets": [
+    {
+      "title": "NPM Team Request CLI",
+      "url": "https://ivelly42.github.io/agent-ops-command-center/npm-preview.md",
+      "command": "npx github:ivelly42/agent-ops-command-center --team-request-url",
+      "markdown_command": "npx github:ivelly42/agent-ops-command-center --team-request-markdown",
+      "request_url_type": "prefilled GitHub issue URL for the $203 team-license request",
+      "paid_zip_public": false,
+      "revenue_rule": "The CLI creates buyer request links only. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence."
+    },
     {
       "title": "Revenue Proof Autoreply",
       "url": "https://ivelly42.github.io/agent-ops-command-center/revenue-proof-autoreply.md",
@@ -944,8 +953,10 @@
   },
   "npm_github_install_preview": {
     "command": "npx github:ivelly42/agent-ops-command-center --json",
+    "team_request_url_command": "npx github:ivelly42/agent-ops-command-center --team-request-url",
+    "team_request_markdown_command": "npx github:ivelly42/agent-ops-command-center --team-request-markdown",
     "package_name": "agent-ops-command-center",
-    "package_version": "0.5.103",
+    "package_version": "0.5.104",
     "bin": [
       "agent-ops-command-center",
       "agent-ops"
@@ -956,6 +967,19 @@
     "paid_zip_public": false,
     "revenue_rule": "Installing or running this preview is not revenue. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence.",
     "discussion": "https://github.com/ivelly42/agent-ops-command-center/discussions/10"
+  },
+  "npm_team_request_cli": {
+    "updated_at_kst": "2026-05-22 04:08",
+    "command": "npx github:ivelly42/agent-ops-command-center --team-request-url",
+    "markdown_command": "npx github:ivelly42/agent-ops-command-center --team-request-markdown",
+    "request_package": "Team license - 7 seats - $203 gross",
+    "output": "prefilled GitHub issue URL and copy-ready markdown for a payment-ready team request",
+    "request_text_markers": [
+      "Fast team checkout request: Agent Ops Command Center",
+      "Request package: Team license - 7 seats - $203 gross",
+      "Purchase intent: Ready to pay $203 for the team license when checkout is ready"
+    ],
+    "revenue_rule": "The CLI creates buyer request links only. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence."
   },
   "order_autoreply": {
     "workflow": "https://github.com/ivelly42/agent-ops-command-center/blob/main/.github/workflows/order-autoreply.yml",

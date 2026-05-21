@@ -1,10 +1,47 @@
 #!/usr/bin/env node
 
+const teamRequestTitle = "Fast team checkout request: Agent Ops Command Center";
+const teamRequestBody = [
+  "Fast team checkout request: Agent Ops Command Center",
+  "",
+  "Request package: Team license - 7 seats - $203 gross",
+  "Purchase intent: Ready to pay $203 for the team license when checkout is ready",
+  "Preferred checkout: Receipt-capable checkout",
+  "Receipt need: Receipt needed after payment",
+  "Current blocker: Waiting for checkout link",
+  "",
+  "Buyer/team:",
+  "- Seven-seat AI-agent operator team",
+  "",
+  "Agent tools:",
+  "- Codex",
+  "- Claude Code",
+  "- Cursor",
+  "- Local AI coding agents",
+  "",
+  "Preview inspected:",
+  "- Buy page: https://ivelly42.github.io/agent-ops-command-center/buy.html",
+  "- Team license: https://ivelly42.github.io/agent-ops-command-center/team-license.html",
+  "- Team purchase packet: https://ivelly42.github.io/agent-ops-command-center/team-purchase-packet.html",
+  "- Pricing: https://ivelly42.github.io/agent-ops-command-center/pricing.html",
+  "- Catalog: https://ivelly42.github.io/agent-ops-command-center/catalog.json",
+  "",
+  "Acknowledgement:",
+  "- I understand this issue is purchase intent only.",
+  "- I understand the private paid ZIP should be delivered only after checkout, receipt, payout, or seller-dashboard proof exists.",
+  "- I understand gross revenue is counted only when payment proof exists."
+].join("\n");
+
+const teamRequestUrl = new URL("https://github.com/ivelly42/agent-ops-command-center/issues/new");
+teamRequestUrl.searchParams.set("title", teamRequestTitle);
+teamRequestUrl.searchParams.set("body", teamRequestBody);
+
 const links = {
   homepage: "https://ivelly42.github.io/agent-ops-command-center/",
   discovery: "https://ivelly42.github.io/agent-ops-command-center/discovery.html",
   buy: "https://ivelly42.github.io/agent-ops-command-center/buy.html",
   paymentReadyRequest: "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml",
+  teamRequestUrl: teamRequestUrl.toString(),
   teamCheckoutRequest: "https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html",
   catalog: "https://ivelly42.github.io/agent-ops-command-center/catalog.json",
   metrics: "https://ivelly42.github.io/agent-ops-command-center/metrics/status.json",
@@ -25,6 +62,10 @@ const payload = {
   primary_request_path: "Team license - 7 seats - $203 gross",
   paid_zip_public: false,
   revenue_rule: "Count revenue only after checkout, receipt, payout, or seller-dashboard evidence.",
+  commands: {
+    team_request_url: "npx github:ivelly42/agent-ops-command-center --team-request-url",
+    team_request_markdown: "npx github:ivelly42/agent-ops-command-center --team-request-markdown"
+  },
   links
 };
 
@@ -42,6 +83,16 @@ if (args.has("--links")) {
   process.exit(0);
 }
 
+if (args.has("--team-request-url")) {
+  process.stdout.write(`${links.teamRequestUrl}\n`);
+  process.exit(0);
+}
+
+if (args.has("--team-request-markdown")) {
+  process.stdout.write(`# ${teamRequestTitle}\n\n${teamRequestBody}\n\nOpen request:\n${links.teamRequestUrl}\n`);
+  process.exit(0);
+}
+
 process.stdout.write(`Agent Ops Command Center
 
 Public preview for AI coding-agent teams.
@@ -53,8 +104,15 @@ Target: $200 gross revenue
 Payment-ready request:
 ${links.paymentReadyRequest}
 
+Prefilled $203 team request:
+${links.teamRequestUrl}
+
 Discovery hub:
 ${links.discovery}
+
+Buyer commands:
+${payload.commands.team_request_url}
+${payload.commands.team_request_markdown}
 
 Revenue rule:
 ${payload.revenue_rule}
