@@ -51,6 +51,8 @@ const links = {
   opencodeConfig: "https://ivelly42.github.io/agent-ops-command-center/opencode.json",
   universalAgentMd: "https://ivelly42.github.io/agent-ops-command-center/AGENT.md",
   ampAgentAlias: "https://ivelly42.github.io/agent-ops-command-center/amp-agent.md",
+  zedRules: "https://ivelly42.github.io/agent-ops-command-center/.rules",
+  zedRulesAlias: "https://ivelly42.github.io/agent-ops-command-center/zed-rules.md",
   junieGuidelines: "https://ivelly42.github.io/agent-ops-command-center/.junie/guidelines.md",
   junieGuidelinesAlias: "https://ivelly42.github.io/agent-ops-command-center/junie-guidelines.md",
   catalog: "https://ivelly42.github.io/agent-ops-command-center/catalog.json",
@@ -81,7 +83,7 @@ const links = {
   paymentReadyNpmAutoreplyDiscussion: "https://github.com/ivelly42/agent-ops-command-center/discussions/10",
   clineWorkflowDiscussion: "https://github.com/ivelly42/agent-ops-command-center/discussions/12",
   release: "https://github.com/ivelly42/agent-ops-command-center/releases/latest",
-  npmReleaseTarball: "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.134-preview/agent-ops-command-center-0.5.134.tgz"
+  npmReleaseTarball: "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.135-preview/agent-ops-command-center-0.5.135.tgz"
 };
 
 const payload = {
@@ -167,6 +169,9 @@ ${links.universalAgentMd}
 
 Junie guidelines:
 ${links.junieGuidelines}
+
+Zed rules:
+${links.zedRules}
 
 Buyer commands:
 ${payload.commands.team_request_url}

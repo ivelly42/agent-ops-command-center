@@ -15,6 +15,10 @@ Checkout-Status: https://ivelly42.github.io/agent-ops-command-center/.well-known
 
 Checkout-Status-Alias: https://ivelly42.github.io/agent-ops-command-center/checkout-status.json
 
+Zed-Rules: https://ivelly42.github.io/agent-ops-command-center/.rules
+
+Zed-Rules-Alias: https://ivelly42.github.io/agent-ops-command-center/zed-rules.md
+
 Universal-Agent-MD: https://ivelly42.github.io/agent-ops-command-center/AGENT.md
 
 Amp-Agent-Alias: https://ivelly42.github.io/agent-ops-command-center/amp-agent.md

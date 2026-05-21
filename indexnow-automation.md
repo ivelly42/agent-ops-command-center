@@ -1,3 +1,6 @@
+Zed rules: https://ivelly42.github.io/agent-ops-command-center/.rules
+Zed rules alias: https://ivelly42.github.io/agent-ops-command-center/zed-rules.md
+Rule reads are not revenue; revenue requires checkout, receipt, payout, or seller-dashboard proof.
 Universal AGENT.md routing: https://ivelly42.github.io/agent-ops-command-center/AGENT.md
 Amp AGENT.md alias: https://ivelly42.github.io/agent-ops-command-center/amp-agent.md
 Junie guidelines: https://ivelly42.github.io/agent-ops-command-center/.junie/guidelines.md
@@ -64,7 +67,7 @@ Submitted surfaces:
 - Feed: https://ivelly42.github.io/agent-ops-command-center/feed.xml
 - Preview index: https://ivelly42.github.io/agent-ops-command-center/github-preview-index.md
 - NPM preview docs: https://ivelly42.github.io/agent-ops-command-center/npm-preview.md
-- NPM release tarball: https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.134-preview/agent-ops-command-center-0.5.134.tgz
+- NPM release tarball: https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.135-preview/agent-ops-command-center-0.5.135.tgz
 - Order autoreply docs: https://ivelly42.github.io/agent-ops-command-center/order-autoreply.md
 - Discussion autoreply docs: https://ivelly42.github.io/agent-ops-command-center/discussion-autoreply.md
 - Revenue proof autoreply docs: https://ivelly42.github.io/agent-ops-command-center/revenue-proof-autoreply.md

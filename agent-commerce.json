@@ -2,7 +2,7 @@
   "name": "Agent Ops Command Center",
   "type": "agent_commerce_metadata",
   "schema_version": "2026-05-22",
-  "updated_at_kst": "2026-05-22 08:08",
+  "updated_at_kst": "2026-05-22 08:17",
   "canonical_url": "https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-commerce.json",
   "alternate_urls": [
     "https://ivelly42.github.io/agent-ops-command-center/agent-commerce.json",
@@ -44,7 +44,9 @@
     "https://ivelly42.github.io/agent-ops-command-center/AGENT.md",
     "https://ivelly42.github.io/agent-ops-command-center/amp-agent.md",
     "https://ivelly42.github.io/agent-ops-command-center/.junie/guidelines.md",
-    "https://ivelly42.github.io/agent-ops-command-center/junie-guidelines.md"
+    "https://ivelly42.github.io/agent-ops-command-center/junie-guidelines.md",
+    "https://ivelly42.github.io/agent-ops-command-center/.rules",
+    "https://ivelly42.github.io/agent-ops-command-center/zed-rules.md"
   ],
   "product": {
     "name": "Agent Ops Command Center",
@@ -75,7 +77,7 @@
     "read_catalog": "https://ivelly42.github.io/agent-ops-command-center/catalog.json",
     "read_metrics": "https://ivelly42.github.io/agent-ops-command-center/metrics/status.json",
     "read_agent_routing": "https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-routing.json",
-    "run_npm_release_tarball_team_request": "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.134-preview/agent-ops-command-center-0.5.134.tgz",
+    "run_npm_release_tarball_team_request": "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.135-preview/agent-ops-command-center-0.5.135.tgz",
     "read_copilot_instructions": "https://ivelly42.github.io/agent-ops-command-center/copilot-instructions.md",
     "read_cursor_rules": "https://ivelly42.github.io/agent-ops-command-center/cursor-agent-rules.md",
     "read_windsurf_rules": "https://ivelly42.github.io/agent-ops-command-center/windsurf-rules.md",
@@ -110,7 +112,9 @@
     "read_agent_md": "https://ivelly42.github.io/agent-ops-command-center/AGENT.md",
     "read_amp_agent_alias": "https://ivelly42.github.io/agent-ops-command-center/amp-agent.md",
     "read_junie_guidelines": "https://ivelly42.github.io/agent-ops-command-center/.junie/guidelines.md",
-    "read_junie_guidelines_alias": "https://ivelly42.github.io/agent-ops-command-center/junie-guidelines.md"
+    "read_junie_guidelines_alias": "https://ivelly42.github.io/agent-ops-command-center/junie-guidelines.md",
+    "read_zed_rules": "https://ivelly42.github.io/agent-ops-command-center/.rules",
+    "read_zed_rules_alias": "https://ivelly42.github.io/agent-ops-command-center/zed-rules.md"
   },
   "fulfillment": {
     "public_preview_only": true,
@@ -137,5 +141,6 @@
   "agent_skill": "https://ivelly42.github.io/agent-ops-command-center/.agents/skills/agent-ops-checkout/SKILL.md",
   "opencode_config": "https://ivelly42.github.io/agent-ops-command-center/opencode.json",
   "agent_md": "https://ivelly42.github.io/agent-ops-command-center/AGENT.md",
-  "junie_guidelines": "https://ivelly42.github.io/agent-ops-command-center/.junie/guidelines.md"
+  "junie_guidelines": "https://ivelly42.github.io/agent-ops-command-center/.junie/guidelines.md",
+  "zed_rules": "https://ivelly42.github.io/agent-ops-command-center/.rules"
 }

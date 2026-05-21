@@ -2,8 +2,8 @@
   "openapi": "3.1.0",
   "info": {
     "title": "Agent Ops Command Center Commerce Actions",
-    "version": "0.5.134",
-    "description": "Read public product metadata, checkout status, AGENT.md, Junie guidelines, Agent Skills routing, and the $203 team-license request path for Agent Ops Command Center. This API describes public static resources only; it does not process payment or prove revenue."
+    "version": "0.5.135",
+    "description": "Read public product metadata, checkout status, Zed .rules, AGENT.md, Junie guidelines, Agent Skills routing, and the $203 team-license request path for Agent Ops Command Center. This API describes public static resources only; it does not process payment or prove revenue."
   },
   "servers": [
     {
@@ -732,6 +732,44 @@
           }
         }
       }
+    },
+    "/agent-ops-command-center/.rules": {
+      "get": {
+        "operationId": "readZedRules",
+        "summary": "Read Zed project rules",
+        "description": "Returns Zed Agent Panel project rules for checkout routing and revenue proof boundaries.",
+        "responses": {
+          "200": {
+            "description": "Zed project rules",
+            "content": {
+              "text/markdown": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/agent-ops-command-center/zed-rules.md": {
+      "get": {
+        "operationId": "readZedRulesAlias",
+        "summary": "Read Zed rules alias",
+        "description": "Alias for crawlers and agents that cannot fetch dotfile rule paths.",
+        "responses": {
+          "200": {
+            "description": "Zed rules alias",
+            "content": {
+              "text/markdown": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
     }
   },
   "components": {
@@ -1001,7 +1039,7 @@
   },
   "x-revenue-rule": "OpenAPI metadata is routing metadata, not revenue. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence.",
   "x-agent-routing-manifest": "https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-routing.json",
-  "x-npm-release-tarball": "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.134-preview/agent-ops-command-center-0.5.134.tgz",
+  "x-npm-release-tarball": "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.135-preview/agent-ops-command-center-0.5.135.tgz",
   "x-editor-rule-files": {
     "github_copilot": {
       "canonical": "https://github.com/ivelly42/agent-ops-command-center/blob/main/.github/copilot-instructions.md",
@@ -1054,5 +1092,7 @@
   "x-agent-md": "https://ivelly42.github.io/agent-ops-command-center/AGENT.md",
   "x-amp-agent-alias": "https://ivelly42.github.io/agent-ops-command-center/amp-agent.md",
   "x-junie-guidelines": "https://ivelly42.github.io/agent-ops-command-center/.junie/guidelines.md",
-  "x-junie-guidelines-alias": "https://ivelly42.github.io/agent-ops-command-center/junie-guidelines.md"
+  "x-junie-guidelines-alias": "https://ivelly42.github.io/agent-ops-command-center/junie-guidelines.md",
+  "x-zed-rules": "https://ivelly42.github.io/agent-ops-command-center/.rules",
+  "x-zed-rules-alias": "https://ivelly42.github.io/agent-ops-command-center/zed-rules.md"
 }

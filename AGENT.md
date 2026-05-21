@@ -23,6 +23,7 @@ The paid product ZIP is not public here. Do not publish paid delivery assets pub
 - Junie guidelines: https://ivelly42.github.io/agent-ops-command-center/.junie/guidelines.md
 - AGENTS.md routing: https://ivelly42.github.io/agent-ops-command-center/AGENTS.md
 - OpenAPI commerce actions: https://ivelly42.github.io/agent-ops-command-center/openapi.json
+- Zed rules: https://ivelly42.github.io/agent-ops-command-center/.rules
 - Agents manifest: https://ivelly42.github.io/agent-ops-command-center/.well-known/agents.json
 - LLM discovery JSON: https://ivelly42.github.io/agent-ops-command-center/.well-known/llms.json
 - Catalog: https://ivelly42.github.io/agent-ops-command-center/catalog.json

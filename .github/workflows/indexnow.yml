@@ -62,6 +62,8 @@ jobs:
               "https://ivelly42.github.io/agent-ops-command-center/.well-known/checkout-status.json",
               "https://ivelly42.github.io/agent-ops-command-center/.agents/skills/agent-ops-checkout/SKILL.md",
               "https://ivelly42.github.io/agent-ops-command-center/AGENT.md",
+              "https://ivelly42.github.io/agent-ops-command-center/.rules",
+              "https://ivelly42.github.io/agent-ops-command-center/zed-rules.md",
               "https://ivelly42.github.io/agent-ops-command-center/amp-agent.md",
               "https://ivelly42.github.io/agent-ops-command-center/.junie/guidelines.md",
               "https://ivelly42.github.io/agent-ops-command-center/junie-guidelines.md",

@@ -1,3 +1,6 @@
+Zed rules: https://ivelly42.github.io/agent-ops-command-center/.rules
+Zed rules alias: https://ivelly42.github.io/agent-ops-command-center/zed-rules.md
+Rule reads are not revenue; revenue requires checkout, receipt, payout, or seller-dashboard proof.
 Universal AGENT.md routing: https://ivelly42.github.io/agent-ops-command-center/AGENT.md
 Amp AGENT.md alias: https://ivelly42.github.io/agent-ops-command-center/amp-agent.md
 Junie guidelines: https://ivelly42.github.io/agent-ops-command-center/.junie/guidelines.md
@@ -58,7 +61,7 @@ NPM GitHub install preview: `npx github:ivelly42/agent-ops-command-center --json
 
 NPM team request shortcut: `npx github:ivelly42/agent-ops-command-center --team-request-url`
 
-NPM release tarball team request: `npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.134-preview/agent-ops-command-center-0.5.134.tgz -- agent-ops-command-center --team-request-url`
+NPM release tarball team request: `npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.135-preview/agent-ops-command-center-0.5.135.tgz -- agent-ops-command-center --team-request-url`
 
 Package funding direct request: `npm fund agent-ops-command-center` -> https://ivelly42.github.io/agent-ops-command-center/team-request-url.html
 
@@ -459,7 +462,7 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.134-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.135-preview
 
 Sample files:
 
