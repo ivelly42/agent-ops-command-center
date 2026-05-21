@@ -1,11 +1,11 @@
 {
   "orders": 0,
-  "preview_downloads": 3,
+  "preview_downloads": 2,
   "possible_gross_if_all_orders_paid_usd": 0,
   "gross_revenue_usd": 0,
   "target_revenue_usd": 200,
   "price_usd": 29,
   "sales_needed": 7,
   "status": "no paid checkout",
-  "updated_at": "2026-05-21T03:24:50.465Z"
+  "updated_at": "2026-05-21T03:35:43.458Z"
 }
