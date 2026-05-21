@@ -969,7 +969,7 @@
     "discussion": "https://github.com/ivelly42/agent-ops-command-center/discussions/10"
   },
   "npm_team_request_cli": {
-    "updated_at_kst": "2026-05-22 04:08",
+    "updated_at_kst": "2026-05-22 04:00",
     "command": "npx github:ivelly42/agent-ops-command-center --team-request-url",
     "markdown_command": "npx github:ivelly42/agent-ops-command-center --team-request-markdown",
     "request_package": "Team license - 7 seats - $203 gross",

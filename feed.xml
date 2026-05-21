@@ -5,13 +5,13 @@
     <link>https://ivelly42.github.io/agent-ops-command-center/</link>
     <description>Public preview updates for a Notion and spreadsheet template pack for builders running AI coding agents.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 22 May 2026 04:08:00 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 22 May 2026 04:00:00 +0900</lastBuildDate>
     <ttl>1440</ttl>
     <item>
       <title>NPM Team Request CLI</title>
       <link>https://ivelly42.github.io/agent-ops-command-center/npm-preview.md</link>
       <guid>https://ivelly42.github.io/agent-ops-command-center/npm-preview.md#v5.104-preview</guid>
-      <pubDate>Fri, 22 May 2026 04:08:00 +0900</pubDate>
+      <pubDate>Fri, 22 May 2026 04:00:00 +0900</pubDate>
       <description>The GitHub-installable npm preview now prints a prefilled $203 team-license request URL and copy-ready request markdown, giving buyers a shorter path from npx preview to payment-ready GitHub issue. CLI output is not revenue; revenue still requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
