@@ -36,13 +36,25 @@ jobs:
             const teamPrice = 203;
             const target = 200;
 
-            const issues = await github.paginate(github.rest.issues.listForRepo, {
+            const allIssues = await github.paginate(github.rest.issues.listForRepo, {
               owner,
               repo,
               state: "all",
-              labels: "order-request",
               per_page: 100
             });
+            const plainIssues = allIssues.filter((issue) => !issue.pull_request);
+            const issueText = (issue) => `${issue.title || ""}\n${issue.body || ""}`;
+            const hasLabel = (issue, label) => (issue.labels || []).some((item) => item.name === label);
+            const isOrderIntent = (issue) => {
+              const text = issueText(issue);
+              return hasLabel(issue, "order-request") ||
+                text.includes("Order request: Agent Ops Command Center") ||
+                text.includes("Fast team checkout request: Agent Ops Command Center") ||
+                text.includes("Request package: Team license - 7 seats - $203 gross") ||
+                text.includes("Request package: Individual seat - $29");
+            };
+            const issues = plainIssues.filter(isOrderIntent);
+            const unlabeledOrders = issues.filter((issue) => !hasLabel(issue, "order-request")).length;
             const revenueProofIssues = await github.paginate(github.rest.issues.listForRepo, {
               owner,
               repo,
@@ -100,6 +112,7 @@ jobs:
               individual_order_intents: individualOrders,
               team_license_order_intents: teamOrders,
               preview_only_intents: previewOnlyOrders,
+              unlabeled_order_intents: unlabeledOrders,
               revenue_proof_issues: revenueProofIssues.length,
               confirmed_revenue_proof_issues: confirmedRevenueProofs.length,
               preview_downloads: previewDownloads,
@@ -127,6 +140,7 @@ jobs:
               `- Individual order intents: \`${metrics.individual_order_intents}\``,
               `- Team license order intents: \`${metrics.team_license_order_intents}\``,
               `- Preview-only intents: \`${metrics.preview_only_intents}\``,
+              `- Unlabeled order intents: \`${metrics.unlabeled_order_intents}\``,
               `- Revenue proof issues: \`${metrics.revenue_proof_issues}\``,
               `- Confirmed revenue proof issues: \`${metrics.confirmed_revenue_proof_issues}\``,
               `- Preview downloads: \`${metrics.preview_downloads}\``,
