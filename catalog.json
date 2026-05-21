@@ -1,7 +1,7 @@
 {
   "name": "Agent Ops Command Center",
   "description": "Notion and spreadsheet template pack for builders running AI coding agents.",
-  "version": "v5.102-preview",
+  "version": "v5.103-preview",
   "price_usd": 29,
   "individual_price_usd": 29,
   "team_license_price_usd": 203,
@@ -15,7 +15,7 @@
   "status": "preview_live_no_paid_checkout",
   "homepage": "https://ivelly42.github.io/agent-ops-command-center/",
   "social_image": "https://ivelly42.github.io/agent-ops-command-center/og.png",
-  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.102-preview",
+  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.103-preview",
   "early_access_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml",
   "template_pack_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml",
   "template_pack_request_page": "https://ivelly42.github.io/agent-ops-command-center/template-pack-request.html",
@@ -61,6 +61,19 @@
   "revenue_rule": "Revenue is proven only by checkout, receipt, payout, or seller-dashboard evidence.",
   "public_assets": [
     {
+      "title": "Revenue Proof Autoreply",
+      "url": "https://ivelly42.github.io/agent-ops-command-center/revenue-proof-autoreply.md",
+      "workflow": "https://github.com/ivelly42/agent-ops-command-center/blob/main/.github/workflows/revenue-proof-autoreply.yml",
+      "labels": [
+        "revenue-confirmed",
+        "delivery-ready",
+        "revenue-target-reached when amount is at least 200"
+      ],
+      "delivery_manifest": "https://ivelly42.github.io/agent-ops-command-center/paid-delivery-manifest.md",
+      "revenue_rule": "The autoreply does not create revenue. It only reacts after checkout, receipt, payout, or seller-dashboard evidence exists.",
+      "dry_run": "workflow_dispatch supports mock_revenue_proof=true for synthetic positive-path validation without creating a fake issue"
+    },
+    {
       "title": "Discussion Order Bridge",
       "url": "https://ivelly42.github.io/agent-ops-command-center/discussion-autoreply.md",
       "workflow": "https://github.com/ivelly42/agent-ops-command-center/blob/main/.github/workflows/discussion-autoreply.yml",
@@ -97,6 +110,7 @@
         "https://ivelly42.github.io/agent-ops-command-center/npm-preview.md",
         "https://ivelly42.github.io/agent-ops-command-center/order-autoreply.md",
         "https://ivelly42.github.io/agent-ops-command-center/discussion-autoreply.md",
+        "https://ivelly42.github.io/agent-ops-command-center/revenue-proof-autoreply.md",
         "https://ivelly42.github.io/agent-ops-command-center/indexnow-automation.md",
         "https://ivelly42.github.io/agent-ops-command-center/metrics/status.json"
       ],
@@ -931,7 +945,7 @@
   "npm_github_install_preview": {
     "command": "npx github:ivelly42/agent-ops-command-center --json",
     "package_name": "agent-ops-command-center",
-    "package_version": "0.5.102",
+    "package_version": "0.5.103",
     "bin": [
       "agent-ops-command-center",
       "agent-ops"
@@ -1005,6 +1019,7 @@
       "https://ivelly42.github.io/agent-ops-command-center/npm-preview.md",
       "https://ivelly42.github.io/agent-ops-command-center/order-autoreply.md",
       "https://ivelly42.github.io/agent-ops-command-center/discussion-autoreply.md",
+      "https://ivelly42.github.io/agent-ops-command-center/revenue-proof-autoreply.md",
       "https://ivelly42.github.io/agent-ops-command-center/indexnow-automation.md",
       "https://ivelly42.github.io/agent-ops-command-center/metrics/status.json"
     ],
@@ -1071,5 +1086,25 @@
     "dry_run": "workflow_dispatch logs the bridged issue that would be created without posting or creating an issue",
     "request_url": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml",
     "revenue_rule": "Bridged discussion issues are order intent, not revenue. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence."
+  },
+  "revenue_proof_autoreply": {
+    "updated_at_kst": "2026-05-22 03:45",
+    "workflow": "https://github.com/ivelly42/agent-ops-command-center/blob/main/.github/workflows/revenue-proof-autoreply.yml",
+    "docs": "https://ivelly42.github.io/agent-ops-command-center/revenue-proof-autoreply.md",
+    "trigger": "revenue-proof issue opened, edited, reopened, labeled, workflow_dispatch dry run, or dry-run mock proof",
+    "required_evidence": [
+      "gross revenue proven USD greater than 0",
+      "checkout receipt payout or seller-dashboard confirmation"
+    ],
+    "labels": [
+      "revenue-confirmed",
+      "delivery-ready",
+      "revenue-target-reached when amount is at least 200"
+    ],
+    "delivery_manifest": "https://ivelly42.github.io/agent-ops-command-center/paid-delivery-manifest.md",
+    "delivery_acceptance": "https://ivelly42.github.io/agent-ops-command-center/team-delivery-acceptance.html",
+    "metrics": "https://ivelly42.github.io/agent-ops-command-center/metrics/status.json",
+    "revenue_rule": "The autoreply does not create revenue. It only reacts after checkout, receipt, payout, or seller-dashboard evidence exists.",
+    "dry_run": "workflow_dispatch supports mock_revenue_proof=true for synthetic positive-path validation without creating a fake issue"
   }
 }

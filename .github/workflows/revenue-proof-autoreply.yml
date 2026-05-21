@@ -1,0 +1,149 @@
+name: Revenue proof autoreply
+
+on:
+  issues:
+    types: [opened, edited, reopened, labeled]
+  workflow_dispatch:
+    inputs:
+      issue_number:
+        description: Revenue proof issue number for dry-run validation.
+        required: false
+      dry_run:
+        description: Do not comment or label when true.
+        required: false
+        default: "true"
+      mock_revenue_proof:
+        description: Validate the positive path with synthetic proof during dry run.
+        required: false
+        default: "false"
+
+permissions:
+  issues: write
+
+jobs:
+  reply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            const marker = "<!-- agent-ops-revenue-proof-autoreply-v1 -->";
+            const { owner, repo } = context.repo;
+            const isDispatch = context.eventName === "workflow_dispatch";
+            const inputs = context.payload.inputs || {};
+            const issueNumber = isDispatch
+              ? Number(inputs.issue_number || 0)
+              : Number(context.payload.issue?.number || 0);
+            const dryRun = isDispatch && inputs.dry_run !== "false";
+            const mockRevenueProof = isDispatch && inputs.mock_revenue_proof === "true";
+
+            if (mockRevenueProof && !dryRun) {
+              core.setFailed("mock_revenue_proof can only run with dry_run=true.");
+              return;
+            }
+
+            if (!issueNumber && !mockRevenueProof) {
+              core.info("No issue number supplied; skipping.");
+              return;
+            }
+
+            const issue = mockRevenueProof
+              ? {
+                  number: issueNumber || 0,
+                  title: "Revenue proof: Agent Ops Command Center",
+                  labels: [{ name: "revenue-proof" }],
+                  body: [
+                    "### Gross revenue proven USD",
+                    "203",
+                    "",
+                    "I confirm this issue records real checkout, receipt, payout, or seller-dashboard evidence."
+                  ].join("\n")
+                }
+              : (await github.rest.issues.get({
+                  owner,
+                  repo,
+                  issue_number: issueNumber
+                })).data;
+            const labels = (issue.labels || []).map((label) => label.name);
+            const body = issue.body || "";
+            const text = `${issue.title || ""}\n${body}`;
+            const isRevenueProof = labels.includes("revenue-proof") ||
+              text.includes("Revenue proof: Agent Ops Command Center") ||
+              text.includes("Gross revenue proven USD");
+
+            if (!isRevenueProof) {
+              core.info("Issue is not a revenue-proof issue; skipping.");
+              return;
+            }
+
+            const amountMatch = body.match(/### Gross revenue proven USD\s+([0-9]+(?:\.[0-9]{1,2})?)/i);
+            const amount = amountMatch ? Number.parseFloat(amountMatch[1]) : 0;
+            const hasRequiredConfirmation = body.includes("I confirm this issue records real checkout, receipt, payout, or seller-dashboard evidence.");
+            const validAmount = Number.isFinite(amount) && amount > 0;
+            const target = 200;
+            const targetReached = validAmount && amount >= target;
+
+            const comments = mockRevenueProof
+              ? []
+              : await github.paginate(github.rest.issues.listComments, {
+                  owner,
+                  repo,
+                  issue_number: issueNumber,
+                  per_page: 100
+                });
+            if (comments.some((comment) => (comment.body || "").includes(marker))) {
+              core.info("Revenue proof autoreply already exists; skipping duplicate.");
+              return;
+            }
+
+            if (!validAmount || !hasRequiredConfirmation) {
+              const missing = [
+                !validAmount ? "gross USD amount" : "",
+                !hasRequiredConfirmation ? "checkout/receipt/payout/seller-dashboard confirmation" : ""
+              ].filter(Boolean).join(" and ");
+              core.info(`Revenue proof is incomplete; missing ${missing}.`);
+              return;
+            }
+
+            const labelsToAdd = ["revenue-confirmed", "delivery-ready"];
+            if (targetReached) labelsToAdd.push("revenue-target-reached");
+
+            const reply = [
+              marker,
+              "Confirmed revenue proof detected for Agent Ops Command Center.",
+              "",
+              `- Gross revenue proven: $${amount.toFixed(2)}`,
+              `- Launch target: $${target}`,
+              `- Target reached: ${targetReached ? "yes" : "no"}`,
+              "- Required evidence: checkout, receipt, payout, or seller-dashboard proof",
+              "",
+              "**Delivery state**",
+              "",
+              "This issue is now delivery-ready. Keep private buyer data, card data, tax IDs, bank details, and unredacted dashboard screenshots out of public comments.",
+              "",
+              "- Paid delivery manifest: https://ivelly42.github.io/agent-ops-command-center/paid-delivery-manifest.md",
+              "- Delivery acceptance packet: https://ivelly42.github.io/agent-ops-command-center/team-delivery-acceptance.html",
+              "- Metrics: https://ivelly42.github.io/agent-ops-command-center/metrics/status.json",
+              "",
+              "**Revenue rule:** this issue can count as revenue only because it records confirmed checkout, receipt, payout, or seller-dashboard evidence."
+            ].join("\n");
+
+            if (dryRun) {
+              const targetIssue = mockRevenueProof ? "mock revenue proof" : `revenue proof issue #${issueNumber}`;
+              core.info(`Dry run for ${targetIssue}: would add labels ${labelsToAdd.join(", ")}.`);
+              core.info(reply);
+              return;
+            }
+
+            await github.rest.issues.addLabels({
+              owner,
+              repo,
+              issue_number: issueNumber,
+              labels: labelsToAdd
+            });
+            await github.rest.issues.createComment({
+              owner,
+              repo,
+              issue_number: issueNumber,
+              body: reply
+            });

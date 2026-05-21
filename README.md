@@ -8,6 +8,8 @@ Demand metrics: [metrics/README.md](metrics/README.md)
 
 Revenue proof intake: [revenue-proof.html](revenue-proof.html)
 
+Revenue proof autoreply: https://ivelly42.github.io/agent-ops-command-center/revenue-proof-autoreply.md
+
 Public site: https://ivelly42.github.io/agent-ops-command-center/
 
 Buy page: [buy.html](buy.html)
@@ -349,7 +351,7 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.102-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.103-preview
 
 Sample files:
 
