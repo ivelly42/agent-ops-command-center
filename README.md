@@ -24,6 +24,8 @@ Payment-ready team checkout CTA: https://ivelly42.github.io/agent-ops-command-ce
 
 Prefilled team request URL: https://ivelly42.github.io/agent-ops-command-center/team-request-url.html
 
+GitHub repo homepage direct request: https://ivelly42.github.io/agent-ops-command-center/team-request-url.html
+
 Payment-ready mirror: https://github.com/ivelly42/ai-agent-payment-ready-template
 
 Payment-ready mirror Pages: https://ivelly42.github.io/ai-agent-payment-ready-template/
@@ -68,7 +70,7 @@ Fast template pack request: https://github.com/ivelly42/agent-ops-command-center
 
 Fast template pack request page: [template-pack-request.html](template-pack-request.html)
 
-GitHub Sponsor button funding links: [.github/FUNDING.yml](.github/FUNDING.yml)
+GitHub Sponsor button funding links: [.github/FUNDING.yml](.github/FUNDING.yml) now list the prefilled team request first.
 
 Discovery hub: [discovery.html](discovery.html)
 
@@ -363,7 +365,7 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.108-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.109-preview
 
 Sample files:
 

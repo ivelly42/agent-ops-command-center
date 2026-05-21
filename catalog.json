@@ -1,7 +1,7 @@
 {
   "name": "Agent Ops Command Center",
   "description": "Notion and spreadsheet template pack for builders running AI coding agents.",
-  "version": "v5.108-preview",
+  "version": "v5.109-preview",
   "price_usd": 29,
   "individual_price_usd": 29,
   "team_license_price_usd": 203,
@@ -15,12 +15,14 @@
   "status": "preview_live_no_paid_checkout",
   "homepage": "https://ivelly42.github.io/agent-ops-command-center/",
   "social_image": "https://ivelly42.github.io/agent-ops-command-center/og.png",
-  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.108-preview",
+  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.109-preview",
   "early_access_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml",
   "template_pack_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml",
   "template_pack_request_page": "https://ivelly42.github.io/agent-ops-command-center/template-pack-request.html",
   "fast_team_checkout_request": "https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html",
   "prefilled_team_request_url": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
+  "github_repo_homepage_direct_request": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
+  "github_funding_primary_request": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
   "discovery_hub": "https://ivelly42.github.io/agent-ops-command-center/discovery.html",
   "buyer_reply_kit": "https://ivelly42.github.io/agent-ops-command-center/buyer-reply-kit.html",
   "demand_metrics": "https://ivelly42.github.io/agent-ops-command-center/metrics/status.json",
@@ -61,6 +63,15 @@
   "paid_zip_public": false,
   "revenue_rule": "Revenue is proven only by checkout, receipt, payout, or seller-dashboard evidence.",
   "public_assets": [
+    {
+      "title": "GitHub Homepage Direct Request",
+      "url": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
+      "repository_homepage": "https://github.com/ivelly42/agent-ops-command-center",
+      "funding_config": "https://github.com/ivelly42/agent-ops-command-center/blob/main/.github/FUNDING.yml",
+      "request_package": "Team license - 7 seats - $203 gross",
+      "placement": "GitHub repository homepage and Sponsor button first custom funding link",
+      "revenue_rule": "Homepage and funding links create purchase intent only. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence."
+    },
     {
       "title": "Order Autoreply Direct Request Dry Run",
       "url": "https://ivelly42.github.io/agent-ops-command-center/order-autoreply.md",
@@ -1000,7 +1011,7 @@
     "team_request_mirror": "https://github.com/ivelly42/ai-agent-npx-team-request-template",
     "team_request_mirror_pages": "https://ivelly42.github.io/ai-agent-npx-team-request-template/",
     "package_name": "agent-ops-command-center",
-    "package_version": "0.5.108",
+    "package_version": "0.5.109",
     "bin": [
       "agent-ops-command-center",
       "agent-ops"
@@ -1023,6 +1034,15 @@
     "body_marker": "Purchase intent: Ready to pay $203 for the team license when checkout is ready",
     "metrics_behavior": "A submitted issue can be autolabeled and counted as order intent, not revenue.",
     "revenue_rule": "Count revenue only after checkout, receipt, payout, or seller-dashboard evidence."
+  },
+  "github_homepage_direct_request": {
+    "updated_at_kst": "2026-05-22 04:36",
+    "repository": "https://github.com/ivelly42/agent-ops-command-center",
+    "homepage": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
+    "funding_config": "https://github.com/ivelly42/agent-ops-command-center/blob/main/.github/FUNDING.yml",
+    "funding_primary_link": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
+    "request_package": "Team license - 7 seats - $203 gross",
+    "revenue_rule": "Homepage and funding links create purchase intent only. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence."
   },
   "npm_team_request_cli": {
     "updated_at_kst": "2026-05-22 04:16",
