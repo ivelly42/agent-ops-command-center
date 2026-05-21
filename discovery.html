@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Agent Ops Discovery Hub</title>
+    <meta name="description" content="Discovery hub for Agent Ops Command Center mirrors, public previews, and the $203 team license request path.">
+    <meta property="og:title" content="Agent Ops Discovery Hub">
+    <meta property="og:description" content="Find AI-agent run log, verification ledger, workflow comparison, model routing, prompt regression, acceptance test, procurement, security, ROI, cost, and client delivery previews.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ivelly42.github.io/agent-ops-command-center/discovery.html">
+    <meta property="og:image" content="https://ivelly42.github.io/agent-ops-command-center/og.png">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Agent Ops Command Center Team License",
+        "description": "AI-agent run log, verification ledger, workflow comparison, model routing, prompt regression, acceptance test, procurement, security review, ROI, cost tracker, and client delivery template pack.",
+        "url": "https://ivelly42.github.io/agent-ops-command-center/discovery.html",
+        "image": "https://ivelly42.github.io/agent-ops-command-center/og.png",
+        "offers": {
+          "@type": "Offer",
+          "name": "Team license - 7 seats",
+          "price": "203",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/PreOrder",
+          "url": "https://github.com/ivelly42/agent-ops-command-center/issues/new"
+        }
+      }
+    </script>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f7f8f5;
+        --ink: #141414;
+        --muted: #5d6159;
+        --line: #d5dacf;
+        --card: #fffefa;
+        --accent: #0f766e;
+        --soft: #eef8f5;
+      }
+
+      * { box-sizing: border-box; }
+
+      body {
+        margin: 0;
+        overflow-x: hidden;
+        background: var(--bg);
+        color: var(--ink);
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+
+      header,
+      main,
+      footer {
+        width: min(1180px, calc(100% - 36px));
+        margin: 0 auto;
+      }
+
+      header {
+        min-height: 72px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid var(--line);
+      }
+
+      a {
+        color: inherit;
+      }
+
+      .brand,
+      nav a,
+      .button {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      .brand {
+        font-weight: 900;
+      }
+
+      nav {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+        font-size: 14px;
+        font-weight: 800;
+      }
+
+      .hero {
+        min-height: calc(100vh - 72px);
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) minmax(320px, 0.86fr);
+        gap: 44px;
+        align-items: center;
+        padding: 54px 0;
+      }
+
+      .eyebrow {
+        margin-bottom: 16px;
+        color: var(--accent);
+        font-size: 14px;
+        font-weight: 900;
+      }
+
+      h1 {
+        max-width: 840px;
+        margin: 0 0 22px;
+        font-size: clamp(42px, 7vw, 76px);
+        line-height: 0.98;
+        letter-spacing: 0;
+      }
+
+      .lead {
+        max-width: 720px;
+        margin: 0;
+        color: var(--muted);
+        font-size: 20px;
+        line-height: 1.5;
+      }
+
+      .actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 24px;
+      }
+
+      .button {
+        min-height: 44px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid var(--ink);
+        border-radius: 8px;
+        padding: 0 16px;
+        font-weight: 850;
+        text-align: center;
+      }
+
+      .button.primary {
+        background: var(--ink);
+        color: #fff;
+      }
+
+      .panel,
+      .item,
+      .notice {
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--card);
+      }
+
+      .panel {
+        padding: 22px;
+        box-shadow: 0 24px 72px rgb(0 0 0 / 0.1);
+      }
+
+      .preview {
+        width: 100%;
+        display: block;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: #fff;
+      }
+
+      .price {
+        margin: 18px 0 10px;
+        font-size: clamp(56px, 9vw, 88px);
+        line-height: 1;
+        font-weight: 950;
+      }
+
+      .panel p,
+      .item p,
+      .notice {
+        color: var(--muted);
+        line-height: 1.5;
+      }
+
+      section {
+        border-top: 1px solid var(--line);
+        padding: 42px 0;
+      }
+
+      h2 {
+        margin: 0 0 18px;
+        font-size: clamp(30px, 4.5vw, 48px);
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 18px;
+      }
+
+      .item,
+      .notice {
+        padding: 22px;
+      }
+
+      .item h3 {
+        margin: 0 0 10px;
+      }
+
+      .tagline {
+        color: var(--accent);
+        font-size: 13px;
+        font-weight: 900;
+      }
+
+      textarea {
+        width: 100%;
+        min-height: 260px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: #fffdfa;
+        color: var(--ink);
+        padding: 16px;
+        resize: vertical;
+        font: 14px/1.45 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      }
+
+      footer {
+        border-top: 1px solid var(--line);
+        padding: 28px 0 40px;
+        color: var(--muted);
+      }
+
+      @media (max-width: 860px) {
+        header { align-items: flex-start; flex-direction: column; gap: 12px; padding: 18px 0; }
+        .hero { min-height: auto; grid-template-columns: 1fr; padding: 40px 0; }
+        .grid { grid-template-columns: 1fr; }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a class="brand" href="index.html">Agent Ops Command Center</a>
+      <nav aria-label="Primary">
+        <a href="buy.html">Buy</a>
+        <a href="team-checkout-request.html">Fast Request</a>
+        <a href="catalog.json">Catalog</a>
+        <a href="metrics/status.json">Metrics</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div>
+          <div class="eyebrow">Public preview index for buyer searches</div>
+          <h1>Find the Agent Ops preview that matches the problem.</h1>
+          <p class="lead">All public mirrors route back to the same $203 seven-seat team request. Revenue still counts only after checkout, receipt, payout, or seller-dashboard evidence exists.</p>
+          <div class="actions">
+            <a class="button primary" id="directRequest" href="https://github.com/ivelly42/agent-ops-command-center/issues/new">Open $203 team request</a>
+            <a class="button" href="buy.html">Buy page</a>
+            <a class="button" href="github-preview-index.md">Preview index</a>
+          </div>
+        </div>
+
+        <aside class="panel" aria-label="Team license">
+          <img class="preview" src="og.png" alt="Agent Ops Command Center preview image">
+          <div class="price">$203</div>
+          <p>Team license. Seven seats. One confirmed payment reaches the $200 gross target after payment proof exists.</p>
+        </aside>
+      </section>
+
+      <section>
+        <h2>Discovery Mirrors</h2>
+        <div class="grid">
+          <article class="item">
+            <div class="tagline">workflow stack</div>
+            <h3>Workflow Comparison</h3>
+            <p>Choose between chat history, Notion, spreadsheets, PM tools, and Agent Ops.</p>
+            <div class="actions"><a class="button" href="https://ivelly42.github.io/ai-agent-workflow-comparison-template/">Open mirror</a></div>
+          </article>
+          <article class="item">
+            <div class="tagline">model choice</div>
+            <h3>Model Routing</h3>
+            <p>Pick the cheapest reliable model, tool, review path, and verification gate.</p>
+            <div class="actions"><a class="button" href="https://ivelly42.github.io/ai-agent-model-routing-template/">Open mirror</a></div>
+          </article>
+          <article class="item">
+            <div class="tagline">prompt eval</div>
+            <h3>Prompt Regression</h3>
+            <p>Catch recurring prompt failures before they become the team default.</p>
+            <div class="actions"><a class="button" href="https://ivelly42.github.io/ai-agent-prompt-regression-test-template/">Open mirror</a></div>
+          </article>
+          <article class="item">
+            <div class="tagline">done proof</div>
+            <h3>Acceptance Test</h3>
+            <p>Gate AI-agent work with objective, scope, behavior, regression, and handoff checks.</p>
+            <div class="actions"><a class="button" href="https://ivelly42.github.io/ai-agent-acceptance-test-template/">Open mirror</a></div>
+          </article>
+          <article class="item">
+            <div class="tagline">approval</div>
+            <h3>Security Review</h3>
+            <p>Inspect access, data, delivery, and payment-proof boundaries before a team request.</p>
+            <div class="actions"><a class="button" href="https://ivelly42.github.io/ai-agent-security-review-template/">Open mirror</a></div>
+          </article>
+          <article class="item">
+            <div class="tagline">procurement</div>
+            <h3>Procurement</h3>
+            <p>Prepare invoice, receipt, purchase approval, delivery proof, and buyer request notes.</p>
+            <div class="actions"><a class="button" href="https://ivelly42.github.io/ai-agent-procurement-template/">Open mirror</a></div>
+          </article>
+          <article class="item">
+            <div class="tagline">ROI</div>
+            <h3>ROI Calculator</h3>
+            <p>Estimate cleanup time avoided and justify the $203 team request.</p>
+            <div class="actions"><a class="button" href="https://ivelly42.github.io/ai-agent-roi-calculator-template/">Open mirror</a></div>
+          </article>
+          <article class="item">
+            <div class="tagline">cost control</div>
+            <h3>Cost Tracker</h3>
+            <p>Track model cost, retry loops, and recurring cleanup waste.</p>
+            <div class="actions"><a class="button" href="https://ivelly42.github.io/ai-agent-cost-tracker-template/">Open mirror</a></div>
+          </article>
+          <article class="item">
+            <div class="tagline">verification</div>
+            <h3>Verification Ledger</h3>
+            <p>Record exact commands, screenshots, URLs, digests, and release proof.</p>
+            <div class="actions"><a class="button" href="https://ivelly42.github.io/ai-agent-verification-ledger-template/">Open mirror</a></div>
+          </article>
+          <article class="item">
+            <div class="tagline">run log</div>
+            <h3>AI Coding-Agent Run Log</h3>
+            <p>Capture objective, files changed, verification, cost, and follow-up.</p>
+            <div class="actions"><a class="button" href="https://ivelly42.github.io/ai-coding-agent-run-log-template/">Open mirror</a></div>
+          </article>
+          <article class="item">
+            <div class="tagline">agency delivery</div>
+            <h3>Client Delivery Kit</h3>
+            <p>Package run proof, handoff, acceptance, and delivery notes for client-facing AI-agent work.</p>
+            <div class="actions"><a class="button" href="https://ivelly42.github.io/ai-agent-client-delivery-kit/">Open mirror</a></div>
+          </article>
+          <article class="item">
+            <div class="tagline">direct request</div>
+            <h3>Fast Team Request</h3>
+            <p>Open a prefilled $203 seven-seat request in the main repository.</p>
+            <div class="actions"><a class="button primary" href="team-checkout-request.html">Open $203 team request</a></div>
+          </article>
+        </div>
+      </section>
+
+      <section>
+        <h2>Request Packet</h2>
+        <p class="notice">A request is not revenue. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence tied to the paid template pack.</p>
+        <textarea id="packet" readonly>Invoice request packet: Agent Ops Command Center
+Request package: Team license - 7 seats - $203 gross
+Need: AI-agent run log, verification ledger, workflow comparison, model routing, prompt regression, acceptance test, procurement, security review, ROI, cost tracking, and client delivery templates.
+Proof rule: Count revenue only after checkout, receipt, payout, or seller-dashboard evidence.
+
+Discovery hub: https://ivelly42.github.io/agent-ops-command-center/discovery.html
+Fast team request: https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html
+Buy page: https://ivelly42.github.io/agent-ops-command-center/buy.html</textarea>
+        <div class="actions">
+          <a class="button primary" id="directRequestBottom" href="https://github.com/ivelly42/agent-ops-command-center/issues/new">Open $203 team request</a>
+          <a class="button" href="team-invoice-request.html">Invoice packet</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      Public discovery hub. Paid ZIP is delivered only after checkout, receipt, payout, or seller-dashboard proof.
+    </footer>
+
+    <script>
+      const packet = document.getElementById("packet").value;
+      const params = new URLSearchParams({
+        title: "Team license request - Agent Ops discovery hub",
+        body: packet
+      });
+      const issueUrl = `https://github.com/ivelly42/agent-ops-command-center/issues/new?${params.toString()}`;
+      document.getElementById("directRequest").href = issueUrl;
+      document.getElementById("directRequestBottom").href = issueUrl;
+    </script>
+  </body>
+</html>

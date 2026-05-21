@@ -14,6 +14,8 @@ Buy page: [buy.html](buy.html)
 
 Fast team checkout request: [team-checkout-request.html](team-checkout-request.html)
 
+Discovery hub: [discovery.html](discovery.html)
+
 Client delivery kit: [client-delivery-kit.html](client-delivery-kit.html)
 
 GitHub workflow comparison mirror: https://github.com/ivelly42/ai-agent-workflow-comparison-template
@@ -159,7 +161,7 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.51-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.52-preview
 
 Sample files:
 
@@ -198,6 +200,7 @@ Sample files:
 - [Revenue proof intake](revenue-proof.html)
 - [Buy page](buy.html)
 - [Fast team checkout request](team-checkout-request.html)
+- [Discovery hub](discovery.html)
 - [Client delivery kit](client-delivery-kit.html)
 - [GitHub workflow comparison mirror Pages](https://ivelly42.github.io/ai-agent-workflow-comparison-template/)
 - [GitHub workflow comparison mirror](https://github.com/ivelly42/ai-agent-workflow-comparison-template)

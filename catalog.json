@@ -1,7 +1,7 @@
 {
   "name": "Agent Ops Command Center",
   "description": "Notion and spreadsheet template pack for builders running AI coding agents.",
-  "version": "v5.51-preview",
+  "version": "v5.52-preview",
   "price_usd": 29,
   "individual_price_usd": 29,
   "team_license_price_usd": 203,
@@ -13,9 +13,10 @@
   "status": "preview_live_no_paid_checkout",
   "homepage": "https://ivelly42.github.io/agent-ops-command-center/",
   "social_image": "https://ivelly42.github.io/agent-ops-command-center/og.png",
-  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.51-preview",
+  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.52-preview",
   "early_access_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml",
   "fast_team_checkout_request": "https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html",
+  "discovery_hub": "https://ivelly42.github.io/agent-ops-command-center/discovery.html",
   "buyer_reply_kit": "https://ivelly42.github.io/agent-ops-command-center/buyer-reply-kit.html",
   "demand_metrics": "https://ivelly42.github.io/agent-ops-command-center/metrics/status.json",
   "revenue_proof_intake": "https://ivelly42.github.io/agent-ops-command-center/revenue-proof.html",
@@ -62,6 +63,10 @@
     {
       "title": "Revenue Proof Intake",
       "url": "https://ivelly42.github.io/agent-ops-command-center/revenue-proof.html"
+    },
+    {
+      "title": "Agent Ops Discovery Hub",
+      "url": "https://ivelly42.github.io/agent-ops-command-center/discovery.html"
     },
     {
       "title": "AI Agent Acceptance Test Mirror Page",
