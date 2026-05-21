@@ -10,6 +10,7 @@ The full paid pack is not published publicly. This index links every public prev
 - Ops maturity check: https://ivelly42.github.io/agent-ops-command-center/ops-maturity-check.html
 - Cost leak audit tool: https://ivelly42.github.io/agent-ops-command-center/cost-leak-audit.html
 - Buyer decision matrix tool: https://ivelly42.github.io/agent-ops-command-center/buyer-decision-matrix.html
+- Buyer intake builder: https://ivelly42.github.io/agent-ops-command-center/buyer-intake.html
 - Purchase approval brief builder: https://ivelly42.github.io/agent-ops-command-center/purchase-approval-brief.html
 - Run log builder: https://ivelly42.github.io/agent-ops-command-center/run-log-builder.html
 - Sample dashboard: https://ivelly42.github.io/agent-ops-command-center/sample-dashboard.html
@@ -82,7 +83,7 @@ The full paid pack is not published publicly. This index links every public prev
 - GitHub issue index: https://github.com/ivelly42/agent-ops-command-center/issues/2
 - RSS feed: https://ivelly42.github.io/agent-ops-command-center/feed.xml
 - Machine-readable catalog: https://ivelly42.github.io/agent-ops-command-center/catalog.json
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.7-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.8-preview
 - HTML template gallery: https://ivelly42.github.io/agent-ops-command-center/template-gallery.html
 - Interactive ROI calculator: https://ivelly42.github.io/agent-ops-command-center/roi-calculator.html
 - Order intent builder: https://ivelly42.github.io/agent-ops-command-center/order-intent.html
@@ -109,6 +110,7 @@ The full paid pack is not published publicly. This index links every public prev
 | Paid Delivery Manifest | Record paid delivery, archive digest, and buyer acknowledgement |
 | Buyer Decision Matrix | Compare cleanup cost, pack surfaces, and buy signals |
 | Checkout Readiness FAQ | Answer buyer objections and list payment proof needed |
+| Buyer Intake Builder | Generate copy-ready buyer fit, checkout, receipt, support, and blocker notes |
 | Buyer Intake Packet | Capture buyer fit, preferred checkout, receipt needs, and blockers |
 | Purchase Approval Brief | Help buyers request manager approval or reimbursement |
 | Workflow Stack Comparison | Compare chat history, generic Notion, spreadsheets, PM tools, and this pack |

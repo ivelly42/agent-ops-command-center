@@ -59,6 +59,7 @@ The pack breaks even if it prevents roughly one hour of cleanup time for a build
 - Ops maturity check: https://ivelly42.github.io/agent-ops-command-center/ops-maturity-check.html
 - Cost leak audit tool: https://ivelly42.github.io/agent-ops-command-center/cost-leak-audit.html
 - Buyer decision matrix tool: https://ivelly42.github.io/agent-ops-command-center/buyer-decision-matrix.html
+- Buyer intake builder: https://ivelly42.github.io/agent-ops-command-center/buyer-intake.html
 - Purchase approval brief builder: https://ivelly42.github.io/agent-ops-command-center/purchase-approval-brief.html
 - Run log builder: https://ivelly42.github.io/agent-ops-command-center/run-log-builder.html
 - Sample dashboard: https://ivelly42.github.io/agent-ops-command-center/sample-dashboard.html
@@ -115,7 +116,7 @@ The pack breaks even if it prevents roughly one hour of cleanup time for a build
 - Run log template: https://ivelly42.github.io/agent-ops-command-center/codex-claude-run-log-template.md
 - Failure RCA template: https://ivelly42.github.io/agent-ops-command-center/failure-rca-template.md
 - Preflight checklist: https://ivelly42.github.io/agent-ops-command-center/checklist.md
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.7-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.8-preview
 - HTML template gallery: https://ivelly42.github.io/agent-ops-command-center/template-gallery.html
 - Interactive ROI calculator: https://ivelly42.github.io/agent-ops-command-center/roi-calculator.html
 - Order intent builder: https://ivelly42.github.io/agent-ops-command-center/order-intent.html

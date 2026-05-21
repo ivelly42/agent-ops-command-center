@@ -4,6 +4,8 @@ Public buyer-intake preview for Agent Ops Command Center.
 
 Use this when checkout is not live yet, a buyer needs receipt details, or a team wants to decide whether the $29 pack fits its AI-agent workflow.
 
+Browser builder: https://ivelly42.github.io/agent-ops-command-center/buyer-intake.html
+
 ## Copy/Paste Buyer Intake
 
 | Field | Buyer answer |
@@ -56,6 +58,7 @@ https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-r
 ## Public Companion Files
 
 - Landing page: https://ivelly42.github.io/agent-ops-command-center/
+- Buyer intake builder: https://ivelly42.github.io/agent-ops-command-center/buyer-intake.html
 - Buyer decision matrix: https://ivelly42.github.io/agent-ops-command-center/buyer-decision-matrix.md
 - Checkout readiness FAQ: https://ivelly42.github.io/agent-ops-command-center/checkout-readiness-faq.md
 - Revenue proof template: https://ivelly42.github.io/agent-ops-command-center/ai-agent-revenue-proof-template.md

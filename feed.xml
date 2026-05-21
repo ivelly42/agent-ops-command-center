@@ -5,8 +5,15 @@
     <link>https://ivelly42.github.io/agent-ops-command-center/</link>
     <description>Public preview updates for a Notion and spreadsheet template pack for builders running AI coding agents.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 21 May 2026 10:47:00 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 21 May 2026 11:01:00 +0900</lastBuildDate>
     <ttl>1440</ttl>
+    <item>
+      <title>AI Agent Buyer Intake Builder</title>
+      <link>https://ivelly42.github.io/agent-ops-command-center/buyer-intake.html</link>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/buyer-intake.html</guid>
+      <pubDate>Thu, 21 May 2026 11:01:00 +0900</pubDate>
+      <description>Free browser builder for collecting buyer tools, recurring agent pain, checkout preference, receipt needs, blockers, and order intent before payment proof exists.</description>
+    </item>
     <item>
       <title>AI Agent Buyer Decision Matrix Tool</title>
       <link>https://ivelly42.github.io/agent-ops-command-center/buyer-decision-matrix.html</link>

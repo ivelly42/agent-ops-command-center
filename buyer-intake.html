@@ -1,0 +1,660 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AI Agent Buyer Intake Builder | Agent Ops Command Center</title>
+    <meta name="description" content="Free buyer intake builder for AI-agent workflow templates: tools, recurring problem, cleanup cost, checkout preference, receipt needs, delivery blocker, and order intent.">
+    <meta property="og:title" content="AI Agent Buyer Intake Builder">
+    <meta property="og:description" content="Generate a copy-ready buyer intake before requesting the $29 Agent Ops Command Center pack.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ivelly42.github.io/agent-ops-command-center/buyer-intake.html">
+    <meta property="og:image" content="https://ivelly42.github.io/agent-ops-command-center/og.svg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://ivelly42.github.io/agent-ops-command-center/og.svg">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "AI Agent Buyer Intake Builder",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "Any",
+        "url": "https://ivelly42.github.io/agent-ops-command-center/buyer-intake.html",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "isPartOf": {
+          "@type": "Product",
+          "name": "Agent Ops Command Center",
+          "offers": {
+            "@type": "Offer",
+            "price": "29",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/PreOrder",
+            "url": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml"
+          }
+        }
+      }
+    </script>
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #151515;
+        --muted: #5f5a52;
+        --line: #d8d3ca;
+        --paper: #fbfaf7;
+        --panel: #ffffff;
+        --accent: #0f766e;
+        --gold: #b45309;
+        --soft: #f7f5f0;
+      }
+
+      * { box-sizing: border-box; }
+
+      body {
+        margin: 0;
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        color: var(--ink);
+        background: var(--paper);
+      }
+
+      header, main, footer {
+        width: min(1180px, calc(100% - 40px));
+        margin: 0 auto;
+      }
+
+      header {
+        min-height: 72px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .brand { font-weight: 800; }
+
+      nav {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+        font-size: 14px;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      .hero {
+        padding: 64px 0 42px;
+        display: grid;
+        grid-template-columns: minmax(0, 0.95fr) minmax(380px, 1.05fr);
+        gap: 48px;
+        align-items: center;
+      }
+
+      .eyebrow {
+        color: var(--accent);
+        font-size: 14px;
+        font-weight: 800;
+        margin-bottom: 14px;
+      }
+
+      h1 {
+        font-size: clamp(42px, 7vw, 76px);
+        line-height: 0.98;
+        margin: 0 0 20px;
+        letter-spacing: 0;
+      }
+
+      .lead {
+        color: var(--muted);
+        font-size: 20px;
+        line-height: 1.5;
+        margin: 0;
+        max-width: 760px;
+      }
+
+      .actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 24px;
+      }
+
+      .button {
+        min-height: 44px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid var(--ink);
+        border-radius: 8px;
+        padding: 0 16px;
+        font-weight: 800;
+        background: transparent;
+        color: inherit;
+        font: inherit;
+        cursor: pointer;
+      }
+
+      .button.primary {
+        background: var(--ink);
+        color: #fff;
+      }
+
+      .intake-card {
+        background: var(--panel);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 24px;
+        box-shadow: 0 24px 80px rgba(21, 21, 21, 0.12);
+      }
+
+      .fit {
+        font-size: 72px;
+        line-height: 0.95;
+        font-weight: 900;
+        margin-bottom: 12px;
+      }
+
+      .intake-card p {
+        color: var(--muted);
+        font-size: 18px;
+        line-height: 1.45;
+        margin: 0 0 18px;
+      }
+
+      .mini-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 12px;
+      }
+
+      .mini {
+        border: 1px solid var(--line);
+        background: var(--soft);
+        border-radius: 8px;
+        padding: 14px;
+      }
+
+      .mini strong {
+        display: block;
+        font-size: 24px;
+        margin-bottom: 4px;
+        overflow-wrap: anywhere;
+      }
+
+      .mini span {
+        color: var(--muted);
+        font-size: 13px;
+      }
+
+      section {
+        padding: 34px 0;
+        border-top: 1px solid var(--line);
+      }
+
+      .section-head {
+        display: flex;
+        justify-content: space-between;
+        gap: 24px;
+        align-items: end;
+        margin-bottom: 18px;
+      }
+
+      h2 {
+        font-size: clamp(28px, 4vw, 46px);
+        margin: 0;
+        letter-spacing: 0;
+      }
+
+      .section-head p {
+        color: var(--muted);
+        line-height: 1.5;
+        max-width: 560px;
+        margin: 0;
+      }
+
+      .form-grid, .grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 14px;
+      }
+
+      .field, .item {
+        background: var(--panel);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 18px;
+      }
+
+      label {
+        display: block;
+        font-weight: 800;
+        margin-bottom: 8px;
+      }
+
+      input, select, textarea {
+        width: 100%;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: #fff;
+        color: var(--ink);
+        font: inherit;
+        padding: 0 12px;
+      }
+
+      input, select {
+        min-height: 42px;
+      }
+
+      .field textarea {
+        min-height: 92px;
+        padding: 12px;
+        resize: vertical;
+      }
+
+      .report {
+        min-height: 360px;
+        padding: 14px;
+        resize: vertical;
+        font: 13px/1.45 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+      }
+
+      .field p, .item p {
+        color: var(--muted);
+        line-height: 1.45;
+        margin: 10px 0 0;
+      }
+
+      .item h3 {
+        margin: 0 0 10px;
+        font-size: 20px;
+      }
+
+      .notice {
+        border-left: 4px solid var(--gold);
+        background: var(--panel);
+        color: var(--muted);
+        padding: 18px 20px;
+        line-height: 1.55;
+      }
+
+      .status {
+        color: var(--accent);
+        font-weight: 800;
+        margin-top: 12px;
+        min-height: 22px;
+      }
+
+      footer {
+        color: var(--muted);
+        padding: 36px 0 48px;
+      }
+
+      @media (max-width: 980px) {
+        .hero, .form-grid, .grid {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      @media (max-width: 720px) {
+        header {
+          align-items: flex-start;
+          flex-direction: column;
+          gap: 14px;
+          padding: 18px 0;
+        }
+
+        .hero {
+          padding-top: 44px;
+        }
+
+        .section-head {
+          display: block;
+        }
+
+        .section-head p {
+          margin-top: 10px;
+        }
+
+        .mini-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a class="brand" href="index.html">Agent Ops Command Center</a>
+      <nav aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="ops-maturity-check.html">Maturity</a>
+        <a href="cost-leak-audit.html">Cost</a>
+        <a href="buyer-decision-matrix.html">Decision</a>
+        <a href="purchase-approval-brief.html">Approval</a>
+        <a href="buyer-intake.html">Intake</a>
+        <a href="run-log-builder.html">Builder</a>
+        <a href="sample-dashboard.html">Sample</a>
+        <a href="roi-calculator.html">ROI</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="order-intent.html">Intent</a>
+      </nav>
+    </header>
+
+    <main>
+      <div class="hero">
+        <div>
+          <div class="eyebrow">Free buyer intake builder</div>
+          <h1>Turn buyer interest into a clean intake.</h1>
+          <p class="lead">Capture tools, recurring agent pain, cleanup cost, checkout preference, receipt needs, and blockers before a paid channel exists.</p>
+          <div class="actions">
+            <a class="button primary" href="order-intent.html">Prepare order intent</a>
+            <a class="button" href="buyer-intake-packet.md">Markdown packet</a>
+            <a class="button" href="purchase-approval-brief.html">Approval brief</a>
+            <a class="button" href="https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.8-preview">Preview release</a>
+          </div>
+        </div>
+        <aside class="intake-card" aria-label="Buyer intake summary">
+          <div class="fit" id="fitScore">74</div>
+          <p id="summaryLine">Good fit. The buyer has recurring agent work and a clear checkout preference.</p>
+          <div class="mini-grid">
+            <div class="mini">
+              <strong id="buyerValue">Solo builder</strong>
+              <span>buyer or team</span>
+            </div>
+            <div class="mini">
+              <strong id="toolsValue">Codex</strong>
+              <span>primary tools</span>
+            </div>
+            <div class="mini">
+              <strong id="costValue">$60/wk</strong>
+              <span>cleanup cost</span>
+            </div>
+            <div class="mini">
+              <strong id="intentValue">Ready</strong>
+              <span>purchase timing</span>
+            </div>
+          </div>
+        </aside>
+      </div>
+
+      <section>
+        <div class="section-head">
+          <h2>Buyer Details</h2>
+          <p>Use one real buyer or team. The output can be copied into an early-access issue, support reply, or sales follow-up.</p>
+        </div>
+        <div class="form-grid">
+          <div class="field">
+            <label for="buyer">Buyer or team</label>
+            <input id="buyer" value="Solo builder">
+            <p>Name the person or team requesting access.</p>
+          </div>
+          <div class="field">
+            <label for="tools">Primary agent tools</label>
+            <input id="tools" value="Codex, Claude Code, Cursor">
+            <p>List the agents or coding assistants used regularly.</p>
+          </div>
+          <div class="field">
+            <label for="tracking">Current tracking system</label>
+            <select id="tracking">
+              <option>Notion</option>
+              <option>Spreadsheet</option>
+              <option selected>Chat only</option>
+              <option>Issue tracker</option>
+              <option>None</option>
+            </select>
+            <p>Existing system for run history and proof.</p>
+          </div>
+          <div class="field">
+            <label for="problem">Recurring agent problem</label>
+            <textarea id="problem">Agent runs lose scope, proof, and handoff context after chat ends.</textarea>
+            <p>Describe the repeated workflow pain.</p>
+          </div>
+          <div class="field">
+            <label for="cost">Current cleanup cost per week</label>
+            <select id="cost">
+              <option>$0</option>
+              <option>$15</option>
+              <option>$30</option>
+              <option selected>$60</option>
+              <option>$120+</option>
+            </select>
+            <p>Estimate time spent reconstructing or proving work.</p>
+          </div>
+          <div class="field">
+            <label for="surface">Most useful pack surface</label>
+            <select id="surface">
+              <option>Run log</option>
+              <option>Verification ledger</option>
+              <option>Handoff packet</option>
+              <option>Revenue proof</option>
+              <option>PR review</option>
+              <option selected>Delivery and checkout readiness</option>
+            </select>
+            <p>Choose the first template they would use.</p>
+          </div>
+          <div class="field">
+            <label for="checkout">Preferred checkout</label>
+            <select id="checkout">
+              <option>Stripe</option>
+              <option>PayPal</option>
+              <option selected>Gumroad</option>
+              <option>Lemon Squeezy</option>
+              <option>Ko-fi</option>
+              <option>GitHub Sponsors</option>
+              <option>Invoice</option>
+            </select>
+            <p>This is preference only; checkout is not live yet.</p>
+          </div>
+          <div class="field">
+            <label for="receipt">Receipt requirement</label>
+            <select id="receipt">
+              <option selected>Receipt needed</option>
+              <option>No receipt needed</option>
+              <option>Invoice preferred</option>
+              <option>Company card receipt required</option>
+            </select>
+            <p>Useful for reimbursement or internal purchasing.</p>
+          </div>
+          <div class="field">
+            <label for="timing">Purchase timing</label>
+            <select id="timing">
+              <option selected>Ready to pay when checkout opens</option>
+              <option>This week</option>
+              <option>Later</option>
+              <option>Preview only for now</option>
+            </select>
+            <p>Record intent without treating it as revenue.</p>
+          </div>
+          <div class="field">
+            <label for="delivery">Delivery email or account</label>
+            <input id="delivery" value="Send after payment proof exists">
+            <p>Where the private ZIP should be delivered after proof.</p>
+          </div>
+          <div class="field">
+            <label for="blocker">Blocking question</label>
+            <textarea id="blocker">Which checkout will provide a receipt?</textarea>
+            <p>Capture the question that must be answered before payment.</p>
+          </div>
+          <div class="field">
+            <label for="support">Support needed</label>
+            <select id="support">
+              <option>No support needed</option>
+              <option selected>Setup guidance</option>
+              <option>Notion import help</option>
+              <option>CSV customization</option>
+              <option>Receipt and delivery proof</option>
+            </select>
+            <p>Keep support expectations explicit before delivery.</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-head">
+          <h2>Generated Intake</h2>
+          <p>Copy this into a buyer reply, GitHub order-intent issue, or internal demand log.</p>
+        </div>
+        <textarea class="report" id="report" readonly></textarea>
+        <div class="actions">
+          <button class="button primary" type="button" id="copyReport">Copy intake</button>
+          <a class="button" id="orderLink" href="order-intent.html">Use in order intent</a>
+          <a class="button" href="buyer-intake-packet.md">Markdown packet</a>
+          <a class="button" href="purchase-approval-brief.html">Approval brief</a>
+        </div>
+        <div class="status" id="copyStatus" aria-live="polite"></div>
+      </section>
+
+      <section>
+        <div class="section-head">
+          <h2>Fit Signals</h2>
+          <p>The builder favors recurring pain, meaningful cleanup cost, near-term intent, and a clear delivery path.</p>
+        </div>
+        <div class="grid">
+          <article class="item">
+            <h3>Good Fit</h3>
+            <p>Multiple agent runs per week, repeated proof gaps, checkout preference selected, and delivery details known.</p>
+          </article>
+          <article class="item">
+            <h3>Needs Follow-Up</h3>
+            <p>Receipt needs, support level, or payment channel are unclear enough to block a clean purchase.</p>
+          </article>
+          <article class="item">
+            <h3>Not Revenue</h3>
+            <p>Buyer intake is demand routing only. Payment evidence is still required before counting revenue.</p>
+          </article>
+        </div>
+      </section>
+
+      <section>
+        <h2>Revenue Rule</h2>
+        <div class="notice">
+          Buyer intake is not revenue. This page does not create checkout, prove payment, publish the paid ZIP, or count as revenue. Gross revenue is counted only from checkout, receipt, payout, or seller-dashboard evidence.
+        </div>
+        <div class="actions">
+          <a class="button primary" href="order-intent.html">Prepare order intent</a>
+          <a class="button" href="pricing.html">Pricing</a>
+          <a class="button" href="metrics/status.json">Demand metrics</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      Free buyer intake builder. Private paid ZIP. Revenue only after payment proof.
+    </footer>
+
+    <script>
+      const fieldIds = ["buyer", "tools", "tracking", "problem", "cost", "surface", "checkout", "receipt", "timing", "delivery", "blocker", "support"];
+      const report = document.getElementById("report");
+      const orderLink = document.getElementById("orderLink");
+      const status = document.getElementById("copyStatus");
+
+      function current() {
+        return Object.fromEntries(fieldIds.map((id) => [id, document.getElementById(id).value.trim()]));
+      }
+
+      function score(v) {
+        let total = 30;
+        const costNumber = Number((v.cost.match(/\d+/) || ["0"])[0]);
+        if (costNumber >= 60) total += 20;
+        else if (costNumber >= 30) total += 12;
+        if (/codex|claude|cursor|agent/i.test(v.tools)) total += 12;
+        if (/scope|proof|handoff|context|verification|delivery|checkout/i.test(v.problem)) total += 16;
+        if (/ready|this week/i.test(v.timing)) total += 12;
+        if (!/none|chat only/i.test(v.tracking)) total += 5;
+        if (!/which|unclear|unknown|\?/.test(v.blocker.toLowerCase())) total += 5;
+        return Math.min(100, total);
+      }
+
+      function labelFor(value) {
+        if (value >= 75) return "Good fit. The buyer has recurring agent work and a clear checkout preference.";
+        if (value >= 55) return "Qualified lead. Resolve blocker, then request order intent.";
+        return "Weak fit. Keep them on free preview until recurring pain is clearer.";
+      }
+
+      function shortTiming(timing) {
+        if (/ready/i.test(timing)) return "Ready";
+        if (/week/i.test(timing)) return "Week";
+        if (/later/i.test(timing)) return "Later";
+        return "Preview";
+      }
+
+      function render() {
+        const v = current();
+        const fit = score(v);
+        const buyer = v.buyer || "Buyer";
+        const tools = v.tools || "Not specified";
+        const problem = v.problem || "Not specified";
+        const checkout = v.checkout || "Not specified";
+        const timing = v.timing || "Not specified";
+
+        document.getElementById("fitScore").textContent = fit;
+        document.getElementById("summaryLine").textContent = labelFor(fit);
+        document.getElementById("buyerValue").textContent = buyer;
+        document.getElementById("toolsValue").textContent = tools.split(",")[0].trim() || tools;
+        document.getElementById("costValue").textContent = `${v.cost || "$0"}/wk`;
+        document.getElementById("intentValue").textContent = shortTiming(timing);
+
+        report.value = [
+          "# Agent Ops Command Center Buyer Intake",
+          "",
+          `Fit score: ${fit}/100`,
+          `Fit summary: ${labelFor(fit)}`,
+          `Price: $29`,
+          `Buyer / team: ${buyer}`,
+          `Primary agent tools: ${tools}`,
+          `Current tracking system: ${v.tracking || "Not specified"}`,
+          `Recurring agent problem: ${problem}`,
+          `Current cleanup cost per week: ${v.cost || "Not specified"}`,
+          `Most useful pack surface: ${v.surface || "Not specified"}`,
+          `Preferred checkout: ${checkout}`,
+          `Receipt requirement: ${v.receipt || "Not specified"}`,
+          `Purchase timing: ${timing}`,
+          `Delivery email or account: ${v.delivery || "Not specified"}`,
+          `Blocking question: ${v.blocker || "None"}`,
+          `Support needed: ${v.support || "Not specified"}`,
+          "",
+          "Recommended next step:",
+          fit >= 75 ? "- Ask buyer to open order intent when checkout preference is acceptable." : "- Resolve blocker and keep the buyer on the free preview until fit is clearer.",
+          "",
+          "Public preview: https://ivelly42.github.io/agent-ops-command-center/",
+          "Buyer intake builder: https://ivelly42.github.io/agent-ops-command-center/buyer-intake.html",
+          "Buyer intake packet: https://ivelly42.github.io/agent-ops-command-center/buyer-intake-packet.md",
+          "Order intent: https://ivelly42.github.io/agent-ops-command-center/order-intent.html",
+          "Pricing: https://ivelly42.github.io/agent-ops-command-center/pricing.html",
+          "Demand metrics: https://ivelly42.github.io/agent-ops-command-center/metrics/status.json",
+          "",
+          "Revenue rule: buyer intake is not revenue. Count revenue only when checkout, receipt, payout, or seller-dashboard evidence proves payment."
+        ].join("\n");
+
+        const params = new URLSearchParams({
+          buyer,
+          tools,
+          problem: `${problem} Preferred checkout: ${checkout}. Purchase timing: ${timing}.`
+        });
+        orderLink.href = `order-intent.html?${params.toString()}`;
+      }
+
+      for (const id of fieldIds) {
+        const field = document.getElementById(id);
+        field.addEventListener("input", render);
+        field.addEventListener("change", render);
+      }
+
+      document.getElementById("copyReport").addEventListener("click", async () => {
+        try {
+          await navigator.clipboard.writeText(report.value);
+          status.textContent = "Buyer intake copied.";
+        } catch {
+          report.select();
+          status.textContent = "Select and copy the buyer intake text.";
+        }
+      });
+
+      render();
+    </script>
+  </body>
+</html>

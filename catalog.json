@@ -6,13 +6,14 @@
   "sales_needed": 7,
   "status": "preview_live_no_paid_checkout",
   "homepage": "https://ivelly42.github.io/agent-ops-command-center/",
-  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.7-preview",
+  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.8-preview",
   "early_access_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml",
   "demand_metrics": "https://ivelly42.github.io/agent-ops-command-center/metrics/status.json",
   "template_gallery": "https://ivelly42.github.io/agent-ops-command-center/template-gallery.html",
   "ops_maturity_check": "https://ivelly42.github.io/agent-ops-command-center/ops-maturity-check.html",
   "cost_leak_audit_tool": "https://ivelly42.github.io/agent-ops-command-center/cost-leak-audit.html",
   "buyer_decision_matrix_tool": "https://ivelly42.github.io/agent-ops-command-center/buyer-decision-matrix.html",
+  "buyer_intake_builder": "https://ivelly42.github.io/agent-ops-command-center/buyer-intake.html",
   "purchase_approval_brief_builder": "https://ivelly42.github.io/agent-ops-command-center/purchase-approval-brief.html",
   "run_log_builder": "https://ivelly42.github.io/agent-ops-command-center/run-log-builder.html",
   "interactive_roi_calculator": "https://ivelly42.github.io/agent-ops-command-center/roi-calculator.html",
@@ -40,6 +41,10 @@
     {
       "title": "AI Agent Buyer Decision Matrix Tool",
       "url": "https://ivelly42.github.io/agent-ops-command-center/buyer-decision-matrix.html"
+    },
+    {
+      "title": "AI Agent Buyer Intake Builder",
+      "url": "https://ivelly42.github.io/agent-ops-command-center/buyer-intake.html"
     },
     {
       "title": "AI Agent Purchase Approval Brief Builder",

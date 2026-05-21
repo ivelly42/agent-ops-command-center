@@ -8,10 +8,11 @@ published publicly.
 
 - Early access request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml
 - Preview site: https://ivelly42.github.io/agent-ops-command-center/
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.7-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.8-preview
 - HTML template gallery: https://ivelly42.github.io/agent-ops-command-center/template-gallery.html
 - Ops maturity check: https://ivelly42.github.io/agent-ops-command-center/ops-maturity-check.html
 - Run log builder: https://ivelly42.github.io/agent-ops-command-center/run-log-builder.html
+- Buyer intake builder: https://ivelly42.github.io/agent-ops-command-center/buyer-intake.html
 - Sample dashboard: https://ivelly42.github.io/agent-ops-command-center/sample-dashboard.html
 - Interactive ROI calculator: https://ivelly42.github.io/agent-ops-command-center/roi-calculator.html
 - Order intent builder: https://ivelly42.github.io/agent-ops-command-center/order-intent.html
@@ -35,5 +36,6 @@ Useful public pages:
 - Run log builder: https://ivelly42.github.io/agent-ops-command-center/run-log-builder.html
 - Sample dashboard: https://ivelly42.github.io/agent-ops-command-center/sample-dashboard.html
 - ROI calculator: https://ivelly42.github.io/agent-ops-command-center/agent-ops-roi-calculator.md
+- Buyer intake builder: https://ivelly42.github.io/agent-ops-command-center/buyer-intake.html
 - Buyer decision matrix: https://ivelly42.github.io/agent-ops-command-center/buyer-decision-matrix.md
 - Checkout readiness FAQ: https://ivelly42.github.io/agent-ops-command-center/checkout-readiness-faq.md
