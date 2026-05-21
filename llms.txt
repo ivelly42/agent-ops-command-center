@@ -110,6 +110,12 @@ GitHub access review mirror Pages: https://ivelly42.github.io/ai-agent-access-re
 
 Use access review mirror as GitHub template: https://github.com/ivelly42/ai-agent-access-review-template/generate
 
+GitHub change approval mirror: https://github.com/ivelly42/ai-agent-change-approval-template
+
+GitHub change approval mirror Pages: https://ivelly42.github.io/ai-agent-change-approval-template/
+
+Use change approval mirror as GitHub template: https://github.com/ivelly42/ai-agent-change-approval-template/generate
+
 GitHub client delivery mirror: https://github.com/ivelly42/ai-agent-client-delivery-kit
 
 GitHub client delivery mirror Pages: https://ivelly42.github.io/ai-agent-client-delivery-kit/
@@ -411,6 +417,12 @@ AI agent access review mirror Pages: https://ivelly42.github.io/ai-agent-access-
 
 AI agent access review GitHub template: https://github.com/ivelly42/ai-agent-access-review-template/generate
 
+AI agent change approval GitHub mirror: https://github.com/ivelly42/ai-agent-change-approval-template
+
+AI agent change approval mirror Pages: https://ivelly42.github.io/ai-agent-change-approval-template/
+
+AI agent change approval GitHub template: https://github.com/ivelly42/ai-agent-change-approval-template/generate
+
 AI agent client delivery GitHub mirror: https://github.com/ivelly42/ai-agent-client-delivery-kit
 
 AI agent client delivery mirror Pages: https://ivelly42.github.io/ai-agent-client-delivery-kit/
@@ -441,7 +453,7 @@ Fast template pack request: https://github.com/ivelly42/agent-ops-command-center
 
 Fast template pack request page: https://ivelly42.github.io/agent-ops-command-center/template-pack-request.html
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.65-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.66-preview
 
 Sample run log CSV: https://ivelly42.github.io/agent-ops-command-center/sample/run_log_sample.csv
 
