@@ -14,6 +14,8 @@ GitHub ROI calculator mirror: https://github.com/ivelly42/ai-agent-roi-calculato
 
 GitHub ROI calculator mirror Pages: https://ivelly42.github.io/ai-agent-roi-calculator-template/
 
+GitHub ROI calculator direct $203 request: https://ivelly42.github.io/ai-agent-roi-calculator-template/
+
 GitHub cost tracker mirror: https://github.com/ivelly42/ai-agent-cost-tracker-template
 
 GitHub cost tracker mirror Pages: https://ivelly42.github.io/ai-agent-cost-tracker-template/
@@ -233,6 +235,8 @@ AI agent ROI calculator GitHub mirror: https://github.com/ivelly42/ai-agent-roi-
 
 AI agent ROI calculator mirror Pages: https://ivelly42.github.io/ai-agent-roi-calculator-template/
 
+AI agent ROI calculator direct $203 request: https://ivelly42.github.io/ai-agent-roi-calculator-template/
+
 AI agent cost tracker GitHub mirror: https://github.com/ivelly42/ai-agent-cost-tracker-template
 
 AI agent cost tracker mirror Pages: https://ivelly42.github.io/ai-agent-cost-tracker-template/
@@ -271,7 +275,7 @@ GitHub issue index: https://github.com/ivelly42/agent-ops-command-center/issues/
 
 Early access request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.43-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.44-preview
 
 Sample run log CSV: https://ivelly42.github.io/agent-ops-command-center/sample/run_log_sample.csv
 
