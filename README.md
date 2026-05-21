@@ -42,6 +42,8 @@ Autoreply source: https://github.com/ivelly42/agent-ops-command-center/blob/main
 
 Order-intent autolabeling: prefilled payment-ready issues are automatically labeled `order-request`, `payment-ready`, and `order-autolabeled`.
 
+IndexNow automation: https://ivelly42.github.io/agent-ops-command-center/indexnow-automation.md
+
 Payment-ready npm/autoreply Discussion: https://github.com/ivelly42/agent-ops-command-center/discussions/10
 
 Fast team checkout request: [team-checkout-request.html](team-checkout-request.html)
@@ -345,7 +347,7 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.97-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.98-preview
 
 Sample files:
 

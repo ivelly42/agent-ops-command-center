@@ -1,7 +1,7 @@
 {
   "name": "Agent Ops Command Center",
   "description": "Notion and spreadsheet template pack for builders running AI coding agents.",
-  "version": "v5.97-preview",
+  "version": "v5.98-preview",
   "price_usd": 29,
   "individual_price_usd": 29,
   "team_license_price_usd": 203,
@@ -15,7 +15,7 @@
   "status": "preview_live_no_paid_checkout",
   "homepage": "https://ivelly42.github.io/agent-ops-command-center/",
   "social_image": "https://ivelly42.github.io/agent-ops-command-center/og.png",
-  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.97-preview",
+  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.98-preview",
   "early_access_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml",
   "template_pack_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml",
   "template_pack_request_page": "https://ivelly42.github.io/agent-ops-command-center/template-pack-request.html",
@@ -60,6 +60,27 @@
   "paid_zip_public": false,
   "revenue_rule": "Revenue is proven only by checkout, receipt, payout, or seller-dashboard evidence.",
   "public_assets": [
+    {
+      "title": "IndexNow Automation",
+      "url": "https://ivelly42.github.io/agent-ops-command-center/indexnow-automation.md",
+      "workflow": "https://github.com/ivelly42/agent-ops-command-center/blob/main/.github/workflows/indexnow.yml",
+      "submitted_urls": [
+        "https://ivelly42.github.io/agent-ops-command-center/",
+        "https://ivelly42.github.io/agent-ops-command-center/buy.html",
+        "https://ivelly42.github.io/agent-ops-command-center/pricing.html",
+        "https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html",
+        "https://ivelly42.github.io/agent-ops-command-center/discovery.html",
+        "https://ivelly42.github.io/agent-ops-command-center/catalog.json",
+        "https://ivelly42.github.io/agent-ops-command-center/feed.xml",
+        "https://ivelly42.github.io/agent-ops-command-center/github-preview-index.md",
+        "https://ivelly42.github.io/agent-ops-command-center/npm-preview.md",
+        "https://ivelly42.github.io/agent-ops-command-center/order-autoreply.md",
+        "https://ivelly42.github.io/agent-ops-command-center/indexnow-automation.md",
+        "https://ivelly42.github.io/agent-ops-command-center/metrics/status.json"
+      ],
+      "request_url": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml",
+      "revenue_rule": "IndexNow submission is not revenue. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence."
+    },
     {
       "title": "Order Intent Autolabeling",
       "url": "https://ivelly42.github.io/agent-ops-command-center/order-autoreply.md",
@@ -888,7 +909,7 @@
   "npm_github_install_preview": {
     "command": "npx github:ivelly42/agent-ops-command-center --json",
     "package_name": "agent-ops-command-center",
-    "package_version": "0.5.97",
+    "package_version": "0.5.98",
     "bin": [
       "agent-ops-command-center",
       "agent-ops"
@@ -943,5 +964,27 @@
     ],
     "request_url": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml",
     "revenue_rule": "Autolabeling demand signals is not revenue. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence."
+  },
+  "indexnow_automation": {
+    "updated_at_kst": "2026-05-22 03:19",
+    "workflow": "https://github.com/ivelly42/agent-ops-command-center/blob/main/.github/workflows/indexnow.yml",
+    "docs": "https://ivelly42.github.io/agent-ops-command-center/indexnow-automation.md",
+    "schedule": "daily at 03:41 UTC plus workflow_dispatch",
+    "key_location": "https://ivelly42.github.io/agent-ops-command-center/b18a9177af0e03eb7a80a5ace792472641b328df9a607f1f55db81b7098e5656.txt",
+    "submitted_urls": [
+      "https://ivelly42.github.io/agent-ops-command-center/",
+      "https://ivelly42.github.io/agent-ops-command-center/buy.html",
+      "https://ivelly42.github.io/agent-ops-command-center/pricing.html",
+      "https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html",
+      "https://ivelly42.github.io/agent-ops-command-center/discovery.html",
+      "https://ivelly42.github.io/agent-ops-command-center/catalog.json",
+      "https://ivelly42.github.io/agent-ops-command-center/feed.xml",
+      "https://ivelly42.github.io/agent-ops-command-center/github-preview-index.md",
+      "https://ivelly42.github.io/agent-ops-command-center/npm-preview.md",
+      "https://ivelly42.github.io/agent-ops-command-center/order-autoreply.md",
+      "https://ivelly42.github.io/agent-ops-command-center/indexnow-automation.md",
+      "https://ivelly42.github.io/agent-ops-command-center/metrics/status.json"
+    ],
+    "revenue_rule": "IndexNow submission is not revenue. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence."
   }
 }
