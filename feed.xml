@@ -5,8 +5,15 @@
     <link>https://ivelly42.github.io/agent-ops-command-center/</link>
     <description>Public preview updates for a Notion and spreadsheet template pack for builders running AI coding agents.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 21 May 2026 15:11:00 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 21 May 2026 15:25:00 +0900</lastBuildDate>
     <ttl>1440</ttl>
+    <item>
+      <title>AI Agent Team Value Calculator</title>
+      <link>https://ivelly42.github.io/agent-ops-command-center/team-value-calculator.html</link>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/team-value-calculator.html</guid>
+      <pubDate>Thu, 21 May 2026 15:25:00 +0900</pubDate>
+      <description>Team value calculator for estimating cleanup time avoided, repeated-failure cost avoided, payback days, and approval language for a $203 Agent Ops Command Center team license.</description>
+    </item>
     <item>
       <title>AI Agent Team Buyer FAQ</title>
       <link>https://ivelly42.github.io/agent-ops-command-center/team-buyer-faq.html</link>
