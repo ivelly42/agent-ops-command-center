@@ -2,7 +2,7 @@
   "openapi": "3.1.0",
   "info": {
     "title": "Agent Ops Command Center Commerce Actions",
-    "version": "0.5.117",
+    "version": "0.5.118",
     "description": "Read public product metadata and open the $203 team-license request path for Agent Ops Command Center. This API describes public static resources only; it does not process payment or prove revenue."
   },
   "servers": [
@@ -124,6 +124,44 @@
           }
         }
       }
+    },
+    "/agent-ops-command-center/.well-known/agent-routing.json": {
+      "get": {
+        "operationId": "readAgentRoutingManifest",
+        "summary": "Read agent routing manifest",
+        "description": "Returns Codex, Claude Code, Cursor, and generic AI-agent routes to the primary $203 team-license request plus machine-readable commerce metadata.",
+        "responses": {
+          "200": {
+            "description": "Agent routing manifest",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AgentRoutingManifest"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/agent-ops-command-center/agent-routing.json": {
+      "get": {
+        "operationId": "readAgentRoutingManifestAlias",
+        "summary": "Read agent routing manifest alias",
+        "description": "Alias for agents that cannot fetch project-scoped well-known paths.",
+        "responses": {
+          "200": {
+            "description": "Agent routing manifest",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AgentRoutingManifest"
+                }
+              }
+            }
+          }
+        }
+      }
     }
   },
   "components": {
@@ -215,6 +253,40 @@
             "type": "string"
           }
         }
+      },
+      "AgentRoutingManifest": {
+        "type": "object",
+        "required": [
+          "name",
+          "primary_offer",
+          "agent_routes",
+          "machine_actions",
+          "revenue_rule"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "primary_offer": {
+            "$ref": "#/components/schemas/Offer"
+          },
+          "agent_routes": {
+            "type": "object"
+          },
+          "machine_actions": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string",
+              "format": "uri"
+            }
+          },
+          "revenue_rule": {
+            "type": "string"
+          },
+          "fake_proof_prohibited": {
+            "type": "boolean"
+          }
+        }
       }
     }
   },
@@ -223,5 +295,6 @@
     "gross_price_usd": 203,
     "request_url": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html"
   },
-  "x-revenue-rule": "OpenAPI metadata is routing metadata, not revenue. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence."
+  "x-revenue-rule": "OpenAPI metadata is routing metadata, not revenue. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence.",
+  "x-agent-routing-manifest": "https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-routing.json"
 }

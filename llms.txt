@@ -8,6 +8,10 @@ Agent commerce metadata: https://ivelly42.github.io/agent-ops-command-center/.we
 
 Agent commerce metadata alias: https://ivelly42.github.io/agent-ops-command-center/agent-commerce.json
 
+Agent routing manifest: https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-routing.json
+
+Agent routing manifest alias: https://ivelly42.github.io/agent-ops-command-center/agent-routing.json
+
 AI plugin manifest: https://ivelly42.github.io/agent-ops-command-center/.well-known/ai-plugin.json
 
 AI plugin manifest alias: https://ivelly42.github.io/agent-ops-command-center/ai-plugin.json
@@ -67,6 +71,8 @@ NPM team request shortcut: `npx github:ivelly42/agent-ops-command-center --team-
 Package funding direct request: `npm fund agent-ops-command-center` -> https://ivelly42.github.io/agent-ops-command-center/team-request-url.html
 
 Agent commerce metadata: https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-commerce.json
+
+Agent routing manifest: https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-routing.json
 
 AI plugin manifest: https://ivelly42.github.io/agent-ops-command-center/.well-known/ai-plugin.json
 
@@ -721,7 +727,7 @@ Fast template pack request page: https://ivelly42.github.io/agent-ops-command-ce
 
 GitHub Sponsor button funding links: https://github.com/ivelly42/agent-ops-command-center/blob/main/.github/FUNDING.yml
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.117-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.118-preview
 
 Sample run log CSV: https://ivelly42.github.io/agent-ops-command-center/sample/run_log_sample.csv
 

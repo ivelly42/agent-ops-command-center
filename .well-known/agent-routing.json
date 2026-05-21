@@ -1,0 +1,60 @@
+{
+  "name": "Agent Ops Command Center",
+  "type": "agent_routing_manifest",
+  "schema_version": "2026-05-22",
+  "updated_at_kst": "2026-05-22 05:55",
+  "canonical_url": "https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-routing.json",
+  "alternate_urls": [
+    "https://ivelly42.github.io/agent-ops-command-center/agent-routing.json",
+    "https://ivelly42.github.io/agent-ops-command-center/AGENTS.md",
+    "https://ivelly42.github.io/agent-ops-command-center/CLAUDE.md",
+    "https://github.com/ivelly42/agent-ops-command-center/blob/main/AGENTS.md",
+    "https://github.com/ivelly42/agent-ops-command-center/blob/main/CLAUDE.md"
+  ],
+  "primary_offer": {
+    "name": "Team license - 7 seats",
+    "gross_price_usd": 203,
+    "target_revenue_usd": 200,
+    "target_reached_by": "one confirmed $203 team-license payment",
+    "request_url": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
+    "request_package": "Team license - 7 seats - $203 gross"
+  },
+  "agent_routes": {
+    "codex": {
+      "instructions": "https://github.com/ivelly42/agent-ops-command-center/blob/main/AGENTS.md",
+      "pages_instructions": "https://ivelly42.github.io/agent-ops-command-center/AGENTS.md",
+      "primary_action": "open_primary_team_request"
+    },
+    "claude_code": {
+      "instructions": "https://github.com/ivelly42/agent-ops-command-center/blob/main/CLAUDE.md",
+      "pages_instructions": "https://ivelly42.github.io/agent-ops-command-center/CLAUDE.md",
+      "primary_action": "open_primary_team_request"
+    },
+    "cursor": {
+      "instructions": "https://github.com/ivelly42/agent-ops-command-center/blob/main/AGENTS.md",
+      "pages_instructions": "https://ivelly42.github.io/agent-ops-command-center/AGENTS.md",
+      "primary_action": "open_primary_team_request"
+    },
+    "generic_ai_agent": {
+      "instructions": "https://ivelly42.github.io/agent-ops-command-center/agent-routing.json",
+      "primary_action": "open_primary_team_request"
+    }
+  },
+  "machine_actions": {
+    "open_primary_team_request": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
+    "open_payment_ready_issue": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml",
+    "read_agent_commerce": "https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-commerce.json",
+    "read_ai_plugin": "https://ivelly42.github.io/agent-ops-command-center/.well-known/ai-plugin.json",
+    "read_openapi": "https://ivelly42.github.io/agent-ops-command-center/openapi.json",
+    "read_buy_intent": "https://ivelly42.github.io/agent-ops-command-center/ai-buy-intent.json",
+    "read_catalog": "https://ivelly42.github.io/agent-ops-command-center/catalog.json",
+    "read_metrics": "https://ivelly42.github.io/agent-ops-command-center/metrics/status.json"
+  },
+  "fulfillment": {
+    "paid_zip_public": false,
+    "public_preview_only": true,
+    "delivery_after": "checkout, receipt, payout, or seller-dashboard proof"
+  },
+  "revenue_rule": "Agent routing metadata is discovery metadata, not revenue. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence. Do not count generated request URLs, issues, discussions, stars, forks, views, release downloads, or funding-link clicks as revenue.",
+  "fake_proof_prohibited": true
+}

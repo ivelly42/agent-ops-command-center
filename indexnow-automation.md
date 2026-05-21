@@ -16,6 +16,8 @@ Submitted surfaces:
 - Discovery hub: https://ivelly42.github.io/agent-ops-command-center/discovery.html
 - Agent routing instructions: https://ivelly42.github.io/agent-ops-command-center/AGENTS.md
 - Claude routing instructions: https://ivelly42.github.io/agent-ops-command-center/CLAUDE.md
+- Agent routing manifest: https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-routing.json
+- Agent routing manifest alias: https://ivelly42.github.io/agent-ops-command-center/agent-routing.json
 - Agent commerce metadata: https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-commerce.json
 - Agent commerce metadata alias: https://ivelly42.github.io/agent-ops-command-center/agent-commerce.json
 - AI plugin manifest: https://ivelly42.github.io/agent-ops-command-center/.well-known/ai-plugin.json

@@ -1,7 +1,7 @@
 {
   "name": "Agent Ops Command Center",
   "type": "ai_agent_template_pack_buy_intent",
-  "updated_at_kst": "2026-05-22 05:10",
+  "updated_at_kst": "2026-05-22 05:55",
   "agent_commerce_metadata": "https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-commerce.json",
   "plugin_manifest": "https://ivelly42.github.io/agent-ops-command-center/.well-known/ai-plugin.json",
   "openapi": "https://ivelly42.github.io/agent-ops-command-center/openapi.json",
@@ -25,12 +25,14 @@
     "payment_ready_issue": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml",
     "buy_page": "https://ivelly42.github.io/agent-ops-command-center/buy.html",
     "catalog": "https://ivelly42.github.io/agent-ops-command-center/catalog.json",
-    "metrics": "https://ivelly42.github.io/agent-ops-command-center/metrics/status.json"
+    "metrics": "https://ivelly42.github.io/agent-ops-command-center/metrics/status.json",
+    "agent_routing_manifest": "https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-routing.json"
   },
   "delivery_boundary": {
     "paid_zip_public": false,
     "delivery_after": "checkout, receipt, payout, or seller-dashboard proof",
     "public_preview_only": true
   },
-  "revenue_rule": "Count revenue only after checkout, receipt, payout, or seller-dashboard evidence. Do not count generated request URLs, issues, discussions, stars, forks, views, release downloads, or funding-link clicks as revenue."
+  "revenue_rule": "Count revenue only after checkout, receipt, payout, or seller-dashboard evidence. Do not count generated request URLs, issues, discussions, stars, forks, views, release downloads, or funding-link clicks as revenue.",
+  "agent_routing_manifest": "https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-routing.json"
 }

@@ -19,6 +19,10 @@ Agent-Routing: https://ivelly42.github.io/agent-ops-command-center/AGENTS.md
 
 Claude-Routing: https://ivelly42.github.io/agent-ops-command-center/CLAUDE.md
 
+Agent-Routing-Manifest: https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-routing.json
+
+Agent-Routing-Manifest-Alias: https://ivelly42.github.io/agent-ops-command-center/agent-routing.json
+
 OpenAPI: https://ivelly42.github.io/agent-ops-command-center/openapi.json
 
 OpenAPI-Well-Known: https://ivelly42.github.io/agent-ops-command-center/.well-known/openapi.json

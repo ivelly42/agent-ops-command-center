@@ -62,6 +62,8 @@ The pack breaks even if it prevents roughly one hour of cleanup time for a build
 - Package funding direct request: https://ivelly42.github.io/agent-ops-command-center/team-request-url.html
 - Agent commerce metadata: https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-commerce.json
 - Agent commerce metadata alias: https://ivelly42.github.io/agent-ops-command-center/agent-commerce.json
+- Agent routing manifest: https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-routing.json
+- Agent routing manifest alias: https://ivelly42.github.io/agent-ops-command-center/agent-routing.json
 - AI plugin manifest: https://ivelly42.github.io/agent-ops-command-center/.well-known/ai-plugin.json
 - AI plugin manifest alias: https://ivelly42.github.io/agent-ops-command-center/ai-plugin.json
 - Agent routing instructions: https://github.com/ivelly42/agent-ops-command-center/blob/main/AGENTS.md
@@ -148,7 +150,7 @@ The pack breaks even if it prevents roughly one hour of cleanup time for a build
 - Run log template: https://ivelly42.github.io/agent-ops-command-center/codex-claude-run-log-template.md
 - Failure RCA template: https://ivelly42.github.io/agent-ops-command-center/failure-rca-template.md
 - Preflight checklist: https://ivelly42.github.io/agent-ops-command-center/checklist.md
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.117-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.118-preview
 - Buy page: https://ivelly42.github.io/agent-ops-command-center/buy.html
 - Payment-ready issue form: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml
 - Payment-ready buy CTA: https://ivelly42.github.io/agent-ops-command-center/buy.html
