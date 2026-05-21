@@ -15,9 +15,9 @@ AI-Plugin: https://ivelly42.github.io/agent-ops-command-center/.well-known/ai-pl
 
 AI-Plugin-Alias: https://ivelly42.github.io/agent-ops-command-center/ai-plugin.json
 
-Agent-Routing: https://github.com/ivelly42/agent-ops-command-center/blob/main/AGENTS.md
+Agent-Routing: https://ivelly42.github.io/agent-ops-command-center/AGENTS.md
 
-Claude-Routing: https://github.com/ivelly42/agent-ops-command-center/blob/main/CLAUDE.md
+Claude-Routing: https://ivelly42.github.io/agent-ops-command-center/CLAUDE.md
 
 OpenAPI: https://ivelly42.github.io/agent-ops-command-center/openapi.json
 

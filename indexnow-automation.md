@@ -14,8 +14,8 @@ Submitted surfaces:
 - Fast team checkout request: https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html
 - Prefilled team request URL: https://ivelly42.github.io/agent-ops-command-center/team-request-url.html
 - Discovery hub: https://ivelly42.github.io/agent-ops-command-center/discovery.html
-- Agent routing instructions: https://github.com/ivelly42/agent-ops-command-center/blob/main/AGENTS.md
-- Claude routing instructions: https://github.com/ivelly42/agent-ops-command-center/blob/main/CLAUDE.md
+- Agent routing instructions: https://ivelly42.github.io/agent-ops-command-center/AGENTS.md
+- Claude routing instructions: https://ivelly42.github.io/agent-ops-command-center/CLAUDE.md
 - Agent commerce metadata: https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-commerce.json
 - Agent commerce metadata alias: https://ivelly42.github.io/agent-ops-command-center/agent-commerce.json
 - AI plugin manifest: https://ivelly42.github.io/agent-ops-command-center/.well-known/ai-plugin.json
