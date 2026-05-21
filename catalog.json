@@ -1,7 +1,7 @@
 {
   "name": "Agent Ops Command Center",
   "description": "Notion and spreadsheet template pack for builders running AI coding agents.",
-  "version": "v5.45-preview",
+  "version": "v5.46-preview",
   "price_usd": 29,
   "individual_price_usd": 29,
   "team_license_price_usd": 203,
@@ -13,7 +13,7 @@
   "status": "preview_live_no_paid_checkout",
   "homepage": "https://ivelly42.github.io/agent-ops-command-center/",
   "social_image": "https://ivelly42.github.io/agent-ops-command-center/og.png",
-  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.45-preview",
+  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.46-preview",
   "early_access_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml",
   "fast_team_checkout_request": "https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html",
   "buyer_reply_kit": "https://ivelly42.github.io/agent-ops-command-center/buyer-reply-kit.html",
@@ -76,6 +76,11 @@
       "title": "AI Agent ROI Calculator Mirror Page",
       "url": "https://ivelly42.github.io/ai-agent-roi-calculator-template/",
       "repository": "https://github.com/ivelly42/ai-agent-roi-calculator-template"
+    },
+    {
+      "title": "AI Agent Procurement Mirror Page",
+      "url": "https://ivelly42.github.io/ai-agent-procurement-template/",
+      "repository": "https://github.com/ivelly42/ai-agent-procurement-template"
     },
     {
       "title": "AI Coding Agent Run Log Mirror Page",
@@ -262,11 +267,15 @@
   "github_roi_calculator_mirror_pages": "https://ivelly42.github.io/ai-agent-roi-calculator-template/",
   "github_roi_calculator_mirror": "https://github.com/ivelly42/ai-agent-roi-calculator-template",
   "github_roi_calculator_direct_request": "https://ivelly42.github.io/ai-agent-roi-calculator-template/",
+  "github_procurement_mirror_pages": "https://ivelly42.github.io/ai-agent-procurement-template/",
+  "github_procurement_mirror": "https://github.com/ivelly42/ai-agent-procurement-template",
   "github_cost_tracker_mirror_pages": "https://ivelly42.github.io/ai-agent-cost-tracker-template/",
   "github_cost_tracker_mirror": "https://github.com/ivelly42/ai-agent-cost-tracker-template",
   "github_client_delivery_mirror_pages": "https://ivelly42.github.io/ai-agent-client-delivery-kit/",
   "github_client_delivery_mirror": "https://github.com/ivelly42/ai-agent-client-delivery-kit",
   "external_discovery_channels": [
+    "https://ivelly42.github.io/ai-agent-procurement-template/",
+    "https://github.com/ivelly42/ai-agent-procurement-template",
     "https://ivelly42.github.io/ai-agent-roi-calculator-template/",
     "https://github.com/ivelly42/ai-agent-roi-calculator-template",
     "https://ivelly42.github.io/ai-agent-cost-tracker-template/",

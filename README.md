@@ -22,6 +22,10 @@ GitHub ROI calculator mirror Pages: https://ivelly42.github.io/ai-agent-roi-calc
 
 GitHub ROI calculator direct $203 request: https://ivelly42.github.io/ai-agent-roi-calculator-template/
 
+GitHub procurement mirror: https://github.com/ivelly42/ai-agent-procurement-template
+
+GitHub procurement mirror Pages: https://ivelly42.github.io/ai-agent-procurement-template/
+
 GitHub cost tracker mirror: https://github.com/ivelly42/ai-agent-cost-tracker-template
 
 GitHub cost tracker mirror Pages: https://ivelly42.github.io/ai-agent-cost-tracker-template/
@@ -135,7 +139,7 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.45-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.46-preview
 
 Sample files:
 
@@ -178,6 +182,8 @@ Sample files:
 - [GitHub ROI calculator mirror Pages](https://ivelly42.github.io/ai-agent-roi-calculator-template/)
 - [GitHub ROI calculator mirror](https://github.com/ivelly42/ai-agent-roi-calculator-template)
 - [GitHub ROI calculator direct $203 request](https://ivelly42.github.io/ai-agent-roi-calculator-template/)
+- [GitHub procurement mirror Pages](https://ivelly42.github.io/ai-agent-procurement-template/)
+- [GitHub procurement mirror](https://github.com/ivelly42/ai-agent-procurement-template)
 - [GitHub cost tracker mirror Pages](https://ivelly42.github.io/ai-agent-cost-tracker-template/)
 - [GitHub cost tracker mirror](https://github.com/ivelly42/ai-agent-cost-tracker-template)
 - [GitHub verification ledger mirror Pages](https://ivelly42.github.io/ai-agent-verification-ledger-template/)
