@@ -68,6 +68,12 @@ GitHub run log mirror: https://github.com/ivelly42/ai-coding-agent-run-log-templ
 
 GitHub run log mirror Pages: https://ivelly42.github.io/ai-coding-agent-run-log-template/
 
+GitHub runbook mirror: https://github.com/ivelly42/ai-coding-agent-runbook-template
+
+GitHub runbook mirror Pages: https://ivelly42.github.io/ai-coding-agent-runbook-template/
+
+Use runbook mirror as GitHub template: https://github.com/ivelly42/ai-coding-agent-runbook-template/generate
+
 GitHub client delivery mirror: https://github.com/ivelly42/ai-agent-client-delivery-kit
 
 GitHub client delivery mirror Pages: https://ivelly42.github.io/ai-agent-client-delivery-kit/
@@ -327,6 +333,12 @@ AI coding agent run log GitHub mirror: https://github.com/ivelly42/ai-coding-age
 
 AI coding agent run log mirror Pages: https://ivelly42.github.io/ai-coding-agent-run-log-template/
 
+AI coding agent runbook GitHub mirror: https://github.com/ivelly42/ai-coding-agent-runbook-template
+
+AI coding agent runbook mirror Pages: https://ivelly42.github.io/ai-coding-agent-runbook-template/
+
+AI coding agent runbook GitHub template: https://github.com/ivelly42/ai-coding-agent-runbook-template/generate
+
 AI agent client delivery GitHub mirror: https://github.com/ivelly42/ai-agent-client-delivery-kit
 
 AI agent client delivery mirror Pages: https://ivelly42.github.io/ai-agent-client-delivery-kit/
@@ -357,7 +369,7 @@ Fast template pack request: https://github.com/ivelly42/agent-ops-command-center
 
 Fast template pack request page: https://ivelly42.github.io/agent-ops-command-center/template-pack-request.html
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.58-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.59-preview
 
 Sample run log CSV: https://ivelly42.github.io/agent-ops-command-center/sample/run_log_sample.csv
 

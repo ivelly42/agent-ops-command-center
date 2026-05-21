@@ -74,6 +74,12 @@ GitHub run log mirror: https://github.com/ivelly42/ai-coding-agent-run-log-templ
 
 GitHub run log mirror Pages: https://ivelly42.github.io/ai-coding-agent-run-log-template/
 
+GitHub runbook mirror: https://github.com/ivelly42/ai-coding-agent-runbook-template
+
+GitHub runbook mirror Pages: https://ivelly42.github.io/ai-coding-agent-runbook-template/
+
+Use runbook mirror as GitHub template: https://github.com/ivelly42/ai-coding-agent-runbook-template/generate
+
 GitHub client delivery mirror: https://github.com/ivelly42/ai-agent-client-delivery-kit
 
 GitHub client delivery mirror Pages: https://ivelly42.github.io/ai-agent-client-delivery-kit/
@@ -175,7 +181,7 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.58-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.59-preview
 
 Sample files:
 
@@ -244,6 +250,9 @@ Sample files:
 - [GitHub verification ledger mirror](https://github.com/ivelly42/ai-agent-verification-ledger-template)
 - [GitHub run log mirror Pages](https://ivelly42.github.io/ai-coding-agent-run-log-template/)
 - [GitHub run log mirror](https://github.com/ivelly42/ai-coding-agent-run-log-template)
+- [GitHub runbook mirror Pages](https://ivelly42.github.io/ai-coding-agent-runbook-template/)
+- [GitHub runbook mirror](https://github.com/ivelly42/ai-coding-agent-runbook-template)
+- [Use runbook mirror](https://github.com/ivelly42/ai-coding-agent-runbook-template/generate)
 - [GitHub client delivery mirror Pages](https://ivelly42.github.io/ai-agent-client-delivery-kit/)
 - [GitHub client delivery mirror](https://github.com/ivelly42/ai-agent-client-delivery-kit)
 - [Team purchase packet](team-purchase-packet.html)
