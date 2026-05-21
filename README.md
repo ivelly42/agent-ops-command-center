@@ -14,6 +14,12 @@ Buy page: [buy.html](buy.html)
 
 Payment-ready request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml
 
+Payment-ready buy CTA: https://ivelly42.github.io/agent-ops-command-center/buy.html
+
+Payment-ready pricing CTA: https://ivelly42.github.io/agent-ops-command-center/pricing.html
+
+Payment-ready team checkout CTA: https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html
+
 Payment-ready mirror: https://github.com/ivelly42/ai-agent-payment-ready-template
 
 Payment-ready mirror Pages: https://ivelly42.github.io/ai-agent-payment-ready-template/
@@ -309,7 +315,7 @@ Buyer reply kit: [buyer-reply-kit.html](buyer-reply-kit.html)
 
 Pricing: [pricing.html](pricing.html)
 
-Early access: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml
+Early access payment-ready request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml
 
 Support: [SUPPORT.md](SUPPORT.md)
 
@@ -337,7 +343,7 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.94-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.95-preview
 
 Sample files:
 
@@ -578,9 +584,9 @@ Paid pack contents:
 
 ## Order
 
-Payment checkout is not live yet. To record purchase intent, open an issue with the `order-request` template.
+Payment checkout is not live yet. To record payment-ready purchase intent, open an issue with the `payment-ready` template.
 
-Early access issue: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml
+Early access issue: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml
 
 Announcement discussion: https://github.com/ivelly42/agent-ops-command-center/discussions/1
 

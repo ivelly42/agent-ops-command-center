@@ -134,9 +134,12 @@ The pack breaks even if it prevents roughly one hour of cleanup time for a build
 - Run log template: https://ivelly42.github.io/agent-ops-command-center/codex-claude-run-log-template.md
 - Failure RCA template: https://ivelly42.github.io/agent-ops-command-center/failure-rca-template.md
 - Preflight checklist: https://ivelly42.github.io/agent-ops-command-center/checklist.md
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.94-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.95-preview
 - Buy page: https://ivelly42.github.io/agent-ops-command-center/buy.html
 - Payment-ready issue form: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml
+- Payment-ready buy CTA: https://ivelly42.github.io/agent-ops-command-center/buy.html
+- Payment-ready pricing CTA: https://ivelly42.github.io/agent-ops-command-center/pricing.html
+- Payment-ready team checkout CTA: https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html
 - GitHub Pages payment-ready mirror: https://ivelly42.github.io/ai-agent-payment-ready-template/
 - GitHub payment-ready mirror: https://github.com/ivelly42/ai-agent-payment-ready-template
 - Use payment-ready mirror: https://github.com/ivelly42/ai-agent-payment-ready-template/generate
@@ -282,10 +285,10 @@ The pack breaks even if it prevents roughly one hour of cleanup time for a build
 - Pricing: https://ivelly42.github.io/agent-ops-command-center/pricing.html
 - Demand metrics: https://ivelly42.github.io/agent-ops-command-center/metrics/status.json
 
-## Request Early Access
+## Request Payment-Ready Access
 
 The full paid pack is not published publicly. Checkout is not live yet.
 
-Early-access request:
+Payment-ready request:
 
-https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml
+https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml

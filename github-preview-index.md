@@ -2,13 +2,16 @@
 
 Public index for the Agent Ops Command Center preview.
 
-The full paid pack is not published publicly. This index links every public preview asset and the early-access request path.
+The full paid pack is not published publicly. This index links every public preview asset and the payment-ready request path.
 
 ## Public Preview Assets
 
 - Landing page: https://ivelly42.github.io/agent-ops-command-center/
 - Discovery hub: https://ivelly42.github.io/agent-ops-command-center/discovery.html
 - Payment-ready issue form: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml
+- Payment-ready buy CTA: https://ivelly42.github.io/agent-ops-command-center/buy.html
+- Payment-ready pricing CTA: https://ivelly42.github.io/agent-ops-command-center/pricing.html
+- Payment-ready team checkout CTA: https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html
 - GitHub Pages payment-ready mirror: https://ivelly42.github.io/ai-agent-payment-ready-template/
 - GitHub payment-ready mirror: https://github.com/ivelly42/ai-agent-payment-ready-template
 - Use payment-ready mirror: https://github.com/ivelly42/ai-agent-payment-ready-template/generate
@@ -204,9 +207,9 @@ The full paid pack is not published publicly. This index links every public prev
 - Fast template pack request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml
 - RSS feed: https://ivelly42.github.io/agent-ops-command-center/feed.xml
 - Machine-readable catalog: https://ivelly42.github.io/agent-ops-command-center/catalog.json
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.94-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.95-preview
 - Buy page: https://ivelly42.github.io/agent-ops-command-center/buy.html
-- Fast team checkout request: https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html
+- Payment-ready team checkout request: https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html
 - Fast template pack request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml
 - Fast template pack request page: https://ivelly42.github.io/agent-ops-command-center/template-pack-request.html
 - GitHub Sponsor button funding links: https://github.com/ivelly42/agent-ops-command-center/blob/main/.github/FUNDING.yml
@@ -355,8 +358,8 @@ The full paid pack is not published publicly. This index links every public prev
 | Verification Command Library | Choose proof that matches the changed behavior |
 | Notion Import Builder | Generate a Notion import plan for CSVs, templates, views, relations, and blockers |
 | Paid Delivery Manifest | Record paid delivery, archive digest, and buyer acknowledgement |
-| Buy Page | Focus early-access buyers on the $203 team request, proof links, and revenue-proof rule |
-| Fast Team Checkout Request | Open a prefilled $203 team-license request without the longer issue form |
+| Buy Page | Focus payment-ready buyers on the $203 team request, proof links, and revenue-proof rule |
+| Fast Team Checkout Request | Open a payment-ready $203 team-license request without the longer issue form |
 | Fast Template Pack Request | Short GitHub issue form for broad template-pack buyers and $203 team-license intent |
 | Fast Template Pack Request Page | HTML landing page for the short $203 template-pack request form |
 | GitHub Sponsor Button Funding Links | Expose buy, template request, team request, and issue-form URLs through `.github/FUNDING.yml` custom links |
@@ -429,12 +432,12 @@ The full paid pack is not published publicly. This index links every public prev
 | Codex vs Claude Code vs Cursor Picker | Choose agent owner, proof requirement, handoff packet, and stop condition before work starts |
 | Weekly Review | Improve agent workflow each week |
 
-## Early Access
+## Payment-Ready Access
 
 Target price: `$29`.
 
 Launch target: 7 paid orders = `$203` gross.
 
-Checkout is not live yet. Record purchase intent here:
+Checkout is not live yet. Record payment-ready purchase intent here:
 
-https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml
+https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml
