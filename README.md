@@ -28,6 +28,8 @@ Team buyer FAQ: [team-buyer-faq.html](team-buyer-faq.html)
 
 Team value calculator: [team-value-calculator.html](team-value-calculator.html)
 
+Team pilot plan: [team-pilot-plan.html](team-pilot-plan.html)
+
 Team license: [team-license.html](team-license.html)
 
 Team quote builder: [team-quote.html](team-quote.html)
@@ -101,7 +103,7 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.28-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.29-preview
 
 Sample files:
 
@@ -147,6 +149,7 @@ Sample files:
 - [Team delivery acceptance packet](team-delivery-acceptance.html)
 - [Team buyer FAQ](team-buyer-faq.html)
 - [Team value calculator](team-value-calculator.html)
+- [Team pilot plan](team-pilot-plan.html)
 - [Team license](team-license.html)
 - [Team quote builder](team-quote.html)
 - [Team approval brief](team-approval.html)

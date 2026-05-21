@@ -99,7 +99,7 @@ The full paid pack is not published publicly. This index links every public prev
 - GitHub issue index: https://github.com/ivelly42/agent-ops-command-center/issues/2
 - RSS feed: https://ivelly42.github.io/agent-ops-command-center/feed.xml
 - Machine-readable catalog: https://ivelly42.github.io/agent-ops-command-center/catalog.json
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.28-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.29-preview
 - Buy page: https://ivelly42.github.io/agent-ops-command-center/buy.html
 - Team purchase packet: https://ivelly42.github.io/agent-ops-command-center/team-purchase-packet.html
 - Team procurement email kit: https://ivelly42.github.io/agent-ops-command-center/team-procurement-email.html
@@ -154,6 +154,7 @@ The full paid pack is not published publicly. This index links every public prev
 | Team Delivery Acceptance Packet | Prepare delivery proof, archive digest, import target, acceptance gate, and acknowledgement language for a $203 team license |
 | Team Buyer FAQ | Answer price, checkout, receipt, security, delivery, support, refund, and revenue-proof objections for a $203 team license |
 | Team Value Calculator | Estimate cleanup time avoided, repeated-failure cost avoided, payback days, and approval value for a $203 team license |
+| Team Pilot Plan | Generate a 14-day pilot plan, acceptance gates, success criteria, and checkout request language for a $203 team license |
 | Team License | Offer one $203 seven-seat request path that can clear the $200 launch target with one paid checkout |
 | Team Quote Builder | Generate copy-ready quote and purchase-order notes for a seven-seat $203 request |
 | Team Approval Brief | Generate manager-ready approval text with quote, value, risk, and payment-proof gates |

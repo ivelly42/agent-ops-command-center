@@ -64,6 +64,8 @@ The pack breaks even if it prevents roughly one hour of cleanup time for a build
 - Team license terms packet: https://ivelly42.github.io/agent-ops-command-center/team-license-terms.html
 - Team delivery acceptance packet: https://ivelly42.github.io/agent-ops-command-center/team-delivery-acceptance.html
 - Team buyer FAQ: https://ivelly42.github.io/agent-ops-command-center/team-buyer-faq.html
+- Team value calculator: https://ivelly42.github.io/agent-ops-command-center/team-value-calculator.html
+- Team pilot plan: https://ivelly42.github.io/agent-ops-command-center/team-pilot-plan.html
 - Team license: https://ivelly42.github.io/agent-ops-command-center/team-license.html
 - Team quote builder: https://ivelly42.github.io/agent-ops-command-center/team-quote.html
 - Team approval brief: https://ivelly42.github.io/agent-ops-command-center/team-approval.html
@@ -131,7 +133,7 @@ The pack breaks even if it prevents roughly one hour of cleanup time for a build
 - Run log template: https://ivelly42.github.io/agent-ops-command-center/codex-claude-run-log-template.md
 - Failure RCA template: https://ivelly42.github.io/agent-ops-command-center/failure-rca-template.md
 - Preflight checklist: https://ivelly42.github.io/agent-ops-command-center/checklist.md
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.28-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.29-preview
 - Buy page: https://ivelly42.github.io/agent-ops-command-center/buy.html
 - Team purchase packet: https://ivelly42.github.io/agent-ops-command-center/team-purchase-packet.html
 - Team procurement email kit: https://ivelly42.github.io/agent-ops-command-center/team-procurement-email.html
@@ -141,6 +143,8 @@ The pack breaks even if it prevents roughly one hour of cleanup time for a build
 - Team license terms packet: https://ivelly42.github.io/agent-ops-command-center/team-license-terms.html
 - Team delivery acceptance packet: https://ivelly42.github.io/agent-ops-command-center/team-delivery-acceptance.html
 - Team buyer FAQ: https://ivelly42.github.io/agent-ops-command-center/team-buyer-faq.html
+- Team value calculator: https://ivelly42.github.io/agent-ops-command-center/team-value-calculator.html
+- Team pilot plan: https://ivelly42.github.io/agent-ops-command-center/team-pilot-plan.html
 - Team license: https://ivelly42.github.io/agent-ops-command-center/team-license.html
 - Team quote builder: https://ivelly42.github.io/agent-ops-command-center/team-quote.html
 - Team approval brief: https://ivelly42.github.io/agent-ops-command-center/team-approval.html
