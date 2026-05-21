@@ -182,6 +182,8 @@ GitHub software purchase request Discussion: https://github.com/ivelly42/agent-o
 
 GitHub budget request email Discussion: https://github.com/ivelly42/agent-ops-command-center/discussions/8
 
+GitHub budget request issue form: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=budget-request.yml
+
 GitHub client delivery mirror: https://github.com/ivelly42/ai-agent-client-delivery-kit
 
 GitHub client delivery mirror Pages: https://ivelly42.github.io/ai-agent-client-delivery-kit/
@@ -283,7 +285,7 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.78-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.79-preview
 
 Sample files:
 
@@ -406,6 +408,7 @@ Sample files:
 - [Use software purchase request mirror](https://github.com/ivelly42/ai-agent-software-purchase-request-template/generate)
 - [GitHub software purchase request Discussion](https://github.com/ivelly42/agent-ops-command-center/discussions/7)
 - [GitHub budget request email Discussion](https://github.com/ivelly42/agent-ops-command-center/discussions/8)
+- [GitHub budget request issue form](https://github.com/ivelly42/agent-ops-command-center/issues/new?template=budget-request.yml)
 - [GitHub client delivery mirror Pages](https://ivelly42.github.io/ai-agent-client-delivery-kit/)
 - [GitHub client delivery mirror](https://github.com/ivelly42/ai-agent-client-delivery-kit)
 - [Team purchase packet](team-purchase-packet.html)

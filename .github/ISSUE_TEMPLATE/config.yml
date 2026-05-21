@@ -1,5 +1,8 @@
 blank_issues_enabled: false
 contact_links:
+  - name: Budget request
+    url: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=budget-request.yml
+    about: Request the $203 team license after manager, budget, reimbursement, or procurement approval.
   - name: Fast template pack request
     url: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml
     about: Short request path for the $203 Agent Ops team license.

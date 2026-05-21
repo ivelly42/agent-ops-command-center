@@ -77,6 +77,7 @@ The full paid pack is not published publicly. This index links every public prev
 - Use software purchase request mirror: https://github.com/ivelly42/ai-agent-software-purchase-request-template/generate
 - GitHub software purchase request Discussion: https://github.com/ivelly42/agent-ops-command-center/discussions/7
 - GitHub budget request email Discussion: https://github.com/ivelly42/agent-ops-command-center/discussions/8
+- GitHub budget request issue form: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=budget-request.yml
 - GitHub Pages client delivery mirror: https://ivelly42.github.io/ai-agent-client-delivery-kit/
 - Team purchase packet: https://ivelly42.github.io/agent-ops-command-center/team-purchase-packet.html
 - Team procurement email kit: https://ivelly42.github.io/agent-ops-command-center/team-procurement-email.html
@@ -173,7 +174,7 @@ The full paid pack is not published publicly. This index links every public prev
 - Fast template pack request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml
 - RSS feed: https://ivelly42.github.io/agent-ops-command-center/feed.xml
 - Machine-readable catalog: https://ivelly42.github.io/agent-ops-command-center/catalog.json
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.78-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.79-preview
 - Buy page: https://ivelly42.github.io/agent-ops-command-center/buy.html
 - Fast team checkout request: https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html
 - Fast template pack request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml
@@ -261,6 +262,7 @@ The full paid pack is not published publicly. This index links every public prev
 - Use software purchase request mirror: https://github.com/ivelly42/ai-agent-software-purchase-request-template/generate
 - GitHub software purchase request Discussion: https://github.com/ivelly42/agent-ops-command-center/discussions/7
 - GitHub budget request email Discussion: https://github.com/ivelly42/agent-ops-command-center/discussions/8
+- GitHub budget request issue form: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=budget-request.yml
 - GitHub Pages client delivery mirror: https://ivelly42.github.io/ai-agent-client-delivery-kit/
 - GitHub client delivery mirror: https://github.com/ivelly42/ai-agent-client-delivery-kit
 - Revenue proof intake: https://ivelly42.github.io/agent-ops-command-center/revenue-proof.html
@@ -347,6 +349,7 @@ The full paid pack is not published publicly. This index links every public prev
 | Team Quote Builder | Generate copy-ready quote and purchase-order notes for a seven-seat $203 request |
 | Team Approval Brief | Generate manager-ready approval text with quote, value, risk, and payment-proof gates |
 | Budget Request Email Discussion | Route manager approval, reimbursement, budget request, and procurement email searches to the $203 team request path |
+| Budget Request Issue Form | Capture approved-budget buyers as order-request issues for the $203 team request path |
 | Claude Code Run Log Template | Search landing page for Claude Code prompts, scope, changed files, verification, review notes, and handoff |
 | AI Agent Run Log Template | Search landing page for run logging scope, files, verification proof, cost notes, failure signals, and handoff |
 | AI Coding Agent Notion Template | Search landing page for Codex, Claude Code, Cursor, sample dashboard, import planning, and buy request path |
