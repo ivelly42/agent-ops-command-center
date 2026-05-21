@@ -1,5 +1,8 @@
 blank_issues_enabled: false
 contact_links:
+  - name: Security review request
+    url: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=security-review.yml
+    about: Request security, data, access, compliance, delivery-proof, or payment-proof details for the $203 team license.
   - name: Vendor onboarding request
     url: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=vendor-onboarding.yml
     about: Request vendor setup, billing, tax, purchase-order, invoice, or procurement details for the $203 team license.

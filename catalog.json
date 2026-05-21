@@ -1,7 +1,7 @@
 {
   "name": "Agent Ops Command Center",
   "description": "Notion and spreadsheet template pack for builders running AI coding agents.",
-  "version": "v5.86-preview",
+  "version": "v5.87-preview",
   "price_usd": 29,
   "individual_price_usd": 29,
   "team_license_price_usd": 203,
@@ -15,7 +15,7 @@
   "status": "preview_live_no_paid_checkout",
   "homepage": "https://ivelly42.github.io/agent-ops-command-center/",
   "social_image": "https://ivelly42.github.io/agent-ops-command-center/og.png",
-  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.86-preview",
+  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.87-preview",
   "early_access_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml",
   "template_pack_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml",
   "template_pack_request_page": "https://ivelly42.github.io/agent-ops-command-center/template-pack-request.html",
@@ -322,7 +322,15 @@
     {
       "title": "AI Agent Security Review Mirror Page",
       "url": "https://ivelly42.github.io/ai-agent-security-review-template/",
-      "repository": "https://github.com/ivelly42/ai-agent-security-review-template"
+      "repository": "https://github.com/ivelly42/ai-agent-security-review-template",
+      "request_page": "https://ivelly42.github.io/agent-ops-command-center/team-security-review.html",
+      "request_url": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=security-review.yml"
+    },
+    {
+      "title": "AI Agent Security Review Issue Form",
+      "url": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=security-review.yml",
+      "request_page": "https://ivelly42.github.io/agent-ops-command-center/team-security-review.html",
+      "request_url": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=security-review.yml"
     },
     {
       "title": "AI Coding Agent Run Log Mirror Page",
@@ -546,6 +554,7 @@
   "github_procurement_mirror": "https://github.com/ivelly42/ai-agent-procurement-template",
   "github_security_review_mirror_pages": "https://ivelly42.github.io/ai-agent-security-review-template/",
   "github_security_review_mirror": "https://github.com/ivelly42/ai-agent-security-review-template",
+  "github_security_review_issue_form": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=security-review.yml",
   "github_cost_tracker_mirror_pages": "https://ivelly42.github.io/ai-agent-cost-tracker-template/",
   "github_cost_tracker_mirror": "https://github.com/ivelly42/ai-agent-cost-tracker-template",
   "github_client_delivery_mirror_pages": "https://ivelly42.github.io/ai-agent-client-delivery-kit/",
@@ -675,7 +684,8 @@
     "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=expense-report.yml",
     "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=quote-request.yml",
     "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=purchase-order.yml",
-    "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=vendor-onboarding.yml"
+    "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=vendor-onboarding.yml",
+    "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=security-review.yml"
   ],
   "github_access_review_mirror_pages": "https://ivelly42.github.io/ai-agent-access-review-template/",
   "github_access_review_mirror": "https://github.com/ivelly42/ai-agent-access-review-template",

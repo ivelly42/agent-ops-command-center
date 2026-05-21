@@ -1,0 +1,80 @@
+name: Security review request
+description: Request security, data, access, or compliance review details before checkout for the $203 Agent Ops team license
+title: "Security review request: Agent Ops Command Center"
+labels: ["order-request", "security-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Short request path for buyers who need security review, data boundary, access control, compliance note, delivery proof, or payment-proof details before paying.
+
+        Request package: Team license - 7 seats - $203 gross.
+        Individual seat target: $29.
+
+        Checkout is not live yet. This issue records purchase intent and preferred checkout. It is not counted as revenue until checkout, receipt, payout, or seller-dashboard evidence exists.
+
+        Security review packet: https://ivelly42.github.io/agent-ops-command-center/team-security-review.html
+        Security review mirror: https://ivelly42.github.io/ai-agent-security-review-template/
+        Vendor onboarding form: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=vendor-onboarding.yml
+        Purchase order form: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=purchase-order.yml
+        Fast team request page: https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html
+  - type: dropdown
+    id: package
+    attributes:
+      label: Request package
+      options:
+        - Team license - 7 seats - $203 gross
+        - Individual seat - $29
+        - Evaluating preview only
+    validations:
+      required: true
+  - type: dropdown
+    id: security_need
+    attributes:
+      label: Security review need
+      options:
+        - Need data boundary or access-control details
+        - Need security or compliance note
+        - Need delivery-proof details
+        - Need payment-proof or receipt details
+        - Need vendor or procurement security review
+    validations:
+      required: true
+  - type: dropdown
+    id: checkout
+    attributes:
+      label: Preferred checkout
+      options:
+        - Gumroad
+        - Ko-fi
+        - Lemon Squeezy
+        - PayPal invoice
+        - GitHub Sponsors
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: intent
+    attributes:
+      label: Purchase intent
+      options:
+        - I am ready to pay $203 for the 7-seat team license when checkout is ready
+        - I am ready to pay $29 when checkout is ready
+        - I need security, vendor, PO, or invoice details first
+        - I want to evaluate the preview first
+    validations:
+      required: true
+  - type: checkboxes
+    id: delivery
+    attributes:
+      label: Delivery acknowledgement
+      options:
+        - label: I understand the paid ZIP is not public and will be delivered only after checkout, receipt, payout, or seller-dashboard evidence exists.
+          required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      placeholder: Security reviewer, data boundary, access-control concern, compliance blocker, delivery proof need, payment proof need, or procurement deadline.
+    validations:
+      required: false

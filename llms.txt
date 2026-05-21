@@ -58,6 +58,8 @@ GitHub security review mirror: https://github.com/ivelly42/ai-agent-security-rev
 
 GitHub security review mirror Pages: https://ivelly42.github.io/ai-agent-security-review-template/
 
+GitHub security review issue form: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=security-review.yml
+
 GitHub cost tracker mirror: https://github.com/ivelly42/ai-agent-cost-tracker-template
 
 GitHub cost tracker mirror Pages: https://ivelly42.github.io/ai-agent-cost-tracker-template/
@@ -447,6 +449,8 @@ AI agent security review GitHub mirror: https://github.com/ivelly42/ai-agent-sec
 
 AI agent security review mirror Pages: https://ivelly42.github.io/ai-agent-security-review-template/
 
+AI agent security review issue form: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=security-review.yml
+
 AI agent cost tracker GitHub mirror: https://github.com/ivelly42/ai-agent-cost-tracker-template
 
 AI agent cost tracker mirror Pages: https://ivelly42.github.io/ai-agent-cost-tracker-template/
@@ -621,7 +625,7 @@ Fast template pack request page: https://ivelly42.github.io/agent-ops-command-ce
 
 GitHub Sponsor button funding links: https://github.com/ivelly42/agent-ops-command-center/blob/main/.github/FUNDING.yml
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.86-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.87-preview
 
 Sample run log CSV: https://ivelly42.github.io/agent-ops-command-center/sample/run_log_sample.csv
 
