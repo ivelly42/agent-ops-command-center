@@ -41,6 +41,7 @@ const links = {
   discovery: "https://ivelly42.github.io/agent-ops-command-center/discovery.html",
   buy: "https://ivelly42.github.io/agent-ops-command-center/buy.html",
   paymentReadyRequest: "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml",
+  packageFunding: "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
   teamRequestUrl: teamRequestUrl.toString(),
   teamCheckoutRequest: "https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html",
   catalog: "https://ivelly42.github.io/agent-ops-command-center/catalog.json",
@@ -64,7 +65,8 @@ const payload = {
   revenue_rule: "Count revenue only after checkout, receipt, payout, or seller-dashboard evidence.",
   commands: {
     team_request_url: "npx github:ivelly42/agent-ops-command-center --team-request-url",
-    team_request_markdown: "npx github:ivelly42/agent-ops-command-center --team-request-markdown"
+    team_request_markdown: "npx github:ivelly42/agent-ops-command-center --team-request-markdown",
+    package_funding: "npm fund agent-ops-command-center"
   },
   links
 };
@@ -106,6 +108,9 @@ ${links.paymentReadyRequest}
 
 Prefilled $203 team request:
 ${links.teamRequestUrl}
+
+Package funding URL:
+${links.packageFunding}
 
 Discovery hub:
 ${links.discovery}

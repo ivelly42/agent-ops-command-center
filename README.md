@@ -46,6 +46,8 @@ NPM GitHub install preview: `npx github:ivelly42/agent-ops-command-center --json
 
 NPM team request shortcut: `npx github:ivelly42/agent-ops-command-center --team-request-url`
 
+Package funding direct request: `npm fund agent-ops-command-center` -> https://ivelly42.github.io/agent-ops-command-center/team-request-url.html
+
 NPM team request CLI Discussion: https://github.com/ivelly42/agent-ops-command-center/discussions/11
 
 GitHub NPX team request mirror: https://github.com/ivelly42/ai-agent-npx-team-request-template
@@ -369,7 +371,7 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.111-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.112-preview
 
 Sample files:
 

@@ -40,6 +40,8 @@ NPM GitHub install preview: `npx github:ivelly42/agent-ops-command-center --json
 
 NPM team request shortcut: `npx github:ivelly42/agent-ops-command-center --team-request-url`
 
+Package funding direct request: `npm fund agent-ops-command-center` -> https://ivelly42.github.io/agent-ops-command-center/team-request-url.html
+
 NPM team request CLI Discussion: https://github.com/ivelly42/agent-ops-command-center/discussions/11
 
 GitHub NPX team request mirror: https://github.com/ivelly42/ai-agent-npx-team-request-template
@@ -685,7 +687,7 @@ Fast template pack request page: https://ivelly42.github.io/agent-ops-command-ce
 
 GitHub Sponsor button funding links: https://github.com/ivelly42/agent-ops-command-center/blob/main/.github/FUNDING.yml
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.111-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.112-preview
 
 Sample run log CSV: https://ivelly42.github.io/agent-ops-command-center/sample/run_log_sample.csv
 
