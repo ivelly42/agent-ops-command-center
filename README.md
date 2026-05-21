@@ -22,6 +22,8 @@ GitHub template pack mirror: https://github.com/ivelly42/ai-agent-ops-template-p
 
 GitHub template pack mirror Pages: https://ivelly42.github.io/ai-agent-ops-template-pack/
 
+Use template pack mirror as GitHub template: https://github.com/ivelly42/ai-agent-ops-template-pack/generate
+
 GitHub template pack Gist: https://gist.github.com/ivelly42/dac26c33334ab9b3367d2fc490c7aef5
 
 GitHub template pack Discussion: https://github.com/ivelly42/agent-ops-command-center/discussions/5
@@ -171,7 +173,7 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.55-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.56-preview
 
 Sample files:
 
@@ -214,6 +216,7 @@ Sample files:
 - [Discovery hub](discovery.html)
 - [GitHub template pack mirror Pages](https://ivelly42.github.io/ai-agent-ops-template-pack/)
 - [GitHub template pack mirror](https://github.com/ivelly42/ai-agent-ops-template-pack)
+- [Use template pack mirror](https://github.com/ivelly42/ai-agent-ops-template-pack/generate)
 - [GitHub template pack Gist](https://gist.github.com/ivelly42/dac26c33334ab9b3367d2fc490c7aef5)
 - [GitHub template pack Discussion](https://github.com/ivelly42/agent-ops-command-center/discussions/5)
 - [Client delivery kit](client-delivery-kit.html)

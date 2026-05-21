@@ -16,6 +16,8 @@ GitHub template pack mirror: https://github.com/ivelly42/ai-agent-ops-template-p
 
 GitHub template pack mirror Pages: https://ivelly42.github.io/ai-agent-ops-template-pack/
 
+Use template pack mirror as GitHub template: https://github.com/ivelly42/ai-agent-ops-template-pack/generate
+
 GitHub template pack Gist: https://gist.github.com/ivelly42/dac26c33334ab9b3367d2fc490c7aef5
 
 GitHub template pack Discussion: https://github.com/ivelly42/agent-ops-command-center/discussions/5
@@ -275,6 +277,8 @@ AI agent ops template pack GitHub mirror: https://github.com/ivelly42/ai-agent-o
 
 AI agent ops template pack mirror Pages: https://ivelly42.github.io/ai-agent-ops-template-pack/
 
+AI agent ops template pack GitHub template: https://github.com/ivelly42/ai-agent-ops-template-pack/generate
+
 AI agent ops template pack Gist: https://gist.github.com/ivelly42/dac26c33334ab9b3367d2fc490c7aef5
 
 AI agent ops template pack Discussion: https://github.com/ivelly42/agent-ops-command-center/discussions/5
@@ -349,7 +353,7 @@ Early access request: https://github.com/ivelly42/agent-ops-command-center/issue
 
 Fast template pack request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.55-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.56-preview
 
 Sample run log CSV: https://ivelly42.github.io/agent-ops-command-center/sample/run_log_sample.csv
 

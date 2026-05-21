@@ -10,6 +10,7 @@ The full paid pack is not published publicly. This index links every public prev
 - Discovery hub: https://ivelly42.github.io/agent-ops-command-center/discovery.html
 - GitHub Pages template pack mirror: https://ivelly42.github.io/ai-agent-ops-template-pack/
 - GitHub template pack mirror: https://github.com/ivelly42/ai-agent-ops-template-pack
+- Use template pack mirror: https://github.com/ivelly42/ai-agent-ops-template-pack/generate
 - GitHub template pack Gist: https://gist.github.com/ivelly42/dac26c33334ab9b3367d2fc490c7aef5
 - GitHub template pack Discussion: https://github.com/ivelly42/agent-ops-command-center/discussions/5
 - GitHub Pages workflow comparison mirror: https://ivelly42.github.io/ai-agent-workflow-comparison-template/
@@ -118,13 +119,14 @@ The full paid pack is not published publicly. This index links every public prev
 - Fast template pack request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml
 - RSS feed: https://ivelly42.github.io/agent-ops-command-center/feed.xml
 - Machine-readable catalog: https://ivelly42.github.io/agent-ops-command-center/catalog.json
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.55-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.56-preview
 - Buy page: https://ivelly42.github.io/agent-ops-command-center/buy.html
 - Fast team checkout request: https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html
 - Fast template pack request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml
 - Discovery hub: https://ivelly42.github.io/agent-ops-command-center/discovery.html
 - GitHub Pages template pack mirror: https://ivelly42.github.io/ai-agent-ops-template-pack/
 - GitHub template pack mirror: https://github.com/ivelly42/ai-agent-ops-template-pack
+- Use template pack mirror: https://github.com/ivelly42/ai-agent-ops-template-pack/generate
 - GitHub template pack Gist: https://gist.github.com/ivelly42/dac26c33334ab9b3367d2fc490c7aef5
 - GitHub template pack Discussion: https://github.com/ivelly42/agent-ops-command-center/discussions/5
 - Client delivery kit: https://ivelly42.github.io/agent-ops-command-center/client-delivery-kit.html
@@ -201,6 +203,7 @@ The full paid pack is not published publicly. This index links every public prev
 | Buy Page | Focus early-access buyers on the $203 team request, proof links, and revenue-proof rule |
 | Fast Team Checkout Request | Open a prefilled $203 team-license request without the longer issue form |
 | Fast Template Pack Request | Short GitHub issue form for broad template-pack buyers and $203 team-license intent |
+| GitHub Template Repositories | Let buyers use public mirror structures through GitHub template repositories before requesting the paid pack |
 | Discovery Hub | Route every public mirror and buyer-search segment into the $203 request path |
 | Template Pack Mirror | Route broad AI-agent template pack, Notion template, spreadsheet template, and Agent Ops searches into the $203 request path |
 | Template Pack Gist and Discussion | Add public GitHub-native sharing surfaces for broad AI-agent ops searches without counting them as revenue |
