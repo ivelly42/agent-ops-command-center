@@ -1,7 +1,7 @@
 {
   "name": "Agent Ops Command Center",
   "description": "Notion and spreadsheet template pack for builders running AI coding agents.",
-  "version": "v5.57-preview",
+  "version": "v5.58-preview",
   "price_usd": 29,
   "individual_price_usd": 29,
   "team_license_price_usd": 203,
@@ -15,7 +15,7 @@
   "status": "preview_live_no_paid_checkout",
   "homepage": "https://ivelly42.github.io/agent-ops-command-center/",
   "social_image": "https://ivelly42.github.io/agent-ops-command-center/og.png",
-  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.57-preview",
+  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.58-preview",
   "early_access_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml",
   "template_pack_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml",
   "template_pack_request_page": "https://ivelly42.github.io/agent-ops-command-center/template-pack-request.html",
@@ -84,7 +84,9 @@
     {
       "title": "AI Agent Ops Template Pack Mirror Page",
       "url": "https://ivelly42.github.io/ai-agent-ops-template-pack/",
-      "repository": "https://github.com/ivelly42/ai-agent-ops-template-pack"
+      "repository": "https://github.com/ivelly42/ai-agent-ops-template-pack",
+      "request_page": "https://ivelly42.github.io/agent-ops-command-center/template-pack-request.html",
+      "request_url": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml"
     },
     {
       "title": "AI Agent Acceptance Test Mirror Page",
@@ -311,6 +313,8 @@
   "github_template_pack_mirror_pages": "https://ivelly42.github.io/ai-agent-ops-template-pack/",
   "github_template_pack_mirror": "https://github.com/ivelly42/ai-agent-ops-template-pack",
   "github_template_pack_generate": "https://github.com/ivelly42/ai-agent-ops-template-pack/generate",
+  "github_template_pack_request_page": "https://ivelly42.github.io/agent-ops-command-center/template-pack-request.html",
+  "github_template_pack_request_form": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml",
   "github_template_pack_gist": "https://gist.github.com/ivelly42/dac26c33334ab9b3367d2fc490c7aef5",
   "github_template_pack_discussion": "https://github.com/ivelly42/agent-ops-command-center/discussions/5",
   "github_acceptance_test_mirror_pages": "https://ivelly42.github.io/ai-agent-acceptance-test-template/",
