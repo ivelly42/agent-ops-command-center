@@ -2,11 +2,13 @@
   "name": "Agent Ops Command Center",
   "type": "agent_commerce_metadata",
   "schema_version": "2026-05-22",
-  "updated_at_kst": "2026-05-22 05:10",
+  "updated_at_kst": "2026-05-22 05:18",
   "canonical_url": "https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-commerce.json",
   "alternate_urls": [
     "https://ivelly42.github.io/agent-ops-command-center/agent-commerce.json",
-    "https://ivelly42.github.io/agent-ops-command-center/ai-buy-intent.json"
+    "https://ivelly42.github.io/agent-ops-command-center/ai-buy-intent.json",
+    "https://ivelly42.github.io/agent-ops-command-center/openapi.json",
+    "https://ivelly42.github.io/agent-ops-command-center/.well-known/openapi.json"
   ],
   "product": {
     "name": "Agent Ops Command Center",
@@ -31,6 +33,7 @@
     "open_primary_team_request": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
     "open_payment_ready_issue": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml",
     "read_buy_intent": "https://ivelly42.github.io/agent-ops-command-center/ai-buy-intent.json",
+    "read_openapi": "https://ivelly42.github.io/agent-ops-command-center/openapi.json",
     "read_catalog": "https://ivelly42.github.io/agent-ops-command-center/catalog.json",
     "read_metrics": "https://ivelly42.github.io/agent-ops-command-center/metrics/status.json"
   },

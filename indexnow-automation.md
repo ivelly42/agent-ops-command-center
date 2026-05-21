@@ -16,6 +16,8 @@ Submitted surfaces:
 - Discovery hub: https://ivelly42.github.io/agent-ops-command-center/discovery.html
 - Agent commerce metadata: https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-commerce.json
 - Agent commerce metadata alias: https://ivelly42.github.io/agent-ops-command-center/agent-commerce.json
+- OpenAPI commerce actions: https://ivelly42.github.io/agent-ops-command-center/openapi.json
+- OpenAPI commerce actions well-known: https://ivelly42.github.io/agent-ops-command-center/.well-known/openapi.json
 - AI buy-intent JSON: https://ivelly42.github.io/agent-ops-command-center/ai-buy-intent.json
 - Catalog: https://ivelly42.github.io/agent-ops-command-center/catalog.json
 - Feed: https://ivelly42.github.io/agent-ops-command-center/feed.xml

@@ -25,6 +25,14 @@
     <lastmod>2026-05-22</lastmod>
   </url>
   <url>
+    <loc>https://ivelly42.github.io/agent-ops-command-center/openapi.json</loc>
+    <lastmod>2026-05-22</lastmod>
+  </url>
+  <url>
+    <loc>https://ivelly42.github.io/agent-ops-command-center/.well-known/openapi.json</loc>
+    <lastmod>2026-05-22</lastmod>
+  </url>
+  <url>
     <loc>https://ivelly42.github.io/agent-ops-command-center/ai-buy-intent.json</loc>
     <lastmod>2026-05-22</lastmod>
   </url>

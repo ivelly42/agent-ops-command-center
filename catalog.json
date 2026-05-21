@@ -1,7 +1,7 @@
 {
   "name": "Agent Ops Command Center",
   "description": "Notion and spreadsheet template pack for builders running AI coding agents.",
-  "version": "v5.114-preview",
+  "version": "v5.115-preview",
   "price_usd": 29,
   "individual_price_usd": 29,
   "team_license_price_usd": 203,
@@ -15,12 +15,14 @@
   "status": "preview_live_no_paid_checkout",
   "homepage": "https://ivelly42.github.io/agent-ops-command-center/",
   "social_image": "https://ivelly42.github.io/agent-ops-command-center/og.png",
-  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.114-preview",
+  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.115-preview",
   "early_access_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml",
   "github_issue_chooser_fast_team_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new/choose",
   "package_funding_direct_request": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
   "agent_commerce_json": "https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-commerce.json",
   "agent_commerce_json_alias": "https://ivelly42.github.io/agent-ops-command-center/agent-commerce.json",
+  "openapi_json": "https://ivelly42.github.io/agent-ops-command-center/openapi.json",
+  "openapi_json_well_known": "https://ivelly42.github.io/agent-ops-command-center/.well-known/openapi.json",
   "ai_buy_intent_json": "https://ivelly42.github.io/agent-ops-command-center/ai-buy-intent.json",
   "template_pack_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml",
   "template_pack_request_page": "https://ivelly42.github.io/agent-ops-command-center/template-pack-request.html",
@@ -67,11 +69,27 @@
   "feed": "https://ivelly42.github.io/agent-ops-command-center/feed.xml",
   "llms": "https://ivelly42.github.io/agent-ops-command-center/llms.txt",
   "agent_commerce": "https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-commerce.json",
+  "openapi": "https://ivelly42.github.io/agent-ops-command-center/openapi.json",
   "ai_buy_intent": "https://ivelly42.github.io/agent-ops-command-center/ai-buy-intent.json",
   "sitemap": "https://ivelly42.github.io/agent-ops-command-center/sitemap.xml",
   "paid_zip_public": false,
   "revenue_rule": "Revenue is proven only by checkout, receipt, payout, or seller-dashboard evidence.",
   "public_assets": [
+    {
+      "title": "OpenAPI Commerce Actions",
+      "url": "https://ivelly42.github.io/agent-ops-command-center/openapi.json",
+      "well_known": "https://ivelly42.github.io/agent-ops-command-center/.well-known/openapi.json",
+      "primary_offer": "Team license - 7 seats - $203 gross",
+      "primary_request_url": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
+      "operation_ids": [
+        "readAgentCommerceMetadata",
+        "readAiBuyIntent",
+        "readCatalog",
+        "readRevenueMetrics",
+        "openPrefilledTeamLicenseRequest"
+      ],
+      "revenue_rule": "The OpenAPI file is routing metadata, not revenue. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence."
+    },
     {
       "title": "Agent Commerce Metadata",
       "url": "https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-commerce.json",
@@ -1069,7 +1087,7 @@
     "team_request_mirror": "https://github.com/ivelly42/ai-agent-npx-team-request-template",
     "team_request_mirror_pages": "https://ivelly42.github.io/ai-agent-npx-team-request-template/",
     "package_name": "agent-ops-command-center",
-    "package_version": "0.5.114",
+    "package_version": "0.5.115",
     "bin": [
       "agent-ops-command-center",
       "agent-ops"
@@ -1140,9 +1158,10 @@
     "revenue_rule": "Package funding links and npm fund output are purchase intent only. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence."
   },
   "agent_commerce_json_details": {
-    "updated_at_kst": "2026-05-22 05:10",
+    "updated_at_kst": "2026-05-22 05:18",
     "url": "https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-commerce.json",
     "alias": "https://ivelly42.github.io/agent-ops-command-center/agent-commerce.json",
+    "openapi": "https://ivelly42.github.io/agent-ops-command-center/openapi.json",
     "primary_offer": "Team license - 7 seats - $203 gross",
     "primary_request_url": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
     "target_revenue_usd": 200,
@@ -1151,15 +1170,35 @@
       "open_primary_team_request",
       "open_payment_ready_issue",
       "read_buy_intent",
+      "read_openapi",
       "read_catalog",
       "read_metrics"
     ],
     "revenue_rule": "Agent commerce metadata is routing metadata, not revenue. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence."
   },
+  "openapi_commerce_actions_details": {
+    "updated_at_kst": "2026-05-22 05:18",
+    "url": "https://ivelly42.github.io/agent-ops-command-center/openapi.json",
+    "well_known": "https://ivelly42.github.io/agent-ops-command-center/.well-known/openapi.json",
+    "primary_offer": "Team license - 7 seats - $203 gross",
+    "primary_request_url": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
+    "operation_ids": [
+      "readAgentCommerceMetadata",
+      "readAgentCommerceMetadataAlias",
+      "readAiBuyIntent",
+      "readCatalog",
+      "readRevenueMetrics",
+      "openPrefilledTeamLicenseRequest"
+    ],
+    "target_revenue_usd": 200,
+    "target_reached_by": "one confirmed $203 team-license payment",
+    "revenue_rule": "OpenAPI metadata is routing metadata, not revenue. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence."
+  },
   "ai_buy_intent_json_details": {
-    "updated_at_kst": "2026-05-22 05:10",
+    "updated_at_kst": "2026-05-22 05:18",
     "url": "https://ivelly42.github.io/agent-ops-command-center/ai-buy-intent.json",
     "agent_commerce_metadata": "https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-commerce.json",
+    "openapi": "https://ivelly42.github.io/agent-ops-command-center/openapi.json",
     "primary_offer": "Team license - 7 seats - $203 gross",
     "primary_request_url": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
     "schema_org_team_offer_url": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
@@ -1248,6 +1287,8 @@
       "https://ivelly42.github.io/agent-ops-command-center/discovery.html",
       "https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-commerce.json",
       "https://ivelly42.github.io/agent-ops-command-center/agent-commerce.json",
+      "https://ivelly42.github.io/agent-ops-command-center/openapi.json",
+      "https://ivelly42.github.io/agent-ops-command-center/.well-known/openapi.json",
       "https://ivelly42.github.io/agent-ops-command-center/ai-buy-intent.json",
       "https://ivelly42.github.io/agent-ops-command-center/catalog.json",
       "https://ivelly42.github.io/agent-ops-command-center/feed.xml",

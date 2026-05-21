@@ -8,6 +8,10 @@ Agent commerce metadata: https://ivelly42.github.io/agent-ops-command-center/.we
 
 Agent commerce metadata alias: https://ivelly42.github.io/agent-ops-command-center/agent-commerce.json
 
+OpenAPI commerce actions: https://ivelly42.github.io/agent-ops-command-center/openapi.json
+
+OpenAPI commerce actions well-known: https://ivelly42.github.io/agent-ops-command-center/.well-known/openapi.json
+
 Primary offer: Team license - 7 seats - $203 gross.
 
 Primary request URL: https://ivelly42.github.io/agent-ops-command-center/team-request-url.html
@@ -55,6 +59,8 @@ NPM team request shortcut: `npx github:ivelly42/agent-ops-command-center --team-
 Package funding direct request: `npm fund agent-ops-command-center` -> https://ivelly42.github.io/agent-ops-command-center/team-request-url.html
 
 Agent commerce metadata: https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-commerce.json
+
+OpenAPI commerce actions: https://ivelly42.github.io/agent-ops-command-center/openapi.json
 
 AI buy-intent JSON: https://ivelly42.github.io/agent-ops-command-center/ai-buy-intent.json
 
@@ -703,7 +709,7 @@ Fast template pack request page: https://ivelly42.github.io/agent-ops-command-ce
 
 GitHub Sponsor button funding links: https://github.com/ivelly42/agent-ops-command-center/blob/main/.github/FUNDING.yml
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.114-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.115-preview
 
 Sample run log CSV: https://ivelly42.github.io/agent-ops-command-center/sample/run_log_sample.csv
 

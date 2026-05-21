@@ -1,0 +1,227 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Agent Ops Command Center Commerce Actions",
+    "version": "0.5.115",
+    "description": "Read public product metadata and open the $203 team-license request path for Agent Ops Command Center. This API describes public static resources only; it does not process payment or prove revenue."
+  },
+  "servers": [
+    {
+      "url": "https://ivelly42.github.io"
+    }
+  ],
+  "paths": {
+    "/agent-ops-command-center/.well-known/agent-commerce.json": {
+      "get": {
+        "operationId": "readAgentCommerceMetadata",
+        "summary": "Read agent commerce metadata",
+        "description": "Returns the primary $203 team-license offer, request URL, fulfillment boundary, and revenue proof rule.",
+        "responses": {
+          "200": {
+            "description": "Agent commerce metadata",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AgentCommerceMetadata"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/agent-ops-command-center/agent-commerce.json": {
+      "get": {
+        "operationId": "readAgentCommerceMetadataAlias",
+        "summary": "Read agent commerce metadata alias",
+        "description": "Alias for agents that cannot fetch project-scoped well-known paths.",
+        "responses": {
+          "200": {
+            "description": "Agent commerce metadata",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AgentCommerceMetadata"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/agent-ops-command-center/ai-buy-intent.json": {
+      "get": {
+        "operationId": "readAiBuyIntent",
+        "summary": "Read AI buy-intent metadata",
+        "description": "Returns the primary and secondary offers plus buyer paths.",
+        "responses": {
+          "200": {
+            "description": "AI buy-intent metadata",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BuyIntent"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/agent-ops-command-center/catalog.json": {
+      "get": {
+        "operationId": "readCatalog",
+        "summary": "Read public catalog",
+        "description": "Returns public preview assets, request paths, and discovery links.",
+        "responses": {
+          "200": {
+            "description": "Public catalog",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/agent-ops-command-center/metrics/status.json": {
+      "get": {
+        "operationId": "readRevenueMetrics",
+        "summary": "Read revenue metrics",
+        "description": "Returns current public demand metrics and gross revenue proof status.",
+        "responses": {
+          "200": {
+            "description": "Revenue metrics",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RevenueMetrics"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/agent-ops-command-center/team-request-url.html": {
+      "get": {
+        "operationId": "openPrefilledTeamLicenseRequest",
+        "summary": "Open the prefilled $203 team-license request",
+        "description": "Opens a public HTML page that links to a prefilled GitHub issue request for the $203 seven-seat team license. Opening this page is purchase intent only, not revenue.",
+        "responses": {
+          "200": {
+            "description": "Prefilled team-license request page",
+            "content": {
+              "text/html": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "AgentCommerceMetadata": {
+        "type": "object",
+        "required": [
+          "name",
+          "primary_offer",
+          "machine_actions",
+          "revenue_rule"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "primary_offer": {
+            "$ref": "#/components/schemas/Offer"
+          },
+          "secondary_offer": {
+            "$ref": "#/components/schemas/Offer"
+          },
+          "machine_actions": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string",
+              "format": "uri"
+            }
+          },
+          "revenue_rule": {
+            "type": "string"
+          }
+        }
+      },
+      "BuyIntent": {
+        "type": "object",
+        "required": [
+          "primary_offer",
+          "buyer_paths",
+          "revenue_rule"
+        ],
+        "properties": {
+          "primary_offer": {
+            "$ref": "#/components/schemas/Offer"
+          },
+          "buyer_paths": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string",
+              "format": "uri"
+            }
+          },
+          "revenue_rule": {
+            "type": "string"
+          }
+        }
+      },
+      "Offer": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "gross_price_usd": {
+            "type": "number"
+          },
+          "request_url": {
+            "type": "string",
+            "format": "uri"
+          }
+        }
+      },
+      "RevenueMetrics": {
+        "type": "object",
+        "properties": {
+          "gross_revenue_usd": {
+            "type": "number"
+          },
+          "target_revenue_usd": {
+            "type": "number"
+          },
+          "orders": {
+            "type": "integer"
+          },
+          "checkout_live": {
+            "type": "boolean"
+          },
+          "status": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "x-primary-offer": {
+    "name": "Team license - 7 seats",
+    "gross_price_usd": 203,
+    "request_url": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html"
+  },
+  "x-revenue-rule": "OpenAPI metadata is routing metadata, not revenue. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence."
+}

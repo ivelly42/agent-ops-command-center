@@ -29,6 +29,8 @@ The full paid pack is not published publicly. This index links every public prev
 - Package funding direct request: `npm fund agent-ops-command-center` -> https://ivelly42.github.io/agent-ops-command-center/team-request-url.html
 - Agent commerce metadata: https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-commerce.json
 - Agent commerce metadata alias: https://ivelly42.github.io/agent-ops-command-center/agent-commerce.json
+- OpenAPI commerce actions: https://ivelly42.github.io/agent-ops-command-center/openapi.json
+- OpenAPI commerce actions well-known: https://ivelly42.github.io/agent-ops-command-center/.well-known/openapi.json
 - AI buy-intent JSON: https://ivelly42.github.io/agent-ops-command-center/ai-buy-intent.json
 - NPM team request CLI Discussion: https://github.com/ivelly42/agent-ops-command-center/discussions/11
 - GitHub NPX team request mirror: https://github.com/ivelly42/ai-agent-npx-team-request-template
@@ -225,7 +227,7 @@ The full paid pack is not published publicly. This index links every public prev
 - Fast template pack request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml
 - RSS feed: https://ivelly42.github.io/agent-ops-command-center/feed.xml
 - Machine-readable catalog: https://ivelly42.github.io/agent-ops-command-center/catalog.json
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.114-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.115-preview
 - Buy page: https://ivelly42.github.io/agent-ops-command-center/buy.html
 - Payment-ready team checkout request: https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html
 - Fast template pack request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml
