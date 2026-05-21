@@ -59,6 +59,8 @@ const links = {
   claudeCodeBuyCommandAlias: "https://ivelly42.github.io/agent-ops-command-center/claude-code-buy-command.md",
   mcpServer: "https://ivelly42.github.io/agent-ops-command-center/mcp-server.md",
   mcpServerManifest: "https://ivelly42.github.io/agent-ops-command-center/.well-known/mcp-server.json",
+  mcpClientConfig: "https://ivelly42.github.io/agent-ops-command-center/.mcp.json",
+  mcpClientConfigAlias: "https://ivelly42.github.io/agent-ops-command-center/mcp-client-config.json",
   junieGuidelines: "https://ivelly42.github.io/agent-ops-command-center/.junie/guidelines.md",
   junieGuidelinesAlias: "https://ivelly42.github.io/agent-ops-command-center/junie-guidelines.md",
   catalog: "https://ivelly42.github.io/agent-ops-command-center/catalog.json",
@@ -89,7 +91,7 @@ const links = {
   paymentReadyNpmAutoreplyDiscussion: "https://github.com/ivelly42/agent-ops-command-center/discussions/10",
   clineWorkflowDiscussion: "https://github.com/ivelly42/agent-ops-command-center/discussions/12",
   release: "https://github.com/ivelly42/agent-ops-command-center/releases/latest",
-  npmReleaseTarball: "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.137-preview/agent-ops-command-center-0.5.137.tgz"
+  npmReleaseTarball: "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.138-preview/agent-ops-command-center-0.5.138.tgz"
 };
 
 const payload = {
@@ -188,6 +190,9 @@ ${links.claudeCodeBuyCommand}
 
 MCP stdio server:
 ${payload.commands.mcp_stdio_server}
+
+Project MCP config:
+${links.mcpClientConfig}
 
 Buyer commands:
 ${payload.commands.team_request_url}

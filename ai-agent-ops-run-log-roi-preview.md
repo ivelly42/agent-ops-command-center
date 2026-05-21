@@ -1,7 +1,11 @@
+Project MCP config: https://ivelly42.github.io/agent-ops-command-center/.mcp.json
+Project MCP config alias: https://ivelly42.github.io/agent-ops-command-center/mcp-client-config.json
+Project MCP config guide: https://ivelly42.github.io/agent-ops-command-center/mcp-client-config.md
+MCP config loads are not revenue; revenue requires checkout, receipt, payout, or seller-dashboard proof.
 MCP stdio server guide: https://ivelly42.github.io/agent-ops-command-center/mcp-server.md
 MCP stdio server manifest: https://ivelly42.github.io/agent-ops-command-center/.well-known/mcp-server.json
 MCP stdio server manifest alias: https://ivelly42.github.io/agent-ops-command-center/mcp-server.json
-MCP command: `npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.137-preview/agent-ops-command-center-0.5.137.tgz -- agent-ops-mcp-server`
+MCP command: `npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.138-preview/agent-ops-command-center-0.5.138.tgz -- agent-ops-mcp-server`
 MCP calls and resource reads are not revenue; revenue requires checkout, receipt, payout, or seller-dashboard proof.
 Claude Code checkout skill: https://ivelly42.github.io/agent-ops-command-center/.claude/skills/agent-ops-checkout/SKILL.md
 Claude Code checkout skill alias: https://ivelly42.github.io/agent-ops-command-center/claude-code-checkout-skill.md
@@ -200,7 +204,7 @@ The pack breaks even if it prevents roughly one hour of cleanup time for a build
 - Run log template: https://ivelly42.github.io/agent-ops-command-center/codex-claude-run-log-template.md
 - Failure RCA template: https://ivelly42.github.io/agent-ops-command-center/failure-rca-template.md
 - Preflight checklist: https://ivelly42.github.io/agent-ops-command-center/checklist.md
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.137-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.138-preview
 - Buy page: https://ivelly42.github.io/agent-ops-command-center/buy.html
 - Payment-ready issue form: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml
 - Payment-ready buy CTA: https://ivelly42.github.io/agent-ops-command-center/buy.html
@@ -215,7 +219,7 @@ The pack breaks even if it prevents roughly one hour of cleanup time for a build
 - AI-agent template topic: https://github.com/topics/ai-agent-template
 - NPM GitHub install preview: `npx github:ivelly42/agent-ops-command-center --json`
 - NPM team request shortcut: `npx github:ivelly42/agent-ops-command-center --team-request-url`
-- NPM release tarball team request: `npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.137-preview/agent-ops-command-center-0.5.137.tgz -- agent-ops-command-center --team-request-url`
+- NPM release tarball team request: `npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.138-preview/agent-ops-command-center-0.5.138.tgz -- agent-ops-command-center --team-request-url`
 - NPM team request CLI Discussion: https://github.com/ivelly42/agent-ops-command-center/discussions/11
 - GitHub NPX team request mirror: https://github.com/ivelly42/ai-agent-npx-team-request-template
 - GitHub NPX team request mirror Pages: https://ivelly42.github.io/ai-agent-npx-team-request-template/

@@ -1,3 +1,7 @@
+Project MCP config: https://ivelly42.github.io/agent-ops-command-center/.mcp.json
+Project MCP config alias: https://ivelly42.github.io/agent-ops-command-center/mcp-client-config.json
+Project MCP config guide: https://ivelly42.github.io/agent-ops-command-center/mcp-client-config.md
+MCP config loads are not revenue; revenue requires checkout, receipt, payout, or seller-dashboard proof.
 MCP stdio server guide: https://ivelly42.github.io/agent-ops-command-center/mcp-server.md
 MCP stdio server manifest: https://ivelly42.github.io/agent-ops-command-center/.well-known/mcp-server.json
 MCP stdio server manifest alias: https://ivelly42.github.io/agent-ops-command-center/mcp-server.json
@@ -76,7 +80,7 @@ Submitted surfaces:
 - Feed: https://ivelly42.github.io/agent-ops-command-center/feed.xml
 - Preview index: https://ivelly42.github.io/agent-ops-command-center/github-preview-index.md
 - NPM preview docs: https://ivelly42.github.io/agent-ops-command-center/npm-preview.md
-- NPM release tarball: https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.137-preview/agent-ops-command-center-0.5.137.tgz
+- NPM release tarball: https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.138-preview/agent-ops-command-center-0.5.138.tgz
 - Order autoreply docs: https://ivelly42.github.io/agent-ops-command-center/order-autoreply.md
 - Discussion autoreply docs: https://ivelly42.github.io/agent-ops-command-center/discussion-autoreply.md
 - Revenue proof autoreply docs: https://ivelly42.github.io/agent-ops-command-center/revenue-proof-autoreply.md

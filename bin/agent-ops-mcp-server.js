@@ -11,7 +11,7 @@ const links = {
   teamRequest: `${baseUrl}/team-request-url.html`,
   paymentReady: "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml",
   buy: `${baseUrl}/buy.html`,
-  releaseTarball: "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.137-preview/agent-ops-command-center-0.5.137.tgz"
+  releaseTarball: "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.138-preview/agent-ops-command-center-0.5.138.tgz"
 };
 
 const revenueRule = [
