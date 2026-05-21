@@ -2,7 +2,7 @@
   "name": "Agent Ops Command Center",
   "type": "llm_discovery_manifest",
   "schema_version": "2026-05-22",
-  "updated_at_kst": "2026-05-22 06:43",
+  "updated_at_kst": "2026-05-22 06:58",
   "canonical_url": "https://ivelly42.github.io/agent-ops-command-center/.well-known/llms.json",
   "alternate_urls": [
     "https://ivelly42.github.io/agent-ops-command-center/llms.json",
@@ -10,7 +10,9 @@
     "https://ivelly42.github.io/agent-ops-command-center/.well-known/agents.json",
     "https://ivelly42.github.io/agent-ops-command-center/agents.json",
     "https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-routing.json",
-    "https://ivelly42.github.io/agent-ops-command-center/openapi.json"
+    "https://ivelly42.github.io/agent-ops-command-center/openapi.json",
+    "https://ivelly42.github.io/agent-ops-command-center/GEMINI.md",
+    "https://ivelly42.github.io/agent-ops-command-center/gemini-instructions.md"
   ],
   "product": {
     "name": "Agent Ops Command Center",
@@ -51,6 +53,11 @@
       "id": "catalog",
       "url": "https://ivelly42.github.io/agent-ops-command-center/catalog.json",
       "purpose": "public preview catalog and sales surface index"
+    },
+    {
+      "id": "gemini_instructions",
+      "url": "https://ivelly42.github.io/agent-ops-command-center/GEMINI.md",
+      "purpose": "Gemini routing instructions for the $203 team-license request and revenue proof rule"
     }
   ],
   "machine_actions": {
@@ -65,7 +72,9 @@
     "read_buy_intent": "https://ivelly42.github.io/agent-ops-command-center/ai-buy-intent.json",
     "read_catalog": "https://ivelly42.github.io/agent-ops-command-center/catalog.json",
     "read_metrics": "https://ivelly42.github.io/agent-ops-command-center/metrics/status.json",
-    "run_npm_release_tarball_team_request": "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.122-preview/agent-ops-command-center-0.5.122.tgz"
+    "run_npm_release_tarball_team_request": "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.123-preview/agent-ops-command-center-0.5.123.tgz",
+    "read_gemini_instructions": "https://ivelly42.github.io/agent-ops-command-center/GEMINI.md",
+    "read_gemini_instructions_alias": "https://ivelly42.github.io/agent-ops-command-center/gemini-instructions.md"
   },
   "content_index": {
     "sales_pages": [

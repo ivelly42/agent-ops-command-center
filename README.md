@@ -46,7 +46,7 @@ NPM GitHub install preview: `npx github:ivelly42/agent-ops-command-center --json
 
 NPM team request shortcut: `npx github:ivelly42/agent-ops-command-center --team-request-url`
 
-NPM release tarball team request: `npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.122-preview/agent-ops-command-center-0.5.122.tgz -- agent-ops-command-center --team-request-url`
+NPM release tarball team request: `npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.123-preview/agent-ops-command-center-0.5.123.tgz -- agent-ops-command-center --team-request-url`
 
 Package funding direct request: `npm fund agent-ops-command-center` -> https://ivelly42.github.io/agent-ops-command-center/team-request-url.html
 
@@ -81,6 +81,10 @@ Cursor agent rules: https://ivelly42.github.io/agent-ops-command-center/cursor-a
 Windsurf rules: https://ivelly42.github.io/agent-ops-command-center/windsurf-rules.md
 
 Cline rules: https://ivelly42.github.io/agent-ops-command-center/cline-rules.md
+
+Gemini routing instructions: https://ivelly42.github.io/agent-ops-command-center/GEMINI.md
+
+Gemini routing alias: https://ivelly42.github.io/agent-ops-command-center/gemini-instructions.md
 
 OpenAPI commerce actions: https://ivelly42.github.io/agent-ops-command-center/openapi.json
 
@@ -411,7 +415,7 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.122-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.123-preview
 
 Sample files:
 

@@ -1,7 +1,7 @@
 {
   "name": "Agent Ops Command Center",
   "type": "ai_agent_template_pack_buy_intent",
-  "updated_at_kst": "2026-05-22 06:43",
+  "updated_at_kst": "2026-05-22 06:58",
   "agent_commerce_metadata": "https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-commerce.json",
   "plugin_manifest": "https://ivelly42.github.io/agent-ops-command-center/.well-known/ai-plugin.json",
   "openapi": "https://ivelly42.github.io/agent-ops-command-center/openapi.json",
@@ -27,8 +27,8 @@
     "catalog": "https://ivelly42.github.io/agent-ops-command-center/catalog.json",
     "metrics": "https://ivelly42.github.io/agent-ops-command-center/metrics/status.json",
     "agent_routing_manifest": "https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-routing.json",
-    "npm_release_tarball": "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.122-preview/agent-ops-command-center-0.5.122.tgz",
-    "npm_release_tarball_team_request_command": "npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.122-preview/agent-ops-command-center-0.5.122.tgz -- agent-ops-command-center --team-request-url",
+    "npm_release_tarball": "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.123-preview/agent-ops-command-center-0.5.123.tgz",
+    "npm_release_tarball_team_request_command": "npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.123-preview/agent-ops-command-center-0.5.123.tgz -- agent-ops-command-center --team-request-url",
     "copilot_instructions": "https://ivelly42.github.io/agent-ops-command-center/copilot-instructions.md",
     "cursor_rules": "https://ivelly42.github.io/agent-ops-command-center/cursor-agent-rules.md",
     "windsurf_rules": "https://ivelly42.github.io/agent-ops-command-center/windsurf-rules.md",
@@ -37,7 +37,9 @@
     "agents_manifest_alias": "https://ivelly42.github.io/agent-ops-command-center/agents.json",
     "llms_json": "https://ivelly42.github.io/agent-ops-command-center/.well-known/llms.json",
     "llms_json_alias": "https://ivelly42.github.io/agent-ops-command-center/llms.json",
-    "llms_txt": "https://ivelly42.github.io/agent-ops-command-center/llms.txt"
+    "llms_txt": "https://ivelly42.github.io/agent-ops-command-center/llms.txt",
+    "gemini_instructions": "https://ivelly42.github.io/agent-ops-command-center/GEMINI.md",
+    "gemini_instructions_alias": "https://ivelly42.github.io/agent-ops-command-center/gemini-instructions.md"
   },
   "delivery_boundary": {
     "paid_zip_public": false,

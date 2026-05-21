@@ -48,13 +48,15 @@ const links = {
   llmsJson: "https://ivelly42.github.io/agent-ops-command-center/.well-known/llms.json",
   llmsJsonAlias: "https://ivelly42.github.io/agent-ops-command-center/llms.json",
   llmsTxt: "https://ivelly42.github.io/agent-ops-command-center/llms.txt",
+  geminiInstructions: "https://ivelly42.github.io/agent-ops-command-center/GEMINI.md",
+  geminiInstructionsAlias: "https://ivelly42.github.io/agent-ops-command-center/gemini-instructions.md",
   metrics: "https://ivelly42.github.io/agent-ops-command-center/metrics/status.json",
   revenueProofAutoreply: "https://ivelly42.github.io/agent-ops-command-center/revenue-proof-autoreply.md",
   indexNowAutomation: "https://ivelly42.github.io/agent-ops-command-center/indexnow-automation.md",
   discussionAutoreply: "https://ivelly42.github.io/agent-ops-command-center/discussion-autoreply.md",
   paymentReadyNpmAutoreplyDiscussion: "https://github.com/ivelly42/agent-ops-command-center/discussions/10",
   release: "https://github.com/ivelly42/agent-ops-command-center/releases/latest",
-  npmReleaseTarball: "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.122-preview/agent-ops-command-center-0.5.122.tgz"
+  npmReleaseTarball: "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.123-preview/agent-ops-command-center-0.5.123.tgz"
 };
 
 const payload = {
