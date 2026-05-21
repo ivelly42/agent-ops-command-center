@@ -156,11 +156,12 @@ The full paid pack is not published publicly. This index links every public prev
 - Fast template pack request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml
 - RSS feed: https://ivelly42.github.io/agent-ops-command-center/feed.xml
 - Machine-readable catalog: https://ivelly42.github.io/agent-ops-command-center/catalog.json
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.70-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.71-preview
 - Buy page: https://ivelly42.github.io/agent-ops-command-center/buy.html
 - Fast team checkout request: https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html
 - Fast template pack request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml
 - Fast template pack request page: https://ivelly42.github.io/agent-ops-command-center/template-pack-request.html
+- GitHub Sponsor button funding links: https://github.com/ivelly42/agent-ops-command-center/blob/main/.github/FUNDING.yml
 - Revenue rule: count revenue only after checkout, receipt, payout, or seller-dashboard evidence exists.
 - Discovery hub: https://ivelly42.github.io/agent-ops-command-center/discovery.html
 - GitHub Pages template pack mirror: https://ivelly42.github.io/ai-agent-ops-template-pack/
@@ -279,6 +280,7 @@ The full paid pack is not published publicly. This index links every public prev
 | Fast Team Checkout Request | Open a prefilled $203 team-license request without the longer issue form |
 | Fast Template Pack Request | Short GitHub issue form for broad template-pack buyers and $203 team-license intent |
 | Fast Template Pack Request Page | HTML landing page for the short $203 template-pack request form |
+| GitHub Sponsor Button Funding Links | Expose buy, template request, team request, and issue-form URLs through `.github/FUNDING.yml` custom links |
 | GitHub Template Repositories | Let buyers use public mirror structures through GitHub template repositories before requesting the paid pack |
 | Discovery Hub | Route every public mirror and buyer-search segment into the $203 request path |
 | Template Pack Mirror | Route broad AI-agent template pack, Notion template, spreadsheet template, and Agent Ops searches into the $203 request path |
