@@ -60,13 +60,15 @@ const links = {
   qwenInstructionsAlias: "https://ivelly42.github.io/agent-ops-command-center/qwen-instructions.md",
   continueRule: "https://ivelly42.github.io/agent-ops-command-center/.continue/rules/agent-ops-command-center.md",
   continueRuleAlias: "https://ivelly42.github.io/agent-ops-command-center/continue-rules.md",
+  kiroSteering: "https://ivelly42.github.io/agent-ops-command-center/.kiro/steering/agent-ops-command-center.md",
+  kiroSteeringAlias: "https://ivelly42.github.io/agent-ops-command-center/kiro-steering.md",
   metrics: "https://ivelly42.github.io/agent-ops-command-center/metrics/status.json",
   revenueProofAutoreply: "https://ivelly42.github.io/agent-ops-command-center/revenue-proof-autoreply.md",
   indexNowAutomation: "https://ivelly42.github.io/agent-ops-command-center/indexnow-automation.md",
   discussionAutoreply: "https://ivelly42.github.io/agent-ops-command-center/discussion-autoreply.md",
   paymentReadyNpmAutoreplyDiscussion: "https://github.com/ivelly42/agent-ops-command-center/discussions/10",
   release: "https://github.com/ivelly42/agent-ops-command-center/releases/latest",
-  npmReleaseTarball: "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.128-preview/agent-ops-command-center-0.5.128.tgz"
+  npmReleaseTarball: "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.129-preview/agent-ops-command-center-0.5.129.tgz"
 };
 
 const payload = {

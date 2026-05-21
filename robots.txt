@@ -63,6 +63,10 @@ Continue-Rule: https://ivelly42.github.io/agent-ops-command-center/.continue/rul
 
 Continue-Rule-Alias: https://ivelly42.github.io/agent-ops-command-center/continue-rules.md
 
+Kiro-Steering: https://ivelly42.github.io/agent-ops-command-center/.kiro/steering/agent-ops-command-center.md
+
+Kiro-Steering-Alias: https://ivelly42.github.io/agent-ops-command-center/kiro-steering.md
+
 OpenAPI: https://ivelly42.github.io/agent-ops-command-center/openapi.json
 
 OpenAPI-Well-Known: https://ivelly42.github.io/agent-ops-command-center/.well-known/openapi.json

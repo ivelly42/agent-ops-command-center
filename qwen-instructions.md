@@ -14,6 +14,8 @@ Agent routing manifest: https://ivelly42.github.io/agent-ops-command-center/.wel
 
 Continue local rule: https://ivelly42.github.io/agent-ops-command-center/.continue/rules/agent-ops-command-center.md
 
+Kiro steering file: https://ivelly42.github.io/agent-ops-command-center/.kiro/steering/agent-ops-command-center.md
+
 OpenAPI commerce actions: https://ivelly42.github.io/agent-ops-command-center/openapi.json
 
 Metrics: https://ivelly42.github.io/agent-ops-command-center/metrics/status.json

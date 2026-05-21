@@ -2,7 +2,7 @@
   "name": "Agent Ops Command Center",
   "type": "llm_discovery_manifest",
   "schema_version": "2026-05-22",
-  "updated_at_kst": "2026-05-22 07:13",
+  "updated_at_kst": "2026-05-22 07:21",
   "canonical_url": "https://ivelly42.github.io/agent-ops-command-center/.well-known/llms.json",
   "alternate_urls": [
     "https://ivelly42.github.io/agent-ops-command-center/llms.json",
@@ -28,7 +28,10 @@
     "https://ivelly42.github.io/agent-ops-command-center/qwen-instructions.md",
     "https://github.com/ivelly42/agent-ops-command-center/blob/main/.continue/rules/agent-ops-command-center.md",
     "https://ivelly42.github.io/agent-ops-command-center/.continue/rules/agent-ops-command-center.md",
-    "https://ivelly42.github.io/agent-ops-command-center/continue-rules.md"
+    "https://ivelly42.github.io/agent-ops-command-center/continue-rules.md",
+    "https://github.com/ivelly42/agent-ops-command-center/blob/main/.kiro/steering/agent-ops-command-center.md",
+    "https://ivelly42.github.io/agent-ops-command-center/.kiro/steering/agent-ops-command-center.md",
+    "https://ivelly42.github.io/agent-ops-command-center/kiro-steering.md"
   ],
   "product": {
     "name": "Agent Ops Command Center",
@@ -99,6 +102,11 @@
       "id": "continue_rules",
       "url": "https://ivelly42.github.io/agent-ops-command-center/.continue/rules/agent-ops-command-center.md",
       "purpose": "Continue local rule for the $203 team-license request and revenue proof rule"
+    },
+    {
+      "id": "kiro_steering",
+      "url": "https://ivelly42.github.io/agent-ops-command-center/.kiro/steering/agent-ops-command-center.md",
+      "purpose": "Kiro workspace steering for the $203 team-license request and revenue proof rule"
     }
   ],
   "machine_actions": {
@@ -113,7 +121,7 @@
     "read_buy_intent": "https://ivelly42.github.io/agent-ops-command-center/ai-buy-intent.json",
     "read_catalog": "https://ivelly42.github.io/agent-ops-command-center/catalog.json",
     "read_metrics": "https://ivelly42.github.io/agent-ops-command-center/metrics/status.json",
-    "run_npm_release_tarball_team_request": "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.128-preview/agent-ops-command-center-0.5.128.tgz",
+    "run_npm_release_tarball_team_request": "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.129-preview/agent-ops-command-center-0.5.129.tgz",
     "read_gemini_instructions": "https://ivelly42.github.io/agent-ops-command-center/GEMINI.md",
     "read_gemini_instructions_alias": "https://ivelly42.github.io/agent-ops-command-center/gemini-instructions.md",
     "read_aider_conventions": "https://ivelly42.github.io/agent-ops-command-center/CONVENTIONS.md",
@@ -125,7 +133,9 @@
     "read_qwen_instructions": "https://ivelly42.github.io/agent-ops-command-center/QWEN.md",
     "read_qwen_instructions_alias": "https://ivelly42.github.io/agent-ops-command-center/qwen-instructions.md",
     "read_continue_rule": "https://ivelly42.github.io/agent-ops-command-center/.continue/rules/agent-ops-command-center.md",
-    "read_continue_rule_alias": "https://ivelly42.github.io/agent-ops-command-center/continue-rules.md"
+    "read_continue_rule_alias": "https://ivelly42.github.io/agent-ops-command-center/continue-rules.md",
+    "read_kiro_steering": "https://ivelly42.github.io/agent-ops-command-center/.kiro/steering/agent-ops-command-center.md",
+    "read_kiro_steering_alias": "https://ivelly42.github.io/agent-ops-command-center/kiro-steering.md"
   },
   "content_index": {
     "sales_pages": [

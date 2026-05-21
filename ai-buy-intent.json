@@ -1,7 +1,7 @@
 {
   "name": "Agent Ops Command Center",
   "type": "ai_agent_template_pack_buy_intent",
-  "updated_at_kst": "2026-05-22 07:13",
+  "updated_at_kst": "2026-05-22 07:21",
   "agent_commerce_metadata": "https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-commerce.json",
   "plugin_manifest": "https://ivelly42.github.io/agent-ops-command-center/.well-known/ai-plugin.json",
   "openapi": "https://ivelly42.github.io/agent-ops-command-center/openapi.json",
@@ -27,8 +27,8 @@
     "catalog": "https://ivelly42.github.io/agent-ops-command-center/catalog.json",
     "metrics": "https://ivelly42.github.io/agent-ops-command-center/metrics/status.json",
     "agent_routing_manifest": "https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-routing.json",
-    "npm_release_tarball": "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.128-preview/agent-ops-command-center-0.5.128.tgz",
-    "npm_release_tarball_team_request_command": "npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.128-preview/agent-ops-command-center-0.5.128.tgz -- agent-ops-command-center --team-request-url",
+    "npm_release_tarball": "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.129-preview/agent-ops-command-center-0.5.129.tgz",
+    "npm_release_tarball_team_request_command": "npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.129-preview/agent-ops-command-center-0.5.129.tgz -- agent-ops-command-center --team-request-url",
     "copilot_instructions": "https://ivelly42.github.io/agent-ops-command-center/copilot-instructions.md",
     "cursor_rules": "https://ivelly42.github.io/agent-ops-command-center/cursor-agent-rules.md",
     "windsurf_rules": "https://ivelly42.github.io/agent-ops-command-center/windsurf-rules.md",
@@ -49,7 +49,9 @@
     "qwen_instructions": "https://ivelly42.github.io/agent-ops-command-center/QWEN.md",
     "qwen_instructions_alias": "https://ivelly42.github.io/agent-ops-command-center/qwen-instructions.md",
     "continue_rule": "https://ivelly42.github.io/agent-ops-command-center/.continue/rules/agent-ops-command-center.md",
-    "continue_rule_alias": "https://ivelly42.github.io/agent-ops-command-center/continue-rules.md"
+    "continue_rule_alias": "https://ivelly42.github.io/agent-ops-command-center/continue-rules.md",
+    "kiro_steering": "https://ivelly42.github.io/agent-ops-command-center/.kiro/steering/agent-ops-command-center.md",
+    "kiro_steering_alias": "https://ivelly42.github.io/agent-ops-command-center/kiro-steering.md"
   },
   "delivery_boundary": {
     "paid_zip_public": false,

@@ -22,6 +22,7 @@ Machine-readable metadata:
 - Agent routing manifest: https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-routing.json
 - Qwen Code instructions: https://ivelly42.github.io/agent-ops-command-center/QWEN.md
 - Continue local rule: https://ivelly42.github.io/agent-ops-command-center/.continue/rules/agent-ops-command-center.md
+- Kiro steering file: https://ivelly42.github.io/agent-ops-command-center/.kiro/steering/agent-ops-command-center.md
 - OpenAPI commerce actions: https://ivelly42.github.io/agent-ops-command-center/openapi.json
 - Agent commerce metadata: https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-commerce.json
 - AI buy-intent JSON: https://ivelly42.github.io/agent-ops-command-center/ai-buy-intent.json

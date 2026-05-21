@@ -23,6 +23,7 @@ The paid product ZIP is not public here. Do not publish paid delivery assets pub
 - OpenHands repository microagent: https://ivelly42.github.io/agent-ops-command-center/.openhands/microagents/repo.md
 - Qwen Code instructions: https://ivelly42.github.io/agent-ops-command-center/QWEN.md
 - Continue local rule: https://ivelly42.github.io/agent-ops-command-center/.continue/rules/agent-ops-command-center.md
+- Kiro steering file: https://ivelly42.github.io/agent-ops-command-center/.kiro/steering/agent-ops-command-center.md
 - Catalog: https://ivelly42.github.io/agent-ops-command-center/catalog.json
 - Metrics: https://ivelly42.github.io/agent-ops-command-center/metrics/status.json
 
