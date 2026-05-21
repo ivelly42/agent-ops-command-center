@@ -3,6 +3,7 @@
   "individual_order_intents": 0,
   "team_license_order_intents": 0,
   "preview_only_intents": 0,
+  "unlabeled_order_intents": 0,
   "revenue_proof_issues": 0,
   "confirmed_revenue_proof_issues": 0,
   "preview_downloads": 0,
@@ -16,5 +17,5 @@
   "checkout_live": false,
   "revenue_proof_required": "checkout, receipt, payout, or seller-dashboard evidence",
   "status": "no paid checkout",
-  "updated_at": "2026-05-21T07:50:54.141Z"
+  "updated_at": "2026-05-21T08:04:17.498Z"
 }
