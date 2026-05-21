@@ -1,0 +1,12 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "instructions": [
+    "AGENTS.md",
+    ".agents/skills/agent-ops-checkout/SKILL.md"
+  ],
+  "permission": {
+    "skill": {
+      "agent-ops-checkout": "allow"
+    }
+  }
+}

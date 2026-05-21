@@ -46,6 +46,9 @@ const links = {
   teamCheckoutRequest: "https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html",
   checkoutStatus: "https://ivelly42.github.io/agent-ops-command-center/.well-known/checkout-status.json",
   checkoutStatusAlias: "https://ivelly42.github.io/agent-ops-command-center/checkout-status.json",
+  agentOpsCheckoutSkill: "https://ivelly42.github.io/agent-ops-command-center/.agents/skills/agent-ops-checkout/SKILL.md",
+  agentOpsCheckoutSkillAlias: "https://ivelly42.github.io/agent-ops-command-center/agent-ops-checkout-skill.md",
+  opencodeConfig: "https://ivelly42.github.io/agent-ops-command-center/opencode.json",
   catalog: "https://ivelly42.github.io/agent-ops-command-center/catalog.json",
   llmsJson: "https://ivelly42.github.io/agent-ops-command-center/.well-known/llms.json",
   llmsJsonAlias: "https://ivelly42.github.io/agent-ops-command-center/llms.json",
@@ -74,7 +77,7 @@ const links = {
   paymentReadyNpmAutoreplyDiscussion: "https://github.com/ivelly42/agent-ops-command-center/discussions/10",
   clineWorkflowDiscussion: "https://github.com/ivelly42/agent-ops-command-center/discussions/12",
   release: "https://github.com/ivelly42/agent-ops-command-center/releases/latest",
-  npmReleaseTarball: "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.132-preview/agent-ops-command-center-0.5.132.tgz"
+  npmReleaseTarball: "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.133-preview/agent-ops-command-center-0.5.133.tgz"
 };
 
 const payload = {
@@ -148,6 +151,12 @@ ${links.clineTeamLicenseWorkflow}
 
 Cline workflow Discussion:
 ${links.clineWorkflowDiscussion}
+
+Agent Ops checkout skill:
+${links.agentOpsCheckoutSkill}
+
+OpenCode config:
+${links.opencodeConfig}
 
 Buyer commands:
 ${payload.commands.team_request_url}

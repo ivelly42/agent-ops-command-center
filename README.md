@@ -1,3 +1,7 @@
+Agent Ops checkout skill: https://ivelly42.github.io/agent-ops-command-center/.agents/skills/agent-ops-checkout/SKILL.md
+Agent Ops checkout skill alias: https://ivelly42.github.io/agent-ops-command-center/agent-ops-checkout-skill.md
+OpenCode config: https://ivelly42.github.io/agent-ops-command-center/opencode.json
+Skill/config loads are not revenue; revenue requires checkout, receipt, payout, or seller-dashboard proof.
 Checkout status manifest: https://ivelly42.github.io/agent-ops-command-center/.well-known/checkout-status.json
 Checkout status alias: https://ivelly42.github.io/agent-ops-command-center/checkout-status.json
 Checkout live: false. GitHub Sponsors check redirected to profile, so no active sponsor checkout was detected. Payment-ready issues are intent only; revenue requires checkout, receipt, payout, or seller-dashboard proof.
@@ -49,7 +53,7 @@ NPM GitHub install preview: `npx github:ivelly42/agent-ops-command-center --json
 
 NPM team request shortcut: `npx github:ivelly42/agent-ops-command-center --team-request-url`
 
-NPM release tarball team request: `npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.132-preview/agent-ops-command-center-0.5.132.tgz -- agent-ops-command-center --team-request-url`
+NPM release tarball team request: `npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.133-preview/agent-ops-command-center-0.5.133.tgz -- agent-ops-command-center --team-request-url`
 
 Package funding direct request: `npm fund agent-ops-command-center` -> https://ivelly42.github.io/agent-ops-command-center/team-request-url.html
 
@@ -450,7 +454,7 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.132-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.133-preview
 
 Sample files:
 

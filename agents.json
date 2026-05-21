@@ -2,7 +2,7 @@
   "name": "Agent Ops Command Center",
   "type": "ai_agent_discovery_manifest",
   "schema_version": "2026-05-22",
-  "updated_at_kst": "2026-05-22 07:52",
+  "updated_at_kst": "2026-05-22 08:01",
   "canonical_url": "https://ivelly42.github.io/agent-ops-command-center/.well-known/agents.json",
   "alternate_urls": [
     "https://ivelly42.github.io/agent-ops-command-center/agents.json",
@@ -35,7 +35,10 @@
     "https://ivelly42.github.io/agent-ops-command-center/kiro-steering.md",
     "https://github.com/ivelly42/agent-ops-command-center/discussions/12",
     "https://ivelly42.github.io/agent-ops-command-center/.well-known/checkout-status.json",
-    "https://ivelly42.github.io/agent-ops-command-center/checkout-status.json"
+    "https://ivelly42.github.io/agent-ops-command-center/checkout-status.json",
+    "https://ivelly42.github.io/agent-ops-command-center/.agents/skills/agent-ops-checkout/SKILL.md",
+    "https://ivelly42.github.io/agent-ops-command-center/agent-ops-checkout-skill.md",
+    "https://ivelly42.github.io/agent-ops-command-center/opencode.json"
   ],
   "product": {
     "name": "Agent Ops Command Center",
@@ -154,6 +157,23 @@
       "pages_steering": "https://ivelly42.github.io/agent-ops-command-center/.kiro/steering/agent-ops-command-center.md",
       "alias_steering": "https://ivelly42.github.io/agent-ops-command-center/kiro-steering.md",
       "primary_action": "open_primary_team_request"
+    },
+    {
+      "id": "devin",
+      "name": "Devin",
+      "skill": "https://github.com/ivelly42/agent-ops-command-center/blob/main/.agents/skills/agent-ops-checkout/SKILL.md",
+      "pages_skill": "https://ivelly42.github.io/agent-ops-command-center/.agents/skills/agent-ops-checkout/SKILL.md",
+      "alias_skill": "https://ivelly42.github.io/agent-ops-command-center/agent-ops-checkout-skill.md",
+      "primary_action": "open_primary_team_request"
+    },
+    {
+      "id": "opencode",
+      "name": "OpenCode",
+      "config": "https://github.com/ivelly42/agent-ops-command-center/blob/main/opencode.json",
+      "pages_config": "https://ivelly42.github.io/agent-ops-command-center/opencode.json",
+      "skill": "https://github.com/ivelly42/agent-ops-command-center/blob/main/.agents/skills/agent-ops-checkout/SKILL.md",
+      "pages_skill": "https://ivelly42.github.io/agent-ops-command-center/.agents/skills/agent-ops-checkout/SKILL.md",
+      "primary_action": "open_primary_team_request"
     }
   ],
   "machine_actions": {
@@ -166,7 +186,7 @@
     "read_buy_intent": "https://ivelly42.github.io/agent-ops-command-center/ai-buy-intent.json",
     "read_catalog": "https://ivelly42.github.io/agent-ops-command-center/catalog.json",
     "read_metrics": "https://ivelly42.github.io/agent-ops-command-center/metrics/status.json",
-    "run_npm_release_tarball_team_request": "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.132-preview/agent-ops-command-center-0.5.132.tgz",
+    "run_npm_release_tarball_team_request": "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.133-preview/agent-ops-command-center-0.5.133.tgz",
     "read_llms_json": "https://ivelly42.github.io/agent-ops-command-center/.well-known/llms.json",
     "read_llms_json_alias": "https://ivelly42.github.io/agent-ops-command-center/llms.json",
     "read_llms_txt": "https://ivelly42.github.io/agent-ops-command-center/llms.txt",
@@ -186,7 +206,10 @@
     "read_kiro_steering_alias": "https://ivelly42.github.io/agent-ops-command-center/kiro-steering.md",
     "read_cline_workflow_discussion": "https://github.com/ivelly42/agent-ops-command-center/discussions/12",
     "read_checkout_status": "https://ivelly42.github.io/agent-ops-command-center/.well-known/checkout-status.json",
-    "read_checkout_status_alias": "https://ivelly42.github.io/agent-ops-command-center/checkout-status.json"
+    "read_checkout_status_alias": "https://ivelly42.github.io/agent-ops-command-center/checkout-status.json",
+    "read_agent_ops_checkout_skill": "https://ivelly42.github.io/agent-ops-command-center/.agents/skills/agent-ops-checkout/SKILL.md",
+    "read_agent_ops_checkout_skill_alias": "https://ivelly42.github.io/agent-ops-command-center/agent-ops-checkout-skill.md",
+    "read_opencode_config": "https://ivelly42.github.io/agent-ops-command-center/opencode.json"
   },
   "revenue_rule": "Agent discovery metadata is not revenue. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence. Do not count generated request URLs, issues, discussions, stars, forks, views, release downloads, npm tarball runs, or metadata fetches as revenue.",
   "fake_proof_prohibited": true,
@@ -221,5 +244,7 @@
     "revenue_rule": "Kiro steering reads are not revenue. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence."
   },
   "checkout_status_manifest": "https://ivelly42.github.io/agent-ops-command-center/.well-known/checkout-status.json",
-  "checkout_status_manifest_alias": "https://ivelly42.github.io/agent-ops-command-center/checkout-status.json"
+  "checkout_status_manifest_alias": "https://ivelly42.github.io/agent-ops-command-center/checkout-status.json",
+  "agent_skill": "https://ivelly42.github.io/agent-ops-command-center/.agents/skills/agent-ops-checkout/SKILL.md",
+  "opencode_config": "https://ivelly42.github.io/agent-ops-command-center/opencode.json"
 }

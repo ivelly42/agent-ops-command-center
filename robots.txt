@@ -15,6 +15,12 @@ Checkout-Status: https://ivelly42.github.io/agent-ops-command-center/.well-known
 
 Checkout-Status-Alias: https://ivelly42.github.io/agent-ops-command-center/checkout-status.json
 
+Agent-Ops-Checkout-Skill: https://ivelly42.github.io/agent-ops-command-center/.agents/skills/agent-ops-checkout/SKILL.md
+
+Agent-Ops-Checkout-Skill-Alias: https://ivelly42.github.io/agent-ops-command-center/agent-ops-checkout-skill.md
+
+OpenCode-Config: https://ivelly42.github.io/agent-ops-command-center/opencode.json
+
 AI-Plugin: https://ivelly42.github.io/agent-ops-command-center/.well-known/ai-plugin.json
 
 AI-Plugin-Alias: https://ivelly42.github.io/agent-ops-command-center/ai-plugin.json

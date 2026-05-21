@@ -1,7 +1,7 @@
 {
   "name": "agent-ops-command-center",
-  "version": "0.5.132",
-  "description": "Public preview CLI for Agent Ops Command Center with payment-ready $203 team request links and checkout-status metadata.",
+  "version": "0.5.133",
+  "description": "Public preview CLI for Agent Ops Command Center with payment-ready $203 team request links, checkout-status metadata, and Agent Skills routing.",
   "license": "MIT",
   "homepage": "https://ivelly42.github.io/agent-ops-command-center/",
   "funding": {
@@ -68,7 +68,10 @@
     ".kiro/steering/agent-ops-command-center.md",
     "kiro-steering.md",
     ".well-known/checkout-status.json",
-    "checkout-status.json"
+    "checkout-status.json",
+    ".agents/skills/agent-ops-checkout/SKILL.md",
+    "agent-ops-checkout-skill.md",
+    "opencode.json"
   ],
   "keywords": [
     "ai-agent",

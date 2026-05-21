@@ -27,12 +27,15 @@ The paid product ZIP is not public here. Do not publish paid delivery assets pub
 - Cline team-license workflow: https://ivelly42.github.io/agent-ops-command-center/.clinerules/workflows/team-license-request.md
 - Catalog: https://ivelly42.github.io/agent-ops-command-center/catalog.json
 - Metrics: https://ivelly42.github.io/agent-ops-command-center/metrics/status.json
+- Checkout status: https://ivelly42.github.io/agent-ops-command-center/.well-known/checkout-status.json
+- Agent Ops checkout skill: https://ivelly42.github.io/agent-ops-command-center/.agents/skills/agent-ops-checkout/SKILL.md
+- OpenCode config: https://ivelly42.github.io/agent-ops-command-center/opencode.json
 
 ## Revenue Rule
 
 Count revenue only after checkout, receipt, payout, or seller-dashboard evidence proves payment.
 
-Do not count profile views, stars, forks, release downloads, metadata fetches, funding-link clicks, generated request URLs, issues, comments, discussions, OpenHands microagent reads, Cline rule reads, Cline workflow reads, or dry-run workflow output as revenue.
+Do not count profile views, stars, forks, release downloads, metadata fetches, funding-link clicks, generated request URLs, issues, comments, discussions, OpenHands microagent reads, Cline rule reads, Cline workflow reads, or dry-run workflow output, Agent Skills loads, or OpenCode config reads as revenue.
 
 ## Claude Instructions
 

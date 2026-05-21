@@ -1,3 +1,7 @@
+Agent Ops checkout skill: https://ivelly42.github.io/agent-ops-command-center/.agents/skills/agent-ops-checkout/SKILL.md
+Agent Ops checkout skill alias: https://ivelly42.github.io/agent-ops-command-center/agent-ops-checkout-skill.md
+OpenCode config: https://ivelly42.github.io/agent-ops-command-center/opencode.json
+Skill/config loads are not revenue; revenue requires checkout, receipt, payout, or seller-dashboard proof.
 Checkout status manifest now included in IndexNow submissions: https://ivelly42.github.io/agent-ops-command-center/.well-known/checkout-status.json and https://ivelly42.github.io/agent-ops-command-center/checkout-status.json.
 # IndexNow Automation
 
@@ -55,7 +59,7 @@ Submitted surfaces:
 - Feed: https://ivelly42.github.io/agent-ops-command-center/feed.xml
 - Preview index: https://ivelly42.github.io/agent-ops-command-center/github-preview-index.md
 - NPM preview docs: https://ivelly42.github.io/agent-ops-command-center/npm-preview.md
-- NPM release tarball: https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.132-preview/agent-ops-command-center-0.5.132.tgz
+- NPM release tarball: https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.133-preview/agent-ops-command-center-0.5.133.tgz
 - Order autoreply docs: https://ivelly42.github.io/agent-ops-command-center/order-autoreply.md
 - Discussion autoreply docs: https://ivelly42.github.io/agent-ops-command-center/discussion-autoreply.md
 - Revenue proof autoreply docs: https://ivelly42.github.io/agent-ops-command-center/revenue-proof-autoreply.md
