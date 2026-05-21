@@ -72,6 +72,9 @@ The full paid pack is not published publicly. This index links every public prev
 - GitHub Pages vendor onboarding mirror: https://ivelly42.github.io/ai-agent-vendor-onboarding-template/
 - GitHub vendor onboarding mirror: https://github.com/ivelly42/ai-agent-vendor-onboarding-template
 - Use vendor onboarding mirror: https://github.com/ivelly42/ai-agent-vendor-onboarding-template/generate
+- GitHub Pages software purchase request mirror: https://ivelly42.github.io/ai-agent-software-purchase-request-template/
+- GitHub software purchase request mirror: https://github.com/ivelly42/ai-agent-software-purchase-request-template
+- Use software purchase request mirror: https://github.com/ivelly42/ai-agent-software-purchase-request-template/generate
 - GitHub Pages client delivery mirror: https://ivelly42.github.io/ai-agent-client-delivery-kit/
 - Team purchase packet: https://ivelly42.github.io/agent-ops-command-center/team-purchase-packet.html
 - Team procurement email kit: https://ivelly42.github.io/agent-ops-command-center/team-procurement-email.html
@@ -168,7 +171,7 @@ The full paid pack is not published publicly. This index links every public prev
 - Fast template pack request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml
 - RSS feed: https://ivelly42.github.io/agent-ops-command-center/feed.xml
 - Machine-readable catalog: https://ivelly42.github.io/agent-ops-command-center/catalog.json
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.75-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.76-preview
 - Buy page: https://ivelly42.github.io/agent-ops-command-center/buy.html
 - Fast team checkout request: https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html
 - Fast template pack request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml
@@ -251,6 +254,9 @@ The full paid pack is not published publicly. This index links every public prev
 - GitHub Pages vendor onboarding mirror: https://ivelly42.github.io/ai-agent-vendor-onboarding-template/
 - GitHub vendor onboarding mirror: https://github.com/ivelly42/ai-agent-vendor-onboarding-template
 - Use vendor onboarding mirror: https://github.com/ivelly42/ai-agent-vendor-onboarding-template/generate
+- GitHub Pages software purchase request mirror: https://ivelly42.github.io/ai-agent-software-purchase-request-template/
+- GitHub software purchase request mirror: https://github.com/ivelly42/ai-agent-software-purchase-request-template
+- Use software purchase request mirror: https://github.com/ivelly42/ai-agent-software-purchase-request-template/generate
 - GitHub Pages client delivery mirror: https://ivelly42.github.io/ai-agent-client-delivery-kit/
 - GitHub client delivery mirror: https://github.com/ivelly42/ai-agent-client-delivery-kit
 - Revenue proof intake: https://ivelly42.github.io/agent-ops-command-center/revenue-proof.html
@@ -310,6 +316,7 @@ The full paid pack is not published publicly. This index links every public prev
 | Purchase Order Mirror | Route AI-agent PO, purchase-order, invoice, procurement approval, and checkout-readiness searches into the team request path |
 | Invoice Request Mirror | Route AI-agent invoice, billing request, line-item, approval evidence, and checkout-readiness searches into the team request path |
 | Vendor Onboarding Mirror | Route AI-agent vendor setup, supplier intake, billing contact, compliance note, and checkout-readiness searches into the team request path |
+| Software Purchase Request Mirror | Route AI-agent software purchase, purchase-request, approval, quote, PO, invoice, and checkout-readiness searches into the team request path |
 | Discovery Hub | Route every public mirror and buyer-search segment into the $203 request path |
 | Template Pack Mirror | Route broad AI-agent template pack, Notion template, spreadsheet template, and Agent Ops searches into the $203 request path |
 | Template Pack Gist and Discussion | Add public GitHub-native sharing surfaces for broad AI-agent ops searches without counting them as revenue |
