@@ -1,0 +1,98 @@
+name: Order autoreply
+
+on:
+  issues:
+    types: [opened, reopened, labeled]
+
+permissions:
+  issues: write
+
+jobs:
+  reply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            const marker = "<!-- agent-ops-order-autoreply-v1 -->";
+            const issue = context.payload.issue;
+            const labels = (issue.labels || []).map((label) => label.name);
+            const title = issue.title || "";
+            const body = issue.body || "";
+            const text = `${title}\n${body}`;
+            const orderLabels = new Set([
+              "order-request",
+              "template-pack-request",
+              "budget-request",
+              "invoice-request",
+              "expense-report",
+              "quote-request",
+              "purchase-order",
+              "vendor-onboarding",
+              "security-review",
+              "delivery-acceptance",
+              "payment-ready"
+            ]);
+            const hasOrderLabel = labels.some((label) => orderLabels.has(label));
+            const hasOrderText = [
+              "Order request: Agent Ops Command Center",
+              "Template pack request: Agent Ops Command Center",
+              "Budget request: Agent Ops Command Center",
+              "Invoice request: Agent Ops Command Center",
+              "Expense report request: Agent Ops Command Center",
+              "Quote request: Agent Ops Command Center",
+              "Purchase order request: Agent Ops Command Center",
+              "Vendor onboarding request: Agent Ops Command Center",
+              "Security review request: Agent Ops Command Center",
+              "Delivery acceptance request: Agent Ops Command Center",
+              "Payment-ready request: Agent Ops Command Center",
+              "Request package: Team license - 7 seats - $203 gross"
+            ].some((needle) => text.includes(needle));
+
+            if (!hasOrderLabel && !hasOrderText) {
+              core.info("Issue is not an order-intent issue; skipping autoreply.");
+              return;
+            }
+
+            const { owner, repo } = context.repo;
+            const comments = await github.paginate(github.rest.issues.listComments, {
+              owner,
+              repo,
+              issue_number: issue.number,
+              per_page: 100
+            });
+            if (comments.some((comment) => (comment.body || "").includes(marker))) {
+              core.info("Autoreply already exists; skipping duplicate.");
+              return;
+            }
+
+            const reply = [
+              marker,
+              "Thanks for the Agent Ops Command Center request.",
+              "",
+              "**Current checkout status:** not live yet.",
+              "",
+              "**Request package:** Team license - 7 seats - **$203 gross**.",
+              "",
+              "**Important revenue rule:** this issue is not counted as revenue. Revenue is counted only after checkout, receipt, payout, or seller-dashboard evidence exists.",
+              "",
+              "**Next buyer-ready paths**",
+              "",
+              "- Payment-ready request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml",
+              "- Invoice request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=invoice-request.yml",
+              "- Purchase order request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=purchase-order.yml",
+              "- Delivery acceptance request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=delivery-acceptance.yml",
+              "- Public preview: https://ivelly42.github.io/agent-ops-command-center/",
+              "- NPM GitHub preview: `npx github:ivelly42/agent-ops-command-center --json`",
+              "",
+              "**Paid ZIP boundary:** the paid ZIP is not public and should be delivered only after payment proof exists.",
+              "",
+              "Do not post secrets, card data, tax IDs, private invoices, or private billing details in this public issue."
+            ].join("\n");
+
+            await github.rest.issues.createComment({
+              owner,
+              repo,
+              issue_number: issue.number,
+              body: reply
+            });

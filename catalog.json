@@ -1,7 +1,7 @@
 {
   "name": "Agent Ops Command Center",
   "description": "Notion and spreadsheet template pack for builders running AI coding agents.",
-  "version": "v5.92-preview",
+  "version": "v5.93-preview",
   "price_usd": 29,
   "individual_price_usd": 29,
   "team_license_price_usd": 203,
@@ -15,7 +15,7 @@
   "status": "preview_live_no_paid_checkout",
   "homepage": "https://ivelly42.github.io/agent-ops-command-center/",
   "social_image": "https://ivelly42.github.io/agent-ops-command-center/og.png",
-  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.92-preview",
+  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.93-preview",
   "early_access_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml",
   "template_pack_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml",
   "template_pack_request_page": "https://ivelly42.github.io/agent-ops-command-center/template-pack-request.html",
@@ -60,6 +60,12 @@
   "paid_zip_public": false,
   "revenue_rule": "Revenue is proven only by checkout, receipt, payout, or seller-dashboard evidence.",
   "public_assets": [
+    {
+      "title": "Order Autoreply Workflow",
+      "url": "https://ivelly42.github.io/agent-ops-command-center/order-autoreply.md",
+      "workflow": "https://github.com/ivelly42/agent-ops-command-center/blob/main/.github/workflows/order-autoreply.yml",
+      "request_url": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml"
+    },
     {
       "title": "NPM GitHub Install Preview",
       "url": "https://ivelly42.github.io/agent-ops-command-center/npm-preview.md",
@@ -734,7 +740,9 @@
     "https://github.com/topics/revenue-proof",
     "https://ivelly42.github.io/agent-ops-command-center/npm-preview.md",
     "https://github.com/ivelly42/agent-ops-command-center/blob/main/package.json",
-    "https://github.com/ivelly42/agent-ops-command-center/blob/main/bin/agent-ops-command-center.js"
+    "https://github.com/ivelly42/agent-ops-command-center/blob/main/bin/agent-ops-command-center.js",
+    "https://ivelly42.github.io/agent-ops-command-center/order-autoreply.md",
+    "https://github.com/ivelly42/agent-ops-command-center/blob/main/.github/workflows/order-autoreply.yml"
   ],
   "github_access_review_mirror_pages": "https://ivelly42.github.io/ai-agent-access-review-template/",
   "github_access_review_mirror": "https://github.com/ivelly42/ai-agent-access-review-template",
@@ -854,5 +862,14 @@
     "docs": "https://ivelly42.github.io/agent-ops-command-center/npm-preview.md",
     "paid_zip_public": false,
     "revenue_rule": "Installing or running this preview is not revenue. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence."
+  },
+  "order_autoreply": {
+    "workflow": "https://github.com/ivelly42/agent-ops-command-center/blob/main/.github/workflows/order-autoreply.yml",
+    "docs": "https://ivelly42.github.io/agent-ops-command-center/order-autoreply.md",
+    "trigger": "issues opened, reopened, or labeled",
+    "duplicate_guard": "hidden marker comment",
+    "package": "Team license - 7 seats - $203 gross",
+    "paid_zip_public": false,
+    "revenue_rule": "The autoreply is not revenue. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence."
   }
 }

@@ -30,6 +30,10 @@ NPM GitHub install preview: `npx github:ivelly42/agent-ops-command-center --json
 
 NPM preview docs: https://ivelly42.github.io/agent-ops-command-center/npm-preview.md
 
+Order autoreply workflow: https://ivelly42.github.io/agent-ops-command-center/order-autoreply.md
+
+Autoreply source: https://github.com/ivelly42/agent-ops-command-center/blob/main/.github/workflows/order-autoreply.yml
+
 Fast team checkout request: [team-checkout-request.html](team-checkout-request.html)
 
 Fast template pack request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml
@@ -329,7 +333,7 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.92-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.93-preview
 
 Sample files:
 
