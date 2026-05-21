@@ -16,6 +16,8 @@ Fast team checkout request: [team-checkout-request.html](team-checkout-request.h
 
 Client delivery kit: [client-delivery-kit.html](client-delivery-kit.html)
 
+GitHub client delivery mirror: https://github.com/ivelly42/ai-agent-client-delivery-kit
+
 Team purchase packet: [team-purchase-packet.html](team-purchase-packet.html)
 
 Team procurement email kit: [team-procurement-email.html](team-procurement-email.html)
@@ -111,7 +113,7 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.37-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.38-preview
 
 Sample files:
 
@@ -151,6 +153,7 @@ Sample files:
 - [Buy page](buy.html)
 - [Fast team checkout request](team-checkout-request.html)
 - [Client delivery kit](client-delivery-kit.html)
+- [GitHub client delivery mirror](https://github.com/ivelly42/ai-agent-client-delivery-kit)
 - [Team purchase packet](team-purchase-packet.html)
 - [Team procurement email kit](team-procurement-email.html)
 - [Team invoice request packet](team-invoice-request.html)

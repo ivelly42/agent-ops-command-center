@@ -1,7 +1,7 @@
 {
   "name": "Agent Ops Command Center",
   "description": "Notion and spreadsheet template pack for builders running AI coding agents.",
-  "version": "v5.37-preview",
+  "version": "v5.38-preview",
   "price_usd": 29,
   "individual_price_usd": 29,
   "team_license_price_usd": 203,
@@ -13,7 +13,7 @@
   "status": "preview_live_no_paid_checkout",
   "homepage": "https://ivelly42.github.io/agent-ops-command-center/",
   "social_image": "https://ivelly42.github.io/agent-ops-command-center/og.png",
-  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.37-preview",
+  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.38-preview",
   "early_access_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml",
   "fast_team_checkout_request": "https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html",
   "buyer_reply_kit": "https://ivelly42.github.io/agent-ops-command-center/buyer-reply-kit.html",
@@ -228,5 +228,9 @@
   ],
   "workflow_picker_tool": "https://ivelly42.github.io/agent-ops-command-center/workflow-picker.html",
   "notion_import_builder": "https://ivelly42.github.io/agent-ops-command-center/notion-import-builder.html",
-  "client_delivery_kit": "https://ivelly42.github.io/agent-ops-command-center/client-delivery-kit.html"
+  "client_delivery_kit": "https://ivelly42.github.io/agent-ops-command-center/client-delivery-kit.html",
+  "github_client_delivery_mirror": "https://github.com/ivelly42/ai-agent-client-delivery-kit",
+  "external_discovery_channels": [
+    "https://github.com/ivelly42/ai-agent-client-delivery-kit"
+  ]
 }

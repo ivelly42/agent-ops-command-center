@@ -133,10 +133,11 @@ The pack breaks even if it prevents roughly one hour of cleanup time for a build
 - Run log template: https://ivelly42.github.io/agent-ops-command-center/codex-claude-run-log-template.md
 - Failure RCA template: https://ivelly42.github.io/agent-ops-command-center/failure-rca-template.md
 - Preflight checklist: https://ivelly42.github.io/agent-ops-command-center/checklist.md
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.37-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.38-preview
 - Buy page: https://ivelly42.github.io/agent-ops-command-center/buy.html
 - Fast team checkout request: https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html
 - Client delivery kit: https://ivelly42.github.io/agent-ops-command-center/client-delivery-kit.html
+- GitHub client delivery mirror: https://github.com/ivelly42/ai-agent-client-delivery-kit
 - Team purchase packet: https://ivelly42.github.io/agent-ops-command-center/team-purchase-packet.html
 - Team procurement email kit: https://ivelly42.github.io/agent-ops-command-center/team-procurement-email.html
 - Team invoice request packet: https://ivelly42.github.io/agent-ops-command-center/team-invoice-request.html
