@@ -20,6 +20,8 @@ Submitted surfaces:
 - Agent routing manifest alias: https://ivelly42.github.io/agent-ops-command-center/agent-routing.json
 - AI agents discovery manifest: https://ivelly42.github.io/agent-ops-command-center/.well-known/agents.json
 - AI agents discovery manifest alias: https://ivelly42.github.io/agent-ops-command-center/agents.json
+- LLM discovery JSON: https://ivelly42.github.io/agent-ops-command-center/.well-known/llms.json
+- LLM discovery JSON alias: https://ivelly42.github.io/agent-ops-command-center/llms.json
 - GitHub Copilot instructions: https://ivelly42.github.io/agent-ops-command-center/copilot-instructions.md
 - Cursor agent rules: https://ivelly42.github.io/agent-ops-command-center/cursor-agent-rules.md
 - Windsurf rules: https://ivelly42.github.io/agent-ops-command-center/windsurf-rules.md
@@ -35,7 +37,7 @@ Submitted surfaces:
 - Feed: https://ivelly42.github.io/agent-ops-command-center/feed.xml
 - Preview index: https://ivelly42.github.io/agent-ops-command-center/github-preview-index.md
 - NPM preview docs: https://ivelly42.github.io/agent-ops-command-center/npm-preview.md
-- NPM release tarball: https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.119-preview/agent-ops-command-center-0.5.119.tgz
+- NPM release tarball: https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.122-preview/agent-ops-command-center-0.5.122.tgz
 - Order autoreply docs: https://ivelly42.github.io/agent-ops-command-center/order-autoreply.md
 - Discussion autoreply docs: https://ivelly42.github.io/agent-ops-command-center/discussion-autoreply.md
 - Revenue proof autoreply docs: https://ivelly42.github.io/agent-ops-command-center/revenue-proof-autoreply.md

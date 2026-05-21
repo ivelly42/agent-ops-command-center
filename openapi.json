@@ -2,7 +2,7 @@
   "openapi": "3.1.0",
   "info": {
     "title": "Agent Ops Command Center Commerce Actions",
-    "version": "0.5.121",
+    "version": "0.5.122",
     "description": "Read public product metadata and open the $203 team-license request path for Agent Ops Command Center. This API describes public static resources only; it does not process payment or prove revenue."
   },
   "servers": [
@@ -200,6 +200,44 @@
           }
         }
       }
+    },
+    "/agent-ops-command-center/.well-known/llms.json": {
+      "get": {
+        "operationId": "readLlmDiscoveryManifest",
+        "summary": "Read LLM discovery manifest",
+        "description": "Returns LLM-readable discovery metadata, buyer paths, the primary $203 team-license request, and revenue proof rules.",
+        "responses": {
+          "200": {
+            "description": "LLM discovery manifest",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/LlmDiscoveryManifest"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/agent-ops-command-center/llms.json": {
+      "get": {
+        "operationId": "readLlmDiscoveryManifestAlias",
+        "summary": "Read LLM discovery manifest alias",
+        "description": "Alias for crawlers and agents that look for project-root JSON discovery files.",
+        "responses": {
+          "200": {
+            "description": "LLM discovery manifest",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/LlmDiscoveryManifest"
+                }
+              }
+            }
+          }
+        }
+      }
     }
   },
   "components": {
@@ -362,6 +400,43 @@
             "type": "boolean"
           }
         }
+      },
+      "LlmDiscoveryManifest": {
+        "type": "object",
+        "required": [
+          "name",
+          "primary_offer",
+          "llm_entrypoints",
+          "machine_actions",
+          "revenue_rule"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "primary_offer": {
+            "$ref": "#/components/schemas/Offer"
+          },
+          "llm_entrypoints": {
+            "type": "array",
+            "items": {
+              "type": "object"
+            }
+          },
+          "machine_actions": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string",
+              "format": "uri"
+            }
+          },
+          "revenue_rule": {
+            "type": "string"
+          },
+          "fake_proof_prohibited": {
+            "type": "boolean"
+          }
+        }
       }
     }
   },
@@ -372,7 +447,7 @@
   },
   "x-revenue-rule": "OpenAPI metadata is routing metadata, not revenue. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence.",
   "x-agent-routing-manifest": "https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-routing.json",
-  "x-npm-release-tarball": "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.121-preview/agent-ops-command-center-0.5.121.tgz",
+  "x-npm-release-tarball": "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.122-preview/agent-ops-command-center-0.5.122.tgz",
   "x-editor-rule-files": {
     "github_copilot": {
       "canonical": "https://github.com/ivelly42/agent-ops-command-center/blob/main/.github/copilot-instructions.md",
@@ -392,5 +467,8 @@
     }
   },
   "x-agents-manifest": "https://ivelly42.github.io/agent-ops-command-center/.well-known/agents.json",
-  "x-agents-manifest-alias": "https://ivelly42.github.io/agent-ops-command-center/agents.json"
+  "x-agents-manifest-alias": "https://ivelly42.github.io/agent-ops-command-center/agents.json",
+  "x-llms-json": "https://ivelly42.github.io/agent-ops-command-center/.well-known/llms.json",
+  "x-llms-json-alias": "https://ivelly42.github.io/agent-ops-command-center/llms.json",
+  "x-llms-txt": "https://ivelly42.github.io/agent-ops-command-center/llms.txt"
 }

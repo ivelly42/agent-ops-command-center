@@ -27,6 +27,10 @@ AI-Agents-Discovery: https://ivelly42.github.io/agent-ops-command-center/.well-k
 
 AI-Agents-Discovery-Alias: https://ivelly42.github.io/agent-ops-command-center/agents.json
 
+LLMs-JSON: https://ivelly42.github.io/agent-ops-command-center/.well-known/llms.json
+
+LLMs-JSON-Alias: https://ivelly42.github.io/agent-ops-command-center/llms.json
+
 GitHub-Copilot-Instructions: https://ivelly42.github.io/agent-ops-command-center/copilot-instructions.md
 
 Cursor-Agent-Rules: https://ivelly42.github.io/agent-ops-command-center/cursor-agent-rules.md

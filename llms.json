@@ -1,0 +1,102 @@
+{
+  "name": "Agent Ops Command Center",
+  "type": "llm_discovery_manifest",
+  "schema_version": "2026-05-22",
+  "updated_at_kst": "2026-05-22 06:43",
+  "canonical_url": "https://ivelly42.github.io/agent-ops-command-center/.well-known/llms.json",
+  "alternate_urls": [
+    "https://ivelly42.github.io/agent-ops-command-center/llms.json",
+    "https://ivelly42.github.io/agent-ops-command-center/llms.txt",
+    "https://ivelly42.github.io/agent-ops-command-center/.well-known/agents.json",
+    "https://ivelly42.github.io/agent-ops-command-center/agents.json",
+    "https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-routing.json",
+    "https://ivelly42.github.io/agent-ops-command-center/openapi.json"
+  ],
+  "product": {
+    "name": "Agent Ops Command Center",
+    "category": "Notion and spreadsheet template pack for AI coding-agent teams",
+    "public_preview_url": "https://ivelly42.github.io/agent-ops-command-center/",
+    "paid_zip_public": false
+  },
+  "primary_offer": {
+    "name": "Team license - 7 seats",
+    "gross_price_usd": 203,
+    "target_revenue_usd": 200,
+    "target_reached_by": "one confirmed $203 team-license payment",
+    "request_url": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
+    "request_package": "Team license - 7 seats - $203 gross"
+  },
+  "llm_entrypoints": [
+    {
+      "id": "llms_txt",
+      "url": "https://ivelly42.github.io/agent-ops-command-center/llms.txt",
+      "purpose": "plain-text LLM crawl index with sales, request, proof, and metadata links"
+    },
+    {
+      "id": "agents_manifest",
+      "url": "https://ivelly42.github.io/agent-ops-command-center/.well-known/agents.json",
+      "purpose": "agent-specific discovery for Codex, Claude Code, GitHub Copilot, Cursor, Windsurf, and Cline"
+    },
+    {
+      "id": "agent_routing_manifest",
+      "url": "https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-routing.json",
+      "purpose": "machine-readable routing instructions and primary $203 request action"
+    },
+    {
+      "id": "openapi_commerce_actions",
+      "url": "https://ivelly42.github.io/agent-ops-command-center/openapi.json",
+      "purpose": "OpenAPI operations for catalog, metrics, commerce metadata, and request page discovery"
+    },
+    {
+      "id": "catalog",
+      "url": "https://ivelly42.github.io/agent-ops-command-center/catalog.json",
+      "purpose": "public preview catalog and sales surface index"
+    }
+  ],
+  "machine_actions": {
+    "open_primary_team_request": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
+    "open_payment_ready_issue": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml",
+    "read_llms_txt": "https://ivelly42.github.io/agent-ops-command-center/llms.txt",
+    "read_agents_manifest": "https://ivelly42.github.io/agent-ops-command-center/.well-known/agents.json",
+    "read_agent_routing": "https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-routing.json",
+    "read_agent_commerce": "https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-commerce.json",
+    "read_ai_plugin": "https://ivelly42.github.io/agent-ops-command-center/.well-known/ai-plugin.json",
+    "read_openapi": "https://ivelly42.github.io/agent-ops-command-center/openapi.json",
+    "read_buy_intent": "https://ivelly42.github.io/agent-ops-command-center/ai-buy-intent.json",
+    "read_catalog": "https://ivelly42.github.io/agent-ops-command-center/catalog.json",
+    "read_metrics": "https://ivelly42.github.io/agent-ops-command-center/metrics/status.json",
+    "run_npm_release_tarball_team_request": "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.122-preview/agent-ops-command-center-0.5.122.tgz"
+  },
+  "content_index": {
+    "sales_pages": [
+      "https://ivelly42.github.io/agent-ops-command-center/buy.html",
+      "https://ivelly42.github.io/agent-ops-command-center/pricing.html",
+      "https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html",
+      "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html"
+    ],
+    "buyer_enablement": [
+      "https://ivelly42.github.io/agent-ops-command-center/team-purchase-packet.html",
+      "https://ivelly42.github.io/agent-ops-command-center/team-procurement-email.html",
+      "https://ivelly42.github.io/agent-ops-command-center/team-invoice-request.html",
+      "https://ivelly42.github.io/agent-ops-command-center/team-security-review.html",
+      "https://ivelly42.github.io/agent-ops-command-center/team-rollout-plan.html",
+      "https://ivelly42.github.io/agent-ops-command-center/team-buyer-faq.html"
+    ],
+    "machine_metadata": [
+      "https://ivelly42.github.io/agent-ops-command-center/.well-known/agents.json",
+      "https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-routing.json",
+      "https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-commerce.json",
+      "https://ivelly42.github.io/agent-ops-command-center/.well-known/ai-plugin.json",
+      "https://ivelly42.github.io/agent-ops-command-center/openapi.json",
+      "https://ivelly42.github.io/agent-ops-command-center/ai-buy-intent.json",
+      "https://ivelly42.github.io/agent-ops-command-center/catalog.json"
+    ],
+    "proof_and_metrics": [
+      "https://ivelly42.github.io/agent-ops-command-center/metrics/status.json",
+      "https://ivelly42.github.io/agent-ops-command-center/revenue-proof-autoreply.md",
+      "https://ivelly42.github.io/agent-ops-command-center/revenue-proof.html"
+    ]
+  },
+  "revenue_rule": "LLM discovery metadata is not revenue. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence. Do not count generated request URLs, issues, discussions, stars, forks, views, release downloads, npm tarball runs, metadata fetches, or LLM crawls as revenue.",
+  "fake_proof_prohibited": true
+}

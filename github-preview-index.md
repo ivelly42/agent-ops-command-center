@@ -26,7 +26,7 @@ The full paid pack is not published publicly. This index links every public prev
 - AI-agent template topic: https://github.com/topics/ai-agent-template
 - NPM GitHub install preview: `npx github:ivelly42/agent-ops-command-center --json`
 - NPM team request shortcut: `npx github:ivelly42/agent-ops-command-center --team-request-url`
-- NPM release tarball team request: `npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.121-preview/agent-ops-command-center-0.5.121.tgz -- agent-ops-command-center --team-request-url`
+- NPM release tarball team request: `npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.122-preview/agent-ops-command-center-0.5.122.tgz -- agent-ops-command-center --team-request-url`
 - Package funding direct request: `npm fund agent-ops-command-center` -> https://ivelly42.github.io/agent-ops-command-center/team-request-url.html
 - Agent commerce metadata: https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-commerce.json
 - Agent commerce metadata alias: https://ivelly42.github.io/agent-ops-command-center/agent-commerce.json
@@ -34,6 +34,8 @@ The full paid pack is not published publicly. This index links every public prev
 - Agent routing manifest alias: https://ivelly42.github.io/agent-ops-command-center/agent-routing.json
 - AI agents discovery manifest: https://ivelly42.github.io/agent-ops-command-center/.well-known/agents.json
 - AI agents discovery manifest alias: https://ivelly42.github.io/agent-ops-command-center/agents.json
+- LLM discovery JSON: https://ivelly42.github.io/agent-ops-command-center/.well-known/llms.json
+- LLM discovery JSON alias: https://ivelly42.github.io/agent-ops-command-center/llms.json
 - AI plugin manifest: https://ivelly42.github.io/agent-ops-command-center/.well-known/ai-plugin.json
 - AI plugin manifest alias: https://ivelly42.github.io/agent-ops-command-center/ai-plugin.json
 - Agent routing instructions: https://github.com/ivelly42/agent-ops-command-center/blob/main/AGENTS.md
@@ -240,7 +242,7 @@ The full paid pack is not published publicly. This index links every public prev
 - Fast template pack request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml
 - RSS feed: https://ivelly42.github.io/agent-ops-command-center/feed.xml
 - Machine-readable catalog: https://ivelly42.github.io/agent-ops-command-center/catalog.json
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.121-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.122-preview
 - Buy page: https://ivelly42.github.io/agent-ops-command-center/buy.html
 - Payment-ready team checkout request: https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html
 - Fast template pack request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml

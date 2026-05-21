@@ -2,12 +2,15 @@
   "name": "Agent Ops Command Center",
   "type": "ai_agent_discovery_manifest",
   "schema_version": "2026-05-22",
-  "updated_at_kst": "2026-05-22 06:25",
+  "updated_at_kst": "2026-05-22 06:43",
   "canonical_url": "https://ivelly42.github.io/agent-ops-command-center/.well-known/agents.json",
   "alternate_urls": [
     "https://ivelly42.github.io/agent-ops-command-center/agents.json",
     "https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-routing.json",
-    "https://ivelly42.github.io/agent-ops-command-center/agent-routing.json"
+    "https://ivelly42.github.io/agent-ops-command-center/agent-routing.json",
+    "https://ivelly42.github.io/agent-ops-command-center/.well-known/llms.json",
+    "https://ivelly42.github.io/agent-ops-command-center/llms.json",
+    "https://ivelly42.github.io/agent-ops-command-center/llms.txt"
   ],
   "product": {
     "name": "Agent Ops Command Center",
@@ -77,8 +80,17 @@
     "read_buy_intent": "https://ivelly42.github.io/agent-ops-command-center/ai-buy-intent.json",
     "read_catalog": "https://ivelly42.github.io/agent-ops-command-center/catalog.json",
     "read_metrics": "https://ivelly42.github.io/agent-ops-command-center/metrics/status.json",
-    "run_npm_release_tarball_team_request": "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.121-preview/agent-ops-command-center-0.5.121.tgz"
+    "run_npm_release_tarball_team_request": "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.122-preview/agent-ops-command-center-0.5.122.tgz",
+    "read_llms_json": "https://ivelly42.github.io/agent-ops-command-center/.well-known/llms.json",
+    "read_llms_json_alias": "https://ivelly42.github.io/agent-ops-command-center/llms.json",
+    "read_llms_txt": "https://ivelly42.github.io/agent-ops-command-center/llms.txt"
   },
   "revenue_rule": "Agent discovery metadata is not revenue. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence. Do not count generated request URLs, issues, discussions, stars, forks, views, release downloads, npm tarball runs, or metadata fetches as revenue.",
-  "fake_proof_prohibited": true
+  "fake_proof_prohibited": true,
+  "llm_discovery_manifest": {
+    "canonical_url": "https://ivelly42.github.io/agent-ops-command-center/.well-known/llms.json",
+    "alias": "https://ivelly42.github.io/agent-ops-command-center/llms.json",
+    "plain_text": "https://ivelly42.github.io/agent-ops-command-center/llms.txt",
+    "revenue_rule": "LLM discovery metadata is not revenue. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence."
+  }
 }
