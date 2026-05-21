@@ -3,6 +3,19 @@ name: Order autoreply
 on:
   issues:
     types: [opened, reopened, labeled]
+  workflow_dispatch:
+    inputs:
+      mock_prefilled_team_request:
+        description: Validate the prefilled $203 team request path without creating an issue.
+        required: false
+        default: "false"
+      issue_number:
+        description: Existing issue number for dry-run validation.
+        required: false
+      dry_run:
+        description: Do not add labels or comments when true.
+        required: false
+        default: "true"
 
 permissions:
   issues: write
@@ -15,8 +28,56 @@ jobs:
         with:
           script: |
             const marker = "<!-- agent-ops-order-autoreply-v1 -->";
-            const issue = context.payload.issue;
-            const labels = (issue.labels || []).map((label) => label.name);
+            const eventName = context.eventName;
+            const isDispatch = eventName === "workflow_dispatch";
+            const inputs = context.payload.inputs || {};
+            const dryRun = isDispatch && inputs.dry_run !== "false";
+            if (isDispatch && !dryRun) {
+              core.setFailed("workflow_dispatch is dry-run only for order autoreply validation.");
+              return;
+            }
+
+            const { owner, repo } = context.repo;
+            let issue = context.payload.issue;
+            if (isDispatch && inputs.mock_prefilled_team_request === "true") {
+              issue = {
+                number: 0,
+                title: "Fast team checkout request: Agent Ops Command Center",
+                labels: [],
+                body: [
+                  "Fast team checkout request: Agent Ops Command Center",
+                  "",
+                  "Request package: Team license - 7 seats - $203 gross",
+                  "Purchase intent: Ready to pay $203 for the team license when checkout is ready",
+                  "Preferred checkout: Receipt-capable checkout",
+                  "Receipt need: Receipt needed after payment",
+                  "Current blocker: Waiting for checkout link",
+                  "",
+                  "Buyer/team:",
+                  "- Seven-seat AI-agent operator team",
+                  "",
+                  "Acknowledgement:",
+                  "- I understand this issue is purchase intent only.",
+                  "- I understand the private paid ZIP should be delivered only after checkout, receipt, payout, or seller-dashboard proof exists.",
+                  "- I understand gross revenue is counted only when payment proof exists."
+                ].join("\n")
+              };
+            } else if (isDispatch && inputs.issue_number) {
+              const fetched = await github.rest.issues.get({
+                owner,
+                repo,
+                issue_number: Number(inputs.issue_number)
+              });
+              issue = fetched.data;
+            }
+
+            if (!issue) {
+              core.info("No issue supplied; skipping autoreply.");
+              return;
+            }
+            const labels = (issue.labels || []).map((label) =>
+              typeof label === "string" ? label : label.name
+            );
             const title = issue.title || "";
             const body = issue.body || "";
             const text = `${title}\n${body}`;
@@ -54,7 +115,6 @@ jobs:
               return;
             }
 
-            const { owner, repo } = context.repo;
             const labelsToAdd = new Set();
             const addIfMissing = (label) => {
               if (!labels.includes(label)) labelsToAdd.add(label);
@@ -80,6 +140,10 @@ jobs:
 
             const addMissingLabels = async () => {
               if (labelsToAdd.size === 0) return;
+              if (dryRun) {
+                core.info(`Dry run: would add labels ${Array.from(labelsToAdd).sort().join(", ")}.`);
+                return;
+              }
               await github.rest.issues.addLabels({
                 owner,
                 repo,
@@ -88,12 +152,14 @@ jobs:
               });
             };
 
-            const comments = await github.paginate(github.rest.issues.listComments, {
-              owner,
-              repo,
-              issue_number: issue.number,
-              per_page: 100
-            });
+            const comments = issue.number
+              ? await github.paginate(github.rest.issues.listComments, {
+                owner,
+                repo,
+                issue_number: issue.number,
+                per_page: 100
+              })
+              : [];
             if (comments.some((comment) => (comment.body || "").includes(marker))) {
               await addMissingLabels();
               core.info("Autoreply already exists; skipping duplicate.");
@@ -123,6 +189,13 @@ jobs:
               "",
               "Do not post secrets, card data, tax IDs, private invoices, or private billing details in this public issue."
             ].join("\n");
+
+            if (dryRun) {
+              await addMissingLabels();
+              core.info("Dry run: would create order autoreply comment.");
+              core.info(reply);
+              return;
+            }
 
             await github.rest.issues.createComment({
               owner,

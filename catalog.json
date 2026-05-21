@@ -1,7 +1,7 @@
 {
   "name": "Agent Ops Command Center",
   "description": "Notion and spreadsheet template pack for builders running AI coding agents.",
-  "version": "v5.107-preview",
+  "version": "v5.108-preview",
   "price_usd": 29,
   "individual_price_usd": 29,
   "team_license_price_usd": 203,
@@ -15,7 +15,7 @@
   "status": "preview_live_no_paid_checkout",
   "homepage": "https://ivelly42.github.io/agent-ops-command-center/",
   "social_image": "https://ivelly42.github.io/agent-ops-command-center/og.png",
-  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.107-preview",
+  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.108-preview",
   "early_access_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml",
   "template_pack_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml",
   "template_pack_request_page": "https://ivelly42.github.io/agent-ops-command-center/template-pack-request.html",
@@ -61,6 +61,18 @@
   "paid_zip_public": false,
   "revenue_rule": "Revenue is proven only by checkout, receipt, payout, or seller-dashboard evidence.",
   "public_assets": [
+    {
+      "title": "Order Autoreply Direct Request Dry Run",
+      "url": "https://ivelly42.github.io/agent-ops-command-center/order-autoreply.md",
+      "workflow": "https://github.com/ivelly42/agent-ops-command-center/blob/main/.github/workflows/order-autoreply.yml",
+      "validates": "Prefilled $203 team request text is recognized without creating a fake issue",
+      "expected_labels": [
+        "order-request",
+        "payment-ready",
+        "order-autolabeled"
+      ],
+      "revenue_rule": "Dry-run validation is not revenue. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence."
+    },
     {
       "title": "Prefilled Team Request URL",
       "url": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
@@ -988,7 +1000,7 @@
     "team_request_mirror": "https://github.com/ivelly42/ai-agent-npx-team-request-template",
     "team_request_mirror_pages": "https://ivelly42.github.io/ai-agent-npx-team-request-template/",
     "package_name": "agent-ops-command-center",
-    "package_version": "0.5.107",
+    "package_version": "0.5.108",
     "bin": [
       "agent-ops-command-center",
       "agent-ops"
@@ -1029,14 +1041,20 @@
     "revenue_rule": "The CLI creates buyer request links only. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence."
   },
   "order_autoreply": {
+    "updated_at_kst": "2026-05-22 04:30",
     "workflow": "https://github.com/ivelly42/agent-ops-command-center/blob/main/.github/workflows/order-autoreply.yml",
     "docs": "https://ivelly42.github.io/agent-ops-command-center/order-autoreply.md",
-    "trigger": "issues opened, reopened, or labeled",
+    "trigger": "issues opened, reopened, labeled, or workflow_dispatch dry run",
     "duplicate_guard": "hidden marker comment",
     "package": "Team license - 7 seats - $203 gross",
     "paid_zip_public": false,
     "revenue_rule": "The autoreply is not revenue. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence.",
     "discussion": "https://github.com/ivelly42/agent-ops-command-center/discussions/10",
+    "dry_run": {
+      "mock_prefilled_team_request": "validates the direct prefilled $203 team request without creating an issue",
+      "issue_number": "validates an existing issue without adding labels or comments",
+      "dry_run_false": "blocked for workflow_dispatch"
+    },
     "autolabels": [
       "order-request",
       "payment-ready",

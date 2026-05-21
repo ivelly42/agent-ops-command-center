@@ -54,6 +54,8 @@ Autoreply source: https://github.com/ivelly42/agent-ops-command-center/blob/main
 
 Order-intent autolabeling: prefilled payment-ready issues are automatically labeled `order-request`, `payment-ready`, and `order-autolabeled`.
 
+Order autoreply dry-run: validates the prefilled `$203` team request without creating a fake issue.
+
 IndexNow automation: https://ivelly42.github.io/agent-ops-command-center/indexnow-automation.md
 
 Discussion autoreply: https://ivelly42.github.io/agent-ops-command-center/discussion-autoreply.md
@@ -361,7 +363,7 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.107-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.108-preview
 
 Sample files:
 
