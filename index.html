@@ -19,6 +19,8 @@
     <link rel="alternate" type="text/markdown" title="Zed rules" href="https://ivelly42.github.io/agent-ops-command-center/.rules">
     <link rel="alternate" type="text/markdown" title="Claude Code checkout skill" href="https://ivelly42.github.io/agent-ops-command-center/.claude/skills/agent-ops-checkout/SKILL.md">
     <link rel="alternate" type="text/markdown" title="Claude Code buy command" href="https://ivelly42.github.io/agent-ops-command-center/.claude/commands/buy-agent-ops.md">
+    <link rel="alternate" type="text/markdown" title="MCP stdio server guide" href="https://ivelly42.github.io/agent-ops-command-center/mcp-server.md">
+    <link rel="alternate" type="application/json" title="MCP stdio server manifest" href="https://ivelly42.github.io/agent-ops-command-center/.well-known/mcp-server.json">
     <link rel="alternate" type="text/markdown" title="Junie guidelines" href="https://ivelly42.github.io/agent-ops-command-center/.junie/guidelines.md">
     <link rel="alternate" type="application/json" title="OpenCode config" href="https://ivelly42.github.io/agent-ops-command-center/opencode.json">
     <link rel="alternate" type="application/json" title="Agent routing manifest" href="https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-routing.json">
@@ -100,6 +102,16 @@
             "@type": "WebPage",
             "name": "Claude Code buy command",
             "url": "https://ivelly42.github.io/agent-ops-command-center/.claude/commands/buy-agent-ops.md"
+          },
+          {
+            "@type": "SoftwareApplication",
+            "name": "MCP stdio server",
+            "url": "https://ivelly42.github.io/agent-ops-command-center/mcp-server.md"
+          },
+          {
+            "@type": "DataFeed",
+            "name": "MCP stdio server manifest",
+            "url": "https://ivelly42.github.io/agent-ops-command-center/.well-known/mcp-server.json"
           },
           {
             "@type": "WebPage",
@@ -1667,6 +1679,17 @@
           </div>
           <a class="button" href="order-intent.html">Prepare order intent</a>
           <a class="button primary" href="https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml">Open order request</a>
+        </div>
+      </section>
+
+      <section id="mcp-server">
+        <div class="order-box">
+          <div>
+            <h2>Use the MCP buyer router</h2>
+            <p>The stdio server exposes checkout status, the $203 team request, and the revenue proof rule to MCP clients without counting tool calls as revenue.</p>
+          </div>
+          <a class="button" href="mcp-server.md">Open MCP guide</a>
+          <a class="button" href=".well-known/mcp-server.json">Open MCP manifest</a>
         </div>
       </section>
 

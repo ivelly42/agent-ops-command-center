@@ -1,0 +1,29 @@
+{
+  "name": "Agent Ops Command Center MCP Server",
+  "type": "mcp_stdio_server_manifest",
+  "schema_version": "2026-05-22",
+  "version": "0.5.137",
+  "transport": "stdio",
+  "command": "npm",
+  "args": [
+    "exec",
+    "--yes",
+    "--package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.137-preview/agent-ops-command-center-0.5.137.tgz",
+    "--",
+    "agent-ops-mcp-server"
+  ],
+  "tools": [
+    "get_checkout_status",
+    "get_team_request",
+    "get_revenue_rule"
+  ],
+  "resources": [
+    "agent-ops://checkout-status",
+    "agent-ops://team-request"
+  ],
+  "primary_offer": "Team license - 7 seats - $203 gross",
+  "primary_request_url": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
+  "checkout_status_url": "https://ivelly42.github.io/agent-ops-command-center/checkout-status.json",
+  "metrics_url": "https://ivelly42.github.io/agent-ops-command-center/metrics/status.json",
+  "revenue_rule": "Count revenue only after checkout, receipt, payout, or seller-dashboard evidence. MCP calls and metadata reads are not revenue."
+}

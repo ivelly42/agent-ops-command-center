@@ -2,10 +2,13 @@
   "name": "Agent Ops Command Center",
   "type": "checkout_status_manifest",
   "schema_version": "2026-05-22",
-  "updated_at_kst": "2026-05-22 08:24",
+  "updated_at_kst": "2026-05-22 08:36",
   "canonical_url": "https://ivelly42.github.io/agent-ops-command-center/.well-known/checkout-status.json",
   "alternate_urls": [
-    "https://ivelly42.github.io/agent-ops-command-center/checkout-status.json"
+    "https://ivelly42.github.io/agent-ops-command-center/checkout-status.json",
+    "https://ivelly42.github.io/agent-ops-command-center/mcp-server.md",
+    "https://ivelly42.github.io/agent-ops-command-center/.well-known/mcp-server.json",
+    "https://ivelly42.github.io/agent-ops-command-center/mcp-server.json"
   ],
   "status": "no paid checkout",
   "checkout_live": false,
@@ -63,7 +66,9 @@
     "Junie guideline read",
     "Zed .rules read",
     "Claude Code skill load",
-    "Claude Code slash-command read"
+    "Claude Code slash-command read",
+    "MCP tool call",
+    "MCP resource read"
   ],
   "buyer_next_action": {
     "route": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
@@ -74,7 +79,9 @@
     "junie_guidelines": "https://ivelly42.github.io/agent-ops-command-center/.junie/guidelines.md",
     "zed_rules": "https://ivelly42.github.io/agent-ops-command-center/.rules",
     "claude_code_skill": "https://ivelly42.github.io/agent-ops-command-center/.claude/skills/agent-ops-checkout/SKILL.md",
-    "claude_code_buy_command": "https://ivelly42.github.io/agent-ops-command-center/.claude/commands/buy-agent-ops.md"
+    "claude_code_buy_command": "https://ivelly42.github.io/agent-ops-command-center/.claude/commands/buy-agent-ops.md",
+    "mcp_server": "https://ivelly42.github.io/agent-ops-command-center/mcp-server.md",
+    "mcp_server_manifest": "https://ivelly42.github.io/agent-ops-command-center/.well-known/mcp-server.json"
   },
   "proof_required_to_complete_goal": {
     "target_revenue_usd": 200,
@@ -98,5 +105,9 @@
   "claude_code_skill": "https://ivelly42.github.io/agent-ops-command-center/.claude/skills/agent-ops-checkout/SKILL.md",
   "claude_code_skill_alias": "https://ivelly42.github.io/agent-ops-command-center/claude-code-checkout-skill.md",
   "claude_code_buy_command": "https://ivelly42.github.io/agent-ops-command-center/.claude/commands/buy-agent-ops.md",
-  "claude_code_buy_command_alias": "https://ivelly42.github.io/agent-ops-command-center/claude-code-buy-command.md"
+  "claude_code_buy_command_alias": "https://ivelly42.github.io/agent-ops-command-center/claude-code-buy-command.md",
+  "mcp_server": "https://ivelly42.github.io/agent-ops-command-center/mcp-server.md",
+  "mcp_server_manifest": "https://ivelly42.github.io/agent-ops-command-center/.well-known/mcp-server.json",
+  "mcp_server_manifest_alias": "https://ivelly42.github.io/agent-ops-command-center/mcp-server.json",
+  "mcp_stdio_command": "npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.137-preview/agent-ops-command-center-0.5.137.tgz -- agent-ops-mcp-server"
 }

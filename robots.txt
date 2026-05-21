@@ -29,6 +29,12 @@ Zed-Rules-Alias: https://ivelly42.github.io/agent-ops-command-center/zed-rules.m
 
 Universal-Agent-MD: https://ivelly42.github.io/agent-ops-command-center/AGENT.md
 
+MCP-Server: https://ivelly42.github.io/agent-ops-command-center/mcp-server.md
+
+MCP-Server-Manifest: https://ivelly42.github.io/agent-ops-command-center/.well-known/mcp-server.json
+
+MCP-Server-Manifest-Alias: https://ivelly42.github.io/agent-ops-command-center/mcp-server.json
+
 Amp-Agent-Alias: https://ivelly42.github.io/agent-ops-command-center/amp-agent.md
 
 Junie-Guidelines: https://ivelly42.github.io/agent-ops-command-center/.junie/guidelines.md

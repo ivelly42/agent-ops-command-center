@@ -1,7 +1,7 @@
 {
   "name": "agent-ops-command-center",
-  "version": "0.5.136",
-  "description": "Public preview CLI for Agent Ops Command Center with payment-ready $203 team request links, checkout-status metadata, Agent Skills routing, Claude Code skill and slash-command routing, Junie, AGENT.md, and Zed .rules routing.",
+  "version": "0.5.137",
+  "description": "Public preview CLI and MCP server for Agent Ops Command Center with payment-ready $203 team request links, checkout-status metadata, Agent Skills routing, Claude Code skill and slash-command routing, Junie, AGENT.md, and Zed .rules routing.",
   "license": "MIT",
   "homepage": "https://ivelly42.github.io/agent-ops-command-center/",
   "funding": {
@@ -17,7 +17,8 @@
   },
   "bin": {
     "agent-ops-command-center": "bin/agent-ops-command-center.js",
-    "agent-ops": "bin/agent-ops-command-center.js"
+    "agent-ops": "bin/agent-ops-command-center.js",
+    "agent-ops-mcp-server": "bin/agent-ops-mcp-server.js"
   },
   "files": [
     ".well-known/agent-commerce.json",
@@ -42,6 +43,9 @@
     "ai-plugin.json",
     "ai-buy-intent.json",
     "bin",
+    "mcp-server.md",
+    "mcp-server.json",
+    ".well-known/mcp-server.json",
     "README.md",
     "catalog.json",
     "discussion-autoreply.md",
@@ -94,7 +98,8 @@
     "template-pack",
     "checkout-readiness",
     "payment-ready",
-    "revenue-proof"
+    "revenue-proof",
+    "mcp-server"
   ],
   "scripts": {
     "preview": "node bin/agent-ops-command-center.js",

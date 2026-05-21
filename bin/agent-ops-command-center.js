@@ -57,6 +57,8 @@ const links = {
   claudeCodeCheckoutSkillAlias: "https://ivelly42.github.io/agent-ops-command-center/claude-code-checkout-skill.md",
   claudeCodeBuyCommand: "https://ivelly42.github.io/agent-ops-command-center/.claude/commands/buy-agent-ops.md",
   claudeCodeBuyCommandAlias: "https://ivelly42.github.io/agent-ops-command-center/claude-code-buy-command.md",
+  mcpServer: "https://ivelly42.github.io/agent-ops-command-center/mcp-server.md",
+  mcpServerManifest: "https://ivelly42.github.io/agent-ops-command-center/.well-known/mcp-server.json",
   junieGuidelines: "https://ivelly42.github.io/agent-ops-command-center/.junie/guidelines.md",
   junieGuidelinesAlias: "https://ivelly42.github.io/agent-ops-command-center/junie-guidelines.md",
   catalog: "https://ivelly42.github.io/agent-ops-command-center/catalog.json",
@@ -87,7 +89,7 @@ const links = {
   paymentReadyNpmAutoreplyDiscussion: "https://github.com/ivelly42/agent-ops-command-center/discussions/10",
   clineWorkflowDiscussion: "https://github.com/ivelly42/agent-ops-command-center/discussions/12",
   release: "https://github.com/ivelly42/agent-ops-command-center/releases/latest",
-  npmReleaseTarball: "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.136-preview/agent-ops-command-center-0.5.136.tgz"
+  npmReleaseTarball: "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.137-preview/agent-ops-command-center-0.5.137.tgz"
 };
 
 const payload = {
@@ -103,6 +105,7 @@ const payload = {
   commands: {
     team_request_url: "npx github:ivelly42/agent-ops-command-center --team-request-url",
     team_request_markdown: "npx github:ivelly42/agent-ops-command-center --team-request-markdown",
+    mcp_stdio_server: `npm exec --yes --package=${links.npmReleaseTarball} -- agent-ops-mcp-server`,
     release_tarball_team_request: `npm exec --yes --package=${links.npmReleaseTarball} -- agent-ops-command-center --team-request-url`,
     package_funding: "npm fund agent-ops-command-center"
   },
@@ -182,6 +185,9 @@ ${links.claudeCodeCheckoutSkill}
 
 Claude Code /buy-agent-ops command:
 ${links.claudeCodeBuyCommand}
+
+MCP stdio server:
+${payload.commands.mcp_stdio_server}
 
 Buyer commands:
 ${payload.commands.team_request_url}

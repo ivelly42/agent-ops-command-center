@@ -2,7 +2,7 @@
   "openapi": "3.1.0",
   "info": {
     "title": "Agent Ops Command Center Commerce Actions",
-    "version": "0.5.136",
+    "version": "0.5.137",
     "description": "Read public product metadata, checkout status, Claude Code skill and slash command, Zed .rules, Agent Skills routing, and the $203 team-license request path for Agent Ops Command Center. This API describes public static resources only; it does not process payment or prove revenue."
   },
   "servers": [
@@ -846,6 +846,63 @@
           }
         }
       }
+    },
+    "/agent-ops-command-center/mcp-server.md": {
+      "get": {
+        "operationId": "readMcpServerGuide",
+        "summary": "Read MCP stdio server guide",
+        "description": "Returns the public MCP stdio server guide for buyer routing.",
+        "responses": {
+          "200": {
+            "description": "MCP stdio server guide",
+            "content": {
+              "text/markdown": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/agent-ops-command-center/.well-known/mcp-server.json": {
+      "get": {
+        "operationId": "readMcpServerManifest",
+        "summary": "Read MCP stdio server manifest",
+        "description": "Returns the public MCP stdio server manifest with command, tools, resources, and revenue rule.",
+        "responses": {
+          "200": {
+            "description": "MCP stdio server manifest",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/agent-ops-command-center/mcp-server.json": {
+      "get": {
+        "operationId": "readMcpServerManifestAlias",
+        "summary": "Read MCP stdio server manifest alias",
+        "description": "Returns the public MCP stdio server manifest alias.",
+        "responses": {
+          "200": {
+            "description": "MCP stdio server manifest alias",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
     }
   },
   "components": {
@@ -1115,7 +1172,7 @@
   },
   "x-revenue-rule": "OpenAPI metadata is routing metadata, not revenue. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence.",
   "x-agent-routing-manifest": "https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-routing.json",
-  "x-npm-release-tarball": "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.136-preview/agent-ops-command-center-0.5.136.tgz",
+  "x-npm-release-tarball": "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.137-preview/agent-ops-command-center-0.5.137.tgz",
   "x-editor-rule-files": {
     "github_copilot": {
       "canonical": "https://github.com/ivelly42/agent-ops-command-center/blob/main/.github/copilot-instructions.md",
@@ -1174,5 +1231,15 @@
   "x-claude-code-checkout-skill": "https://ivelly42.github.io/agent-ops-command-center/.claude/skills/agent-ops-checkout/SKILL.md",
   "x-claude-code-checkout-skill-alias": "https://ivelly42.github.io/agent-ops-command-center/claude-code-checkout-skill.md",
   "x-claude-code-buy-command": "https://ivelly42.github.io/agent-ops-command-center/.claude/commands/buy-agent-ops.md",
-  "x-claude-code-buy-command-alias": "https://ivelly42.github.io/agent-ops-command-center/claude-code-buy-command.md"
+  "x-claude-code-buy-command-alias": "https://ivelly42.github.io/agent-ops-command-center/claude-code-buy-command.md",
+  "updated_at_kst": "2026-05-22 08:36",
+  "mcp_server": "https://ivelly42.github.io/agent-ops-command-center/mcp-server.md",
+  "mcp_server_manifest": "https://ivelly42.github.io/agent-ops-command-center/.well-known/mcp-server.json",
+  "mcp_server_manifest_alias": "https://ivelly42.github.io/agent-ops-command-center/mcp-server.json",
+  "mcp_stdio_command": "npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.137-preview/agent-ops-command-center-0.5.137.tgz -- agent-ops-mcp-server",
+  "alternate_urls": [
+    "https://ivelly42.github.io/agent-ops-command-center/mcp-server.md",
+    "https://ivelly42.github.io/agent-ops-command-center/.well-known/mcp-server.json",
+    "https://ivelly42.github.io/agent-ops-command-center/mcp-server.json"
+  ]
 }
