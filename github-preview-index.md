@@ -14,6 +14,7 @@ The full paid pack is not published publicly. This index links every public prev
 - Team rollout plan: https://ivelly42.github.io/agent-ops-command-center/team-rollout-plan.html
 - Team license terms packet: https://ivelly42.github.io/agent-ops-command-center/team-license-terms.html
 - Team delivery acceptance packet: https://ivelly42.github.io/agent-ops-command-center/team-delivery-acceptance.html
+- Team buyer FAQ: https://ivelly42.github.io/agent-ops-command-center/team-buyer-faq.html
 - Team license: https://ivelly42.github.io/agent-ops-command-center/team-license.html
 - Team quote builder: https://ivelly42.github.io/agent-ops-command-center/team-quote.html
 - Team approval brief: https://ivelly42.github.io/agent-ops-command-center/team-approval.html
@@ -98,7 +99,7 @@ The full paid pack is not published publicly. This index links every public prev
 - GitHub issue index: https://github.com/ivelly42/agent-ops-command-center/issues/2
 - RSS feed: https://ivelly42.github.io/agent-ops-command-center/feed.xml
 - Machine-readable catalog: https://ivelly42.github.io/agent-ops-command-center/catalog.json
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.26-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.27-preview
 - Buy page: https://ivelly42.github.io/agent-ops-command-center/buy.html
 - Team purchase packet: https://ivelly42.github.io/agent-ops-command-center/team-purchase-packet.html
 - Team procurement email kit: https://ivelly42.github.io/agent-ops-command-center/team-procurement-email.html
@@ -107,6 +108,7 @@ The full paid pack is not published publicly. This index links every public prev
 - Team rollout plan: https://ivelly42.github.io/agent-ops-command-center/team-rollout-plan.html
 - Team license terms packet: https://ivelly42.github.io/agent-ops-command-center/team-license-terms.html
 - Team delivery acceptance packet: https://ivelly42.github.io/agent-ops-command-center/team-delivery-acceptance.html
+- Team buyer FAQ: https://ivelly42.github.io/agent-ops-command-center/team-buyer-faq.html
 - Team license: https://ivelly42.github.io/agent-ops-command-center/team-license.html
 - Team quote builder: https://ivelly42.github.io/agent-ops-command-center/team-quote.html
 - Team approval brief: https://ivelly42.github.io/agent-ops-command-center/team-approval.html
@@ -150,6 +152,7 @@ The full paid pack is not published publicly. This index links every public prev
 | Team Rollout Plan | Prepare first-week adoption, verification, review, and delivery-proof steps for a $203 team license |
 | Team License Terms Packet | Prepare commercial-use, sharing, support, refund, update, and delivery-boundary terms for a $203 team license |
 | Team Delivery Acceptance Packet | Prepare delivery proof, archive digest, import target, acceptance gate, and acknowledgement language for a $203 team license |
+| Team Buyer FAQ | Answer price, checkout, receipt, security, delivery, support, refund, and revenue-proof objections for a $203 team license |
 | Team License | Offer one $203 seven-seat request path that can clear the $200 launch target with one paid checkout |
 | Team Quote Builder | Generate copy-ready quote and purchase-order notes for a seven-seat $203 request |
 | Team Approval Brief | Generate manager-ready approval text with quote, value, risk, and payment-proof gates |
