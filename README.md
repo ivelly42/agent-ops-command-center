@@ -122,6 +122,12 @@ GitHub change approval mirror Pages: https://ivelly42.github.io/ai-agent-change-
 
 Use change approval mirror as GitHub template: https://github.com/ivelly42/ai-agent-change-approval-template/generate
 
+GitHub compliance evidence mirror: https://github.com/ivelly42/ai-agent-compliance-evidence-template
+
+GitHub compliance evidence mirror Pages: https://ivelly42.github.io/ai-agent-compliance-evidence-template/
+
+Use compliance evidence mirror as GitHub template: https://github.com/ivelly42/ai-agent-compliance-evidence-template/generate
+
 GitHub client delivery mirror: https://github.com/ivelly42/ai-agent-client-delivery-kit
 
 GitHub client delivery mirror Pages: https://ivelly42.github.io/ai-agent-client-delivery-kit/
@@ -223,7 +229,7 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.66-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.67-preview
 
 Sample files:
 
@@ -316,6 +322,9 @@ Sample files:
 - [GitHub change approval mirror Pages](https://ivelly42.github.io/ai-agent-change-approval-template/)
 - [GitHub change approval mirror](https://github.com/ivelly42/ai-agent-change-approval-template)
 - [Use change approval mirror](https://github.com/ivelly42/ai-agent-change-approval-template/generate)
+- [GitHub compliance evidence mirror Pages](https://ivelly42.github.io/ai-agent-compliance-evidence-template/)
+- [GitHub compliance evidence mirror](https://github.com/ivelly42/ai-agent-compliance-evidence-template)
+- [Use compliance evidence mirror](https://github.com/ivelly42/ai-agent-compliance-evidence-template/generate)
 - [GitHub client delivery mirror Pages](https://ivelly42.github.io/ai-agent-client-delivery-kit/)
 - [GitHub client delivery mirror](https://github.com/ivelly42/ai-agent-client-delivery-kit)
 - [Team purchase packet](team-purchase-packet.html)

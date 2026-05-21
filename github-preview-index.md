@@ -48,6 +48,9 @@ The full paid pack is not published publicly. This index links every public prev
 - GitHub Pages change approval mirror: https://ivelly42.github.io/ai-agent-change-approval-template/
 - GitHub change approval mirror: https://github.com/ivelly42/ai-agent-change-approval-template
 - Use change approval mirror: https://github.com/ivelly42/ai-agent-change-approval-template/generate
+- GitHub Pages compliance evidence mirror: https://ivelly42.github.io/ai-agent-compliance-evidence-template/
+- GitHub compliance evidence mirror: https://github.com/ivelly42/ai-agent-compliance-evidence-template
+- Use compliance evidence mirror: https://github.com/ivelly42/ai-agent-compliance-evidence-template/generate
 - GitHub Pages client delivery mirror: https://ivelly42.github.io/ai-agent-client-delivery-kit/
 - Team purchase packet: https://ivelly42.github.io/agent-ops-command-center/team-purchase-packet.html
 - Team procurement email kit: https://ivelly42.github.io/agent-ops-command-center/team-procurement-email.html
@@ -144,7 +147,7 @@ The full paid pack is not published publicly. This index links every public prev
 - Fast template pack request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml
 - RSS feed: https://ivelly42.github.io/agent-ops-command-center/feed.xml
 - Machine-readable catalog: https://ivelly42.github.io/agent-ops-command-center/catalog.json
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.66-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.67-preview
 - Buy page: https://ivelly42.github.io/agent-ops-command-center/buy.html
 - Fast team checkout request: https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html
 - Fast template pack request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml
@@ -202,6 +205,9 @@ The full paid pack is not published publicly. This index links every public prev
 - GitHub Pages change approval mirror: https://ivelly42.github.io/ai-agent-change-approval-template/
 - GitHub change approval mirror: https://github.com/ivelly42/ai-agent-change-approval-template
 - Use change approval mirror: https://github.com/ivelly42/ai-agent-change-approval-template/generate
+- GitHub Pages compliance evidence mirror: https://ivelly42.github.io/ai-agent-compliance-evidence-template/
+- GitHub compliance evidence mirror: https://github.com/ivelly42/ai-agent-compliance-evidence-template
+- Use compliance evidence mirror: https://github.com/ivelly42/ai-agent-compliance-evidence-template/generate
 - GitHub Pages client delivery mirror: https://ivelly42.github.io/ai-agent-client-delivery-kit/
 - GitHub client delivery mirror: https://github.com/ivelly42/ai-agent-client-delivery-kit
 - Revenue proof intake: https://ivelly42.github.io/agent-ops-command-center/revenue-proof.html
