@@ -4,3 +4,7 @@ Allow: /
 Sitemap: https://ivelly42.github.io/agent-ops-command-center/sitemap.xml
 
 Feed: https://ivelly42.github.io/agent-ops-command-center/feed.xml
+
+LLMs: https://ivelly42.github.io/agent-ops-command-center/llms.txt
+
+AI-Buy-Intent: https://ivelly42.github.io/agent-ops-command-center/ai-buy-intent.json

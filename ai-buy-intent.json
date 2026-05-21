@@ -1,0 +1,33 @@
+{
+  "name": "Agent Ops Command Center",
+  "type": "ai_agent_template_pack_buy_intent",
+  "updated_at_kst": "2026-05-22 05:00",
+  "product": "Notion and spreadsheet template pack for AI coding-agent teams",
+  "primary_offer": {
+    "name": "Team license - 7 seats",
+    "gross_price_usd": 203,
+    "request_url": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
+    "request_package": "Team license - 7 seats - $203 gross",
+    "target_revenue_usd": 200,
+    "target_reached_by": "one confirmed $203 team-license payment"
+  },
+  "secondary_offer": {
+    "name": "Individual early access",
+    "gross_price_usd": 29,
+    "request_url": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml"
+  },
+  "buyer_paths": {
+    "prefilled_team_request": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
+    "github_issue_chooser": "https://github.com/ivelly42/agent-ops-command-center/issues/new/choose",
+    "payment_ready_issue": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml",
+    "buy_page": "https://ivelly42.github.io/agent-ops-command-center/buy.html",
+    "catalog": "https://ivelly42.github.io/agent-ops-command-center/catalog.json",
+    "metrics": "https://ivelly42.github.io/agent-ops-command-center/metrics/status.json"
+  },
+  "delivery_boundary": {
+    "paid_zip_public": false,
+    "delivery_after": "checkout, receipt, payout, or seller-dashboard proof",
+    "public_preview_only": true
+  },
+  "revenue_rule": "Count revenue only after checkout, receipt, payout, or seller-dashboard evidence. Do not count generated request URLs, issues, discussions, stars, forks, views, release downloads, or funding-link clicks as revenue."
+}

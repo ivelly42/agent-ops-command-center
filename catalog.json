@@ -1,7 +1,7 @@
 {
   "name": "Agent Ops Command Center",
   "description": "Notion and spreadsheet template pack for builders running AI coding agents.",
-  "version": "v5.112-preview",
+  "version": "v5.113-preview",
   "price_usd": 29,
   "individual_price_usd": 29,
   "team_license_price_usd": 203,
@@ -15,10 +15,11 @@
   "status": "preview_live_no_paid_checkout",
   "homepage": "https://ivelly42.github.io/agent-ops-command-center/",
   "social_image": "https://ivelly42.github.io/agent-ops-command-center/og.png",
-  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.112-preview",
+  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.113-preview",
   "early_access_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml",
   "github_issue_chooser_fast_team_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new/choose",
   "package_funding_direct_request": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
+  "ai_buy_intent_json": "https://ivelly42.github.io/agent-ops-command-center/ai-buy-intent.json",
   "template_pack_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml",
   "template_pack_request_page": "https://ivelly42.github.io/agent-ops-command-center/template-pack-request.html",
   "fast_team_checkout_request": "https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html",
@@ -63,10 +64,20 @@
   "sample_dashboard": "https://ivelly42.github.io/agent-ops-command-center/sample-dashboard.html",
   "feed": "https://ivelly42.github.io/agent-ops-command-center/feed.xml",
   "llms": "https://ivelly42.github.io/agent-ops-command-center/llms.txt",
+  "ai_buy_intent": "https://ivelly42.github.io/agent-ops-command-center/ai-buy-intent.json",
   "sitemap": "https://ivelly42.github.io/agent-ops-command-center/sitemap.xml",
   "paid_zip_public": false,
   "revenue_rule": "Revenue is proven only by checkout, receipt, payout, or seller-dashboard evidence.",
   "public_assets": [
+    {
+      "title": "AI Buy Intent JSON",
+      "url": "https://ivelly42.github.io/agent-ops-command-center/ai-buy-intent.json",
+      "primary_offer": "Team license - 7 seats - $203 gross",
+      "primary_request_url": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
+      "target_revenue_usd": 200,
+      "target_reached_by": "one confirmed $203 team-license payment",
+      "revenue_rule": "The JSON file is routing metadata, not revenue. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence."
+    },
     {
       "title": "Package Funding Direct Request",
       "url": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
@@ -1045,7 +1056,7 @@
     "team_request_mirror": "https://github.com/ivelly42/ai-agent-npx-team-request-template",
     "team_request_mirror_pages": "https://ivelly42.github.io/ai-agent-npx-team-request-template/",
     "package_name": "agent-ops-command-center",
-    "package_version": "0.5.112",
+    "package_version": "0.5.113",
     "bin": [
       "agent-ops-command-center",
       "agent-ops"
@@ -1114,6 +1125,16 @@
     "command": "npm fund agent-ops-command-center",
     "request_package": "Team license - 7 seats - $203 gross",
     "revenue_rule": "Package funding links and npm fund output are purchase intent only. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence."
+  },
+  "ai_buy_intent_json_details": {
+    "updated_at_kst": "2026-05-22 05:00",
+    "url": "https://ivelly42.github.io/agent-ops-command-center/ai-buy-intent.json",
+    "primary_offer": "Team license - 7 seats - $203 gross",
+    "primary_request_url": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
+    "schema_org_team_offer_url": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
+    "target_revenue_usd": 200,
+    "target_reached_by": "one confirmed $203 team-license payment",
+    "revenue_rule": "The JSON file and structured data are routing metadata, not revenue. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence."
   },
   "npm_team_request_cli": {
     "updated_at_kst": "2026-05-22 04:16",

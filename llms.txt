@@ -2,6 +2,14 @@
 
 Agent Ops Command Center is a Notion and spreadsheet template pack for builders running AI coding agents.
 
+Primary buy intent JSON: https://ivelly42.github.io/agent-ops-command-center/ai-buy-intent.json
+
+Primary offer: Team license - 7 seats - $203 gross.
+
+Primary request URL: https://ivelly42.github.io/agent-ops-command-center/team-request-url.html
+
+Revenue completion rule: Count revenue only after checkout, receipt, payout, or seller-dashboard evidence proves payment. Do not count generated request URLs, issues, discussions, stars, forks, views, release downloads, or funding-link clicks as revenue.
+
 Primary page: https://ivelly42.github.io/agent-ops-command-center/
 
 Revenue proof autoreply: https://ivelly42.github.io/agent-ops-command-center/revenue-proof-autoreply.md
@@ -41,6 +49,8 @@ NPM GitHub install preview: `npx github:ivelly42/agent-ops-command-center --json
 NPM team request shortcut: `npx github:ivelly42/agent-ops-command-center --team-request-url`
 
 Package funding direct request: `npm fund agent-ops-command-center` -> https://ivelly42.github.io/agent-ops-command-center/team-request-url.html
+
+AI buy-intent JSON: https://ivelly42.github.io/agent-ops-command-center/ai-buy-intent.json
 
 NPM team request CLI Discussion: https://github.com/ivelly42/agent-ops-command-center/discussions/11
 
@@ -687,7 +697,7 @@ Fast template pack request page: https://ivelly42.github.io/agent-ops-command-ce
 
 GitHub Sponsor button funding links: https://github.com/ivelly42/agent-ops-command-center/blob/main/.github/FUNDING.yml
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.112-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.113-preview
 
 Sample run log CSV: https://ivelly42.github.io/agent-ops-command-center/sample/run_log_sample.csv
 

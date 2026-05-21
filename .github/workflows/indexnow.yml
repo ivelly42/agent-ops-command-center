@@ -29,6 +29,7 @@ jobs:
               "https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html",
               "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
               "https://ivelly42.github.io/agent-ops-command-center/discovery.html",
+              "https://ivelly42.github.io/agent-ops-command-center/ai-buy-intent.json",
               "https://ivelly42.github.io/agent-ops-command-center/catalog.json",
               "https://ivelly42.github.io/agent-ops-command-center/feed.xml",
               "https://ivelly42.github.io/agent-ops-command-center/github-preview-index.md",
