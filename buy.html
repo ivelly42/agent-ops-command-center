@@ -316,6 +316,7 @@
       <nav aria-label="Primary">
         <a href="index.html">Home</a>
         <a href="buy.html">Buy</a>
+        <a href="team-license.html">Team License</a>
         <a href="claude-code-run-log-template.html">Claude Log</a>
         <a href="ai-agent-run-log-template.html">Run Log</a>
         <a href="ai-coding-agent-notion-template.html">Notion Template</a>
@@ -335,6 +336,7 @@
           <p class="lead">Get the private Agent Ops Command Center ZIP after real payment proof exists. Until checkout is live, record purchase intent and preferred checkout in GitHub.</p>
           <div class="actions">
             <a class="button primary" href="https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml">Open order request</a>
+            <a class="button" href="team-license.html">Team license $203</a>
             <a class="button" href="claude-code-run-log-template.html">Claude log page</a>
             <a class="button" href="ai-agent-run-log-template.html">Run log page</a>
             <a class="button" href="ai-coding-agent-notion-template.html">Notion template page</a>
@@ -352,7 +354,7 @@
               <span>paid ZIP delivery</span>
             </div>
             <div class="mini">
-              <strong>25</strong>
+              <strong>26</strong>
               <span>public preview assets</span>
             </div>
             <div class="mini">
@@ -382,6 +384,15 @@
             <label for="tools">Agent tools</label>
             <input id="tools" value="Codex, Claude Code, Cursor">
             <p>Tools this workspace should support.</p>
+          </div>
+          <div class="field">
+            <label for="plan">Request package</label>
+            <select id="plan">
+              <option selected>Individual seat - $29</option>
+              <option>Team license - 7 seats - $203 gross</option>
+              <option>Evaluating preview only</option>
+            </select>
+            <p>Team license can clear the $200 target with one paid checkout.</p>
           </div>
           <div class="field">
             <label for="checkout">Preferred checkout</label>
@@ -451,6 +462,11 @@
         </div>
         <div class="grid">
           <article class="item">
+            <h3>Team License</h3>
+            <p>Request seven seats at $203 gross so one payment can clear the launch target after proof exists.</p>
+            <div class="actions"><a class="button" href="team-license.html">Open team license</a></div>
+          </article>
+          <article class="item">
             <h3>Template Gallery</h3>
             <p>Inspect public templates, Gists, builders, and delivery proof surfaces.</p>
             <div class="actions"><a class="button" href="template-gallery.html">Open gallery</a></div>
@@ -501,7 +517,7 @@
     </footer>
 
     <script>
-      const fields = ["buyer", "tools", "checkout", "intent", "receipt", "blocker"];
+      const fields = ["buyer", "tools", "plan", "checkout", "intent", "receipt", "blocker"];
       const note = document.getElementById("note");
       const status = document.getElementById("copyStatus");
 
@@ -516,7 +532,9 @@
           "",
           `Buyer or team: ${v.buyer || "Not specified"}`,
           `Agent tools: ${v.tools || "Not specified"}`,
+          `Request package: ${v.plan}`,
           "Target price: $29",
+          "Team license option: $203 gross for 7 seats",
           `Preferred checkout: ${v.checkout}`,
           `Purchase intent: ${v.intent}`,
           `Receipt need: ${v.receipt}`,
@@ -526,6 +544,7 @@
           "",
           "Preview inspected:",
           "- Buy page: https://ivelly42.github.io/agent-ops-command-center/buy.html",
+          "- Team license: https://ivelly42.github.io/agent-ops-command-center/team-license.html",
           "- Claude Code run log template: https://ivelly42.github.io/agent-ops-command-center/claude-code-run-log-template.html",
           "- AI agent run log template: https://ivelly42.github.io/agent-ops-command-center/ai-agent-run-log-template.html",
           "- AI coding agent Notion template: https://ivelly42.github.io/agent-ops-command-center/ai-coding-agent-notion-template.html",

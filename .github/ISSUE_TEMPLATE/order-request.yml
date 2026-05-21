@@ -13,6 +13,7 @@ body:
 
         Checkout is not live yet. This issue records purchase intent and preferred checkout. It is not counted as revenue until a real checkout, receipt, or seller dashboard exists.
         Buy page: https://ivelly42.github.io/agent-ops-command-center/buy.html
+        Team license: https://ivelly42.github.io/agent-ops-command-center/team-license.html
         Claude Code run log template: https://ivelly42.github.io/agent-ops-command-center/claude-code-run-log-template.html
         AI agent run log template: https://ivelly42.github.io/agent-ops-command-center/ai-agent-run-log-template.html
         AI coding agent Notion template: https://ivelly42.github.io/agent-ops-command-center/ai-coding-agent-notion-template.html
@@ -49,6 +50,16 @@ body:
         Buyer reply kit: https://ivelly42.github.io/agent-ops-command-center/ai-agent-buyer-reply-kit.md
         Pricing: https://ivelly42.github.io/agent-ops-command-center/pricing.html
   - type: dropdown
+    id: package
+    attributes:
+      label: Request package
+      options:
+        - Individual seat - $29
+        - Team license - 7 seats - $203 gross
+        - Evaluating preview only
+    validations:
+      required: true
+  - type: dropdown
     id: checkout
     attributes:
       label: Preferred checkout
@@ -65,7 +76,7 @@ body:
     attributes:
       label: Price acknowledgement
       options:
-        - label: I understand the full pack target price is $29.
+        - label: I understand the full pack target price is $29 per seat, or $203 for a 7-seat team license.
           required: true
   - type: textarea
     id: workflow
@@ -80,6 +91,7 @@ body:
     attributes:
       label: Purchase intent
       options:
+        - I am ready to pay $203 for the 7-seat team license when checkout is ready
         - I am ready to pay $29 when checkout is ready
         - I want the full pack when checkout is ready
         - I want to evaluate the preview first
