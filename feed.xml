@@ -5,8 +5,15 @@
     <link>https://ivelly42.github.io/agent-ops-command-center/</link>
     <description>Public preview updates for a Notion and spreadsheet template pack for builders running AI coding agents.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 21 May 2026 12:29:00 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 21 May 2026 12:39:00 +0900</lastBuildDate>
     <ttl>1440</ttl>
+    <item>
+      <title>Claude Code Run Log Template</title>
+      <link>https://ivelly42.github.io/agent-ops-command-center/claude-code-run-log-template.html</link>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/claude-code-run-log-template.html</guid>
+      <pubDate>Thu, 21 May 2026 12:39:00 +0900</pubDate>
+      <description>Keyword landing page for tracking Claude Code runs from prompt and repo scope to verification evidence, review notes, and handoff.</description>
+    </item>
     <item>
       <title>AI Agent Run Log Template</title>
       <link>https://ivelly42.github.io/agent-ops-command-center/ai-agent-run-log-template.html</link>

@@ -56,6 +56,7 @@ The pack breaks even if it prevents roughly one hour of cleanup time for a build
 ## Full Preview Links
 
 - Landing page: https://ivelly42.github.io/agent-ops-command-center/
+- Claude Code run log template: https://ivelly42.github.io/agent-ops-command-center/claude-code-run-log-template.html
 - AI agent run log template: https://ivelly42.github.io/agent-ops-command-center/ai-agent-run-log-template.html
 - AI coding agent Notion template: https://ivelly42.github.io/agent-ops-command-center/ai-coding-agent-notion-template.html
 - Ops maturity check: https://ivelly42.github.io/agent-ops-command-center/ops-maturity-check.html
@@ -119,8 +120,9 @@ The pack breaks even if it prevents roughly one hour of cleanup time for a build
 - Run log template: https://ivelly42.github.io/agent-ops-command-center/codex-claude-run-log-template.md
 - Failure RCA template: https://ivelly42.github.io/agent-ops-command-center/failure-rca-template.md
 - Preflight checklist: https://ivelly42.github.io/agent-ops-command-center/checklist.md
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.15-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.16-preview
 - Buy page: https://ivelly42.github.io/agent-ops-command-center/buy.html
+- Claude Code run log template: https://ivelly42.github.io/agent-ops-command-center/claude-code-run-log-template.html
 - AI agent run log template: https://ivelly42.github.io/agent-ops-command-center/ai-agent-run-log-template.html
 - AI coding agent Notion template: https://ivelly42.github.io/agent-ops-command-center/ai-coding-agent-notion-template.html
 - HTML template gallery: https://ivelly42.github.io/agent-ops-command-center/template-gallery.html

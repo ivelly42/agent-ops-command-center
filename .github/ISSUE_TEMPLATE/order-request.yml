@@ -13,6 +13,7 @@ body:
 
         Checkout is not live yet. This issue records purchase intent and preferred checkout. It is not counted as revenue until a real checkout, receipt, or seller dashboard exists.
         Buy page: https://ivelly42.github.io/agent-ops-command-center/buy.html
+        Claude Code run log template: https://ivelly42.github.io/agent-ops-command-center/claude-code-run-log-template.html
         AI agent run log template: https://ivelly42.github.io/agent-ops-command-center/ai-agent-run-log-template.html
         AI coding agent Notion template: https://ivelly42.github.io/agent-ops-command-center/ai-coding-agent-notion-template.html
         Product tour: https://ivelly42.github.io/agent-ops-command-center/product-tour.md

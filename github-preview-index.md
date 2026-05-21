@@ -7,6 +7,7 @@ The full paid pack is not published publicly. This index links every public prev
 ## Public Preview Assets
 
 - Landing page: https://ivelly42.github.io/agent-ops-command-center/
+- Claude Code run log template: https://ivelly42.github.io/agent-ops-command-center/claude-code-run-log-template.html
 - AI agent run log template: https://ivelly42.github.io/agent-ops-command-center/ai-agent-run-log-template.html
 - AI coding agent Notion template: https://ivelly42.github.io/agent-ops-command-center/ai-coding-agent-notion-template.html
 - Ops maturity check: https://ivelly42.github.io/agent-ops-command-center/ops-maturity-check.html
@@ -87,8 +88,9 @@ The full paid pack is not published publicly. This index links every public prev
 - GitHub issue index: https://github.com/ivelly42/agent-ops-command-center/issues/2
 - RSS feed: https://ivelly42.github.io/agent-ops-command-center/feed.xml
 - Machine-readable catalog: https://ivelly42.github.io/agent-ops-command-center/catalog.json
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.15-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.16-preview
 - Buy page: https://ivelly42.github.io/agent-ops-command-center/buy.html
+- Claude Code run log template: https://ivelly42.github.io/agent-ops-command-center/claude-code-run-log-template.html
 - AI agent run log template: https://ivelly42.github.io/agent-ops-command-center/ai-agent-run-log-template.html
 - AI coding agent Notion template: https://ivelly42.github.io/agent-ops-command-center/ai-coding-agent-notion-template.html
 - HTML template gallery: https://ivelly42.github.io/agent-ops-command-center/template-gallery.html
@@ -121,6 +123,7 @@ The full paid pack is not published publicly. This index links every public prev
 | Notion Import Builder | Generate a Notion import plan for CSVs, templates, views, relations, and blockers |
 | Paid Delivery Manifest | Record paid delivery, archive digest, and buyer acknowledgement |
 | Buy Page | Focus early-access buyers on the $29 request, proof links, and revenue-proof rule |
+| Claude Code Run Log Template | Search landing page for Claude Code prompts, scope, changed files, verification, review notes, and handoff |
 | AI Agent Run Log Template | Search landing page for run logging scope, files, verification proof, cost notes, failure signals, and handoff |
 | AI Coding Agent Notion Template | Search landing page for Codex, Claude Code, Cursor, sample dashboard, import planning, and buy request path |
 | Buyer Decision Matrix | Compare cleanup cost, pack surfaces, and buy signals |
