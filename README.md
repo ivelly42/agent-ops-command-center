@@ -104,6 +104,12 @@ GitHub rollout checklist mirror Pages: https://ivelly42.github.io/ai-agent-rollo
 
 Use rollout checklist mirror as GitHub template: https://github.com/ivelly42/ai-agent-rollout-checklist-template/generate
 
+GitHub risk register mirror: https://github.com/ivelly42/ai-agent-risk-register-template
+
+GitHub risk register mirror Pages: https://ivelly42.github.io/ai-agent-risk-register-template/
+
+Use risk register mirror as GitHub template: https://github.com/ivelly42/ai-agent-risk-register-template/generate
+
 GitHub client delivery mirror: https://github.com/ivelly42/ai-agent-client-delivery-kit
 
 GitHub client delivery mirror Pages: https://ivelly42.github.io/ai-agent-client-delivery-kit/
@@ -205,7 +211,7 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.63-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.64-preview
 
 Sample files:
 
@@ -289,6 +295,9 @@ Sample files:
 - [GitHub rollout checklist mirror Pages](https://ivelly42.github.io/ai-agent-rollout-checklist-template/)
 - [GitHub rollout checklist mirror](https://github.com/ivelly42/ai-agent-rollout-checklist-template)
 - [Use rollout checklist mirror](https://github.com/ivelly42/ai-agent-rollout-checklist-template/generate)
+- [GitHub risk register mirror Pages](https://ivelly42.github.io/ai-agent-risk-register-template/)
+- [GitHub risk register mirror](https://github.com/ivelly42/ai-agent-risk-register-template)
+- [Use risk register mirror](https://github.com/ivelly42/ai-agent-risk-register-template/generate)
 - [GitHub client delivery mirror Pages](https://ivelly42.github.io/ai-agent-client-delivery-kit/)
 - [GitHub client delivery mirror](https://github.com/ivelly42/ai-agent-client-delivery-kit)
 - [Team purchase packet](team-purchase-packet.html)
