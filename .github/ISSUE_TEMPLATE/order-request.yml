@@ -32,6 +32,7 @@ body:
         HTML template gallery: https://ivelly42.github.io/agent-ops-command-center/template-gallery.html
         Interactive ROI calculator: https://ivelly42.github.io/agent-ops-command-center/roi-calculator.html
         Order intent builder: https://ivelly42.github.io/agent-ops-command-center/order-intent.html
+        Pricing: https://ivelly42.github.io/agent-ops-command-center/pricing.html
   - type: dropdown
     id: checkout
     attributes:
