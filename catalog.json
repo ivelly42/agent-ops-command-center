@@ -1,7 +1,7 @@
 {
   "name": "Agent Ops Command Center",
   "description": "Notion and spreadsheet template pack for builders running AI coding agents.",
-  "version": "v5.39-preview",
+  "version": "v5.40-preview",
   "price_usd": 29,
   "individual_price_usd": 29,
   "team_license_price_usd": 203,
@@ -13,7 +13,7 @@
   "status": "preview_live_no_paid_checkout",
   "homepage": "https://ivelly42.github.io/agent-ops-command-center/",
   "social_image": "https://ivelly42.github.io/agent-ops-command-center/og.png",
-  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.39-preview",
+  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.40-preview",
   "early_access_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml",
   "fast_team_checkout_request": "https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html",
   "buyer_reply_kit": "https://ivelly42.github.io/agent-ops-command-center/buyer-reply-kit.html",
@@ -70,6 +70,11 @@
       "title": "AI Agent Client Delivery Mirror Page",
       "url": "https://ivelly42.github.io/ai-agent-client-delivery-kit/",
       "repository": "https://github.com/ivelly42/ai-agent-client-delivery-kit"
+    },
+    {
+      "title": "AI Coding Agent Run Log Mirror Page",
+      "url": "https://ivelly42.github.io/ai-coding-agent-run-log-template/",
+      "repository": "https://github.com/ivelly42/ai-coding-agent-run-log-template"
     },
     {
       "title": "AI Agent Team Pilot Plan",
@@ -234,9 +239,13 @@
   "workflow_picker_tool": "https://ivelly42.github.io/agent-ops-command-center/workflow-picker.html",
   "notion_import_builder": "https://ivelly42.github.io/agent-ops-command-center/notion-import-builder.html",
   "client_delivery_kit": "https://ivelly42.github.io/agent-ops-command-center/client-delivery-kit.html",
+  "github_run_log_mirror_pages": "https://ivelly42.github.io/ai-coding-agent-run-log-template/",
+  "github_run_log_mirror": "https://github.com/ivelly42/ai-coding-agent-run-log-template",
   "github_client_delivery_mirror_pages": "https://ivelly42.github.io/ai-agent-client-delivery-kit/",
   "github_client_delivery_mirror": "https://github.com/ivelly42/ai-agent-client-delivery-kit",
   "external_discovery_channels": [
+    "https://ivelly42.github.io/ai-coding-agent-run-log-template/",
+    "https://github.com/ivelly42/ai-coding-agent-run-log-template",
     "https://ivelly42.github.io/ai-agent-client-delivery-kit/",
     "https://github.com/ivelly42/ai-agent-client-delivery-kit"
   ]
