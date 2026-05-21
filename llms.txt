@@ -224,6 +224,8 @@ Team license terms packet: https://ivelly42.github.io/agent-ops-command-center/t
 
 Team delivery acceptance packet: https://ivelly42.github.io/agent-ops-command-center/team-delivery-acceptance.html
 
+Team delivery acceptance issue form: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=delivery-acceptance.yml
+
 Team buyer FAQ: https://ivelly42.github.io/agent-ops-command-center/team-buyer-faq.html
 
 Team value calculator: https://ivelly42.github.io/agent-ops-command-center/team-value-calculator.html
@@ -625,7 +627,7 @@ Fast template pack request page: https://ivelly42.github.io/agent-ops-command-ce
 
 GitHub Sponsor button funding links: https://github.com/ivelly42/agent-ops-command-center/blob/main/.github/FUNDING.yml
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.87-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.88-preview
 
 Sample run log CSV: https://ivelly42.github.io/agent-ops-command-center/sample/run_log_sample.csv
 

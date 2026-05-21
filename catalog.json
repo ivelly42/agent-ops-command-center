@@ -1,7 +1,7 @@
 {
   "name": "Agent Ops Command Center",
   "description": "Notion and spreadsheet template pack for builders running AI coding agents.",
-  "version": "v5.87-preview",
+  "version": "v5.88-preview",
   "price_usd": 29,
   "individual_price_usd": 29,
   "team_license_price_usd": 203,
@@ -15,7 +15,7 @@
   "status": "preview_live_no_paid_checkout",
   "homepage": "https://ivelly42.github.io/agent-ops-command-center/",
   "social_image": "https://ivelly42.github.io/agent-ops-command-center/og.png",
-  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.87-preview",
+  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.88-preview",
   "early_access_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml",
   "template_pack_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml",
   "template_pack_request_page": "https://ivelly42.github.io/agent-ops-command-center/template-pack-request.html",
@@ -361,7 +361,14 @@
     },
     {
       "title": "AI Agent Team Delivery Acceptance Packet",
-      "url": "https://ivelly42.github.io/agent-ops-command-center/team-delivery-acceptance.html"
+      "url": "https://ivelly42.github.io/agent-ops-command-center/team-delivery-acceptance.html",
+      "request_url": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=delivery-acceptance.yml"
+    },
+    {
+      "title": "AI Agent Delivery Acceptance Issue Form",
+      "url": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=delivery-acceptance.yml",
+      "request_page": "https://ivelly42.github.io/agent-ops-command-center/team-delivery-acceptance.html",
+      "request_url": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=delivery-acceptance.yml"
     },
     {
       "title": "AI Agent Team License Terms Packet",
@@ -685,7 +692,8 @@
     "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=quote-request.yml",
     "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=purchase-order.yml",
     "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=vendor-onboarding.yml",
-    "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=security-review.yml"
+    "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=security-review.yml",
+    "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=delivery-acceptance.yml"
   ],
   "github_access_review_mirror_pages": "https://ivelly42.github.io/ai-agent-access-review-template/",
   "github_access_review_mirror": "https://github.com/ivelly42/ai-agent-access-review-template",
@@ -740,5 +748,6 @@
   "github_expense_report_issue_form": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=expense-report.yml",
   "github_quote_request_issue_form": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=quote-request.yml",
   "github_purchase_order_issue_form": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=purchase-order.yml",
-  "github_vendor_onboarding_issue_form": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=vendor-onboarding.yml"
+  "github_vendor_onboarding_issue_form": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=vendor-onboarding.yml",
+  "github_delivery_acceptance_issue_form": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=delivery-acceptance.yml"
 }

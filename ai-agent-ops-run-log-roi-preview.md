@@ -63,6 +63,7 @@ The pack breaks even if it prevents roughly one hour of cleanup time for a build
 - Team rollout plan: https://ivelly42.github.io/agent-ops-command-center/team-rollout-plan.html
 - Team license terms packet: https://ivelly42.github.io/agent-ops-command-center/team-license-terms.html
 - Team delivery acceptance packet: https://ivelly42.github.io/agent-ops-command-center/team-delivery-acceptance.html
+- Team delivery acceptance issue form: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=delivery-acceptance.yml
 - Team buyer FAQ: https://ivelly42.github.io/agent-ops-command-center/team-buyer-faq.html
 - Team value calculator: https://ivelly42.github.io/agent-ops-command-center/team-value-calculator.html
 - Team pilot plan: https://ivelly42.github.io/agent-ops-command-center/team-pilot-plan.html
@@ -133,7 +134,7 @@ The pack breaks even if it prevents roughly one hour of cleanup time for a build
 - Run log template: https://ivelly42.github.io/agent-ops-command-center/codex-claude-run-log-template.md
 - Failure RCA template: https://ivelly42.github.io/agent-ops-command-center/failure-rca-template.md
 - Preflight checklist: https://ivelly42.github.io/agent-ops-command-center/checklist.md
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.87-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.88-preview
 - Buy page: https://ivelly42.github.io/agent-ops-command-center/buy.html
 - Fast team checkout request: https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html
 - Fast template pack request page: https://ivelly42.github.io/agent-ops-command-center/template-pack-request.html
@@ -244,6 +245,7 @@ The pack breaks even if it prevents roughly one hour of cleanup time for a build
 - Team rollout plan: https://ivelly42.github.io/agent-ops-command-center/team-rollout-plan.html
 - Team license terms packet: https://ivelly42.github.io/agent-ops-command-center/team-license-terms.html
 - Team delivery acceptance packet: https://ivelly42.github.io/agent-ops-command-center/team-delivery-acceptance.html
+- Team delivery acceptance issue form: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=delivery-acceptance.yml
 - Team buyer FAQ: https://ivelly42.github.io/agent-ops-command-center/team-buyer-faq.html
 - Team value calculator: https://ivelly42.github.io/agent-ops-command-center/team-value-calculator.html
 - Team pilot plan: https://ivelly42.github.io/agent-ops-command-center/team-pilot-plan.html

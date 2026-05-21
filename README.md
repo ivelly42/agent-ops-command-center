@@ -228,6 +228,8 @@ Team license terms packet: [team-license-terms.html](team-license-terms.html)
 
 Team delivery acceptance packet: [team-delivery-acceptance.html](team-delivery-acceptance.html)
 
+Team delivery acceptance issue form: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=delivery-acceptance.yml
+
 Team buyer FAQ: [team-buyer-faq.html](team-buyer-faq.html)
 
 Team value calculator: [team-value-calculator.html](team-value-calculator.html)
@@ -309,7 +311,7 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.87-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.88-preview
 
 Sample files:
 
@@ -455,6 +457,7 @@ Sample files:
 - [Team rollout plan](team-rollout-plan.html)
 - [Team license terms packet](team-license-terms.html)
 - [Team delivery acceptance packet](team-delivery-acceptance.html)
+- [Team delivery acceptance issue form](https://github.com/ivelly42/agent-ops-command-center/issues/new?template=delivery-acceptance.yml)
 - [Team buyer FAQ](team-buyer-faq.html)
 - [Team value calculator](team-value-calculator.html)
 - [Team pilot plan](team-pilot-plan.html)
