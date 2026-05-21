@@ -10,6 +10,8 @@ Fast team checkout request: https://ivelly42.github.io/agent-ops-command-center/
 
 Fast template pack request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml
 
+Fast template pack request page: https://ivelly42.github.io/agent-ops-command-center/template-pack-request.html
+
 Discovery hub: https://ivelly42.github.io/agent-ops-command-center/discovery.html
 
 GitHub template pack mirror: https://github.com/ivelly42/ai-agent-ops-template-pack
@@ -353,7 +355,9 @@ Early access request: https://github.com/ivelly42/agent-ops-command-center/issue
 
 Fast template pack request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.56-preview
+Fast template pack request page: https://ivelly42.github.io/agent-ops-command-center/template-pack-request.html
+
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.57-preview
 
 Sample run log CSV: https://ivelly42.github.io/agent-ops-command-center/sample/run_log_sample.csv
 
