@@ -36,6 +36,9 @@ The full paid pack is not published publicly. This index links every public prev
 - GitHub Pages incident postmortem mirror: https://ivelly42.github.io/ai-agent-incident-postmortem-template/
 - GitHub incident postmortem mirror: https://github.com/ivelly42/ai-agent-incident-postmortem-template
 - Use incident postmortem mirror: https://github.com/ivelly42/ai-agent-incident-postmortem-template/generate
+- GitHub Pages rollout checklist mirror: https://ivelly42.github.io/ai-agent-rollout-checklist-template/
+- GitHub rollout checklist mirror: https://github.com/ivelly42/ai-agent-rollout-checklist-template
+- Use rollout checklist mirror: https://github.com/ivelly42/ai-agent-rollout-checklist-template/generate
 - GitHub Pages client delivery mirror: https://ivelly42.github.io/ai-agent-client-delivery-kit/
 - Team purchase packet: https://ivelly42.github.io/agent-ops-command-center/team-purchase-packet.html
 - Team procurement email kit: https://ivelly42.github.io/agent-ops-command-center/team-procurement-email.html
@@ -132,7 +135,7 @@ The full paid pack is not published publicly. This index links every public prev
 - Fast template pack request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml
 - RSS feed: https://ivelly42.github.io/agent-ops-command-center/feed.xml
 - Machine-readable catalog: https://ivelly42.github.io/agent-ops-command-center/catalog.json
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.62-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.63-preview
 - Buy page: https://ivelly42.github.io/agent-ops-command-center/buy.html
 - Fast team checkout request: https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html
 - Fast template pack request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml
@@ -177,6 +180,9 @@ The full paid pack is not published publicly. This index links every public prev
 - GitHub Pages incident postmortem mirror: https://ivelly42.github.io/ai-agent-incident-postmortem-template/
 - GitHub incident postmortem mirror: https://github.com/ivelly42/ai-agent-incident-postmortem-template
 - Use incident postmortem mirror: https://github.com/ivelly42/ai-agent-incident-postmortem-template/generate
+- GitHub Pages rollout checklist mirror: https://ivelly42.github.io/ai-agent-rollout-checklist-template/
+- GitHub rollout checklist mirror: https://github.com/ivelly42/ai-agent-rollout-checklist-template
+- Use rollout checklist mirror: https://github.com/ivelly42/ai-agent-rollout-checklist-template/generate
 - GitHub Pages client delivery mirror: https://ivelly42.github.io/ai-agent-client-delivery-kit/
 - GitHub client delivery mirror: https://github.com/ivelly42/ai-agent-client-delivery-kit
 - Revenue proof intake: https://ivelly42.github.io/agent-ops-command-center/revenue-proof.html

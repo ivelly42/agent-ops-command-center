@@ -92,6 +92,12 @@ GitHub incident postmortem mirror Pages: https://ivelly42.github.io/ai-agent-inc
 
 Use incident postmortem mirror as GitHub template: https://github.com/ivelly42/ai-agent-incident-postmortem-template/generate
 
+GitHub rollout checklist mirror: https://github.com/ivelly42/ai-agent-rollout-checklist-template
+
+GitHub rollout checklist mirror Pages: https://ivelly42.github.io/ai-agent-rollout-checklist-template/
+
+Use rollout checklist mirror as GitHub template: https://github.com/ivelly42/ai-agent-rollout-checklist-template/generate
+
 GitHub client delivery mirror: https://github.com/ivelly42/ai-agent-client-delivery-kit
 
 GitHub client delivery mirror Pages: https://ivelly42.github.io/ai-agent-client-delivery-kit/
@@ -375,6 +381,12 @@ AI agent incident postmortem mirror Pages: https://ivelly42.github.io/ai-agent-i
 
 AI agent incident postmortem GitHub template: https://github.com/ivelly42/ai-agent-incident-postmortem-template/generate
 
+AI agent rollout checklist GitHub mirror: https://github.com/ivelly42/ai-agent-rollout-checklist-template
+
+AI agent rollout checklist mirror Pages: https://ivelly42.github.io/ai-agent-rollout-checklist-template/
+
+AI agent rollout checklist GitHub template: https://github.com/ivelly42/ai-agent-rollout-checklist-template/generate
+
 AI agent client delivery GitHub mirror: https://github.com/ivelly42/ai-agent-client-delivery-kit
 
 AI agent client delivery mirror Pages: https://ivelly42.github.io/ai-agent-client-delivery-kit/
@@ -405,7 +417,7 @@ Fast template pack request: https://github.com/ivelly42/agent-ops-command-center
 
 Fast template pack request page: https://ivelly42.github.io/agent-ops-command-center/template-pack-request.html
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.62-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.63-preview
 
 Sample run log CSV: https://ivelly42.github.io/agent-ops-command-center/sample/run_log_sample.csv
 

@@ -98,6 +98,12 @@ GitHub incident postmortem mirror Pages: https://ivelly42.github.io/ai-agent-inc
 
 Use incident postmortem mirror as GitHub template: https://github.com/ivelly42/ai-agent-incident-postmortem-template/generate
 
+GitHub rollout checklist mirror: https://github.com/ivelly42/ai-agent-rollout-checklist-template
+
+GitHub rollout checklist mirror Pages: https://ivelly42.github.io/ai-agent-rollout-checklist-template/
+
+Use rollout checklist mirror as GitHub template: https://github.com/ivelly42/ai-agent-rollout-checklist-template/generate
+
 GitHub client delivery mirror: https://github.com/ivelly42/ai-agent-client-delivery-kit
 
 GitHub client delivery mirror Pages: https://ivelly42.github.io/ai-agent-client-delivery-kit/
@@ -199,7 +205,7 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.62-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.63-preview
 
 Sample files:
 
@@ -280,6 +286,9 @@ Sample files:
 - [GitHub incident postmortem mirror Pages](https://ivelly42.github.io/ai-agent-incident-postmortem-template/)
 - [GitHub incident postmortem mirror](https://github.com/ivelly42/ai-agent-incident-postmortem-template)
 - [Use incident postmortem mirror](https://github.com/ivelly42/ai-agent-incident-postmortem-template/generate)
+- [GitHub rollout checklist mirror Pages](https://ivelly42.github.io/ai-agent-rollout-checklist-template/)
+- [GitHub rollout checklist mirror](https://github.com/ivelly42/ai-agent-rollout-checklist-template)
+- [Use rollout checklist mirror](https://github.com/ivelly42/ai-agent-rollout-checklist-template/generate)
 - [GitHub client delivery mirror Pages](https://ivelly42.github.io/ai-agent-client-delivery-kit/)
 - [GitHub client delivery mirror](https://github.com/ivelly42/ai-agent-client-delivery-kit)
 - [Team purchase packet](team-purchase-packet.html)
