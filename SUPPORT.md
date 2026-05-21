@@ -8,9 +8,10 @@ published publicly.
 
 - Early access request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml
 - Preview site: https://ivelly42.github.io/agent-ops-command-center/
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v4.9-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.0-preview
 - HTML template gallery: https://ivelly42.github.io/agent-ops-command-center/template-gallery.html
 - Interactive ROI calculator: https://ivelly42.github.io/agent-ops-command-center/roi-calculator.html
+- Order intent builder: https://ivelly42.github.io/agent-ops-command-center/order-intent.html
 - Demand metrics: https://ivelly42.github.io/agent-ops-command-center/metrics/status.json
 
 The price target is `$29`. Revenue is counted only when a real checkout,

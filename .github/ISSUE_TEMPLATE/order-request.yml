@@ -31,6 +31,7 @@ body:
         Public Gist mirror: https://gist.github.com/ivelly42/c65a80192a848892d1196242027dc7a9
         HTML template gallery: https://ivelly42.github.io/agent-ops-command-center/template-gallery.html
         Interactive ROI calculator: https://ivelly42.github.io/agent-ops-command-center/roi-calculator.html
+        Order intent builder: https://ivelly42.github.io/agent-ops-command-center/order-intent.html
   - type: dropdown
     id: checkout
     attributes:
