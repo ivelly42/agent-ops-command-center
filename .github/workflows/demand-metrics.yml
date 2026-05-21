@@ -4,6 +4,10 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "17 3 * * *"
+  issues:
+    types: [opened, edited, reopened, labeled, unlabeled, closed]
+  release:
+    types: [published, edited, deleted]
 
 permissions:
   contents: write
@@ -23,6 +27,7 @@ jobs:
             const owner = context.repo.owner;
             const repo = context.repo.repo;
             const price = 29;
+            const teamPrice = 203;
             const target = 200;
 
             const issues = await github.paginate(github.rest.issues.listForRepo, {
@@ -45,17 +50,36 @@ jobs:
               .reduce((sum, asset) => sum + asset.download_count, 0);
 
             const orders = issues.length;
-            const possibleGross = orders * price;
+            const teamOrders = issues.filter((issue) => {
+              const body = issue.body || "";
+              return body.includes("Team license - 7 seats - $203 gross") ||
+                body.includes("I am ready to pay $203 for the 7-seat team license when checkout is ready");
+            }).length;
+            const previewOnlyOrders = issues.filter((issue) => {
+              const body = issue.body || "";
+              return body.includes("Evaluating preview only") ||
+                body.includes("I want to evaluate the preview first") ||
+                body.includes("I only want updates for now");
+            }).length;
+            const individualOrders = Math.max(0, orders - teamOrders - previewOnlyOrders);
+            const possibleGross = (teamOrders * teamPrice) + (individualOrders * price);
             const status = orders > 0 ? "orders pending checkout" : "no paid checkout";
 
             const metrics = {
               orders,
+              individual_order_intents: individualOrders,
+              team_license_order_intents: teamOrders,
+              preview_only_intents: previewOnlyOrders,
               preview_downloads: previewDownloads,
               possible_gross_if_all_orders_paid_usd: possibleGross,
               gross_revenue_usd: 0,
               target_revenue_usd: target,
               price_usd: price,
+              team_license_price_usd: teamPrice,
               sales_needed: Math.ceil(target / price),
+              team_licenses_needed: Math.ceil(target / teamPrice),
+              checkout_live: false,
+              revenue_proof_required: "checkout, receipt, payout, or seller-dashboard evidence",
               status,
               updated_at: new Date().toISOString()
             };
@@ -68,12 +92,19 @@ jobs:
               "Current status:",
               "",
               `- Orders: \`${metrics.orders}\``,
+              `- Individual order intents: \`${metrics.individual_order_intents}\``,
+              `- Team license order intents: \`${metrics.team_license_order_intents}\``,
+              `- Preview-only intents: \`${metrics.preview_only_intents}\``,
               `- Preview downloads: \`${metrics.preview_downloads}\``,
               `- Possible gross if all order requests pay: \`$${metrics.possible_gross_if_all_orders_paid_usd}\``,
               `- Gross revenue proven: \`$${metrics.gross_revenue_usd}\``,
               `- Target revenue: \`$${metrics.target_revenue_usd}\``,
               `- Price target: \`$${metrics.price_usd}\``,
+              `- Team license target: \`$${metrics.team_license_price_usd}\``,
               `- Sales needed: \`${metrics.sales_needed}\``,
+              `- Team licenses needed: \`${metrics.team_licenses_needed}\``,
+              `- Checkout live: \`${metrics.checkout_live}\``,
+              `- Revenue proof required: \`${metrics.revenue_proof_required}\``,
               `- Status: \`${metrics.status}\``,
               `- Updated: \`${metrics.updated_at}\``,
               "",
