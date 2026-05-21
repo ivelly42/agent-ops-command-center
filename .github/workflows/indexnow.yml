@@ -59,6 +59,8 @@ jobs:
               "https://ivelly42.github.io/agent-ops-command-center/kiro-steering.md",
               "https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-commerce.json",
               "https://ivelly42.github.io/agent-ops-command-center/agent-commerce.json",
+              "https://ivelly42.github.io/agent-ops-command-center/.well-known/checkout-status.json",
+              "https://ivelly42.github.io/agent-ops-command-center/checkout-status.json",
               "https://ivelly42.github.io/agent-ops-command-center/.well-known/ai-plugin.json",
               "https://ivelly42.github.io/agent-ops-command-center/ai-plugin.json",
               "https://ivelly42.github.io/agent-ops-command-center/openapi.json",

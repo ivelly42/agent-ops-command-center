@@ -11,6 +11,10 @@ Agent-Commerce: https://ivelly42.github.io/agent-ops-command-center/.well-known/
 
 Agent-Commerce-Alias: https://ivelly42.github.io/agent-ops-command-center/agent-commerce.json
 
+Checkout-Status: https://ivelly42.github.io/agent-ops-command-center/.well-known/checkout-status.json
+
+Checkout-Status-Alias: https://ivelly42.github.io/agent-ops-command-center/checkout-status.json
+
 AI-Plugin: https://ivelly42.github.io/agent-ops-command-center/.well-known/ai-plugin.json
 
 AI-Plugin-Alias: https://ivelly42.github.io/agent-ops-command-center/ai-plugin.json

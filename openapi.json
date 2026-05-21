@@ -2,8 +2,8 @@
   "openapi": "3.1.0",
   "info": {
     "title": "Agent Ops Command Center Commerce Actions",
-    "version": "0.5.131",
-    "description": "Read public product metadata and open the $203 team-license request path for Agent Ops Command Center. This API describes public static resources only; it does not process payment or prove revenue."
+    "version": "0.5.132",
+    "description": "Read public product metadata, checkout status, and the $203 team-license request path for Agent Ops Command Center. This API describes public static resources only; it does not process payment or prove revenue."
   },
   "servers": [
     {
@@ -561,6 +561,44 @@
           }
         }
       }
+    },
+    "/agent-ops-command-center/.well-known/checkout-status.json": {
+      "get": {
+        "operationId": "readCheckoutStatus",
+        "summary": "Read checkout status manifest",
+        "description": "Returns whether a paid checkout is live, seller-channel checks, buyer fallback routes, and the revenue proof boundary.",
+        "responses": {
+          "200": {
+            "description": "Checkout status manifest",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CheckoutStatus"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/agent-ops-command-center/checkout-status.json": {
+      "get": {
+        "operationId": "readCheckoutStatusAlias",
+        "summary": "Read checkout status manifest alias",
+        "description": "Alias for agents that cannot fetch project-scoped well-known paths.",
+        "responses": {
+          "200": {
+            "description": "Checkout status manifest",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CheckoutStatus"
+                }
+              }
+            }
+          }
+        }
+      }
     }
   },
   "components": {
@@ -760,6 +798,66 @@
             "type": "boolean"
           }
         }
+      },
+      "CheckoutStatus": {
+        "type": "object",
+        "required": [
+          "name",
+          "type",
+          "checkout_live",
+          "status",
+          "primary_offer",
+          "revenue_rule"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string"
+          },
+          "checkout_live": {
+            "type": "boolean"
+          },
+          "status": {
+            "type": "string"
+          },
+          "canonical_url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "alternate_urls": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "format": "uri"
+            }
+          },
+          "primary_offer": {
+            "$ref": "#/components/schemas/Offer"
+          },
+          "payment_ready_request": {
+            "type": "object"
+          },
+          "seller_channel_checks": {
+            "type": "object"
+          },
+          "fulfillment": {
+            "type": "object"
+          },
+          "proof_required_to_complete_goal": {
+            "type": "object"
+          },
+          "revenue_rule": {
+            "type": "string"
+          },
+          "not_revenue": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
       }
     }
   },
@@ -770,7 +868,7 @@
   },
   "x-revenue-rule": "OpenAPI metadata is routing metadata, not revenue. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence.",
   "x-agent-routing-manifest": "https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-routing.json",
-  "x-npm-release-tarball": "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.131-preview/agent-ops-command-center-0.5.131.tgz",
+  "x-npm-release-tarball": "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.132-preview/agent-ops-command-center-0.5.132.tgz",
   "x-editor-rule-files": {
     "github_copilot": {
       "canonical": "https://github.com/ivelly42/agent-ops-command-center/blob/main/.github/copilot-instructions.md",
@@ -814,5 +912,7 @@
   "x-continue-rule-alias": "https://ivelly42.github.io/agent-ops-command-center/continue-rules.md",
   "x-kiro-steering": "https://ivelly42.github.io/agent-ops-command-center/.kiro/steering/agent-ops-command-center.md",
   "x-kiro-steering-alias": "https://ivelly42.github.io/agent-ops-command-center/kiro-steering.md",
-  "x-cline-workflow-discussion": "https://github.com/ivelly42/agent-ops-command-center/discussions/12"
+  "x-cline-workflow-discussion": "https://github.com/ivelly42/agent-ops-command-center/discussions/12",
+  "x-checkout-status": "https://ivelly42.github.io/agent-ops-command-center/.well-known/checkout-status.json",
+  "x-checkout-status-alias": "https://ivelly42.github.io/agent-ops-command-center/checkout-status.json"
 }

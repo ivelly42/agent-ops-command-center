@@ -1,0 +1,76 @@
+{
+  "name": "Agent Ops Command Center",
+  "type": "checkout_status_manifest",
+  "schema_version": "2026-05-22",
+  "updated_at_kst": "2026-05-22 07:52",
+  "canonical_url": "https://ivelly42.github.io/agent-ops-command-center/.well-known/checkout-status.json",
+  "alternate_urls": [
+    "https://ivelly42.github.io/agent-ops-command-center/checkout-status.json"
+  ],
+  "status": "no paid checkout",
+  "checkout_live": false,
+  "checkout_live_source": null,
+  "paid_zip_public": false,
+  "public_preview_only": true,
+  "primary_offer": {
+    "name": "Team license - 7 seats",
+    "gross_price_usd": 203,
+    "target_revenue_usd": 200,
+    "target_reached_by": "one confirmed $203 team-license payment",
+    "request_url": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
+    "request_package": "Team license - 7 seats - $203 gross"
+  },
+  "payment_ready_request": {
+    "url": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml",
+    "purpose": "Capture buyer readiness and preferred receipt-capable checkout while no paid checkout is live.",
+    "revenue_rule": "A payment-ready issue is purchase intent only, not revenue."
+  },
+  "preferred_checkout_options": [
+    "Gumroad",
+    "Ko-fi",
+    "Lemon Squeezy",
+    "PayPal invoice",
+    "GitHub Sponsors",
+    "Other receipt-capable checkout"
+  ],
+  "seller_channel_checks": {
+    "github_sponsors": {
+      "checked_at_kst": "2026-05-22 07:52",
+      "live": false,
+      "observation": "https://github.com/sponsors/ivelly42 redirected to https://github.com/ivelly42, so no active GitHub Sponsors checkout was detected."
+    }
+  },
+  "fulfillment": {
+    "delivery_after": "checkout, receipt, payout, or seller-dashboard proof",
+    "paid_zip_public": false,
+    "private_paid_zip_required": true
+  },
+  "revenue_rule": "Count revenue only after checkout, receipt, payout, or seller-dashboard evidence. Do not count request URLs, issues, discussions, metadata fetches, release downloads, npm runs, funding clicks, stars, forks, or page views as revenue.",
+  "not_revenue": [
+    "checkout status metadata fetch",
+    "generated team request URL",
+    "payment-ready issue",
+    "GitHub Discussion",
+    "release asset download",
+    "npm exec run",
+    "funding link click",
+    "page view",
+    "star",
+    "fork"
+  ],
+  "buyer_next_action": {
+    "route": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
+    "fallback": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml",
+    "instruction": "Open the team request or payment-ready issue and specify the preferred receipt-capable checkout."
+  },
+  "proof_required_to_complete_goal": {
+    "target_revenue_usd": 200,
+    "acceptable_evidence": [
+      "checkout record",
+      "receipt",
+      "payout record",
+      "seller dashboard proof"
+    ],
+    "current_verified_gross_revenue_usd": 0
+  }
+}

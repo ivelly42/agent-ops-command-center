@@ -1,3 +1,6 @@
+Checkout status manifest: https://ivelly42.github.io/agent-ops-command-center/.well-known/checkout-status.json
+Checkout status alias: https://ivelly42.github.io/agent-ops-command-center/checkout-status.json
+Checkout live: false. Preferred path remains the $203 team-license request until a receipt-capable checkout exists.
 # Agent Ops Command Center Preview Index
 
 Public index for the Agent Ops Command Center preview.
@@ -26,7 +29,7 @@ The full paid pack is not published publicly. This index links every public prev
 - AI-agent template topic: https://github.com/topics/ai-agent-template
 - NPM GitHub install preview: `npx github:ivelly42/agent-ops-command-center --json`
 - NPM team request shortcut: `npx github:ivelly42/agent-ops-command-center --team-request-url`
-- NPM release tarball team request: `npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.131-preview/agent-ops-command-center-0.5.131.tgz -- agent-ops-command-center --team-request-url`
+- NPM release tarball team request: `npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.132-preview/agent-ops-command-center-0.5.132.tgz -- agent-ops-command-center --team-request-url`
 - Package funding direct request: `npm fund agent-ops-command-center` -> https://ivelly42.github.io/agent-ops-command-center/team-request-url.html
 - Agent commerce metadata: https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-commerce.json
 - Agent commerce metadata alias: https://ivelly42.github.io/agent-ops-command-center/agent-commerce.json
@@ -259,7 +262,7 @@ The full paid pack is not published publicly. This index links every public prev
 - Fast template pack request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml
 - RSS feed: https://ivelly42.github.io/agent-ops-command-center/feed.xml
 - Machine-readable catalog: https://ivelly42.github.io/agent-ops-command-center/catalog.json
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.131-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.132-preview
 - Buy page: https://ivelly42.github.io/agent-ops-command-center/buy.html
 - Payment-ready team checkout request: https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html
 - Fast template pack request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml

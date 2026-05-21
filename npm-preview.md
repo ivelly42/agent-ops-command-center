@@ -1,3 +1,6 @@
+Checkout status manifest: https://ivelly42.github.io/agent-ops-command-center/.well-known/checkout-status.json
+Checkout status alias: https://ivelly42.github.io/agent-ops-command-center/checkout-status.json
+Release tarball: https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.132-preview/agent-ops-command-center-0.5.132.tgz
 # NPM GitHub Install Preview
 
 Agent Ops Command Center can be previewed as a GitHub-installable npm package without publishing the paid ZIP.
@@ -39,11 +42,11 @@ npx github:ivelly42/agent-ops-command-center --team-request-markdown
 The npm registry name is currently unpublished, and this machine is not logged in to npm, so the no-user-intervention path is a GitHub Release tarball.
 
 ```bash
-npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.131-preview/agent-ops-command-center-0.5.131.tgz -- agent-ops-command-center --team-request-url
-npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.131-preview/agent-ops-command-center-0.5.131.tgz -- agent-ops-command-center --json
+npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.132-preview/agent-ops-command-center-0.5.132.tgz -- agent-ops-command-center --team-request-url
+npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.132-preview/agent-ops-command-center-0.5.132.tgz -- agent-ops-command-center --json
 ```
 
-Tarball: https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.131-preview/agent-ops-command-center-0.5.131.tgz
+Tarball: https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.132-preview/agent-ops-command-center-0.5.132.tgz
 
 Running the tarball preview is not revenue.
 
