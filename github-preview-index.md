@@ -7,6 +7,7 @@ The full paid pack is not published publicly. This index links every public prev
 ## Public Preview Assets
 
 - Landing page: https://ivelly42.github.io/agent-ops-command-center/
+- GitHub Pages client delivery mirror: https://ivelly42.github.io/ai-agent-client-delivery-kit/
 - Team purchase packet: https://ivelly42.github.io/agent-ops-command-center/team-purchase-packet.html
 - Team procurement email kit: https://ivelly42.github.io/agent-ops-command-center/team-procurement-email.html
 - Team invoice request packet: https://ivelly42.github.io/agent-ops-command-center/team-invoice-request.html
@@ -99,10 +100,11 @@ The full paid pack is not published publicly. This index links every public prev
 - GitHub issue index: https://github.com/ivelly42/agent-ops-command-center/issues/2
 - RSS feed: https://ivelly42.github.io/agent-ops-command-center/feed.xml
 - Machine-readable catalog: https://ivelly42.github.io/agent-ops-command-center/catalog.json
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.38-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.39-preview
 - Buy page: https://ivelly42.github.io/agent-ops-command-center/buy.html
 - Fast team checkout request: https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html
 - Client delivery kit: https://ivelly42.github.io/agent-ops-command-center/client-delivery-kit.html
+- GitHub Pages client delivery mirror: https://ivelly42.github.io/ai-agent-client-delivery-kit/
 - GitHub client delivery mirror: https://github.com/ivelly42/ai-agent-client-delivery-kit
 - Revenue proof intake: https://ivelly42.github.io/agent-ops-command-center/revenue-proof.html
 - Team purchase packet: https://ivelly42.github.io/agent-ops-command-center/team-purchase-packet.html

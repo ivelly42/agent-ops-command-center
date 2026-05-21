@@ -12,6 +12,8 @@ Client delivery kit: https://ivelly42.github.io/agent-ops-command-center/client-
 
 GitHub client delivery mirror: https://github.com/ivelly42/ai-agent-client-delivery-kit
 
+GitHub client delivery mirror Pages: https://ivelly42.github.io/ai-agent-client-delivery-kit/
+
 Revenue proof intake: https://ivelly42.github.io/agent-ops-command-center/revenue-proof.html
 
 Team purchase packet: https://ivelly42.github.io/agent-ops-command-center/team-purchase-packet.html
@@ -213,6 +215,8 @@ AI agent client delivery kit: https://ivelly42.github.io/agent-ops-command-cente
 
 AI agent client delivery GitHub mirror: https://github.com/ivelly42/ai-agent-client-delivery-kit
 
+AI agent client delivery mirror Pages: https://ivelly42.github.io/ai-agent-client-delivery-kit/
+
 AI agent buyer reply kit Gist: https://gist.github.com/ivelly42/a9a6049b0d93d5f92d907780a3276edb
 
 Buyer intake packet: https://ivelly42.github.io/agent-ops-command-center/buyer-intake-packet.md
@@ -235,7 +239,7 @@ GitHub issue index: https://github.com/ivelly42/agent-ops-command-center/issues/
 
 Early access request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.38-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.39-preview
 
 Sample run log CSV: https://ivelly42.github.io/agent-ops-command-center/sample/run_log_sample.csv
 
