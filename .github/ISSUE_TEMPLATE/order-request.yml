@@ -8,8 +8,9 @@ body:
       value: |
         Request early access to the full Agent Ops Command Center pack.
 
-        Price target: $29.
-        Revenue target for this launch: 7 paid orders = $203 gross.
+        Individual seat target: $29.
+        Team license target: $203 gross for 7 seats.
+        Revenue target for this launch: one paid team license, or 7 paid individual orders, clears the $200 gross target.
 
         Checkout is not live yet. This issue records purchase intent and preferred checkout. It is not counted as revenue until a real checkout, receipt, or seller dashboard exists.
         Buy page: https://ivelly42.github.io/agent-ops-command-center/buy.html
@@ -67,8 +68,8 @@ body:
     attributes:
       label: Request package
       options:
-        - Individual seat - $29
         - Team license - 7 seats - $203 gross
+        - Individual seat - $29
         - Evaluating preview only
     validations:
       required: true

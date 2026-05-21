@@ -5,26 +5,33 @@
     <link>https://ivelly42.github.io/agent-ops-command-center/</link>
     <description>Public preview updates for a Notion and spreadsheet template pack for builders running AI coding agents.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 21 May 2026 16:42:00 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 21 May 2026 16:48:00 +0900</lastBuildDate>
     <ttl>1440</ttl>
+    <item>
+      <title>Team-First Buy Page</title>
+      <link>https://ivelly42.github.io/agent-ops-command-center/buy.html</link>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/buy.html#v5.34-preview</guid>
+      <pubDate>Thu, 21 May 2026 16:48:00 +0900</pubDate>
+      <description>The buy page and order-request issue form now put the $203 seven-seat team license first, while preserving the $29 individual-seat option and the payment-proof revenue rule.</description>
+    </item>
     <item>
       <title>Social Preview Image</title>
       <link>https://ivelly42.github.io/agent-ops-command-center/og.png</link>
-      <guid>https://ivelly42.github.io/agent-ops-command-center/og.png#v5.33-preview</guid>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/og.png#v5.34-preview</guid>
       <pubDate>Thu, 21 May 2026 16:42:00 +0900</pubDate>
       <description>Public pages now use a PNG social preview image that shows the AI coding-agent ops template pack, $29 individual seat, $203 team license, and one-payment path to the $200 gross target.</description>
     </item>
     <item>
       <title>Run Log Offer Metadata</title>
       <link>https://ivelly42.github.io/agent-ops-command-center/ai-agent-run-log-template.html</link>
-      <guid>https://ivelly42.github.io/agent-ops-command-center/ai-agent-run-log-template.html#v5.33-preview</guid>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/ai-agent-run-log-template.html#v5.34-preview</guid>
       <pubDate>Thu, 21 May 2026 16:34:00 +0900</pubDate>
       <description>AI coding-agent run log and Notion-template landing pages now expose both the $29 individual seat and the $203 seven-seat team-license offer in structured product metadata.</description>
     </item>
     <item>
       <title>Team License Offer Metadata</title>
       <link>https://ivelly42.github.io/agent-ops-command-center/catalog.json</link>
-      <guid>https://ivelly42.github.io/agent-ops-command-center/catalog.json#v5.33-preview</guid>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/catalog.json#v5.34-preview</guid>
       <pubDate>Thu, 21 May 2026 16:23:00 +0900</pubDate>
       <description>Machine-readable catalog and structured offer metadata now expose the $29 individual seat, $203 seven-seat team license, and one confirmed team-license payment path to the $200 gross revenue target.</description>
     </item>
