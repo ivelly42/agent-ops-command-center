@@ -76,6 +76,7 @@ The full paid pack is not published publicly. This index links every public prev
 - GitHub Pages expense report mirror: https://ivelly42.github.io/ai-agent-expense-report-template/
 - GitHub expense report mirror: https://github.com/ivelly42/ai-agent-expense-report-template
 - Use expense report mirror: https://github.com/ivelly42/ai-agent-expense-report-template/generate
+- GitHub expense report issue form: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=expense-report.yml
 - GitHub Pages vendor onboarding mirror: https://ivelly42.github.io/ai-agent-vendor-onboarding-template/
 - GitHub vendor onboarding mirror: https://github.com/ivelly42/ai-agent-vendor-onboarding-template
 - Use vendor onboarding mirror: https://github.com/ivelly42/ai-agent-vendor-onboarding-template/generate
@@ -181,7 +182,7 @@ The full paid pack is not published publicly. This index links every public prev
 - Fast template pack request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml
 - RSS feed: https://ivelly42.github.io/agent-ops-command-center/feed.xml
 - Machine-readable catalog: https://ivelly42.github.io/agent-ops-command-center/catalog.json
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.82-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.83-preview
 - Buy page: https://ivelly42.github.io/agent-ops-command-center/buy.html
 - Fast team checkout request: https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html
 - Fast template pack request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml
@@ -268,6 +269,7 @@ The full paid pack is not published publicly. This index links every public prev
 - GitHub Pages expense report mirror: https://ivelly42.github.io/ai-agent-expense-report-template/
 - GitHub expense report mirror: https://github.com/ivelly42/ai-agent-expense-report-template
 - Use expense report mirror: https://github.com/ivelly42/ai-agent-expense-report-template/generate
+- GitHub expense report issue form: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=expense-report.yml
 - GitHub Pages vendor onboarding mirror: https://ivelly42.github.io/ai-agent-vendor-onboarding-template/
 - GitHub vendor onboarding mirror: https://github.com/ivelly42/ai-agent-vendor-onboarding-template
 - Use vendor onboarding mirror: https://github.com/ivelly42/ai-agent-vendor-onboarding-template/generate
@@ -338,6 +340,7 @@ The full paid pack is not published publicly. This index links every public prev
 | Invoice Request Issue Form | Capture invoice-ready buyers as order-request issues for the $203 team request path |
 | Receipt Request Mirror | Route AI-agent receipt, reimbursement, expense report, and payment-proof searches into the team request path |
 | Expense Report Mirror | Route AI-agent expense report, reimbursement, receipt, and payment-proof searches into the team request path |
+| Expense Report Issue Form | Capture expense-report-ready buyers as order-request issues for the $203 team request path |
 | Vendor Onboarding Mirror | Route AI-agent vendor setup, supplier intake, billing contact, compliance note, and checkout-readiness searches into the team request path |
 | Software Purchase Request Mirror | Route AI-agent software purchase, purchase-request, approval, quote, PO, invoice, and checkout-readiness searches into the team request path |
 | Discovery Hub | Route every public mirror and buyer-search segment into the $203 request path |

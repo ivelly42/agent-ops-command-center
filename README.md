@@ -180,6 +180,8 @@ GitHub expense report mirror Pages: https://ivelly42.github.io/ai-agent-expense-
 
 Use expense report mirror as GitHub template: https://github.com/ivelly42/ai-agent-expense-report-template/generate
 
+GitHub expense report issue form: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=expense-report.yml
+
 GitHub vendor onboarding mirror: https://github.com/ivelly42/ai-agent-vendor-onboarding-template
 
 GitHub vendor onboarding mirror Pages: https://ivelly42.github.io/ai-agent-vendor-onboarding-template/
@@ -299,7 +301,7 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.82-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.83-preview
 
 Sample files:
 
@@ -421,6 +423,7 @@ Sample files:
 - [GitHub expense report mirror Pages](https://ivelly42.github.io/ai-agent-expense-report-template/)
 - [GitHub expense report mirror](https://github.com/ivelly42/ai-agent-expense-report-template)
 - [Use expense report mirror](https://github.com/ivelly42/ai-agent-expense-report-template/generate)
+- [GitHub expense report issue form](https://github.com/ivelly42/agent-ops-command-center/issues/new?template=expense-report.yml)
 - [GitHub vendor onboarding mirror Pages](https://ivelly42.github.io/ai-agent-vendor-onboarding-template/)
 - [GitHub vendor onboarding mirror](https://github.com/ivelly42/ai-agent-vendor-onboarding-template)
 - [Use vendor onboarding mirror](https://github.com/ivelly42/ai-agent-vendor-onboarding-template/generate)
