@@ -78,6 +78,8 @@ The pack breaks even if it prevents roughly one hour of cleanup time for a build
 - Cline rules: https://ivelly42.github.io/agent-ops-command-center/cline-rules.md
 - Gemini routing instructions: https://ivelly42.github.io/agent-ops-command-center/GEMINI.md
 - Gemini routing alias: https://ivelly42.github.io/agent-ops-command-center/gemini-instructions.md
+- Aider auto-loaded conventions: https://ivelly42.github.io/agent-ops-command-center/CONVENTIONS.md
+- Aider conventions alias: https://ivelly42.github.io/agent-ops-command-center/aider-conventions.md
 - OpenAPI commerce actions: https://ivelly42.github.io/agent-ops-command-center/openapi.json
 - OpenAPI commerce actions well-known: https://ivelly42.github.io/agent-ops-command-center/.well-known/openapi.json
 - AI buy-intent JSON: https://ivelly42.github.io/agent-ops-command-center/ai-buy-intent.json
@@ -160,7 +162,7 @@ The pack breaks even if it prevents roughly one hour of cleanup time for a build
 - Run log template: https://ivelly42.github.io/agent-ops-command-center/codex-claude-run-log-template.md
 - Failure RCA template: https://ivelly42.github.io/agent-ops-command-center/failure-rca-template.md
 - Preflight checklist: https://ivelly42.github.io/agent-ops-command-center/checklist.md
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.123-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.124-preview
 - Buy page: https://ivelly42.github.io/agent-ops-command-center/buy.html
 - Payment-ready issue form: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml
 - Payment-ready buy CTA: https://ivelly42.github.io/agent-ops-command-center/buy.html
@@ -175,7 +177,7 @@ The pack breaks even if it prevents roughly one hour of cleanup time for a build
 - AI-agent template topic: https://github.com/topics/ai-agent-template
 - NPM GitHub install preview: `npx github:ivelly42/agent-ops-command-center --json`
 - NPM team request shortcut: `npx github:ivelly42/agent-ops-command-center --team-request-url`
-- NPM release tarball team request: `npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.123-preview/agent-ops-command-center-0.5.123.tgz -- agent-ops-command-center --team-request-url`
+- NPM release tarball team request: `npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.124-preview/agent-ops-command-center-0.5.124.tgz -- agent-ops-command-center --team-request-url`
 - NPM team request CLI Discussion: https://github.com/ivelly42/agent-ops-command-center/discussions/11
 - GitHub NPX team request mirror: https://github.com/ivelly42/ai-agent-npx-team-request-template
 - GitHub NPX team request mirror Pages: https://ivelly42.github.io/ai-agent-npx-team-request-template/

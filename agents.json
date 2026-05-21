@@ -2,7 +2,7 @@
   "name": "Agent Ops Command Center",
   "type": "ai_agent_discovery_manifest",
   "schema_version": "2026-05-22",
-  "updated_at_kst": "2026-05-22 06:58",
+  "updated_at_kst": "2026-05-22 07:14",
   "canonical_url": "https://ivelly42.github.io/agent-ops-command-center/.well-known/agents.json",
   "alternate_urls": [
     "https://ivelly42.github.io/agent-ops-command-center/agents.json",
@@ -13,7 +13,11 @@
     "https://ivelly42.github.io/agent-ops-command-center/llms.txt",
     "https://ivelly42.github.io/agent-ops-command-center/GEMINI.md",
     "https://ivelly42.github.io/agent-ops-command-center/gemini-instructions.md",
-    "https://github.com/ivelly42/agent-ops-command-center/blob/main/GEMINI.md"
+    "https://github.com/ivelly42/agent-ops-command-center/blob/main/GEMINI.md",
+    "https://github.com/ivelly42/agent-ops-command-center/blob/main/CONVENTIONS.md",
+    "https://ivelly42.github.io/agent-ops-command-center/CONVENTIONS.md",
+    "https://ivelly42.github.io/agent-ops-command-center/aider-conventions.md",
+    "https://github.com/ivelly42/agent-ops-command-center/blob/main/.aider.conf.yml"
   ],
   "product": {
     "name": "Agent Ops Command Center",
@@ -79,6 +83,15 @@
       "pages_instructions": "https://ivelly42.github.io/agent-ops-command-center/GEMINI.md",
       "alias_instructions": "https://ivelly42.github.io/agent-ops-command-center/gemini-instructions.md",
       "primary_action": "open_primary_team_request"
+    },
+    {
+      "id": "aider",
+      "name": "Aider",
+      "config": "https://github.com/ivelly42/agent-ops-command-center/blob/main/.aider.conf.yml",
+      "instructions": "https://github.com/ivelly42/agent-ops-command-center/blob/main/CONVENTIONS.md",
+      "pages_instructions": "https://ivelly42.github.io/agent-ops-command-center/CONVENTIONS.md",
+      "alias_instructions": "https://ivelly42.github.io/agent-ops-command-center/aider-conventions.md",
+      "primary_action": "open_primary_team_request"
     }
   ],
   "machine_actions": {
@@ -91,12 +104,14 @@
     "read_buy_intent": "https://ivelly42.github.io/agent-ops-command-center/ai-buy-intent.json",
     "read_catalog": "https://ivelly42.github.io/agent-ops-command-center/catalog.json",
     "read_metrics": "https://ivelly42.github.io/agent-ops-command-center/metrics/status.json",
-    "run_npm_release_tarball_team_request": "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.123-preview/agent-ops-command-center-0.5.123.tgz",
+    "run_npm_release_tarball_team_request": "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.124-preview/agent-ops-command-center-0.5.124.tgz",
     "read_llms_json": "https://ivelly42.github.io/agent-ops-command-center/.well-known/llms.json",
     "read_llms_json_alias": "https://ivelly42.github.io/agent-ops-command-center/llms.json",
     "read_llms_txt": "https://ivelly42.github.io/agent-ops-command-center/llms.txt",
     "read_gemini_instructions": "https://ivelly42.github.io/agent-ops-command-center/GEMINI.md",
-    "read_gemini_instructions_alias": "https://ivelly42.github.io/agent-ops-command-center/gemini-instructions.md"
+    "read_gemini_instructions_alias": "https://ivelly42.github.io/agent-ops-command-center/gemini-instructions.md",
+    "read_aider_conventions": "https://ivelly42.github.io/agent-ops-command-center/CONVENTIONS.md",
+    "read_aider_conventions_alias": "https://ivelly42.github.io/agent-ops-command-center/aider-conventions.md"
   },
   "revenue_rule": "Agent discovery metadata is not revenue. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence. Do not count generated request URLs, issues, discussions, stars, forks, views, release downloads, npm tarball runs, or metadata fetches as revenue.",
   "fake_proof_prohibited": true,

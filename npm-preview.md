@@ -37,11 +37,11 @@ npx github:ivelly42/agent-ops-command-center --team-request-markdown
 The npm registry name is currently unpublished, and this machine is not logged in to npm, so the no-user-intervention path is a GitHub Release tarball.
 
 ```bash
-npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.123-preview/agent-ops-command-center-0.5.123.tgz -- agent-ops-command-center --team-request-url
-npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.123-preview/agent-ops-command-center-0.5.123.tgz -- agent-ops-command-center --json
+npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.124-preview/agent-ops-command-center-0.5.124.tgz -- agent-ops-command-center --team-request-url
+npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.124-preview/agent-ops-command-center-0.5.124.tgz -- agent-ops-command-center --json
 ```
 
-Tarball: https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.123-preview/agent-ops-command-center-0.5.123.tgz
+Tarball: https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.124-preview/agent-ops-command-center-0.5.124.tgz
 
 Running the tarball preview is not revenue.
 

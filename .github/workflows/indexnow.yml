@@ -43,6 +43,8 @@ jobs:
               "https://ivelly42.github.io/agent-ops-command-center/cline-rules.md",
               "https://ivelly42.github.io/agent-ops-command-center/GEMINI.md",
               "https://ivelly42.github.io/agent-ops-command-center/gemini-instructions.md",
+              "https://ivelly42.github.io/agent-ops-command-center/CONVENTIONS.md",
+              "https://ivelly42.github.io/agent-ops-command-center/aider-conventions.md",
               "https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-commerce.json",
               "https://ivelly42.github.io/agent-ops-command-center/agent-commerce.json",
               "https://ivelly42.github.io/agent-ops-command-center/.well-known/ai-plugin.json",
