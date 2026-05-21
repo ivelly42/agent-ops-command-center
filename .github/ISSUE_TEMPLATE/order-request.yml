@@ -12,6 +12,7 @@ body:
         Revenue target for this launch: 7 paid orders = $203 gross.
 
         Checkout is not live yet. This issue records purchase intent and preferred checkout. It is not counted as revenue until a real checkout, receipt, or seller dashboard exists.
+        Buy page: https://ivelly42.github.io/agent-ops-command-center/buy.html
         Product tour: https://ivelly42.github.io/agent-ops-command-center/product-tour.md
         ROI calculator: https://ivelly42.github.io/agent-ops-command-center/agent-ops-roi-calculator.md
         Cost leak audit: https://ivelly42.github.io/agent-ops-command-center/ai-agent-cost-leak-audit.md

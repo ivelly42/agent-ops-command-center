@@ -6,9 +6,10 @@
   "sales_needed": 7,
   "status": "preview_live_no_paid_checkout",
   "homepage": "https://ivelly42.github.io/agent-ops-command-center/",
-  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.12-preview",
+  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.13-preview",
   "early_access_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml",
   "demand_metrics": "https://ivelly42.github.io/agent-ops-command-center/metrics/status.json",
+  "buy_page": "https://ivelly42.github.io/agent-ops-command-center/buy.html",
   "template_gallery": "https://ivelly42.github.io/agent-ops-command-center/template-gallery.html",
   "ops_maturity_check": "https://ivelly42.github.io/agent-ops-command-center/ops-maturity-check.html",
   "cost_leak_audit_tool": "https://ivelly42.github.io/agent-ops-command-center/cost-leak-audit.html",
@@ -27,6 +28,10 @@
   "paid_zip_public": false,
   "revenue_rule": "Revenue is proven only by checkout, receipt, payout, or seller-dashboard evidence.",
   "public_assets": [
+    {
+      "title": "Buy Agent Ops Command Center",
+      "url": "https://ivelly42.github.io/agent-ops-command-center/buy.html"
+    },
     {
       "title": "AI Agent Buyer Reply Kit",
       "url": "https://ivelly42.github.io/agent-ops-command-center/ai-agent-buyer-reply-kit.md",

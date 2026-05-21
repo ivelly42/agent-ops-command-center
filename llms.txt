@@ -4,6 +4,8 @@ Agent Ops Command Center is a Notion and spreadsheet template pack for builders 
 
 Primary page: https://ivelly42.github.io/agent-ops-command-center/
 
+Buy page: https://ivelly42.github.io/agent-ops-command-center/buy.html
+
 Preview: https://ivelly42.github.io/agent-ops-command-center/preview.md
 
 IndexNow key file: https://ivelly42.github.io/agent-ops-command-center/b18a9177af0e03eb7a80a5ace792472641b328df9a607f1f55db81b7098e5656.txt
@@ -187,7 +189,7 @@ GitHub issue index: https://github.com/ivelly42/agent-ops-command-center/issues/
 
 Early access request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.12-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.13-preview
 
 Sample run log CSV: https://ivelly42.github.io/agent-ops-command-center/sample/run_log_sample.csv
 

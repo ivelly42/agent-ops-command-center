@@ -8,7 +8,8 @@ published publicly.
 
 - Early access request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml
 - Preview site: https://ivelly42.github.io/agent-ops-command-center/
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.12-preview
+- Buy page: https://ivelly42.github.io/agent-ops-command-center/buy.html
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.13-preview
 - HTML template gallery: https://ivelly42.github.io/agent-ops-command-center/template-gallery.html
 - Workflow picker tool: https://ivelly42.github.io/agent-ops-command-center/workflow-picker.html
 - Notion import builder: https://ivelly42.github.io/agent-ops-command-center/notion-import-builder.html
@@ -35,6 +36,7 @@ https://github.com/ivelly42/agent-ops-command-center/discussions/1
 
 Useful public pages:
 
+- Buy page: https://ivelly42.github.io/agent-ops-command-center/buy.html
 - Product tour: https://ivelly42.github.io/agent-ops-command-center/product-tour.md
 - Ops maturity check: https://ivelly42.github.io/agent-ops-command-center/ops-maturity-check.html
 - Run log builder: https://ivelly42.github.io/agent-ops-command-center/run-log-builder.html

@@ -85,7 +85,8 @@ The full paid pack is not published publicly. This index links every public prev
 - GitHub issue index: https://github.com/ivelly42/agent-ops-command-center/issues/2
 - RSS feed: https://ivelly42.github.io/agent-ops-command-center/feed.xml
 - Machine-readable catalog: https://ivelly42.github.io/agent-ops-command-center/catalog.json
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.12-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.13-preview
+- Buy page: https://ivelly42.github.io/agent-ops-command-center/buy.html
 - HTML template gallery: https://ivelly42.github.io/agent-ops-command-center/template-gallery.html
 - Workflow picker tool: https://ivelly42.github.io/agent-ops-command-center/workflow-picker.html
 - Notion import builder: https://ivelly42.github.io/agent-ops-command-center/notion-import-builder.html
@@ -115,6 +116,7 @@ The full paid pack is not published publicly. This index links every public prev
 | Verification Command Library | Choose proof that matches the changed behavior |
 | Notion Import Builder | Generate a Notion import plan for CSVs, templates, views, relations, and blockers |
 | Paid Delivery Manifest | Record paid delivery, archive digest, and buyer acknowledgement |
+| Buy Page | Focus early-access buyers on the $29 request, proof links, and revenue-proof rule |
 | Buyer Decision Matrix | Compare cleanup cost, pack surfaces, and buy signals |
 | Checkout Readiness FAQ | Answer buyer objections and list payment proof needed |
 | Checkout Readiness Builder | Generate buyer checkout, receipt, delivery, payment-proof, and blocker notes before order intent |
