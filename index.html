@@ -12,6 +12,8 @@
     <meta property="og:image" content="https://ivelly42.github.io/agent-ops-command-center/og.png">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content="https://ivelly42.github.io/agent-ops-command-center/og.png">
+    <link rel="alternate" type="application/json" title="Agent commerce metadata" href="https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-commerce.json">
+    <link rel="alternate" type="application/json" title="AI buy intent JSON" href="https://ivelly42.github.io/agent-ops-command-center/ai-buy-intent.json">
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -41,6 +43,18 @@
           }
         ],
         "mainEntityOfPage": "https://ivelly42.github.io/agent-ops-command-center/ai-buy-intent.json",
+        "subjectOf": [
+          {
+            "@type": "DataFeed",
+            "name": "Agent commerce metadata",
+            "url": "https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-commerce.json"
+          },
+          {
+            "@type": "DataFeed",
+            "name": "AI buy intent JSON",
+            "url": "https://ivelly42.github.io/agent-ops-command-center/ai-buy-intent.json"
+          }
+        ],
         "potentialAction": {
           "@type": "BuyAction",
           "target": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",

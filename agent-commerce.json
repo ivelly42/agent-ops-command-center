@@ -1,0 +1,43 @@
+{
+  "name": "Agent Ops Command Center",
+  "type": "agent_commerce_metadata",
+  "schema_version": "2026-05-22",
+  "updated_at_kst": "2026-05-22 05:10",
+  "canonical_url": "https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-commerce.json",
+  "alternate_urls": [
+    "https://ivelly42.github.io/agent-ops-command-center/agent-commerce.json",
+    "https://ivelly42.github.io/agent-ops-command-center/ai-buy-intent.json"
+  ],
+  "product": {
+    "name": "Agent Ops Command Center",
+    "category": "Notion and spreadsheet template pack for AI coding-agent teams",
+    "public_preview_url": "https://ivelly42.github.io/agent-ops-command-center/",
+    "paid_zip_public": false
+  },
+  "primary_offer": {
+    "name": "Team license - 7 seats",
+    "gross_price_usd": 203,
+    "target_revenue_usd": 200,
+    "target_reached_by": "one confirmed $203 team-license payment",
+    "request_url": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
+    "request_package": "Team license - 7 seats - $203 gross"
+  },
+  "secondary_offer": {
+    "name": "Individual early access",
+    "gross_price_usd": 29,
+    "request_url": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml"
+  },
+  "machine_actions": {
+    "open_primary_team_request": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
+    "open_payment_ready_issue": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml",
+    "read_buy_intent": "https://ivelly42.github.io/agent-ops-command-center/ai-buy-intent.json",
+    "read_catalog": "https://ivelly42.github.io/agent-ops-command-center/catalog.json",
+    "read_metrics": "https://ivelly42.github.io/agent-ops-command-center/metrics/status.json"
+  },
+  "fulfillment": {
+    "public_preview_only": true,
+    "delivery_after": "checkout, receipt, payout, or seller-dashboard proof",
+    "paid_zip_public": false
+  },
+  "revenue_rule": "Agent commerce metadata is routing metadata, not revenue. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence. Do not count generated request URLs, issues, discussions, stars, forks, views, release downloads, or funding-link clicks as revenue."
+}

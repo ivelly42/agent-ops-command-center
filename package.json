@@ -1,6 +1,6 @@
 {
   "name": "agent-ops-command-center",
-  "version": "0.5.113",
+  "version": "0.5.114",
   "description": "Public preview CLI for Agent Ops Command Center with payment-ready $203 team request links.",
   "license": "MIT",
   "homepage": "https://ivelly42.github.io/agent-ops-command-center/",
@@ -20,6 +20,8 @@
     "agent-ops": "bin/agent-ops-command-center.js"
   },
   "files": [
+    ".well-known/agent-commerce.json",
+    "agent-commerce.json",
     "ai-buy-intent.json",
     "bin",
     "README.md",

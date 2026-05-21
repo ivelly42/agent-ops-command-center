@@ -1,7 +1,8 @@
 {
   "name": "Agent Ops Command Center",
   "type": "ai_agent_template_pack_buy_intent",
-  "updated_at_kst": "2026-05-22 05:00",
+  "updated_at_kst": "2026-05-22 05:10",
+  "agent_commerce_metadata": "https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-commerce.json",
   "product": "Notion and spreadsheet template pack for AI coding-agent teams",
   "primary_offer": {
     "name": "Team license - 7 seats",

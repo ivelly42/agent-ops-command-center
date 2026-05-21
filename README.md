@@ -48,6 +48,10 @@ NPM team request shortcut: `npx github:ivelly42/agent-ops-command-center --team-
 
 Package funding direct request: `npm fund agent-ops-command-center` -> https://ivelly42.github.io/agent-ops-command-center/team-request-url.html
 
+Agent commerce metadata: https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-commerce.json
+
+Agent commerce metadata alias: https://ivelly42.github.io/agent-ops-command-center/agent-commerce.json
+
 AI buy-intent JSON: https://ivelly42.github.io/agent-ops-command-center/ai-buy-intent.json
 
 NPM team request CLI Discussion: https://github.com/ivelly42/agent-ops-command-center/discussions/11
@@ -373,7 +377,7 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.113-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.114-preview
 
 Sample files:
 

@@ -7,4 +7,8 @@ Feed: https://ivelly42.github.io/agent-ops-command-center/feed.xml
 
 LLMs: https://ivelly42.github.io/agent-ops-command-center/llms.txt
 
+Agent-Commerce: https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-commerce.json
+
+Agent-Commerce-Alias: https://ivelly42.github.io/agent-ops-command-center/agent-commerce.json
+
 AI-Buy-Intent: https://ivelly42.github.io/agent-ops-command-center/ai-buy-intent.json
