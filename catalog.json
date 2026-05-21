@@ -6,13 +6,14 @@
   "sales_needed": 7,
   "status": "preview_live_no_paid_checkout",
   "homepage": "https://ivelly42.github.io/agent-ops-command-center/",
-  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.1-preview",
+  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.2-preview",
   "early_access_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml",
   "demand_metrics": "https://ivelly42.github.io/agent-ops-command-center/metrics/status.json",
   "template_gallery": "https://ivelly42.github.io/agent-ops-command-center/template-gallery.html",
   "interactive_roi_calculator": "https://ivelly42.github.io/agent-ops-command-center/roi-calculator.html",
   "order_intent_builder": "https://ivelly42.github.io/agent-ops-command-center/order-intent.html",
   "pricing": "https://ivelly42.github.io/agent-ops-command-center/pricing.html",
+  "sample_dashboard": "https://ivelly42.github.io/agent-ops-command-center/sample-dashboard.html",
   "feed": "https://ivelly42.github.io/agent-ops-command-center/feed.xml",
   "llms": "https://ivelly42.github.io/agent-ops-command-center/llms.txt",
   "sitemap": "https://ivelly42.github.io/agent-ops-command-center/sitemap.xml",
@@ -34,6 +35,10 @@
     {
       "title": "Pricing",
       "url": "https://ivelly42.github.io/agent-ops-command-center/pricing.html"
+    },
+    {
+      "title": "Sample Dashboard",
+      "url": "https://ivelly42.github.io/agent-ops-command-center/sample-dashboard.html"
     },
     {
       "title": "AI Agent Done Checklist",

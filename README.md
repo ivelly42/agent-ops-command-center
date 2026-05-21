@@ -14,6 +14,8 @@ Catalog: [catalog.json](catalog.json)
 
 HTML gallery: [template-gallery.html](template-gallery.html)
 
+Sample dashboard: [sample-dashboard.html](sample-dashboard.html)
+
 Interactive ROI calculator: [roi-calculator.html](roi-calculator.html)
 
 Order intent builder: [order-intent.html](order-intent.html)
@@ -48,7 +50,7 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.1-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.2-preview
 
 Sample files:
 
@@ -84,6 +86,7 @@ Sample files:
 - [RSS feed](feed.xml)
 - [Machine-readable catalog](catalog.json)
 - [HTML template gallery](template-gallery.html)
+- [Sample dashboard](sample-dashboard.html)
 - [Interactive ROI calculator](roi-calculator.html)
 - [Order intent builder](order-intent.html)
 - [Pricing](pricing.html)

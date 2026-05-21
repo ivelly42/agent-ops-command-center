@@ -56,6 +56,7 @@ The pack breaks even if it prevents roughly one hour of cleanup time for a build
 ## Full Preview Links
 
 - Landing page: https://ivelly42.github.io/agent-ops-command-center/
+- Sample dashboard: https://ivelly42.github.io/agent-ops-command-center/sample-dashboard.html
 - Product tour: https://ivelly42.github.io/agent-ops-command-center/product-tour.md
 - ROI calculator: https://ivelly42.github.io/agent-ops-command-center/agent-ops-roi-calculator.md
 - AI agent cost leak audit: https://ivelly42.github.io/agent-ops-command-center/ai-agent-cost-leak-audit.md
@@ -109,7 +110,7 @@ The pack breaks even if it prevents roughly one hour of cleanup time for a build
 - Run log template: https://ivelly42.github.io/agent-ops-command-center/codex-claude-run-log-template.md
 - Failure RCA template: https://ivelly42.github.io/agent-ops-command-center/failure-rca-template.md
 - Preflight checklist: https://ivelly42.github.io/agent-ops-command-center/checklist.md
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.1-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.2-preview
 - HTML template gallery: https://ivelly42.github.io/agent-ops-command-center/template-gallery.html
 - Interactive ROI calculator: https://ivelly42.github.io/agent-ops-command-center/roi-calculator.html
 - Order intent builder: https://ivelly42.github.io/agent-ops-command-center/order-intent.html

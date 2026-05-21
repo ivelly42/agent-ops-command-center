@@ -5,8 +5,15 @@
     <link>https://ivelly42.github.io/agent-ops-command-center/</link>
     <description>Public preview updates for a Notion and spreadsheet template pack for builders running AI coding agents.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 21 May 2026 09:25:00 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 21 May 2026 09:33:00 +0900</lastBuildDate>
     <ttl>1440</ttl>
+    <item>
+      <title>Agent Ops Command Center Sample Dashboard</title>
+      <link>https://ivelly42.github.io/agent-ops-command-center/sample-dashboard.html</link>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/sample-dashboard.html</guid>
+      <pubDate>Thu, 21 May 2026 09:33:00 +0900</pubDate>
+      <description>Browser dashboard that renders the public sample CSV data for run logs, cost tracker, agents, prompts, verification checks, and failure modes.</description>
+    </item>
     <item>
       <title>Agent Ops Command Center Pricing</title>
       <link>https://ivelly42.github.io/agent-ops-command-center/pricing.html</link>

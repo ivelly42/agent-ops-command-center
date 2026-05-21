@@ -14,6 +14,8 @@ Machine-readable catalog: https://ivelly42.github.io/agent-ops-command-center/ca
 
 HTML template gallery: https://ivelly42.github.io/agent-ops-command-center/template-gallery.html
 
+Sample dashboard: https://ivelly42.github.io/agent-ops-command-center/sample-dashboard.html
+
 Interactive ROI calculator: https://ivelly42.github.io/agent-ops-command-center/roi-calculator.html
 
 Order intent builder: https://ivelly42.github.io/agent-ops-command-center/order-intent.html
@@ -162,7 +164,7 @@ GitHub issue index: https://github.com/ivelly42/agent-ops-command-center/issues/
 
 Early access request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.1-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.2-preview
 
 Sample run log CSV: https://ivelly42.github.io/agent-ops-command-center/sample/run_log_sample.csv
 

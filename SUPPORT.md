@@ -8,8 +8,9 @@ published publicly.
 
 - Early access request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml
 - Preview site: https://ivelly42.github.io/agent-ops-command-center/
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.1-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.2-preview
 - HTML template gallery: https://ivelly42.github.io/agent-ops-command-center/template-gallery.html
+- Sample dashboard: https://ivelly42.github.io/agent-ops-command-center/sample-dashboard.html
 - Interactive ROI calculator: https://ivelly42.github.io/agent-ops-command-center/roi-calculator.html
 - Order intent builder: https://ivelly42.github.io/agent-ops-command-center/order-intent.html
 - Pricing: https://ivelly42.github.io/agent-ops-command-center/pricing.html
@@ -28,6 +29,7 @@ https://github.com/ivelly42/agent-ops-command-center/discussions/1
 Useful public pages:
 
 - Product tour: https://ivelly42.github.io/agent-ops-command-center/product-tour.md
+- Sample dashboard: https://ivelly42.github.io/agent-ops-command-center/sample-dashboard.html
 - ROI calculator: https://ivelly42.github.io/agent-ops-command-center/agent-ops-roi-calculator.md
 - Buyer decision matrix: https://ivelly42.github.io/agent-ops-command-center/buyer-decision-matrix.md
 - Checkout readiness FAQ: https://ivelly42.github.io/agent-ops-command-center/checkout-readiness-faq.md
