@@ -30,10 +30,11 @@ jobs:
             const { owner, repo } = context.repo;
             const eventName = context.eventName;
             const isDispatch = eventName === "workflow_dispatch";
+            const dispatchInputs = context.payload.inputs || {};
             const discussionNumber = isDispatch
-              ? Number(core.getInput("discussion_number") || 0)
+              ? Number(dispatchInputs.discussion_number || 0)
               : Number(context.payload.discussion?.number || 0);
-            const dryRun = isDispatch && core.getInput("dry_run") !== "false";
+            const dryRun = isDispatch && dispatchInputs.dry_run !== "false";
 
             if (!discussionNumber) {
               core.info("No discussion number supplied; skipping.");
