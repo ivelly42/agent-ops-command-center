@@ -10,6 +10,8 @@ Buy page: https://ivelly42.github.io/agent-ops-command-center/buy.html
 
 Payment-ready request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml
 
+GitHub issue chooser fast team request: https://github.com/ivelly42/agent-ops-command-center/issues/new/choose
+
 Payment-ready buy CTA: https://ivelly42.github.io/agent-ops-command-center/buy.html
 
 Payment-ready pricing CTA: https://ivelly42.github.io/agent-ops-command-center/pricing.html
@@ -683,7 +685,7 @@ Fast template pack request page: https://ivelly42.github.io/agent-ops-command-ce
 
 GitHub Sponsor button funding links: https://github.com/ivelly42/agent-ops-command-center/blob/main/.github/FUNDING.yml
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.110-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.111-preview
 
 Sample run log CSV: https://ivelly42.github.io/agent-ops-command-center/sample/run_log_sample.csv
 

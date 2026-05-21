@@ -1,5 +1,8 @@
 blank_issues_enabled: false
 contact_links:
+  - name: Fast $203 team request
+    url: https://ivelly42.github.io/agent-ops-command-center/team-request-url.html
+    about: Open a prefilled team-license request with the $203 package and payment-proof acknowledgement.
   - name: Payment-ready request
     url: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml
     about: Record payment-ready intent for the $203 team license and preferred checkout method.

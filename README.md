@@ -16,6 +16,8 @@ Buy page: [buy.html](buy.html)
 
 Payment-ready request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml
 
+GitHub issue chooser fast team request: https://github.com/ivelly42/agent-ops-command-center/issues/new/choose
+
 Payment-ready buy CTA: https://ivelly42.github.io/agent-ops-command-center/buy.html
 
 Payment-ready pricing CTA: https://ivelly42.github.io/agent-ops-command-center/pricing.html
@@ -367,7 +369,7 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.110-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.111-preview
 
 Sample files:
 
