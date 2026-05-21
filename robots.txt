@@ -23,6 +23,14 @@ Agent-Routing-Manifest: https://ivelly42.github.io/agent-ops-command-center/.wel
 
 Agent-Routing-Manifest-Alias: https://ivelly42.github.io/agent-ops-command-center/agent-routing.json
 
+GitHub-Copilot-Instructions: https://ivelly42.github.io/agent-ops-command-center/copilot-instructions.md
+
+Cursor-Agent-Rules: https://ivelly42.github.io/agent-ops-command-center/cursor-agent-rules.md
+
+Windsurf-Rules: https://ivelly42.github.io/agent-ops-command-center/windsurf-rules.md
+
+Cline-Rules: https://ivelly42.github.io/agent-ops-command-center/cline-rules.md
+
 OpenAPI: https://ivelly42.github.io/agent-ops-command-center/openapi.json
 
 OpenAPI-Well-Known: https://ivelly42.github.io/agent-ops-command-center/.well-known/openapi.json

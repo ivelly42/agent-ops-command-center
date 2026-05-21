@@ -51,7 +51,7 @@ const links = {
   discussionAutoreply: "https://ivelly42.github.io/agent-ops-command-center/discussion-autoreply.md",
   paymentReadyNpmAutoreplyDiscussion: "https://github.com/ivelly42/agent-ops-command-center/discussions/10",
   release: "https://github.com/ivelly42/agent-ops-command-center/releases/latest",
-  npmReleaseTarball: "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.119-preview/agent-ops-command-center-0.5.119.tgz"
+  npmReleaseTarball: "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.120-preview/agent-ops-command-center-0.5.120.tgz"
 };
 
 const payload = {

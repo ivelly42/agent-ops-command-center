@@ -46,7 +46,7 @@ NPM GitHub install preview: `npx github:ivelly42/agent-ops-command-center --json
 
 NPM team request shortcut: `npx github:ivelly42/agent-ops-command-center --team-request-url`
 
-NPM release tarball team request: `npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.119-preview/agent-ops-command-center-0.5.119.tgz -- agent-ops-command-center --team-request-url`
+NPM release tarball team request: `npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.120-preview/agent-ops-command-center-0.5.120.tgz -- agent-ops-command-center --team-request-url`
 
 Package funding direct request: `npm fund agent-ops-command-center` -> https://ivelly42.github.io/agent-ops-command-center/team-request-url.html
 
@@ -65,6 +65,14 @@ AI plugin manifest alias: https://ivelly42.github.io/agent-ops-command-center/ai
 Agent routing instructions: https://github.com/ivelly42/agent-ops-command-center/blob/main/AGENTS.md
 
 Claude routing instructions: https://github.com/ivelly42/agent-ops-command-center/blob/main/CLAUDE.md
+
+GitHub Copilot instructions: https://ivelly42.github.io/agent-ops-command-center/copilot-instructions.md
+
+Cursor agent rules: https://ivelly42.github.io/agent-ops-command-center/cursor-agent-rules.md
+
+Windsurf rules: https://ivelly42.github.io/agent-ops-command-center/windsurf-rules.md
+
+Cline rules: https://ivelly42.github.io/agent-ops-command-center/cline-rules.md
 
 OpenAPI commerce actions: https://ivelly42.github.io/agent-ops-command-center/openapi.json
 
@@ -395,7 +403,7 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.119-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.120-preview
 
 Sample files:
 

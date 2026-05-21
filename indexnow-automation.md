@@ -18,6 +18,10 @@ Submitted surfaces:
 - Claude routing instructions: https://ivelly42.github.io/agent-ops-command-center/CLAUDE.md
 - Agent routing manifest: https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-routing.json
 - Agent routing manifest alias: https://ivelly42.github.io/agent-ops-command-center/agent-routing.json
+- GitHub Copilot instructions: https://ivelly42.github.io/agent-ops-command-center/copilot-instructions.md
+- Cursor agent rules: https://ivelly42.github.io/agent-ops-command-center/cursor-agent-rules.md
+- Windsurf rules: https://ivelly42.github.io/agent-ops-command-center/windsurf-rules.md
+- Cline rules: https://ivelly42.github.io/agent-ops-command-center/cline-rules.md
 - Agent commerce metadata: https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-commerce.json
 - Agent commerce metadata alias: https://ivelly42.github.io/agent-ops-command-center/agent-commerce.json
 - AI plugin manifest: https://ivelly42.github.io/agent-ops-command-center/.well-known/ai-plugin.json

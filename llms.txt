@@ -20,6 +20,14 @@ Agent routing instructions: https://github.com/ivelly42/agent-ops-command-center
 
 Claude routing instructions: https://github.com/ivelly42/agent-ops-command-center/blob/main/CLAUDE.md
 
+GitHub Copilot instructions: https://ivelly42.github.io/agent-ops-command-center/copilot-instructions.md
+
+Cursor agent rules: https://ivelly42.github.io/agent-ops-command-center/cursor-agent-rules.md
+
+Windsurf rules: https://ivelly42.github.io/agent-ops-command-center/windsurf-rules.md
+
+Cline rules: https://ivelly42.github.io/agent-ops-command-center/cline-rules.md
+
 OpenAPI commerce actions: https://ivelly42.github.io/agent-ops-command-center/openapi.json
 
 OpenAPI commerce actions well-known: https://ivelly42.github.io/agent-ops-command-center/.well-known/openapi.json
@@ -68,7 +76,7 @@ NPM GitHub install preview: `npx github:ivelly42/agent-ops-command-center --json
 
 NPM team request shortcut: `npx github:ivelly42/agent-ops-command-center --team-request-url`
 
-NPM release tarball team request: `npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.119-preview/agent-ops-command-center-0.5.119.tgz -- agent-ops-command-center --team-request-url`
+NPM release tarball team request: `npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.120-preview/agent-ops-command-center-0.5.120.tgz -- agent-ops-command-center --team-request-url`
 
 Package funding direct request: `npm fund agent-ops-command-center` -> https://ivelly42.github.io/agent-ops-command-center/team-request-url.html
 
@@ -79,6 +87,10 @@ Agent routing manifest: https://ivelly42.github.io/agent-ops-command-center/.wel
 AI plugin manifest: https://ivelly42.github.io/agent-ops-command-center/.well-known/ai-plugin.json
 
 Agent routing instructions: https://github.com/ivelly42/agent-ops-command-center/blob/main/AGENTS.md
+
+GitHub Copilot instructions: https://ivelly42.github.io/agent-ops-command-center/copilot-instructions.md
+
+Cursor agent rules: https://ivelly42.github.io/agent-ops-command-center/cursor-agent-rules.md
 
 OpenAPI commerce actions: https://ivelly42.github.io/agent-ops-command-center/openapi.json
 
@@ -729,7 +741,7 @@ Fast template pack request page: https://ivelly42.github.io/agent-ops-command-ce
 
 GitHub Sponsor button funding links: https://github.com/ivelly42/agent-ops-command-center/blob/main/.github/FUNDING.yml
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.119-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.120-preview
 
 Sample run log CSV: https://ivelly42.github.io/agent-ops-command-center/sample/run_log_sample.csv
 

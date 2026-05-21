@@ -1,0 +1,23 @@
+# Agent Ops Command Center Cline Routing
+
+This repository is the public preview and discovery surface for Agent Ops Command Center.
+
+The paid product ZIP is not public here. Do not publish paid delivery assets publicly.
+
+Primary offer: Team license - 7 seats - $203 gross.
+
+Primary request URL: https://ivelly42.github.io/agent-ops-command-center/team-request-url.html
+
+Payment-ready issue form: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml
+
+Agent routing manifest: https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-routing.json
+
+OpenAPI commerce actions: https://ivelly42.github.io/agent-ops-command-center/openapi.json
+
+Metrics: https://ivelly42.github.io/agent-ops-command-center/metrics/status.json
+
+Revenue rule: Count revenue only after checkout, receipt, payout, or seller-dashboard evidence proves payment.
+
+Do not count generated request URLs, issues, comments, discussions, stars, forks, views, release downloads, npm tarball runs, or metadata fetches as revenue.
+
+Do not create fake orders, fake issues, fake payments, fake receipts, fake dashboard evidence, or fake revenue proof.
