@@ -166,6 +166,8 @@ GitHub invoice request mirror Pages: https://ivelly42.github.io/ai-agent-invoice
 
 Use invoice request mirror as GitHub template: https://github.com/ivelly42/ai-agent-invoice-request-template/generate
 
+GitHub invoice request issue form: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=invoice-request.yml
+
 GitHub vendor onboarding mirror: https://github.com/ivelly42/ai-agent-vendor-onboarding-template
 
 GitHub vendor onboarding mirror Pages: https://ivelly42.github.io/ai-agent-vendor-onboarding-template/
@@ -285,7 +287,7 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.79-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.80-preview
 
 Sample files:
 
@@ -400,6 +402,7 @@ Sample files:
 - [GitHub invoice request mirror Pages](https://ivelly42.github.io/ai-agent-invoice-request-template/)
 - [GitHub invoice request mirror](https://github.com/ivelly42/ai-agent-invoice-request-template)
 - [Use invoice request mirror](https://github.com/ivelly42/ai-agent-invoice-request-template/generate)
+- [GitHub invoice request issue form](https://github.com/ivelly42/agent-ops-command-center/issues/new?template=invoice-request.yml)
 - [GitHub vendor onboarding mirror Pages](https://ivelly42.github.io/ai-agent-vendor-onboarding-template/)
 - [GitHub vendor onboarding mirror](https://github.com/ivelly42/ai-agent-vendor-onboarding-template)
 - [Use vendor onboarding mirror](https://github.com/ivelly42/ai-agent-vendor-onboarding-template/generate)
