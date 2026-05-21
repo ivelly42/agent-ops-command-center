@@ -8,7 +8,7 @@ published publicly.
 
 - Early access request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml
 - Preview site: https://ivelly42.github.io/agent-ops-command-center/
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.10-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.11-preview
 - HTML template gallery: https://ivelly42.github.io/agent-ops-command-center/template-gallery.html
 - Workflow picker tool: https://ivelly42.github.io/agent-ops-command-center/workflow-picker.html
 - Notion import builder: https://ivelly42.github.io/agent-ops-command-center/notion-import-builder.html
@@ -18,6 +18,7 @@ published publicly.
 - Sample dashboard: https://ivelly42.github.io/agent-ops-command-center/sample-dashboard.html
 - Interactive ROI calculator: https://ivelly42.github.io/agent-ops-command-center/roi-calculator.html
 - Order intent builder: https://ivelly42.github.io/agent-ops-command-center/order-intent.html
+- Checkout readiness builder: https://ivelly42.github.io/agent-ops-command-center/checkout-readiness.html
 - Pricing: https://ivelly42.github.io/agent-ops-command-center/pricing.html
 - Demand metrics: https://ivelly42.github.io/agent-ops-command-center/metrics/status.json
 
@@ -40,5 +41,6 @@ Useful public pages:
 - ROI calculator: https://ivelly42.github.io/agent-ops-command-center/agent-ops-roi-calculator.md
 - Notion import builder: https://ivelly42.github.io/agent-ops-command-center/notion-import-builder.html
 - Buyer intake builder: https://ivelly42.github.io/agent-ops-command-center/buyer-intake.html
+- Checkout readiness builder: https://ivelly42.github.io/agent-ops-command-center/checkout-readiness.html
 - Buyer decision matrix: https://ivelly42.github.io/agent-ops-command-center/buyer-decision-matrix.md
 - Checkout readiness FAQ: https://ivelly42.github.io/agent-ops-command-center/checkout-readiness-faq.md

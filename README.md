@@ -35,6 +35,8 @@ Interactive ROI calculator: [roi-calculator.html](roi-calculator.html)
 
 Order intent builder: [order-intent.html](order-intent.html)
 
+Checkout readiness builder: [checkout-readiness.html](checkout-readiness.html)
+
 Pricing: [pricing.html](pricing.html)
 
 Early access: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml
@@ -65,7 +67,7 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.10-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.11-preview
 
 Sample files:
 
@@ -112,6 +114,7 @@ Sample files:
 - [Sample dashboard](sample-dashboard.html)
 - [Interactive ROI calculator](roi-calculator.html)
 - [Order intent builder](order-intent.html)
+- [Checkout readiness builder](checkout-readiness.html)
 - [Pricing](pricing.html)
 - [GitHub issue index](https://github.com/ivelly42/agent-ops-command-center/issues/2)
 - [Product tour](product-tour.md)

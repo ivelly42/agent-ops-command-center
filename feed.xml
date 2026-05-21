@@ -5,8 +5,15 @@
     <link>https://ivelly42.github.io/agent-ops-command-center/</link>
     <description>Public preview updates for a Notion and spreadsheet template pack for builders running AI coding agents.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 21 May 2026 11:27:00 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 21 May 2026 11:42:00 +0900</lastBuildDate>
     <ttl>1440</ttl>
+    <item>
+      <title>AI Agent Checkout Readiness Builder</title>
+      <link>https://ivelly42.github.io/agent-ops-command-center/checkout-readiness.html</link>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/checkout-readiness.html</guid>
+      <pubDate>Thu, 21 May 2026 11:42:00 +0900</pubDate>
+      <description>Free browser builder for preparing checkout preference, receipt needs, delivery proof, payment evidence, support blockers, and order intent.</description>
+    </item>
     <item>
       <title>AI Agent Notion Import Builder</title>
       <link>https://ivelly42.github.io/agent-ops-command-center/notion-import-builder.html</link>

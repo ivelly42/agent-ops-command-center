@@ -35,6 +35,8 @@ Interactive ROI calculator: https://ivelly42.github.io/agent-ops-command-center/
 
 Order intent builder: https://ivelly42.github.io/agent-ops-command-center/order-intent.html
 
+Checkout readiness builder: https://ivelly42.github.io/agent-ops-command-center/checkout-readiness.html
+
 Pricing: https://ivelly42.github.io/agent-ops-command-center/pricing.html
 
 Support: https://ivelly42.github.io/agent-ops-command-center/SUPPORT.md
@@ -179,7 +181,7 @@ GitHub issue index: https://github.com/ivelly42/agent-ops-command-center/issues/
 
 Early access request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.10-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.11-preview
 
 Sample run log CSV: https://ivelly42.github.io/agent-ops-command-center/sample/run_log_sample.csv
 

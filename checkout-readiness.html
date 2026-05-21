@@ -1,0 +1,632 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AI Agent Checkout Readiness Builder | Agent Ops Command Center</title>
+    <meta name="description" content="Free checkout readiness builder for AI-agent template buyers: checkout preference, receipt needs, delivery proof, payment evidence, support blockers, and order intent.">
+    <meta property="og:title" content="AI Agent Checkout Readiness Builder">
+    <meta property="og:description" content="Prepare buyer checkout, receipt, delivery, and payment-proof requirements before requesting the $29 Agent Ops Command Center pack.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ivelly42.github.io/agent-ops-command-center/checkout-readiness.html">
+    <meta property="og:image" content="https://ivelly42.github.io/agent-ops-command-center/og.svg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://ivelly42.github.io/agent-ops-command-center/og.svg">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "AI Agent Checkout Readiness Builder",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "Any",
+        "url": "https://ivelly42.github.io/agent-ops-command-center/checkout-readiness.html",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "isPartOf": {
+          "@type": "Product",
+          "name": "Agent Ops Command Center",
+          "offers": {
+            "@type": "Offer",
+            "price": "29",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/PreOrder",
+            "url": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml"
+          }
+        }
+      }
+    </script>
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #151515;
+        --muted: #5f5a52;
+        --line: #d8d3ca;
+        --paper: #fbfaf7;
+        --panel: #ffffff;
+        --soft: #f7f5f0;
+        --accent: #0f766e;
+        --gold: #b45309;
+      }
+
+      * { box-sizing: border-box; }
+
+      body {
+        margin: 0;
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        color: var(--ink);
+        background: var(--paper);
+      }
+
+      header, main, footer {
+        width: min(1180px, calc(100% - 40px));
+        margin: 0 auto;
+      }
+
+      header {
+        min-height: 72px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .brand { font-weight: 800; }
+
+      nav {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+        font-size: 14px;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      .hero {
+        padding: 64px 0 42px;
+        display: grid;
+        grid-template-columns: minmax(0, 0.98fr) minmax(360px, 1.02fr);
+        gap: 48px;
+        align-items: center;
+      }
+
+      .eyebrow {
+        color: var(--accent);
+        font-size: 14px;
+        font-weight: 800;
+        margin-bottom: 14px;
+      }
+
+      h1 {
+        font-size: clamp(42px, 7vw, 74px);
+        line-height: 0.98;
+        margin: 0 0 20px;
+        letter-spacing: 0;
+      }
+
+      .lead {
+        color: var(--muted);
+        font-size: 20px;
+        line-height: 1.5;
+        margin: 0;
+        max-width: 760px;
+      }
+
+      .actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 24px;
+      }
+
+      .button {
+        min-height: 44px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid var(--ink);
+        border-radius: 8px;
+        padding: 0 16px;
+        font-weight: 800;
+        background: transparent;
+        color: inherit;
+        font: inherit;
+        cursor: pointer;
+      }
+
+      .button.primary {
+        background: var(--ink);
+        color: #fff;
+      }
+
+      .readiness-card, .field, .item {
+        background: var(--panel);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+      }
+
+      .readiness-card {
+        padding: 24px;
+        box-shadow: 0 24px 80px rgba(21, 21, 21, 0.12);
+      }
+
+      .score {
+        font-size: 82px;
+        line-height: 0.95;
+        font-weight: 900;
+        margin-bottom: 12px;
+      }
+
+      .readiness-card p {
+        color: var(--muted);
+        font-size: 18px;
+        line-height: 1.45;
+        margin: 0 0 18px;
+      }
+
+      .mini-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 12px;
+      }
+
+      .mini {
+        border: 1px solid var(--line);
+        background: var(--soft);
+        border-radius: 8px;
+        padding: 14px;
+      }
+
+      .mini strong {
+        display: block;
+        font-size: 24px;
+        margin-bottom: 4px;
+        overflow-wrap: anywhere;
+      }
+
+      .mini span {
+        color: var(--muted);
+        font-size: 13px;
+      }
+
+      section {
+        padding: 34px 0;
+        border-top: 1px solid var(--line);
+      }
+
+      .section-head {
+        display: flex;
+        justify-content: space-between;
+        gap: 24px;
+        align-items: end;
+        margin-bottom: 18px;
+      }
+
+      h2 {
+        font-size: clamp(28px, 4vw, 46px);
+        margin: 0;
+        letter-spacing: 0;
+      }
+
+      .section-head p {
+        color: var(--muted);
+        line-height: 1.5;
+        max-width: 560px;
+        margin: 0;
+      }
+
+      .form-grid, .grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 14px;
+      }
+
+      .field, .item {
+        padding: 18px;
+      }
+
+      label {
+        display: block;
+        font-weight: 800;
+        margin-bottom: 8px;
+      }
+
+      input, select, textarea {
+        width: 100%;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: #fff;
+        color: var(--ink);
+        font: inherit;
+        padding: 0 12px;
+      }
+
+      input, select {
+        min-height: 42px;
+      }
+
+      textarea {
+        min-height: 340px;
+        padding: 14px;
+        resize: vertical;
+        font: 13px/1.45 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+      }
+
+      .field p, .item p {
+        color: var(--muted);
+        line-height: 1.45;
+        margin: 10px 0 0;
+      }
+
+      .item h3 {
+        margin: 0 0 10px;
+        font-size: 20px;
+      }
+
+      .notice {
+        border-left: 4px solid var(--gold);
+        background: var(--panel);
+        color: var(--muted);
+        padding: 18px 20px;
+        line-height: 1.55;
+      }
+
+      .status {
+        color: var(--accent);
+        font-weight: 800;
+        margin-top: 12px;
+        min-height: 22px;
+      }
+
+      footer {
+        color: var(--muted);
+        padding: 36px 0 48px;
+      }
+
+      @media (max-width: 980px) {
+        .hero, .form-grid, .grid {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      @media (max-width: 720px) {
+        header {
+          align-items: flex-start;
+          flex-direction: column;
+          gap: 14px;
+          padding: 18px 0;
+        }
+
+        .hero {
+          padding-top: 44px;
+        }
+
+        .section-head {
+          display: block;
+        }
+
+        .section-head p {
+          margin-top: 10px;
+        }
+
+        .mini-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a class="brand" href="index.html">Agent Ops Command Center</a>
+      <nav aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="workflow-picker.html">Picker</a>
+        <a href="notion-import-builder.html">Import</a>
+        <a href="ops-maturity-check.html">Maturity</a>
+        <a href="cost-leak-audit.html">Cost</a>
+        <a href="buyer-decision-matrix.html">Decision</a>
+        <a href="purchase-approval-brief.html">Approval</a>
+        <a href="buyer-intake.html">Intake</a>
+        <a href="run-log-builder.html">Builder</a>
+        <a href="sample-dashboard.html">Sample</a>
+        <a href="roi-calculator.html">ROI</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="checkout-readiness.html">Checkout</a>
+        <a href="order-intent.html">Intent</a>
+      </nav>
+    </header>
+
+    <main>
+      <div class="hero">
+        <div>
+          <div class="eyebrow">Free AI-agent checkout readiness builder</div>
+          <h1>Clear the checkout blockers before payment exists.</h1>
+          <p class="lead">Turn preferred checkout, receipt needs, delivery proof, support expectations, and payment evidence into a clean buyer packet.</p>
+          <div class="actions">
+            <a class="button primary" href="order-intent.html?buyer=Checkout+readiness+planner&tools=Codex%2C+Claude+Code%2C+Cursor&problem=Checkout+readiness+packet">Prepare order intent</a>
+            <a class="button" href="checkout-readiness-faq.md">Checkout FAQ</a>
+            <a class="button" href="pricing.html">Pricing</a>
+            <a class="button" href="https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.11-preview">Preview release</a>
+          </div>
+        </div>
+        <aside class="readiness-card" aria-label="Checkout readiness score">
+          <div class="score" id="score">90</div>
+          <p id="summaryLine">Ready for order intent. Keep payment proof separate from demand signals.</p>
+          <div class="mini-grid">
+            <div class="mini">
+              <strong id="checkoutValue">Gumroad</strong>
+              <span>preferred checkout</span>
+            </div>
+            <div class="mini">
+              <strong id="receiptValue">Receipt</strong>
+              <span>buyer requirement</span>
+            </div>
+            <div class="mini">
+              <strong id="proofValue">Proof</strong>
+              <span>payment evidence</span>
+            </div>
+            <div class="mini">
+              <strong>$29</strong>
+              <span>target price</span>
+            </div>
+          </div>
+        </aside>
+      </div>
+
+      <section>
+        <div class="section-head">
+          <h2>Checkout Inputs</h2>
+          <p>Collect only the facts needed to unblock a real purchase. Do not treat the packet, page views, downloads, or issue intent as revenue.</p>
+        </div>
+        <div class="form-grid">
+          <div class="field">
+            <label for="buyer">Buyer or team</label>
+            <input id="buyer" value="Solo AI-agent builder">
+            <p>Name the person, team, or workflow owner.</p>
+          </div>
+          <div class="field">
+            <label for="checkout">Preferred checkout</label>
+            <select id="checkout">
+              <option selected>Gumroad</option>
+              <option>Ko-fi</option>
+              <option>Lemon Squeezy</option>
+              <option>GitHub Sponsors</option>
+              <option>PayPal invoice</option>
+              <option>Not sure</option>
+            </select>
+            <p>This records preference only; no checkout is live yet.</p>
+          </div>
+          <div class="field">
+            <label for="receipt">Receipt requirement</label>
+            <select id="receipt">
+              <option selected>Receipt needed after payment</option>
+              <option>No receipt needed</option>
+              <option>Company card receipt required</option>
+              <option>Need invoice before checkout</option>
+            </select>
+            <p>Receipt needs can block the sale if unknown.</p>
+          </div>
+          <div class="field">
+            <label for="delivery">Delivery rule</label>
+            <select id="delivery">
+              <option selected>Private ZIP after payment proof</option>
+              <option>GitHub issue reply after payment proof</option>
+              <option>Email delivery after payment proof</option>
+              <option>Need delivery method confirmed</option>
+            </select>
+            <p>The paid ZIP stays private until proof exists.</p>
+          </div>
+          <div class="field">
+            <label for="proof">Payment proof accepted</label>
+            <select id="proof">
+              <option selected>Checkout or receipt accepted</option>
+              <option>Seller dashboard required</option>
+              <option>Payout evidence required</option>
+              <option>Payment proof not decided</option>
+            </select>
+            <p>Revenue needs checkout, receipt, payout, or seller dashboard evidence.</p>
+          </div>
+          <div class="field">
+            <label for="timing">Purchase timing</label>
+            <select id="timing">
+              <option selected>Ready to pay when checkout opens</option>
+              <option>Need manager approval first</option>
+              <option>Need reimbursement path first</option>
+              <option>Evaluate preview first</option>
+            </select>
+            <p>Separate intent timing from paid revenue.</p>
+          </div>
+          <div class="field">
+            <label for="blocker">Checkout blocker</label>
+            <select id="blocker">
+              <option selected>No blocker</option>
+              <option>Need receipt before buying</option>
+              <option>Need payment method approved</option>
+              <option>Need seller checkout link</option>
+              <option>Need legal or tax details</option>
+            </select>
+            <p>Stop where seller, payment, tax, legal, or account setup is required.</p>
+          </div>
+          <div class="field">
+            <label for="support">Support expectation</label>
+            <select id="support">
+              <option selected>Delivery support only</option>
+              <option>Need import help</option>
+              <option>Need team setup guidance</option>
+              <option>No support expected</option>
+            </select>
+            <p>Support should be known before payment.</p>
+          </div>
+          <div class="field">
+            <label for="notes">Checkout note</label>
+            <input id="notes" value="Please notify me when a receipt-capable checkout is available.">
+            <p>Short buyer-facing note for order intent.</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-head">
+          <h2>Generated Checkout Packet</h2>
+          <p>Copy this into an order-intent issue, buyer reply, approval note, or internal demand log.</p>
+        </div>
+        <textarea id="packet" readonly></textarea>
+        <div class="actions">
+          <button class="button primary" type="button" id="copyPacket">Copy checkout packet</button>
+          <a class="button" id="orderLink" href="order-intent.html?buyer=Checkout+readiness+planner&tools=Codex%2C+Claude+Code%2C+Cursor&problem=Checkout+readiness+packet">Use in order intent</a>
+          <a class="button" href="buyer-intake.html">Buyer intake</a>
+          <a class="button" href="purchase-approval-brief.html">Approval brief</a>
+        </div>
+        <div class="status" id="copyStatus" aria-live="polite"></div>
+      </section>
+
+      <section>
+        <div class="section-head">
+          <h2>Checkout Rules</h2>
+          <p>The packet exists to reduce purchase friction, not to bypass payment evidence.</p>
+        </div>
+        <div class="grid">
+          <article class="item">
+            <h3>Intent Is Not Revenue</h3>
+            <p>Order intent, downloads, page views, and checkout preferences are demand signals only.</p>
+          </article>
+          <article class="item">
+            <h3>Proof Comes First</h3>
+            <p>Paid delivery requires checkout, receipt, payout, or seller-dashboard evidence before the private ZIP moves.</p>
+          </article>
+          <article class="item">
+            <h3>Stop At Seller Setup</h3>
+            <p>Account, payment, payout, tax, legal, or credential setup needs the owner and remains outside autonomous work.</p>
+          </article>
+        </div>
+      </section>
+
+      <section>
+        <h2>Revenue Rule</h2>
+        <div class="notice">
+          A checkout readiness packet is not revenue. This page does not create checkout, prove payment, publish the paid ZIP, or count as revenue. Gross revenue is counted only from checkout, receipt, payout, or seller-dashboard evidence.
+        </div>
+        <div class="actions">
+          <a class="button primary" href="order-intent.html?buyer=Checkout+readiness+planner&tools=Codex%2C+Claude+Code%2C+Cursor&problem=Checkout+readiness+packet">Prepare order intent</a>
+          <a class="button" href="pricing.html">Pricing</a>
+          <a class="button" href="metrics/status.json">Demand metrics</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      Free checkout readiness builder. Private paid ZIP. Revenue only after payment proof.
+    </footer>
+
+    <script>
+      const fields = ["buyer", "checkout", "receipt", "delivery", "proof", "timing", "blocker", "support", "notes"];
+      const packet = document.getElementById("packet");
+      const orderLink = document.getElementById("orderLink");
+      const status = document.getElementById("copyStatus");
+
+      function current() {
+        return Object.fromEntries(fields.map((id) => [id, document.getElementById(id).value.trim()]));
+      }
+
+      function readiness(v) {
+        let score = 35;
+        if (v.checkout !== "Not sure") score += 15;
+        if (v.receipt !== "Need invoice before checkout") score += 10;
+        if (v.delivery.includes("payment proof")) score += 10;
+        if (v.proof === "Checkout or receipt accepted") score += 12;
+        if (v.timing === "Ready to pay when checkout opens") score += 10;
+        if (v.support !== "Need team setup guidance") score += 5;
+        if (v.blocker === "No blocker") score += 8;
+        if (v.blocker !== "No blocker") score = Math.min(score - 28, 72);
+        return Math.min(score, 100);
+      }
+
+      function labelFor(score, blocker) {
+        if (blocker !== "No blocker") return "Blocked. Resolve the checkout blocker before asking for paid delivery.";
+        if (score >= 85) return "Ready for order intent. Keep payment proof separate from demand signals.";
+        if (score >= 65) return "Close. Confirm receipt, delivery, and proof rules before requesting checkout.";
+        return "Not ready. Use the free preview and checkout FAQ before requesting the full pack.";
+      }
+
+      function render() {
+        const v = current();
+        const score = readiness(v);
+        const buyer = v.buyer || "AI-agent builder";
+        const checkout = v.checkout || "Not sure";
+
+        document.getElementById("score").textContent = score;
+        document.getElementById("summaryLine").textContent = labelFor(score, v.blocker);
+        document.getElementById("checkoutValue").textContent = checkout;
+        document.getElementById("receiptValue").textContent = v.receipt.includes("No") ? "No receipt" : "Receipt";
+        document.getElementById("proofValue").textContent = v.proof.includes("not") ? "TBD" : "Proof";
+
+        packet.value = [
+          "# AI Agent Checkout Readiness Packet",
+          "",
+          `Readiness score: ${score}/100`,
+          `Readiness summary: ${labelFor(score, v.blocker)}`,
+          `Buyer or team: ${buyer}`,
+          "Product: Agent Ops Command Center",
+          "Target price: $29",
+          "",
+          "Checkout facts:",
+          `- Preferred checkout: ${checkout}`,
+          `- Receipt requirement: ${v.receipt}`,
+          `- Delivery rule: ${v.delivery}`,
+          `- Payment proof accepted: ${v.proof}`,
+          `- Purchase timing: ${v.timing}`,
+          `- Checkout blocker: ${v.blocker}`,
+          `- Support expectation: ${v.support}`,
+          "",
+          "Buyer note:",
+          v.notes || "Please notify me when checkout is available.",
+          "",
+          "Next action:",
+          v.blocker === "No blocker"
+            ? "- Open order intent and wait for a real checkout path."
+            : "- Resolve the blocker before treating the buyer as checkout-ready.",
+          "- Do not deliver the private paid ZIP before payment proof exists.",
+          "- Do not count this packet as revenue.",
+          "",
+          "Useful links:",
+          "Checkout readiness builder: https://ivelly42.github.io/agent-ops-command-center/checkout-readiness.html",
+          "Checkout FAQ: https://ivelly42.github.io/agent-ops-command-center/checkout-readiness-faq.md",
+          "Pricing: https://ivelly42.github.io/agent-ops-command-center/pricing.html",
+          "Order intent: https://ivelly42.github.io/agent-ops-command-center/order-intent.html",
+          "",
+          "Revenue rule: count revenue only when checkout, receipt, payout, or seller-dashboard evidence proves payment."
+        ].join("\n");
+
+        const params = new URLSearchParams({
+          buyer: "Checkout readiness planner",
+          tools: "Codex, Claude Code, Cursor",
+          problem: `${buyer} checkout readiness for ${checkout}. Timing: ${v.timing}. Blocker: ${v.blocker}.`
+        });
+        orderLink.href = `order-intent.html?${params.toString()}`;
+      }
+
+      for (const id of fields) {
+        const field = document.getElementById(id);
+        field.addEventListener("input", render);
+        field.addEventListener("change", render);
+      }
+
+      document.getElementById("copyPacket").addEventListener("click", async () => {
+        try {
+          await navigator.clipboard.writeText(packet.value);
+          status.textContent = "Checkout readiness packet copied.";
+        } catch {
+          packet.select();
+          status.textContent = "Select and copy the checkout readiness packet.";
+        }
+      });
+
+      render();
+    </script>
+  </body>
+</html>

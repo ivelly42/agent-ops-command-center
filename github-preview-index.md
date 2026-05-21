@@ -84,12 +84,13 @@ The full paid pack is not published publicly. This index links every public prev
 - GitHub issue index: https://github.com/ivelly42/agent-ops-command-center/issues/2
 - RSS feed: https://ivelly42.github.io/agent-ops-command-center/feed.xml
 - Machine-readable catalog: https://ivelly42.github.io/agent-ops-command-center/catalog.json
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.10-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.11-preview
 - HTML template gallery: https://ivelly42.github.io/agent-ops-command-center/template-gallery.html
 - Workflow picker tool: https://ivelly42.github.io/agent-ops-command-center/workflow-picker.html
 - Notion import builder: https://ivelly42.github.io/agent-ops-command-center/notion-import-builder.html
 - Interactive ROI calculator: https://ivelly42.github.io/agent-ops-command-center/roi-calculator.html
 - Order intent builder: https://ivelly42.github.io/agent-ops-command-center/order-intent.html
+- Checkout readiness builder: https://ivelly42.github.io/agent-ops-command-center/checkout-readiness.html
 - Pricing: https://ivelly42.github.io/agent-ops-command-center/pricing.html
 - Demand metrics: https://ivelly42.github.io/agent-ops-command-center/metrics/status.json
 
@@ -114,6 +115,7 @@ The full paid pack is not published publicly. This index links every public prev
 | Paid Delivery Manifest | Record paid delivery, archive digest, and buyer acknowledgement |
 | Buyer Decision Matrix | Compare cleanup cost, pack surfaces, and buy signals |
 | Checkout Readiness FAQ | Answer buyer objections and list payment proof needed |
+| Checkout Readiness Builder | Generate buyer checkout, receipt, delivery, payment-proof, and blocker notes before order intent |
 | Buyer Intake Builder | Generate copy-ready buyer fit, checkout, receipt, support, and blocker notes |
 | Buyer Intake Packet | Capture buyer fit, preferred checkout, receipt needs, and blockers |
 | Purchase Approval Brief | Help buyers request manager approval or reimbursement |

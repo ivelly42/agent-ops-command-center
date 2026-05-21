@@ -41,6 +41,7 @@ body:
         Sample dashboard: https://ivelly42.github.io/agent-ops-command-center/sample-dashboard.html
         Interactive ROI calculator: https://ivelly42.github.io/agent-ops-command-center/roi-calculator.html
         Order intent builder: https://ivelly42.github.io/agent-ops-command-center/order-intent.html
+        Checkout readiness builder: https://ivelly42.github.io/agent-ops-command-center/checkout-readiness.html
         Pricing: https://ivelly42.github.io/agent-ops-command-center/pricing.html
   - type: dropdown
     id: checkout
