@@ -26,6 +26,8 @@ Prefilled team request URL: https://ivelly42.github.io/agent-ops-command-center/
 
 GitHub repo homepage direct request: https://ivelly42.github.io/agent-ops-command-center/team-request-url.html
 
+GitHub profile sales surface: https://github.com/ivelly42/ivelly42
+
 Payment-ready mirror: https://github.com/ivelly42/ai-agent-payment-ready-template
 
 Payment-ready mirror Pages: https://ivelly42.github.io/ai-agent-payment-ready-template/
@@ -365,7 +367,7 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.109-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.110-preview
 
 Sample files:
 

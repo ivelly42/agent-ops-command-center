@@ -1,7 +1,7 @@
 {
   "name": "Agent Ops Command Center",
   "description": "Notion and spreadsheet template pack for builders running AI coding agents.",
-  "version": "v5.109-preview",
+  "version": "v5.110-preview",
   "price_usd": 29,
   "individual_price_usd": 29,
   "team_license_price_usd": 203,
@@ -15,7 +15,7 @@
   "status": "preview_live_no_paid_checkout",
   "homepage": "https://ivelly42.github.io/agent-ops-command-center/",
   "social_image": "https://ivelly42.github.io/agent-ops-command-center/og.png",
-  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.109-preview",
+  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.110-preview",
   "early_access_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml",
   "template_pack_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml",
   "template_pack_request_page": "https://ivelly42.github.io/agent-ops-command-center/template-pack-request.html",
@@ -23,6 +23,8 @@
   "prefilled_team_request_url": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
   "github_repo_homepage_direct_request": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
   "github_funding_primary_request": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
+  "github_profile_sales_surface": "https://github.com/ivelly42/ivelly42",
+  "github_profile_sales_surface_json": "https://raw.githubusercontent.com/ivelly42/ivelly42/main/agent-ops-command-center.json",
   "discovery_hub": "https://ivelly42.github.io/agent-ops-command-center/discovery.html",
   "buyer_reply_kit": "https://ivelly42.github.io/agent-ops-command-center/buyer-reply-kit.html",
   "demand_metrics": "https://ivelly42.github.io/agent-ops-command-center/metrics/status.json",
@@ -63,6 +65,16 @@
   "paid_zip_public": false,
   "revenue_rule": "Revenue is proven only by checkout, receipt, payout, or seller-dashboard evidence.",
   "public_assets": [
+    {
+      "title": "GitHub Profile Sales Surface",
+      "url": "https://github.com/ivelly42/ivelly42",
+      "repository": "https://github.com/ivelly42/ivelly42",
+      "json": "https://raw.githubusercontent.com/ivelly42/ivelly42/main/agent-ops-command-center.json",
+      "funding_config": "https://github.com/ivelly42/ivelly42/blob/main/.github/FUNDING.yml",
+      "request_package": "Team license - 7 seats - $203 gross",
+      "placement": "GitHub profile README, profile repository homepage, profile repository topics, and first custom funding link",
+      "revenue_rule": "Profile views, stars, forks, and funding-link clicks are purchase intent only. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence."
+    },
     {
       "title": "GitHub Homepage Direct Request",
       "url": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
@@ -1011,7 +1023,7 @@
     "team_request_mirror": "https://github.com/ivelly42/ai-agent-npx-team-request-template",
     "team_request_mirror_pages": "https://ivelly42.github.io/ai-agent-npx-team-request-template/",
     "package_name": "agent-ops-command-center",
-    "package_version": "0.5.109",
+    "package_version": "0.5.110",
     "bin": [
       "agent-ops-command-center",
       "agent-ops"
@@ -1043,6 +1055,24 @@
     "funding_primary_link": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
     "request_package": "Team license - 7 seats - $203 gross",
     "revenue_rule": "Homepage and funding links create purchase intent only. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence."
+  },
+  "github_profile_sales_surface_details": {
+    "updated_at_kst": "2026-05-22 04:45",
+    "repository": "https://github.com/ivelly42/ivelly42",
+    "homepage": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
+    "json": "https://raw.githubusercontent.com/ivelly42/ivelly42/main/agent-ops-command-center.json",
+    "funding_primary_link": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
+    "request_package": "Team license - 7 seats - $203 gross",
+    "topics": [
+      "agent-ops",
+      "ai-agent-template",
+      "team-license",
+      "payment-ready",
+      "revenue-proof",
+      "codex",
+      "claude-code"
+    ],
+    "revenue_rule": "Profile views, stars, forks, and funding-link clicks are purchase intent only. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence."
   },
   "npm_team_request_cli": {
     "updated_at_kst": "2026-05-22 04:16",
