@@ -1,0 +1,609 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AI Agent Cost Leak Audit | Agent Ops Command Center</title>
+    <meta name="description" content="Free AI-agent cost leak audit for estimating cleanup time, direct spend, preventable leaks, break-even weeks, and order intent for Agent Ops Command Center.">
+    <meta property="og:title" content="AI Agent Cost Leak Audit">
+    <meta property="og:description" content="Estimate where Codex, Claude Code, Cursor, or local-agent work leaks cleanup time and whether a $29 operating workspace pays back.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ivelly42.github.io/agent-ops-command-center/cost-leak-audit.html">
+    <meta property="og:image" content="https://ivelly42.github.io/agent-ops-command-center/og.svg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://ivelly42.github.io/agent-ops-command-center/og.svg">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "AI Agent Cost Leak Audit",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "Any",
+        "url": "https://ivelly42.github.io/agent-ops-command-center/cost-leak-audit.html",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "isPartOf": {
+          "@type": "Product",
+          "name": "Agent Ops Command Center",
+          "offers": {
+            "@type": "Offer",
+            "price": "29",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/PreOrder",
+            "url": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml"
+          }
+        }
+      }
+    </script>
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #151515;
+        --muted: #5f5a52;
+        --line: #d8d3ca;
+        --paper: #fbfaf7;
+        --panel: #ffffff;
+        --accent: #0f766e;
+        --gold: #b45309;
+        --risk: #b91c1c;
+        --soft: #f7f5f0;
+      }
+
+      * { box-sizing: border-box; }
+
+      body {
+        margin: 0;
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        color: var(--ink);
+        background: var(--paper);
+      }
+
+      header, main, footer {
+        width: min(1180px, calc(100% - 40px));
+        margin: 0 auto;
+      }
+
+      header {
+        min-height: 72px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .brand { font-weight: 800; }
+
+      nav {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+        font-size: 14px;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      .hero {
+        padding: 64px 0 42px;
+        display: grid;
+        grid-template-columns: minmax(0, 0.95fr) minmax(380px, 1.05fr);
+        gap: 48px;
+        align-items: center;
+      }
+
+      .eyebrow {
+        color: var(--accent);
+        font-size: 14px;
+        font-weight: 800;
+        margin-bottom: 14px;
+      }
+
+      h1 {
+        font-size: clamp(42px, 7vw, 76px);
+        line-height: 0.98;
+        margin: 0 0 20px;
+        letter-spacing: 0;
+      }
+
+      .lead {
+        color: var(--muted);
+        font-size: 20px;
+        line-height: 1.5;
+        margin: 0;
+        max-width: 760px;
+      }
+
+      .actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 24px;
+      }
+
+      .button {
+        min-height: 44px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid var(--ink);
+        border-radius: 8px;
+        padding: 0 16px;
+        font-weight: 800;
+        background: transparent;
+        color: inherit;
+        font: inherit;
+        cursor: pointer;
+      }
+
+      .button.primary {
+        background: var(--ink);
+        color: #fff;
+      }
+
+      .audit-card {
+        background: var(--panel);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 24px;
+        box-shadow: 0 24px 80px rgba(21, 21, 21, 0.12);
+      }
+
+      .number {
+        font-size: 72px;
+        line-height: 0.95;
+        font-weight: 900;
+        margin-bottom: 10px;
+      }
+
+      .metric-label {
+        color: var(--muted);
+        font-size: 18px;
+        line-height: 1.45;
+        margin-bottom: 20px;
+      }
+
+      .mini-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 12px;
+      }
+
+      .mini {
+        border: 1px solid var(--line);
+        background: var(--soft);
+        border-radius: 8px;
+        padding: 14px;
+      }
+
+      .mini strong {
+        display: block;
+        font-size: 24px;
+        margin-bottom: 4px;
+      }
+
+      .mini span {
+        color: var(--muted);
+        font-size: 13px;
+      }
+
+      section {
+        padding: 34px 0;
+        border-top: 1px solid var(--line);
+      }
+
+      .section-head {
+        display: flex;
+        justify-content: space-between;
+        gap: 24px;
+        align-items: end;
+        margin-bottom: 18px;
+      }
+
+      h2 {
+        font-size: clamp(28px, 4vw, 46px);
+        margin: 0;
+        letter-spacing: 0;
+      }
+
+      .section-head p {
+        color: var(--muted);
+        line-height: 1.5;
+        max-width: 560px;
+        margin: 0;
+      }
+
+      .inputs, .leaks, .grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 14px;
+      }
+
+      .input, .leak, .item {
+        background: var(--panel);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 18px;
+      }
+
+      .input label, .leak label {
+        display: flex;
+        justify-content: space-between;
+        gap: 16px;
+        font-weight: 800;
+        margin-bottom: 8px;
+      }
+
+      .input label span, .leak label span {
+        color: var(--muted);
+      }
+
+      .input p, .leak p, .item p {
+        color: var(--muted);
+        line-height: 1.45;
+        margin: 0 0 12px;
+      }
+
+      .item h3 {
+        margin: 0 0 10px;
+        font-size: 20px;
+      }
+
+      input[type="range"] {
+        width: 100%;
+        accent-color: var(--accent);
+      }
+
+      textarea {
+        width: 100%;
+        min-height: 280px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: #fff;
+        color: var(--ink);
+        font: 13px/1.45 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+        padding: 14px;
+        resize: vertical;
+      }
+
+      .notice {
+        border-left: 4px solid var(--gold);
+        background: var(--panel);
+        color: var(--muted);
+        padding: 18px 20px;
+        line-height: 1.55;
+      }
+
+      .status {
+        color: var(--accent);
+        font-weight: 800;
+        margin-top: 12px;
+        min-height: 22px;
+      }
+
+      footer {
+        color: var(--muted);
+        padding: 36px 0 48px;
+      }
+
+      @media (max-width: 980px) {
+        .hero, .inputs, .leaks, .grid {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      @media (max-width: 720px) {
+        header {
+          align-items: flex-start;
+          flex-direction: column;
+          gap: 14px;
+          padding: 18px 0;
+        }
+
+        .hero {
+          padding-top: 44px;
+        }
+
+        .section-head {
+          display: block;
+        }
+
+        .section-head p {
+          margin-top: 10px;
+        }
+
+        .mini-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a class="brand" href="index.html">Agent Ops Command Center</a>
+      <nav aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="ops-maturity-check.html">Maturity</a>
+        <a href="cost-leak-audit.html">Cost</a>
+        <a href="run-log-builder.html">Builder</a>
+        <a href="sample-dashboard.html">Sample</a>
+        <a href="roi-calculator.html">ROI</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="order-intent.html">Intent</a>
+      </nav>
+    </header>
+
+    <main>
+      <div class="hero">
+        <div>
+          <div class="eyebrow">Free AI-agent cost leak audit</div>
+          <h1>Find the agent work that keeps charging you twice.</h1>
+          <p class="lead">Estimate cleanup time, preventable token spend, repeated verification gaps, and handoff loss before requesting the $29 Agent Ops Command Center pack.</p>
+          <div class="actions">
+            <a class="button primary" href="order-intent.html">Prepare order intent</a>
+            <a class="button" href="roi-calculator.html">ROI calculator</a>
+            <a class="button" href="ops-maturity-check.html">Maturity check</a>
+            <a class="button" href="https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.5-preview">Preview release</a>
+          </div>
+        </div>
+        <aside class="audit-card" aria-label="Cost leak estimate">
+          <div class="number" id="weeklyLeak">$43</div>
+          <div class="metric-label" id="fitLabel">Likely fit. One avoided cleanup loop can repay the pack quickly.</div>
+          <div class="mini-grid">
+            <div class="mini">
+              <strong id="monthlyLeak">$170</strong>
+              <span>estimated monthly leak</span>
+            </div>
+            <div class="mini">
+              <strong id="breakEven">0.7w</strong>
+              <span>weeks to break even</span>
+            </div>
+            <div class="mini">
+              <strong id="leakScore">16/35</strong>
+              <span>leak severity</span>
+            </div>
+            <div class="mini">
+              <strong>$29</strong>
+              <span>target pack price</span>
+            </div>
+          </div>
+        </aside>
+      </div>
+
+      <section>
+        <div class="section-head">
+          <h2>Cost Inputs</h2>
+          <p>Use conservative numbers. This page estimates recoverable waste; it does not count as revenue or payment proof.</p>
+        </div>
+        <div class="inputs" id="inputs"></div>
+      </section>
+
+      <section>
+        <div class="section-head">
+          <h2>Leak Severity</h2>
+          <p>Move each leak from 0 to 5. High severity means repeated cleanup, wasted model calls, or review time that the full pack is designed to prevent.</p>
+        </div>
+        <div class="leaks" id="leaks"></div>
+      </section>
+
+      <section>
+        <div class="section-head">
+          <h2>Audit Report</h2>
+          <p>Copy this into an order-intent issue, buyer approval note, or internal review before paying for the full workspace.</p>
+        </div>
+        <textarea id="report" readonly></textarea>
+        <div class="actions">
+          <button class="button primary" type="button" id="copyReport">Copy audit</button>
+          <a class="button" id="orderLink" href="order-intent.html">Use in order intent</a>
+          <a class="button" href="ai-agent-cost-leak-audit.md">Markdown audit</a>
+          <a class="button" href="cost-tracker-template.md">Cost tracker</a>
+        </div>
+        <div class="status" id="copyStatus" aria-live="polite"></div>
+      </section>
+
+      <section>
+        <div class="section-head">
+          <h2>Pack Surfaces That Close Leaks</h2>
+          <p>The paid workspace turns the leak categories into repeatable tables, gates, and review loops.</p>
+        </div>
+        <div class="grid">
+          <article class="item">
+            <h3>Before The Run</h3>
+            <p>Scope freeze, run brief, model routing matrix, and prompt regression tests reduce avoidable retries.</p>
+          </article>
+          <article class="item">
+            <h3>During Review</h3>
+            <p>Verification ledger, acceptance test suite, and done checklist make completion claims evidence-backed.</p>
+          </article>
+          <article class="item">
+            <h3>After Handoff</h3>
+            <p>Run log, failure modes database, incident report, cost tracker, and weekly review stop repeat leaks.</p>
+          </article>
+        </div>
+      </section>
+
+      <section>
+        <h2>Revenue Rule</h2>
+        <div class="notice">
+          This audit estimates cost savings only. It does not create checkout, prove payment, publish the paid ZIP, or count as revenue. Gross revenue is counted only from checkout, receipt, payout, or seller-dashboard evidence.
+        </div>
+        <div class="actions">
+          <a class="button primary" href="order-intent.html">Prepare order intent</a>
+          <a class="button" href="pricing.html">Pricing</a>
+          <a class="button" href="metrics/status.json">Demand metrics</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      Free cost leak audit. Private paid ZIP. Revenue only after payment proof.
+    </footer>
+
+    <script>
+      const price = 29;
+      const inputDefs = [
+        ["runsPerWeek", "Agent runs per week", "Meaningful Codex, Claude Code, Cursor, or local-agent runs.", 1, 20, 1, 4, ""],
+        ["leakedRuns", "Runs with cleanup", "Runs that need retries, manual repair, or extra review.", 0, 20, 1, 2, ""],
+        ["cleanupMinutes", "Cleanup minutes", "Average extra human minutes per leaked run.", 5, 180, 5, 25, "m"],
+        ["hourlyValue", "Hourly value", "Conservative value of builder or reviewer time.", 10, 200, 5, 45, "$"],
+        ["directSpend", "Weekly tool spend", "Estimated preventable premium-model or tool spend.", 0, 150, 5, 10, "$"],
+        ["preventable", "Preventable share", "How much of the leak a better operating system can plausibly remove.", 10, 90, 5, 50, "%"]
+      ];
+
+      const leakDefs = [
+        ["promptAmbiguity", "Prompt ambiguity", "Same task retried because the prompt lacked scope, proof, or stop conditions."],
+        ["wrongModel", "Wrong model choice", "Premium model used for low-risk work or cheap model used where review cost rises."],
+        ["weakVerification", "Weak verification", "Completion claims rely on summaries instead of commands, screenshots, URLs, or digests."],
+        ["missingContext", "Missing context", "Agent re-reads, re-asks, or reconstructs facts already known elsewhere."],
+        ["scopeDrift", "Scope drift", "Unrelated files, product areas, or refactors enter the run without explicit approval."],
+        ["repeatedFailure", "Repeated failure", "The same symptom returns because no reusable prevention rule was recorded."],
+        ["lostHandoff", "Lost handoff", "New session or reviewer cannot resume without reconstructing the chat."]
+      ];
+
+      const inputs = document.getElementById("inputs");
+      const leaks = document.getElementById("leaks");
+      const weeklyLeak = document.getElementById("weeklyLeak");
+      const monthlyLeak = document.getElementById("monthlyLeak");
+      const breakEven = document.getElementById("breakEven");
+      const leakScore = document.getElementById("leakScore");
+      const fitLabel = document.getElementById("fitLabel");
+      const report = document.getElementById("report");
+      const orderLink = document.getElementById("orderLink");
+      const status = document.getElementById("copyStatus");
+
+      inputs.innerHTML = inputDefs.map(([id, title, description, min, max, step, value, suffix]) => `
+        <article class="input">
+          <label for="${id}">${title} <span id="${id}_value">${formatValue(value, suffix)}</span></label>
+          <p>${description}</p>
+          <input id="${id}" type="range" min="${min}" max="${max}" step="${step}" value="${value}">
+        </article>
+      `).join("");
+
+      leaks.innerHTML = leakDefs.map(([id, title, description]) => `
+        <article class="leak">
+          <label for="${id}">${title} <span id="${id}_value">2</span></label>
+          <p>${description}</p>
+          <input id="${id}" type="range" min="0" max="5" step="1" value="${id === "weakVerification" || id === "lostHandoff" ? 3 : 2}">
+        </article>
+      `).join("");
+
+      function formatMoney(value) {
+        return `$${Math.round(value).toLocaleString("en-US")}`;
+      }
+
+      function formatValue(value, suffix) {
+        if (suffix === "$") return `$${value}`;
+        if (suffix) return `${value}${suffix}`;
+        return String(value);
+      }
+
+      function values() {
+        return Object.fromEntries(inputDefs.map(([id]) => [id, Number(document.getElementById(id).value)]));
+      }
+
+      function leakValues() {
+        return leakDefs.map(([id, title]) => ({
+          id,
+          title,
+          value: Number(document.getElementById(id).value)
+        }));
+      }
+
+      function labelFor(weekly, score) {
+        if (weekly >= price || score >= 18) return "Likely fit. One avoided cleanup loop can repay the pack quickly.";
+        if (weekly >= price / 2 || score >= 12) return "Conditional fit. Buy if these leaks repeat for more than two weeks.";
+        return "Light fit. Use the free tools first unless review failures keep repeating.";
+      }
+
+      function render() {
+        const v = values();
+        const leakItems = leakValues();
+        const cleanupValue = v.leakedRuns * (v.cleanupMinutes / 60) * v.hourlyValue;
+        const preventableSpend = v.directSpend * (v.preventable / 100);
+        const weekly = Math.max(0, cleanupValue + preventableSpend);
+        const monthly = weekly * 4;
+        const breakEvenWeeks = weekly > 0 ? price / weekly : Infinity;
+        const score = leakItems.reduce((sum, item) => sum + item.value, 0);
+        const topLeaks = leakItems.filter((item) => item.value >= 3).map((item) => item.title);
+
+        for (const [id, , , , , , , suffix] of inputDefs) {
+          document.getElementById(`${id}_value`).textContent = formatValue(v[id], suffix);
+        }
+        for (const item of leakItems) {
+          document.getElementById(`${item.id}_value`).textContent = item.value;
+        }
+
+        weeklyLeak.textContent = formatMoney(weekly);
+        monthlyLeak.textContent = formatMoney(monthly);
+        breakEven.textContent = Number.isFinite(breakEvenWeeks) ? `${breakEvenWeeks.toFixed(1)}w` : "n/a";
+        leakScore.textContent = `${score}/35`;
+        fitLabel.textContent = labelFor(weekly, score);
+
+        report.value = [
+          "# AI Agent Cost Leak Audit",
+          "",
+          `Estimated weekly leak: ${formatMoney(weekly)}`,
+          `Estimated monthly leak: ${formatMoney(monthly)}`,
+          `Break-even time for $29 pack: ${Number.isFinite(breakEvenWeeks) ? `${breakEvenWeeks.toFixed(1)} weeks` : "not available"}`,
+          `Leak severity score: ${score}/35`,
+          `Recommendation: ${labelFor(weekly, score)}`,
+          "",
+          "Cost assumptions:",
+          `- Agent runs per week: ${v.runsPerWeek}`,
+          `- Runs with cleanup: ${v.leakedRuns}`,
+          `- Cleanup minutes per leaked run: ${v.cleanupMinutes}`,
+          `- Hourly value: $${v.hourlyValue}`,
+          `- Weekly direct tool spend: $${v.directSpend}`,
+          `- Preventable share: ${v.preventable}%`,
+          "",
+          `Top leaks: ${topLeaks.length ? topLeaks.join(", ") : "None marked 3-5"}`,
+          "",
+          "Leak detail:",
+          ...leakItems.map((item) => `- ${item.title}: ${item.value}/5`),
+          "",
+          "Suggested next action:",
+          weekly >= price || score >= 18
+            ? "Use the run log builder for the next agent run, then prepare order intent for the full workspace."
+            : "Use the free maturity check, cost tracker, and run log builder first; request the full workspace if leaks repeat.",
+          "",
+          "Cost leak audit: https://ivelly42.github.io/agent-ops-command-center/cost-leak-audit.html",
+          "ROI calculator: https://ivelly42.github.io/agent-ops-command-center/roi-calculator.html",
+          "Order intent: https://ivelly42.github.io/agent-ops-command-center/order-intent.html",
+          "Pricing: https://ivelly42.github.io/agent-ops-command-center/pricing.html",
+          "",
+          "Revenue rule: cost savings and buyer intent are not paid revenue."
+        ].join("\n");
+
+        const params = new URLSearchParams({
+          buyer: "Cost leak audit user",
+          tools: "Codex, Claude Code, Cursor, local agents",
+          problem: `${formatMoney(weekly)} estimated weekly leak. Top leaks: ${topLeaks.join(", ") || "not specified"}.`
+        });
+        orderLink.href = `order-intent.html?${params.toString()}`;
+      }
+
+      for (const [id] of inputDefs) {
+        document.getElementById(id).addEventListener("input", render);
+      }
+      for (const [id] of leakDefs) {
+        document.getElementById(id).addEventListener("input", render);
+      }
+
+      document.getElementById("copyReport").addEventListener("click", async () => {
+        try {
+          await navigator.clipboard.writeText(report.value);
+          status.textContent = "Cost leak audit copied.";
+        } catch {
+          report.select();
+          status.textContent = "Select and copy the cost leak audit.";
+        }
+      });
+
+      render();
+    </script>
+  </body>
+</html>

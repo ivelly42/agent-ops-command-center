@@ -5,8 +5,15 @@
     <link>https://ivelly42.github.io/agent-ops-command-center/</link>
     <description>Public preview updates for a Notion and spreadsheet template pack for builders running AI coding agents.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 21 May 2026 10:07:00 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 21 May 2026 10:20:00 +0900</lastBuildDate>
     <ttl>1440</ttl>
+    <item>
+      <title>AI Agent Cost Leak Audit Tool</title>
+      <link>https://ivelly42.github.io/agent-ops-command-center/cost-leak-audit.html</link>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/cost-leak-audit.html</guid>
+      <pubDate>Thu, 21 May 2026 10:20:00 +0900</pubDate>
+      <description>Free browser audit for estimating cleanup time, preventable tool spend, leak severity, and break-even time before requesting the paid workspace.</description>
+    </item>
     <item>
       <title>AI Agent Ops Maturity Check</title>
       <link>https://ivelly42.github.io/agent-ops-command-center/ops-maturity-check.html</link>

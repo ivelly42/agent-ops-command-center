@@ -6,11 +6,12 @@
   "sales_needed": 7,
   "status": "preview_live_no_paid_checkout",
   "homepage": "https://ivelly42.github.io/agent-ops-command-center/",
-  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.4-preview",
+  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.5-preview",
   "early_access_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml",
   "demand_metrics": "https://ivelly42.github.io/agent-ops-command-center/metrics/status.json",
   "template_gallery": "https://ivelly42.github.io/agent-ops-command-center/template-gallery.html",
   "ops_maturity_check": "https://ivelly42.github.io/agent-ops-command-center/ops-maturity-check.html",
+  "cost_leak_audit_tool": "https://ivelly42.github.io/agent-ops-command-center/cost-leak-audit.html",
   "run_log_builder": "https://ivelly42.github.io/agent-ops-command-center/run-log-builder.html",
   "interactive_roi_calculator": "https://ivelly42.github.io/agent-ops-command-center/roi-calculator.html",
   "order_intent_builder": "https://ivelly42.github.io/agent-ops-command-center/order-intent.html",
@@ -29,6 +30,10 @@
     {
       "title": "AI Agent Ops Maturity Check",
       "url": "https://ivelly42.github.io/agent-ops-command-center/ops-maturity-check.html"
+    },
+    {
+      "title": "AI Agent Cost Leak Audit Tool",
+      "url": "https://ivelly42.github.io/agent-ops-command-center/cost-leak-audit.html"
     },
     {
       "title": "AI Agent Run Log Builder",

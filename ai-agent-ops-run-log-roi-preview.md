@@ -57,6 +57,7 @@ The pack breaks even if it prevents roughly one hour of cleanup time for a build
 
 - Landing page: https://ivelly42.github.io/agent-ops-command-center/
 - Ops maturity check: https://ivelly42.github.io/agent-ops-command-center/ops-maturity-check.html
+- Cost leak audit tool: https://ivelly42.github.io/agent-ops-command-center/cost-leak-audit.html
 - Run log builder: https://ivelly42.github.io/agent-ops-command-center/run-log-builder.html
 - Sample dashboard: https://ivelly42.github.io/agent-ops-command-center/sample-dashboard.html
 - Product tour: https://ivelly42.github.io/agent-ops-command-center/product-tour.md
@@ -112,7 +113,7 @@ The pack breaks even if it prevents roughly one hour of cleanup time for a build
 - Run log template: https://ivelly42.github.io/agent-ops-command-center/codex-claude-run-log-template.md
 - Failure RCA template: https://ivelly42.github.io/agent-ops-command-center/failure-rca-template.md
 - Preflight checklist: https://ivelly42.github.io/agent-ops-command-center/checklist.md
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.4-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.5-preview
 - HTML template gallery: https://ivelly42.github.io/agent-ops-command-center/template-gallery.html
 - Interactive ROI calculator: https://ivelly42.github.io/agent-ops-command-center/roi-calculator.html
 - Order intent builder: https://ivelly42.github.io/agent-ops-command-center/order-intent.html

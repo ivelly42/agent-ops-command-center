@@ -48,6 +48,7 @@ Do not buy if your current workflow already proves objective, files changed, ver
 ## Public Companion Files
 
 - Landing page: https://ivelly42.github.io/agent-ops-command-center/
+- Interactive cost leak audit: https://ivelly42.github.io/agent-ops-command-center/cost-leak-audit.html
 - Cost tracker: https://ivelly42.github.io/agent-ops-command-center/cost-tracker-template.md
 - Model routing matrix: https://ivelly42.github.io/agent-ops-command-center/ai-agent-model-routing-matrix.md
 - ROI calculator: https://ivelly42.github.io/agent-ops-command-center/agent-ops-roi-calculator.md
