@@ -16,6 +16,10 @@ Fast team checkout request: [team-checkout-request.html](team-checkout-request.h
 
 Client delivery kit: [client-delivery-kit.html](client-delivery-kit.html)
 
+GitHub model routing mirror: https://github.com/ivelly42/ai-agent-model-routing-template
+
+GitHub model routing mirror Pages: https://ivelly42.github.io/ai-agent-model-routing-template/
+
 GitHub prompt regression mirror: https://github.com/ivelly42/ai-agent-prompt-regression-test-template
 
 GitHub prompt regression mirror Pages: https://ivelly42.github.io/ai-agent-prompt-regression-test-template/
@@ -151,7 +155,7 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.49-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.50-preview
 
 Sample files:
 
@@ -191,6 +195,8 @@ Sample files:
 - [Buy page](buy.html)
 - [Fast team checkout request](team-checkout-request.html)
 - [Client delivery kit](client-delivery-kit.html)
+- [GitHub model routing mirror Pages](https://ivelly42.github.io/ai-agent-model-routing-template/)
+- [GitHub model routing mirror](https://github.com/ivelly42/ai-agent-model-routing-template)
 - [GitHub prompt regression mirror Pages](https://ivelly42.github.io/ai-agent-prompt-regression-test-template/)
 - [GitHub prompt regression mirror](https://github.com/ivelly42/ai-agent-prompt-regression-test-template)
 - [GitHub acceptance test mirror Pages](https://ivelly42.github.io/ai-agent-acceptance-test-template/)

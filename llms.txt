@@ -10,6 +10,10 @@ Fast team checkout request: https://ivelly42.github.io/agent-ops-command-center/
 
 Client delivery kit: https://ivelly42.github.io/agent-ops-command-center/client-delivery-kit.html
 
+GitHub model routing mirror: https://github.com/ivelly42/ai-agent-model-routing-template
+
+GitHub model routing mirror Pages: https://ivelly42.github.io/ai-agent-model-routing-template/
+
 GitHub prompt regression mirror: https://github.com/ivelly42/ai-agent-prompt-regression-test-template
 
 GitHub prompt regression mirror Pages: https://ivelly42.github.io/ai-agent-prompt-regression-test-template/
@@ -249,6 +253,10 @@ AI agent buyer reply kit: https://ivelly42.github.io/agent-ops-command-center/bu
 
 AI agent client delivery kit: https://ivelly42.github.io/agent-ops-command-center/client-delivery-kit.html
 
+AI agent model routing GitHub mirror: https://github.com/ivelly42/ai-agent-model-routing-template
+
+AI agent model routing mirror Pages: https://ivelly42.github.io/ai-agent-model-routing-template/
+
 AI agent prompt regression GitHub mirror: https://github.com/ivelly42/ai-agent-prompt-regression-test-template
 
 AI agent prompt regression mirror Pages: https://ivelly42.github.io/ai-agent-prompt-regression-test-template/
@@ -309,7 +317,7 @@ GitHub issue index: https://github.com/ivelly42/agent-ops-command-center/issues/
 
 Early access request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.49-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.50-preview
 
 Sample run log CSV: https://ivelly42.github.io/agent-ops-command-center/sample/run_log_sample.csv
 
