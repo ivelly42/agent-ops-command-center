@@ -25,4 +25,6 @@ Duplicate guard: hidden marker `agent-ops-discussion-autoreply-v1`.
 
 Issue bridge guard: hidden marker `agent-ops-discussion-order-bridge-v1 discussion:{number}`.
 
+Announcement skip guard: public launch or changelog Discussions can include hidden marker `agent-ops-announcement-not-buyer-intent` so the workflow does not create a bridged order issue from owner-authored announcement text.
+
 Revenue rule: Discussion activity is not revenue. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence.

@@ -73,6 +73,11 @@ jobs:
             const text = eventName === "discussion_comment"
               ? commentBody
               : [discussion.title || "", discussion.body || ""].join("\n");
+            const announcementSkipMarker = "<!-- agent-ops-announcement-not-buyer-intent -->";
+            if (text.includes(announcementSkipMarker)) {
+              core.info("Announcement skip marker found; not creating a bridged order issue.");
+              return;
+            }
             const buyerIntent = [
               "buy",
               "purchase",
