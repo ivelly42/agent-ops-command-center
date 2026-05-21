@@ -5,75 +5,82 @@
     <link>https://ivelly42.github.io/agent-ops-command-center/</link>
     <description>Public preview updates for a Notion and spreadsheet template pack for builders running AI coding agents.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 21 May 2026 18:09:00 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 21 May 2026 18:21:00 +0900</lastBuildDate>
     <ttl>1440</ttl>
+    <item>
+      <title>AI Agent Verification Ledger Mirror</title>
+      <link>https://ivelly42.github.io/ai-agent-verification-ledger-template/</link>
+      <guid>https://ivelly42.github.io/ai-agent-verification-ledger-template/#v5.41-preview</guid>
+      <pubDate>Thu, 21 May 2026 18:21:00 +0900</pubDate>
+      <description>Live GitHub Pages mirror for AI-agent verification-ledger searches, routing Codex, Claude Code, Cursor, and local-agent buyers to the $203 team request path.</description>
+    </item>
     <item>
       <title>AI Coding Agent Run Log Mirror</title>
       <link>https://ivelly42.github.io/ai-coding-agent-run-log-template/</link>
-      <guid>https://ivelly42.github.io/ai-coding-agent-run-log-template/#v5.40-preview</guid>
+      <guid>https://ivelly42.github.io/ai-coding-agent-run-log-template/#v5.41-preview</guid>
       <pubDate>Thu, 21 May 2026 18:09:00 +0900</pubDate>
       <description>Live GitHub Pages mirror for AI coding-agent run log searches, routing Codex, Claude Code, Cursor, and local-agent buyers to the $203 team request path.</description>
     </item>
     <item>
       <title>GitHub Pages Client Delivery Mirror</title>
       <link>https://ivelly42.github.io/ai-agent-client-delivery-kit/</link>
-      <guid>https://ivelly42.github.io/ai-agent-client-delivery-kit/#v5.40-preview</guid>
+      <guid>https://ivelly42.github.io/ai-agent-client-delivery-kit/#v5.41-preview</guid>
       <pubDate>Thu, 21 May 2026 17:54:00 +0900</pubDate>
       <description>Live GitHub Pages mirror for AI-agent agencies and consultants, routing client-delivery traffic to the $203 Agent Ops team request path.</description>
     </item>
     <item>
       <title>GitHub Client Delivery Mirror</title>
       <link>https://github.com/ivelly42/ai-agent-client-delivery-kit</link>
-      <guid>https://github.com/ivelly42/ai-agent-client-delivery-kit#v5.40-preview</guid>
+      <guid>https://github.com/ivelly42/ai-agent-client-delivery-kit#v5.41-preview</guid>
       <pubDate>Thu, 21 May 2026 17:42:00 +0900</pubDate>
       <description>External GitHub discovery mirror for AI-agent agency and consulting buyers, routing client-delivery traffic back to the $203 team request path.</description>
     </item>
     <item>
       <title>AI Agent Client Delivery Kit</title>
       <link>https://ivelly42.github.io/agent-ops-command-center/client-delivery-kit.html</link>
-      <guid>https://ivelly42.github.io/agent-ops-command-center/client-delivery-kit.html#v5.40-preview</guid>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/client-delivery-kit.html#v5.41-preview</guid>
       <pubDate>Thu, 21 May 2026 17:24:00 +0900</pubDate>
       <description>Client delivery kit targets AI-agent agencies and consultants with run proof, handoff, delivery acceptance, and a $203 team request path.</description>
     </item>
     <item>
       <title>AI Agent Buyer Reply Kit</title>
       <link>https://ivelly42.github.io/agent-ops-command-center/buyer-reply-kit.html</link>
-      <guid>https://ivelly42.github.io/agent-ops-command-center/buyer-reply-kit.html#v5.40-preview</guid>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/buyer-reply-kit.html#v5.41-preview</guid>
       <pubDate>Thu, 21 May 2026 17:10:00 +0900</pubDate>
       <description>Buyer reply kit is now available as a focused HTML page with copy-ready replies for price, checkout, receipt, approval, preview inspection, delivery, and revenue proof, routed to the $203 team request path.</description>
     </item>
     <item>
       <title>Fast Team Checkout Request</title>
       <link>https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html</link>
-      <guid>https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html#v5.40-preview</guid>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html#v5.41-preview</guid>
       <pubDate>Thu, 21 May 2026 16:58:00 +0900</pubDate>
       <description>Fast team checkout request page opens a prefilled GitHub issue for a $203 seven-seat team license, and demand metrics now detects unlabeled fast team requests as order intent.</description>
     </item>
     <item>
       <title>Team-First Buy Page</title>
       <link>https://ivelly42.github.io/agent-ops-command-center/buy.html</link>
-      <guid>https://ivelly42.github.io/agent-ops-command-center/buy.html#v5.40-preview</guid>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/buy.html#v5.41-preview</guid>
       <pubDate>Thu, 21 May 2026 16:48:00 +0900</pubDate>
       <description>The buy page and order-request issue form now put the $203 seven-seat team license first, while preserving the $29 individual-seat option and the payment-proof revenue rule.</description>
     </item>
     <item>
       <title>Social Preview Image</title>
       <link>https://ivelly42.github.io/agent-ops-command-center/og.png</link>
-      <guid>https://ivelly42.github.io/agent-ops-command-center/og.png#v5.40-preview</guid>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/og.png#v5.41-preview</guid>
       <pubDate>Thu, 21 May 2026 16:42:00 +0900</pubDate>
       <description>Public pages now use a PNG social preview image that shows the AI coding-agent ops template pack, $29 individual seat, $203 team license, and one-payment path to the $200 gross target.</description>
     </item>
     <item>
       <title>Run Log Offer Metadata</title>
       <link>https://ivelly42.github.io/agent-ops-command-center/ai-agent-run-log-template.html</link>
-      <guid>https://ivelly42.github.io/agent-ops-command-center/ai-agent-run-log-template.html#v5.40-preview</guid>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/ai-agent-run-log-template.html#v5.41-preview</guid>
       <pubDate>Thu, 21 May 2026 16:34:00 +0900</pubDate>
       <description>AI coding-agent run log and Notion-template landing pages now expose both the $29 individual seat and the $203 seven-seat team-license offer in structured product metadata.</description>
     </item>
     <item>
       <title>Team License Offer Metadata</title>
       <link>https://ivelly42.github.io/agent-ops-command-center/catalog.json</link>
-      <guid>https://ivelly42.github.io/agent-ops-command-center/catalog.json#v5.40-preview</guid>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/catalog.json#v5.41-preview</guid>
       <pubDate>Thu, 21 May 2026 16:23:00 +0900</pubDate>
       <description>Machine-readable catalog and structured offer metadata now expose the $29 individual seat, $203 seven-seat team license, and one confirmed team-license payment path to the $200 gross revenue target.</description>
     </item>
