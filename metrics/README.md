@@ -3,13 +3,20 @@
 Current status:
 
 - Orders: `0`
+- Individual order intents: `0`
+- Team license order intents: `0`
+- Preview-only intents: `0`
 - Preview downloads: `0`
 - Possible gross if all order requests pay: `$0`
 - Gross revenue proven: `$0`
 - Target revenue: `$200`
 - Price target: `$29`
+- Team license target: `$203`
 - Sales needed: `7`
+- Team licenses needed: `1`
+- Checkout live: `false`
+- Revenue proof required: `checkout, receipt, payout, or seller-dashboard evidence`
 - Status: `no paid checkout`
-- Updated: `2026-05-21T06:52:55.148Z`
+- Updated: `2026-05-21T06:58:46.520Z`
 
 This repo cannot prove paid revenue until an authenticated checkout or seller dashboard exists.
