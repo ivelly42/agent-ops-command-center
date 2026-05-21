@@ -12,6 +12,7 @@ Submitted surfaces:
 - Buy page: https://ivelly42.github.io/agent-ops-command-center/buy.html
 - Pricing: https://ivelly42.github.io/agent-ops-command-center/pricing.html
 - Fast team checkout request: https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html
+- Prefilled team request URL: https://ivelly42.github.io/agent-ops-command-center/team-request-url.html
 - Discovery hub: https://ivelly42.github.io/agent-ops-command-center/discovery.html
 - Catalog: https://ivelly42.github.io/agent-ops-command-center/catalog.json
 - Feed: https://ivelly42.github.io/agent-ops-command-center/feed.xml
