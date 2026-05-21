@@ -30,12 +30,14 @@ The paid product ZIP is not public here. Do not publish paid delivery assets pub
 - Checkout status: https://ivelly42.github.io/agent-ops-command-center/.well-known/checkout-status.json
 - Agent Ops checkout skill: https://ivelly42.github.io/agent-ops-command-center/.agents/skills/agent-ops-checkout/SKILL.md
 - OpenCode config: https://ivelly42.github.io/agent-ops-command-center/opencode.json
+- Universal AGENT.md routing: https://ivelly42.github.io/agent-ops-command-center/AGENT.md
+- Junie guidelines: https://ivelly42.github.io/agent-ops-command-center/.junie/guidelines.md
 
 ## Revenue Rule
 
 Count revenue only after checkout, receipt, payout, or seller-dashboard evidence proves payment.
 
-Do not count profile views, stars, forks, release downloads, metadata fetches, funding-link clicks, generated request URLs, issues, comments, discussions, OpenHands microagent reads, Cline rule reads, Cline workflow reads, or dry-run workflow output, Agent Skills loads, or OpenCode config reads as revenue.
+Do not count profile views, stars, forks, release downloads, metadata fetches, funding-link clicks, generated request URLs, issues, comments, discussions, OpenHands microagent reads, Cline rule reads, Cline workflow reads, or dry-run workflow output, Agent Skills loads, or OpenCode config reads, Junie guideline reads, or AGENT.md reads as revenue.
 
 ## Claude Instructions
 

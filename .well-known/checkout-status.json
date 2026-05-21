@@ -2,7 +2,7 @@
   "name": "Agent Ops Command Center",
   "type": "checkout_status_manifest",
   "schema_version": "2026-05-22",
-  "updated_at_kst": "2026-05-22 08:01",
+  "updated_at_kst": "2026-05-22 08:08",
   "canonical_url": "https://ivelly42.github.io/agent-ops-command-center/.well-known/checkout-status.json",
   "alternate_urls": [
     "https://ivelly42.github.io/agent-ops-command-center/checkout-status.json"
@@ -58,13 +58,17 @@
     "star",
     "fork",
     "Agent Skills load",
-    "OpenCode config load"
+    "OpenCode config load",
+    "AGENT.md read",
+    "Junie guideline read"
   ],
   "buyer_next_action": {
     "route": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
     "fallback": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml",
     "instruction": "Open the team request or payment-ready issue and specify the preferred receipt-capable checkout.",
-    "agent_skill": "https://ivelly42.github.io/agent-ops-command-center/.agents/skills/agent-ops-checkout/SKILL.md"
+    "agent_skill": "https://ivelly42.github.io/agent-ops-command-center/.agents/skills/agent-ops-checkout/SKILL.md",
+    "agent_md": "https://ivelly42.github.io/agent-ops-command-center/AGENT.md",
+    "junie_guidelines": "https://ivelly42.github.io/agent-ops-command-center/.junie/guidelines.md"
   },
   "proof_required_to_complete_goal": {
     "target_revenue_usd": 200,
@@ -78,5 +82,9 @@
   },
   "agent_skill": "https://ivelly42.github.io/agent-ops-command-center/.agents/skills/agent-ops-checkout/SKILL.md",
   "agent_skill_alias": "https://ivelly42.github.io/agent-ops-command-center/agent-ops-checkout-skill.md",
-  "opencode_config": "https://ivelly42.github.io/agent-ops-command-center/opencode.json"
+  "opencode_config": "https://ivelly42.github.io/agent-ops-command-center/opencode.json",
+  "agent_md": "https://ivelly42.github.io/agent-ops-command-center/AGENT.md",
+  "amp_agent_alias": "https://ivelly42.github.io/agent-ops-command-center/amp-agent.md",
+  "junie_guidelines": "https://ivelly42.github.io/agent-ops-command-center/.junie/guidelines.md",
+  "junie_guidelines_alias": "https://ivelly42.github.io/agent-ops-command-center/junie-guidelines.md"
 }

@@ -2,7 +2,7 @@
   "name": "Agent Ops Command Center",
   "type": "llm_discovery_manifest",
   "schema_version": "2026-05-22",
-  "updated_at_kst": "2026-05-22 08:01",
+  "updated_at_kst": "2026-05-22 08:08",
   "canonical_url": "https://ivelly42.github.io/agent-ops-command-center/.well-known/llms.json",
   "alternate_urls": [
     "https://ivelly42.github.io/agent-ops-command-center/llms.json",
@@ -42,7 +42,11 @@
     "https://ivelly42.github.io/agent-ops-command-center/checkout-status.json",
     "https://ivelly42.github.io/agent-ops-command-center/.agents/skills/agent-ops-checkout/SKILL.md",
     "https://ivelly42.github.io/agent-ops-command-center/agent-ops-checkout-skill.md",
-    "https://ivelly42.github.io/agent-ops-command-center/opencode.json"
+    "https://ivelly42.github.io/agent-ops-command-center/opencode.json",
+    "https://ivelly42.github.io/agent-ops-command-center/AGENT.md",
+    "https://ivelly42.github.io/agent-ops-command-center/amp-agent.md",
+    "https://ivelly42.github.io/agent-ops-command-center/.junie/guidelines.md",
+    "https://ivelly42.github.io/agent-ops-command-center/junie-guidelines.md"
   ],
   "product": {
     "name": "Agent Ops Command Center",
@@ -59,6 +63,18 @@
     "request_package": "Team license - 7 seats - $203 gross"
   },
   "llm_entrypoints": [
+    {
+      "id": "junie_guidelines",
+      "url": "https://ivelly42.github.io/agent-ops-command-center/.junie/guidelines.md",
+      "alias": "https://ivelly42.github.io/agent-ops-command-center/junie-guidelines.md",
+      "purpose": "JetBrains Junie project guidelines for buyer checkout routing and revenue proof boundary"
+    },
+    {
+      "id": "agent_md",
+      "url": "https://ivelly42.github.io/agent-ops-command-center/AGENT.md",
+      "alias": "https://ivelly42.github.io/agent-ops-command-center/amp-agent.md",
+      "purpose": "universal AGENT.md routing for Amp and other coding agents"
+    },
     {
       "id": "opencode_config",
       "url": "https://ivelly42.github.io/agent-ops-command-center/opencode.json",
@@ -164,7 +180,7 @@
     "read_buy_intent": "https://ivelly42.github.io/agent-ops-command-center/ai-buy-intent.json",
     "read_catalog": "https://ivelly42.github.io/agent-ops-command-center/catalog.json",
     "read_metrics": "https://ivelly42.github.io/agent-ops-command-center/metrics/status.json",
-    "run_npm_release_tarball_team_request": "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.133-preview/agent-ops-command-center-0.5.133.tgz",
+    "run_npm_release_tarball_team_request": "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.134-preview/agent-ops-command-center-0.5.134.tgz",
     "read_gemini_instructions": "https://ivelly42.github.io/agent-ops-command-center/GEMINI.md",
     "read_gemini_instructions_alias": "https://ivelly42.github.io/agent-ops-command-center/gemini-instructions.md",
     "read_aider_conventions": "https://ivelly42.github.io/agent-ops-command-center/CONVENTIONS.md",
@@ -187,7 +203,11 @@
     "read_checkout_status_alias": "https://ivelly42.github.io/agent-ops-command-center/checkout-status.json",
     "read_agent_ops_checkout_skill": "https://ivelly42.github.io/agent-ops-command-center/.agents/skills/agent-ops-checkout/SKILL.md",
     "read_agent_ops_checkout_skill_alias": "https://ivelly42.github.io/agent-ops-command-center/agent-ops-checkout-skill.md",
-    "read_opencode_config": "https://ivelly42.github.io/agent-ops-command-center/opencode.json"
+    "read_opencode_config": "https://ivelly42.github.io/agent-ops-command-center/opencode.json",
+    "read_agent_md": "https://ivelly42.github.io/agent-ops-command-center/AGENT.md",
+    "read_amp_agent_alias": "https://ivelly42.github.io/agent-ops-command-center/amp-agent.md",
+    "read_junie_guidelines": "https://ivelly42.github.io/agent-ops-command-center/.junie/guidelines.md",
+    "read_junie_guidelines_alias": "https://ivelly42.github.io/agent-ops-command-center/junie-guidelines.md"
   },
   "content_index": {
     "sales_pages": [
@@ -219,7 +239,11 @@
       "https://ivelly42.github.io/agent-ops-command-center/checkout-status.json",
       "https://ivelly42.github.io/agent-ops-command-center/.agents/skills/agent-ops-checkout/SKILL.md",
       "https://ivelly42.github.io/agent-ops-command-center/agent-ops-checkout-skill.md",
-      "https://ivelly42.github.io/agent-ops-command-center/opencode.json"
+      "https://ivelly42.github.io/agent-ops-command-center/opencode.json",
+      "https://ivelly42.github.io/agent-ops-command-center/AGENT.md",
+      "https://ivelly42.github.io/agent-ops-command-center/amp-agent.md",
+      "https://ivelly42.github.io/agent-ops-command-center/.junie/guidelines.md",
+      "https://ivelly42.github.io/agent-ops-command-center/junie-guidelines.md"
     ],
     "proof_and_metrics": [
       "https://ivelly42.github.io/agent-ops-command-center/metrics/status.json",

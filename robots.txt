@@ -15,6 +15,14 @@ Checkout-Status: https://ivelly42.github.io/agent-ops-command-center/.well-known
 
 Checkout-Status-Alias: https://ivelly42.github.io/agent-ops-command-center/checkout-status.json
 
+Universal-Agent-MD: https://ivelly42.github.io/agent-ops-command-center/AGENT.md
+
+Amp-Agent-Alias: https://ivelly42.github.io/agent-ops-command-center/amp-agent.md
+
+Junie-Guidelines: https://ivelly42.github.io/agent-ops-command-center/.junie/guidelines.md
+
+Junie-Guidelines-Alias: https://ivelly42.github.io/agent-ops-command-center/junie-guidelines.md
+
 Agent-Ops-Checkout-Skill: https://ivelly42.github.io/agent-ops-command-center/.agents/skills/agent-ops-checkout/SKILL.md
 
 Agent-Ops-Checkout-Skill-Alias: https://ivelly42.github.io/agent-ops-command-center/agent-ops-checkout-skill.md

@@ -1,7 +1,7 @@
 {
   "name": "Agent Ops Command Center",
   "description": "Notion and spreadsheet template pack for builders running AI coding agents.",
-  "version": "v5.133-preview",
+  "version": "v5.134-preview",
   "price_usd": 29,
   "individual_price_usd": 29,
   "team_license_price_usd": 203,
@@ -15,7 +15,7 @@
   "status": "preview_live_no_paid_checkout",
   "homepage": "https://ivelly42.github.io/agent-ops-command-center/",
   "social_image": "https://ivelly42.github.io/agent-ops-command-center/og.png",
-  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.133-preview",
+  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.134-preview",
   "early_access_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml",
   "github_issue_chooser_fast_team_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new/choose",
   "package_funding_direct_request": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
@@ -82,6 +82,36 @@
   "paid_zip_public": false,
   "revenue_rule": "Revenue is proven only by checkout, receipt, payout, or seller-dashboard evidence.",
   "public_assets": [
+    {
+      "title": "Junie Guidelines",
+      "url": "https://ivelly42.github.io/agent-ops-command-center/.junie/guidelines.md",
+      "alias": "https://ivelly42.github.io/agent-ops-command-center/junie-guidelines.md",
+      "primary_offer": "Team license - 7 seats - $203 gross",
+      "primary_request_url": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
+      "metadata": [
+        "https://ivelly42.github.io/agent-ops-command-center/.well-known/checkout-status.json",
+        "https://ivelly42.github.io/agent-ops-command-center/.well-known/agents.json",
+        "https://ivelly42.github.io/agent-ops-command-center/.well-known/llms.json",
+        "https://ivelly42.github.io/agent-ops-command-center/openapi.json",
+        "https://ivelly42.github.io/agent-ops-command-center/metrics/status.json"
+      ],
+      "revenue_rule": "Junie guideline reads are not revenue. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence."
+    },
+    {
+      "title": "Universal AGENT.md Routing",
+      "url": "https://ivelly42.github.io/agent-ops-command-center/AGENT.md",
+      "alias": "https://ivelly42.github.io/agent-ops-command-center/amp-agent.md",
+      "primary_offer": "Team license - 7 seats - $203 gross",
+      "primary_request_url": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
+      "metadata": [
+        "https://ivelly42.github.io/agent-ops-command-center/.well-known/checkout-status.json",
+        "https://ivelly42.github.io/agent-ops-command-center/.well-known/agents.json",
+        "https://ivelly42.github.io/agent-ops-command-center/.well-known/llms.json",
+        "https://ivelly42.github.io/agent-ops-command-center/openapi.json",
+        "https://ivelly42.github.io/agent-ops-command-center/metrics/status.json"
+      ],
+      "revenue_rule": "AGENT.md reads are not revenue. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence."
+    },
     {
       "title": "Agent Ops Checkout Skill",
       "url": "https://ivelly42.github.io/agent-ops-command-center/.agents/skills/agent-ops-checkout/SKILL.md",
@@ -299,10 +329,10 @@
     },
     {
       "title": "NPM Release Tarball Install",
-      "url": "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.133-preview/agent-ops-command-center-0.5.133.tgz",
+      "url": "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.134-preview/agent-ops-command-center-0.5.134.tgz",
       "docs": "https://ivelly42.github.io/agent-ops-command-center/npm-preview.md",
-      "command": "npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.133-preview/agent-ops-command-center-0.5.133.tgz -- agent-ops-command-center --team-request-url",
-      "json_command": "npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.133-preview/agent-ops-command-center-0.5.133.tgz -- agent-ops-command-center --json",
+      "command": "npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.134-preview/agent-ops-command-center-0.5.134.tgz -- agent-ops-command-center --team-request-url",
+      "json_command": "npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.134-preview/agent-ops-command-center-0.5.134.tgz -- agent-ops-command-center --json",
       "primary_offer": "Team license - 7 seats - $203 gross",
       "primary_request_url": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
       "target_revenue_usd": 200,
@@ -1359,7 +1389,7 @@
     "proof_rule": "GitHub topics improve discovery only; revenue is counted only after checkout, receipt, payout, or seller-dashboard evidence."
   },
   "npm_github_install_preview": {
-    "command": "npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.133-preview/agent-ops-command-center-0.5.133.tgz -- agent-ops-command-center --team-request-url",
+    "command": "npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.134-preview/agent-ops-command-center-0.5.134.tgz -- agent-ops-command-center --team-request-url",
     "team_request_url_command": "npx github:ivelly42/agent-ops-command-center --team-request-url",
     "team_request_markdown_command": "npx github:ivelly42/agent-ops-command-center --team-request-markdown",
     "package_funding_command": "npm fund agent-ops-command-center",
@@ -1368,7 +1398,7 @@
     "team_request_mirror": "https://github.com/ivelly42/ai-agent-npx-team-request-template",
     "team_request_mirror_pages": "https://ivelly42.github.io/ai-agent-npx-team-request-template/",
     "package_name": "agent-ops-command-center",
-    "package_version": "0.5.133",
+    "package_version": "0.5.134",
     "bin": [
       "agent-ops-command-center",
       "agent-ops"
@@ -1380,8 +1410,8 @@
     "revenue_rule": "Installing or running this preview is not revenue. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence.",
     "discussion": "https://github.com/ivelly42/agent-ops-command-center/discussions/10",
     "cline_workflow_discussion": "https://github.com/ivelly42/agent-ops-command-center/discussions/12",
-    "url": "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.133-preview/agent-ops-command-center-0.5.133.tgz",
-    "json_command": "npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.133-preview/agent-ops-command-center-0.5.133.tgz -- agent-ops-command-center --json"
+    "url": "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.134-preview/agent-ops-command-center-0.5.134.tgz",
+    "json_command": "npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.134-preview/agent-ops-command-center-0.5.134.tgz -- agent-ops-command-center --json"
   },
   "github_npm_team_request_cli_discussion": "https://github.com/ivelly42/agent-ops-command-center/discussions/11",
   "github_npx_team_request_mirror": "https://github.com/ivelly42/ai-agent-npx-team-request-template",
@@ -1735,7 +1765,7 @@
   },
   "agent_routing_json": "https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-routing.json",
   "agent_routing_json_alias": "https://ivelly42.github.io/agent-ops-command-center/agent-routing.json",
-  "npm_release_tarball": "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.133-preview/agent-ops-command-center-0.5.133.tgz",
+  "npm_release_tarball": "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.134-preview/agent-ops-command-center-0.5.134.tgz",
   "editor_rule_files": {
     "github_copilot": {
       "canonical": "https://github.com/ivelly42/agent-ops-command-center/blob/main/.github/copilot-instructions.md",
@@ -1837,7 +1867,7 @@
     "primary_request_url": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
     "revenue_rule": "Kiro steering reads are not revenue. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence."
   },
-  "updated_at_kst": "2026-05-22 08:01",
+  "updated_at_kst": "2026-05-22 08:08",
   "github_cline_workflow_discussion": "https://github.com/ivelly42/agent-ops-command-center/discussions/12",
   "checkout_status_json": "https://ivelly42.github.io/agent-ops-command-center/.well-known/checkout-status.json",
   "checkout_status_json_alias": "https://ivelly42.github.io/agent-ops-command-center/checkout-status.json",
@@ -1855,5 +1885,9 @@
   "github_sponsors_live": false,
   "agent_ops_checkout_skill": "https://ivelly42.github.io/agent-ops-command-center/.agents/skills/agent-ops-checkout/SKILL.md",
   "agent_ops_checkout_skill_alias": "https://ivelly42.github.io/agent-ops-command-center/agent-ops-checkout-skill.md",
-  "opencode_config": "https://ivelly42.github.io/agent-ops-command-center/opencode.json"
+  "opencode_config": "https://ivelly42.github.io/agent-ops-command-center/opencode.json",
+  "agent_md": "https://ivelly42.github.io/agent-ops-command-center/AGENT.md",
+  "amp_agent_alias": "https://ivelly42.github.io/agent-ops-command-center/amp-agent.md",
+  "junie_guidelines": "https://ivelly42.github.io/agent-ops-command-center/.junie/guidelines.md",
+  "junie_guidelines_alias": "https://ivelly42.github.io/agent-ops-command-center/junie-guidelines.md"
 }
