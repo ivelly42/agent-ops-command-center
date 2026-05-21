@@ -41,6 +41,8 @@ jobs:
               "https://ivelly42.github.io/agent-ops-command-center/cursor-agent-rules.md",
               "https://ivelly42.github.io/agent-ops-command-center/windsurf-rules.md",
               "https://ivelly42.github.io/agent-ops-command-center/cline-rules.md",
+              "https://ivelly42.github.io/agent-ops-command-center/.clinerules/agent-ops-command-center.md",
+              "https://ivelly42.github.io/agent-ops-command-center/.clinerules/workflows/team-license-request.md",
               "https://ivelly42.github.io/agent-ops-command-center/GEMINI.md",
               "https://ivelly42.github.io/agent-ops-command-center/gemini-instructions.md",
               "https://ivelly42.github.io/agent-ops-command-center/CONVENTIONS.md",

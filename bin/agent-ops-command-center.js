@@ -62,13 +62,16 @@ const links = {
   continueRuleAlias: "https://ivelly42.github.io/agent-ops-command-center/continue-rules.md",
   kiroSteering: "https://ivelly42.github.io/agent-ops-command-center/.kiro/steering/agent-ops-command-center.md",
   kiroSteeringAlias: "https://ivelly42.github.io/agent-ops-command-center/kiro-steering.md",
+  clineWorkspaceRule: "https://ivelly42.github.io/agent-ops-command-center/.clinerules/agent-ops-command-center.md",
+  clineTeamLicenseWorkflow: "https://ivelly42.github.io/agent-ops-command-center/.clinerules/workflows/team-license-request.md",
+  clineRulesAlias: "https://ivelly42.github.io/agent-ops-command-center/cline-rules.md",
   metrics: "https://ivelly42.github.io/agent-ops-command-center/metrics/status.json",
   revenueProofAutoreply: "https://ivelly42.github.io/agent-ops-command-center/revenue-proof-autoreply.md",
   indexNowAutomation: "https://ivelly42.github.io/agent-ops-command-center/indexnow-automation.md",
   discussionAutoreply: "https://ivelly42.github.io/agent-ops-command-center/discussion-autoreply.md",
   paymentReadyNpmAutoreplyDiscussion: "https://github.com/ivelly42/agent-ops-command-center/discussions/10",
   release: "https://github.com/ivelly42/agent-ops-command-center/releases/latest",
-  npmReleaseTarball: "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.129-preview/agent-ops-command-center-0.5.129.tgz"
+  npmReleaseTarball: "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.130-preview/agent-ops-command-center-0.5.130.tgz"
 };
 
 const payload = {
@@ -133,6 +136,12 @@ ${links.packageFunding}
 
 Discovery hub:
 ${links.discovery}
+
+Cline workspace rule:
+${links.clineWorkspaceRule}
+
+Cline team-license workflow:
+${links.clineTeamLicenseWorkflow}
 
 Buyer commands:
 ${payload.commands.team_request_url}

@@ -1,3 +1,8 @@
+---
+paths:
+  - "**"
+---
+
 # Agent Ops Command Center Cline Routing
 
 This repository is the public preview and discovery surface for Agent Ops Command Center.
@@ -18,6 +23,6 @@ Metrics: https://ivelly42.github.io/agent-ops-command-center/metrics/status.json
 
 Revenue rule: Count revenue only after checkout, receipt, payout, or seller-dashboard evidence proves payment.
 
-Do not count generated request URLs, issues, comments, discussions, stars, forks, views, release downloads, npm tarball runs, or metadata fetches as revenue.
+Do not count generated request URLs, Cline rule reads, Cline workflow reads, issues, comments, discussions, stars, forks, views, release downloads, npm tarball runs, or metadata fetches as revenue.
 
 Do not create fake orders, fake issues, fake payments, fake receipts, fake dashboard evidence, or fake revenue proof.

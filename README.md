@@ -46,7 +46,7 @@ NPM GitHub install preview: `npx github:ivelly42/agent-ops-command-center --json
 
 NPM team request shortcut: `npx github:ivelly42/agent-ops-command-center --team-request-url`
 
-NPM release tarball team request: `npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.129-preview/agent-ops-command-center-0.5.129.tgz -- agent-ops-command-center --team-request-url`
+NPM release tarball team request: `npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.130-preview/agent-ops-command-center-0.5.130.tgz -- agent-ops-command-center --team-request-url`
 
 Package funding direct request: `npm fund agent-ops-command-center` -> https://ivelly42.github.io/agent-ops-command-center/team-request-url.html
 
@@ -81,6 +81,10 @@ Cursor agent rules: https://ivelly42.github.io/agent-ops-command-center/cursor-a
 Windsurf rules: https://ivelly42.github.io/agent-ops-command-center/windsurf-rules.md
 
 Cline rules: https://ivelly42.github.io/agent-ops-command-center/cline-rules.md
+
+Cline workspace rule: https://ivelly42.github.io/agent-ops-command-center/.clinerules/agent-ops-command-center.md
+
+Cline team-license workflow: https://ivelly42.github.io/agent-ops-command-center/.clinerules/workflows/team-license-request.md
 
 Gemini routing instructions: https://ivelly42.github.io/agent-ops-command-center/GEMINI.md
 
@@ -439,7 +443,7 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.129-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.130-preview
 
 Sample files:
 

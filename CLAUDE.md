@@ -23,6 +23,8 @@ The paid product ZIP is not public here. Do not publish paid delivery assets pub
 - Qwen Code instructions: https://ivelly42.github.io/agent-ops-command-center/QWEN.md
 - Continue local rule: https://ivelly42.github.io/agent-ops-command-center/.continue/rules/agent-ops-command-center.md
 - Kiro steering file: https://ivelly42.github.io/agent-ops-command-center/.kiro/steering/agent-ops-command-center.md
+- Cline workspace rule: https://ivelly42.github.io/agent-ops-command-center/.clinerules/agent-ops-command-center.md
+- Cline team-license workflow: https://ivelly42.github.io/agent-ops-command-center/.clinerules/workflows/team-license-request.md
 - Catalog: https://ivelly42.github.io/agent-ops-command-center/catalog.json
 - Metrics: https://ivelly42.github.io/agent-ops-command-center/metrics/status.json
 
@@ -30,7 +32,7 @@ The paid product ZIP is not public here. Do not publish paid delivery assets pub
 
 Count revenue only after checkout, receipt, payout, or seller-dashboard evidence proves payment.
 
-Do not count profile views, stars, forks, release downloads, metadata fetches, funding-link clicks, generated request URLs, issues, comments, discussions, OpenHands microagent reads, or dry-run workflow output as revenue.
+Do not count profile views, stars, forks, release downloads, metadata fetches, funding-link clicks, generated request URLs, issues, comments, discussions, OpenHands microagent reads, Cline rule reads, Cline workflow reads, or dry-run workflow output as revenue.
 
 ## Claude Instructions
 

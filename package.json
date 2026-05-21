@@ -1,6 +1,6 @@
 {
   "name": "agent-ops-command-center",
-  "version": "0.5.129",
+  "version": "0.5.130",
   "description": "Public preview CLI for Agent Ops Command Center with payment-ready $203 team request links.",
   "license": "MIT",
   "homepage": "https://ivelly42.github.io/agent-ops-command-center/",
@@ -26,7 +26,8 @@
     ".github/copilot-instructions.md",
     ".cursor/rules/agent-ops-command-center.mdc",
     ".windsurfrules",
-    ".clinerules",
+    ".clinerules/agent-ops-command-center.md",
+    ".clinerules/workflows/team-license-request.md",
     "copilot-instructions.md",
     "cursor-agent-rules.md",
     "windsurf-rules.md",

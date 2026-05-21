@@ -39,6 +39,10 @@ Windsurf-Rules: https://ivelly42.github.io/agent-ops-command-center/windsurf-rul
 
 Cline-Rules: https://ivelly42.github.io/agent-ops-command-center/cline-rules.md
 
+Cline-Workspace-Rule: https://ivelly42.github.io/agent-ops-command-center/.clinerules/agent-ops-command-center.md
+
+Cline-Team-License-Workflow: https://ivelly42.github.io/agent-ops-command-center/.clinerules/workflows/team-license-request.md
+
 Gemini-Routing: https://ivelly42.github.io/agent-ops-command-center/GEMINI.md
 
 Gemini-Routing-Alias: https://ivelly42.github.io/agent-ops-command-center/gemini-instructions.md

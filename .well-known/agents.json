@@ -2,7 +2,7 @@
   "name": "Agent Ops Command Center",
   "type": "ai_agent_discovery_manifest",
   "schema_version": "2026-05-22",
-  "updated_at_kst": "2026-05-22 07:21",
+  "updated_at_kst": "2026-05-22 07:35",
   "canonical_url": "https://ivelly42.github.io/agent-ops-command-center/.well-known/agents.json",
   "alternate_urls": [
     "https://ivelly42.github.io/agent-ops-command-center/agents.json",
@@ -87,9 +87,12 @@
     {
       "id": "cline",
       "name": "Cline",
-      "instructions": "https://github.com/ivelly42/agent-ops-command-center/blob/main/.clinerules",
-      "pages_instructions": "https://ivelly42.github.io/agent-ops-command-center/cline-rules.md",
-      "primary_action": "open_primary_team_request"
+      "instructions": "https://github.com/ivelly42/agent-ops-command-center/blob/main/.clinerules/agent-ops-command-center.md",
+      "pages_instructions": "https://ivelly42.github.io/agent-ops-command-center/.clinerules/agent-ops-command-center.md",
+      "primary_action": "open_primary_team_request",
+      "alias_instructions": "https://ivelly42.github.io/agent-ops-command-center/cline-rules.md",
+      "workflow": "https://github.com/ivelly42/agent-ops-command-center/blob/main/.clinerules/workflows/team-license-request.md",
+      "pages_workflow": "https://ivelly42.github.io/agent-ops-command-center/.clinerules/workflows/team-license-request.md"
     },
     {
       "id": "gemini_cli",
@@ -159,7 +162,7 @@
     "read_buy_intent": "https://ivelly42.github.io/agent-ops-command-center/ai-buy-intent.json",
     "read_catalog": "https://ivelly42.github.io/agent-ops-command-center/catalog.json",
     "read_metrics": "https://ivelly42.github.io/agent-ops-command-center/metrics/status.json",
-    "run_npm_release_tarball_team_request": "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.129-preview/agent-ops-command-center-0.5.129.tgz",
+    "run_npm_release_tarball_team_request": "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.130-preview/agent-ops-command-center-0.5.130.tgz",
     "read_llms_json": "https://ivelly42.github.io/agent-ops-command-center/.well-known/llms.json",
     "read_llms_json_alias": "https://ivelly42.github.io/agent-ops-command-center/llms.json",
     "read_llms_txt": "https://ivelly42.github.io/agent-ops-command-center/llms.txt",
