@@ -1,6 +1,6 @@
 {
   "name": "agent-ops-command-center",
-  "version": "0.5.125",
+  "version": "0.5.126",
   "description": "Public preview CLI for Agent Ops Command Center with payment-ready $203 team request links.",
   "license": "MIT",
   "homepage": "https://ivelly42.github.io/agent-ops-command-center/",
@@ -57,7 +57,9 @@
     "CONVENTIONS.md",
     "aider-conventions.md",
     ".goosehints",
-    "goose-hints.md"
+    "goose-hints.md",
+    ".openhands/microagents/repo.md",
+    "openhands-repo.md"
   ],
   "keywords": [
     "ai-agent",

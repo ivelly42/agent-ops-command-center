@@ -2,7 +2,7 @@
   "openapi": "3.1.0",
   "info": {
     "title": "Agent Ops Command Center Commerce Actions",
-    "version": "0.5.125",
+    "version": "0.5.126",
     "description": "Read public product metadata and open the $203 team-license request path for Agent Ops Command Center. This API describes public static resources only; it does not process payment or prove revenue."
   },
   "servers": [
@@ -352,6 +352,44 @@
           }
         }
       }
+    },
+    "/agent-ops-command-center/.openhands/microagents/repo.md": {
+      "get": {
+        "operationId": "readOpenHandsRepoMicroagent",
+        "summary": "Read OpenHands repository microagent",
+        "description": "Returns OpenHands repository microagent instructions for the $203 team-license request, machine-readable metadata, metrics, and revenue proof rule.",
+        "responses": {
+          "200": {
+            "description": "OpenHands repository microagent",
+            "content": {
+              "text/markdown": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/agent-ops-command-center/openhands-repo.md": {
+      "get": {
+        "operationId": "readOpenHandsRepoMicroagentAlias",
+        "summary": "Read OpenHands repository microagent alias",
+        "description": "Returns the public alias for OpenHands repository microagent instructions.",
+        "responses": {
+          "200": {
+            "description": "OpenHands repository microagent alias",
+            "content": {
+              "text/markdown": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
     }
   },
   "components": {
@@ -561,7 +599,7 @@
   },
   "x-revenue-rule": "OpenAPI metadata is routing metadata, not revenue. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence.",
   "x-agent-routing-manifest": "https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-routing.json",
-  "x-npm-release-tarball": "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.125-preview/agent-ops-command-center-0.5.125.tgz",
+  "x-npm-release-tarball": "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.126-preview/agent-ops-command-center-0.5.126.tgz",
   "x-editor-rule-files": {
     "github_copilot": {
       "canonical": "https://github.com/ivelly42/agent-ops-command-center/blob/main/.github/copilot-instructions.md",
@@ -591,5 +629,7 @@
   "x-aider-conventions": "https://ivelly42.github.io/agent-ops-command-center/CONVENTIONS.md",
   "x-aider-conventions-alias": "https://ivelly42.github.io/agent-ops-command-center/aider-conventions.md",
   "x-goose-hints": "https://ivelly42.github.io/agent-ops-command-center/.goosehints",
-  "x-goose-hints-alias": "https://ivelly42.github.io/agent-ops-command-center/goose-hints.md"
+  "x-goose-hints-alias": "https://ivelly42.github.io/agent-ops-command-center/goose-hints.md",
+  "x-openhands-repo-microagent": "https://ivelly42.github.io/agent-ops-command-center/.openhands/microagents/repo.md",
+  "x-openhands-repo-microagent-alias": "https://ivelly42.github.io/agent-ops-command-center/openhands-repo.md"
 }

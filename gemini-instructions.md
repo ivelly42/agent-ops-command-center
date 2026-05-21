@@ -12,6 +12,8 @@ AI agents discovery manifest: https://ivelly42.github.io/agent-ops-command-cente
 
 Agent routing manifest: https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-routing.json
 
+OpenHands repository microagent: https://ivelly42.github.io/agent-ops-command-center/.openhands/microagents/repo.md
+
 OpenAPI commerce actions: https://ivelly42.github.io/agent-ops-command-center/openapi.json
 
 Metrics: https://ivelly42.github.io/agent-ops-command-center/metrics/status.json

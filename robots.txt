@@ -51,6 +51,10 @@ Goose-Hints: https://ivelly42.github.io/agent-ops-command-center/.goosehints
 
 Goose-Hints-Alias: https://ivelly42.github.io/agent-ops-command-center/goose-hints.md
 
+OpenHands-Repo-Microagent: https://ivelly42.github.io/agent-ops-command-center/.openhands/microagents/repo.md
+
+OpenHands-Repo-Microagent-Alias: https://ivelly42.github.io/agent-ops-command-center/openhands-repo.md
+
 OpenAPI: https://ivelly42.github.io/agent-ops-command-center/openapi.json
 
 OpenAPI-Well-Known: https://ivelly42.github.io/agent-ops-command-center/.well-known/openapi.json
