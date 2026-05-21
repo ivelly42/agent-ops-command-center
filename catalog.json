@@ -1,7 +1,7 @@
 {
   "name": "Agent Ops Command Center",
   "description": "Notion and spreadsheet template pack for builders running AI coding agents.",
-  "version": "v5.50-preview",
+  "version": "v5.51-preview",
   "price_usd": 29,
   "individual_price_usd": 29,
   "team_license_price_usd": 203,
@@ -13,7 +13,7 @@
   "status": "preview_live_no_paid_checkout",
   "homepage": "https://ivelly42.github.io/agent-ops-command-center/",
   "social_image": "https://ivelly42.github.io/agent-ops-command-center/og.png",
-  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.50-preview",
+  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.51-preview",
   "early_access_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml",
   "fast_team_checkout_request": "https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html",
   "buyer_reply_kit": "https://ivelly42.github.io/agent-ops-command-center/buyer-reply-kit.html",
@@ -77,6 +77,11 @@
       "title": "AI Agent Model Routing Matrix Mirror Page",
       "url": "https://ivelly42.github.io/ai-agent-model-routing-template/",
       "repository": "https://github.com/ivelly42/ai-agent-model-routing-template"
+    },
+    {
+      "title": "AI Agent Workflow Comparison Mirror Page",
+      "url": "https://ivelly42.github.io/ai-agent-workflow-comparison-template/",
+      "repository": "https://github.com/ivelly42/ai-agent-workflow-comparison-template"
     },
     {
       "title": "AI Agent Client Delivery Kit",
@@ -286,6 +291,8 @@
   "github_prompt_regression_mirror": "https://github.com/ivelly42/ai-agent-prompt-regression-test-template",
   "github_model_routing_mirror_pages": "https://ivelly42.github.io/ai-agent-model-routing-template/",
   "github_model_routing_mirror": "https://github.com/ivelly42/ai-agent-model-routing-template",
+  "github_workflow_comparison_mirror_pages": "https://ivelly42.github.io/ai-agent-workflow-comparison-template/",
+  "github_workflow_comparison_mirror": "https://github.com/ivelly42/ai-agent-workflow-comparison-template",
   "github_run_log_mirror_pages": "https://ivelly42.github.io/ai-coding-agent-run-log-template/",
   "github_run_log_mirror": "https://github.com/ivelly42/ai-coding-agent-run-log-template",
   "github_verification_ledger_mirror_pages": "https://ivelly42.github.io/ai-agent-verification-ledger-template/",
@@ -302,6 +309,8 @@
   "github_client_delivery_mirror_pages": "https://ivelly42.github.io/ai-agent-client-delivery-kit/",
   "github_client_delivery_mirror": "https://github.com/ivelly42/ai-agent-client-delivery-kit",
   "external_discovery_channels": [
+    "https://ivelly42.github.io/ai-agent-workflow-comparison-template/",
+    "https://github.com/ivelly42/ai-agent-workflow-comparison-template",
     "https://ivelly42.github.io/ai-agent-model-routing-template/",
     "https://github.com/ivelly42/ai-agent-model-routing-template",
     "https://ivelly42.github.io/ai-agent-prompt-regression-test-template/",
