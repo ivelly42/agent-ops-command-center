@@ -133,7 +133,7 @@ The pack breaks even if it prevents roughly one hour of cleanup time for a build
 - Run log template: https://ivelly42.github.io/agent-ops-command-center/codex-claude-run-log-template.md
 - Failure RCA template: https://ivelly42.github.io/agent-ops-command-center/failure-rca-template.md
 - Preflight checklist: https://ivelly42.github.io/agent-ops-command-center/checklist.md
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.77-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.78-preview
 - Buy page: https://ivelly42.github.io/agent-ops-command-center/buy.html
 - Fast team checkout request: https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html
 - Fast template pack request page: https://ivelly42.github.io/agent-ops-command-center/template-pack-request.html
@@ -196,6 +196,7 @@ The pack breaks even if it prevents roughly one hour of cleanup time for a build
 - GitHub software purchase request mirror: https://github.com/ivelly42/ai-agent-software-purchase-request-template
 - Use software purchase request mirror: https://github.com/ivelly42/ai-agent-software-purchase-request-template/generate
 - GitHub software purchase request Discussion: https://github.com/ivelly42/agent-ops-command-center/discussions/7
+- GitHub budget request email Discussion: https://github.com/ivelly42/agent-ops-command-center/discussions/8
 - GitHub template pack Gist: https://gist.github.com/ivelly42/dac26c33334ab9b3367d2fc490c7aef5
 - GitHub template pack Discussion: https://github.com/ivelly42/agent-ops-command-center/discussions/5
 - Team invoice direct request: https://ivelly42.github.io/agent-ops-command-center/team-invoice-request.html
