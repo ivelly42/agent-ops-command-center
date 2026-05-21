@@ -84,9 +84,10 @@ The full paid pack is not published publicly. This index links every public prev
 - GitHub issue index: https://github.com/ivelly42/agent-ops-command-center/issues/2
 - RSS feed: https://ivelly42.github.io/agent-ops-command-center/feed.xml
 - Machine-readable catalog: https://ivelly42.github.io/agent-ops-command-center/catalog.json
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.9-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.10-preview
 - HTML template gallery: https://ivelly42.github.io/agent-ops-command-center/template-gallery.html
 - Workflow picker tool: https://ivelly42.github.io/agent-ops-command-center/workflow-picker.html
+- Notion import builder: https://ivelly42.github.io/agent-ops-command-center/notion-import-builder.html
 - Interactive ROI calculator: https://ivelly42.github.io/agent-ops-command-center/roi-calculator.html
 - Order intent builder: https://ivelly42.github.io/agent-ops-command-center/order-intent.html
 - Pricing: https://ivelly42.github.io/agent-ops-command-center/pricing.html
@@ -109,6 +110,7 @@ The full paid pack is not published publicly. This index links every public prev
 | Notion Import | Turn CSV files and templates into a usable workspace |
 | PR Review Scorecard | Score AI-written code before merge |
 | Verification Command Library | Choose proof that matches the changed behavior |
+| Notion Import Builder | Generate a Notion import plan for CSVs, templates, views, relations, and blockers |
 | Paid Delivery Manifest | Record paid delivery, archive digest, and buyer acknowledgement |
 | Buyer Decision Matrix | Compare cleanup cost, pack surfaces, and buy signals |
 | Checkout Readiness FAQ | Answer buyer objections and list payment proof needed |

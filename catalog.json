@@ -6,7 +6,7 @@
   "sales_needed": 7,
   "status": "preview_live_no_paid_checkout",
   "homepage": "https://ivelly42.github.io/agent-ops-command-center/",
-  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.9-preview",
+  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.10-preview",
   "early_access_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml",
   "demand_metrics": "https://ivelly42.github.io/agent-ops-command-center/metrics/status.json",
   "template_gallery": "https://ivelly42.github.io/agent-ops-command-center/template-gallery.html",
@@ -26,6 +26,10 @@
   "paid_zip_public": false,
   "revenue_rule": "Revenue is proven only by checkout, receipt, payout, or seller-dashboard evidence.",
   "public_assets": [
+    {
+      "title": "AI Agent Notion Import Builder",
+      "url": "https://ivelly42.github.io/agent-ops-command-center/notion-import-builder.html"
+    },
     {
       "title": "AI Agent Template Gallery",
       "url": "https://ivelly42.github.io/agent-ops-command-center/template-gallery.html"
@@ -105,5 +109,6 @@
       "gist": "https://gist.github.com/ivelly42/0f35039dbb5e455cfe36c316632f96fb"
     }
   ],
-  "workflow_picker_tool": "https://ivelly42.github.io/agent-ops-command-center/workflow-picker.html"
+  "workflow_picker_tool": "https://ivelly42.github.io/agent-ops-command-center/workflow-picker.html",
+  "notion_import_builder": "https://ivelly42.github.io/agent-ops-command-center/notion-import-builder.html"
 }

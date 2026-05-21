@@ -4,6 +4,8 @@ Use this free import guide when turning AI-agent workflow templates into a Notio
 
 The guide is built for Codex, Claude Code, Cursor, and local-agent operators who want run logs, prompt libraries, verification ledgers, cost trackers, failure modes, and revenue proof in one workspace instead of scattered chat transcripts.
 
+Browser import builder: https://ivelly42.github.io/agent-ops-command-center/notion-import-builder.html
+
 ## Quick Import Plan
 
 ```markdown
@@ -80,6 +82,7 @@ Import Blockers:
 ## Public Companion Files
 
 - Notion Import Guide Gist: https://gist.github.com/ivelly42/0bdf3615d09080c67f8263ef057bd04b
+- Browser import builder: https://ivelly42.github.io/agent-ops-command-center/notion-import-builder.html
 - Product tour: https://ivelly42.github.io/agent-ops-command-center/product-tour.md
 - Revenue proof: https://ivelly42.github.io/agent-ops-command-center/ai-agent-revenue-proof-template.md
 - Scope freeze: https://ivelly42.github.io/agent-ops-command-center/ai-agent-scope-freeze-template.md
