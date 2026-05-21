@@ -1,7 +1,7 @@
 {
   "name": "Agent Ops Command Center",
   "description": "Notion and spreadsheet template pack for builders running AI coding agents.",
-  "version": "v5.72-preview",
+  "version": "v5.73-preview",
   "price_usd": 29,
   "individual_price_usd": 29,
   "team_license_price_usd": 203,
@@ -9,13 +9,13 @@
   "sales_needed": 7,
   "team_licenses_needed": 1,
   "github_template_repositories_enabled": true,
-  "github_template_repository_count": 25,
+  "github_template_repository_count": 26,
   "primary_revenue_path": "One confirmed $203 team-license payment reaches the $200 gross revenue target.",
   "primary_request_path": "Team license - 7 seats - $203 gross",
   "status": "preview_live_no_paid_checkout",
   "homepage": "https://ivelly42.github.io/agent-ops-command-center/",
   "social_image": "https://ivelly42.github.io/agent-ops-command-center/og.png",
-  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.72-preview",
+  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.73-preview",
   "early_access_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml",
   "template_pack_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml",
   "template_pack_request_page": "https://ivelly42.github.io/agent-ops-command-center/template-pack-request.html",
@@ -205,6 +205,14 @@
       "url": "https://ivelly42.github.io/ai-agent-team-license-quote-template/",
       "repository": "https://github.com/ivelly42/ai-agent-team-license-quote-template",
       "template_url": "https://github.com/ivelly42/ai-agent-team-license-quote-template/generate",
+      "request_page": "https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html",
+      "request_url": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml"
+    },
+    {
+      "title": "AI Agent Purchase Order Mirror Page",
+      "url": "https://ivelly42.github.io/ai-agent-purchase-order-template/",
+      "repository": "https://github.com/ivelly42/ai-agent-purchase-order-template",
+      "template_url": "https://github.com/ivelly42/ai-agent-purchase-order-template/generate",
       "request_page": "https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html",
       "request_url": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml"
     },
@@ -486,6 +494,7 @@
     "https://github.com/ivelly42/ai-agent-manager-approval-template/generate",
     "https://github.com/ivelly42/ai-agent-purchase-justification-template/generate",
     "https://github.com/ivelly42/ai-agent-team-license-quote-template/generate",
+    "https://github.com/ivelly42/ai-agent-purchase-order-template/generate",
     "https://github.com/ivelly42/ai-agent-audit-checklist-template/generate",
     "https://github.com/ivelly42/ai-agent-client-delivery-kit/generate"
   ],
@@ -551,6 +560,9 @@
     "https://ivelly42.github.io/ai-agent-team-license-quote-template/",
     "https://github.com/ivelly42/ai-agent-team-license-quote-template",
     "https://github.com/ivelly42/ai-agent-team-license-quote-template/generate",
+    "https://github.com/ivelly42/ai-agent-purchase-order-template/generate",
+    "https://github.com/ivelly42/ai-agent-purchase-order-template",
+    "https://ivelly42.github.io/ai-agent-purchase-order-template/",
     "https://ivelly42.github.io/ai-agent-audit-checklist-template/",
     "https://github.com/ivelly42/ai-agent-audit-checklist-template",
     "https://github.com/ivelly42/ai-agent-audit-checklist-template/generate",
@@ -584,5 +596,8 @@
     "https://ivelly42.github.io/agent-ops-command-center/template-pack-request.html",
     "https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html",
     "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml"
-  ]
+  ],
+  "github_purchase_order_mirror_pages": "https://ivelly42.github.io/ai-agent-purchase-order-template/",
+  "github_purchase_order_mirror": "https://github.com/ivelly42/ai-agent-purchase-order-template",
+  "github_purchase_order_generate": "https://github.com/ivelly42/ai-agent-purchase-order-template/generate"
 }

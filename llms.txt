@@ -148,6 +148,12 @@ GitHub team license quote mirror Pages: https://ivelly42.github.io/ai-agent-team
 
 Use team license quote mirror as GitHub template: https://github.com/ivelly42/ai-agent-team-license-quote-template/generate
 
+GitHub purchase order mirror: https://github.com/ivelly42/ai-agent-purchase-order-template
+
+GitHub purchase order mirror Pages: https://ivelly42.github.io/ai-agent-purchase-order-template/
+
+Use purchase order mirror as GitHub template: https://github.com/ivelly42/ai-agent-purchase-order-template/generate
+
 GitHub client delivery mirror: https://github.com/ivelly42/ai-agent-client-delivery-kit
 
 GitHub client delivery mirror Pages: https://ivelly42.github.io/ai-agent-client-delivery-kit/
@@ -479,6 +485,18 @@ AI agent purchase justification mirror Pages: https://ivelly42.github.io/ai-agen
 
 AI agent purchase justification GitHub template: https://github.com/ivelly42/ai-agent-purchase-justification-template/generate
 
+AI agent team license quote GitHub mirror: https://github.com/ivelly42/ai-agent-team-license-quote-template
+
+AI agent team license quote mirror Pages: https://ivelly42.github.io/ai-agent-team-license-quote-template/
+
+AI agent team license quote GitHub template: https://github.com/ivelly42/ai-agent-team-license-quote-template/generate
+
+AI agent purchase order GitHub mirror: https://github.com/ivelly42/ai-agent-purchase-order-template
+
+AI agent purchase order mirror Pages: https://ivelly42.github.io/ai-agent-purchase-order-template/
+
+AI agent purchase order GitHub template: https://github.com/ivelly42/ai-agent-purchase-order-template/generate
+
 AI agent client delivery GitHub mirror: https://github.com/ivelly42/ai-agent-client-delivery-kit
 
 AI agent client delivery mirror Pages: https://ivelly42.github.io/ai-agent-client-delivery-kit/
@@ -511,7 +529,7 @@ Fast template pack request page: https://ivelly42.github.io/agent-ops-command-ce
 
 GitHub Sponsor button funding links: https://github.com/ivelly42/agent-ops-command-center/blob/main/.github/FUNDING.yml
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.72-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.73-preview
 
 Sample run log CSV: https://ivelly42.github.io/agent-ops-command-center/sample/run_log_sample.csv
 

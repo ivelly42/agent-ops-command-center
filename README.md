@@ -154,6 +154,12 @@ GitHub team license quote mirror Pages: https://ivelly42.github.io/ai-agent-team
 
 Use team license quote mirror as GitHub template: https://github.com/ivelly42/ai-agent-team-license-quote-template/generate
 
+GitHub purchase order mirror: https://github.com/ivelly42/ai-agent-purchase-order-template
+
+GitHub purchase order mirror Pages: https://ivelly42.github.io/ai-agent-purchase-order-template/
+
+Use purchase order mirror as GitHub template: https://github.com/ivelly42/ai-agent-purchase-order-template/generate
+
 GitHub client delivery mirror: https://github.com/ivelly42/ai-agent-client-delivery-kit
 
 GitHub client delivery mirror Pages: https://ivelly42.github.io/ai-agent-client-delivery-kit/
@@ -255,7 +261,7 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.72-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.73-preview
 
 Sample files:
 
@@ -361,6 +367,12 @@ Sample files:
 - [GitHub purchase justification mirror Pages](https://ivelly42.github.io/ai-agent-purchase-justification-template/)
 - [GitHub purchase justification mirror](https://github.com/ivelly42/ai-agent-purchase-justification-template)
 - [Use purchase justification mirror](https://github.com/ivelly42/ai-agent-purchase-justification-template/generate)
+- [GitHub team license quote mirror Pages](https://ivelly42.github.io/ai-agent-team-license-quote-template/)
+- [GitHub team license quote mirror](https://github.com/ivelly42/ai-agent-team-license-quote-template)
+- [Use team license quote mirror](https://github.com/ivelly42/ai-agent-team-license-quote-template/generate)
+- [GitHub purchase order mirror Pages](https://ivelly42.github.io/ai-agent-purchase-order-template/)
+- [GitHub purchase order mirror](https://github.com/ivelly42/ai-agent-purchase-order-template)
+- [Use purchase order mirror](https://github.com/ivelly42/ai-agent-purchase-order-template/generate)
 - [GitHub client delivery mirror Pages](https://ivelly42.github.io/ai-agent-client-delivery-kit/)
 - [GitHub client delivery mirror](https://github.com/ivelly42/ai-agent-client-delivery-kit)
 - [Team purchase packet](team-purchase-packet.html)
