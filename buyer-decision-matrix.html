@@ -3,12 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>AI Agent Cost Leak Audit | Agent Ops Command Center</title>
-    <meta name="description" content="Free AI-agent cost leak audit for estimating cleanup time, direct spend, preventable leaks, break-even weeks, and order intent for Agent Ops Command Center.">
-    <meta property="og:title" content="AI Agent Cost Leak Audit">
-    <meta property="og:description" content="Estimate where Codex, Claude Code, Cursor, or local-agent work leaks cleanup time and whether a $29 operating workspace pays back.">
+    <title>AI Agent Buyer Decision Matrix | Agent Ops Command Center</title>
+    <meta name="description" content="Free AI-agent buyer decision matrix for comparing cleanup value, workflow proof gaps, buy signals, and order intent for Agent Ops Command Center.">
+    <meta property="og:title" content="AI Agent Buyer Decision Matrix">
+    <meta property="og:description" content="Score whether the $29 Agent Ops Command Center pack is worth requesting for a specific Codex, Claude Code, Cursor, or local-agent workflow.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://ivelly42.github.io/agent-ops-command-center/cost-leak-audit.html">
+    <meta property="og:url" content="https://ivelly42.github.io/agent-ops-command-center/buyer-decision-matrix.html">
     <meta property="og:image" content="https://ivelly42.github.io/agent-ops-command-center/og.svg">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content="https://ivelly42.github.io/agent-ops-command-center/og.svg">
@@ -16,10 +16,10 @@
       {
         "@context": "https://schema.org",
         "@type": "WebApplication",
-        "name": "AI Agent Cost Leak Audit",
+        "name": "AI Agent Buyer Decision Matrix",
         "applicationCategory": "BusinessApplication",
         "operatingSystem": "Any",
-        "url": "https://ivelly42.github.io/agent-ops-command-center/cost-leak-audit.html",
+        "url": "https://ivelly42.github.io/agent-ops-command-center/buyer-decision-matrix.html",
         "offers": {
           "@type": "Offer",
           "price": "0",
@@ -48,7 +48,6 @@
         --panel: #ffffff;
         --accent: #0f766e;
         --gold: #b45309;
-        --risk: #b91c1c;
         --soft: #f7f5f0;
       }
 
@@ -145,7 +144,7 @@
         color: #fff;
       }
 
-      .audit-card {
+      .decision-card {
         background: var(--panel);
         border: 1px solid var(--line);
         border-radius: 8px;
@@ -153,18 +152,18 @@
         box-shadow: 0 24px 80px rgba(21, 21, 21, 0.12);
       }
 
-      .number {
-        font-size: 72px;
+      .score {
+        font-size: 82px;
         line-height: 0.95;
         font-weight: 900;
-        margin-bottom: 10px;
+        margin-bottom: 12px;
       }
 
-      .metric-label {
+      .decision-card p {
         color: var(--muted);
         font-size: 18px;
         line-height: 1.45;
-        margin-bottom: 20px;
+        margin: 0 0 18px;
       }
 
       .mini-grid {
@@ -217,20 +216,20 @@
         margin: 0;
       }
 
-      .inputs, .leaks, .grid {
+      .inputs, .signals, .grid {
         display: grid;
         grid-template-columns: repeat(3, minmax(0, 1fr));
         gap: 14px;
       }
 
-      .input, .leak, .item {
+      .input, .signal, .item {
         background: var(--panel);
         border: 1px solid var(--line);
         border-radius: 8px;
         padding: 18px;
       }
 
-      .input label, .leak label {
+      .input label, .signal label {
         display: flex;
         justify-content: space-between;
         gap: 16px;
@@ -238,11 +237,11 @@
         margin-bottom: 8px;
       }
 
-      .input label span, .leak label span {
+      .input label span, .signal label span {
         color: var(--muted);
       }
 
-      .input p, .leak p, .item p {
+      .input p, .signal p, .item p {
         color: var(--muted);
         line-height: 1.45;
         margin: 0 0 12px;
@@ -260,7 +259,7 @@
 
       textarea {
         width: 100%;
-        min-height: 280px;
+        min-height: 300px;
         border: 1px solid var(--line);
         border-radius: 8px;
         background: #fff;
@@ -291,7 +290,7 @@
       }
 
       @media (max-width: 980px) {
-        .hero, .inputs, .leaks, .grid {
+        .hero, .inputs, .signals, .grid {
           grid-template-columns: 1fr;
         }
       }
@@ -342,35 +341,35 @@
     <main>
       <div class="hero">
         <div>
-          <div class="eyebrow">Free AI-agent cost leak audit</div>
-          <h1>Find the agent work that keeps charging you twice.</h1>
-          <p class="lead">Estimate cleanup time, preventable token spend, repeated verification gaps, and handoff loss before requesting the $29 Agent Ops Command Center pack.</p>
+          <div class="eyebrow">Free buyer decision matrix</div>
+          <h1>Score the buy signal before asking for checkout.</h1>
+          <p class="lead">Compare the $29 pack against cleanup value, proof gaps, handoff risk, and revenue-proof needs for one real AI-agent workflow.</p>
           <div class="actions">
             <a class="button primary" href="order-intent.html">Prepare order intent</a>
-            <a class="button" href="roi-calculator.html">ROI calculator</a>
-            <a class="button" href="ops-maturity-check.html">Maturity check</a>
+            <a class="button" href="purchase-approval-brief.html">Approval brief</a>
+            <a class="button" href="cost-leak-audit.html">Cost leak audit</a>
             <a class="button" href="https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.7-preview">Preview release</a>
           </div>
         </div>
-        <aside class="audit-card" aria-label="Cost leak estimate">
-          <div class="number" id="weeklyLeak">$43</div>
-          <div class="metric-label" id="fitLabel">Likely fit. One avoided cleanup loop can repay the pack quickly.</div>
+        <aside class="decision-card" aria-label="Buyer decision score">
+          <div class="score" id="decisionScore">74</div>
+          <p id="decisionLabel">Buy signal. The pack is likely worth requesting when checkout opens.</p>
           <div class="mini-grid">
             <div class="mini">
-              <strong id="monthlyLeak">$170</strong>
-              <span>estimated monthly leak</span>
+              <strong id="valueRecovered">$75</strong>
+              <span>monthly value recovered</span>
             </div>
             <div class="mini">
-              <strong id="breakEven">0.7w</strong>
-              <span>weeks to break even</span>
+              <strong id="netValue">$46</strong>
+              <span>net after $29 price</span>
             </div>
             <div class="mini">
-              <strong id="leakScore">16/35</strong>
-              <span>leak severity</span>
+              <strong id="proofScore">21/35</strong>
+              <span>proof gap score</span>
             </div>
             <div class="mini">
-              <strong>$29</strong>
-              <span>target pack price</span>
+              <strong id="breakEven">35m</strong>
+              <span>cleanup to break even</span>
             </div>
           </div>
         </aside>
@@ -378,52 +377,52 @@
 
       <section>
         <div class="section-head">
-          <h2>Cost Inputs</h2>
-          <p>Use conservative numbers. This page estimates recoverable waste; it does not count as revenue or payment proof.</p>
+          <h2>Value Inputs</h2>
+          <p>Use one recurring workflow. This estimates buyer value only; it is not checkout or revenue proof.</p>
         </div>
         <div class="inputs" id="inputs"></div>
       </section>
 
       <section>
         <div class="section-head">
-          <h2>Leak Severity</h2>
-          <p>Move each leak from 0 to 5. High severity means repeated cleanup, wasted model calls, or review time that the full pack is designed to prevent.</p>
+          <h2>Buy Signals</h2>
+          <p>Move each signal from 0 to 5. Higher means the full workspace has a clearer use case.</p>
         </div>
-        <div class="leaks" id="leaks"></div>
+        <div class="signals" id="signals"></div>
       </section>
 
       <section>
         <div class="section-head">
-          <h2>Audit Report</h2>
-          <p>Copy this into an order-intent issue, buyer approval note, or internal review before paying for the full workspace.</p>
+          <h2>Decision Brief</h2>
+          <p>Copy this into an order-intent issue, purchase approval note, or internal decision record.</p>
         </div>
-        <textarea id="report" readonly></textarea>
+        <textarea id="brief" readonly></textarea>
         <div class="actions">
-          <button class="button primary" type="button" id="copyReport">Copy audit</button>
+          <button class="button primary" type="button" id="copyBrief">Copy decision</button>
           <a class="button" id="orderLink" href="order-intent.html">Use in order intent</a>
-          <a class="button" href="ai-agent-cost-leak-audit.md">Markdown audit</a>
-          <a class="button" href="cost-tracker-template.md">Cost tracker</a>
+          <a class="button" href="buyer-decision-matrix.md">Markdown matrix</a>
+          <a class="button" href="purchase-approval-brief.html">Approval brief</a>
         </div>
         <div class="status" id="copyStatus" aria-live="polite"></div>
       </section>
 
       <section>
         <div class="section-head">
-          <h2>Pack Surfaces That Close Leaks</h2>
-          <p>The paid workspace turns the leak categories into repeatable tables, gates, and review loops.</p>
+          <h2>Decision Rules</h2>
+          <p>The matrix separates useful buyer fit from unsupported revenue claims.</p>
         </div>
         <div class="grid">
           <article class="item">
-            <h3>Before The Run</h3>
-            <p>Scope freeze, run brief, model routing matrix, and prompt regression tests reduce avoidable retries.</p>
+            <h3>Buy If</h3>
+            <p>One avoided cleanup session exceeds $29, proof gaps repeat, or multiple agent runs need durable state.</p>
           </article>
           <article class="item">
-            <h3>During Review</h3>
-            <p>Verification ledger, acceptance test suite, and done checklist make completion claims evidence-backed.</p>
+            <h3>Do Not Buy If</h3>
+            <p>The work is one-off, a maintained run database already exists, or custom implementation is needed instead of templates.</p>
           </article>
           <article class="item">
-            <h3>After Handoff</h3>
-            <p>Run log, failure modes database, incident report, cost tracker, and weekly review stop repeat leaks.</p>
+            <h3>Request Intent</h3>
+            <p>Use order intent only to record buyer fit and checkout preference. It is not paid revenue.</p>
           </article>
         </div>
       </section>
@@ -431,7 +430,7 @@
       <section>
         <h2>Revenue Rule</h2>
         <div class="notice">
-          This audit estimates cost savings only. It does not create checkout, prove payment, publish the paid ZIP, or count as revenue. Gross revenue is counted only from checkout, receipt, payout, or seller-dashboard evidence.
+          Buyer decision scores are not revenue. This page does not create checkout, prove payment, publish the paid ZIP, or count as revenue. Gross revenue is counted only from checkout, receipt, payout, or seller-dashboard evidence.
         </div>
         <div class="actions">
           <a class="button primary" href="order-intent.html">Prepare order intent</a>
@@ -442,38 +441,36 @@
     </main>
 
     <footer>
-      Free cost leak audit. Private paid ZIP. Revenue only after payment proof.
+      Free buyer decision matrix. Private paid ZIP. Revenue only after payment proof.
     </footer>
 
     <script>
       const price = 29;
       const inputDefs = [
-        ["runsPerWeek", "Agent runs per week", "Meaningful Codex, Claude Code, Cursor, or local-agent runs.", 1, 20, 1, 4, ""],
-        ["leakedRuns", "Runs with cleanup", "Runs that need retries, manual repair, or extra review.", 0, 20, 1, 2, ""],
-        ["cleanupMinutes", "Cleanup minutes", "Average extra human minutes per leaked run.", 5, 180, 5, 25, "m"],
-        ["hourlyValue", "Hourly value", "Conservative value of builder or reviewer time.", 10, 200, 5, 45, "$"],
-        ["directSpend", "Weekly tool spend", "Estimated preventable premium-model or tool spend.", 0, 150, 5, 10, "$"],
-        ["preventable", "Preventable share", "How much of the leak a better operating system can plausibly remove.", 10, 90, 5, 50, "%"]
+        ["hourlyValue", "Hourly value", "Conservative value of buyer or reviewer time.", 10, 200, 5, 50, "$"],
+        ["cleanupMinutes", "Cleanup minutes avoided", "Expected cleanup time avoided this month.", 0, 300, 15, 90, "m"],
+        ["agentRuns", "Agent runs per month", "Meaningful Codex, Claude Code, Cursor, or local-agent runs.", 1, 50, 1, 8, ""]
       ];
 
-      const leakDefs = [
-        ["promptAmbiguity", "Prompt ambiguity", "Same task retried because the prompt lacked scope, proof, or stop conditions."],
-        ["wrongModel", "Wrong model choice", "Premium model used for low-risk work or cheap model used where review cost rises."],
-        ["weakVerification", "Weak verification", "Completion claims rely on summaries instead of commands, screenshots, URLs, or digests."],
-        ["missingContext", "Missing context", "Agent re-reads, re-asks, or reconstructs facts already known elsewhere."],
-        ["scopeDrift", "Scope drift", "Unrelated files, product areas, or refactors enter the run without explicit approval."],
-        ["repeatedFailure", "Repeated failure", "The same symptom returns because no reusable prevention rule was recorded."],
-        ["lostHandoff", "Lost handoff", "New session or reviewer cannot resume without reconstructing the chat."]
+      const signalDefs = [
+        ["verification", "Missing verification", "Done claims need commands, screenshots, URLs, or artifact evidence."],
+        ["scope", "Scope drift", "Agent runs touch unrelated files or product areas without a hard stop."],
+        ["handoff", "Lost handoff", "New sessions or reviewers reconstruct context from chat history."],
+        ["prompts", "Repeated prompt mistakes", "The same prompt weakness returns across models or sessions."],
+        ["review", "Weak PR review", "AI-written code needs a repeatable pre-merge review scorecard."],
+        ["revenue", "Revenue proof risk", "Demand signals, checkout proof, delivery proof, and paid revenue can be confused."],
+        ["setup", "Setup drag", "Building the Notion or CSV workspace from scratch costs more than the pack."]
       ];
 
       const inputs = document.getElementById("inputs");
-      const leaks = document.getElementById("leaks");
-      const weeklyLeak = document.getElementById("weeklyLeak");
-      const monthlyLeak = document.getElementById("monthlyLeak");
+      const signals = document.getElementById("signals");
+      const decisionScore = document.getElementById("decisionScore");
+      const decisionLabel = document.getElementById("decisionLabel");
+      const valueRecovered = document.getElementById("valueRecovered");
+      const netValue = document.getElementById("netValue");
+      const proofScore = document.getElementById("proofScore");
       const breakEven = document.getElementById("breakEven");
-      const leakScore = document.getElementById("leakScore");
-      const fitLabel = document.getElementById("fitLabel");
-      const report = document.getElementById("report");
+      const brief = document.getElementById("brief");
       const orderLink = document.getElementById("orderLink");
       const status = document.getElementById("copyStatus");
 
@@ -485,11 +482,11 @@
         </article>
       `).join("");
 
-      leaks.innerHTML = leakDefs.map(([id, title, description]) => `
-        <article class="leak">
-          <label for="${id}">${title} <span id="${id}_value">2</span></label>
+      signals.innerHTML = signalDefs.map(([id, title, description]) => `
+        <article class="signal">
+          <label for="${id}">${title} <span id="${id}_value">3</span></label>
           <p>${description}</p>
-          <input id="${id}" type="range" min="0" max="5" step="1" value="${id === "weakVerification" || id === "lostHandoff" ? 3 : 2}">
+          <input id="${id}" type="range" min="0" max="5" step="1" value="3">
         </article>
       `).join("");
 
@@ -503,87 +500,85 @@
         return String(value);
       }
 
-      function values() {
+      function inputValues() {
         return Object.fromEntries(inputDefs.map(([id]) => [id, Number(document.getElementById(id).value)]));
       }
 
-      function leakValues() {
-        return leakDefs.map(([id, title]) => ({
+      function signalValues() {
+        return signalDefs.map(([id, title]) => ({
           id,
           title,
           value: Number(document.getElementById(id).value)
         }));
       }
 
-      function labelFor(weekly, score) {
-        if (weekly >= price || score >= 18) return "Likely fit. One avoided cleanup loop can repay the pack quickly.";
-        if (weekly >= price / 2 || score >= 12) return "Conditional fit. Buy if these leaks repeat for more than two weeks.";
-        return "Light fit. Use the free tools first unless review failures keep repeating.";
+      function labelFor(score, value) {
+        if (score >= 70 && value >= price) return "Buy signal. The pack is likely worth requesting when checkout opens.";
+        if (score >= 45 || value >= price) return "Conditional signal. Use the free tools first, then request access if the same gaps repeat.";
+        return "Weak signal. Do not buy yet unless proof gaps become recurring.";
       }
 
       function render() {
-        const v = values();
-        const leakItems = leakValues();
-        const cleanupValue = v.leakedRuns * (v.cleanupMinutes / 60) * v.hourlyValue;
-        const preventableSpend = v.directSpend * (v.preventable / 100);
-        const weekly = Math.max(0, cleanupValue + preventableSpend);
-        const monthly = weekly * 4;
-        const breakEvenWeeks = weekly > 0 ? price / weekly : Infinity;
-        const score = leakItems.reduce((sum, item) => sum + item.value, 0);
-        const topLeaks = leakItems.filter((item) => item.value >= 3).map((item) => item.title);
+        const v = inputValues();
+        const signalItems = signalValues();
+        const recovered = (v.cleanupMinutes / 60) * v.hourlyValue;
+        const net = recovered - price;
+        const breakEvenMinutes = Math.ceil((price / v.hourlyValue) * 60);
+        const signalTotal = signalItems.reduce((sum, item) => sum + item.value, 0);
+        const signalPercent = Math.round((signalTotal / (signalDefs.length * 5)) * 100);
+        const valuePercent = Math.min(100, Math.round((recovered / price) * 50));
+        const score = Math.round((signalPercent * 0.65) + (valuePercent * 0.35));
+        const strongSignals = signalItems.filter((item) => item.value >= 4).map((item) => item.title);
+        const weakSignals = signalItems.filter((item) => item.value <= 1).map((item) => item.title);
 
         for (const [id, , , , , , , suffix] of inputDefs) {
           document.getElementById(`${id}_value`).textContent = formatValue(v[id], suffix);
         }
-        for (const item of leakItems) {
+        for (const item of signalItems) {
           document.getElementById(`${item.id}_value`).textContent = item.value;
         }
 
-        weeklyLeak.textContent = formatMoney(weekly);
-        monthlyLeak.textContent = formatMoney(monthly);
-        breakEven.textContent = Number.isFinite(breakEvenWeeks) ? `${breakEvenWeeks.toFixed(1)}w` : "n/a";
-        leakScore.textContent = `${score}/35`;
-        fitLabel.textContent = labelFor(weekly, score);
+        decisionScore.textContent = score;
+        decisionLabel.textContent = labelFor(score, recovered);
+        valueRecovered.textContent = formatMoney(recovered);
+        netValue.textContent = `${net < 0 ? "-" : ""}${formatMoney(Math.abs(net))}`;
+        proofScore.textContent = `${signalTotal}/35`;
+        breakEven.textContent = `${breakEvenMinutes}m`;
 
-        report.value = [
-          "# AI Agent Cost Leak Audit",
+        brief.value = [
+          "# Agent Ops Command Center Buyer Decision Matrix",
           "",
-          `Estimated weekly leak: ${formatMoney(weekly)}`,
-          `Estimated monthly leak: ${formatMoney(monthly)}`,
-          `Break-even time for $29 pack: ${Number.isFinite(breakEvenWeeks) ? `${breakEvenWeeks.toFixed(1)} weeks` : "not available"}`,
-          `Leak severity score: ${score}/35`,
-          `Recommendation: ${labelFor(weekly, score)}`,
+          `Decision score: ${score}/100`,
+          `Decision: ${labelFor(score, recovered)}`,
+          `Price: $${price}`,
+          `Estimated monthly value recovered: ${formatMoney(recovered)}`,
+          `Net value after price: ${net < 0 ? "-" : ""}${formatMoney(Math.abs(net))}`,
+          `Cleanup minutes to break even: ${breakEvenMinutes}m`,
+          `Agent runs per month: ${v.agentRuns}`,
           "",
-          "Cost assumptions:",
-          `- Agent runs per week: ${v.runsPerWeek}`,
-          `- Runs with cleanup: ${v.leakedRuns}`,
-          `- Cleanup minutes per leaked run: ${v.cleanupMinutes}`,
-          `- Hourly value: $${v.hourlyValue}`,
-          `- Weekly direct tool spend: $${v.directSpend}`,
-          `- Preventable share: ${v.preventable}%`,
+          "Buy signals:",
+          ...signalItems.map((item) => `- ${item.title}: ${item.value}/5`),
           "",
-          `Top leaks: ${topLeaks.length ? topLeaks.join(", ") : "None marked 3-5"}`,
-          "",
-          "Leak detail:",
-          ...leakItems.map((item) => `- ${item.title}: ${item.value}/5`),
+          `Strong signals: ${strongSignals.length ? strongSignals.join(", ") : "None marked 4-5"}`,
+          `Weak signals: ${weakSignals.length ? weakSignals.join(", ") : "None marked 0-1"}`,
           "",
           "Suggested next action:",
-          weekly >= price || score >= 18
-            ? "Use the run log builder for the next agent run, then prepare order intent for the full workspace."
-            : "Use the free maturity check, cost tracker, and run log builder first; request the full workspace if leaks repeat.",
+          score >= 70 && recovered >= price
+            ? "Prepare order intent and approval brief for the full workspace when checkout is available."
+            : "Use the free preview tools first; request access only if these gaps repeat in a real workflow.",
           "",
-          "Cost leak audit: https://ivelly42.github.io/agent-ops-command-center/cost-leak-audit.html",
-          "ROI calculator: https://ivelly42.github.io/agent-ops-command-center/roi-calculator.html",
-          "Order intent: https://ivelly42.github.io/agent-ops-command-center/order-intent.html",
+          "Buyer decision matrix: https://ivelly42.github.io/agent-ops-command-center/buyer-decision-matrix.html",
+          "Approval brief: https://ivelly42.github.io/agent-ops-command-center/purchase-approval-brief.html",
           "Pricing: https://ivelly42.github.io/agent-ops-command-center/pricing.html",
+          "Order intent: https://ivelly42.github.io/agent-ops-command-center/order-intent.html",
           "",
-          "Revenue rule: cost savings and buyer intent are not paid revenue."
+          "Revenue rule: buyer fit and order intent are not paid revenue."
         ].join("\n");
 
         const params = new URLSearchParams({
-          buyer: "Cost leak audit user",
+          buyer: "Buyer decision matrix user",
           tools: "Codex, Claude Code, Cursor, local agents",
-          problem: `${formatMoney(weekly)} estimated weekly leak. Top leaks: ${topLeaks.join(", ") || "not specified"}.`
+          problem: `${score}/100 decision score. Estimated monthly recovered value ${formatMoney(recovered)}. Strong signals: ${strongSignals.join(", ") || "not specified"}.`
         });
         orderLink.href = `order-intent.html?${params.toString()}`;
       }
@@ -591,17 +586,17 @@
       for (const [id] of inputDefs) {
         document.getElementById(id).addEventListener("input", render);
       }
-      for (const [id] of leakDefs) {
+      for (const [id] of signalDefs) {
         document.getElementById(id).addEventListener("input", render);
       }
 
-      document.getElementById("copyReport").addEventListener("click", async () => {
+      document.getElementById("copyBrief").addEventListener("click", async () => {
         try {
-          await navigator.clipboard.writeText(report.value);
-          status.textContent = "Cost leak audit copied.";
+          await navigator.clipboard.writeText(brief.value);
+          status.textContent = "Buyer decision copied.";
         } catch {
-          report.select();
-          status.textContent = "Select and copy the cost leak audit.";
+          brief.select();
+          status.textContent = "Select and copy the buyer decision.";
         }
       });
 

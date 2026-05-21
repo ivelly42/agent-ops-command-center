@@ -18,6 +18,8 @@ Ops maturity check: [ops-maturity-check.html](ops-maturity-check.html)
 
 Cost leak audit tool: [cost-leak-audit.html](cost-leak-audit.html)
 
+Buyer decision matrix tool: [buyer-decision-matrix.html](buyer-decision-matrix.html)
+
 Purchase approval brief builder: [purchase-approval-brief.html](purchase-approval-brief.html)
 
 Run log builder: [run-log-builder.html](run-log-builder.html)
@@ -58,7 +60,7 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.6-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.7-preview
 
 Sample files:
 
@@ -96,6 +98,7 @@ Sample files:
 - [HTML template gallery](template-gallery.html)
 - [Ops maturity check](ops-maturity-check.html)
 - [Cost leak audit tool](cost-leak-audit.html)
+- [Buyer decision matrix tool](buyer-decision-matrix.html)
 - [Purchase approval brief builder](purchase-approval-brief.html)
 - [Run log builder](run-log-builder.html)
 - [Sample dashboard](sample-dashboard.html)

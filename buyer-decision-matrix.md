@@ -67,6 +67,7 @@ Purchase-intent issues, stars, downloads, comments, Gist views, and private inte
 
 ## Public Companion Files
 
+- Interactive buyer decision matrix: https://ivelly42.github.io/agent-ops-command-center/buyer-decision-matrix.html
 - Buyer Decision Matrix Gist: https://gist.github.com/ivelly42/348c406da907bf02c1bf2be20832906c
 - ROI calculator: https://ivelly42.github.io/agent-ops-command-center/agent-ops-roi-calculator.md
 - Product tour: https://ivelly42.github.io/agent-ops-command-center/product-tour.md
