@@ -5,8 +5,15 @@
     <link>https://ivelly42.github.io/agent-ops-command-center/</link>
     <description>Public preview updates for a Notion and spreadsheet template pack for builders running AI coding agents.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 21 May 2026 08:57:00 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 21 May 2026 09:08:00 +0900</lastBuildDate>
     <ttl>1440</ttl>
+    <item>
+      <title>Interactive AI Agent ROI Calculator</title>
+      <link>https://ivelly42.github.io/agent-ops-command-center/roi-calculator.html</link>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/roi-calculator.html</guid>
+      <pubDate>Thu, 21 May 2026 09:08:00 +0900</pubDate>
+      <description>Interactive buyer math for comparing the $29 pack with avoided AI-agent cleanup, verification rework, prompt mistakes, and handoff loss.</description>
+    </item>
     <item>
       <title>AI Agent Template Gallery</title>
       <link>https://ivelly42.github.io/agent-ops-command-center/template-gallery.html</link>

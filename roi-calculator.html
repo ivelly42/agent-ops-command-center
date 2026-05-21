@@ -1,0 +1,413 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AI Agent ROI Calculator | Agent Ops Command Center</title>
+    <meta name="description" content="Interactive ROI calculator for deciding whether a $29 AI coding-agent operations template pack pays for itself through avoided cleanup and verification rework.">
+    <meta property="og:title" content="AI Agent ROI Calculator">
+    <meta property="og:description" content="Calculate whether Agent Ops Command Center pays for itself by preventing repeated AI-agent cleanup, weak verification, prompt mistakes, and handoff loss.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ivelly42.github.io/agent-ops-command-center/roi-calculator.html">
+    <meta property="og:image" content="https://ivelly42.github.io/agent-ops-command-center/og.svg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://ivelly42.github.io/agent-ops-command-center/og.svg">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "AI Agent ROI Calculator",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "Any",
+        "url": "https://ivelly42.github.io/agent-ops-command-center/roi-calculator.html",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "isPartOf": {
+          "@type": "Product",
+          "name": "Agent Ops Command Center",
+          "offers": {
+            "@type": "Offer",
+            "price": "29",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/PreOrder",
+            "url": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml"
+          }
+        }
+      }
+    </script>
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #151515;
+        --muted: #5f5a52;
+        --line: #d8d3ca;
+        --paper: #fbfaf7;
+        --panel: #ffffff;
+        --accent: #0f766e;
+        --blue: #1d4ed8;
+        --gold: #b45309;
+      }
+
+      * { box-sizing: border-box; }
+
+      body {
+        margin: 0;
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        color: var(--ink);
+        background: var(--paper);
+      }
+
+      header, main, footer {
+        width: min(1120px, calc(100% - 40px));
+        margin: 0 auto;
+      }
+
+      header {
+        min-height: 72px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .brand {
+        font-weight: 800;
+      }
+
+      nav {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+        font-size: 14px;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      .hero {
+        padding: 64px 0 42px;
+        display: grid;
+        grid-template-columns: minmax(0, 0.95fr) minmax(360px, 1.05fr);
+        gap: 48px;
+        align-items: center;
+      }
+
+      .eyebrow {
+        color: var(--accent);
+        font-size: 14px;
+        font-weight: 800;
+        margin-bottom: 14px;
+      }
+
+      h1 {
+        font-size: clamp(42px, 7vw, 76px);
+        line-height: 0.98;
+        margin: 0 0 20px;
+        letter-spacing: 0;
+      }
+
+      .lead {
+        color: var(--muted);
+        font-size: 20px;
+        line-height: 1.5;
+        margin: 0;
+        max-width: 700px;
+      }
+
+      .actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 24px;
+      }
+
+      .button {
+        min-height: 44px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid var(--ink);
+        border-radius: 8px;
+        padding: 0 16px;
+        font-weight: 800;
+      }
+
+      .button.primary {
+        background: var(--ink);
+        color: #fff;
+      }
+
+      .calculator {
+        background: var(--panel);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 22px;
+        box-shadow: 0 24px 80px rgba(21, 21, 21, 0.12);
+      }
+
+      .field {
+        margin-bottom: 18px;
+      }
+
+      label {
+        display: flex;
+        justify-content: space-between;
+        gap: 16px;
+        font-weight: 800;
+        margin-bottom: 8px;
+      }
+
+      label span {
+        color: var(--muted);
+        font-weight: 700;
+      }
+
+      input[type="range"] {
+        width: 100%;
+        accent-color: var(--accent);
+      }
+
+      .results {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 12px;
+        margin-top: 20px;
+      }
+
+      .result {
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 16px;
+        background: #f7f5f0;
+      }
+
+      .result strong {
+        display: block;
+        font-size: 30px;
+        line-height: 1;
+        margin-bottom: 8px;
+      }
+
+      .result span {
+        color: var(--muted);
+        font-size: 14px;
+      }
+
+      .decision {
+        border-left: 4px solid var(--accent);
+        background: #f7f5f0;
+        color: var(--muted);
+        margin-top: 18px;
+        padding: 16px 18px;
+        line-height: 1.5;
+      }
+
+      section {
+        padding: 34px 0;
+        border-top: 1px solid var(--line);
+      }
+
+      h2 {
+        font-size: clamp(28px, 4vw, 46px);
+        margin: 0 0 18px;
+        letter-spacing: 0;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 14px;
+      }
+
+      .item {
+        background: var(--panel);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 18px;
+      }
+
+      .item h3 {
+        margin: 0 0 10px;
+        font-size: 20px;
+      }
+
+      .item p {
+        color: var(--muted);
+        line-height: 1.45;
+        margin: 0;
+      }
+
+      .notice {
+        border-left: 4px solid var(--gold);
+        background: var(--panel);
+        color: var(--muted);
+        padding: 18px 20px;
+        line-height: 1.55;
+      }
+
+      footer {
+        color: var(--muted);
+        padding: 36px 0 48px;
+      }
+
+      @media (max-width: 840px) {
+        header {
+          align-items: flex-start;
+          flex-direction: column;
+          gap: 14px;
+          padding: 18px 0;
+        }
+
+        .hero {
+          grid-template-columns: 1fr;
+          padding-top: 44px;
+        }
+
+        .results, .grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a class="brand" href="index.html">Agent Ops Command Center</a>
+      <nav aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="template-gallery.html">Gallery</a>
+        <a href="roi-calculator.html">ROI</a>
+        <a href="product-tour.md">Tour</a>
+        <a href="github-preview-index.md">Index</a>
+        <a href="https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml">Order</a>
+      </nav>
+    </header>
+
+    <main>
+      <div class="hero">
+        <div>
+          <div class="eyebrow">Interactive buyer math for AI-agent operators</div>
+          <h1>Find the break-even point before buying.</h1>
+          <p class="lead">Agent Ops Command Center costs $29. If it prevents one messy agent cleanup, missed verification pass, or lost handoff, the pack can pay for itself quickly.</p>
+          <div class="actions">
+            <a class="button primary" href="https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml">Request early access</a>
+            <a class="button" href="template-gallery.html">Template gallery</a>
+            <a class="button" href="https://github.com/ivelly42/agent-ops-command-center/releases/tag/v4.9-preview">Preview release</a>
+          </div>
+        </div>
+
+        <form class="calculator" aria-label="ROI calculator">
+          <div class="field">
+            <label for="minutes">Cleanup minutes avoided per week <span id="minutesValue">30</span></label>
+            <input id="minutes" type="range" min="5" max="240" step="5" value="30">
+          </div>
+          <div class="field">
+            <label for="hourly">Hourly value <span id="hourlyValue">$50</span></label>
+            <input id="hourly" type="range" min="15" max="200" step="5" value="50">
+          </div>
+          <div class="field">
+            <label for="weeks">Weeks used <span id="weeksValue">4</span></label>
+            <input id="weeks" type="range" min="1" max="26" step="1" value="4">
+          </div>
+          <div class="results">
+            <div class="result">
+              <strong id="valueRecovered">$100</strong>
+              <span>Estimated value recovered</span>
+            </div>
+            <div class="result">
+              <strong id="netValue">$71</strong>
+              <span>Value after $29 pack price</span>
+            </div>
+            <div class="result">
+              <strong id="breakEvenMinutes">35m</strong>
+              <span>One-time cleanup minutes to break even</span>
+            </div>
+            <div class="result">
+              <strong id="monthlyValue">$100</strong>
+              <span>Four-week value at this pace</span>
+            </div>
+          </div>
+          <div class="decision" id="decision">Clear yes if the pack prevents this level of cleanup.</div>
+        </form>
+      </div>
+
+      <section>
+        <h2>Where The Savings Come From</h2>
+        <div class="grid">
+          <article class="item">
+            <h3>Verification Gaps</h3>
+            <p>Done claims without exact commands, screenshots, release assets, or receipts create re-check work.</p>
+          </article>
+          <article class="item">
+            <h3>Repeated Prompt Mistakes</h3>
+            <p>Weak prompts keep failing until the pattern is recorded, versioned, and tested.</p>
+          </article>
+          <article class="item">
+            <h3>Lost Handoffs</h3>
+            <p>New sessions restart investigation when scope, files, blockers, and proof are not preserved.</p>
+          </article>
+        </div>
+      </section>
+
+      <section>
+        <h2>Decision Rule</h2>
+        <div class="notice">
+          At the $29 target price, seven paid orders reach $203 gross. This calculator is a buyer decision tool only. Revenue is still counted only from checkout, receipt, payout, or seller-dashboard evidence.
+        </div>
+        <div class="actions">
+          <a class="button primary" href="https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml">Open order request</a>
+          <a class="button" href="buyer-decision-matrix.md">Buyer matrix</a>
+          <a class="button" href="purchase-approval-brief.md">Approval brief</a>
+          <a class="button" href="metrics/status.json">Demand metrics</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      Buyer math first. Revenue proof only after payment evidence.
+    </footer>
+
+    <script>
+      const price = 29;
+      const minutes = document.getElementById("minutes");
+      const hourly = document.getElementById("hourly");
+      const weeks = document.getElementById("weeks");
+      const money = new Intl.NumberFormat("en-US", { style: "currency", currency: "USD", maximumFractionDigits: 0 });
+
+      function render() {
+        const minutesSaved = Number(minutes.value);
+        const hourlyValue = Number(hourly.value);
+        const weeksUsed = Number(weeks.value);
+        const valueRecovered = (minutesSaved / 60) * hourlyValue * weeksUsed;
+        const monthlyValue = (minutesSaved / 60) * hourlyValue * 4;
+        const breakEvenMinutes = Math.ceil((price / hourlyValue) * 60);
+        const netValue = valueRecovered - price;
+
+        document.getElementById("minutesValue").textContent = `${minutesSaved}m`;
+        document.getElementById("hourlyValue").textContent = money.format(hourlyValue);
+        document.getElementById("weeksValue").textContent = `${weeksUsed}`;
+        document.getElementById("valueRecovered").textContent = money.format(valueRecovered);
+        document.getElementById("netValue").textContent = money.format(netValue);
+        document.getElementById("breakEvenMinutes").textContent = `${breakEvenMinutes}m`;
+        document.getElementById("monthlyValue").textContent = money.format(monthlyValue);
+
+        let message = "Use the free preview first if this does not reach break-even.";
+        if (valueRecovered >= price * 4) {
+          message = "Strong yes if these cleanup savings are realistic for your workflow.";
+        } else if (valueRecovered >= price) {
+          message = "Break-even reached. The pack is worth considering if the workflow repeats.";
+        }
+        document.getElementById("decision").textContent = message;
+      }
+
+      for (const input of [minutes, hourly, weeks]) {
+        input.addEventListener("input", render);
+      }
+      render();
+    </script>
+  </body>
+</html>

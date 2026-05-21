@@ -30,6 +30,7 @@ body:
         Preview index: https://ivelly42.github.io/agent-ops-command-center/github-preview-index.md
         Public Gist mirror: https://gist.github.com/ivelly42/c65a80192a848892d1196242027dc7a9
         HTML template gallery: https://ivelly42.github.io/agent-ops-command-center/template-gallery.html
+        Interactive ROI calculator: https://ivelly42.github.io/agent-ops-command-center/roi-calculator.html
   - type: dropdown
     id: checkout
     attributes:

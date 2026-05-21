@@ -14,6 +14,8 @@ Catalog: [catalog.json](catalog.json)
 
 HTML gallery: [template-gallery.html](template-gallery.html)
 
+Interactive ROI calculator: [roi-calculator.html](roi-calculator.html)
+
 Early access: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml
 
 Support: [SUPPORT.md](SUPPORT.md)
@@ -42,7 +44,7 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v4.8-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v4.9-preview
 
 Sample files:
 
@@ -78,6 +80,7 @@ Sample files:
 - [RSS feed](feed.xml)
 - [Machine-readable catalog](catalog.json)
 - [HTML template gallery](template-gallery.html)
+- [Interactive ROI calculator](roi-calculator.html)
 - [GitHub issue index](https://github.com/ivelly42/agent-ops-command-center/issues/2)
 - [Product tour](product-tour.md)
 - [AI Agent Ops ROI Calculator](agent-ops-roi-calculator.md)

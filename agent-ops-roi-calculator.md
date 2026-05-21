@@ -4,6 +4,8 @@ Use this simple calculator to decide whether a structured AI-agent operations wo
 
 The paid Agent Ops Command Center pack target price is `$29`. The launch goal is 7 paid orders, or `$203` gross.
 
+Interactive HTML calculator: https://ivelly42.github.io/agent-ops-command-center/roi-calculator.html
+
 ## Fast Break-Even Math
 
 | If the workspace saves... | At an effective hourly value of... | Value recovered |
