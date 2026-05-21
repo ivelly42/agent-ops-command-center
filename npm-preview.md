@@ -12,6 +12,9 @@ npx github:ivelly42/agent-ops-command-center --json
 - Routes payment-ready buyers to the `$203` team-license request path
 - Keeps the paid ZIP private
 - Preserves the revenue rule that only checkout, receipt, payout, or seller-dashboard evidence counts as revenue
+- Links the public payment-ready npm/autoreply Discussion for teams evaluating checkout readiness
+
+Discussion: https://github.com/ivelly42/agent-ops-command-center/discussions/10
 
 ## Main Commands
 

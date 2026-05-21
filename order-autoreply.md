@@ -8,6 +8,9 @@ The workflow runs when a public issue is opened, reopened, or labeled.
 
 It replies only when the issue has an order-intent label or order-intent title/body text.
 
+Public discussion for the payment-ready npm preview and autoreply path:
+https://github.com/ivelly42/agent-ops-command-center/discussions/10
+
 ## What The Reply Says
 
 - Checkout is not live yet

@@ -134,7 +134,7 @@ The pack breaks even if it prevents roughly one hour of cleanup time for a build
 - Run log template: https://ivelly42.github.io/agent-ops-command-center/codex-claude-run-log-template.md
 - Failure RCA template: https://ivelly42.github.io/agent-ops-command-center/failure-rca-template.md
 - Preflight checklist: https://ivelly42.github.io/agent-ops-command-center/checklist.md
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.93-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.94-preview
 - Buy page: https://ivelly42.github.io/agent-ops-command-center/buy.html
 - Payment-ready issue form: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml
 - GitHub Pages payment-ready mirror: https://ivelly42.github.io/ai-agent-payment-ready-template/
@@ -147,6 +147,7 @@ The pack breaks even if it prevents roughly one hour of cleanup time for a build
 - NPM preview docs: https://ivelly42.github.io/agent-ops-command-center/npm-preview.md
 - Order autoreply workflow: https://ivelly42.github.io/agent-ops-command-center/order-autoreply.md
 - Autoreply source: https://github.com/ivelly42/agent-ops-command-center/blob/main/.github/workflows/order-autoreply.yml
+- Payment-ready npm/autoreply Discussion: https://github.com/ivelly42/agent-ops-command-center/discussions/10
 - Fast team checkout request: https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html
 - Fast template pack request page: https://ivelly42.github.io/agent-ops-command-center/template-pack-request.html
 - Fast template pack request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml
@@ -220,6 +221,7 @@ The pack breaks even if it prevents roughly one hour of cleanup time for a build
 - Use software purchase request mirror: https://github.com/ivelly42/ai-agent-software-purchase-request-template/generate
 - GitHub software purchase request Discussion: https://github.com/ivelly42/agent-ops-command-center/discussions/7
 - GitHub budget request email Discussion: https://github.com/ivelly42/agent-ops-command-center/discussions/8
+- GitHub payment-ready npm/autoreply Discussion: https://github.com/ivelly42/agent-ops-command-center/discussions/10
 - GitHub budget request issue form: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=budget-request.yml
 - GitHub template pack Gist: https://gist.github.com/ivelly42/dac26c33334ab9b3367d2fc490c7aef5
 - GitHub template pack Discussion: https://github.com/ivelly42/agent-ops-command-center/discussions/5

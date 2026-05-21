@@ -34,6 +34,8 @@ Order autoreply workflow: https://ivelly42.github.io/agent-ops-command-center/or
 
 Autoreply source: https://github.com/ivelly42/agent-ops-command-center/blob/main/.github/workflows/order-autoreply.yml
 
+Payment-ready npm/autoreply Discussion: https://github.com/ivelly42/agent-ops-command-center/discussions/10
+
 Fast team checkout request: [team-checkout-request.html](team-checkout-request.html)
 
 Fast template pack request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml
@@ -228,6 +230,8 @@ GitHub software purchase request Discussion: https://github.com/ivelly42/agent-o
 
 GitHub budget request email Discussion: https://github.com/ivelly42/agent-ops-command-center/discussions/8
 
+GitHub payment-ready npm/autoreply Discussion: https://github.com/ivelly42/agent-ops-command-center/discussions/10
+
 GitHub budget request issue form: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=budget-request.yml
 
 GitHub client delivery mirror: https://github.com/ivelly42/ai-agent-client-delivery-kit
@@ -333,7 +337,7 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.93-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.94-preview
 
 Sample files:
 

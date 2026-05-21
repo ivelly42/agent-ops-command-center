@@ -8,6 +8,7 @@ const links = {
   teamCheckoutRequest: "https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html",
   catalog: "https://ivelly42.github.io/agent-ops-command-center/catalog.json",
   metrics: "https://ivelly42.github.io/agent-ops-command-center/metrics/status.json",
+  paymentReadyNpmAutoreplyDiscussion: "https://github.com/ivelly42/agent-ops-command-center/discussions/10",
   release: "https://github.com/ivelly42/agent-ops-command-center/releases/latest"
 };
 
