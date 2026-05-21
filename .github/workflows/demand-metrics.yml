@@ -50,6 +50,7 @@ jobs:
               return hasLabel(issue, "order-request") ||
                 text.includes("Order request: Agent Ops Command Center") ||
                 text.includes("Fast team checkout request: Agent Ops Command Center") ||
+                text.includes("Invoice request packet: Agent Ops Command Center") ||
                 text.includes("Request package: Team license - 7 seats - $203 gross") ||
                 text.includes("Request package: Individual seat - $29");
             };

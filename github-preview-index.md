@@ -16,6 +16,7 @@ The full paid pack is not published publicly. This index links every public prev
 - Team purchase packet: https://ivelly42.github.io/agent-ops-command-center/team-purchase-packet.html
 - Team procurement email kit: https://ivelly42.github.io/agent-ops-command-center/team-procurement-email.html
 - Team invoice request packet: https://ivelly42.github.io/agent-ops-command-center/team-invoice-request.html
+- Team invoice direct request: https://ivelly42.github.io/agent-ops-command-center/team-invoice-request.html
 - Team security review packet: https://ivelly42.github.io/agent-ops-command-center/team-security-review.html
 - Team rollout plan: https://ivelly42.github.io/agent-ops-command-center/team-rollout-plan.html
 - Team license terms packet: https://ivelly42.github.io/agent-ops-command-center/team-license-terms.html
@@ -105,7 +106,7 @@ The full paid pack is not published publicly. This index links every public prev
 - GitHub issue index: https://github.com/ivelly42/agent-ops-command-center/issues/2
 - RSS feed: https://ivelly42.github.io/agent-ops-command-center/feed.xml
 - Machine-readable catalog: https://ivelly42.github.io/agent-ops-command-center/catalog.json
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.44-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.45-preview
 - Buy page: https://ivelly42.github.io/agent-ops-command-center/buy.html
 - Fast team checkout request: https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html
 - Client delivery kit: https://ivelly42.github.io/agent-ops-command-center/client-delivery-kit.html
@@ -124,6 +125,7 @@ The full paid pack is not published publicly. This index links every public prev
 - Team purchase packet: https://ivelly42.github.io/agent-ops-command-center/team-purchase-packet.html
 - Team procurement email kit: https://ivelly42.github.io/agent-ops-command-center/team-procurement-email.html
 - Team invoice request packet: https://ivelly42.github.io/agent-ops-command-center/team-invoice-request.html
+- Team invoice direct request: https://ivelly42.github.io/agent-ops-command-center/team-invoice-request.html
 - Team security review packet: https://ivelly42.github.io/agent-ops-command-center/team-security-review.html
 - Team rollout plan: https://ivelly42.github.io/agent-ops-command-center/team-rollout-plan.html
 - Team license terms packet: https://ivelly42.github.io/agent-ops-command-center/team-license-terms.html
@@ -173,6 +175,7 @@ The full paid pack is not published publicly. This index links every public prev
 | Team Purchase Packet | Route team buyers through proof, quote, approval, and checkout request |
 | Team Procurement Email Kit | Generate manager approval, procurement, and checkout-request email text for a $203 team license |
 | Team Invoice Request Packet | Prepare billing, invoice, PO, receipt, and delivery-proof details for a $203 team license |
+| Team Invoice Direct Request | Open a prefilled invoice-request issue with team-license wording that demand metrics can classify |
 | Team Security Review Packet | Prepare data, access, delivery, and acceptance-review notes for a $203 team license |
 | Team Rollout Plan | Prepare first-week adoption, verification, review, and delivery-proof steps for a $203 team license |
 | Team License Terms Packet | Prepare commercial-use, sharing, support, refund, update, and delivery-boundary terms for a $203 team license |

@@ -44,6 +44,8 @@ Team procurement email kit: [team-procurement-email.html](team-procurement-email
 
 Team invoice request packet: [team-invoice-request.html](team-invoice-request.html)
 
+Team invoice direct request: [team-invoice-request.html](team-invoice-request.html)
+
 Team security review packet: [team-security-review.html](team-security-review.html)
 
 Team rollout plan: [team-rollout-plan.html](team-rollout-plan.html)
@@ -133,7 +135,7 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.44-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.45-preview
 
 Sample files:
 
@@ -187,6 +189,7 @@ Sample files:
 - [Team purchase packet](team-purchase-packet.html)
 - [Team procurement email kit](team-procurement-email.html)
 - [Team invoice request packet](team-invoice-request.html)
+- [Team invoice direct request](team-invoice-request.html)
 - [Team security review packet](team-security-review.html)
 - [Team rollout plan](team-rollout-plan.html)
 - [Team license terms packet](team-license-terms.html)

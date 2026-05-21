@@ -356,7 +356,7 @@
           <h1>Prepare the $203 invoice request before checkout exists.</h1>
           <p class="lead">Collect billing, purchase-order, receipt, and delivery-proof details for the seven-seat Agent Ops Command Center team license.</p>
           <div class="actions">
-            <a class="button primary" href="https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml">Request team checkout</a>
+            <a class="button primary" id="invoiceIssueTop" href="https://github.com/ivelly42/agent-ops-command-center/issues/new">Open prefilled invoice request</a>
             <a class="button" href="team-procurement-email.html">Email kit</a>
             <a class="button" href="team-purchase-packet.html">Team purchase packet</a>
             <a class="button" href="team-security-review.html">Security review</a>
@@ -455,7 +455,7 @@
         <textarea id="request" readonly></textarea>
         <div class="actions">
           <button class="button primary" type="button" id="copyRequest">Copy invoice request</button>
-          <a class="button" href="https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml">Open order request</a>
+          <a class="button" id="invoiceIssueGenerated" href="https://github.com/ivelly42/agent-ops-command-center/issues/new">Open prefilled invoice request</a>
           <a class="button" href="team-procurement-email.html">Email kit</a>
         </div>
         <div class="status" id="copyStatus" aria-live="polite"></div>
@@ -506,7 +506,7 @@
           This invoice request packet does not issue an invoice, create checkout, prove payment, publish the paid ZIP, or count as revenue. Gross revenue is counted only from checkout, receipt, payout, or seller-dashboard evidence.
         </div>
         <div class="actions">
-          <a class="button primary" href="https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml">Request team checkout</a>
+          <a class="button primary" id="invoiceIssueBottom" href="https://github.com/ivelly42/agent-ops-command-center/issues/new">Open prefilled invoice request</a>
           <a class="button" href="metrics/status.json">Demand metrics</a>
           <a class="button" href="team-procurement-email.html">Email kit</a>
         </div>
@@ -523,6 +523,8 @@
       const status = document.getElementById("copyStatus");
       const totalDisplay = document.getElementById("total");
       const seatDisplay = document.getElementById("seatCount");
+      const issueTargets = ["invoiceIssueTop", "invoiceIssueGenerated", "invoiceIssueBottom"]
+        .map((id) => document.getElementById(id));
 
       function dollars(value) {
         return `$${value.toLocaleString("en-US")}`;
@@ -549,9 +551,11 @@
         request.value = [
           "Invoice request packet: Agent Ops Command Center",
           "",
+          "Request package: Team license - 7 seats - $203 gross",
+          "Purchase intent: Ready to pay $203 for the team license when checkout is ready",
           `Buyer/team: ${buyer}`,
           `Billing contact: ${billing}`,
-          `Requested package: ${seats} seats`,
+          `Requested seats: ${seats}`,
           "Price per seat: $29",
           `Gross quote amount: ${dollars(total)}`,
           `Invoice requirement: ${invoice}`,
@@ -583,6 +587,13 @@
           "",
           "Revenue rule: this invoice request is not revenue. Count gross revenue only from checkout, receipt, payout, or seller-dashboard evidence."
         ].join("\n");
+
+        const issueUrl = new URL("https://github.com/ivelly42/agent-ops-command-center/issues/new");
+        issueUrl.searchParams.set("title", "Invoice request packet: Agent Ops Command Center team license");
+        issueUrl.searchParams.set("body", request.value);
+        for (const target of issueTargets) {
+          target.href = issueUrl.toString();
+        }
       }
 
       for (const id of fields) {

@@ -40,6 +40,8 @@ Team procurement email kit: https://ivelly42.github.io/agent-ops-command-center/
 
 Team invoice request packet: https://ivelly42.github.io/agent-ops-command-center/team-invoice-request.html
 
+Team invoice direct request: https://ivelly42.github.io/agent-ops-command-center/team-invoice-request.html
+
 Team security review packet: https://ivelly42.github.io/agent-ops-command-center/team-security-review.html
 
 Team rollout plan: https://ivelly42.github.io/agent-ops-command-center/team-rollout-plan.html
@@ -275,7 +277,7 @@ GitHub issue index: https://github.com/ivelly42/agent-ops-command-center/issues/
 
 Early access request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.44-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.45-preview
 
 Sample run log CSV: https://ivelly42.github.io/agent-ops-command-center/sample/run_log_sample.csv
 
