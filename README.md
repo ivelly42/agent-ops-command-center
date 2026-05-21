@@ -178,6 +178,8 @@ GitHub software purchase request mirror Pages: https://ivelly42.github.io/ai-age
 
 Use software purchase request mirror as GitHub template: https://github.com/ivelly42/ai-agent-software-purchase-request-template/generate
 
+GitHub software purchase request Discussion: https://github.com/ivelly42/agent-ops-command-center/discussions/7
+
 GitHub client delivery mirror: https://github.com/ivelly42/ai-agent-client-delivery-kit
 
 GitHub client delivery mirror Pages: https://ivelly42.github.io/ai-agent-client-delivery-kit/
@@ -279,7 +281,7 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.76-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.77-preview
 
 Sample files:
 
@@ -400,6 +402,7 @@ Sample files:
 - [GitHub software purchase request mirror Pages](https://ivelly42.github.io/ai-agent-software-purchase-request-template/)
 - [GitHub software purchase request mirror](https://github.com/ivelly42/ai-agent-software-purchase-request-template)
 - [Use software purchase request mirror](https://github.com/ivelly42/ai-agent-software-purchase-request-template/generate)
+- [GitHub software purchase request Discussion](https://github.com/ivelly42/agent-ops-command-center/discussions/7)
 - [GitHub client delivery mirror Pages](https://ivelly42.github.io/ai-agent-client-delivery-kit/)
 - [GitHub client delivery mirror](https://github.com/ivelly42/ai-agent-client-delivery-kit)
 - [Team purchase packet](team-purchase-packet.html)
