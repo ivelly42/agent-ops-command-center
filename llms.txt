@@ -104,6 +104,12 @@ GitHub risk register mirror Pages: https://ivelly42.github.io/ai-agent-risk-regi
 
 Use risk register mirror as GitHub template: https://github.com/ivelly42/ai-agent-risk-register-template/generate
 
+GitHub access review mirror: https://github.com/ivelly42/ai-agent-access-review-template
+
+GitHub access review mirror Pages: https://ivelly42.github.io/ai-agent-access-review-template/
+
+Use access review mirror as GitHub template: https://github.com/ivelly42/ai-agent-access-review-template/generate
+
 GitHub client delivery mirror: https://github.com/ivelly42/ai-agent-client-delivery-kit
 
 GitHub client delivery mirror Pages: https://ivelly42.github.io/ai-agent-client-delivery-kit/
@@ -399,6 +405,12 @@ AI agent risk register mirror Pages: https://ivelly42.github.io/ai-agent-risk-re
 
 AI agent risk register GitHub template: https://github.com/ivelly42/ai-agent-risk-register-template/generate
 
+AI agent access review GitHub mirror: https://github.com/ivelly42/ai-agent-access-review-template
+
+AI agent access review mirror Pages: https://ivelly42.github.io/ai-agent-access-review-template/
+
+AI agent access review GitHub template: https://github.com/ivelly42/ai-agent-access-review-template/generate
+
 AI agent client delivery GitHub mirror: https://github.com/ivelly42/ai-agent-client-delivery-kit
 
 AI agent client delivery mirror Pages: https://ivelly42.github.io/ai-agent-client-delivery-kit/
@@ -429,7 +441,7 @@ Fast template pack request: https://github.com/ivelly42/agent-ops-command-center
 
 Fast template pack request page: https://ivelly42.github.io/agent-ops-command-center/template-pack-request.html
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.64-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.65-preview
 
 Sample run log CSV: https://ivelly42.github.io/agent-ops-command-center/sample/run_log_sample.csv
 

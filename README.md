@@ -110,6 +110,12 @@ GitHub risk register mirror Pages: https://ivelly42.github.io/ai-agent-risk-regi
 
 Use risk register mirror as GitHub template: https://github.com/ivelly42/ai-agent-risk-register-template/generate
 
+GitHub access review mirror: https://github.com/ivelly42/ai-agent-access-review-template
+
+GitHub access review mirror Pages: https://ivelly42.github.io/ai-agent-access-review-template/
+
+Use access review mirror as GitHub template: https://github.com/ivelly42/ai-agent-access-review-template/generate
+
 GitHub client delivery mirror: https://github.com/ivelly42/ai-agent-client-delivery-kit
 
 GitHub client delivery mirror Pages: https://ivelly42.github.io/ai-agent-client-delivery-kit/
@@ -211,7 +217,7 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.64-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.65-preview
 
 Sample files:
 
@@ -298,6 +304,9 @@ Sample files:
 - [GitHub risk register mirror Pages](https://ivelly42.github.io/ai-agent-risk-register-template/)
 - [GitHub risk register mirror](https://github.com/ivelly42/ai-agent-risk-register-template)
 - [Use risk register mirror](https://github.com/ivelly42/ai-agent-risk-register-template/generate)
+- [GitHub access review mirror Pages](https://ivelly42.github.io/ai-agent-access-review-template/)
+- [GitHub access review mirror](https://github.com/ivelly42/ai-agent-access-review-template)
+- [Use access review mirror](https://github.com/ivelly42/ai-agent-access-review-template/generate)
 - [GitHub client delivery mirror Pages](https://ivelly42.github.io/ai-agent-client-delivery-kit/)
 - [GitHub client delivery mirror](https://github.com/ivelly42/ai-agent-client-delivery-kit)
 - [Team purchase packet](team-purchase-packet.html)
