@@ -1,7 +1,7 @@
 {
   "name": "Agent Ops Command Center",
   "description": "Notion and spreadsheet template pack for builders running AI coding agents.",
-  "version": "v5.104-preview",
+  "version": "v5.105-preview",
   "price_usd": 29,
   "individual_price_usd": 29,
   "team_license_price_usd": 203,
@@ -15,7 +15,7 @@
   "status": "preview_live_no_paid_checkout",
   "homepage": "https://ivelly42.github.io/agent-ops-command-center/",
   "social_image": "https://ivelly42.github.io/agent-ops-command-center/og.png",
-  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.104-preview",
+  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.105-preview",
   "early_access_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml",
   "template_pack_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml",
   "template_pack_request_page": "https://ivelly42.github.io/agent-ops-command-center/template-pack-request.html",
@@ -60,6 +60,15 @@
   "paid_zip_public": false,
   "revenue_rule": "Revenue is proven only by checkout, receipt, payout, or seller-dashboard evidence.",
   "public_assets": [
+    {
+      "title": "NPM Team Request CLI Discussion",
+      "url": "https://github.com/ivelly42/agent-ops-command-center/discussions/11",
+      "docs": "https://ivelly42.github.io/agent-ops-command-center/npm-preview.md",
+      "command": "npx github:ivelly42/agent-ops-command-center --team-request-url",
+      "announcement_skip_guard": "agent-ops-announcement-not-buyer-intent",
+      "workflow_validation": "Discussion autoreply run 26247132846 skipped the announcement without creating a bridged order issue",
+      "revenue_rule": "The Discussion is a launch note, not revenue or buyer intent. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence."
+    },
     {
       "title": "NPM Team Request CLI",
       "url": "https://ivelly42.github.io/agent-ops-command-center/npm-preview.md",
@@ -955,8 +964,9 @@
     "command": "npx github:ivelly42/agent-ops-command-center --json",
     "team_request_url_command": "npx github:ivelly42/agent-ops-command-center --team-request-url",
     "team_request_markdown_command": "npx github:ivelly42/agent-ops-command-center --team-request-markdown",
+    "team_request_discussion": "https://github.com/ivelly42/agent-ops-command-center/discussions/11",
     "package_name": "agent-ops-command-center",
-    "package_version": "0.5.104",
+    "package_version": "0.5.105",
     "bin": [
       "agent-ops-command-center",
       "agent-ops"
@@ -968,10 +978,12 @@
     "revenue_rule": "Installing or running this preview is not revenue. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence.",
     "discussion": "https://github.com/ivelly42/agent-ops-command-center/discussions/10"
   },
+  "github_npm_team_request_cli_discussion": "https://github.com/ivelly42/agent-ops-command-center/discussions/11",
   "npm_team_request_cli": {
-    "updated_at_kst": "2026-05-22 04:00",
+    "updated_at_kst": "2026-05-22 04:05",
     "command": "npx github:ivelly42/agent-ops-command-center --team-request-url",
     "markdown_command": "npx github:ivelly42/agent-ops-command-center --team-request-markdown",
+    "discussion": "https://github.com/ivelly42/agent-ops-command-center/discussions/11",
     "request_package": "Team license - 7 seats - $203 gross",
     "output": "prefilled GitHub issue URL and copy-ready markdown for a payment-ready team request",
     "request_text_markers": [
@@ -1059,6 +1071,7 @@
       "workflow_dispatch dry run"
     ],
     "duplicate_guard": "hidden marker comment",
+    "announcement_skip_guard": "agent-ops-announcement-not-buyer-intent",
     "buyer_intent_signals": [
       "buy",
       "purchase",
@@ -1080,6 +1093,7 @@
     "revenue_rule": "Discussion activity is not revenue. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence.",
     "dispatch_validation": "workflow_dispatch reads context.payload.inputs for discussion_number and dry_run",
     "graphql_validation": "discussion comments query uses comments(first: 100) without orderBy",
+    "announcement_skip_validation": "discussion #11 used the skip marker and workflow run 26247132846 did not create a bridged order issue",
     "issue_bridge": {
       "updated_at_kst": "2026-05-22 03:38",
       "workflow": "https://github.com/ivelly42/agent-ops-command-center/blob/main/.github/workflows/discussion-autoreply.yml",

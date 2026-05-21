@@ -18,6 +18,8 @@ npx github:ivelly42/agent-ops-command-center --json
 
 Discussion: https://github.com/ivelly42/agent-ops-command-center/discussions/10
 
+Team request CLI Discussion: https://github.com/ivelly42/agent-ops-command-center/discussions/11
+
 ## Main Commands
 
 ```bash
