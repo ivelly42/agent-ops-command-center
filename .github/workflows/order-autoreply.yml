@@ -55,6 +55,39 @@ jobs:
             }
 
             const { owner, repo } = context.repo;
+            const labelsToAdd = new Set();
+            const addIfMissing = (label) => {
+              if (!labels.includes(label)) labelsToAdd.add(label);
+            };
+
+            addIfMissing("order-request");
+            if (text.includes("Payment-ready request: Agent Ops Command Center") ||
+              text.includes("Ready to pay $203") ||
+              text.includes("Purchase intent: Ready to pay") ||
+              text.includes("Preferred checkout")) {
+              addIfMissing("payment-ready");
+            }
+            if (text.includes("Template pack request: Agent Ops Command Center")) addIfMissing("template-pack-request");
+            if (text.includes("Budget request: Agent Ops Command Center")) addIfMissing("budget-request");
+            if (text.includes("Invoice request: Agent Ops Command Center")) addIfMissing("invoice-request");
+            if (text.includes("Expense report request: Agent Ops Command Center")) addIfMissing("expense-report");
+            if (text.includes("Quote request: Agent Ops Command Center")) addIfMissing("quote-request");
+            if (text.includes("Purchase order request: Agent Ops Command Center")) addIfMissing("purchase-order");
+            if (text.includes("Vendor onboarding request: Agent Ops Command Center")) addIfMissing("vendor-onboarding");
+            if (text.includes("Security review request: Agent Ops Command Center")) addIfMissing("security-review");
+            if (text.includes("Delivery acceptance request: Agent Ops Command Center")) addIfMissing("delivery-acceptance");
+            if (labelsToAdd.size > 0) labelsToAdd.add("order-autolabeled");
+
+            const addMissingLabels = async () => {
+              if (labelsToAdd.size === 0) return;
+              await github.rest.issues.addLabels({
+                owner,
+                repo,
+                issue_number: issue.number,
+                labels: Array.from(labelsToAdd).sort()
+              });
+            };
+
             const comments = await github.paginate(github.rest.issues.listComments, {
               owner,
               repo,
@@ -62,6 +95,7 @@ jobs:
               per_page: 100
             });
             if (comments.some((comment) => (comment.body || "").includes(marker))) {
+              await addMissingLabels();
               core.info("Autoreply already exists; skipping duplicate.");
               return;
             }
@@ -96,3 +130,4 @@ jobs:
               issue_number: issue.number,
               body: reply
             });
+            await addMissingLabels();

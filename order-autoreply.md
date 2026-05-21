@@ -8,6 +8,8 @@ The workflow runs when a public issue is opened, reopened, or labeled.
 
 It replies only when the issue has an order-intent label or order-intent title/body text.
 
+It also adds missing order-intent labels when a prefilled public issue contains recognizable request text.
+
 Public discussion for the payment-ready npm preview and autoreply path:
 https://github.com/ivelly42/agent-ops-command-center/discussions/10
 
@@ -19,6 +21,10 @@ https://github.com/ivelly42/agent-ops-command-center/discussions/10
 - The paid ZIP should be delivered only after payment proof exists
 - Public issues must not contain secrets, card data, tax IDs, private invoices, or private billing details
 - Revenue is counted only after checkout, receipt, payout, or seller-dashboard evidence
+
+## Automatic Labels
+
+The workflow adds `order-request`, the matching request-type label, and `order-autolabeled` when a public prefilled issue has order-intent text but no labels yet.
 
 ## Duplicate Guard
 

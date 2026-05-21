@@ -22,6 +22,7 @@ The full paid pack is not published publicly. This index links every public prev
 - NPM preview docs: https://ivelly42.github.io/agent-ops-command-center/npm-preview.md
 - Order autoreply workflow: https://ivelly42.github.io/agent-ops-command-center/order-autoreply.md
 - Autoreply source: https://github.com/ivelly42/agent-ops-command-center/blob/main/.github/workflows/order-autoreply.yml
+- Order-intent autolabeling: prefilled payment-ready issues get order-request, payment-ready, and order-autolabeled labels automatically
 - Payment-ready npm/autoreply Discussion: https://github.com/ivelly42/agent-ops-command-center/discussions/10
 - GitHub Pages template pack mirror: https://ivelly42.github.io/ai-agent-ops-template-pack/
 - GitHub template pack mirror: https://github.com/ivelly42/ai-agent-ops-template-pack
@@ -207,7 +208,7 @@ The full paid pack is not published publicly. This index links every public prev
 - Fast template pack request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml
 - RSS feed: https://ivelly42.github.io/agent-ops-command-center/feed.xml
 - Machine-readable catalog: https://ivelly42.github.io/agent-ops-command-center/catalog.json
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.96-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.97-preview
 - Buy page: https://ivelly42.github.io/agent-ops-command-center/buy.html
 - Payment-ready team checkout request: https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html
 - Fast template pack request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml
@@ -400,6 +401,7 @@ The full paid pack is not published publicly. This index links every public prev
 | Payment-Ready Issue Form | Capture buyers ready to pay when checkout opens, including preferred checkout method |
 | Payment-Ready Mirror | Route checkout-method, invoice, purchase-order, reimbursement, receipt, delivery-proof, and seller-dashboard searches into the payment-ready request path |
 | Payment-Ready NPM Autoreply Discussion | Route npm preview, order autoreply, checkout status, and $203 team-license searches to the payment-ready request path |
+| Order Intent Autolabeling | Label prefilled payment-ready issues automatically so demand metrics and autoreply do not need manual triage |
 | Team Buyer FAQ | Answer price, checkout, receipt, security, delivery, support, refund, and revenue-proof objections for a $203 team license |
 | Team Value Calculator | Estimate cleanup time avoided, repeated-failure cost avoided, payback days, and approval value for a $203 team license |
 | Team Pilot Plan | Generate a 14-day pilot plan, acceptance gates, success criteria, and checkout request language for a $203 team license |

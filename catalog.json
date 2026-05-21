@@ -1,7 +1,7 @@
 {
   "name": "Agent Ops Command Center",
   "description": "Notion and spreadsheet template pack for builders running AI coding agents.",
-  "version": "v5.96-preview",
+  "version": "v5.97-preview",
   "price_usd": 29,
   "individual_price_usd": 29,
   "team_license_price_usd": 203,
@@ -15,7 +15,7 @@
   "status": "preview_live_no_paid_checkout",
   "homepage": "https://ivelly42.github.io/agent-ops-command-center/",
   "social_image": "https://ivelly42.github.io/agent-ops-command-center/og.png",
-  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.96-preview",
+  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.97-preview",
   "early_access_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml",
   "template_pack_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml",
   "template_pack_request_page": "https://ivelly42.github.io/agent-ops-command-center/template-pack-request.html",
@@ -60,6 +60,13 @@
   "paid_zip_public": false,
   "revenue_rule": "Revenue is proven only by checkout, receipt, payout, or seller-dashboard evidence.",
   "public_assets": [
+    {
+      "title": "Order Intent Autolabeling",
+      "url": "https://ivelly42.github.io/agent-ops-command-center/order-autoreply.md",
+      "workflow": "https://github.com/ivelly42/agent-ops-command-center/blob/main/.github/workflows/order-autoreply.yml",
+      "request_url": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml",
+      "revenue_rule": "Autolabeling demand signals is not revenue. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence."
+    },
     {
       "title": "Payment-Ready Link Sweep",
       "url": "https://ivelly42.github.io/agent-ops-command-center/catalog.json",
@@ -881,7 +888,7 @@
   "npm_github_install_preview": {
     "command": "npx github:ivelly42/agent-ops-command-center --json",
     "package_name": "agent-ops-command-center",
-    "package_version": "0.5.96",
+    "package_version": "0.5.97",
     "bin": [
       "agent-ops-command-center",
       "agent-ops"
@@ -901,7 +908,12 @@
     "package": "Team license - 7 seats - $203 gross",
     "paid_zip_public": false,
     "revenue_rule": "The autoreply is not revenue. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence.",
-    "discussion": "https://github.com/ivelly42/agent-ops-command-center/discussions/10"
+    "discussion": "https://github.com/ivelly42/agent-ops-command-center/discussions/10",
+    "autolabels": [
+      "order-request",
+      "payment-ready",
+      "order-autolabeled"
+    ]
   },
   "github_payment_ready_npm_autoreply_discussion": "https://github.com/ivelly42/agent-ops-command-center/discussions/10",
   "payment_ready_cta_upgrade": {
@@ -919,5 +931,17 @@
     "request_url": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml",
     "scope": "public pages, public templates, and contact links now route legacy generic order-request URLs to payment-ready",
     "revenue_rule": "Payment-ready issues are not revenue. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence."
+  },
+  "order_autolabeling": {
+    "updated_at_kst": "2026-05-22 03:16",
+    "workflow": "https://github.com/ivelly42/agent-ops-command-center/blob/main/.github/workflows/order-autoreply.yml",
+    "docs": "https://ivelly42.github.io/agent-ops-command-center/order-autoreply.md",
+    "labels": [
+      "order-request",
+      "payment-ready",
+      "order-autolabeled"
+    ],
+    "request_url": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml",
+    "revenue_rule": "Autolabeling demand signals is not revenue. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence."
   }
 }
