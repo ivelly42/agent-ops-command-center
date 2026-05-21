@@ -48,6 +48,8 @@ Feed: [feed.xml](feed.xml)
 
 Catalog: [catalog.json](catalog.json)
 
+Catalog offer metadata: `$29` individual seat, `$203` seven-seat team license, and one confirmed team-license payment path to the `$200` gross target.
+
 HTML gallery: [template-gallery.html](template-gallery.html)
 Workflow picker tool: [workflow-picker.html](workflow-picker.html)
 
@@ -105,7 +107,7 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.30-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.31-preview
 
 Sample files:
 

@@ -99,7 +99,7 @@ The full paid pack is not published publicly. This index links every public prev
 - GitHub issue index: https://github.com/ivelly42/agent-ops-command-center/issues/2
 - RSS feed: https://ivelly42.github.io/agent-ops-command-center/feed.xml
 - Machine-readable catalog: https://ivelly42.github.io/agent-ops-command-center/catalog.json
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.30-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.31-preview
 - Buy page: https://ivelly42.github.io/agent-ops-command-center/buy.html
 - Revenue proof intake: https://ivelly42.github.io/agent-ops-command-center/revenue-proof.html
 - Team purchase packet: https://ivelly42.github.io/agent-ops-command-center/team-purchase-packet.html
