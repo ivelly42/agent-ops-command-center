@@ -18,6 +18,7 @@ Submitted surfaces:
 - Preview index: https://ivelly42.github.io/agent-ops-command-center/github-preview-index.md
 - NPM preview docs: https://ivelly42.github.io/agent-ops-command-center/npm-preview.md
 - Order autoreply docs: https://ivelly42.github.io/agent-ops-command-center/order-autoreply.md
+- Discussion autoreply docs: https://ivelly42.github.io/agent-ops-command-center/discussion-autoreply.md
 - Demand metrics: https://ivelly42.github.io/agent-ops-command-center/metrics/status.json
 
 Revenue rule: IndexNow submission is not revenue. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence.

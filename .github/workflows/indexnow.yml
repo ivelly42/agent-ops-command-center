@@ -33,6 +33,7 @@ jobs:
               "https://ivelly42.github.io/agent-ops-command-center/github-preview-index.md",
               "https://ivelly42.github.io/agent-ops-command-center/npm-preview.md",
               "https://ivelly42.github.io/agent-ops-command-center/order-autoreply.md",
+              "https://ivelly42.github.io/agent-ops-command-center/discussion-autoreply.md",
               "https://ivelly42.github.io/agent-ops-command-center/indexnow-automation.md",
               "https://ivelly42.github.io/agent-ops-command-center/metrics/status.json"
             ]

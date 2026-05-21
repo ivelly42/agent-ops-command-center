@@ -38,6 +38,8 @@ Order-intent autolabeling: prefilled payment-ready issues are automatically labe
 
 IndexNow automation: https://ivelly42.github.io/agent-ops-command-center/indexnow-automation.md
 
+Discussion autoreply: https://ivelly42.github.io/agent-ops-command-center/discussion-autoreply.md
+
 Payment-ready npm/autoreply Discussion: https://github.com/ivelly42/agent-ops-command-center/discussions/10
 
 Fast team checkout request: https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html
@@ -663,7 +665,7 @@ Fast template pack request page: https://ivelly42.github.io/agent-ops-command-ce
 
 GitHub Sponsor button funding links: https://github.com/ivelly42/agent-ops-command-center/blob/main/.github/FUNDING.yml
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.98-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.99-preview
 
 Sample run log CSV: https://ivelly42.github.io/agent-ops-command-center/sample/run_log_sample.csv
 

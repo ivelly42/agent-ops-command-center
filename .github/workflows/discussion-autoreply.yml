@@ -1,0 +1,141 @@
+name: Discussion autoreply
+
+on:
+  discussion:
+    types: [created, edited]
+  discussion_comment:
+    types: [created, edited]
+  workflow_dispatch:
+    inputs:
+      discussion_number:
+        description: Discussion number for dry-run validation.
+        required: false
+      dry_run:
+        description: Do not post a reply when true.
+        required: false
+        default: "true"
+
+permissions:
+  contents: read
+  discussions: write
+
+jobs:
+  reply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            const marker = "<!-- agent-ops-discussion-autoreply-v1 -->";
+            const { owner, repo } = context.repo;
+            const eventName = context.eventName;
+            const isDispatch = eventName === "workflow_dispatch";
+            const discussionNumber = isDispatch
+              ? Number(core.getInput("discussion_number") || 0)
+              : Number(context.payload.discussion?.number || 0);
+            const dryRun = isDispatch && core.getInput("dry_run") !== "false";
+
+            if (!discussionNumber) {
+              core.info("No discussion number supplied; skipping.");
+              return;
+            }
+
+            const result = await github.graphql(
+              `query($owner: String!, $repo: String!, $number: Int!) {
+                repository(owner: $owner, name: $repo) {
+                  discussion(number: $number) {
+                    id
+                    title
+                    body
+                    url
+                    comments(first: 100, orderBy: {field: UPDATED_AT, direction: DESC}) {
+                      nodes {
+                        body
+                        author {
+                          login
+                        }
+                      }
+                    }
+                  }
+                }
+              }`,
+              { owner, repo, number: discussionNumber }
+            );
+
+            const discussion = result.repository.discussion;
+            if (!discussion) {
+              core.info(`Discussion #${discussionNumber} not found; skipping.`);
+              return;
+            }
+            const commentBody = context.payload.comment?.body || "";
+            const text = eventName === "discussion_comment"
+              ? commentBody
+              : [discussion.title || "", discussion.body || ""].join("\n");
+            const buyerIntent = [
+              "buy",
+              "purchase",
+              "pay",
+              "price",
+              "cost",
+              "checkout",
+              "invoice",
+              "receipt",
+              "purchase order",
+              "quote",
+              "$203",
+              "$29",
+              "team license",
+              "payment-ready",
+              "paid zip",
+              "Agent Ops Command Center"
+            ].some((needle) => text.toLowerCase().includes(needle.toLowerCase()));
+
+            if (!buyerIntent) {
+              core.info("No buyer intent found; skipping.");
+              return;
+            }
+
+            const existingReply = (discussion.comments.nodes || []).some((comment) =>
+              (comment.body || "").includes(marker)
+            );
+            if (existingReply) {
+              core.info("Discussion autoreply already exists; skipping duplicate.");
+              return;
+            }
+
+            const body = [
+              marker,
+              "Thanks for the Agent Ops Command Center buyer note.",
+              "",
+              "**Current checkout status:** not live yet.",
+              "",
+              "**Best next path:** open the payment-ready request so preferred checkout, receipt, invoice, purchase-order, or delivery-proof needs are captured in one place.",
+              "",
+              "- Payment-ready request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml",
+              "- Buy page: https://ivelly42.github.io/agent-ops-command-center/buy.html",
+              "- Pricing: https://ivelly42.github.io/agent-ops-command-center/pricing.html",
+              "- Buyer reply kit: https://ivelly42.github.io/agent-ops-command-center/buyer-reply-kit.html",
+              "- Revenue proof rule: https://ivelly42.github.io/agent-ops-command-center/revenue-proof.html",
+              "",
+              "**Revenue rule:** Discussion activity is not revenue. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence.",
+              "",
+              "Do not post secrets, card data, tax IDs, private invoices, or private billing details in this public discussion."
+            ].join("\n");
+
+            if (dryRun) {
+              core.info(`Dry run for discussion #${discussionNumber}: would post buyer reply.`);
+              core.info(body);
+              return;
+            }
+
+            await github.graphql(
+              `mutation($discussionId: ID!, $body: String!) {
+                addDiscussionComment(input: {discussionId: $discussionId, body: $body}) {
+                  comment {
+                    id
+                    url
+                  }
+                }
+              }`,
+              { discussionId: discussion.id, body }
+            );
