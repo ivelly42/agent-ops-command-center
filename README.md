@@ -14,6 +14,8 @@ Team license: [team-license.html](team-license.html)
 
 Team quote builder: [team-quote.html](team-quote.html)
 
+Team approval brief: [team-approval.html](team-approval.html)
+
 Claude Code run log template: [claude-code-run-log-template.html](claude-code-run-log-template.html)
 
 AI agent run log template: [ai-agent-run-log-template.html](ai-agent-run-log-template.html)
@@ -81,7 +83,7 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.18-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.19-preview
 
 Sample files:
 
@@ -120,6 +122,7 @@ Sample files:
 - [Buy page](buy.html)
 - [Team license](team-license.html)
 - [Team quote builder](team-quote.html)
+- [Team approval brief](team-approval.html)
 - [Claude Code run log template](claude-code-run-log-template.html)
 - [AI agent run log template](ai-agent-run-log-template.html)
 - [AI coding agent Notion template](ai-coding-agent-notion-template.html)

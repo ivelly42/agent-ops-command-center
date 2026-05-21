@@ -15,6 +15,7 @@ body:
         Buy page: https://ivelly42.github.io/agent-ops-command-center/buy.html
         Team license: https://ivelly42.github.io/agent-ops-command-center/team-license.html
         Team quote builder: https://ivelly42.github.io/agent-ops-command-center/team-quote.html
+        Team approval brief: https://ivelly42.github.io/agent-ops-command-center/team-approval.html
         Claude Code run log template: https://ivelly42.github.io/agent-ops-command-center/claude-code-run-log-template.html
         AI agent run log template: https://ivelly42.github.io/agent-ops-command-center/ai-agent-run-log-template.html
         AI coding agent Notion template: https://ivelly42.github.io/agent-ops-command-center/ai-coding-agent-notion-template.html
@@ -82,6 +83,7 @@ body:
         - Need a $203 seven-seat quote before checkout
         - Need invoice details before payment
         - Need manager approval text
+        - Manager approval already granted
     validations:
       required: true
   - type: checkboxes

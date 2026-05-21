@@ -3,28 +3,38 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>AI Agent Team Quote Builder | Agent Ops Command Center</title>
-    <meta name="description" content="Build a $203 seven-seat quote for the Agent Ops Command Center AI-agent template pack before requesting checkout.">
-    <meta property="og:title" content="AI Agent Team Quote Builder">
-    <meta property="og:description" content="Generate a copy-ready team quote and purchase-order note for the $203 Agent Ops Command Center team license.">
+    <title>AI Agent Team Approval Brief | Agent Ops Command Center</title>
+    <meta name="description" content="Generate a manager-ready approval brief for a $203 seven-seat Agent Ops Command Center team license.">
+    <meta property="og:title" content="AI Agent Team Approval Brief">
+    <meta property="og:description" content="Create a copy-ready business case for approving the $203 Agent Ops Command Center team license.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://ivelly42.github.io/agent-ops-command-center/team-quote.html">
+    <meta property="og:url" content="https://ivelly42.github.io/agent-ops-command-center/team-approval.html">
     <meta property="og:image" content="https://ivelly42.github.io/agent-ops-command-center/og.svg">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content="https://ivelly42.github.io/agent-ops-command-center/og.svg">
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "Product",
-        "name": "Agent Ops Command Center Team Quote",
-        "description": "Seven-seat quote builder for the AI coding-agent Notion and spreadsheet template pack.",
-        "url": "https://ivelly42.github.io/agent-ops-command-center/team-quote.html",
+        "@type": "WebApplication",
+        "name": "AI Agent Team Approval Brief",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "Any",
+        "url": "https://ivelly42.github.io/agent-ops-command-center/team-approval.html",
         "offers": {
           "@type": "Offer",
-          "price": "203",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/PreOrder",
-          "url": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml"
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "isPartOf": {
+          "@type": "Product",
+          "name": "Agent Ops Command Center Team License",
+          "offers": {
+            "@type": "Offer",
+            "price": "203",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/PreOrder",
+            "url": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml"
+          }
         }
       }
     </script>
@@ -146,7 +156,7 @@
       }
 
       .price {
-        font-size: 86px;
+        font-size: 82px;
         line-height: 0.95;
         font-weight: 900;
         margin-bottom: 12px;
@@ -238,7 +248,7 @@
       }
 
       textarea {
-        min-height: 270px;
+        min-height: 310px;
         line-height: 1.45;
         resize: vertical;
       }
@@ -335,32 +345,31 @@
     <main>
       <div class="hero">
         <div>
-          <div class="eyebrow">Quote-ready team purchase</div>
-          <h1>Build a $203 quote before checkout exists.</h1>
-          <p class="lead">Generate a copy-ready quote and purchase-order note for seven AI-agent operators. It reduces approval friction while keeping revenue proof strict.</p>
+          <div class="eyebrow">Manager-ready team approval</div>
+          <h1>Approve a $203 AI-agent ops purchase with evidence.</h1>
+          <p class="lead">Generate a short approval brief that ties seven seats, avoided cleanup, delivery proof, and payment evidence into one manager-readable request.</p>
           <div class="actions">
-            <a class="button primary" href="https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml">Request quote checkout</a>
-            <a class="button" href="team-approval.html">Build approval brief</a>
-            <a class="button" href="team-license.html">Team license details</a>
-            <a class="button" href="buy.html">Buy page</a>
+            <a class="button primary" href="https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml">Request approved checkout</a>
+            <a class="button" href="team-quote.html">Build quote</a>
+            <a class="button" href="team-license.html">Team license</a>
             <a class="button" href="sample-dashboard.html">Sample dashboard</a>
           </div>
         </div>
-        <aside class="summary" aria-label="Quote summary">
-          <div class="price" id="total">$203</div>
-          <p>Default quote: seven seats at $29 each. Gross revenue is counted only after real payment proof exists.</p>
+        <aside class="summary" aria-label="Approval summary">
+          <div class="price" id="net">$97</div>
+          <p>Default business case: seven seats at $203, with $300 in monthly cleanup time avoided.</p>
           <div class="mini-grid">
             <div class="mini">
+              <strong id="quoteAmount">$203</strong>
+              <span>team quote</span>
+            </div>
+            <div class="mini">
+              <strong id="valueAmount">$300</strong>
+              <span>monthly value</span>
+            </div>
+            <div class="mini">
               <strong id="seatCount">7</strong>
-              <span>seats</span>
-            </div>
-            <div class="mini">
-              <strong>$29</strong>
-              <span>per seat</span>
-            </div>
-            <div class="mini">
-              <strong id="targetStatus">Clears</strong>
-              <span>$200 target</span>
+              <span>operator seats</span>
             </div>
             <div class="mini">
               <strong>Proof</strong>
@@ -372,14 +381,14 @@
 
       <section>
         <div class="section-head">
-          <h2>Quote Inputs</h2>
-          <p>Write the quote request a team buyer can paste into the GitHub order form.</p>
+          <h2>Approval Inputs</h2>
+          <p>Keep the request concrete enough for a manager or finance reviewer to approve.</p>
         </div>
         <div class="form-grid">
           <div class="field">
-            <label for="company">Buyer or team</label>
-            <input id="company" value="AI-agent operations team">
-            <p>Company, team, or project name.</p>
+            <label for="team">Team</label>
+            <input id="team" value="AI-agent operations team">
+            <p>Buyer team or project name.</p>
           </div>
           <div class="field">
             <label for="seats">Seats</label>
@@ -387,55 +396,49 @@
             <p>Seven seats at $29 equals $203 gross.</p>
           </div>
           <div class="field">
-            <label for="tools">Agent tools</label>
-            <input id="tools" value="Codex, Claude Code, Cursor, local agents">
-            <p>Tools the template pack should support.</p>
+            <label for="hours">Cleanup hours avoided per month</label>
+            <input id="hours" type="number" min="1" max="80" value="4">
+            <p>Estimate rework avoided by better run logs and proof gates.</p>
           </div>
           <div class="field">
-            <label for="checkout">Preferred checkout</label>
+            <label for="rate">Hourly value</label>
+            <input id="rate" type="number" min="10" max="500" value="75">
+            <p>Use a conservative loaded hourly value.</p>
+          </div>
+          <div class="field">
+            <label for="risk">Primary risk reduced</label>
+            <select id="risk">
+              <option selected>False done claims without verification</option>
+              <option>Repeated prompt failures and rework</option>
+              <option>Missing handoff evidence across agents</option>
+              <option>Untracked AI-agent cost leaks</option>
+            </select>
+            <p>State the approval reason in buyer language.</p>
+          </div>
+          <div class="field">
+            <label for="checkout">Required checkout proof</label>
             <select id="checkout">
               <option selected>Receipt-capable checkout link</option>
+              <option>Invoice before payment</option>
               <option>PayPal invoice</option>
-              <option>Gumroad</option>
-              <option>Ko-fi</option>
-              <option>Lemon Squeezy</option>
-              <option>GitHub Sponsors</option>
+              <option>Gumroad receipt</option>
+              <option>Lemon Squeezy receipt</option>
             </select>
             <p>Preference only; no checkout is live yet.</p>
-          </div>
-          <div class="field">
-            <label for="approval">Approval need</label>
-            <select id="approval">
-              <option selected>Manager approval before payment</option>
-              <option>Receipt required after payment</option>
-              <option>Invoice required before payment</option>
-              <option>Can pay once checkout exists</option>
-            </select>
-            <p>Use this to route procurement blockers.</p>
-          </div>
-          <div class="field">
-            <label for="usecase">Primary use case</label>
-            <select id="usecase">
-              <option selected>Standardize AI coding-agent run logs</option>
-              <option>Track verification evidence before release</option>
-              <option>Control prompt regressions and repeat failures</option>
-              <option>Measure agent cost and avoided rework</option>
-            </select>
-            <p>Make the quote concrete for the buyer.</p>
           </div>
         </div>
       </section>
 
       <section>
         <div class="section-head">
-          <h2>Generated Quote Note</h2>
-          <p>Copy into the order-request form. It is demand evidence only until payment proof exists.</p>
+          <h2>Generated Approval Brief</h2>
+          <p>Copy into an internal approval request or into the GitHub order-request issue.</p>
         </div>
-        <textarea id="quote" readonly></textarea>
+        <textarea id="brief" readonly></textarea>
         <div class="actions">
-          <button class="button primary" type="button" id="copyQuote">Copy quote note</button>
+          <button class="button primary" type="button" id="copyBrief">Copy approval brief</button>
           <a class="button" href="https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml">Open order request</a>
-          <a class="button" href="team-license.html">Team license</a>
+          <a class="button" href="team-quote.html">Quote builder</a>
           <a class="button" href="pricing.html">Pricing</a>
         </div>
         <div class="status" id="copyStatus" aria-live="polite"></div>
@@ -443,18 +446,18 @@
 
       <section>
         <div class="section-head">
-          <h2>Quote Proof Links</h2>
-          <p>Public pages a buyer can inspect before requesting checkout.</p>
+          <h2>Approval Evidence</h2>
+          <p>Public proof a reviewer can inspect before any checkout exists.</p>
         </div>
         <div class="grid">
           <article class="item">
-            <h3>Team Approval</h3>
-            <p>Generate manager-ready approval text with quote, value, risk, and payment-proof gates.</p>
-            <div class="actions"><a class="button" href="team-approval.html">Open</a></div>
+            <h3>Team Quote</h3>
+            <p>Seven seats, $203 gross, quote text, and purchase-order note.</p>
+            <div class="actions"><a class="button" href="team-quote.html">Open</a></div>
           </article>
           <article class="item">
             <h3>Team License</h3>
-            <p>Seven seats, $203 gross, private ZIP after payment proof.</p>
+            <p>Shared delivery proof for operators using Codex, Claude Code, Cursor, and local agents.</p>
             <div class="actions"><a class="button" href="team-license.html">Open</a></div>
           </article>
           <article class="item">
@@ -462,21 +465,16 @@
             <p>Inspect sample run logs, costs, prompts, agents, verification, and failures.</p>
             <div class="actions"><a class="button" href="sample-dashboard.html">Open</a></div>
           </article>
-          <article class="item">
-            <h3>Template Gallery</h3>
-            <p>Scan public templates, Gists, builders, and delivery-proof assets.</p>
-            <div class="actions"><a class="button" href="template-gallery.html">Open</a></div>
-          </article>
         </div>
       </section>
 
       <section>
         <h2>Revenue Rule</h2>
         <div class="notice">
-          This quote builder does not create checkout, prove payment, publish the paid ZIP, or count as revenue. Gross revenue is counted only from checkout, receipt, payout, or seller-dashboard evidence.
+          This approval brief does not create checkout, prove payment, publish the paid ZIP, or count as revenue. Gross revenue is counted only from checkout, receipt, payout, or seller-dashboard evidence.
         </div>
         <div class="actions">
-          <a class="button primary" href="https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml">Request quote checkout</a>
+          <a class="button primary" href="https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml">Request approved checkout</a>
           <a class="button" href="metrics/status.json">Demand metrics</a>
           <a class="button" href="paid-delivery-manifest.md">Delivery manifest</a>
         </div>
@@ -484,19 +482,24 @@
     </main>
 
     <footer>
-      Team quote builder. Private paid ZIP. Revenue only after payment proof.
+      Team approval brief. Private paid ZIP. Revenue only after payment proof.
     </footer>
 
     <script>
-      const fields = ["company", "seats", "tools", "checkout", "approval", "usecase"];
-      const quote = document.getElementById("quote");
+      const fields = ["team", "seats", "hours", "rate", "risk", "checkout"];
+      const brief = document.getElementById("brief");
       const status = document.getElementById("copyStatus");
-      const total = document.getElementById("total");
+      const net = document.getElementById("net");
+      const quoteAmount = document.getElementById("quoteAmount");
+      const valueAmount = document.getElementById("valueAmount");
       const seatCount = document.getElementById("seatCount");
-      const targetStatus = document.getElementById("targetStatus");
 
       function dollars(value) {
         return `$${value.toLocaleString("en-US")}`;
+      }
+
+      function numberValue(id, fallback) {
+        return Math.max(1, Number.parseInt(document.getElementById(id).value, 10) || fallback);
       }
 
       function current() {
@@ -505,37 +508,42 @@
 
       function render() {
         const v = current();
-        const seats = Math.max(1, Number.parseInt(v.seats, 10) || 1);
-        const amount = seats * 29;
-        total.textContent = dollars(amount);
+        const seats = numberValue("seats", 7);
+        const hours = numberValue("hours", 4);
+        const rate = numberValue("rate", 75);
+        const quote = seats * 29;
+        const value = hours * rate;
+        const netValue = value - quote;
+        quoteAmount.textContent = dollars(quote);
+        valueAmount.textContent = dollars(value);
         seatCount.textContent = String(seats);
-        targetStatus.textContent = amount >= 200 ? "Clears" : "Below";
+        net.textContent = `${netValue < 0 ? "-" : ""}${dollars(Math.abs(netValue))}`;
 
-        quote.value = [
-          "Team quote request: Agent Ops Command Center",
+        brief.value = [
+          "Manager approval brief: Agent Ops Command Center",
           "",
-          `Buyer or team: ${v.company || "Not specified"}`,
+          `Team: ${v.team || "Not specified"}`,
           `Seats requested: ${seats}`,
           "Price per seat: $29",
-          `Gross quote amount: ${dollars(amount)}`,
-          `Preferred checkout: ${v.checkout}`,
-          `Approval need: ${v.approval}`,
-          `Agent tools: ${v.tools || "Not specified"}`,
-          `Primary use case: ${v.usecase}`,
+          `Team quote amount: ${dollars(quote)}`,
+          `Cleanup hours avoided per month: ${hours}`,
+          `Hourly value: ${dollars(rate)}`,
+          `Estimated monthly value recovered: ${dollars(value)}`,
+          `First-month net after purchase: ${netValue < 0 ? "-" : ""}${dollars(Math.abs(netValue))}`,
+          `Primary risk reduced: ${v.risk}`,
+          `Required checkout proof: ${v.checkout}`,
           "",
-          amount >= 200
-            ? "Target note: this quote would clear the public $200 launch target after payment proof exists."
-            : "Target note: this quote would not clear the public $200 launch target by itself.",
+          "Approval ask: approve requesting a receipt-capable checkout for the Agent Ops Command Center team license.",
+          "Business reason: standardize AI-agent run logs, verification evidence, prompt/version control, cost tracking, and handoff proof before work is accepted.",
           "",
-          "Quote proof links inspected:",
-          "- Team license: https://ivelly42.github.io/agent-ops-command-center/team-license.html",
+          "Reviewer proof links:",
           "- Team approval brief: https://ivelly42.github.io/agent-ops-command-center/team-approval.html",
-          "- Buy page: https://ivelly42.github.io/agent-ops-command-center/buy.html",
+          "- Team quote builder: https://ivelly42.github.io/agent-ops-command-center/team-quote.html",
+          "- Team license: https://ivelly42.github.io/agent-ops-command-center/team-license.html",
           "- Sample dashboard: https://ivelly42.github.io/agent-ops-command-center/sample-dashboard.html",
-          "- Template gallery: https://ivelly42.github.io/agent-ops-command-center/template-gallery.html",
-          "- Demand metrics: https://ivelly42.github.io/agent-ops-command-center/metrics/status.json",
+          "- Pricing: https://ivelly42.github.io/agent-ops-command-center/pricing.html",
           "",
-          "Revenue rule: this quote is not revenue. Count gross revenue only from checkout, receipt, payout, or seller-dashboard evidence."
+          "Revenue rule: approval is not revenue. Count gross revenue only from checkout, receipt, payout, or seller-dashboard evidence."
         ].join("\n");
       }
 
@@ -545,13 +553,13 @@
         field.addEventListener("change", render);
       }
 
-      document.getElementById("copyQuote").addEventListener("click", async () => {
+      document.getElementById("copyBrief").addEventListener("click", async () => {
         try {
-          await navigator.clipboard.writeText(quote.value);
-          status.textContent = "Quote note copied.";
+          await navigator.clipboard.writeText(brief.value);
+          status.textContent = "Approval brief copied.";
         } catch {
-          quote.select();
-          status.textContent = "Select and copy the quote note.";
+          brief.select();
+          status.textContent = "Select and copy the approval brief.";
         }
       });
 

@@ -10,6 +10,8 @@ Team license: https://ivelly42.github.io/agent-ops-command-center/team-license.h
 
 Team quote builder: https://ivelly42.github.io/agent-ops-command-center/team-quote.html
 
+Team approval brief: https://ivelly42.github.io/agent-ops-command-center/team-approval.html
+
 Claude Code run log template: https://ivelly42.github.io/agent-ops-command-center/claude-code-run-log-template.html
 
 AI agent run log template: https://ivelly42.github.io/agent-ops-command-center/ai-agent-run-log-template.html
@@ -199,7 +201,7 @@ GitHub issue index: https://github.com/ivelly42/agent-ops-command-center/issues/
 
 Early access request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.18-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.19-preview
 
 Sample run log CSV: https://ivelly42.github.io/agent-ops-command-center/sample/run_log_sample.csv
 
