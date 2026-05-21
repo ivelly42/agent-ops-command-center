@@ -7,6 +7,7 @@ The full paid pack is not published publicly. This index links every public prev
 ## Public Preview Assets
 
 - Landing page: https://ivelly42.github.io/agent-ops-command-center/
+- GitHub Pages security review mirror: https://ivelly42.github.io/ai-agent-security-review-template/
 - GitHub Pages procurement mirror: https://ivelly42.github.io/ai-agent-procurement-template/
 - GitHub Pages ROI calculator mirror: https://ivelly42.github.io/ai-agent-roi-calculator-template/
 - GitHub ROI calculator direct $203 request: https://ivelly42.github.io/ai-agent-roi-calculator-template/
@@ -107,10 +108,12 @@ The full paid pack is not published publicly. This index links every public prev
 - GitHub issue index: https://github.com/ivelly42/agent-ops-command-center/issues/2
 - RSS feed: https://ivelly42.github.io/agent-ops-command-center/feed.xml
 - Machine-readable catalog: https://ivelly42.github.io/agent-ops-command-center/catalog.json
-- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.46-preview
+- Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.47-preview
 - Buy page: https://ivelly42.github.io/agent-ops-command-center/buy.html
 - Fast team checkout request: https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html
 - Client delivery kit: https://ivelly42.github.io/agent-ops-command-center/client-delivery-kit.html
+- GitHub Pages security review mirror: https://ivelly42.github.io/ai-agent-security-review-template/
+- GitHub security review mirror: https://github.com/ivelly42/ai-agent-security-review-template
 - GitHub Pages procurement mirror: https://ivelly42.github.io/ai-agent-procurement-template/
 - GitHub procurement mirror: https://github.com/ivelly42/ai-agent-procurement-template
 - GitHub Pages ROI calculator mirror: https://ivelly42.github.io/ai-agent-roi-calculator-template/
@@ -180,6 +183,7 @@ The full paid pack is not published publicly. This index links every public prev
 | Team Invoice Request Packet | Prepare billing, invoice, PO, receipt, and delivery-proof details for a $203 team license |
 | Team Invoice Direct Request | Open a prefilled invoice-request issue with team-license wording that demand metrics can classify |
 | Procurement Mirror | Route procurement, invoice, receipt, and approval searches into the $203 request path |
+| Security Review Mirror | Route security, delivery, access, and payment-proof searches into the $203 request path |
 | Team Security Review Packet | Prepare data, access, delivery, and acceptance-review notes for a $203 team license |
 | Team Rollout Plan | Prepare first-week adoption, verification, review, and delivery-proof steps for a $203 team license |
 | Team License Terms Packet | Prepare commercial-use, sharing, support, refund, update, and delivery-boundary terms for a $203 team license |
