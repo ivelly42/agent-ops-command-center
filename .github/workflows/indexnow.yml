@@ -45,6 +45,8 @@ jobs:
               "https://ivelly42.github.io/agent-ops-command-center/gemini-instructions.md",
               "https://ivelly42.github.io/agent-ops-command-center/CONVENTIONS.md",
               "https://ivelly42.github.io/agent-ops-command-center/aider-conventions.md",
+              "https://ivelly42.github.io/agent-ops-command-center/.goosehints",
+              "https://ivelly42.github.io/agent-ops-command-center/goose-hints.md",
               "https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-commerce.json",
               "https://ivelly42.github.io/agent-ops-command-center/agent-commerce.json",
               "https://ivelly42.github.io/agent-ops-command-center/.well-known/ai-plugin.json",
