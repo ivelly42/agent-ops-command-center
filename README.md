@@ -14,6 +14,8 @@ Buy page: [buy.html](buy.html)
 
 Fast team checkout request: [team-checkout-request.html](team-checkout-request.html)
 
+Fast template pack request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml
+
 Discovery hub: [discovery.html](discovery.html)
 
 GitHub template pack mirror: https://github.com/ivelly42/ai-agent-ops-template-pack
@@ -169,7 +171,7 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.54-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.55-preview
 
 Sample files:
 
@@ -208,6 +210,7 @@ Sample files:
 - [Revenue proof intake](revenue-proof.html)
 - [Buy page](buy.html)
 - [Fast team checkout request](team-checkout-request.html)
+- [Fast template pack request](https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml)
 - [Discovery hub](discovery.html)
 - [GitHub template pack mirror Pages](https://ivelly42.github.io/ai-agent-ops-template-pack/)
 - [GitHub template pack mirror](https://github.com/ivelly42/ai-agent-ops-template-pack)

@@ -1,7 +1,7 @@
 {
   "name": "Agent Ops Command Center",
   "description": "Notion and spreadsheet template pack for builders running AI coding agents.",
-  "version": "v5.54-preview",
+  "version": "v5.55-preview",
   "price_usd": 29,
   "individual_price_usd": 29,
   "team_license_price_usd": 203,
@@ -13,8 +13,9 @@
   "status": "preview_live_no_paid_checkout",
   "homepage": "https://ivelly42.github.io/agent-ops-command-center/",
   "social_image": "https://ivelly42.github.io/agent-ops-command-center/og.png",
-  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.54-preview",
+  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.55-preview",
   "early_access_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=order-request.yml",
+  "template_pack_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml",
   "fast_team_checkout_request": "https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html",
   "discovery_hub": "https://ivelly42.github.io/agent-ops-command-center/discovery.html",
   "buyer_reply_kit": "https://ivelly42.github.io/agent-ops-command-center/buyer-reply-kit.html",
@@ -59,6 +60,10 @@
     {
       "title": "Fast Team Checkout Request",
       "url": "https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html"
+    },
+    {
+      "title": "Template Pack Request",
+      "url": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml"
     },
     {
       "title": "Revenue Proof Intake",

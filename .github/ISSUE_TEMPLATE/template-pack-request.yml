@@ -1,0 +1,80 @@
+name: Template pack request
+description: Request the $203 Agent Ops team license from the broad template-pack path
+title: "Template pack request: Agent Ops Command Center"
+labels: ["order-request", "template-pack-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Short request path for buyers coming from the AI Agent Ops Template Pack mirror, Gist, or Discussion.
+
+        Request package: Team license - 7 seats - $203 gross.
+        Individual seat target: $29.
+
+        Checkout is not live yet. This issue records purchase intent and preferred checkout. It is not counted as revenue until checkout, receipt, payout, or seller-dashboard evidence exists.
+
+        Template pack mirror: https://ivelly42.github.io/ai-agent-ops-template-pack/
+        Template pack Gist: https://gist.github.com/ivelly42/dac26c33334ab9b3367d2fc490c7aef5
+        Template pack Discussion: https://github.com/ivelly42/agent-ops-command-center/discussions/5
+        Discovery hub: https://ivelly42.github.io/agent-ops-command-center/discovery.html
+  - type: dropdown
+    id: package
+    attributes:
+      label: Request package
+      options:
+        - Team license - 7 seats - $203 gross
+        - Individual seat - $29
+        - Evaluating preview only
+    validations:
+      required: true
+  - type: dropdown
+    id: buyer_need
+    attributes:
+      label: Buyer need
+      options:
+        - Run logs and verification ledger
+        - Cost tracking and ROI
+        - Procurement, invoice, and receipt approval
+        - Security review and delivery proof
+        - Acceptance tests and prompt regression
+        - Full AI-agent ops template pack
+    validations:
+      required: true
+  - type: dropdown
+    id: checkout
+    attributes:
+      label: Preferred checkout
+      options:
+        - Gumroad
+        - Ko-fi
+        - Lemon Squeezy
+        - PayPal invoice
+        - GitHub Sponsors
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: intent
+    attributes:
+      label: Purchase intent
+      options:
+        - I am ready to pay $203 for the 7-seat team license when checkout is ready
+        - I am ready to pay $29 when checkout is ready
+        - I need invoice or purchase-order details first
+        - I want to evaluate the preview first
+    validations:
+      required: true
+  - type: checkboxes
+    id: delivery
+    attributes:
+      label: Delivery acknowledgement
+      options:
+        - label: I understand the paid ZIP is not public and will be delivered only after checkout, receipt, payout, or seller-dashboard evidence exists.
+          required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      placeholder: Team size, workflow, approval blocker, or preferred checkout detail.
+    validations:
+      required: false

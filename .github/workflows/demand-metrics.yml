@@ -48,7 +48,9 @@ jobs:
             const isOrderIntent = (issue) => {
               const text = issueText(issue);
               return hasLabel(issue, "order-request") ||
+                hasLabel(issue, "template-pack-request") ||
                 text.includes("Order request: Agent Ops Command Center") ||
+                text.includes("Template pack request: Agent Ops Command Center") ||
                 text.includes("Fast team checkout request: Agent Ops Command Center") ||
                 text.includes("Invoice request packet: Agent Ops Command Center") ||
                 text.includes("Request package: Team license - 7 seats - $203 gross") ||
