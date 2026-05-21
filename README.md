@@ -56,6 +56,10 @@ AI plugin manifest: https://ivelly42.github.io/agent-ops-command-center/.well-kn
 
 AI plugin manifest alias: https://ivelly42.github.io/agent-ops-command-center/ai-plugin.json
 
+Agent routing instructions: https://github.com/ivelly42/agent-ops-command-center/blob/main/AGENTS.md
+
+Claude routing instructions: https://github.com/ivelly42/agent-ops-command-center/blob/main/CLAUDE.md
+
 OpenAPI commerce actions: https://ivelly42.github.io/agent-ops-command-center/openapi.json
 
 OpenAPI commerce actions well-known: https://ivelly42.github.io/agent-ops-command-center/.well-known/openapi.json
@@ -385,7 +389,7 @@ Read the preview: [preview.md](preview.md)
 
 Open the landing page locally: [index.html](index.html)
 
-Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.116-preview
+Preview release: https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.117-preview
 
 Sample files:
 

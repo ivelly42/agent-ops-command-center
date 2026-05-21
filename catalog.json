@@ -1,7 +1,7 @@
 {
   "name": "Agent Ops Command Center",
   "description": "Notion and spreadsheet template pack for builders running AI coding agents.",
-  "version": "v5.116-preview",
+  "version": "v5.117-preview",
   "price_usd": 29,
   "individual_price_usd": 29,
   "team_license_price_usd": 203,
@@ -15,7 +15,7 @@
   "status": "preview_live_no_paid_checkout",
   "homepage": "https://ivelly42.github.io/agent-ops-command-center/",
   "social_image": "https://ivelly42.github.io/agent-ops-command-center/og.png",
-  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.116-preview",
+  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.117-preview",
   "early_access_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml",
   "github_issue_chooser_fast_team_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new/choose",
   "package_funding_direct_request": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
@@ -23,6 +23,8 @@
   "agent_commerce_json_alias": "https://ivelly42.github.io/agent-ops-command-center/agent-commerce.json",
   "ai_plugin_manifest": "https://ivelly42.github.io/agent-ops-command-center/.well-known/ai-plugin.json",
   "ai_plugin_manifest_alias": "https://ivelly42.github.io/agent-ops-command-center/ai-plugin.json",
+  "agent_routing_instructions": "https://github.com/ivelly42/agent-ops-command-center/blob/main/AGENTS.md",
+  "claude_routing_instructions": "https://github.com/ivelly42/agent-ops-command-center/blob/main/CLAUDE.md",
   "openapi_json": "https://ivelly42.github.io/agent-ops-command-center/openapi.json",
   "openapi_json_well_known": "https://ivelly42.github.io/agent-ops-command-center/.well-known/openapi.json",
   "ai_buy_intent_json": "https://ivelly42.github.io/agent-ops-command-center/ai-buy-intent.json",
@@ -72,12 +74,28 @@
   "llms": "https://ivelly42.github.io/agent-ops-command-center/llms.txt",
   "agent_commerce": "https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-commerce.json",
   "ai_plugin": "https://ivelly42.github.io/agent-ops-command-center/.well-known/ai-plugin.json",
+  "agents_md": "https://github.com/ivelly42/agent-ops-command-center/blob/main/AGENTS.md",
+  "claude_md": "https://github.com/ivelly42/agent-ops-command-center/blob/main/CLAUDE.md",
   "openapi": "https://ivelly42.github.io/agent-ops-command-center/openapi.json",
   "ai_buy_intent": "https://ivelly42.github.io/agent-ops-command-center/ai-buy-intent.json",
   "sitemap": "https://ivelly42.github.io/agent-ops-command-center/sitemap.xml",
   "paid_zip_public": false,
   "revenue_rule": "Revenue is proven only by checkout, receipt, payout, or seller-dashboard evidence.",
   "public_assets": [
+    {
+      "title": "Agent Routing Instructions",
+      "url": "https://github.com/ivelly42/agent-ops-command-center/blob/main/AGENTS.md",
+      "claude": "https://github.com/ivelly42/agent-ops-command-center/blob/main/CLAUDE.md",
+      "primary_offer": "Team license - 7 seats - $203 gross",
+      "primary_request_url": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
+      "metadata": [
+        "https://ivelly42.github.io/agent-ops-command-center/.well-known/ai-plugin.json",
+        "https://ivelly42.github.io/agent-ops-command-center/openapi.json",
+        "https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-commerce.json",
+        "https://ivelly42.github.io/agent-ops-command-center/metrics/status.json"
+      ],
+      "revenue_rule": "AGENTS.md and CLAUDE.md are routing instructions, not revenue. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence."
+    },
     {
       "title": "AI Plugin Manifest",
       "url": "https://ivelly42.github.io/agent-ops-command-center/.well-known/ai-plugin.json",
@@ -1101,7 +1119,7 @@
     "team_request_mirror": "https://github.com/ivelly42/ai-agent-npx-team-request-template",
     "team_request_mirror_pages": "https://ivelly42.github.io/ai-agent-npx-team-request-template/",
     "package_name": "agent-ops-command-center",
-    "package_version": "0.5.116",
+    "package_version": "0.5.117",
     "bin": [
       "agent-ops-command-center",
       "agent-ops"
@@ -1203,6 +1221,23 @@
     "target_revenue_usd": 200,
     "target_reached_by": "one confirmed $203 team-license payment",
     "revenue_rule": "AI plugin metadata is routing metadata, not revenue. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence."
+  },
+  "agent_routing_instructions_details": {
+    "updated_at_kst": "2026-05-22 05:38",
+    "agents_md": "https://github.com/ivelly42/agent-ops-command-center/blob/main/AGENTS.md",
+    "claude_md": "https://github.com/ivelly42/agent-ops-command-center/blob/main/CLAUDE.md",
+    "primary_offer": "Team license - 7 seats - $203 gross",
+    "primary_request_url": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
+    "metadata": [
+      "https://ivelly42.github.io/agent-ops-command-center/.well-known/ai-plugin.json",
+      "https://ivelly42.github.io/agent-ops-command-center/openapi.json",
+      "https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-commerce.json",
+      "https://ivelly42.github.io/agent-ops-command-center/ai-buy-intent.json",
+      "https://ivelly42.github.io/agent-ops-command-center/metrics/status.json"
+    ],
+    "target_revenue_usd": 200,
+    "target_reached_by": "one confirmed $203 team-license payment",
+    "revenue_rule": "Agent routing instruction files are discovery metadata, not revenue. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence."
   },
   "openapi_commerce_actions_details": {
     "updated_at_kst": "2026-05-22 05:18",

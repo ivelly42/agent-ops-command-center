@@ -2,7 +2,7 @@
   "openapi": "3.1.0",
   "info": {
     "title": "Agent Ops Command Center Commerce Actions",
-    "version": "0.5.116",
+    "version": "0.5.117",
     "description": "Read public product metadata and open the $203 team-license request path for Agent Ops Command Center. This API describes public static resources only; it does not process payment or prove revenue."
   },
   "servers": [
