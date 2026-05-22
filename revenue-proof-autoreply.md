@@ -19,9 +19,12 @@ Required proof:
 
 Automatic labels:
 
-- `revenue-confirmed`
-- `delivery-ready`
-- `revenue-target-reached` when gross revenue proof is at least `$200`
+- `revenue-proof-submitted`
+- `needs-seller-verification`
+
+Seller verification label:
+
+- `revenue-confirmed` only after the submitted evidence is verified
 
 Automatic reply links:
 
@@ -31,4 +34,4 @@ Automatic reply links:
 
 Duplicate guard: hidden marker `agent-ops-revenue-proof-autoreply-v1`.
 
-Revenue rule: the workflow does not create revenue. It only reacts after checkout, receipt, payout, or seller-dashboard evidence exists.
+Revenue rule: the workflow does not confirm or create revenue. Metrics count revenue only from revenue-proof issues that include a positive amount, the required checkout/receipt/payout/seller-dashboard confirmation text, and the `revenue-confirmed` label.

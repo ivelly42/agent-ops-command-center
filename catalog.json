@@ -598,12 +598,12 @@
       "url": "https://ivelly42.github.io/agent-ops-command-center/revenue-proof-autoreply.md",
       "workflow": "https://github.com/ivelly42/agent-ops-command-center/blob/main/.github/workflows/revenue-proof-autoreply.yml",
       "labels": [
-        "revenue-confirmed",
-        "delivery-ready",
-        "revenue-target-reached when amount is at least 200"
+        "revenue-proof-submitted",
+        "needs-seller-verification"
       ],
+      "counting_label": "revenue-confirmed after seller verification",
       "delivery_manifest": "https://ivelly42.github.io/agent-ops-command-center/paid-delivery-manifest.md",
-      "revenue_rule": "The autoreply does not create revenue. It only reacts after checkout, receipt, payout, or seller-dashboard evidence exists.",
+      "revenue_rule": "The autoreply does not confirm or create revenue. Metrics count revenue only from revenue-proof issues with a positive amount, required checkout/receipt/payout/seller-dashboard confirmation text, and the revenue-confirmed label.",
       "dry_run": "workflow_dispatch supports mock_revenue_proof=true for synthetic positive-path validation without creating a fake issue"
     },
     {
@@ -1808,7 +1808,7 @@
     "revenue_rule": "Bridged discussion issues are order intent, not revenue. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence."
   },
   "revenue_proof_autoreply": {
-    "updated_at_kst": "2026-05-22 03:45",
+    "updated_at_kst": "2026-05-22 13:09",
     "workflow": "https://github.com/ivelly42/agent-ops-command-center/blob/main/.github/workflows/revenue-proof-autoreply.yml",
     "docs": "https://ivelly42.github.io/agent-ops-command-center/revenue-proof-autoreply.md",
     "trigger": "revenue-proof issue opened, edited, reopened, labeled, workflow_dispatch dry run, or dry-run mock proof",
@@ -1817,14 +1817,14 @@
       "checkout receipt payout or seller-dashboard confirmation"
     ],
     "labels": [
-      "revenue-confirmed",
-      "delivery-ready",
-      "revenue-target-reached when amount is at least 200"
+      "revenue-proof-submitted",
+      "needs-seller-verification"
     ],
+    "counting_label": "revenue-confirmed after seller verification",
     "delivery_manifest": "https://ivelly42.github.io/agent-ops-command-center/paid-delivery-manifest.md",
     "delivery_acceptance": "https://ivelly42.github.io/agent-ops-command-center/team-delivery-acceptance.html",
     "metrics": "https://ivelly42.github.io/agent-ops-command-center/metrics/status.json",
-    "revenue_rule": "The autoreply does not create revenue. It only reacts after checkout, receipt, payout, or seller-dashboard evidence exists.",
+    "revenue_rule": "The autoreply does not confirm or create revenue. Metrics count revenue only from revenue-proof issues with a positive amount, required checkout/receipt/payout/seller-dashboard confirmation text, and the revenue-confirmed label.",
     "dry_run": "workflow_dispatch supports mock_revenue_proof=true for synthetic positive-path validation without creating a fake issue"
   },
   "agent_routing_manifest": "https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-routing.json",

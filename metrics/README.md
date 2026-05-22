@@ -21,6 +21,7 @@ Current status:
 - Team licenses needed: `1`
 - Checkout live: `false`
 - Revenue proof required: `checkout, receipt, payout, or seller-dashboard evidence`
+- Revenue counting rule: `gross revenue counts only from revenue-proof issues that include a positive amount, the required confirmation text, and the revenue-confirmed label`
 - Status: `no paid checkout`
 - Updated: `2026-05-22T04:03:12.446Z`
 - Auto-refresh cadence: `every 4 hours, plus issue/release/workflow events`

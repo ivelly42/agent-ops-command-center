@@ -130,6 +130,7 @@ jobs:
             const confirmedRevenueProofs = revenueProofIssues
               .map((issue) => ({ issue, amount: parseGrossUsd(issue.body || "") }))
               .filter(({ issue, amount }) => amount > 0 &&
+                hasLabel(issue, "revenue-confirmed") &&
                 (issue.body || "").includes("I confirm this issue records real checkout, receipt, payout, or seller-dashboard evidence."));
             const grossRevenue = confirmedRevenueProofs.reduce((sum, proof) => sum + proof.amount, 0);
             const status = grossRevenue >= target
@@ -160,6 +161,7 @@ jobs:
               team_licenses_needed: Math.ceil(target / teamPrice),
               checkout_live: false,
               revenue_proof_required: "checkout, receipt, payout, or seller-dashboard evidence",
+              revenue_counting_rule: "gross revenue counts only from revenue-proof issues that include a positive amount, the required confirmation text, and the revenue-confirmed label",
               status,
               updated_at: new Date().toISOString()
             };
@@ -190,6 +192,7 @@ jobs:
               `- Team licenses needed: \`${metrics.team_licenses_needed}\``,
               `- Checkout live: \`${metrics.checkout_live}\``,
               `- Revenue proof required: \`${metrics.revenue_proof_required}\``,
+              `- Revenue counting rule: \`${metrics.revenue_counting_rule}\``,
               `- Status: \`${metrics.status}\``,
               `- Updated: \`${metrics.updated_at}\``,
               `- Auto-refresh cadence: \`every 4 hours, plus issue/release/workflow events\``,
