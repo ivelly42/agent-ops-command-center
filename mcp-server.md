@@ -5,7 +5,7 @@ Public stdio MCP server for Agent Ops Command Center buyer routing.
 Run from the release tarball:
 
 ```sh
-npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.140-preview/agent-ops-command-center-0.5.140.tgz -- agent-ops-mcp-server
+npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.141-preview/agent-ops-command-center-0.5.141.tgz -- agent-ops-mcp-server
 ```
 
 Tools:

@@ -16,7 +16,7 @@ const links = {
   mcpBuyerRouterTemplateConfig: "https://ivelly42.github.io/ai-agent-mcp-buyer-router-template/.mcp.json",
   mcpBuyerRouterTemplateMetadata: "https://ivelly42.github.io/ai-agent-mcp-buyer-router-template/agent-ops-mcp-router.json",
   mcpBuyerRouterTemplateGenerate: "https://github.com/ivelly42/ai-agent-mcp-buyer-router-template/generate",
-  releaseTarball: "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.140-preview/agent-ops-command-center-0.5.140.tgz"
+  releaseTarball: "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.141-preview/agent-ops-command-center-0.5.141.tgz"
 };
 
 const revenueRule = [

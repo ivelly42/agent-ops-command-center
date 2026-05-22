@@ -1,6 +1,6 @@
 {
   "name": "agent-ops-command-center",
-  "version": "0.5.140",
+  "version": "0.5.141",
   "description": "Public preview CLI, MCP server, and project MCP config for Agent Ops Command Center with MCP buyer-router template links, payment-ready $203 team request links, checkout-status metadata, Agent Skills routing, Claude Code skill and slash-command routing, Junie, AGENT.md, and Zed .rules routing.",
   "license": "MIT",
   "homepage": "https://ivelly42.github.io/agent-ops-command-center/",
