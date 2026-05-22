@@ -81,6 +81,12 @@ jobs:
             const title = issue.title || "";
             const body = issue.body || "";
             const text = `${title}\n${body}`;
+            if (labels.includes("not-buyer-intent") ||
+              text.includes("agent-ops-discussion-order-bridge-v1") ||
+              text.includes("automation-generated bridge from owner-authored discussion")) {
+              core.info("Issue is marked not buyer intent; skipping autoreply and labels.");
+              return;
+            }
             const orderLabels = new Set([
               "order-request",
               "template-pack-request",
