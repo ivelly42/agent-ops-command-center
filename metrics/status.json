@@ -1,13 +1,13 @@
 {
-  "orders": 8,
+  "orders": 0,
   "individual_order_intents": 0,
-  "team_license_order_intents": 8,
+  "team_license_order_intents": 0,
   "preview_only_intents": 0,
   "unlabeled_order_intents": 0,
   "revenue_proof_issues": 0,
   "confirmed_revenue_proof_issues": 0,
   "preview_downloads": 0,
-  "possible_gross_if_all_orders_paid_usd": 1624,
+  "possible_gross_if_all_orders_paid_usd": 0,
   "gross_revenue_usd": 0,
   "target_revenue_usd": 200,
   "price_usd": 29,
@@ -16,6 +16,6 @@
   "team_licenses_needed": 1,
   "checkout_live": false,
   "revenue_proof_required": "checkout, receipt, payout, or seller-dashboard evidence",
-  "status": "orders pending checkout",
-  "updated_at": "2026-05-22T03:02:36.786Z"
+  "status": "no paid checkout",
+  "updated_at": "2026-05-22T03:03:48.240Z"
 }
