@@ -150,6 +150,15 @@ jobs:
             ai-agent-change-approval-template \
             ai-agent-governance-template \
             ai-agent-rollout-checklist-template \
+            ai-agent-acceptance-test-template \
+            ai-agent-client-delivery-kit \
+            ai-agent-cost-tracker-template \
+            ai-agent-incident-postmortem-template \
+            ai-agent-model-routing-template \
+            ai-agent-prompt-regression-test-template \
+            ai-agent-roi-calculator-template \
+            ai-agent-verification-ledger-template \
+            ai-agent-workflow-comparison-template \
             ai-agent-software-purchase-request-template \
             ai-agent-vendor-onboarding-template \
             ai-agent-invoice-request-template \
