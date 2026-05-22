@@ -204,11 +204,11 @@
       <description>Package metadata now exposes a custom funding URL that routes npm and GitHub package readers to the prefilled $203 team-license request, and the CLI JSON payload includes the same package funding link. Package funding links and npm fund output are not revenue; revenue still requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
-      <title>GitHub Issue Chooser Fast Team Request</title>
+      <title>GitHub Issue Chooser Primary Team Request</title>
       <link>https://github.com/ivelly42/agent-ops-command-center/issues/new/choose</link>
       <guid>https://github.com/ivelly42/agent-ops-command-center/issues/new/choose#v5.140-preview</guid>
       <pubDate>Fri, 22 May 2026 04:50:00 +0900</pubDate>
-      <description>The GitHub New Issue chooser now lists a Fast $203 team request as the first contact link, sending buyers to the prefilled team-license request before slower issue forms. Chooser clicks and generated request URLs are not revenue; revenue still requires checkout, receipt, payout, or seller-dashboard evidence.</description>
+      <description>The GitHub New Issue chooser now lists a Primary $203 team request as the first contact link, sending buyers to the prefilled team-license request before slower issue forms. Chooser clicks and generated request URLs are not revenue; revenue still requires checkout, receipt, payout, or seller-dashboard evidence.</description>
     </item>
     <item>
       <title>GitHub Profile Sales Surface</title>
@@ -715,11 +715,11 @@
       <description>Buyer reply kit is now available as a focused HTML page with copy-ready replies for price, checkout, receipt, approval, preview inspection, delivery, and revenue proof, routed to the $203 team request path.</description>
     </item>
     <item>
-      <title>Fast Team Checkout Request</title>
-      <link>https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html</link>
-      <guid>https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html#v5.140-preview</guid>
+      <title>Primary Team Request</title>
+      <link>https://ivelly42.github.io/agent-ops-command-center/team-request-url.html</link>
+      <guid>https://ivelly42.github.io/agent-ops-command-center/team-request-url.html#v5.140-preview</guid>
       <pubDate>Thu, 21 May 2026 16:58:00 +0900</pubDate>
-      <description>Fast team checkout request page opens a prefilled GitHub issue for a $203 seven-seat team license, and demand metrics now detects unlabeled fast team requests as order intent.</description>
+      <description>Primary team request page opens a prefilled GitHub issue for a $203 seven-seat team license, and demand metrics now detects unlabeled primary team requests as order intent.</description>
     </item>
     <item>
       <title>Team-First Buy Page</title>

@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 
-const teamRequestTitle = "Fast team checkout request: Agent Ops Command Center";
+const teamRequestTitle = "Primary team request: Agent Ops Command Center";
 const teamRequestBody = [
-  "Fast team checkout request: Agent Ops Command Center",
+  "Primary team request: Agent Ops Command Center",
   "",
   "Request package: Team license - 7 seats - $203 gross",
   "Purchase intent: Ready to pay $203 for the team license when checkout is ready",
@@ -43,7 +43,8 @@ const links = {
   paymentReadyRequest: "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml",
   packageFunding: "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
   teamRequestUrl: teamRequestUrl.toString(),
-  teamCheckoutRequest: "https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html",
+  teamRequestPage: "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
+  teamCheckoutRequest: "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
   checkoutStatus: "https://ivelly42.github.io/agent-ops-command-center/.well-known/checkout-status.json",
   checkoutStatusAlias: "https://ivelly42.github.io/agent-ops-command-center/checkout-status.json",
   agentOpsCheckoutSkill: "https://ivelly42.github.io/agent-ops-command-center/.agents/skills/agent-ops-checkout/SKILL.md",

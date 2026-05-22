@@ -49,13 +49,13 @@ Buy page: [buy.html](buy.html)
 
 Payment-ready request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml
 
-GitHub issue chooser fast team request: https://github.com/ivelly42/agent-ops-command-center/issues/new/choose
+GitHub issue chooser primary team request: https://github.com/ivelly42/agent-ops-command-center/issues/new/choose
 
 Payment-ready buy CTA: https://ivelly42.github.io/agent-ops-command-center/buy.html
 
 Payment-ready pricing CTA: https://ivelly42.github.io/agent-ops-command-center/pricing.html
 
-Payment-ready team checkout CTA: https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html
+Payment-ready primary team request: https://ivelly42.github.io/agent-ops-command-center/team-request-url.html
 
 Prefilled team request URL: https://ivelly42.github.io/agent-ops-command-center/team-request-url.html
 
@@ -177,7 +177,7 @@ Discussion autoreply: https://ivelly42.github.io/agent-ops-command-center/discus
 
 Payment-ready npm/autoreply Discussion: https://github.com/ivelly42/agent-ops-command-center/discussions/10
 
-Fast team checkout request: [team-checkout-request.html](team-checkout-request.html)
+Primary team request URL: [team-request-url.html](team-request-url.html)
 
 Fast template pack request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml
 
@@ -518,7 +518,7 @@ Sample files:
 - [Machine-readable catalog](catalog.json)
 - [Revenue proof intake](revenue-proof.html)
 - [Buy page](buy.html)
-- [Fast team checkout request](team-checkout-request.html)
+- [Primary team request](team-request-url.html)
 - [Fast template pack request](https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml)
 - [Fast template pack request page](template-pack-request.html)
 - [GitHub Sponsor button funding links](.github/FUNDING.yml)

@@ -61,7 +61,7 @@ Running the tarball preview is not revenue.
 
 `--team-request-url` prints a prefilled GitHub issue URL for:
 
-- `Fast team checkout request: Agent Ops Command Center`
+- `Primary team request: Agent Ops Command Center`
 - `Request package: Team license - 7 seats - $203 gross`
 - `Purchase intent: Ready to pay $203 for the team license when checkout is ready`
 

@@ -17,7 +17,7 @@
   "social_image": "https://ivelly42.github.io/agent-ops-command-center/og.png",
   "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.140-preview",
   "early_access_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml",
-  "github_issue_chooser_fast_team_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new/choose",
+  "github_issue_chooser_primary_team_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new/choose",
   "package_funding_direct_request": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
   "agent_commerce_json": "https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-commerce.json",
   "agent_commerce_json_alias": "https://ivelly42.github.io/agent-ops-command-center/agent-commerce.json",
@@ -30,7 +30,7 @@
   "ai_buy_intent_json": "https://ivelly42.github.io/agent-ops-command-center/ai-buy-intent.json",
   "template_pack_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml",
   "template_pack_request_page": "https://ivelly42.github.io/agent-ops-command-center/template-pack-request.html",
-  "fast_team_checkout_request": "https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html",
+  "fast_team_checkout_request": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
   "prefilled_team_request_url": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
   "github_repo_homepage_direct_request": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
   "github_funding_primary_request": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
@@ -514,7 +514,7 @@
       "revenue_rule": "Package funding links and npm fund output are purchase intent only. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence."
     },
     {
-      "title": "GitHub Issue Chooser Fast Team Request",
+      "title": "GitHub Issue Chooser Primary Team Request",
       "url": "https://github.com/ivelly42/agent-ops-command-center/issues/new/choose",
       "config": "https://github.com/ivelly42/agent-ops-command-center/blob/main/.github/ISSUE_TEMPLATE/config.yml",
       "primary_contact_link": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
@@ -557,7 +557,7 @@
       "title": "Prefilled Team Request URL",
       "url": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
       "request_package": "Team license - 7 seats - $203 gross",
-      "direct_issue_url_prefix": "https://github.com/ivelly42/agent-ops-command-center/issues/new?title=Fast+team+checkout+request%3A+Agent+Ops+Command+Center",
+      "direct_issue_url_prefix": "https://github.com/ivelly42/agent-ops-command-center/issues/new?title=Primary+team+request%3A+Agent+Ops+Command+Center",
       "fallback": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml",
       "revenue_rule": "The prefilled URL is purchase intent only. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence."
     },
@@ -632,7 +632,7 @@
         "https://ivelly42.github.io/agent-ops-command-center/",
         "https://ivelly42.github.io/agent-ops-command-center/buy.html",
         "https://ivelly42.github.io/agent-ops-command-center/pricing.html",
-        "https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html",
+        "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
         "https://ivelly42.github.io/agent-ops-command-center/discovery.html",
         "https://ivelly42.github.io/agent-ops-command-center/catalog.json",
         "https://ivelly42.github.io/agent-ops-command-center/feed.xml",
@@ -664,7 +664,7 @@
       "title": "Payment-Ready CTA Upgrade",
       "url": "https://ivelly42.github.io/agent-ops-command-center/buy.html",
       "pricing": "https://ivelly42.github.io/agent-ops-command-center/pricing.html",
-      "team_checkout": "https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html",
+      "team_checkout": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
       "request_url": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml",
       "revenue_rule": "CTA clicks and payment-ready issues are not revenue. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence."
     },
@@ -715,8 +715,8 @@
       "request_url": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml"
     },
     {
-      "title": "Fast Team Checkout Request",
-      "url": "https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html"
+      "title": "Primary Team Request",
+      "url": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html"
     },
     {
       "title": "Template Pack Request",
@@ -859,7 +859,7 @@
       "url": "https://ivelly42.github.io/ai-agent-team-license-quote-template/",
       "repository": "https://github.com/ivelly42/ai-agent-team-license-quote-template",
       "template_url": "https://github.com/ivelly42/ai-agent-team-license-quote-template/generate",
-      "request_page": "https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html",
+      "request_page": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
       "request_url": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml"
     },
     {
@@ -872,7 +872,7 @@
       "url": "https://ivelly42.github.io/ai-agent-purchase-order-template/",
       "repository": "https://github.com/ivelly42/ai-agent-purchase-order-template",
       "template_url": "https://github.com/ivelly42/ai-agent-purchase-order-template/generate",
-      "request_page": "https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html",
+      "request_page": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
       "request_url": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml"
     },
     {
@@ -885,7 +885,7 @@
       "url": "https://ivelly42.github.io/ai-agent-invoice-request-template/",
       "repository": "https://github.com/ivelly42/ai-agent-invoice-request-template",
       "template_url": "https://github.com/ivelly42/ai-agent-invoice-request-template/generate",
-      "request_page": "https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html",
+      "request_page": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
       "request_url": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml"
     },
     {
@@ -916,7 +916,7 @@
       "url": "https://ivelly42.github.io/ai-agent-vendor-onboarding-template/",
       "repository": "https://github.com/ivelly42/ai-agent-vendor-onboarding-template",
       "template_url": "https://github.com/ivelly42/ai-agent-vendor-onboarding-template/generate",
-      "request_page": "https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html",
+      "request_page": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
       "request_url": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=vendor-onboarding.yml"
     },
     {
@@ -929,19 +929,19 @@
       "url": "https://ivelly42.github.io/ai-agent-software-purchase-request-template/",
       "repository": "https://github.com/ivelly42/ai-agent-software-purchase-request-template",
       "template_url": "https://github.com/ivelly42/ai-agent-software-purchase-request-template/generate",
-      "request_page": "https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html",
+      "request_page": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
       "request_url": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml"
     },
     {
       "title": "AI Agent Software Purchase Request Discussion",
       "url": "https://github.com/ivelly42/agent-ops-command-center/discussions/7",
-      "request_page": "https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html",
+      "request_page": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
       "request_url": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml"
     },
     {
       "title": "AI Agent Budget Request Email Discussion",
       "url": "https://github.com/ivelly42/agent-ops-command-center/discussions/8",
-      "request_page": "https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html",
+      "request_page": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
       "request_url": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml"
     },
     {
@@ -1365,7 +1365,7 @@
     "https://github.com/ivelly42/agent-ops-command-center/discussions/10",
     "https://ivelly42.github.io/agent-ops-command-center/buy.html",
     "https://ivelly42.github.io/agent-ops-command-center/pricing.html",
-    "https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html"
+    "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html"
   ],
   "github_access_review_mirror_pages": "https://ivelly42.github.io/ai-agent-access-review-template/",
   "github_access_review_mirror": "https://github.com/ivelly42/ai-agent-access-review-template",
@@ -1392,7 +1392,7 @@
   "github_funding_custom_urls": [
     "https://ivelly42.github.io/agent-ops-command-center/buy.html",
     "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml",
-    "https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html",
+    "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
     "https://ivelly42.github.io/agent-ops-command-center/template-pack-request.html"
   ],
   "github_purchase_order_mirror_pages": "https://ivelly42.github.io/ai-agent-purchase-order-template/",
@@ -1504,7 +1504,7 @@
     "updated_at_kst": "2026-05-22 04:25",
     "page": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
     "request_package": "Team license - 7 seats - $203 gross",
-    "title_marker": "Fast team checkout request: Agent Ops Command Center",
+    "title_marker": "Primary team request: Agent Ops Command Center",
     "body_marker": "Purchase intent: Ready to pay $203 for the team license when checkout is ready",
     "metrics_behavior": "A submitted issue can be autolabeled and counted as order intent, not revenue.",
     "revenue_rule": "Count revenue only after checkout, receipt, payout, or seller-dashboard evidence."
@@ -1536,11 +1536,11 @@
     ],
     "revenue_rule": "Profile views, stars, forks, and funding-link clicks are purchase intent only. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence."
   },
-  "github_issue_chooser_fast_team_request_details": {
+  "github_issue_chooser_primary_team_request_details": {
     "updated_at_kst": "2026-05-22 04:50",
     "chooser": "https://github.com/ivelly42/agent-ops-command-center/issues/new/choose",
     "config": "https://github.com/ivelly42/agent-ops-command-center/blob/main/.github/ISSUE_TEMPLATE/config.yml",
-    "first_contact_link_name": "Fast $203 team request",
+    "first_contact_link_name": "Primary $203 team request",
     "first_contact_link_url": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
     "request_package": "Team license - 7 seats - $203 gross",
     "revenue_rule": "Issue chooser clicks and generated request URLs are purchase intent only. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence."
@@ -1652,7 +1652,7 @@
     "request_package": "Team license - 7 seats - $203 gross",
     "output": "prefilled GitHub issue URL and copy-ready markdown for a payment-ready team request",
     "request_text_markers": [
-      "Fast team checkout request: Agent Ops Command Center",
+      "Primary team request: Agent Ops Command Center",
       "Request package: Team license - 7 seats - $203 gross",
       "Purchase intent: Ready to pay $203 for the team license when checkout is ready"
     ],
@@ -1686,7 +1686,7 @@
     "pages": [
       "https://ivelly42.github.io/agent-ops-command-center/buy.html",
       "https://ivelly42.github.io/agent-ops-command-center/pricing.html",
-      "https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html"
+      "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html"
     ],
     "request_url": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml",
     "revenue_rule": "CTA clicks and payment-ready issues are not revenue. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence."
@@ -1719,7 +1719,6 @@
       "https://ivelly42.github.io/agent-ops-command-center/",
       "https://ivelly42.github.io/agent-ops-command-center/buy.html",
       "https://ivelly42.github.io/agent-ops-command-center/pricing.html",
-      "https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html",
       "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
       "https://ivelly42.github.io/agent-ops-command-center/discovery.html",
       "https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-commerce.json",

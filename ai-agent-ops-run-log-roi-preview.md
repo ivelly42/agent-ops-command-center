@@ -91,7 +91,7 @@ The pack breaks even if it prevents roughly one hour of cleanup time for a build
 - Landing page: https://ivelly42.github.io/agent-ops-command-center/
 - GitHub repo homepage direct request: https://ivelly42.github.io/agent-ops-command-center/team-request-url.html
 - GitHub profile sales surface: https://github.com/ivelly42/ivelly42
-- GitHub issue chooser fast team request: https://github.com/ivelly42/agent-ops-command-center/issues/new/choose
+- GitHub issue chooser primary team request: https://github.com/ivelly42/agent-ops-command-center/issues/new/choose
 - Package funding direct request: https://ivelly42.github.io/agent-ops-command-center/team-request-url.html
 - Agent commerce metadata: https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-commerce.json
 - Agent commerce metadata alias: https://ivelly42.github.io/agent-ops-command-center/agent-commerce.json
@@ -213,7 +213,7 @@ The pack breaks even if it prevents roughly one hour of cleanup time for a build
 - Payment-ready issue form: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml
 - Payment-ready buy CTA: https://ivelly42.github.io/agent-ops-command-center/buy.html
 - Payment-ready pricing CTA: https://ivelly42.github.io/agent-ops-command-center/pricing.html
-- Payment-ready team checkout CTA: https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html
+- Payment-ready primary team request: https://ivelly42.github.io/agent-ops-command-center/team-request-url.html
 - Prefilled team request URL: https://ivelly42.github.io/agent-ops-command-center/team-request-url.html
 - GitHub Pages payment-ready mirror: https://ivelly42.github.io/ai-agent-payment-ready-template/
 - GitHub payment-ready mirror: https://github.com/ivelly42/ai-agent-payment-ready-template
@@ -235,7 +235,7 @@ The pack breaks even if it prevents roughly one hour of cleanup time for a build
 - IndexNow automation: https://ivelly42.github.io/agent-ops-command-center/indexnow-automation.md
 - Discussion autoreply: https://ivelly42.github.io/agent-ops-command-center/discussion-autoreply.md
 - Payment-ready npm/autoreply Discussion: https://github.com/ivelly42/agent-ops-command-center/discussions/10
-- Fast team checkout request: https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html
+- Primary team request: https://ivelly42.github.io/agent-ops-command-center/team-request-url.html
 - Fast template pack request page: https://ivelly42.github.io/agent-ops-command-center/template-pack-request.html
 - Fast template pack request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml
 - GitHub Sponsor button funding links: https://github.com/ivelly42/agent-ops-command-center/blob/main/.github/FUNDING.yml

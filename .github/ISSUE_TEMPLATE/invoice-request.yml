@@ -17,7 +17,8 @@ body:
         Invoice request mirror: https://ivelly42.github.io/ai-agent-invoice-request-template/
         Team quote builder: https://ivelly42.github.io/agent-ops-command-center/team-quote.html
         Budget request form: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=budget-request.yml
-        Fast team request page: https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html
+        Primary team request URL: https://ivelly42.github.io/agent-ops-command-center/team-request-url.html
+        Checkout status: https://ivelly42.github.io/agent-ops-command-center/checkout-status.json
   - type: dropdown
     id: package
     attributes:
