@@ -18,7 +18,6 @@ on:
 permissions:
   contents: read
   discussions: write
-  issues: write
 
 jobs:
   reply:
@@ -50,6 +49,9 @@ jobs:
                     title
                     body
                     url
+                    author {
+                      login
+                    }
                     comments(first: 100) {
                       nodes {
                         body
@@ -67,6 +69,15 @@ jobs:
             const discussion = result.repository.discussion;
             if (!discussion) {
               core.info(`Discussion #${discussionNumber} not found; skipping.`);
+              return;
+            }
+            const eventActor = context.payload.sender?.login || "";
+            if (eventName === "discussion" && discussion.author?.login === owner) {
+              core.info("Owner-authored discussion event; not creating buyer-intent automation.");
+              return;
+            }
+            if (eventName === "discussion_comment" && eventActor === owner) {
+              core.info("Owner-authored discussion comment; not creating buyer-intent automation.");
               return;
             }
             const commentBody = context.payload.comment?.body || "";
@@ -110,59 +121,17 @@ jobs:
               return;
             }
 
-            const bridgeMarker = `<!-- agent-ops-discussion-order-bridge-v1 discussion:${discussionNumber} -->`;
-            const allIssues = await github.paginate(github.rest.issues.listForRepo, {
-              owner,
-              repo,
-              state: "all",
-              per_page: 100
-            });
-            const existingIssue = allIssues
-              .filter((issue) => !issue.pull_request)
-              .find((issue) => (issue.body || "").includes(bridgeMarker));
-            let bridgeIssueUrl = existingIssue?.html_url || "";
-            const issueBody = [
-              bridgeMarker,
-              "# Payment-ready discussion request",
-              "",
-              `Source discussion: ${discussion.url}`,
-              "",
-              "Request package: Team license - 7 seats - $203 gross",
-              "",
-              "Captured buyer-intent text:",
-              "",
-              "```text",
-              text.slice(0, 1800),
-              "```",
-              "",
-              "Preferred next path: payment-ready checkout, invoice, receipt, purchase-order, or delivery-proof details.",
-              "",
-              "Revenue rule: this bridged issue is purchase intent only. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence."
-            ].join("\n");
-            if (!bridgeIssueUrl && dryRun) {
-              bridgeIssueUrl = "dry-run: would create payment-ready order issue";
-              core.info(`Dry run for discussion #${discussionNumber}: would create payment-ready order issue.`);
-            } else if (!bridgeIssueUrl) {
-              const created = await github.rest.issues.create({
-                owner,
-                repo,
-                title: `Payment-ready discussion request: Agent Ops Command Center #${discussionNumber}`,
-                body: issueBody,
-                labels: ["order-request", "payment-ready"]
-              });
-              bridgeIssueUrl = created.data.html_url;
-            }
-
             const body = [
               marker,
               "Thanks for the Agent Ops Command Center buyer note.",
               "",
               "**Current checkout status:** not live yet.",
               "",
-              "**Best next path:** open the payment-ready request so preferred checkout, receipt, invoice, purchase-order, or delivery-proof needs are captured in one place.",
+              "**Best next path:** open the primary team request so checkout, receipt, invoice, purchase-order, or delivery-proof needs are captured in one place.",
               "",
-              "- Payment-ready request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml",
-              `- Bridged order-intent issue: ${bridgeIssueUrl}`,
+              "- Primary team request: https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
+              "- Checkout status: https://ivelly42.github.io/agent-ops-command-center/checkout-status.json",
+              "- Payment-ready fallback: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml",
               "- Buy page: https://ivelly42.github.io/agent-ops-command-center/buy.html",
               "- Pricing: https://ivelly42.github.io/agent-ops-command-center/pricing.html",
               "- Buyer reply kit: https://ivelly42.github.io/agent-ops-command-center/buyer-reply-kit.html",

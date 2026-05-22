@@ -45,6 +45,12 @@ jobs:
             const plainIssues = allIssues.filter((issue) => !issue.pull_request);
             const issueText = (issue) => `${issue.title || ""}\n${issue.body || ""}`;
             const hasLabel = (issue, label) => (issue.labels || []).some((item) => item.name === label);
+            const isNotBuyerIntent = (issue) => {
+              const text = issueText(issue);
+              return hasLabel(issue, "not-buyer-intent") ||
+                text.includes("agent-ops-discussion-order-bridge-v1") ||
+                text.includes("automation-generated bridge from owner-authored discussion");
+            };
             const isOrderIntent = (issue) => {
               const text = issueText(issue);
               return hasLabel(issue, "order-request") ||
@@ -75,7 +81,7 @@ jobs:
                 text.includes("Request package: Team license - 7 seats - $203 gross") ||
                 text.includes("Request package: Individual seat - $29");
             };
-            const issues = plainIssues.filter(isOrderIntent);
+            const issues = plainIssues.filter((issue) => !isNotBuyerIntent(issue) && isOrderIntent(issue));
             const unlabeledOrders = issues.filter((issue) => !hasLabel(issue, "order-request")).length;
             const revenueProofIssues = await github.paginate(github.rest.issues.listForRepo, {
               owner,
