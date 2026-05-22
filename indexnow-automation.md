@@ -1,3 +1,7 @@
+MCP buyer router template repo: https://github.com/ivelly42/ai-agent-mcp-buyer-router-template
+MCP buyer router template Pages: https://ivelly42.github.io/ai-agent-mcp-buyer-router-template/
+MCP buyer router template config: https://ivelly42.github.io/ai-agent-mcp-buyer-router-template/.mcp.json
+Template repo activity is not revenue; revenue requires checkout, receipt, payout, or seller-dashboard proof.
 Project MCP config: https://ivelly42.github.io/agent-ops-command-center/.mcp.json
 Project MCP config alias: https://ivelly42.github.io/agent-ops-command-center/mcp-client-config.json
 Project MCP config guide: https://ivelly42.github.io/agent-ops-command-center/mcp-client-config.md
@@ -80,7 +84,7 @@ Submitted surfaces:
 - Feed: https://ivelly42.github.io/agent-ops-command-center/feed.xml
 - Preview index: https://ivelly42.github.io/agent-ops-command-center/github-preview-index.md
 - NPM preview docs: https://ivelly42.github.io/agent-ops-command-center/npm-preview.md
-- NPM release tarball: https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.138-preview/agent-ops-command-center-0.5.138.tgz
+- NPM release tarball: https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.139-preview/agent-ops-command-center-0.5.139.tgz
 - Order autoreply docs: https://ivelly42.github.io/agent-ops-command-center/order-autoreply.md
 - Discussion autoreply docs: https://ivelly42.github.io/agent-ops-command-center/discussion-autoreply.md
 - Revenue proof autoreply docs: https://ivelly42.github.io/agent-ops-command-center/revenue-proof-autoreply.md

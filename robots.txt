@@ -41,6 +41,12 @@ Project-MCP-Config-Alias: https://ivelly42.github.io/agent-ops-command-center/mc
 
 Project-MCP-Config-Guide: https://ivelly42.github.io/agent-ops-command-center/mcp-client-config.md
 
+MCP-Buyer-Router-Template: https://github.com/ivelly42/ai-agent-mcp-buyer-router-template
+
+MCP-Buyer-Router-Template-Pages: https://ivelly42.github.io/ai-agent-mcp-buyer-router-template/
+
+MCP-Buyer-Router-Template-Config: https://ivelly42.github.io/ai-agent-mcp-buyer-router-template/.mcp.json
+
 Amp-Agent-Alias: https://ivelly42.github.io/agent-ops-command-center/amp-agent.md
 
 Junie-Guidelines: https://ivelly42.github.io/agent-ops-command-center/.junie/guidelines.md
