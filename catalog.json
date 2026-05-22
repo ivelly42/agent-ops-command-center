@@ -1,7 +1,7 @@
 {
   "name": "Agent Ops Command Center",
   "description": "Notion and spreadsheet template pack for builders running AI coding agents.",
-  "version": "v5.139-preview",
+  "version": "v5.140-preview",
   "price_usd": 29,
   "individual_price_usd": 29,
   "team_license_price_usd": 203,
@@ -15,7 +15,7 @@
   "status": "preview_live_no_paid_checkout",
   "homepage": "https://ivelly42.github.io/agent-ops-command-center/",
   "social_image": "https://ivelly42.github.io/agent-ops-command-center/og.png",
-  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.139-preview",
+  "preview_release": "https://github.com/ivelly42/agent-ops-command-center/releases/tag/v5.140-preview",
   "early_access_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml",
   "github_issue_chooser_fast_team_request": "https://github.com/ivelly42/agent-ops-command-center/issues/new/choose",
   "package_funding_direct_request": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
@@ -101,10 +101,11 @@
       "guide": "https://ivelly42.github.io/agent-ops-command-center/mcp-client-config.md",
       "server_guide": "https://ivelly42.github.io/agent-ops-command-center/mcp-server.md",
       "server_manifest": "https://ivelly42.github.io/agent-ops-command-center/.well-known/mcp-server.json",
-      "command": "npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.139-preview/agent-ops-command-center-0.5.139.tgz -- agent-ops-mcp-server",
+      "command": "npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.140-preview/agent-ops-command-center-0.5.140.tgz -- agent-ops-mcp-server",
       "tools": [
         "get_checkout_status",
         "get_team_request",
+        "get_mcp_buyer_router_template",
         "get_revenue_rule"
       ],
       "primary_offer": "Team license - 7 seats - $203 gross",
@@ -117,15 +118,17 @@
       "manifest": "https://ivelly42.github.io/agent-ops-command-center/.well-known/mcp-server.json",
       "manifest_alias": "https://ivelly42.github.io/agent-ops-command-center/mcp-server.json",
       "binary": "https://ivelly42.github.io/agent-ops-command-center/bin/agent-ops-mcp-server.js",
-      "command": "npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.139-preview/agent-ops-command-center-0.5.139.tgz -- agent-ops-mcp-server",
+      "command": "npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.140-preview/agent-ops-command-center-0.5.140.tgz -- agent-ops-mcp-server",
       "tools": [
         "get_checkout_status",
         "get_team_request",
+        "get_mcp_buyer_router_template",
         "get_revenue_rule"
       ],
       "resources": [
         "agent-ops://checkout-status",
-        "agent-ops://team-request"
+        "agent-ops://team-request",
+      "agent-ops://mcp-buyer-router-template"
       ],
       "primary_offer": "Team license - 7 seats - $203 gross",
       "primary_request_url": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
@@ -410,10 +413,10 @@
     },
     {
       "title": "NPM Release Tarball Install",
-      "url": "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.139-preview/agent-ops-command-center-0.5.139.tgz",
+      "url": "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.140-preview/agent-ops-command-center-0.5.140.tgz",
       "docs": "https://ivelly42.github.io/agent-ops-command-center/npm-preview.md",
-      "command": "npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.139-preview/agent-ops-command-center-0.5.139.tgz -- agent-ops-command-center --team-request-url",
-      "json_command": "npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.139-preview/agent-ops-command-center-0.5.139.tgz -- agent-ops-command-center --json",
+      "command": "npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.140-preview/agent-ops-command-center-0.5.140.tgz -- agent-ops-command-center --team-request-url",
+      "json_command": "npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.140-preview/agent-ops-command-center-0.5.140.tgz -- agent-ops-command-center --json",
       "primary_offer": "Team license - 7 seats - $203 gross",
       "primary_request_url": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
       "target_revenue_usd": 200,
@@ -1470,7 +1473,7 @@
     "proof_rule": "GitHub topics improve discovery only; revenue is counted only after checkout, receipt, payout, or seller-dashboard evidence."
   },
   "npm_github_install_preview": {
-    "command": "npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.139-preview/agent-ops-command-center-0.5.139.tgz -- agent-ops-command-center --team-request-url",
+    "command": "npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.140-preview/agent-ops-command-center-0.5.140.tgz -- agent-ops-command-center --team-request-url",
     "team_request_url_command": "npx github:ivelly42/agent-ops-command-center --team-request-url",
     "team_request_markdown_command": "npx github:ivelly42/agent-ops-command-center --team-request-markdown",
     "package_funding_command": "npm fund agent-ops-command-center",
@@ -1479,7 +1482,7 @@
     "team_request_mirror": "https://github.com/ivelly42/ai-agent-npx-team-request-template",
     "team_request_mirror_pages": "https://ivelly42.github.io/ai-agent-npx-team-request-template/",
     "package_name": "agent-ops-command-center",
-    "package_version": "0.5.139",
+    "package_version": "0.5.140",
     "bin": [
       "agent-ops-command-center",
       "agent-ops"
@@ -1491,8 +1494,8 @@
     "revenue_rule": "Installing or running this preview is not revenue. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence.",
     "discussion": "https://github.com/ivelly42/agent-ops-command-center/discussions/10",
     "cline_workflow_discussion": "https://github.com/ivelly42/agent-ops-command-center/discussions/12",
-    "url": "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.139-preview/agent-ops-command-center-0.5.139.tgz",
-    "json_command": "npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.139-preview/agent-ops-command-center-0.5.139.tgz -- agent-ops-command-center --json"
+    "url": "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.140-preview/agent-ops-command-center-0.5.140.tgz",
+    "json_command": "npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.140-preview/agent-ops-command-center-0.5.140.tgz -- agent-ops-command-center --json"
   },
   "github_npm_team_request_cli_discussion": "https://github.com/ivelly42/agent-ops-command-center/discussions/11",
   "github_npx_team_request_mirror": "https://github.com/ivelly42/ai-agent-npx-team-request-template",
@@ -1846,7 +1849,7 @@
   },
   "agent_routing_json": "https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-routing.json",
   "agent_routing_json_alias": "https://ivelly42.github.io/agent-ops-command-center/agent-routing.json",
-  "npm_release_tarball": "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.139-preview/agent-ops-command-center-0.5.139.tgz",
+  "npm_release_tarball": "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.140-preview/agent-ops-command-center-0.5.140.tgz",
   "editor_rule_files": {
     "github_copilot": {
       "canonical": "https://github.com/ivelly42/agent-ops-command-center/blob/main/.github/copilot-instructions.md",
@@ -1980,7 +1983,7 @@
   "mcp_server": "https://ivelly42.github.io/agent-ops-command-center/mcp-server.md",
   "mcp_server_manifest": "https://ivelly42.github.io/agent-ops-command-center/.well-known/mcp-server.json",
   "mcp_server_manifest_alias": "https://ivelly42.github.io/agent-ops-command-center/mcp-server.json",
-  "mcp_stdio_command": "npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.139-preview/agent-ops-command-center-0.5.139.tgz -- agent-ops-mcp-server",
+  "mcp_stdio_command": "npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.140-preview/agent-ops-command-center-0.5.140.tgz -- agent-ops-mcp-server",
   "alternate_urls": [
     "https://ivelly42.github.io/agent-ops-command-center/mcp-server.md",
     "https://ivelly42.github.io/agent-ops-command-center/.well-known/mcp-server.json",

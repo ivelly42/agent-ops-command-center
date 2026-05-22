@@ -11,7 +11,12 @@ const links = {
   teamRequest: `${baseUrl}/team-request-url.html`,
   paymentReady: "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml",
   buy: `${baseUrl}/buy.html`,
-  releaseTarball: "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.139-preview/agent-ops-command-center-0.5.139.tgz"
+  mcpBuyerRouterTemplateRepo: "https://github.com/ivelly42/ai-agent-mcp-buyer-router-template",
+  mcpBuyerRouterTemplatePages: "https://ivelly42.github.io/ai-agent-mcp-buyer-router-template/",
+  mcpBuyerRouterTemplateConfig: "https://ivelly42.github.io/ai-agent-mcp-buyer-router-template/.mcp.json",
+  mcpBuyerRouterTemplateMetadata: "https://ivelly42.github.io/ai-agent-mcp-buyer-router-template/agent-ops-mcp-router.json",
+  mcpBuyerRouterTemplateGenerate: "https://github.com/ivelly42/ai-agent-mcp-buyer-router-template/generate",
+  releaseTarball: "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.140-preview/agent-ops-command-center-0.5.140.tgz"
 };
 
 const revenueRule = [
@@ -41,6 +46,16 @@ const tools = [
     }
   },
   {
+    name: "get_mcp_buyer_router_template",
+    title: "Get MCP Buyer Router Template",
+    description: "Return the public template repository and Pages-hosted MCP config for routing AI-agent buyer intent.",
+    inputSchema: {
+      type: "object",
+      properties: {},
+      additionalProperties: false
+    }
+  },
+  {
     name: "get_revenue_rule",
     title: "Get Revenue Rule",
     description: "Return the proof boundary for counting revenue toward the $200 goal.",
@@ -63,6 +78,12 @@ const resources = [
     uri: "agent-ops://team-request",
     name: "Agent Ops team request",
     description: "$203 team-license request route and fallback payment-ready route.",
+    mimeType: "application/json"
+  },
+  {
+    uri: "agent-ops://mcp-buyer-router-template",
+    name: "Agent Ops MCP buyer router template",
+    description: "Public template repository, Pages metadata, and project MCP config URL.",
     mimeType: "application/json"
   }
 ];
@@ -113,6 +134,18 @@ const teamRequestPayload = () => ({
   revenue_rule: revenueRule
 });
 
+const mcpBuyerRouterTemplatePayload = () => ({
+  name: "Agent Ops MCP Buyer Router Template",
+  repository: links.mcpBuyerRouterTemplateRepo,
+  pages: links.mcpBuyerRouterTemplatePages,
+  mcp_config: links.mcpBuyerRouterTemplateConfig,
+  metadata: links.mcpBuyerRouterTemplateMetadata,
+  generate_url: links.mcpBuyerRouterTemplateGenerate,
+  primary_request_url: links.teamRequest,
+  release_tarball: links.releaseTarball,
+  revenue_rule: revenueRule
+});
+
 const handleRequest = async (message) => {
   const { id, method, params } = message;
 
@@ -152,6 +185,9 @@ const handleRequest = async (message) => {
     if (name === "get_team_request") {
       return { jsonrpc: "2.0", id, result: textContent(teamRequestPayload()) };
     }
+    if (name === "get_mcp_buyer_router_template") {
+      return { jsonrpc: "2.0", id, result: textContent(mcpBuyerRouterTemplatePayload()) };
+    }
     if (name === "get_revenue_rule") {
       return { jsonrpc: "2.0", id, result: textContent(revenueRule) };
     }
@@ -172,7 +208,9 @@ const handleRequest = async (message) => {
       ? await checkoutPayload()
       : uri === "agent-ops://team-request"
         ? teamRequestPayload()
-        : null;
+        : uri === "agent-ops://mcp-buyer-router-template"
+          ? mcpBuyerRouterTemplatePayload()
+          : null;
 
     if (!payload) {
       return {

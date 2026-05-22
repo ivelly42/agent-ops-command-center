@@ -27,8 +27,8 @@
     "catalog": "https://ivelly42.github.io/agent-ops-command-center/catalog.json",
     "metrics": "https://ivelly42.github.io/agent-ops-command-center/metrics/status.json",
     "agent_routing_manifest": "https://ivelly42.github.io/agent-ops-command-center/.well-known/agent-routing.json",
-    "npm_release_tarball": "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.139-preview/agent-ops-command-center-0.5.139.tgz",
-    "npm_release_tarball_team_request_command": "npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.139-preview/agent-ops-command-center-0.5.139.tgz -- agent-ops-command-center --team-request-url",
+    "npm_release_tarball": "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.140-preview/agent-ops-command-center-0.5.140.tgz",
+    "npm_release_tarball_team_request_command": "npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.140-preview/agent-ops-command-center-0.5.140.tgz -- agent-ops-command-center --team-request-url",
     "copilot_instructions": "https://ivelly42.github.io/agent-ops-command-center/copilot-instructions.md",
     "cursor_rules": "https://ivelly42.github.io/agent-ops-command-center/cursor-agent-rules.md",
     "windsurf_rules": "https://ivelly42.github.io/agent-ops-command-center/windsurf-rules.md",
@@ -96,14 +96,14 @@
     "read_claude_code_buy_command_alias": "https://ivelly42.github.io/agent-ops-command-center/claude-code-buy-command.md",
     "mcp_stdio_server": {
       "description": "Run a local MCP stdio server that exposes checkout status, team request, and revenue-rule tools.",
-      "command": "npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.139-preview/agent-ops-command-center-0.5.139.tgz -- agent-ops-mcp-server",
+      "command": "npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.140-preview/agent-ops-command-center-0.5.140.tgz -- agent-ops-mcp-server",
       "manifest": "https://ivelly42.github.io/agent-ops-command-center/.well-known/mcp-server.json"
     },
     "mcp_project_config": {
       "description": "Load a project-scoped MCP config that exposes checkout status, team request, and revenue-rule tools.",
       "config": "https://ivelly42.github.io/agent-ops-command-center/.mcp.json",
       "config_alias": "https://ivelly42.github.io/agent-ops-command-center/mcp-client-config.json",
-      "command": "npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.139-preview/agent-ops-command-center-0.5.139.tgz -- agent-ops-mcp-server"
+      "command": "npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.140-preview/agent-ops-command-center-0.5.140.tgz -- agent-ops-mcp-server"
     },
     "mcp_buyer_router_template_repo": {
       "description": "Open or generate the public MCP buyer router template repo, then route purchase-ready buyers to the main $203 team request.",
@@ -125,7 +125,7 @@
   "mcp_server": "https://ivelly42.github.io/agent-ops-command-center/mcp-server.md",
   "mcp_server_manifest": "https://ivelly42.github.io/agent-ops-command-center/.well-known/mcp-server.json",
   "mcp_server_manifest_alias": "https://ivelly42.github.io/agent-ops-command-center/mcp-server.json",
-  "mcp_stdio_command": "npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.139-preview/agent-ops-command-center-0.5.139.tgz -- agent-ops-mcp-server",
+  "mcp_stdio_command": "npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.140-preview/agent-ops-command-center-0.5.140.tgz -- agent-ops-mcp-server",
   "alternate_urls": [
     "https://ivelly42.github.io/agent-ops-command-center/mcp-server.md",
     "https://ivelly42.github.io/agent-ops-command-center/.well-known/mcp-server.json",

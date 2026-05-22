@@ -18,7 +18,7 @@ The config registers the `agent-ops-command-center` stdio MCP server:
       "args": [
         "exec",
         "--yes",
-        "--package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.139-preview/agent-ops-command-center-0.5.139.tgz",
+        "--package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.140-preview/agent-ops-command-center-0.5.140.tgz",
         "--",
         "agent-ops-mcp-server"
       ],

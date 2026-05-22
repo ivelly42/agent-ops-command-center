@@ -61,6 +61,11 @@ const links = {
   mcpServerManifest: "https://ivelly42.github.io/agent-ops-command-center/.well-known/mcp-server.json",
   mcpClientConfig: "https://ivelly42.github.io/agent-ops-command-center/.mcp.json",
   mcpClientConfigAlias: "https://ivelly42.github.io/agent-ops-command-center/mcp-client-config.json",
+  mcpBuyerRouterTemplateRepo: "https://github.com/ivelly42/ai-agent-mcp-buyer-router-template",
+  mcpBuyerRouterTemplatePages: "https://ivelly42.github.io/ai-agent-mcp-buyer-router-template/",
+  mcpBuyerRouterTemplateConfig: "https://ivelly42.github.io/ai-agent-mcp-buyer-router-template/.mcp.json",
+  mcpBuyerRouterTemplateMetadata: "https://ivelly42.github.io/ai-agent-mcp-buyer-router-template/agent-ops-mcp-router.json",
+  mcpBuyerRouterTemplateGenerate: "https://github.com/ivelly42/ai-agent-mcp-buyer-router-template/generate",
   junieGuidelines: "https://ivelly42.github.io/agent-ops-command-center/.junie/guidelines.md",
   junieGuidelinesAlias: "https://ivelly42.github.io/agent-ops-command-center/junie-guidelines.md",
   catalog: "https://ivelly42.github.io/agent-ops-command-center/catalog.json",
@@ -91,7 +96,7 @@ const links = {
   paymentReadyNpmAutoreplyDiscussion: "https://github.com/ivelly42/agent-ops-command-center/discussions/10",
   clineWorkflowDiscussion: "https://github.com/ivelly42/agent-ops-command-center/discussions/12",
   release: "https://github.com/ivelly42/agent-ops-command-center/releases/latest",
-  npmReleaseTarball: "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.139-preview/agent-ops-command-center-0.5.139.tgz"
+  npmReleaseTarball: "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.140-preview/agent-ops-command-center-0.5.140.tgz"
 };
 
 const payload = {
@@ -193,6 +198,11 @@ ${payload.commands.mcp_stdio_server}
 
 Project MCP config:
 ${links.mcpClientConfig}
+
+MCP buyer router template:
+${links.mcpBuyerRouterTemplatePages}
+${links.mcpBuyerRouterTemplateConfig}
+${links.mcpBuyerRouterTemplateGenerate}
 
 Buyer commands:
 ${payload.commands.team_request_url}

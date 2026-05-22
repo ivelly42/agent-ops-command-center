@@ -127,7 +127,7 @@
   "mcp_server": "https://ivelly42.github.io/agent-ops-command-center/mcp-server.md",
   "mcp_server_manifest": "https://ivelly42.github.io/agent-ops-command-center/.well-known/mcp-server.json",
   "mcp_server_manifest_alias": "https://ivelly42.github.io/agent-ops-command-center/mcp-server.json",
-  "mcp_stdio_command": "npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.139-preview/agent-ops-command-center-0.5.139.tgz -- agent-ops-mcp-server",
+  "mcp_stdio_command": "npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.140-preview/agent-ops-command-center-0.5.140.tgz -- agent-ops-mcp-server",
   "mcp_client_config": "https://ivelly42.github.io/agent-ops-command-center/.mcp.json",
   "mcp_client_config_alias": "https://ivelly42.github.io/agent-ops-command-center/mcp-client-config.json",
   "mcp_client_config_guide": "https://ivelly42.github.io/agent-ops-command-center/mcp-client-config.md",
