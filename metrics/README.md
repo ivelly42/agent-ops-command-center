@@ -6,7 +6,7 @@ Current status:
 - Individual order intents: `0`
 - Team license order intents: `8`
 - Preview-only intents: `0`
-- Unlabeled order intents: `2`
+- Unlabeled order intents: `3`
 - Revenue proof issues: `0`
 - Confirmed revenue proof issues: `0`
 - Preview downloads: `0`
@@ -20,6 +20,6 @@ Current status:
 - Checkout live: `false`
 - Revenue proof required: `checkout, receipt, payout, or seller-dashboard evidence`
 - Status: `orders pending checkout`
-- Updated: `2026-05-22T03:02:15.523Z`
+- Updated: `2026-05-22T03:02:25.952Z`
 
 This repo cannot prove paid revenue until an authenticated checkout or seller dashboard exists.
