@@ -140,6 +140,7 @@ jobs:
             ai-agent-procurement-template \
             ai-agent-expense-report-template \
             ai-agent-security-review-template \
+            ai-agent-purchase-justification-template \
             ai-agent-software-purchase-request-template \
             ai-agent-vendor-onboarding-template \
             ai-agent-invoice-request-template \
