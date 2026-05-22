@@ -131,3 +131,23 @@ jobs:
           JSON
 
           submit_payload indexnow-mirror-payload.json indexnow-mirror-response.json
+
+          for mirror in \
+            ai-agent-software-purchase-request-template \
+            ai-agent-vendor-onboarding-template \
+            ai-agent-invoice-request-template \
+            ai-agent-purchase-order-template
+          do
+            cat > "indexnow-${mirror}.json" <<JSON
+          {
+            "host": "ivelly42.github.io",
+            "key": "b18a9177af0e03eb7a80a5ace792472641b328df9a607f1f55db81b7098e5656",
+            "keyLocation": "https://ivelly42.github.io/${mirror}/b18a9177af0e03eb7a80a5ace792472641b328df9a607f1f55db81b7098e5656.txt",
+            "urlList": [
+              "https://ivelly42.github.io/${mirror}/",
+              "https://ivelly42.github.io/${mirror}/agent-ops-command-center.json"
+            ]
+          }
+          JSON
+            submit_payload "indexnow-${mirror}.json" "indexnow-${mirror}-response.json"
+          done
