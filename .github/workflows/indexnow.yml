@@ -145,6 +145,7 @@ jobs:
             ai-agent-vendor-evaluation-template \
             ai-agent-compliance-evidence-template \
             ai-agent-audit-checklist-template \
+            ai-agent-access-review-template \
             ai-agent-software-purchase-request-template \
             ai-agent-vendor-onboarding-template \
             ai-agent-invoice-request-template \
