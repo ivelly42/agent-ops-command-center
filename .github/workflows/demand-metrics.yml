@@ -106,6 +106,10 @@ jobs:
               .reduce((sum, asset) => sum + asset.download_count, 0);
             const totalReleaseDownloads = releaseAssets
               .reduce((sum, asset) => sum + asset.download_count, 0);
+            const repoInfo = await github.rest.repos.get({ owner, repo });
+            const repositoryStars = repoInfo.data.stargazers_count || 0;
+            const repositoryForks = repoInfo.data.forks_count || 0;
+            const repositoryWatchers = repoInfo.data.subscribers_count || 0;
 
             const orders = issues.length;
             const teamOrders = issues.filter((issue) => {
@@ -152,6 +156,9 @@ jobs:
               preview_downloads: previewDownloads,
               release_tarball_downloads: releaseTarballDownloads,
               total_release_downloads: totalReleaseDownloads,
+              repository_stars: repositoryStars,
+              repository_forks: repositoryForks,
+              repository_watchers: repositoryWatchers,
               possible_gross_if_all_orders_paid_usd: possibleGross,
               gross_revenue_usd: Number(grossRevenue.toFixed(2)),
               target_revenue_usd: target,
@@ -183,6 +190,9 @@ jobs:
               `- Preview downloads: \`${metrics.preview_downloads}\``,
               `- Release tarball downloads: \`${metrics.release_tarball_downloads}\``,
               `- Total release downloads: \`${metrics.total_release_downloads}\``,
+              `- Repository stars: \`${metrics.repository_stars}\``,
+              `- Repository forks: \`${metrics.repository_forks}\``,
+              `- Repository watchers: \`${metrics.repository_watchers}\``,
               `- Possible gross if all order requests pay: \`$${metrics.possible_gross_if_all_orders_paid_usd}\``,
               `- Gross revenue proven: \`$${metrics.gross_revenue_usd}\``,
               `- Target revenue: \`$${metrics.target_revenue_usd}\``,

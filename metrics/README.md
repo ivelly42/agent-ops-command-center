@@ -12,6 +12,9 @@ Current status:
 - Preview downloads: `0`
 - Release tarball downloads: `6`
 - Total release downloads: `6`
+- Repository stars: `0`
+- Repository forks: `1`
+- Repository watchers: `0`
 - Possible gross if all order requests pay: `$0`
 - Gross revenue proven: `$0`
 - Target revenue: `$200`
