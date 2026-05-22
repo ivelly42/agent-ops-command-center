@@ -23,5 +23,5 @@
   "revenue_proof_required": "checkout, receipt, payout, or seller-dashboard evidence",
   "revenue_counting_rule": "gross revenue counts only from revenue-proof issues that include a positive amount, the required confirmation text, and the revenue-confirmed label",
   "status": "no paid checkout",
-  "updated_at": "2026-05-22T07:54:07.850Z"
+  "updated_at": "2026-05-22T10:24:38.074Z"
 }
