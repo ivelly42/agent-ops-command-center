@@ -10,6 +10,8 @@ Current status:
 - Revenue proof issues: `0`
 - Confirmed revenue proof issues: `0`
 - Preview downloads: `0`
+- Release tarball downloads: `5`
+- Total release downloads: `5`
 - Possible gross if all order requests pay: `$0`
 - Gross revenue proven: `$0`
 - Target revenue: `$200`
@@ -20,6 +22,6 @@ Current status:
 - Checkout live: `false`
 - Revenue proof required: `checkout, receipt, payout, or seller-dashboard evidence`
 - Status: `no paid checkout`
-- Updated: `2026-05-22T03:06:08.695Z`
+- Updated: `2026-05-22T03:21:26.183Z`
 
 This repo cannot prove paid revenue until an authenticated checkout or seller dashboard exists.

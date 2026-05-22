@@ -7,6 +7,8 @@
   "revenue_proof_issues": 0,
   "confirmed_revenue_proof_issues": 0,
   "preview_downloads": 0,
+  "release_tarball_downloads": 5,
+  "total_release_downloads": 5,
   "possible_gross_if_all_orders_paid_usd": 0,
   "gross_revenue_usd": 0,
   "target_revenue_usd": 200,
@@ -17,5 +19,5 @@
   "checkout_live": false,
   "revenue_proof_required": "checkout, receipt, payout, or seller-dashboard evidence",
   "status": "no paid checkout",
-  "updated_at": "2026-05-22T03:06:08.695Z"
+  "updated_at": "2026-05-22T03:21:26.183Z"
 }
