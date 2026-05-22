@@ -42,10 +42,10 @@ jobs:
             if (isDispatch && inputs.mock_prefilled_team_request === "true") {
               issue = {
                 number: 0,
-                title: "Fast team checkout request: Agent Ops Command Center",
+                title: "Primary team request: Agent Ops Command Center",
                 labels: [],
                 body: [
-                  "Fast team checkout request: Agent Ops Command Center",
+                  "Primary team request: Agent Ops Command Center",
                   "",
                   "Request package: Team license - 7 seats - $203 gross",
                   "Purchase intent: Ready to pay $203 for the team license when checkout is ready",
@@ -106,6 +106,7 @@ jobs:
               "Vendor onboarding request: Agent Ops Command Center",
               "Security review request: Agent Ops Command Center",
               "Delivery acceptance request: Agent Ops Command Center",
+              "Primary team request: Agent Ops Command Center",
               "Payment-ready request: Agent Ops Command Center",
               "Request package: Team license - 7 seats - $203 gross"
             ].some((needle) => text.includes(needle));
@@ -178,7 +179,9 @@ jobs:
               "",
               "**Next buyer-ready paths**",
               "",
-              "- Payment-ready request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml",
+              "- Primary team request: https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
+              "- Checkout status: https://ivelly42.github.io/agent-ops-command-center/checkout-status.json",
+              "- Payment-ready fallback: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml",
               "- Invoice request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=invoice-request.yml",
               "- Purchase order request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=purchase-order.yml",
               "- Delivery acceptance request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=delivery-acceptance.yml",

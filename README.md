@@ -47,7 +47,9 @@ Public site: https://ivelly42.github.io/agent-ops-command-center/
 
 Buy page: [buy.html](buy.html)
 
-Payment-ready request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml
+Primary team request: https://ivelly42.github.io/agent-ops-command-center/team-request-url.html
+
+Payment-ready fallback: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml
 
 GitHub issue chooser primary team request: https://github.com/ivelly42/agent-ops-command-center/issues/new/choose
 
@@ -452,7 +454,9 @@ Buyer reply kit: [buyer-reply-kit.html](buyer-reply-kit.html)
 
 Pricing: [pricing.html](pricing.html)
 
-Early access payment-ready request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml
+Early access primary team request: https://ivelly42.github.io/agent-ops-command-center/team-request-url.html
+
+Payment-ready fallback: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml
 
 Support: [SUPPORT.md](SUPPORT.md)
 

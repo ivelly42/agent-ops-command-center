@@ -117,7 +117,9 @@ Revenue proof autoreply: https://ivelly42.github.io/agent-ops-command-center/rev
 
 Buy page: https://ivelly42.github.io/agent-ops-command-center/buy.html
 
-Payment-ready request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml
+Primary team request: https://ivelly42.github.io/agent-ops-command-center/team-request-url.html
+
+Payment-ready fallback: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml
 
 GitHub issue chooser primary team request: https://github.com/ivelly42/agent-ops-command-center/issues/new/choose
 
@@ -814,7 +816,9 @@ Preview index: https://ivelly42.github.io/agent-ops-command-center/github-previe
 
 GitHub issue index: https://github.com/ivelly42/agent-ops-command-center/issues/2
 
-Early access payment-ready request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml
+Early access primary team request: https://ivelly42.github.io/agent-ops-command-center/team-request-url.html
+
+Payment-ready fallback: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml
 
 Fast template pack request: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=template-pack-request.yml
 
