@@ -16,13 +16,45 @@ const links = {
   mcpBuyerRouterTemplateConfig: "https://ivelly42.github.io/ai-agent-mcp-buyer-router-template/.mcp.json",
   mcpBuyerRouterTemplateMetadata: "https://ivelly42.github.io/ai-agent-mcp-buyer-router-template/agent-ops-mcp-router.json",
   mcpBuyerRouterTemplateGenerate: "https://github.com/ivelly42/ai-agent-mcp-buyer-router-template/generate",
-  releaseTarball: "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.141-preview/agent-ops-command-center-0.5.141.tgz"
+  releaseTarball: "https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.142-preview/agent-ops-command-center-0.5.142.tgz"
 };
 
 const revenueRule = [
   "Count revenue only after checkout, receipt, payout, or seller-dashboard evidence proves payment.",
   "Do not count MCP tool calls, generated request URLs, issues, discussions, metadata fetches, release downloads, npm runs, funding clicks, stars, forks, or page views as revenue."
 ].join(" ");
+
+const teamRequestTitle = "Primary team request: Agent Ops Command Center";
+const teamRequestBody = [
+  "Primary team request: Agent Ops Command Center",
+  "",
+  "Request package: Team license - 7 seats - $203 gross",
+  "Purchase intent: Ready to pay $203 for the team license when checkout is ready",
+  "Preferred checkout: Receipt-capable checkout",
+  "Receipt need: Receipt needed after payment",
+  "Current blocker: Waiting for checkout link",
+  "",
+  "Buyer/team:",
+  "- Seven-seat AI-agent operator team",
+  "",
+  "Agent tools:",
+  "- Codex",
+  "- Claude Code",
+  "- Cursor",
+  "- Local AI coding agents",
+  "",
+  "Preview inspected:",
+  "- Buy page: https://ivelly42.github.io/agent-ops-command-center/buy.html",
+  "- Team license: https://ivelly42.github.io/agent-ops-command-center/team-license.html",
+  "- Team purchase packet: https://ivelly42.github.io/agent-ops-command-center/team-purchase-packet.html",
+  "- Pricing: https://ivelly42.github.io/agent-ops-command-center/pricing.html",
+  "- Catalog: https://ivelly42.github.io/agent-ops-command-center/catalog.json",
+  "",
+  "Acknowledgement:",
+  "- I understand this issue is purchase intent only.",
+  "- I understand the private paid ZIP should be delivered only after checkout, receipt, payout, or seller-dashboard proof exists.",
+  "- I understand gross revenue is counted only when payment proof exists."
+].join("\n");
 
 const tools = [
   {
@@ -39,6 +71,16 @@ const tools = [
     name: "get_team_request",
     title: "Get Team License Request",
     description: "Return the $203 team-license request route and fallback payment-ready issue route.",
+    inputSchema: {
+      type: "object",
+      properties: {},
+      additionalProperties: false
+    }
+  },
+  {
+    name: "get_team_request_markdown",
+    title: "Get Team Request Markdown",
+    description: "Return copy-ready Markdown for a $203 team-license request issue. This is purchase intent only, not revenue proof.",
     inputSchema: {
       type: "object",
       properties: {},
@@ -79,6 +121,12 @@ const resources = [
     name: "Agent Ops team request",
     description: "$203 team-license request route and fallback payment-ready route.",
     mimeType: "application/json"
+  },
+  {
+    uri: "agent-ops://team-request-markdown",
+    name: "Agent Ops team request Markdown",
+    description: "Copy-ready $203 team-license request issue body. Purchase intent only.",
+    mimeType: "text/markdown"
   },
   {
     uri: "agent-ops://mcp-buyer-router-template",
@@ -131,8 +179,20 @@ const teamRequestPayload = () => ({
   fallback_payment_ready_issue: links.paymentReady,
   buy_page: links.buy,
   release_tarball: links.releaseTarball,
+  request_markdown_resource: "agent-ops://team-request-markdown",
   revenue_rule: revenueRule
 });
+
+const teamRequestMarkdown = () => [
+  `# ${teamRequestTitle}`,
+  "",
+  teamRequestBody,
+  "",
+  `Primary request page: ${links.teamRequest}`,
+  `Fallback payment-ready issue: ${links.paymentReady}`,
+  "",
+  `Revenue rule: ${revenueRule}`
+].join("\n");
 
 const mcpBuyerRouterTemplatePayload = () => ({
   name: "Agent Ops MCP Buyer Router Template",
@@ -185,6 +245,9 @@ const handleRequest = async (message) => {
     if (name === "get_team_request") {
       return { jsonrpc: "2.0", id, result: textContent(teamRequestPayload()) };
     }
+    if (name === "get_team_request_markdown") {
+      return { jsonrpc: "2.0", id, result: textContent(teamRequestMarkdown()) };
+    }
     if (name === "get_mcp_buyer_router_template") {
       return { jsonrpc: "2.0", id, result: textContent(mcpBuyerRouterTemplatePayload()) };
     }
@@ -208,9 +271,11 @@ const handleRequest = async (message) => {
       ? await checkoutPayload()
       : uri === "agent-ops://team-request"
         ? teamRequestPayload()
-        : uri === "agent-ops://mcp-buyer-router-template"
-          ? mcpBuyerRouterTemplatePayload()
-          : null;
+        : uri === "agent-ops://team-request-markdown"
+          ? teamRequestMarkdown()
+          : uri === "agent-ops://mcp-buyer-router-template"
+            ? mcpBuyerRouterTemplatePayload()
+            : null;
 
     if (!payload) {
       return {
@@ -227,8 +292,8 @@ const handleRequest = async (message) => {
         contents: [
           {
             uri,
-            mimeType: "application/json",
-            text: JSON.stringify(payload, null, 2)
+            mimeType: typeof payload === "string" ? "text/markdown" : "application/json",
+            text: typeof payload === "string" ? payload : JSON.stringify(payload, null, 2)
           }
         ]
       }

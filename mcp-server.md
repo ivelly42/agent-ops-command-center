@@ -5,13 +5,14 @@ Public stdio MCP server for Agent Ops Command Center buyer routing.
 Run from the release tarball:
 
 ```sh
-npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.141-preview/agent-ops-command-center-0.5.141.tgz -- agent-ops-mcp-server
+npm exec --yes --package=https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.142-preview/agent-ops-command-center-0.5.142.tgz -- agent-ops-mcp-server
 ```
 
 Tools:
 
 - `get_checkout_status`: returns checkout status, metrics, and the proof boundary.
 - `get_team_request`: returns the $203 team-license request route and fallback payment-ready issue.
+- `get_team_request_markdown`: returns copy-ready Markdown for a $203 team-license request issue.
 - `get_mcp_buyer_router_template`: returns the public template repo, Pages metadata, project MCP config, and template generation URL.
 - `get_revenue_rule`: returns the revenue counting rule.
 
@@ -19,6 +20,7 @@ Resources:
 
 - `agent-ops://checkout-status`
 - `agent-ops://team-request`
+- `agent-ops://team-request-markdown`
 - `agent-ops://mcp-buyer-router-template`
 
 Revenue rule: MCP calls, metadata reads, generated request URLs, issues, discussions, release downloads, npm runs, stars, forks, and page views are not revenue. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence.

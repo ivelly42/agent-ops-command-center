@@ -84,7 +84,7 @@ Submitted surfaces:
 - Feed: https://ivelly42.github.io/agent-ops-command-center/feed.xml
 - Preview index: https://ivelly42.github.io/agent-ops-command-center/github-preview-index.md
 - NPM preview docs: https://ivelly42.github.io/agent-ops-command-center/npm-preview.md
-- NPM release tarball: https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.141-preview/agent-ops-command-center-0.5.141.tgz
+- NPM release tarball: https://github.com/ivelly42/agent-ops-command-center/releases/download/v5.142-preview/agent-ops-command-center-0.5.142.tgz
 - Order autoreply docs: https://ivelly42.github.io/agent-ops-command-center/order-autoreply.md
 - Discussion autoreply docs: https://ivelly42.github.io/agent-ops-command-center/discussion-autoreply.md
 - Revenue proof autoreply docs: https://ivelly42.github.io/agent-ops-command-center/revenue-proof-autoreply.md
