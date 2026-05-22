@@ -134,6 +134,7 @@ jobs:
 
           for mirror in \
             ai-agent-npx-team-request-template \
+            ai-agent-team-license-quote-template \
             ai-agent-software-purchase-request-template \
             ai-agent-vendor-onboarding-template \
             ai-agent-invoice-request-template \
