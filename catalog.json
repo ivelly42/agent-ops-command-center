@@ -2006,5 +2006,20 @@
   "mcp_buyer_router_template_repo": "https://github.com/ivelly42/ai-agent-mcp-buyer-router-template",
   "mcp_buyer_router_template_pages": "https://ivelly42.github.io/ai-agent-mcp-buyer-router-template/",
   "mcp_buyer_router_template_generate": "https://github.com/ivelly42/ai-agent-mcp-buyer-router-template/generate",
-  "mcp_buyer_router_template_config": "https://ivelly42.github.io/ai-agent-mcp-buyer-router-template/.mcp.json"
+  "mcp_buyer_router_template_config": "https://ivelly42.github.io/ai-agent-mcp-buyer-router-template/.mcp.json",
+  "demand_metrics_automation": {
+    "updated_at_kst": "2026-05-22 13:02",
+    "workflow": "https://github.com/ivelly42/agent-ops-command-center/blob/main/.github/workflows/demand-metrics.yml",
+    "metrics_url": "https://ivelly42.github.io/agent-ops-command-center/metrics/status.json",
+    "schedule": "every 4 hours plus workflow_dispatch, issue, and release events",
+    "tracked_signals": [
+      "order intent issues",
+      "team-license request issues",
+      "revenue-proof issues",
+      "confirmed revenue-proof amount",
+      "preview release downloads",
+      "release tarball downloads"
+    ],
+    "revenue_rule": "Metrics automation is not revenue. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence."
+  }
 }

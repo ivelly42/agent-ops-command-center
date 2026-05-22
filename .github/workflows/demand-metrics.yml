@@ -3,7 +3,7 @@ name: Demand metrics
 on:
   workflow_dispatch:
   schedule:
-    - cron: "17 3 * * *"
+    - cron: "17 */4 * * *"
   issues:
     types: [opened, edited, reopened, labeled, unlabeled, closed]
   release:
@@ -192,6 +192,7 @@ jobs:
               `- Revenue proof required: \`${metrics.revenue_proof_required}\``,
               `- Status: \`${metrics.status}\``,
               `- Updated: \`${metrics.updated_at}\``,
+              `- Auto-refresh cadence: \`every 4 hours, plus issue/release/workflow events\``,
               "",
               "This repo cannot prove paid revenue until an authenticated checkout or seller dashboard exists.",
               ""
