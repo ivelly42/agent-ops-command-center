@@ -97,9 +97,14 @@ jobs:
               per_page: 20
             });
 
-            const previewDownloads = releases.data
-              .flatMap((release) => release.assets || [])
+            const releaseAssets = releases.data.flatMap((release) => release.assets || []);
+            const previewDownloads = releaseAssets
               .filter((asset) => asset.name.includes("preview"))
+              .reduce((sum, asset) => sum + asset.download_count, 0);
+            const releaseTarballDownloads = releaseAssets
+              .filter((asset) => asset.name.endsWith(".tgz"))
+              .reduce((sum, asset) => sum + asset.download_count, 0);
+            const totalReleaseDownloads = releaseAssets
               .reduce((sum, asset) => sum + asset.download_count, 0);
 
             const orders = issues.length;
@@ -144,6 +149,8 @@ jobs:
               revenue_proof_issues: revenueProofIssues.length,
               confirmed_revenue_proof_issues: confirmedRevenueProofs.length,
               preview_downloads: previewDownloads,
+              release_tarball_downloads: releaseTarballDownloads,
+              total_release_downloads: totalReleaseDownloads,
               possible_gross_if_all_orders_paid_usd: possibleGross,
               gross_revenue_usd: Number(grossRevenue.toFixed(2)),
               target_revenue_usd: target,
@@ -172,6 +179,8 @@ jobs:
               `- Revenue proof issues: \`${metrics.revenue_proof_issues}\``,
               `- Confirmed revenue proof issues: \`${metrics.confirmed_revenue_proof_issues}\``,
               `- Preview downloads: \`${metrics.preview_downloads}\``,
+              `- Release tarball downloads: \`${metrics.release_tarball_downloads}\``,
+              `- Total release downloads: \`${metrics.total_release_downloads}\``,
               `- Possible gross if all order requests pay: \`$${metrics.possible_gross_if_all_orders_paid_usd}\``,
               `- Gross revenue proven: \`$${metrics.gross_revenue_usd}\``,
               `- Target revenue: \`$${metrics.target_revenue_usd}\``,
