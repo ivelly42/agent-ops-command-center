@@ -2,7 +2,7 @@
   "name": "Agent Ops Command Center",
   "type": "checkout_status_manifest",
   "schema_version": "2026-05-22",
-  "updated_at_kst": "2026-05-22 08:57",
+  "updated_at_kst": "2026-05-22 12:55",
   "canonical_url": "https://ivelly42.github.io/agent-ops-command-center/.well-known/checkout-status.json",
   "alternate_urls": [
     "https://ivelly42.github.io/agent-ops-command-center/checkout-status.json",
@@ -47,9 +47,24 @@
   ],
   "seller_channel_checks": {
     "github_sponsors": {
-      "checked_at_kst": "2026-05-22 07:52",
+      "checked_at_kst": "2026-05-22 12:55",
       "live": false,
-      "observation": "https://github.com/sponsors/ivelly42 redirected to https://github.com/ivelly42, so no active GitHub Sponsors checkout was detected."
+      "observation": "GitHub GraphQL user.sponsorsListing returned null and https://github.com/sponsors/ivelly42 redirects to https://github.com/ivelly42, so no active GitHub Sponsors checkout was detected."
+    },
+    "paypal_me_ivelly42": {
+      "checked_at_kst": "2026-05-22 12:55",
+      "live": false,
+      "observation": "Headless browser render of https://paypal.me/ivelly42 showed PayPal profile-not-found copy, so this is not a usable payment link."
+    },
+    "public_payment_handles": {
+      "checked_at_kst": "2026-05-22 12:55",
+      "live": false,
+      "observation": "Ko-fi returned a blocked generic page, Buy Me a Coffee returned 404, Polar returned 404, and no reusable product checkout link was found."
+    },
+    "payment_provider_environment_tokens": {
+      "checked_at_kst": "2026-05-22 12:55",
+      "live": false,
+      "observation": "Environment variable names contain no visible Stripe, Gumroad, PayPal, Ko-fi, Lemon Squeezy, Polar, Paddle, payment, checkout, merchant, seller, or revenue token names."
     }
   },
   "fulfillment": {
@@ -86,7 +101,7 @@
   "buyer_next_action": {
     "route": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
     "fallback": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml",
-    "instruction": "Open the team request or payment-ready issue and specify the preferred receipt-capable checkout.",
+    "instruction": "Open the team request or payment-ready issue and specify the preferred receipt-capable checkout. Do not send money until a live checkout, receipt, payout, or seller-dashboard proof path exists.",
     "agent_skill": "https://ivelly42.github.io/agent-ops-command-center/.agents/skills/agent-ops-checkout/SKILL.md",
     "agent_md": "https://ivelly42.github.io/agent-ops-command-center/AGENT.md",
     "junie_guidelines": "https://ivelly42.github.io/agent-ops-command-center/.junie/guidelines.md",
@@ -134,5 +149,6 @@
   "mcp_buyer_router_template_repo": "https://github.com/ivelly42/ai-agent-mcp-buyer-router-template",
   "mcp_buyer_router_template_pages": "https://ivelly42.github.io/ai-agent-mcp-buyer-router-template/",
   "mcp_buyer_router_template_generate": "https://github.com/ivelly42/ai-agent-mcp-buyer-router-template/generate",
-  "mcp_buyer_router_template_config": "https://ivelly42.github.io/ai-agent-mcp-buyer-router-template/.mcp.json"
+  "mcp_buyer_router_template_config": "https://ivelly42.github.io/ai-agent-mcp-buyer-router-template/.mcp.json",
+  "payment_channel_blocker": "No usable no-intervention paid checkout is available in the current environment; seller/payment/payout setup requires account-holder action."
 }
