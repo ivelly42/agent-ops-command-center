@@ -69,6 +69,7 @@ jobs:
                 text.includes("Security review request: Agent Ops Command Center") ||
                 text.includes("Delivery acceptance request: Agent Ops Command Center") ||
                 text.includes("Payment-ready request: Agent Ops Command Center") ||
+                text.includes("Primary team request: Agent Ops Command Center") ||
                 text.includes("Fast team checkout request: Agent Ops Command Center") ||
                 text.includes("Invoice request packet: Agent Ops Command Center") ||
                 text.includes("Request package: Team license - 7 seats - $203 gross") ||
