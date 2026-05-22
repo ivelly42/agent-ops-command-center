@@ -137,6 +137,7 @@ jobs:
             ai-agent-team-license-quote-template \
             ai-agent-payment-ready-template \
             ai-agent-receipt-request-template \
+            ai-agent-procurement-template \
             ai-agent-software-purchase-request-template \
             ai-agent-vendor-onboarding-template \
             ai-agent-invoice-request-template \
