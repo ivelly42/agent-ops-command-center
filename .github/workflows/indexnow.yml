@@ -159,6 +159,7 @@ jobs:
             ai-agent-roi-calculator-template \
             ai-agent-verification-ledger-template \
             ai-agent-workflow-comparison-template \
+            ai-agent-ops-template-pack \
             ai-agent-software-purchase-request-template \
             ai-agent-vendor-onboarding-template \
             ai-agent-invoice-request-template \
