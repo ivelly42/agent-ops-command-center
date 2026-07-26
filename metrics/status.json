@@ -7,8 +7,8 @@
   "revenue_proof_issues": 0,
   "confirmed_revenue_proof_issues": 0,
   "preview_downloads": 0,
-  "release_tarball_downloads": 6,
-  "total_release_downloads": 6,
+  "release_tarball_downloads": 7,
+  "total_release_downloads": 7,
   "repository_stars": 0,
   "repository_forks": 0,
   "repository_watchers": 0,
@@ -23,5 +23,5 @@
   "revenue_proof_required": "checkout, receipt, payout, or seller-dashboard evidence",
   "revenue_counting_rule": "gross revenue counts only from revenue-proof issues that include a positive amount, the required confirmation text, and the revenue-confirmed label",
   "status": "no paid checkout",
-  "updated_at": "2026-07-26T03:55:56.791Z"
+  "updated_at": "2026-07-26T06:48:23.978Z"
 }

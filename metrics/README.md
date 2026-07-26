@@ -10,8 +10,8 @@ Current status:
 - Revenue proof issues: `0`
 - Confirmed revenue proof issues: `0`
 - Preview downloads: `0`
-- Release tarball downloads: `6`
-- Total release downloads: `6`
+- Release tarball downloads: `7`
+- Total release downloads: `7`
 - Repository stars: `0`
 - Repository forks: `0`
 - Repository watchers: `0`
@@ -26,7 +26,7 @@ Current status:
 - Revenue proof required: `checkout, receipt, payout, or seller-dashboard evidence`
 - Revenue counting rule: `gross revenue counts only from revenue-proof issues that include a positive amount, the required confirmation text, and the revenue-confirmed label`
 - Status: `no paid checkout`
-- Updated: `2026-07-26T03:55:56.791Z`
+- Updated: `2026-07-26T06:48:23.978Z`
 - Auto-refresh cadence: `every 4 hours, plus issue/release/workflow events`
 
 This repo cannot prove paid revenue until an authenticated checkout or seller dashboard exists.
