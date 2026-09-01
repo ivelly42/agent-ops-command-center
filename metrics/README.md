@@ -26,7 +26,7 @@ Current status:
 - Revenue proof required: `checkout, receipt, payout, or seller-dashboard evidence`
 - Revenue counting rule: `gross revenue counts only from revenue-proof issues that include a positive amount, the required confirmation text, and the revenue-confirmed label`
 - Status: `no paid checkout`
-- Updated: `2026-09-01T05:10:33.125Z`
+- Updated: `2026-09-01T13:30:02.432Z`
 - Auto-refresh cadence: `every 4 hours, plus issue/release/workflow events`
 
 This repo cannot prove paid revenue until an authenticated checkout or seller dashboard exists.
